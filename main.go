@@ -48,6 +48,23 @@ type LLMResponse struct {
 	Reasoning  string
 }
 
+// LLMCaller interface allows dependency injection for testing
+type LLMCaller interface {
+	CallGemini(prompt string) (string, error)
+	CallOllama(prompt string) (string, error)
+}
+
+// DefaultLLMCaller implements LLMCaller using the actual CLI tools
+type DefaultLLMCaller struct{}
+
+func (d DefaultLLMCaller) CallGemini(prompt string) (string, error) {
+	return CallGemini(prompt)
+}
+
+func (d DefaultLLMCaller) CallOllama(prompt string) (string, error) {
+	return CallOllama(prompt)
+}
+
 // Parse LLM response to extract Phelps code and confidence
 func parseLLMResponse(response string) LLMResponse {
 	lines := strings.Split(strings.TrimSpace(response), "\n")
@@ -321,31 +338,86 @@ func min(a, b int) int {
 
 // Call LLM (Gemini first, then Ollama fallback)
 func callLLM(prompt string, useGemini bool) (LLMResponse, error) {
+	return callLLMWithCaller(prompt, useGemini, DefaultLLMCaller{})
+}
+
+// callLLMWithCaller allows dependency injection for testing
+func callLLMWithCaller(prompt string, useGemini bool, caller LLMCaller) (LLMResponse, error) {
 	var response string
-	var err error
+	var geminiErr error
+	var ollamaErr error
+	var geminiResponse string
+	var ollamaResponse string
+	var triedGemini bool
+	var triedOllama bool
 
 	if useGemini {
-		response, err = CallGemini(prompt)
-		if err != nil {
-			log.Printf("Gemini call failed, falling back to Ollama: %v", err)
-			response, err = CallOllama(prompt)
+		triedGemini = true
+		response, geminiErr = caller.CallGemini(prompt)
+		if geminiErr != nil {
+			log.Printf("Gemini call failed with error, falling back to Ollama: %v", geminiErr)
+		} else {
+			geminiResponse = response
+			parsed := parseLLMResponse(response)
+			// Check if Gemini response is valid
+			if parsed.PhelpsCode != "" {
+				log.Printf("Gemini returned valid response")
+				return parsed, nil
+			}
+			log.Printf("Gemini returned empty/invalid response (PhelpsCode empty), falling back to Ollama")
+			log.Printf("Gemini raw response: %q", response)
 		}
+
+		// Try Ollama as fallback
+		triedOllama = true
+		response, ollamaErr = caller.CallOllama(prompt)
+		if ollamaErr != nil {
+			// Both failed with errors
+			return LLMResponse{}, fmt.Errorf("both LLM services failed - Gemini error: %v, Ollama error: %v", geminiErr, ollamaErr)
+		}
+		ollamaResponse = response
 	} else {
-		response, err = CallOllama(prompt)
+		triedOllama = true
+		response, ollamaErr = caller.CallOllama(prompt)
+		ollamaResponse = response
 	}
 
-	if err != nil {
-		return LLMResponse{}, fmt.Errorf("both LLM services failed - Gemini: %v, Ollama: %v", err, err)
+	if ollamaErr != nil {
+		if triedGemini {
+			return LLMResponse{}, fmt.Errorf("both LLM services failed - Gemini error: %v, Ollama error: %v", geminiErr, ollamaErr)
+		} else {
+			return LLMResponse{}, fmt.Errorf("Ollama failed: %v", ollamaErr)
+		}
 	}
 
 	parsed := parseLLMResponse(response)
 
-	// Validate response
+	// Validate final response
 	if parsed.PhelpsCode == "" {
+		var debugInfo strings.Builder
+		debugInfo.WriteString("All LLM services returned empty or invalid responses.\n")
+		if triedGemini {
+			debugInfo.WriteString(fmt.Sprintf("Gemini attempted: %v\n", geminiErr == nil))
+			if geminiErr != nil {
+				debugInfo.WriteString(fmt.Sprintf("Gemini error: %v\n", geminiErr))
+			} else {
+				debugInfo.WriteString(fmt.Sprintf("Gemini raw response: %q\n", geminiResponse))
+			}
+		}
+		if triedOllama {
+			debugInfo.WriteString(fmt.Sprintf("Ollama attempted: %v\n", ollamaErr == nil))
+			if ollamaErr != nil {
+				debugInfo.WriteString(fmt.Sprintf("Ollama error: %v\n", ollamaErr))
+			} else {
+				debugInfo.WriteString(fmt.Sprintf("Ollama raw response: %q\n", ollamaResponse))
+			}
+		}
+		debugInfo.WriteString(fmt.Sprintf("Prompt used: %q\n", prompt))
+
 		return LLMResponse{
 			PhelpsCode: "UNKNOWN",
 			Confidence: 0.0,
-			Reasoning:  "LLM returned empty or invalid response",
+			Reasoning:  fmt.Sprintf("LLM returned empty or invalid response. Debug info:\n%s", debugInfo.String()),
 		}, nil
 	}
 

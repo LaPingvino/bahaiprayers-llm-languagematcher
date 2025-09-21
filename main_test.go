@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 	"strings"
 	"testing"
@@ -462,5 +463,166 @@ func TestPrepareLLMHeaderWithReferenceLanguage(t *testing.T) {
 	}
 	if strings.Contains(header2, "Fire Tablet") {
 		t.Error("Should not use English names when es is reference language")
+	}
+}
+
+// MockLLMCaller for testing
+type MockLLMCaller struct {
+	GeminiResponse string
+	GeminiError    error
+	OllamaResponse string
+	OllamaError    error
+}
+
+func (m MockLLMCaller) CallGemini(prompt string) (string, error) {
+	return m.GeminiResponse, m.GeminiError
+}
+
+func (m MockLLMCaller) CallOllama(prompt string) (string, error) {
+	return m.OllamaResponse, m.OllamaError
+}
+
+func TestLLMFallbackLogic(t *testing.T) {
+
+	tests := []struct {
+		name               string
+		useGemini          bool
+		geminiResponse     string
+		geminiError        error
+		ollamaResponse     string
+		ollamaError        error
+		expectedPhelps     string
+		expectedConfidence float64
+		shouldContainDebug bool
+		errorExpected      bool
+	}{
+		{
+			name:               "Gemini success, no fallback needed",
+			useGemini:          true,
+			geminiResponse:     "Phelps: AB00001FIR\nConfidence: 85\nReasoning: Clear match",
+			geminiError:        nil,
+			expectedPhelps:     "AB00001FIR",
+			expectedConfidence: 0.85,
+			shouldContainDebug: false,
+			errorExpected:      false,
+		},
+		{
+			name:               "Gemini empty response, Ollama success",
+			useGemini:          true,
+			geminiResponse:     "Invalid response format\nNo Phelps code found",
+			geminiError:        nil,
+			ollamaResponse:     "Phelps: AB00032DAR\nConfidence: 70\nReasoning: Ollama fallback worked",
+			ollamaError:        nil,
+			expectedPhelps:     "AB00032DAR",
+			expectedConfidence: 0.70,
+			shouldContainDebug: false,
+			errorExpected:      false,
+		},
+		{
+			name:               "Gemini error, Ollama success",
+			useGemini:          true,
+			geminiResponse:     "",
+			geminiError:        fmt.Errorf("Gemini API error"),
+			ollamaResponse:     "Phelps: AB00044PRO\nConfidence: 75\nReasoning: Ollama worked after Gemini failed",
+			ollamaError:        nil,
+			expectedPhelps:     "AB00044PRO",
+			expectedConfidence: 0.75,
+			shouldContainDebug: false,
+			errorExpected:      false,
+		},
+		{
+			name:               "Both services return invalid responses",
+			useGemini:          true,
+			geminiResponse:     "Invalid format from Gemini",
+			geminiError:        nil,
+			ollamaResponse:     "Invalid format from Ollama",
+			ollamaError:        nil,
+			expectedPhelps:     "UNKNOWN",
+			expectedConfidence: 0.0,
+			shouldContainDebug: true,
+			errorExpected:      false,
+		},
+		{
+			name:               "Both services fail with errors",
+			useGemini:          true,
+			geminiResponse:     "",
+			geminiError:        fmt.Errorf("Gemini connection error"),
+			ollamaResponse:     "",
+			ollamaError:        fmt.Errorf("Ollama not available"),
+			expectedPhelps:     "",
+			expectedConfidence: 0.0,
+			shouldContainDebug: false,
+			errorExpected:      true,
+		},
+		{
+			name:               "Ollama only mode success",
+			useGemini:          false,
+			ollamaResponse:     "Phelps: AB00001FIR\nConfidence: 80\nReasoning: Direct Ollama call",
+			ollamaError:        nil,
+			expectedPhelps:     "AB00001FIR",
+			expectedConfidence: 0.80,
+			shouldContainDebug: false,
+			errorExpected:      false,
+		},
+		{
+			name:               "Ollama only mode failure",
+			useGemini:          false,
+			ollamaResponse:     "",
+			ollamaError:        fmt.Errorf("Ollama service down"),
+			expectedPhelps:     "",
+			expectedConfidence: 0.0,
+			shouldContainDebug: false,
+			errorExpected:      true,
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			// Create mock caller
+			mockCaller := MockLLMCaller{
+				GeminiResponse: tt.geminiResponse,
+				GeminiError:    tt.geminiError,
+				OllamaResponse: tt.ollamaResponse,
+				OllamaError:    tt.ollamaError,
+			}
+
+			// Call the function under test
+			result, err := callLLMWithCaller("test prompt", tt.useGemini, mockCaller)
+
+			// Check error expectation
+			if tt.errorExpected && err == nil {
+				t.Error("Expected an error but got none")
+				return
+			}
+			if !tt.errorExpected && err != nil {
+				t.Errorf("Did not expect an error but got: %v", err)
+				return
+			}
+
+			// Skip further checks if error was expected
+			if tt.errorExpected {
+				return
+			}
+
+			// Check Phelps code
+			if result.PhelpsCode != tt.expectedPhelps {
+				t.Errorf("Expected PhelpsCode %s, got %s", tt.expectedPhelps, result.PhelpsCode)
+			}
+
+			// Check confidence
+			if result.Confidence != tt.expectedConfidence {
+				t.Errorf("Expected Confidence %f, got %f", tt.expectedConfidence, result.Confidence)
+			}
+
+			// Check debug info presence
+			if tt.shouldContainDebug {
+				if !strings.Contains(result.Reasoning, "Debug info:") {
+					t.Error("Expected debug info in reasoning but not found")
+				}
+				if !strings.Contains(result.Reasoning, "Prompt used:") {
+					t.Error("Expected prompt info in debug output")
+				}
+			}
+		})
 	}
 }
