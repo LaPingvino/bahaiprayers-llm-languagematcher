@@ -389,7 +389,7 @@ func TestFindOptimalDefaultLanguage(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			db := Database{Writing: tt.writings}
-			result := findOptimalDefaultLanguage(db)
+			result := findOptimalDefaultLanguage(db, false)
 			if result != tt.expected {
 				t.Errorf("Expected %s, got %s", tt.expected, result)
 			}
@@ -637,6 +637,395 @@ func TestLLMFallbackLogic(t *testing.T) {
 				}
 			}
 
+		})
+	}
+}
+
+func TestExtractAllFunctionCalls(t *testing.T) {
+	tests := []struct {
+		name            string
+		text            string
+		expectedValid   []string
+		expectedInvalid int
+	}{
+		{
+			name: "Standard format function calls",
+			text: `SEARCH_KEYWORDS:lord,god,assist
+SEARCH_LENGTH:50-150
+SEARCH_OPENING:O Lord my God
+GET_FULL_TEXT:AB00001FIR
+GET_PARTIAL_TEXT:AB00001FIR,100-500
+FINAL_ANSWER:AB00001FIR,85,This prayer matches based on distinctive phrases
+GET_STATS`,
+			expectedValid: []string{
+				"SEARCH_KEYWORDS:lord,god,assist",
+				"SEARCH_LENGTH:50-150",
+				"SEARCH_OPENING:O Lord my God",
+				"GET_FULL_TEXT:AB00001FIR",
+				"GET_PARTIAL_TEXT:AB00001FIR,100-500",
+				"FINAL_ANSWER:AB00001FIR,85,This prayer matches based on distinctive phrases",
+				"GET_STATS",
+			},
+			expectedInvalid: 0,
+		},
+		{
+			name: "Tool calls JSON format",
+			text: `{"tool_calls":[{"function":{"name":"SEARCH_KEYWORDS","arguments":{"arguments":"lord,god,assist","name":"SEARCH_KEYWORDS"}}}]}`,
+			expectedValid: []string{
+				"SEARCH_KEYWORDS:lord,god,assist",
+			},
+			expectedInvalid: 0,
+		},
+		{
+			name: "Multiple tool calls JSON format",
+			text: `{"tool_calls":[{"function":{"name":"SEARCH_KEYWORDS","arguments":{"arguments":"lord,god,assist","name":"SEARCH_KEYWORDS"}}},{"function":{"name":"SEARCH_LENGTH","arguments":{"arguments":"50-150","name":"SEARCH_LENGTH"}}}]}`,
+			expectedValid: []string{
+				"SEARCH_KEYWORDS:lord,god,assist",
+				"SEARCH_LENGTH:50-150",
+			},
+			expectedInvalid: 0,
+		},
+		{
+			name: "Mixed content with tool calls",
+			text: `I need to search for this prayer. Let me use the search function.
+
+{"tool_calls":[{"function":{"name":"SEARCH_KEYWORDS","arguments":{"arguments":"merciful,compassionate,forgiveness","name":"SEARCH_KEYWORDS"}}}]}
+
+This should help find the prayer.`,
+			expectedValid: []string{
+				"SEARCH_KEYWORDS:merciful,compassionate,forgiveness",
+			},
+			expectedInvalid: 0,
+		},
+		{
+			name: "Malformed function calls",
+			text: `SEARCH_KEYWORDS(lord,god,assist)
+This is a SEARCH_KEYWORDS call but wrong format
+SEARCH_LENGTH without colon`,
+			expectedValid:   []string{},
+			expectedInvalid: 3,
+		},
+		{
+			name:            "Empty response",
+			text:            "",
+			expectedValid:   []string{},
+			expectedInvalid: 0,
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			validCalls, invalidCalls := extractAllFunctionCalls(tt.text)
+
+			if len(validCalls) != len(tt.expectedValid) {
+				t.Errorf("Expected %d valid calls, got %d", len(tt.expectedValid), len(validCalls))
+			}
+
+			for i, expected := range tt.expectedValid {
+				if i >= len(validCalls) || validCalls[i] != expected {
+					t.Errorf("Expected valid call %d to be %q, got %q", i, expected, validCalls[i])
+				}
+			}
+
+			if len(invalidCalls) != tt.expectedInvalid {
+				t.Errorf("Expected %d invalid calls, got %d", tt.expectedInvalid, len(invalidCalls))
+			}
+		})
+	}
+}
+
+func TestParseToolCallsFormat(t *testing.T) {
+	tests := []struct {
+		name     string
+		text     string
+		expected []string
+	}{
+		{
+			name:     "Single SEARCH_KEYWORDS tool call",
+			text:     `{"tool_calls":[{"function":{"name":"SEARCH_KEYWORDS","arguments":{"arguments":"lord,god,assist","name":"SEARCH_KEYWORDS"}}}]}`,
+			expected: []string{"SEARCH_KEYWORDS:lord,god,assist"},
+		},
+		{
+			name:     "Single SEARCH_LENGTH tool call",
+			text:     `{"tool_calls":[{"function":{"name":"SEARCH_LENGTH","arguments":{"arguments":"50-150","name":"SEARCH_LENGTH"}}}]}`,
+			expected: []string{"SEARCH_LENGTH:50-150"},
+		},
+		{
+			name:     "Single SEARCH_OPENING tool call",
+			text:     `{"tool_calls":[{"function":{"name":"SEARCH_OPENING","arguments":{"arguments":"O Lord my God","name":"SEARCH_OPENING"}}}]}`,
+			expected: []string{"SEARCH_OPENING:O Lord my God"},
+		},
+		{
+			name:     "GET_FULL_TEXT tool call",
+			text:     `{"tool_calls":[{"function":{"name":"GET_FULL_TEXT","arguments":{"arguments":"AB00001FIR","name":"GET_FULL_TEXT"}}}]}`,
+			expected: []string{"GET_FULL_TEXT:AB00001FIR"},
+		},
+		{
+			name:     "GET_PARTIAL_TEXT tool call",
+			text:     `{"tool_calls":[{"function":{"name":"GET_PARTIAL_TEXT","arguments":{"arguments":"AB00001FIR,100-500","name":"GET_PARTIAL_TEXT"}}}]}`,
+			expected: []string{"GET_PARTIAL_TEXT:AB00001FIR,100-500"},
+		},
+		{
+			name:     "FINAL_ANSWER tool call",
+			text:     `{"tool_calls":[{"function":{"name":"FINAL_ANSWER","arguments":{"arguments":"AB00001FIR,85,This prayer matches based on distinctive phrases","name":"FINAL_ANSWER"}}}]}`,
+			expected: []string{"FINAL_ANSWER:AB00001FIR,85,This prayer matches based on distinctive phrases"},
+		},
+		{
+			name:     "GET_STATS tool call",
+			text:     `{"tool_calls":[{"function":{"name":"GET_STATS","arguments":{"name":"GET_STATS"}}}]}`,
+			expected: []string{"GET_STATS"},
+		},
+		{
+			name:     "Multiple tool calls",
+			text:     `{"tool_calls":[{"function":{"name":"SEARCH_KEYWORDS","arguments":{"arguments":"lord,god","name":"SEARCH_KEYWORDS"}}},{"function":{"name":"FINAL_ANSWER","arguments":{"arguments":"AB00001FIR,90,Perfect match found","name":"FINAL_ANSWER"}}}]}`,
+			expected: []string{"SEARCH_KEYWORDS:lord,god", "FINAL_ANSWER:AB00001FIR,90,Perfect match found"},
+		},
+		{
+			name: "Tool calls with extra content",
+			text: `Let me search for this prayer:
+
+{"tool_calls":[{"function":{"name":"SEARCH_KEYWORDS","arguments":{"arguments":"merciful,compassionate","name":"SEARCH_KEYWORDS"}}}]}
+
+I hope this helps find it.`,
+			expected: []string{"SEARCH_KEYWORDS:merciful,compassionate"},
+		},
+		{
+			name:     "No tool calls",
+			text:     `This is just regular text without any tool calls.`,
+			expected: []string{},
+		},
+		{
+			name:     "Invalid JSON",
+			text:     `{"tool_calls":[{"function":{"name":"SEARCH_KEYWORDS","arguments":{"arguments":"lord,god"]}]}`, // Missing closing brace
+			expected: []string{},
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			result := parseToolCallsFormat(tt.text)
+
+			if len(result) != len(tt.expected) {
+				t.Errorf("Expected %d results, got %d", len(tt.expected), len(result))
+			}
+
+			for i, expected := range tt.expected {
+				if i >= len(result) || result[i] != expected {
+					t.Errorf("Expected result %d to be %q, got %q", i, expected, result[i])
+				}
+			}
+		})
+	}
+}
+
+func TestFilterThinkingFromResponse(t *testing.T) {
+	tests := []struct {
+		name     string
+		input    string
+		expected string
+	}{
+		{
+			name: "Response with thinking section",
+			input: `Thinking...
+This is a thinking section that should be removed.
+Let me analyze this prayer.
+...done thinking.
+
+SEARCH_KEYWORDS:lord,god,assist`,
+			expected: "SEARCH_KEYWORDS:lord,god,assist",
+		},
+		{
+			name:     "Response without thinking section",
+			input:    "SEARCH_KEYWORDS:lord,god,assist",
+			expected: "SEARCH_KEYWORDS:lord,god,assist",
+		},
+		{
+			name: "Multiple thinking sections",
+			input: `Thinking...
+First thinking section.
+...done thinking.
+
+SEARCH_KEYWORDS:lord,god
+
+Thinking...
+Second thinking section.
+...done thinking.
+
+SEARCH_LENGTH:50-100`,
+			expected: `SEARCH_KEYWORDS:lord,god
+SEARCH_LENGTH:50-100`,
+		},
+		{
+			name:     "Empty response",
+			input:    "",
+			expected: "",
+		},
+		{
+			name: "Only thinking section",
+			input: `Thinking...
+Just thinking, no actual content.
+...done thinking.`,
+			expected: "",
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			result := filterThinkingFromResponse(tt.input)
+			if result != tt.expected {
+				t.Errorf("Expected %q, got %q", tt.expected, result)
+			}
+		})
+	}
+}
+
+func TestGetPartialTextByPhelps(t *testing.T) {
+	// Create test database
+	db := Database{
+		Writing: []Writing{
+			{
+				Phelps:   "TEST001",
+				Language: "en",
+				Name:     "Test Prayer",
+				Text:     "O Lord my God! I beseech Thee by Thy mercy that hath embraced all things, and by Thy grace which hath permeated the whole creation, to make me steadfast in Thy Faith. Amen.",
+			},
+		},
+	}
+
+	tests := []struct {
+		name     string
+		args     string
+		expected string
+	}{
+		{
+			name:     "Character range",
+			args:     "TEST001,10-50",
+			expected: "PARTIAL TEXT for TEST001 (Test Prayer) [chars 10-50]:\n\nmy God! I beseech Thee by Thy mercy th",
+		},
+		{
+			name:     "From word to end",
+			args:     "TEST001,from:mercy",
+			expected: "PARTIAL TEXT for TEST001 (Test Prayer) [from 'mercy' to end]:\n\nmercy that hath embraced all things, and by Thy grace which hath permeated the whole creation, to make me steadfast in Thy Faith. Amen.",
+		},
+		{
+			name:     "From start to word",
+			args:     "TEST001,to:mercy",
+			expected: "PARTIAL TEXT for TEST001 (Test Prayer) [from start to 'mercy']:\n\nO Lord my God! I beseech Thee by Thy mercy",
+		},
+		{
+			name:     "Between two words",
+			args:     "TEST001,from:beseech,to:grace",
+			expected: "PARTIAL TEXT for TEST001 (Test Prayer) [from 'beseech' to 'grace']:\n\nbeseech Thee by Thy mercy that hath embraced all things, and by Thy grace",
+		},
+		{
+			name:     "Invalid phelps code",
+			args:     "INVALID,100-200",
+			expected: "Phelps code 'INVALID' not found",
+		},
+		{
+			name:     "Invalid format",
+			args:     "TEST001",
+			expected: "Error: GET_PARTIAL_TEXT requires format: phelps_code,start-end OR phelps_code,from:word,to:word OR phelps_code,from:word OR phelps_code,to:word",
+		},
+		{
+			name:     "Invalid character range",
+			args:     "TEST001,abc-def",
+			expected: "Error: Invalid character range format. Use: start-end (e.g., 100-500)",
+		},
+		{
+			name:     "Word not found",
+			args:     "TEST001,from:nonexistent",
+			expected: "Error: Start word 'nonexistent' not found in prayer text",
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			result := getPartialTextByPhelps(db, "en", tt.args)
+			if len(result) != 1 {
+				t.Errorf("Expected 1 result, got %d", len(result))
+				return
+			}
+			if result[0] != tt.expected {
+				t.Errorf("Expected %q, got %q", tt.expected, result[0])
+			}
+		})
+	}
+}
+
+func TestProcessFinalAnswer(t *testing.T) {
+	tests := []struct {
+		name     string
+		args     string
+		expected string
+	}{
+		{
+			name:     "Valid final answer",
+			args:     "AB00001FIR,85,This prayer matches based on distinctive phrases and structure",
+			expected: "FINAL ANSWER RECEIVED:\nPhelps: AB00001FIR\nConfidence: 85\nReasoning: This prayer matches based on distinctive phrases and structure",
+		},
+		{
+			name:     "Unknown answer",
+			args:     "UNKNOWN,0,No matching prayer found after extensive search",
+			expected: "FINAL ANSWER RECEIVED:\nPhelps: UNKNOWN\nConfidence: 0\nReasoning: No matching prayer found after extensive search",
+		},
+		{
+			name:     "Reasoning with commas",
+			args:     "AB00002TEST,75,Prayer mentions Lord, God, mercy, and blessing which match reference text",
+			expected: "FINAL ANSWER RECEIVED:\nPhelps: AB00002TEST\nConfidence: 75\nReasoning: Prayer mentions Lord, God, mercy, and blessing which match reference text",
+		},
+		{
+			name:     "High confidence match",
+			args:     "AB00003XYZ,95,Exact phrase match found in opening and closing sentences",
+			expected: "FINAL ANSWER RECEIVED:\nPhelps: AB00003XYZ\nConfidence: 95\nReasoning: Exact phrase match found in opening and closing sentences",
+		},
+		{
+			name:     "Insufficient arguments",
+			args:     "AB00001FIR,85",
+			expected: "Error: FINAL_ANSWER requires format: phelps_code,confidence,reasoning (e.g., FINAL_ANSWER:AB00001FIR,85,This prayer matches based on distinctive phrases)",
+		},
+		{
+			name:     "Invalid confidence - not a number",
+			args:     "AB00001FIR,high,This prayer matches well",
+			expected: "Error: Invalid confidence value 'high'. Must be 0-100",
+		},
+		{
+			name:     "Invalid confidence - negative",
+			args:     "AB00001FIR,-10,This doesn't match",
+			expected: "Error: Confidence must be between 0-100",
+		},
+		{
+			name:     "Invalid confidence - too high",
+			args:     "AB00001FIR,150,This matches perfectly",
+			expected: "Error: Confidence must be between 0-100",
+		},
+		{
+			name:     "Empty phelps code",
+			args:     ",85,Good reasoning provided",
+			expected: "Error: Phelps code cannot be empty",
+		},
+		{
+			name:     "Empty reasoning",
+			args:     "AB00001FIR,85,",
+			expected: "Error: Reasoning cannot be empty",
+		},
+		{
+			name:     "Minimal valid input",
+			args:     "TEST,0,No match",
+			expected: "FINAL ANSWER RECEIVED:\nPhelps: TEST\nConfidence: 0\nReasoning: No match",
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			result := processFinalAnswer(tt.args)
+			if len(result) != 1 {
+				t.Errorf("Expected 1 result, got %d", len(result))
+				return
+			}
+			if result[0] != tt.expected {
+				t.Errorf("Expected %q, got %q", tt.expected, result[0])
+			}
 		})
 	}
 }

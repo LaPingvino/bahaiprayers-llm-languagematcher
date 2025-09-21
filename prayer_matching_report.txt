@@ -1,9 +1,12 @@
 Prayer Matching Report
 =====================
-Started: 2025-09-21T22:14:13+01:00
-Target Language: es
+Started: 2025-09-22T00:41:40+01:00
+Target Language: 
 Reference Language: en
-Using Gemini: false
+Lucky Mode: true
+Continue Mode: false
+No Priority Languages: false
+Using Gemini: true
 Gemini Quota Exceeded: false
 Ollama Model: gpt-oss
 Interactive Mode: true
@@ -12,24 +15,7 @@ Verbose Mode: true
 
 Database loaded successfully
 Database size: 9000 writings, 120 languages, 33 heuristics, 4 candidates
+=== LUCKY MODE: Random Prayer Processing ===
+Processing 1 random prayers from all languages at 2025-09-22T00:41:40+01:00
 
-=== Processing prayers for language: es (reference: en) ===
-Started at: 2025-09-21T22:14:14+01:00
-Max prayers to process: 1
-Verbose mode: true
-
-Processing writing:  (Version: 04687733-037d-4531-bb05-c68fc41541de)
-  LLM Response - Phelps: BH03470, Confidence: 82.0%, Reasoning: The prayer is a brief, lyrical invocation praising God’s attributes and requesting divine guidance and sustenance—characteristics that match the well‑known “O God, guide me” prayer (BH03470). Its structure, language style, and thematic emphasis on God’s omnipotence, glory, and providence align closely with the Spanish translation of that prayer.
-  MATCHED: Updated writings table with Phelps code BH03470
-Reached maximum prayer limit (1) at 2025-09-21T22:16:51+01:00.
-
-Summary for es:
-  Processed: 1 prayers
-  High confidence matches: 1
-  Low confidence candidates: 0
-  Unmatched (for interactive): 0
-Completed at: 2025-09-21T22:16:51+01:00
-  SUCCESS: Changes committed to Dolt with message: LLM prayer matching for es: 1 matches, 0 candidates
-
-=== FINAL STATUS ===
-Completed: 2025-09-21T22:16:51+01:00
+Processing writing:  (el) (Version: a5ad5c01-6144-41e6-a516-7fe1e1328e9d)
