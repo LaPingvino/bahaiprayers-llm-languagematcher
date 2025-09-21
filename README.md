@@ -58,6 +58,9 @@ Process English prayers using default settings:
 # Use a different Ollama model
 ./prayer-matcher -language=de -model=llama2
 
+# Show full raw LLM responses at the end (helpful for debugging)
+./prayer-matcher -language=es -show-raw
+
 # Disable interactive mode for unmatched prayers
 ./prayer-matcher -language=es -interactive=false
 
@@ -75,6 +78,7 @@ Process English prayers using default settings:
 | `-model` | `gpt-oss` | Ollama model to use |
 | `-interactive` | `true` | Enable interactive assignment for unmatched prayers |
 | `-report` | `prayer_matching_report.txt` | Path for the detailed report file |
+| `-show-raw` | `false` | Show full raw LLM responses at the end (normally truncated to avoid screen clutter) |
 | `-help` | `false` | Show help message |
 
 ## How It Works

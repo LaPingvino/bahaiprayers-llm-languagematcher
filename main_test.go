@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"strings"
+	"sync/atomic"
 	"testing"
 	"time"
 )
@@ -478,7 +479,7 @@ func (m MockLLMCaller) CallGemini(prompt string) (string, error) {
 	return m.GeminiResponse, m.GeminiError
 }
 
-func (m MockLLMCaller) CallOllama(prompt string) (string, error) {
+func (m MockLLMCaller) CallOllama(prompt string, textLength int) (string, error) {
 	return m.OllamaResponse, m.OllamaError
 }
 
@@ -574,6 +575,18 @@ func TestLLMFallbackLogic(t *testing.T) {
 			shouldContainDebug: false,
 			errorExpected:      true,
 		},
+		{
+			name:               "Gemini quota exceeded error, Ollama success",
+			useGemini:          true,
+			geminiResponse:     "",
+			geminiError:        fmt.Errorf("gemini quota exceeded: Resource has been exhausted (e.g. check quota)"),
+			ollamaResponse:     "Phelps: AB00055QUO\nConfidence: 80\nReasoning: Ollama worked after Gemini quota exceeded",
+			ollamaError:        nil,
+			expectedPhelps:     "AB00055QUO",
+			expectedConfidence: 0.80,
+			shouldContainDebug: false,
+			errorExpected:      false,
+		},
 	}
 
 	for _, tt := range tests {
@@ -587,7 +600,7 @@ func TestLLMFallbackLogic(t *testing.T) {
 			}
 
 			// Call the function under test
-			result, err := callLLMWithCaller("test prompt", tt.useGemini, mockCaller)
+			result, err := callLLMWithCaller("test prompt", tt.useGemini, 100, mockCaller)
 
 			// Check error expectation
 			if tt.errorExpected && err == nil {
@@ -623,6 +636,49 @@ func TestLLMFallbackLogic(t *testing.T) {
 					t.Error("Expected prompt info in debug output")
 				}
 			}
+
 		})
 	}
+}
+
+func TestGeminiQuotaExceededFlag(t *testing.T) {
+	// Reset the quota exceeded flag before test
+	atomic.StoreInt32(&geminiQuotaExceeded, 0)
+
+	// Test that quota exceeded error sets the flag
+	mockCaller := MockLLMCaller{
+		GeminiError:    fmt.Errorf("gemini quota exceeded: You exceeded your current quota"),
+		OllamaResponse: "Phelps: AB00001FIR\nConfidence: 80\nReasoning: Fallback worked",
+		OllamaError:    nil,
+	}
+
+	// First call should set the flag
+	_, err := callLLMWithCaller("test prompt", true, 100, mockCaller)
+	if err != nil {
+		t.Fatalf("Expected no error, got: %v", err)
+	}
+
+	if atomic.LoadInt32(&geminiQuotaExceeded) != 1 {
+		t.Error("Expected quota exceeded flag to be set to 1")
+	}
+
+	// Second call should skip Gemini entirely
+	mockCaller2 := MockLLMCaller{
+		GeminiResponse: "This should not be called",
+		GeminiError:    nil,
+		OllamaResponse: "Phelps: AB00002SEC\nConfidence: 75\nReasoning: Second call used Ollama only",
+		OllamaError:    nil,
+	}
+
+	response, err := callLLMWithCaller("second prompt", true, 100, mockCaller2)
+	if err != nil {
+		t.Fatalf("Expected no error on second call, got: %v", err)
+	}
+
+	if response.PhelpsCode != "AB00002SEC" {
+		t.Errorf("Expected PhelpsCode AB00002SEC, got %s", response.PhelpsCode)
+	}
+
+	// Reset flag for other tests
+	atomic.StoreInt32(&geminiQuotaExceeded, 0)
 }

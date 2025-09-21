@@ -2,9 +2,11 @@ package main
 
 import (
 	"bufio"
+	"context"
 	"encoding/csv"
 	"flag"
 	"fmt"
+	"io"
 	"log"
 	"os"
 	"os/exec"
@@ -12,30 +14,181 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"sync"
 	"sync/atomic"
 	"syscall"
 	"time"
 )
 
 var OllamaModel string = "gpt-oss"
-var stopRequested int32 // Atomic flag for graceful stop
+var stopRequested int32       // Atomic flag for graceful stop
+var geminiQuotaExceeded int32 // Atomic flag for Gemini quota exceeded
 
-// Helper function to shell out to Ollama
-func CallOllama(prompt string) (string, error) {
-	cmd := exec.Command("ollama", "run", OllamaModel)
-	cmd.Stdin = strings.NewReader(prompt)
-	output, err := cmd.CombinedOutput()
-	if err != nil {
-		return "", fmt.Errorf("error running ollama with model %s: %w\nOutput: %s", OllamaModel, err, string(output))
+// Raw response storage for large responses
+var storedRawResponses []string
+var storedRawResponsesMutex sync.Mutex
+
+// Helper function to truncate large responses and store them
+func truncateAndStore(response string, source string) string {
+	const maxDisplayLength = 500
+	if len(response) > maxDisplayLength {
+		storedRawResponsesMutex.Lock()
+		storedRawResponses = append(storedRawResponses, fmt.Sprintf("=== %s Raw Response ===\n%s\n", source, response))
+		storedRawResponsesMutex.Unlock()
+
+		return fmt.Sprintf("%s... [TRUNCATED - %d more characters. Use -show-raw to see full responses at end]",
+			response[:maxDisplayLength], len(response)-maxDisplayLength)
 	}
-	return string(output), nil
+	return response
+}
+
+// Function to display all stored raw responses
+func showStoredRawResponses() {
+	storedRawResponsesMutex.Lock()
+	defer storedRawResponsesMutex.Unlock()
+
+	if len(storedRawResponses) == 0 {
+		return
+	}
+
+	fmt.Printf("\n%s\n", strings.Repeat("=", 80))
+	fmt.Printf("FULL RAW RESPONSES (truncated during execution)\n")
+	fmt.Printf("%s\n\n", strings.Repeat("=", 80))
+
+	for i, response := range storedRawResponses {
+		fmt.Printf("Response %d:\n%s\n", i+1, response)
+		if i < len(storedRawResponses)-1 {
+			fmt.Printf("%s\n", strings.Repeat("-", 40))
+		}
+	}
+
+	fmt.Printf("%s\n", strings.Repeat("=", 80))
+}
+
+// Helper function to shell out to Ollama with dynamic timeout
+func CallOllama(prompt string, textLength int) (string, error) {
+	// Calculate dynamic timeout based on text length
+	// Base timeout of 30 minutes + 1 minute per 1000 characters
+	// Minimum 30 minutes, maximum 90 minutes
+	baseTimeout := 30 * time.Minute
+	extraTime := time.Duration(textLength/1000) * 1 * time.Minute
+	timeout := baseTimeout + extraTime
+
+	if timeout < 30*time.Minute {
+		timeout = 30 * time.Minute
+	}
+	if timeout > 90*time.Minute {
+		timeout = 90 * time.Minute
+	}
+
+	log.Printf("Starting Ollama with model %s (timeout: %v for %d chars)...", OllamaModel, timeout.Round(time.Second), textLength)
+
+	ctx, cancel := context.WithTimeout(context.Background(), timeout)
+	defer cancel()
+
+	// First check if the model is loaded/available
+	log.Printf("Initializing Ollama model %s...", OllamaModel)
+
+	cmd := exec.CommandContext(ctx, "ollama", "run", OllamaModel)
+	cmd.Stdin = strings.NewReader(prompt)
+
+	// Create pipes to monitor stderr for loading progress and stdout for output
+	stderr, err := cmd.StderrPipe()
+	if err != nil {
+		return "", fmt.Errorf("failed to create stderr pipe: %w", err)
+	}
+
+	stdout, err := cmd.StdoutPipe()
+	if err != nil {
+		return "", fmt.Errorf("failed to create stdout pipe: %w", err)
+	}
+
+	// Start the command
+	if err := cmd.Start(); err != nil {
+		return "", fmt.Errorf("failed to start ollama: %w", err)
+	}
+
+	log.Printf("Ollama process started, waiting for model to load and process prompt...")
+
+	// Create channels for completion and progress
+	done := make(chan struct{})
+	var output []byte
+	var cmdErr error
+
+	// Monitor stderr for loading messages
+	go func() {
+		scanner := bufio.NewScanner(stderr)
+		for scanner.Scan() {
+			line := scanner.Text()
+			if strings.Contains(line, "loading") || strings.Contains(line, "Loading") {
+				log.Printf("Ollama: %s", line)
+			}
+		}
+	}()
+
+	// Wait for command completion
+	go func() {
+		defer close(done)
+		output, cmdErr = io.ReadAll(stdout)
+		if cmdErr == nil {
+			cmdErr = cmd.Wait()
+		}
+	}()
+
+	// Show progress while waiting with more frequent updates initially
+	progressTicker := time.NewTicker(3 * time.Second)
+	defer progressTicker.Stop()
+
+	startTime := time.Now()
+	var lastProgressTime time.Time
+
+	for {
+		select {
+		case <-done:
+			elapsed := time.Since(startTime)
+			if cmdErr != nil {
+				if ctx.Err() == context.DeadlineExceeded {
+					return "", fmt.Errorf("ollama timed out after %v with model %s", timeout.Round(time.Second), OllamaModel)
+				}
+				return "", fmt.Errorf("error running ollama with model %s: %w", OllamaModel, cmdErr)
+			}
+			log.Printf("Ollama completed successfully in %v", elapsed.Round(time.Second))
+			return string(output), nil
+		case <-progressTicker.C:
+			elapsed := time.Since(startTime)
+			// Show more frequent progress in first minute, then less frequent
+			if elapsed < time.Minute {
+				log.Printf("Ollama processing... (%v elapsed, model: %s)", elapsed.Round(time.Second), OllamaModel)
+			} else if time.Since(lastProgressTime) >= 10*time.Second {
+				log.Printf("Ollama still processing... (%v elapsed, timeout: %v)", elapsed.Round(time.Second), timeout.Round(time.Second))
+				lastProgressTime = time.Now()
+			}
+		case <-ctx.Done():
+			cmd.Process.Kill()
+			return "", fmt.Errorf("ollama timed out after %v with model %s", timeout.Round(time.Second), OllamaModel)
+		}
+	}
 }
 
 // Helper function to shell out to Gemini CLI
 func CallGemini(prompt string) (string, error) {
+	// Check if quota exceeded flag is already set
+	if atomic.LoadInt32(&geminiQuotaExceeded) == 1 {
+		return "", fmt.Errorf("gemini quota previously exceeded, skipping")
+	}
+
 	cmd := exec.Command("gemini", prompt)
 	output, err := cmd.CombinedOutput()
 	if err != nil {
+		// Check if this is a quota exceeded error
+		errorStr := strings.ToLower(err.Error() + string(output))
+		if strings.Contains(errorStr, "quota") && (strings.Contains(errorStr, "exceeded") || strings.Contains(errorStr, "exhausted")) ||
+			strings.Contains(errorStr, "429") ||
+			strings.Contains(errorStr, "resource_exhausted") {
+			atomic.StoreInt32(&geminiQuotaExceeded, 1)
+			log.Printf("Gemini quota exceeded - disabling Gemini for remainder of session")
+			return "", fmt.Errorf("gemini quota exceeded: %w", err)
+		}
 		return "", fmt.Errorf("error running gemini: %w", err)
 	}
 	return string(output), nil
@@ -51,7 +204,7 @@ type LLMResponse struct {
 // LLMCaller interface allows dependency injection for testing
 type LLMCaller interface {
 	CallGemini(prompt string) (string, error)
-	CallOllama(prompt string) (string, error)
+	CallOllama(prompt string, textLength int) (string, error)
 }
 
 // DefaultLLMCaller implements LLMCaller using the actual CLI tools
@@ -61,8 +214,8 @@ func (d DefaultLLMCaller) CallGemini(prompt string) (string, error) {
 	return CallGemini(prompt)
 }
 
-func (d DefaultLLMCaller) CallOllama(prompt string) (string, error) {
-	return CallOllama(prompt)
+func (d DefaultLLMCaller) CallOllama(prompt string, textLength int) (string, error) {
+	return CallOllama(prompt, textLength)
 }
 
 // Parse LLM response to extract Phelps code and confidence
@@ -337,12 +490,12 @@ func min(a, b int) int {
 }
 
 // Call LLM (Gemini first, then Ollama fallback)
-func callLLM(prompt string, useGemini bool) (LLMResponse, error) {
-	return callLLMWithCaller(prompt, useGemini, DefaultLLMCaller{})
+func callLLM(prompt string, useGemini bool, textLength int) (LLMResponse, error) {
+	return callLLMWithCaller(prompt, useGemini, textLength, DefaultLLMCaller{})
 }
 
 // callLLMWithCaller allows dependency injection for testing
-func callLLMWithCaller(prompt string, useGemini bool, caller LLMCaller) (LLMResponse, error) {
+func callLLMWithCaller(prompt string, useGemini bool, textLength int, caller LLMCaller) (LLMResponse, error) {
 	var response string
 	var geminiErr error
 	var ollamaErr error
@@ -351,11 +504,24 @@ func callLLMWithCaller(prompt string, useGemini bool, caller LLMCaller) (LLMResp
 	var triedGemini bool
 	var triedOllama bool
 
+	// Check if we should skip Gemini due to quota exceeded
+	if useGemini && atomic.LoadInt32(&geminiQuotaExceeded) == 1 {
+		useGemini = false
+		log.Printf("Gemini quota exceeded - using only Ollama")
+	}
+
 	if useGemini {
 		triedGemini = true
 		response, geminiErr = caller.CallGemini(prompt)
 		if geminiErr != nil {
-			log.Printf("Gemini call failed with error, falling back to Ollama: %v", geminiErr)
+			// Check if this is a quota exceeded error
+			errorStr := strings.ToLower(geminiErr.Error())
+			if strings.Contains(errorStr, "quota") && (strings.Contains(errorStr, "exceeded") || strings.Contains(errorStr, "exhausted")) {
+				atomic.StoreInt32(&geminiQuotaExceeded, 1)
+				log.Printf("Gemini quota exceeded - continuing with Ollama only")
+			} else {
+				log.Printf("Gemini call failed with error, falling back to Ollama: %v", geminiErr)
+			}
 		} else {
 			geminiResponse = response
 			parsed := parseLLMResponse(response)
@@ -365,12 +531,13 @@ func callLLMWithCaller(prompt string, useGemini bool, caller LLMCaller) (LLMResp
 				return parsed, nil
 			}
 			log.Printf("Gemini returned empty/invalid response (PhelpsCode empty), falling back to Ollama")
-			log.Printf("Gemini raw response: %q", response)
+			truncatedResponse := truncateAndStore(response, "Gemini")
+			log.Printf("Gemini raw response: %q", truncatedResponse)
 		}
 
 		// Try Ollama as fallback
 		triedOllama = true
-		response, ollamaErr = caller.CallOllama(prompt)
+		response, ollamaErr = caller.CallOllama(prompt, textLength)
 		if ollamaErr != nil {
 			// Both failed with errors
 			return LLMResponse{}, fmt.Errorf("both LLM services failed - Gemini error: %v, Ollama error: %v", geminiErr, ollamaErr)
@@ -378,7 +545,7 @@ func callLLMWithCaller(prompt string, useGemini bool, caller LLMCaller) (LLMResp
 		ollamaResponse = response
 	} else {
 		triedOllama = true
-		response, ollamaErr = caller.CallOllama(prompt)
+		response, ollamaErr = caller.CallOllama(prompt, textLength)
 		ollamaResponse = response
 	}
 
@@ -401,7 +568,8 @@ func callLLMWithCaller(prompt string, useGemini bool, caller LLMCaller) (LLMResp
 			if geminiErr != nil {
 				debugInfo.WriteString(fmt.Sprintf("Gemini error: %v\n", geminiErr))
 			} else {
-				debugInfo.WriteString(fmt.Sprintf("Gemini raw response: %q\n", geminiResponse))
+				truncatedResponse := truncateAndStore(geminiResponse, "Gemini Debug")
+				debugInfo.WriteString(fmt.Sprintf("Gemini raw response: %q\n", truncatedResponse))
 			}
 		}
 		if triedOllama {
@@ -409,7 +577,8 @@ func callLLMWithCaller(prompt string, useGemini bool, caller LLMCaller) (LLMResp
 			if ollamaErr != nil {
 				debugInfo.WriteString(fmt.Sprintf("Ollama error: %v\n", ollamaErr))
 			} else {
-				debugInfo.WriteString(fmt.Sprintf("Ollama raw response: %q\n", ollamaResponse))
+				truncatedResponse := truncateAndStore(ollamaResponse, "Ollama Debug")
+				debugInfo.WriteString(fmt.Sprintf("Ollama raw response: %q\n", truncatedResponse))
 			}
 		}
 		debugInfo.WriteString(fmt.Sprintf("Prompt used: %q\n", prompt))
@@ -848,7 +1017,7 @@ func processPrayersForLanguage(db *Database, targetLanguage, referenceLanguage s
 			fmt.Printf("  Calling LLM...")
 		}
 
-		response, err := callLLM(prompt, useGemini)
+		response, err := callLLM(prompt, useGemini, len(writing.Text))
 		if err != nil {
 			fmt.Fprintf(reportFile, "  ERROR: LLM call failed: %v\n", err)
 			if verbose {
@@ -995,6 +1164,7 @@ func main() {
 	var maxPrayers = flag.Int("max", 0, "Maximum number of prayers to process (0 = unlimited)")
 	var verbose = flag.Bool("verbose", false, "Enable verbose output")
 	var showHelp = flag.Bool("help", false, "Show help message")
+	var showRaw = flag.Bool("show-raw", false, "Show full raw responses at the end")
 
 	flag.Parse()
 
@@ -1037,12 +1207,15 @@ func main() {
 	OllamaModel = *ollamaModel
 
 	// Check Ollama availability
+	log.Printf("Checking Ollama availability for model %s...", *ollamaModel)
 	if err := checkOllama(*ollamaModel); err != nil {
 		log.Printf("Ollama check failed: %v", err)
 		if !*useGemini {
 			log.Fatalf("Ollama is required when Gemini is disabled")
 		}
 		log.Printf("Will attempt to use Gemini CLI only")
+	} else {
+		log.Printf("Ollama is ready with model %s", *ollamaModel)
 	}
 
 	// Open report file
@@ -1058,6 +1231,7 @@ func main() {
 	fmt.Fprintf(reportFile, "Target Language: %s\n", *targetLanguage)
 	fmt.Fprintf(reportFile, "Reference Language: %s\n", *referenceLanguage)
 	fmt.Fprintf(reportFile, "Using Gemini: %t\n", *useGemini)
+	fmt.Fprintf(reportFile, "Gemini Quota Exceeded: %t\n", atomic.LoadInt32(&geminiQuotaExceeded) == 1)
 	fmt.Fprintf(reportFile, "Ollama Model: %s\n", *ollamaModel)
 	fmt.Fprintf(reportFile, "Interactive Mode: %t\n", *interactive)
 	fmt.Fprintf(reportFile, "Max Prayers: %d\n", *maxPrayers)
@@ -1139,5 +1313,18 @@ func main() {
 		fmt.Fprintf(reportFile, "Found %d unmatched prayers (interactive mode disabled)\n", len(unmatchedPrayers))
 	}
 
-	log.Printf("Prayer matching completed. Report written to: %s", *reportPath)
+	// Final status report
+	fmt.Fprintf(reportFile, "\n=== FINAL STATUS ===\n")
+	fmt.Fprintf(reportFile, "Completed: %s\n", time.Now().Format(time.RFC3339))
+	if atomic.LoadInt32(&geminiQuotaExceeded) == 1 {
+		fmt.Fprintf(reportFile, "Gemini quota was exceeded during processing - continued with Ollama only\n")
+		log.Printf("Prayer matching completed with Gemini quota exceeded - used Ollama fallback. Report written to: %s", *reportPath)
+	} else {
+		log.Printf("Prayer matching completed. Report written to: %s", *reportPath)
+	}
+
+	// Show raw responses if requested
+	if *showRaw {
+		showStoredRawResponses()
+	}
 }
