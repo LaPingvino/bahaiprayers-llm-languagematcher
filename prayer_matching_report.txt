@@ -1,0 +1,55 @@
+Prayer Matching Report
+=====================
+Started: 2025-09-21T19:56:30+01:00
+Target Language: 
+Reference Language: en
+Using Gemini: true
+Ollama Model: gpt-oss
+Interactive Mode: true
+Max Prayers: 0
+Verbose Mode: false
+
+Database loaded successfully
+Auto-selected target language: ar
+Missing prayers by language:
+  oj: 1
+  haw: 1
+  chr: 1
+  bla: 1
+  mic: 1
+  fo: 1
+  gwi: 2
+  chn: 3
+  moh: 3
+  nv: 3
+  ... and 82 more languages
+
+Database size: 9000 writings, 120 languages, 33 heuristics, 4 candidates
+
+=== Processing prayers for language: ar (reference: en) ===
+Started at: 2025-09-21T19:56:30+01:00
+Verbose mode: false
+
+Processing writing:  (Version: 06f1cfc5-843d-4203-97ee-d2a5d5f1d65f)
+  LLM Response - Phelps: BH03629GRI, Confidence: 95.0%, Reasoning: The provided Arabic text is a well-known prayer by Bahá’u’lláh. The opening lines translate to "Say: O my God, my God! Relieve my sorrow by Thy bounty and Thy generosity, and dispel my grief by Thy sovereignty and Thy power." The central theme of the prayer is the removal of sorrow, grief, and difficulties. The Phelps code BH03629GRI corresponds to a prayer by Bahá’u’lláh (indicated by the "BH" prefix) and is named "GRI" (likely for "Grief"). This aligns perfectly with the content and authorship of the provided prayer text.
+  MATCHED: Updated writings table with Phelps code BH03629GRI
+Processing writing:  (Version: 08ea0083-0f64-4f72-b033-ab1f7c7677bf)
+  LLM Response - Phelps: AB07155WOM, Confidence: 95.0%, Reasoning: The provided text is a prayer by ‘Abdu’l-Bahá for a departed woman. It begins with "هو الله" and is a plea for forgiveness and mercy for a handmaiden ("لأَمَتِك") who has passed away. Key phrases like "تغفر لأمَتِك التّي سمعت النّداء" (forgive Thy handmaiden who hearkened to Thy call) and "وارزقها اللّقاء في الفردوس الاعلی" (grant her to enter the highest Paradise) are characteristic of this specific prayer. The Phelps code AB07155WOM corresponds to this well-known prayer for women.
+  MATCHED: Updated writings table with Phelps code AB07155WOM
+Processing writing:  (Version: 09c912f9-ed49-4b73-9f9c-3b25935ed86a)
+  LLM Response - Phelps: UNKNOWN, Confidence: 0.0%, Reasoning: LLM returned empty or invalid response
+  UNMATCHED: Will prompt for interactive assignment
+
+Graceful stop requested at 2025-09-21T19:57:47+01:00. Processed 3 prayers.
+
+Summary for ar:
+  Processed: 3 prayers
+  High confidence matches: 2
+  Low confidence candidates: 0
+  Unmatched (for interactive): 1
+Completed at: 2025-09-21T19:57:47+01:00
+  SUCCESS: Changes committed to Dolt with message: LLM prayer matching for ar: 2 matches, 0 candidates
+
+=== Interactive Assignment Session ===
+Started at: 2025-09-21T19:57:47+01:00
+Interactive session ended early. Assigned: 0, Skipped: 0
