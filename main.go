@@ -34,6 +34,19 @@ var ollamaAPIURL = "http://localhost:11434" // Ollama API endpoint
 var storedRawResponses []string
 var storedRawResponsesMutex sync.Mutex
 
+// Session notes system for LLM experience accumulation
+type SessionNote struct {
+	Timestamp  time.Time
+	Language   string
+	NoteType   string // SUCCESS, FAILURE, PATTERN, STRATEGY, TIP
+	Content    string
+	PhelpsCode string  // Optional, for successful matches
+	Confidence float64 // Optional, for confidence-related notes
+}
+
+var sessionNotes []SessionNote
+var sessionNotesMutex sync.Mutex
+
 // Helper function to truncate large responses and store them
 func truncateAndStore(response string, source string) string {
 	const maxDisplayLength = 500
@@ -46,6 +59,218 @@ func truncateAndStore(response string, source string) string {
 			response[:maxDisplayLength], len(response)-maxDisplayLength)
 	}
 	return response
+}
+
+// Clear old session notes (keep only recent ones)
+func clearOldSessionNotes(maxAge time.Duration) int {
+	sessionNotesMutex.Lock()
+	defer sessionNotesMutex.Unlock()
+
+	cutoff := time.Now().Add(-maxAge)
+	var kept []SessionNote
+	removed := 0
+
+	for _, note := range sessionNotes {
+		if note.Timestamp.After(cutoff) {
+			kept = append(kept, note)
+		} else {
+			removed++
+		}
+	}
+
+	sessionNotes = kept
+	return removed
+}
+
+// Search session notes by content or type
+func searchSessionNotes(query string, noteType string, language string) []SessionNote {
+	sessionNotesMutex.Lock()
+	defer sessionNotesMutex.Unlock()
+
+	var matches []SessionNote
+	queryLower := strings.ToLower(query)
+
+	for _, note := range sessionNotes {
+		// Filter by language if specified
+		if language != "" && note.Language != language && note.Language != "" {
+			continue
+		}
+
+		// Filter by note type if specified
+		if noteType != "" && note.NoteType != strings.ToUpper(noteType) {
+			continue
+		}
+
+		// Search in content if query provided
+		if query != "" {
+			contentLower := strings.ToLower(note.Content)
+			if !strings.Contains(contentLower, queryLower) {
+				continue
+			}
+		}
+
+		matches = append(matches, note)
+	}
+
+	return matches
+}
+
+// Remove notes by type or language
+func removeSessionNotes(noteType string, language string, olderThan time.Duration) int {
+	sessionNotesMutex.Lock()
+	defer sessionNotesMutex.Unlock()
+
+	var kept []SessionNote
+	removed := 0
+	cutoff := time.Time{}
+
+	if olderThan > 0 {
+		cutoff = time.Now().Add(-olderThan)
+	}
+
+	for _, note := range sessionNotes {
+		shouldRemove := false
+
+		// Remove by type
+		if noteType != "" && note.NoteType == strings.ToUpper(noteType) {
+			shouldRemove = true
+		}
+
+		// Remove by language
+		if language != "" && note.Language == language {
+			shouldRemove = true
+		}
+
+		// Remove by age
+		if olderThan > 0 && note.Timestamp.Before(cutoff) {
+			shouldRemove = true
+		}
+
+		if shouldRemove {
+			removed++
+		} else {
+			kept = append(kept, note)
+		}
+	}
+
+	sessionNotes = kept
+	return removed
+}
+
+// Get session notes statistics
+func getSessionNotesStats() map[string]int {
+	sessionNotesMutex.Lock()
+	defer sessionNotesMutex.Unlock()
+
+	stats := make(map[string]int)
+	stats["total"] = len(sessionNotes)
+
+	typeStats := make(map[string]int)
+	langStats := make(map[string]int)
+
+	for _, note := range sessionNotes {
+		typeStats[note.NoteType]++
+		if note.Language != "" {
+			langStats[note.Language]++
+		}
+	}
+
+	for noteType, count := range typeStats {
+		stats["type_"+strings.ToLower(noteType)] = count
+	}
+
+	for lang, count := range langStats {
+		stats["lang_"+lang] = count
+	}
+
+	return stats
+}
+
+// Add a session note
+func addSessionNote(language, noteType, content, phelpsCode string, confidence float64) {
+	sessionNotesMutex.Lock()
+	defer sessionNotesMutex.Unlock()
+
+	note := SessionNote{
+		Timestamp:  time.Now(),
+		Language:   language,
+		NoteType:   noteType,
+		Content:    content,
+		PhelpsCode: phelpsCode,
+		Confidence: confidence,
+	}
+
+	sessionNotes = append(sessionNotes, note)
+
+	// Keep only the most recent 50 notes to avoid memory bloat
+	if len(sessionNotes) > 50 {
+		sessionNotes = sessionNotes[len(sessionNotes)-50:]
+	}
+}
+
+// Get relevant session notes for a language
+func getRelevantNotes(language string) []SessionNote {
+	sessionNotesMutex.Lock()
+	defer sessionNotesMutex.Unlock()
+
+	var relevant []SessionNote
+
+	// Get notes for the specific language first
+	for _, note := range sessionNotes {
+		if note.Language == language || note.Language == "" {
+			relevant = append(relevant, note)
+		}
+	}
+
+	// Add general notes that might be helpful
+	for _, note := range sessionNotes {
+		if note.Language != language && note.Language != "" &&
+			(note.NoteType == "STRATEGY" || note.NoteType == "PATTERN") {
+			relevant = append(relevant, note)
+		}
+	}
+
+	// Return most recent 10 notes
+	if len(relevant) > 10 {
+		relevant = relevant[len(relevant)-10:]
+	}
+
+	return relevant
+}
+
+// Format notes for inclusion in LLM prompt
+func formatNotesForPrompt(notes []SessionNote) string {
+	if len(notes) == 0 {
+		return ""
+	}
+
+	var formatted strings.Builder
+	formatted.WriteString("\nSESSION EXPERIENCE NOTES:\n")
+	formatted.WriteString("Here are insights from previous prayers in this session:\n")
+
+	for _, note := range notes {
+		timeAgo := time.Since(note.Timestamp).Round(time.Minute)
+		switch note.NoteType {
+		case "SUCCESS":
+			if note.PhelpsCode != "" {
+				formatted.WriteString(fmt.Sprintf("✅ SUCCESS (%v ago): %s [%s, confidence: %.0f%%]\n",
+					timeAgo, note.Content, note.PhelpsCode, note.Confidence*100))
+			} else {
+				formatted.WriteString(fmt.Sprintf("✅ SUCCESS (%v ago): %s\n", timeAgo, note.Content))
+			}
+		case "FAILURE":
+			formatted.WriteString(fmt.Sprintf("❌ FAILURE (%v ago): %s\n", timeAgo, note.Content))
+		case "PATTERN":
+			formatted.WriteString(fmt.Sprintf("🔍 PATTERN (%v ago): %s\n", timeAgo, note.Content))
+		case "STRATEGY":
+			formatted.WriteString(fmt.Sprintf("💡 STRATEGY (%v ago): %s\n", timeAgo, note.Content))
+		case "TIP":
+			formatted.WriteString(fmt.Sprintf("💭 TIP (%v ago): %s\n", timeAgo, note.Content))
+		}
+	}
+
+	formatted.WriteString("\nUse these insights to improve your analysis.\n")
+	return formatted.String()
 }
 
 // Function to display all stored raw responses
@@ -583,6 +808,9 @@ func searchPrayersByLength(db Database, referenceLanguage string, minWords, maxW
 	}
 
 	if len(results) == 0 {
+		// Add automatic failure note
+		addSessionNote(referenceLanguage, "FAILURE",
+			fmt.Sprintf("SEARCH_LENGTH:%d-%d returned no matches", minWords, maxWords), "", 0.0)
 		return []string{fmt.Sprintf("No prayers found with %d-%d words.", minWords, maxWords)}
 	}
 
@@ -657,7 +885,18 @@ func processLLMFunctionCall(db Database, referenceLanguage string, functionCall 
 	if strings.HasPrefix(functionCall, "SEARCH_KEYWORDS:") {
 		keywordStr := strings.TrimPrefix(functionCall, "SEARCH_KEYWORDS:")
 		keywords := strings.Split(keywordStr, ",")
-		return searchPrayersByKeywords(db, referenceLanguage, keywords, 10)
+		results := searchPrayersByKeywords(db, referenceLanguage, keywords, 10)
+
+		// Add automatic note if search was successful
+		if len(results) > 0 && !strings.Contains(results[0], "No prayers found") {
+			addSessionNote(referenceLanguage, "SUCCESS",
+				fmt.Sprintf("SEARCH_KEYWORDS:%s found %d matches", keywordStr, len(results)), "", 0.0)
+		} else {
+			addSessionNote(referenceLanguage, "FAILURE",
+				fmt.Sprintf("SEARCH_KEYWORDS:%s returned no matches", keywordStr), "", 0.0)
+		}
+
+		return results
 	}
 
 	if strings.HasPrefix(functionCall, "SEARCH_LENGTH:") {
@@ -675,7 +914,18 @@ func processLLMFunctionCall(db Database, referenceLanguage string, functionCall 
 
 	if strings.HasPrefix(functionCall, "SEARCH_OPENING:") {
 		openingText := strings.TrimPrefix(functionCall, "SEARCH_OPENING:")
-		return searchPrayersByOpening(db, referenceLanguage, openingText, 10)
+		results := searchPrayersByOpening(db, referenceLanguage, openingText, 10)
+
+		// Add automatic note if search was successful
+		if len(results) > 0 && !strings.Contains(results[0], "No prayers found") {
+			addSessionNote(referenceLanguage, "SUCCESS",
+				fmt.Sprintf("SEARCH_OPENING:'%s' found %d matches", openingText, len(results)), "", 0.0)
+		} else {
+			addSessionNote(referenceLanguage, "FAILURE",
+				fmt.Sprintf("SEARCH_OPENING:'%s' returned no matches", openingText), "", 0.0)
+		}
+
+		return results
 	}
 
 	if strings.HasPrefix(functionCall, "GET_FULL_TEXT:") {
@@ -688,6 +938,105 @@ func processLLMFunctionCall(db Database, referenceLanguage string, functionCall 
 		return getPartialTextByPhelps(db, referenceLanguage, args)
 	}
 
+	if strings.HasPrefix(functionCall, "ADD_NOTE:") {
+		args := strings.TrimSpace(strings.TrimPrefix(functionCall, "ADD_NOTE:"))
+		parts := strings.SplitN(args, ",", 2)
+		if len(parts) == 2 {
+			noteType := strings.TrimSpace(parts[0])
+			content := strings.TrimSpace(parts[1])
+
+			// Validate note type
+			validTypes := []string{"SUCCESS", "FAILURE", "PATTERN", "STRATEGY", "TIP"}
+			isValid := false
+			for _, validType := range validTypes {
+				if strings.ToUpper(noteType) == validType {
+					noteType = validType
+					isValid = true
+					break
+				}
+			}
+
+			if !isValid {
+				return []string{fmt.Sprintf("Invalid note type '%s'. Valid types: SUCCESS, FAILURE, PATTERN, STRATEGY, TIP", noteType)}
+			}
+
+			addSessionNote(referenceLanguage, noteType, content, "", 0.0)
+			return []string{fmt.Sprintf("Note added: [%s] %s", noteType, content)}
+		}
+		return []string{"Invalid ADD_NOTE format. Use: ADD_NOTE:type,content (e.g., ADD_NOTE:PATTERN,French prayers often use 'Seigneur' for 'Lord')"}
+	}
+
+	if strings.HasPrefix(functionCall, "SEARCH_NOTES:") {
+		query := strings.TrimSpace(strings.TrimPrefix(functionCall, "SEARCH_NOTES:"))
+
+		// Parse query for filters like "type=PATTERN query text"
+		parts := strings.Fields(query)
+		var searchQuery, noteType, language string
+
+		for i, part := range parts {
+			if strings.HasPrefix(part, "type=") {
+				noteType = strings.TrimPrefix(part, "type=")
+				parts = append(parts[:i], parts[i+1:]...)
+				break
+			} else if strings.HasPrefix(part, "lang=") {
+				language = strings.TrimPrefix(part, "lang=")
+				parts = append(parts[:i], parts[i+1:]...)
+				break
+			}
+		}
+
+		if len(parts) > 0 {
+			searchQuery = strings.Join(parts, " ")
+		}
+
+		matches := searchSessionNotes(searchQuery, noteType, language)
+
+		if len(matches) == 0 {
+			return []string{"No notes found matching your search criteria."}
+		}
+
+		var results []string
+		results = append(results, fmt.Sprintf("Found %d matching notes:", len(matches)))
+
+		for _, note := range matches {
+			timeAgo := time.Since(note.Timestamp).Round(time.Minute)
+			results = append(results, fmt.Sprintf("[%s] %s (%v ago): %s",
+				note.NoteType, note.Language, timeAgo, note.Content))
+		}
+
+		return results
+	}
+
+	if strings.HasPrefix(functionCall, "CLEAR_NOTES:") {
+		criteria := strings.TrimSpace(strings.TrimPrefix(functionCall, "CLEAR_NOTES:"))
+
+		// Parse criteria like "type=FAILURE" or "older_than=30m" or "lang=fr"
+		var noteType, language string
+		var olderThan time.Duration
+
+		parts := strings.Split(criteria, " ")
+		for _, part := range parts {
+			if strings.HasPrefix(part, "type=") {
+				noteType = strings.TrimPrefix(part, "type=")
+			} else if strings.HasPrefix(part, "lang=") {
+				language = strings.TrimPrefix(part, "lang=")
+			} else if strings.HasPrefix(part, "older_than=") {
+				durationStr := strings.TrimPrefix(part, "older_than=")
+				if duration, err := time.ParseDuration(durationStr); err == nil {
+					olderThan = duration
+				}
+			}
+		}
+
+		removed := removeSessionNotes(noteType, language, olderThan)
+
+		if removed == 0 {
+			return []string{"No notes matched the removal criteria."}
+		}
+
+		return []string{fmt.Sprintf("Removed %d notes matching criteria: %s", removed, criteria)}
+	}
+
 	if strings.HasPrefix(functionCall, "FINAL_ANSWER:") {
 		args := strings.TrimSpace(strings.TrimPrefix(functionCall, "FINAL_ANSWER:"))
 		return processFinalAnswer(args)
@@ -695,10 +1044,27 @@ func processLLMFunctionCall(db Database, referenceLanguage string, functionCall 
 
 	if functionCall == "GET_STATS" {
 		phelpsContext := buildPhelpsContext(db, referenceLanguage)
-		return []string{fmt.Sprintf("Database contains %d prayers with context for matching.", len(phelpsContext))}
+		stats := getSessionNotesStats()
+
+		result := []string{
+			fmt.Sprintf("Database contains %d prayers with context for matching.", len(phelpsContext)),
+			fmt.Sprintf("Session notes: %d total", stats["total"]),
+		}
+
+		if stats["total"] > 0 {
+			result = append(result, "Note breakdown:")
+			for noteType := range map[string]bool{"SUCCESS": true, "FAILURE": true, "PATTERN": true, "STRATEGY": true, "TIP": true} {
+				key := "type_" + strings.ToLower(noteType)
+				if count, exists := stats[key]; exists && count > 0 {
+					result = append(result, fmt.Sprintf("  %s: %d", noteType, count))
+				}
+			}
+		}
+
+		return result
 	}
 
-	return []string{"Unknown function. Available functions: SEARCH_KEYWORDS:word1,word2,word3 | SEARCH_LENGTH:min-max | SEARCH_OPENING:text | GET_FULL_TEXT:phelps_code | GET_PARTIAL_TEXT:phelps_code,range | FINAL_ANSWER:phelps_code,confidence,reasoning | GET_STATS"}
+	return []string{"Unknown function. Available functions: SEARCH_KEYWORDS:word1,word2,word3 | SEARCH_LENGTH:min-max | SEARCH_OPENING:text | GET_FULL_TEXT:phelps_code | GET_PARTIAL_TEXT:phelps_code,range | ADD_NOTE:type,content | SEARCH_NOTES:query | CLEAR_NOTES:criteria | FINAL_ANSWER:phelps_code,confidence,reasoning | GET_STATS"}
 }
 
 // Get full text of a prayer by Phelps code
@@ -947,6 +1313,9 @@ AVAILABLE FUNCTIONS:
 - SEARCH_OPENING:text                (Search by similar opening text in %s, e.g., SEARCH_OPENING:O Lord my God)
 - GET_FULL_TEXT:phelps_code          (Get complete prayer text, e.g., GET_FULL_TEXT:AB00001FIR)
 - GET_PARTIAL_TEXT:phelps_code,range (Get part of prayer, e.g., GET_PARTIAL_TEXT:AB00001FIR,100-500 or GET_PARTIAL_TEXT:AB00001FIR,from:Lord,to:Amen)
+- ADD_NOTE:type,content              (Leave a note for future prayers, e.g., ADD_NOTE:PATTERN,French prayers often use 'Seigneur' for 'Lord')
+- SEARCH_NOTES:query                 (Search session notes, e.g., SEARCH_NOTES:French or SEARCH_NOTES:PATTERN or SEARCH_NOTES:)
+- CLEAR_NOTES:criteria               (Remove old notes, e.g., CLEAR_NOTES:type=FAILURE or CLEAR_NOTES:older_than=30m)
 - FINAL_ANSWER:phelps_code,confidence,reasoning (Submit final match, e.g., FINAL_ANSWER:AB00001FIR,85,This prayer matches based on distinctive phrases)
 - GET_STATS                          (Get database statistics)
 
@@ -971,7 +1340,7 @@ FINAL_ANSWER:UNKNOWN,0,Explanation of why no match was found
 
 Database size: %d prayers available for searching (reference: %s)
 
-`, targetLanguage, referenceLanguage, referenceLanguage, targetLanguage, referenceLanguage, referenceLanguage, len(phelpsContext), referenceLanguage)
+%s`, targetLanguage, referenceLanguage, referenceLanguage, targetLanguage, referenceLanguage, referenceLanguage, len(phelpsContext), referenceLanguage, formatNotesForPrompt(getRelevantNotes(targetLanguage)))
 
 	return header
 }
@@ -1002,21 +1371,22 @@ func callLLMInteractive(db Database, referenceLanguage string, prompt string, us
 
 		if useGemini {
 			// Try Gemini first, fallback to Ollama
-			response, geminiErr := callLLM(messages[len(messages)-1].Content, useGemini, textLength)
-			if geminiErr == nil {
-				rawResponse = response.Reasoning
-				if rawResponse == "" {
-					rawResponse = fmt.Sprintf("Phelps: %s\nConfidence: %.1f\nReasoning: %s",
-						response.PhelpsCode, response.Confidence*100, response.Reasoning)
-				}
+			geminiResponse, geminiErr := CallGemini(messages[len(messages)-1].Content)
+			if geminiErr == nil && strings.TrimSpace(geminiResponse) != "" {
+				rawResponse = geminiResponse
 			} else {
 				// Check if this is a quota exceeded error
-				errorStr := strings.ToLower(geminiErr.Error())
-				if strings.Contains(errorStr, "quota") && (strings.Contains(errorStr, "exceeded") || strings.Contains(errorStr, "exhausted")) {
-					atomic.StoreInt32(&geminiQuotaExceeded, 1)
-					fmt.Printf("    ⚠️  Gemini quota exceeded - switching to Ollama for remaining requests\n")
-					log.Printf("Gemini quota exceeded - continuing with Ollama only")
-					useGemini = false // Disable Gemini for remaining rounds
+				if geminiErr != nil {
+					errorStr := strings.ToLower(geminiErr.Error())
+					if strings.Contains(errorStr, "quota") && (strings.Contains(errorStr, "exceeded") || strings.Contains(errorStr, "exhausted")) {
+						atomic.StoreInt32(&geminiQuotaExceeded, 1)
+						fmt.Printf("    ⚠️  Gemini quota exceeded - switching to Ollama for remaining requests\n")
+						log.Printf("Gemini quota exceeded - continuing with Ollama only")
+						useGemini = false // Disable Gemini for remaining rounds
+					}
+					log.Printf("2025/09/22 00:47:04 Gemini returned empty/invalid response (PhelpsCode empty), falling back to Ollama")
+					truncatedResponse := truncateAndStore(geminiErr.Error(), "Gemini")
+					log.Printf("2025/09/22 00:47:04 Gemini raw response: %q", truncatedResponse)
 				}
 
 				// Fallback to Ollama API
@@ -1084,6 +1454,18 @@ func callLLMInteractive(db Database, referenceLanguage string, prompt string, us
 				}
 
 				fmt.Printf("    ✅ Valid final answer received via tool call!\n")
+
+				// Add a success note if we got a valid match
+				if phelpsCode != "UNKNOWN" && confidence > 0.7 {
+					addSessionNote(referenceLanguage, "SUCCESS",
+						fmt.Sprintf("Successfully matched prayer using interactive search"),
+						phelpsCode, confidence)
+
+					// Also add a pattern note about the successful strategy
+					addSessionNote(referenceLanguage, "PATTERN",
+						fmt.Sprintf("Interactive search workflow successful for %s prayers", referenceLanguage), "", 0.0)
+				}
+
 				return LLMResponse{
 					PhelpsCode: phelpsCode,
 					Confidence: confidence,
@@ -1098,6 +1480,18 @@ func callLLMInteractive(db Database, referenceLanguage string, prompt string, us
 
 		if finalAnswer.IsValid && len(otherCalls) == 0 && len(invalidCalls) == 0 {
 			fmt.Printf("    ✅ Valid final answer received!\n")
+
+			// Add a success note if we got a valid match
+			if finalAnswer.Response.PhelpsCode != "UNKNOWN" && finalAnswer.Response.Confidence > 0.7 {
+				addSessionNote(referenceLanguage, "SUCCESS",
+					fmt.Sprintf("Successfully matched prayer using legacy format"),
+					finalAnswer.Response.PhelpsCode, finalAnswer.Response.Confidence)
+
+				// Add strategy note about legacy format working
+				addSessionNote(referenceLanguage, "STRATEGY",
+					fmt.Sprintf("Legacy format worked well for %s prayers", referenceLanguage), "", 0.0)
+			}
+
 			return finalAnswer.Response, nil
 		}
 
@@ -1117,6 +1511,9 @@ func callLLMInteractive(db Database, referenceLanguage string, prompt string, us
 			systemMessage += "- SEARCH_OPENING:text\n"
 			systemMessage += "- GET_FULL_TEXT:phelps_code\n"
 			systemMessage += "- GET_PARTIAL_TEXT:phelps_code,range\n"
+			systemMessage += "- ADD_NOTE:type,content\n"
+			systemMessage += "- SEARCH_NOTES:query\n"
+			systemMessage += "- CLEAR_NOTES:criteria\n"
 			systemMessage += "- FINAL_ANSWER:phelps_code,confidence,reasoning\n"
 			systemMessage += "- GET_STATS\n"
 			systemMessage += "\nPlease use the correct format and try again:"
@@ -1169,6 +1566,8 @@ func callLLMInteractive(db Database, referenceLanguage string, prompt string, us
 
 	// If we've reached max rounds without a final answer, return unknown
 	fmt.Printf("    ⚠️  Maximum conversation rounds exceeded\n")
+	addSessionNote(referenceLanguage, "FAILURE",
+		"Interactive search exceeded maximum conversation rounds without finding a match", "", 0.0)
 	return LLMResponse{
 		PhelpsCode: "UNKNOWN",
 		Confidence: 0.0,
@@ -1210,6 +1609,9 @@ func extractAllFunctionCalls(text string) ([]string, []InvalidFunctionCall) {
 			strings.HasPrefix(line, "SEARCH_OPENING:") ||
 			strings.HasPrefix(line, "GET_FULL_TEXT:") ||
 			strings.HasPrefix(line, "GET_PARTIAL_TEXT:") ||
+			strings.HasPrefix(line, "ADD_NOTE:") ||
+			strings.HasPrefix(line, "SEARCH_NOTES:") ||
+			strings.HasPrefix(line, "CLEAR_NOTES:") ||
 			strings.HasPrefix(line, "FINAL_ANSWER:") ||
 			line == "GET_STATS" {
 			validCalls = append(validCalls, line)
@@ -1309,6 +1711,9 @@ func extractAllFunctionCalls(text string) ([]string, []InvalidFunctionCall) {
 			strings.Contains(upperLine, "SEARCH_OPENING") ||
 			strings.Contains(upperLine, "GET_FULL_TEXT") ||
 			strings.Contains(upperLine, "GET_PARTIAL_TEXT") ||
+			strings.Contains(upperLine, "ADD_NOTE") ||
+			strings.Contains(upperLine, "SEARCH_NOTES") ||
+			strings.Contains(upperLine, "CLEAR_NOTES") ||
 			strings.Contains(upperLine, "FINAL_ANSWER") ||
 			strings.Contains(upperLine, "GET_STATS") {
 
@@ -1318,6 +1723,9 @@ func extractAllFunctionCalls(text string) ([]string, []InvalidFunctionCall) {
 				!strings.HasPrefix(line, "SEARCH_OPENING:") &&
 				!strings.HasPrefix(line, "GET_FULL_TEXT:") &&
 				!strings.HasPrefix(line, "GET_PARTIAL_TEXT:") &&
+				!strings.HasPrefix(line, "ADD_NOTE:") &&
+				!strings.HasPrefix(line, "SEARCH_NOTES:") &&
+				!strings.HasPrefix(line, "CLEAR_NOTES:") &&
 				!strings.HasPrefix(line, "FINAL_ANSWER:") &&
 				line != "GET_STATS" {
 
@@ -2902,8 +3310,22 @@ func main() {
 	var noPriority = flag.Bool("no-priority", false, "Disable priority language system: process smallest languages first")
 	var testPrompt = flag.Bool("test-prompt", false, "Show the LLM prompt that would be generated and exit")
 	var legacyMode = flag.Bool("legacy", false, "Use legacy mode with full prayer contexts in prompt (not interactive)")
+	var clearNotesAge = flag.String("clear-notes", "", "Clear session notes older than duration (e.g., 30m, 2h)")
 
 	flag.Parse()
+
+	// Clear old session notes if requested
+	if *clearNotesAge != "" {
+		if duration, err := time.ParseDuration(*clearNotesAge); err == nil {
+			removed := clearOldSessionNotes(duration)
+			if removed > 0 {
+				fmt.Printf("Cleared %d session notes older than %s\n", removed, *clearNotesAge)
+			}
+		} else {
+			fmt.Printf("Invalid duration format: %s. Use formats like '30m', '2h', '24h'\n", *clearNotesAge)
+			return
+		}
+	}
 
 	if *showHelp {
 		fmt.Printf("Bahá'í Prayers LLM Language Matcher\n")
@@ -2924,6 +3346,7 @@ func main() {
 		fmt.Printf("  %s -continue -no-priority          # Process smallest languages first\n", os.Args[0])
 		fmt.Printf("  %s -test-prompt -language=es       # Show LLM prompt for Spanish prayers\n", os.Args[0])
 		fmt.Printf("  %s -legacy -language=es            # Use legacy mode with full contexts\n", os.Args[0])
+		fmt.Printf("  %s -clear-notes=2h                 # Clear session notes older than 2 hours\n", os.Args[0])
 		fmt.Printf("  %s -help                           # Show this help message\n", os.Args[0])
 		fmt.Printf("\nTroubleshooting:\n")
 		fmt.Printf("  If Ollama fails, ensure it's installed and the model is available:\n")
@@ -3176,5 +3599,19 @@ func main() {
 	// Show raw responses if requested
 	if *showRaw {
 		showStoredRawResponses()
+	}
+
+	// Show final session notes statistics
+	stats := getSessionNotesStats()
+	if stats["total"] > 0 {
+		fmt.Printf("\n📝 Session Notes Summary:\n")
+		fmt.Printf("Total notes created: %d\n", stats["total"])
+		for noteType := range map[string]bool{"SUCCESS": true, "FAILURE": true, "PATTERN": true, "STRATEGY": true, "TIP": true} {
+			key := "type_" + strings.ToLower(noteType)
+			if count, exists := stats[key]; exists && count > 0 {
+				fmt.Printf("  %s: %d\n", noteType, count)
+			}
+		}
+		fmt.Printf("These notes helped the LLM learn patterns during this session.\n")
 	}
 }
