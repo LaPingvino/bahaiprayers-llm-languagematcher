@@ -1,7 +1,7 @@
 Prayer Matching Report
 =====================
-Started: 2025-09-22T01:06:38+01:00
-Target Language: fr
+Started: 2025-09-22T23:13:06+01:00
+Target Language: es
 Reference Language: en
 Lucky Mode: false
 Continue Mode: false
