@@ -1,7 +1,7 @@
 Prayer Matching Report
 =====================
-Started: 2025-09-26T21:53:58+01:00
-Target Language: fa-translit
+Started: 2025-09-26T22:32:19+01:00
+Target Language: ar,fa
 Reference Language: en
 Operation Mode: translit
 Lucky Mode: false
@@ -15,5 +15,8 @@ Max Prayers: 0
 Verbose Mode: true
 
 Database loaded successfully
-Database size: 9000 writings, 120 languages, 162 match attempts, 3 language pairs, 0 skip entries
-Processing writing:  (Version: 011d5894-1bab-4c39-b9e8-7ead5b8b9c81)
+Processing multiple languages: [ar fa]
+Database size: 9000 writings, 120 languages, 163 match attempts, 3 language pairs, 0 skip entries
+
+=== Language 1/2: ar ===
+Processing writing:  (Version: 1b5c1593-5e10-4f83-ba2f-1640ccf32983)

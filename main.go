@@ -1469,11 +1469,15 @@ func sanitizeKeywords(keywordStr string) []string {
 }
 
 func processLLMFunctionCall(db Database, referenceLanguage string, functionCall string) []string {
+	return processLLMFunctionCallWithMode(db, referenceLanguage, functionCall, "")
+}
+
+func processLLMFunctionCallWithMode(db Database, referenceLanguage string, functionCall string, operationMode string) []string {
 	functionCall = strings.TrimSpace(functionCall)
 
 	// Use extensible system to find and execute the function
 	for _, handler := range registeredFunctions {
-		if handler.Validate(functionCall) {
+		if handler.Validate(functionCall) && (operationMode == "" || handler.IsEnabledForMode(operationMode)) {
 			return handler.Execute(db, referenceLanguage, functionCall)
 		}
 	}
@@ -2228,49 +2232,60 @@ func prepareLLMHeaderWithMode(db Database, targetLanguage, referenceLanguage str
 	var modeGuidance string
 	switch operationMode {
 	case "match":
-		modeGuidance = `MODE: MATCH ONLY - Find existing Phelps codes only. Use UNKNOWN if no match found.`
+		modeGuidance = `MODE: MATCH ONLY
+🎯 GOAL: Find existing Phelps codes. Use UNKNOWN if no match found.
+
+SIMPLE WORKFLOW:
+1. SEARCH:keywords,opening_phrase,length_range (e.g., SEARCH:lord,god,O Lord my God,100-200)
+2. GET_FULL_TEXT:phelps_code (check top candidates)
+3. FINAL_ANSWER:phelps_code,confidence,reasoning OR UNKNOWN if no match`
+
 	case "match-add":
-		modeGuidance = `MODE: MATCH-ADD - Try matching first. If no match found, create new Phelps code from inventory.
+		modeGuidance = `MODE: MATCH-ADD
+🎯 GOAL: Try matching first. If no match found, create new code from inventory.
 
-NEW CODE WORKFLOW (when no match found):
-1. SEARCH_INVENTORY:keywords,language - find potential source documents
-2. CHECK_TAG:PIN - see existing tags for that document
-3. ADD_NEW_PRAYER:new_phelps_code,confidence,reasoning - create new code
-4. FINAL_ANSWER:new_phelps_code,confidence,reasoning - complete assignment
+SIMPLE WORKFLOW:
+Step 1 - TRY MATCHING:
+1. SEARCH:keywords,opening_phrase,length_range
+2. GET_FULL_TEXT:phelps_code (check candidates)
+3. If good match: FINAL_ANSWER:phelps_code,confidence,reasoning
 
-PHELPS CODE FORMAT:
-- Entire document: Use PIN directly (e.g., AB00156)
-- Part of document: Use PIN + 3-letter tag (e.g., AB00001FIR, AB00001SHI)
-- Choose logical tags: FIR (first), SEC (second), etc. or meaningful abbreviations`
+Step 2 - IF NO MATCH (confidence <70):
+1. SEARCH_INVENTORY:keywords,language
+2. CHECK_TAG:PIN (see existing tags)
+3. ADD_NEW_PRAYER:new_code,confidence,reasoning
+4. FINAL_ANSWER:new_code,confidence,reasoning`
+
 	case "add-only":
-		modeGuidance = `MODE: ADD-ONLY - Skip matching, create new Phelps codes from inventory only.
-⚠️  BEST RESULTS: English (Eng), Arabic (Ara), Persian (Per) - other languages have limited inventory coverage.
+		modeGuidance = `MODE: ADD-ONLY
+🎯 GOAL: Skip matching, create new codes from inventory only.
+⚠️  WORKS BEST: English, Arabic, Persian (limited other languages)
 
-ADD-ONLY WORKFLOW:
-1. SEARCH_INVENTORY:keywords,language - find source document in inventory
-2. CHECK_TAG:PIN - see what tags already exist for that PIN
-3. ADD_NEW_PRAYER:new_phelps_code,confidence,reasoning - create new code
-4. FINAL_ANSWER:new_phelps_code,confidence,reasoning - complete assignment
+SIMPLE WORKFLOW:
+1. SEARCH_INVENTORY:keywords,language
+2. CHECK_TAG:PIN (see what tags exist)
+3. ADD_NEW_PRAYER:new_code,confidence,reasoning
+4. FINAL_ANSWER:new_code,confidence,reasoning
 
-Do NOT use SEARCH or other matching functions - go straight to inventory search.`
+❌ DO NOT use SEARCH functions - go straight to inventory!`
+
 	case "translit":
-		modeGuidance = `MODE: TRANSLITERATION - Match/correct Arabic or Persian transliteration.
+		modeGuidance = `MODE: TRANSLITERATION
+🎯 GOAL: Match original Arabic/Persian text, then check/fix transliteration.
 
-TRANSLIT WORKFLOW:
-1. Find corresponding original (ar/fa) version using existing Phelps code
-2. Compare transliteration quality against Bahá'í transliteration standards
-3. If poor quality: CORRECT_TRANSLITERATION with improved version
-4. If good quality: FINAL_ANSWER with existing code
-5. If no corresponding version: treat as regular matching
+SIMPLE WORKFLOW:
+1. SEARCH:keywords,opening_phrase,length_range (match the ORIGINAL text)
+2. GET_FULL_TEXT:phelps_code (verify match)
+3. CHECK_TRANSLIT_CONSISTENCY:phelps_code (check transliteration quality)
+4. If transliteration needs fixing: CORRECT_TRANSLITERATION:phelps_code,confidence,corrected_text
+5. FINAL_ANSWER:phelps_code,confidence,reasoning
 
-TRANSLITERATION STANDARDS:
-- Arabic: Use proper Bahá'í transliteration (not academic)
-- Persian: Follow Bahá'í conventions for names and terms
-- Preserve sacred names and technical terms accurately
-- Focus on readability for Bahá'í community
-
-Only works with ar-translit and fa-translit languages.`
+💡 KEY: Match original text first, then check/fix transliteration quality`
 	}
+
+	// Get mode-specific function list and descriptions
+	availableFunctions := generateConciseFunctionListForMode(operationMode)
+	functionDescriptions := generateFunctionDescriptionsForMode(operationMode)
 
 	header := fmt.Sprintf(`TASK: Match prayer text in %s to Phelps code. RESPOND ONLY WITH FUNCTION CALLS.
 
@@ -2278,49 +2293,28 @@ Only works with ar-translit and fa-translit languages.`
 
 Current reference language: %s (use SWITCH_REFERENCE_LANGUAGE if needed)
 
-CRITICAL RULES:
-1. DO NOT write explanatory text, questions, or conversation
-2. DO NOT ask what I want you to do - just do the task
-3. EVERY response MUST contain valid function calls
-4. NO conversational responses allowed
-5. If unsure, use more searches then FINAL_ANSWER
-6. You have maximum 10 rounds - optimize your search strategy
+🚨 CRITICAL RULES:
+1. RESPOND ONLY WITH FUNCTION CALLS - NO text, questions, or explanations
+2. EVERY response MUST contain valid function calls
+3. START IMMEDIATELY - don't ask what to do
+4. Maximum 10 rounds - be efficient
+5. If unsure, do more searches then FINAL_ANSWER
 
-SEARCH examples (ALWAYS COMBINE multiple criteria):
-- SEARCH:lord,god,mercy,100-200 (keywords + length - PREFERRED)
-- SEARCH:lord,god,O Lord my God,100-200 (keywords + opening + length - BEST)
-- SEARCH:mercy,compassion,O Thou Compassionate,150-300 (full combination)
+📋 AVAILABLE FUNCTIONS FOR THIS MODE:
+%s
 
-AVOID separate searches - always combine criteria in ONE search!
+%s
 
-STANDARD WORKFLOW (match/match-add modes):
-1. Use ONE combined SEARCH with keywords + opening phrase + length range
-2. Get full text of top candidates
-3. Use GET_FOCUS_TEXT to verify multiple candidates (keyword or 'head'/'tail')
-4. Use FINAL_ANSWER:code,confidence,reasoning
-
-ROUND MANAGEMENT:
-- You start with 10 rounds maximum
-- Use EXTEND_ROUNDS:reason if you're making progress but need more time
-- Must specify what progress you've made or what you need to verify
-- Extensions get smaller after 10 total extensions (10→7→5 rounds)
-- Maximum 30 total extensions allowed
-- Don't extend just to avoid making a decision
-
-IMPORTANT: Use combined searches, NOT multiple separate searches!
+⚡ EFFICIENCY TIPS:
+- Combine multiple criteria in ONE search (keywords + opening + length)
+- Use EXTEND_ROUNDS:reason if making progress but need more time
+- Don't do separate searches - combine everything in one SEARCH call
 
 SEARCH LANGUAGE: All searches use %s terms only
 CONFIDENCE: Use >70 for match, UNKNOWN if <70
 
-Example response format:
-SEARCH:god,lord,assistance,O God my Lord,100-200
-GET_FULL_TEXT:AB00001FIR
-
-Database: %d prayers (%s)
-%s
-
-AVAILABLE FUNCTIONS:
-%s`, targetLanguage, modeGuidance, referenceLanguage, referenceLanguage, len(phelpsContext), referenceLanguage, formatNotesForPrompt(getRelevantNotes(targetLanguage)), generateFunctionHelp())
+PHELPS CODE EXAMPLES (for context):
+%s`, targetLanguage, modeGuidance, referenceLanguage, availableFunctions, functionDescriptions, referenceLanguage, phelpsContext)
 
 	return header
 }
@@ -2560,7 +2554,7 @@ func callLLMInteractive(db Database, currentReferenceLanguage string, prompt str
 
 			for _, functionCall := range functionCalls {
 				fmt.Printf("       📞 %s\n", functionCall)
-				results := processLLMFunctionCall(db, activeReferenceLanguage, functionCall)
+				results := processLLMFunctionCallWithMode(db, activeReferenceLanguage, functionCall, operationMode)
 
 				// Check for reference language change or round extension
 				for _, result := range results {
@@ -2683,17 +2677,19 @@ type FunctionCallHandler interface {
 	Execute(db Database, referenceLanguage string, call string) []string // process the function call
 	GetDescription() string                                              // description for LLM help text
 	GetUsageExample() string                                             // usage example for LLM help text
+	IsEnabledForMode(operationMode string) bool                          // check if function is enabled for the given mode
 }
 
 // PrefixFunction handles functions that require arguments (PREFIX:args)
 type PrefixFunction struct {
-	Prefix      string
-	Keywords    []string
-	JSONPattern string
+	Prefix       string
+	Keywords     []string
+	JSONPattern  string
+	EnabledModes []string // Empty slice means enabled for all modes
 }
 
 func (p PrefixFunction) GetPattern() string {
-	return p.Prefix
+	return p.Prefix + ":"
 }
 
 func (p PrefixFunction) IsStandalone() bool {
@@ -2713,23 +2709,37 @@ func (p PrefixFunction) GetJSONPattern() string {
 }
 
 func (p PrefixFunction) Execute(db Database, referenceLanguage string, call string) []string {
-	// Default implementation - should be overridden by specific functions
 	return []string{"Function not implemented"}
 }
 
 func (p PrefixFunction) GetDescription() string {
-	return p.Prefix + "args (generic prefix function)"
+	return "Generic prefix function"
 }
 
 func (p PrefixFunction) GetUsageExample() string {
-	return p.Prefix + "example"
+	return p.Prefix + ":example"
+}
+
+func (p PrefixFunction) IsEnabledForMode(operationMode string) bool {
+	// If no modes specified, enabled for all modes
+	if len(p.EnabledModes) == 0 {
+		return true
+	}
+	// Check if the operation mode is in the enabled modes list
+	for _, mode := range p.EnabledModes {
+		if mode == operationMode {
+			return true
+		}
+	}
+	return false
 }
 
 // StandaloneFunction handles functions that don't require arguments
 type StandaloneFunction struct {
-	Name        string
-	Keywords    []string
-	JSONPattern string
+	Name         string
+	Keywords     []string
+	JSONPattern  string
+	EnabledModes []string // Empty slice means enabled for all modes
 }
 
 func (s StandaloneFunction) GetPattern() string {
@@ -2741,7 +2751,7 @@ func (s StandaloneFunction) IsStandalone() bool {
 }
 
 func (s StandaloneFunction) Validate(call string) bool {
-	return call == s.Name
+	return strings.TrimSpace(call) == s.Name
 }
 
 func (s StandaloneFunction) GetKeywords() []string {
@@ -2753,16 +2763,29 @@ func (s StandaloneFunction) GetJSONPattern() string {
 }
 
 func (s StandaloneFunction) Execute(db Database, referenceLanguage string, call string) []string {
-	// Default implementation - should be overridden by specific functions
 	return []string{"Function not implemented"}
 }
 
 func (s StandaloneFunction) GetDescription() string {
-	return s.Name + " (generic standalone function)"
+	return "Generic standalone function"
 }
 
 func (s StandaloneFunction) GetUsageExample() string {
 	return s.Name
+}
+
+func (s StandaloneFunction) IsEnabledForMode(operationMode string) bool {
+	// If no modes specified, enabled for all modes
+	if len(s.EnabledModes) == 0 {
+		return true
+	}
+	// Check if the operation mode is in the enabled modes list
+	for _, mode := range s.EnabledModes {
+		if mode == operationMode {
+			return true
+		}
+	}
+	return false
 }
 
 // Specific function implementations
@@ -2852,6 +2875,10 @@ func (g GetStatsFunction) GetUsageExample() string {
 	return "GET_STATS"
 }
 
+func (g GetStatsFunction) IsEnabledInMode(mode string) bool {
+	return true // Enabled in all modes
+}
+
 // Additional function implementations
 type SearchKeywordsFunction struct{ PrefixFunction }
 
@@ -2919,7 +2946,11 @@ func (g GetFullTextFunction) GetDescription() string {
 	return "GET_FULL_TEXT:phelps_code (get complete prayer text)"
 }
 func (g GetFullTextFunction) GetUsageExample() string {
-	return "GET_FULL_TEXT:AB00001FIR"
+	return "GET_FULL_TEXT:AB00001"
+}
+
+func (g GetFullTextFunction) IsEnabledInMode(mode string) bool {
+	return true // Enabled in all modes
 }
 
 type GetFocusTextFunction struct{ PrefixFunction }
@@ -2951,7 +2982,11 @@ func (g GetPartialTextFunction) GetDescription() string {
 	return "GET_PARTIAL_TEXT:phelps_code,range (get excerpt from prayer)"
 }
 func (g GetPartialTextFunction) GetUsageExample() string {
-	return "GET_PARTIAL_TEXT:AB00001FIR,1-50"
+	return "GET_PARTIAL_TEXT:AB00001,1,5"
+}
+
+func (g GetPartialTextFunction) IsEnabledInMode(mode string) bool {
+	return true // Enabled in all modes
 }
 
 type AddNoteFunction struct{ PrefixFunction }
@@ -2994,7 +3029,11 @@ func (s SearchNotesFunction) GetDescription() string {
 	return "SEARCH_NOTES:query (search session notes)"
 }
 func (s SearchNotesFunction) GetUsageExample() string {
-	return "SEARCH_NOTES:mercy"
+	return "SEARCH_NOTES:unity"
+}
+
+func (s SearchNotesFunction) IsEnabledInMode(mode string) bool {
+	return true // Enabled in all modes
 }
 
 type ClearNotesFunction struct{ PrefixFunction }
@@ -3042,6 +3081,10 @@ func (s SwitchReferenceLanguageFunction) GetUsageExample() string {
 	return "SWITCH_REFERENCE_LANGUAGE:es"
 }
 
+func (s SwitchReferenceLanguageFunction) IsEnabledInMode(mode string) bool {
+	return true // Enabled in all modes
+}
+
 type FinalAnswerFunction struct{ PrefixFunction }
 
 func (f FinalAnswerFunction) Execute(db Database, referenceLanguage string, call string) []string {
@@ -3082,6 +3125,10 @@ func (l ListReferenceLanguagesFunction) GetDescription() string {
 }
 func (l ListReferenceLanguagesFunction) GetUsageExample() string {
 	return "LIST_REFERENCE_LANGUAGES"
+}
+
+func (l ListReferenceLanguagesFunction) IsEnabledInMode(mode string) bool {
+	return true // Enabled in all modes
 }
 
 type SearchInventoryFunction struct{ PrefixFunction }
@@ -3276,7 +3323,11 @@ func (c CheckTagFunction) GetDescription() string {
 }
 
 func (c CheckTagFunction) GetUsageExample() string {
-	return "CHECK_TAG:AB00001"
+	return "CHECK_TAG:AB00156"
+}
+
+func (c CheckTagFunction) IsEnabledInMode(mode string) bool {
+	return mode == "match-add" || mode == "add-only" // Only enabled in add modes
 }
 
 type AddNewPrayerFunction struct{ PrefixFunction }
@@ -3446,6 +3497,10 @@ func (c CorrectTransliterationFunction) GetUsageExample() string {
 	return "CORRECT_TRANSLITERATION:AB00001FIR,90,O Thou Who art the Lord of all names..."
 }
 
+func (c CorrectTransliterationFunction) IsEnabledInMode(mode string) bool {
+	return mode == "translit" || mode == "match" || mode == "match-add" // Enabled when transliteration work is relevant
+}
+
 type CheckTranslitConsistencyFunction struct{ PrefixFunction }
 
 func (c CheckTranslitConsistencyFunction) Execute(db Database, referenceLanguage string, call string) []string {
@@ -3539,6 +3594,10 @@ func (c CheckTranslitConsistencyFunction) GetUsageExample() string {
 	return "CHECK_TRANSLIT_CONSISTENCY:AB00001FIR"
 }
 
+func (c CheckTranslitConsistencyFunction) IsEnabledInMode(mode string) bool {
+	return mode == "translit" || mode == "match" || mode == "match-add" // Enabled when transliteration work is relevant
+}
+
 type FindOriginalVersionFunction struct{ PrefixFunction }
 
 func (f FindOriginalVersionFunction) Execute(db Database, referenceLanguage string, call string) []string {
@@ -3604,12 +3663,25 @@ func (f FindOriginalVersionFunction) GetUsageExample() string {
 	return "FIND_ORIGINAL_VERSION:AB00001FIR"
 }
 
+func (f FindOriginalVersionFunction) IsEnabledInMode(mode string) bool {
+	return mode == "translit" // Primarily for transliteration mode
+}
+
 // Helper functions for easier function registration
 func NewPrefixFunction(name string) PrefixFunction {
 	return PrefixFunction{
 		Prefix:      name + ":",
 		Keywords:    []string{name},
 		JSONPattern: name,
+	}
+}
+
+func NewPrefixFunctionWithModes(name string, modes []string) PrefixFunction {
+	return PrefixFunction{
+		Prefix:       name + ":",
+		Keywords:     []string{name},
+		JSONPattern:  name,
+		EnabledModes: modes,
 	}
 }
 
@@ -3621,15 +3693,26 @@ func NewStandaloneFunction(name string) StandaloneFunction {
 	}
 }
 
+func NewStandaloneFunctionWithModes(name string, modes []string) StandaloneFunction {
+	return StandaloneFunction{
+		Name:         name,
+		Keywords:     []string{name},
+		EnabledModes: modes,
+	}
+}
+
 // Registry of all supported function calls
 var registeredFunctions = []FunctionCallHandler{
-	SearchFunction{NewPrefixFunction("SEARCH")},
-	SearchKeywordsFunction{NewPrefixFunction("SEARCH_KEYWORDS")},
-	SearchLengthFunction{NewPrefixFunction("SEARCH_LENGTH")},
-	SearchOpeningFunction{NewPrefixFunction("SEARCH_OPENING")},
-	GetFullTextFunction{NewPrefixFunction("GET_FULL_TEXT")},
-	GetFocusTextFunction{NewPrefixFunction("GET_FOCUS_TEXT")},
-	GetPartialTextFunction{NewPrefixFunction("GET_PARTIAL_TEXT")},
+	// Matching functions - disabled in add-only mode
+	SearchFunction{NewPrefixFunctionWithModes("SEARCH", []string{"match", "match-add", "translit"})},
+	SearchKeywordsFunction{NewPrefixFunctionWithModes("SEARCH_KEYWORDS", []string{"match", "match-add", "translit"})},
+	SearchLengthFunction{NewPrefixFunctionWithModes("SEARCH_LENGTH", []string{"match", "match-add", "translit"})},
+	SearchOpeningFunction{NewPrefixFunctionWithModes("SEARCH_OPENING", []string{"match", "match-add", "translit"})},
+	GetFullTextFunction{NewPrefixFunctionWithModes("GET_FULL_TEXT", []string{"match", "match-add", "translit"})},
+	GetFocusTextFunction{NewPrefixFunctionWithModes("GET_FOCUS_TEXT", []string{"match", "match-add", "translit"})},
+	GetPartialTextFunction{NewPrefixFunctionWithModes("GET_PARTIAL_TEXT", []string{"match", "match-add", "translit"})},
+
+	// Universal functions - available in all modes
 	AddNoteFunction{NewPrefixFunction("ADD_NOTE")},
 	SearchNotesFunction{NewPrefixFunction("SEARCH_NOTES")},
 	ClearNotesFunction{NewPrefixFunction("CLEAR_NOTES")},
@@ -3638,9 +3721,13 @@ var registeredFunctions = []FunctionCallHandler{
 	FinalAnswerFunction{NewPrefixFunction("FINAL_ANSWER")},
 	GetStatsFunction{NewStandaloneFunction("GET_STATS")},
 	ListReferenceLanguagesFunction{NewStandaloneFunction("LIST_REFERENCE_LANGUAGES")},
-	SearchInventoryFunction{NewPrefixFunction("SEARCH_INVENTORY")},
-	CheckTagFunction{NewPrefixFunction("CHECK_TAG")},
-	AddNewPrayerFunction{NewPrefixFunction("ADD_NEW_PRAYER")},
+
+	// Inventory functions - available in match-add and add-only modes
+	SearchInventoryFunction{NewPrefixFunctionWithModes("SEARCH_INVENTORY", []string{"match-add", "add-only"})},
+	CheckTagFunction{NewPrefixFunctionWithModes("CHECK_TAG", []string{"match-add", "add-only"})},
+	AddNewPrayerFunction{NewPrefixFunctionWithModes("ADD_NEW_PRAYER", []string{"match-add", "add-only"})},
+
+	// Transliteration functions - available in all modes but priority in translit
 	CorrectTransliterationFunction{NewPrefixFunction("CORRECT_TRANSLITERATION")},
 	FindOriginalVersionFunction{NewPrefixFunction("FIND_ORIGINAL_VERSION")},
 	CheckTranslitConsistencyFunction{NewPrefixFunction("CHECK_TRANSLIT_CONSISTENCY")},
@@ -3648,35 +3735,47 @@ var registeredFunctions = []FunctionCallHandler{
 
 // Helper function to determine if we should check transliteration
 func shouldCheckTransliteration(language, operationMode string) bool {
+	// In translit mode, check all Arabic/Persian variants
 	if operationMode == "translit" {
-		return true
+		return language == "ar" || language == "fa" || language == "ar-translit" || language == "fa-translit"
 	}
-	// Auto-check for ar/fa prayers in any mode
-	return language == "ar" || language == "fa" || language == "ar-translit" || language == "fa-translit"
+	// In all other modes, always check ar/fa originals for transliteration opportunities
+	return language == "ar" || language == "fa"
 }
 
-// Add transliteration context to the prompt
-func addTransliterationContext(db Database, writing Writing, originalPrompt string) string {
-	if !shouldCheckTransliteration(writing.Language, "match") {
+// Add transliteration context to the prompt for all modes
+func addTransliterationContext(db Database, writing Writing, originalPrompt string, operationMode string) string {
+	if !shouldCheckTransliteration(writing.Language, operationMode) {
 		return originalPrompt
 	}
 
 	translitGuidance := "\n\nTRANSLITERATION NOTE:\n"
-	if writing.Language == "ar" || writing.Language == "fa" {
-		translitGuidance += "⚠️ This is an Arabic/Persian prayer. After matching, check if transliteration version exists and needs updating.\n"
-		translitGuidance += "Use CHECK_TRANSLIT_CONSISTENCY after finding the Phelps code to verify transliteration quality.\n"
-	} else if strings.HasSuffix(writing.Language, "-translit") {
-		baseLanguage := strings.TrimSuffix(writing.Language, "-translit")
-		translitGuidance += fmt.Sprintf("⚠️ This is %s transliteration. Use FIND_ORIGINAL_VERSION to locate the original for comparison.\n", baseLanguage)
-		translitGuidance += "Compare transliteration quality and use CORRECT_TRANSLITERATION if needed.\n"
+	if operationMode == "translit" {
+		if writing.Language == "ar" || writing.Language == "fa" {
+			translitGuidance += fmt.Sprintf("🔤 TRANSLIT MODE: This is the %s original. Find the Phelps code, then check/correct the %s-translit version.\n", writing.Language, writing.Language)
+			translitGuidance += "1. Match this original prayer to get the Phelps code\n"
+			translitGuidance += "2. Use CHECK_TRANSLIT_CONSISTENCY to verify transliteration quality\n"
+			translitGuidance += "3. Use CORRECT_TRANSLITERATION if the transliteration needs improvement\n"
+		} else if strings.HasSuffix(writing.Language, "-translit") {
+			baseLanguage := strings.TrimSuffix(writing.Language, "-translit")
+			translitGuidance += fmt.Sprintf("🔤 TRANSLIT MODE: This is %s transliteration. Use FIND_ORIGINAL_VERSION to locate the original for comparison.\n", baseLanguage)
+			translitGuidance += "Compare transliteration quality and use CORRECT_TRANSLITERATION if needed.\n"
+		}
+	} else {
+		// Non-translit modes
+		if writing.Language == "ar" || writing.Language == "fa" {
+			translitGuidance += "⚠️ This is an Arabic/Persian prayer. After matching, check if transliteration version exists and needs updating.\n"
+			translitGuidance += "Use CHECK_TRANSLIT_CONSISTENCY after finding the Phelps code to verify transliteration quality.\n"
+		}
 	}
 
 	return originalPrompt + translitGuidance
 }
 
-// Check and trigger transliteration after successful prayer matching
-func checkAndTriggerTransliteration(db Database, writing Writing, phelpsCode string, verbose bool, reportFile *os.File) {
-	if !shouldCheckTransliteration(writing.Language, "match") {
+// Check and trigger transliteration after successful prayer matching for all modes
+func checkAndTriggerTransliteration(db Database, writing Writing, phelpsCode string, verbose bool, reportFile *os.File, operationMode string) {
+	// Always check transliteration for ar/fa prayers regardless of mode
+	if !shouldCheckTransliteration(writing.Language, operationMode) {
 		return
 	}
 
@@ -3692,7 +3791,7 @@ func checkAndTriggerTransliteration(db Database, writing Writing, phelpsCode str
 		expectedTranslit = "fa-translit"
 		query = fmt.Sprintf("SELECT COUNT(*) FROM writings WHERE phelps = '%s' AND language = 'fa-translit'", escapedPhelps)
 	} else {
-		return // Not ar/fa, skip
+		return // Only check for ar/fa base languages
 	}
 
 	cmd := exec.Command("dolt", "sql", "-q", query)
@@ -3738,39 +3837,115 @@ func RegisterFunction(handler FunctionCallHandler) {
 }
 
 // generateFunctionHelp creates help text for all registered functions
+// generateFunctionList creates a concise pipe-separated list of all registered functions
 func generateFunctionHelp() string {
+	return generateFunctionHelpForMode("")
+}
+
+func generateFunctionHelpForMode(operationMode string) string {
 	var help strings.Builder
 	for _, handler := range registeredFunctions {
-		help.WriteString("- ")
-		help.WriteString(handler.GetDescription())
-		help.WriteString("\n  Example: ")
-		help.WriteString(handler.GetUsageExample())
-		help.WriteString("\n")
+		if operationMode == "" || handler.IsEnabledForMode(operationMode) {
+			help.WriteString("- ")
+			help.WriteString(handler.GetDescription())
+			help.WriteString("\n  Example: ")
+			help.WriteString(handler.GetUsageExample())
+			help.WriteString("\n")
+		}
 	}
 	return help.String()
 }
 
 // generateConciseFunctionList creates a concise pipe-separated list of all registered functions
 func generateConciseFunctionList() string {
+	return generateConciseFunctionListForMode("")
+}
+
+func generateConciseFunctionListForMode(operationMode string) string {
 	var functions []string
 	for _, handler := range registeredFunctions {
-		// Extract the basic function signature from the description
-		desc := handler.GetDescription()
-		// Take everything before the first space or opening parenthesis for a clean signature
-		if idx := strings.Index(desc, " "); idx != -1 {
-			functions = append(functions, desc[:idx])
-		} else if idx := strings.Index(desc, "("); idx != -1 {
-			functions = append(functions, desc[:idx])
-		} else {
-			functions = append(functions, desc)
+		if operationMode == "" || handler.IsEnabledForMode(operationMode) {
+			// Extract the basic function signature from the description
+			desc := handler.GetDescription()
+			// Take everything before the first space or opening parenthesis for a clean signature
+			if idx := strings.Index(desc, " "); idx != -1 {
+				functions = append(functions, desc[:idx])
+			} else if idx := strings.Index(desc, "("); idx != -1 {
+				functions = append(functions, desc[:idx])
+			} else {
+				functions = append(functions, desc)
+			}
 		}
 	}
-	return strings.Join(functions, " | ")
+	return strings.Join(functions, ", ")
+}
+
+func generateFunctionDescriptionsForMode(operationMode string) string {
+	var descriptions []string
+
+	for _, handler := range registeredFunctions {
+		if operationMode == "" || handler.IsEnabledForMode(operationMode) {
+			desc := handler.GetDescription()
+			example := handler.GetUsageExample()
+			descriptions = append(descriptions, fmt.Sprintf("- %s\n  Example: %s", desc, example))
+		}
+	}
+
+	return strings.Join(descriptions, "\n")
+}
+
+func generateFunctionExamplesForMode(operationMode string) string {
+	var examples []string
+
+	// Generate examples based on available functions for this mode
+	for _, handler := range registeredFunctions {
+		if operationMode == "" || handler.IsEnabledForMode(operationMode) {
+			pattern := handler.GetPattern()
+			example := handler.GetUsageExample()
+
+			// Only include key functions in examples to avoid clutter
+			if isKeyFunctionForMode(pattern, operationMode) {
+				examples = append(examples, example)
+			}
+		}
+	}
+
+	if len(examples) == 0 {
+		examples = []string{
+			"SEARCH:keywords,opening_phrase,length_range",
+			"FINAL_ANSWER:phelps_code,confidence,reasoning",
+		}
+	}
+
+	result := "📋 KEY FUNCTION EXAMPLES:\n"
+	for _, example := range examples {
+		result += "- " + example + "\n"
+	}
+	return result
+}
+
+func isKeyFunctionForMode(pattern string, operationMode string) bool {
+	switch operationMode {
+	case "match":
+		return pattern == "SEARCH:" || pattern == "GET_FULL_TEXT:" || pattern == "FINAL_ANSWER:"
+	case "match-add":
+		return pattern == "SEARCH:" || pattern == "GET_FULL_TEXT:" || pattern == "SEARCH_INVENTORY:" || pattern == "ADD_NEW_PRAYER:" || pattern == "FINAL_ANSWER:"
+	case "add-only":
+		return pattern == "SEARCH_INVENTORY:" || pattern == "CHECK_TAG:" || pattern == "ADD_NEW_PRAYER:" || pattern == "FINAL_ANSWER:"
+	case "translit":
+		return pattern == "SEARCH:" || pattern == "GET_FULL_TEXT:" || pattern == "CHECK_TRANSLIT_CONSISTENCY:" || pattern == "CORRECT_TRANSLITERATION:" || pattern == "FINAL_ANSWER:"
+	default:
+		return pattern == "SEARCH:" || pattern == "FINAL_ANSWER:"
+	}
 }
 
 func isValidFunctionCall(line string) bool {
+	return isValidFunctionCallInMode(line, "")
+}
+
+func isValidFunctionCallInMode(line string, operationMode string) bool {
 	for _, handler := range registeredFunctions {
-		if handler.Validate(line) {
+		if handler.Validate(line) && (operationMode == "" || handler.IsEnabledForMode(operationMode)) {
 			return true
 		}
 	}
@@ -3778,11 +3953,17 @@ func isValidFunctionCall(line string) bool {
 }
 
 func containsFunctionKeyword(line string) bool {
+	return containsFunctionKeywordForMode(line, "")
+}
+
+func containsFunctionKeywordForMode(line string, operationMode string) bool {
 	upperLine := strings.ToUpper(line)
 	for _, handler := range registeredFunctions {
-		for _, keyword := range handler.GetKeywords() {
-			if strings.Contains(upperLine, keyword) {
-				return true
+		if operationMode == "" || handler.IsEnabledForMode(operationMode) {
+			for _, keyword := range handler.GetKeywords() {
+				if strings.Contains(upperLine, keyword) {
+					return true
+				}
 			}
 		}
 	}
@@ -3920,43 +4101,24 @@ func parseToolCallsFormat(text string) []string {
 		return validCalls
 	}
 
-	// Convert tool calls to standard format
+	// Convert tool calls to standard format using registered functions
 	for _, toolCall := range toolCallsResp.ToolCalls {
-		switch toolCall.Function.Name {
-		case "SEARCH":
-			if args := toolCall.Function.Arguments.Arguments; args != "" {
-				validCalls = append(validCalls, fmt.Sprintf("SEARCH:%s", args))
+		functionName := toolCall.Function.Name
+
+		// Find matching handler in registered functions
+		for _, handler := range registeredFunctions {
+			if handler.GetJSONPattern() == functionName {
+				if handler.IsStandalone() {
+					// Standalone functions like GET_STATS
+					validCalls = append(validCalls, functionName)
+				} else {
+					// Prefix functions with arguments
+					if args := toolCall.Function.Arguments.Arguments; args != "" {
+						validCalls = append(validCalls, fmt.Sprintf("%s:%s", functionName, args))
+					}
+				}
+				break
 			}
-		case "SEARCH_KEYWORDS":
-			if args := toolCall.Function.Arguments.Arguments; args != "" {
-				validCalls = append(validCalls, fmt.Sprintf("SEARCH_KEYWORDS:%s", args))
-			}
-		case "SEARCH_LENGTH":
-			if args := toolCall.Function.Arguments.Arguments; args != "" {
-				validCalls = append(validCalls, fmt.Sprintf("SEARCH_LENGTH:%s", args))
-			}
-		case "SEARCH_OPENING":
-			if args := toolCall.Function.Arguments.Arguments; args != "" {
-				validCalls = append(validCalls, fmt.Sprintf("SEARCH_OPENING:%s", args))
-			}
-		case "GET_FULL_TEXT":
-			if args := toolCall.Function.Arguments.Arguments; args != "" {
-				validCalls = append(validCalls, fmt.Sprintf("GET_FULL_TEXT:%s", args))
-			}
-		case "GET_FOCUS_TEXT":
-			if args := toolCall.Function.Arguments.Arguments; args != "" {
-				validCalls = append(validCalls, fmt.Sprintf("GET_FOCUS_TEXT:%s", args))
-			}
-		case "GET_PARTIAL_TEXT":
-			if args := toolCall.Function.Arguments.Arguments; args != "" {
-				validCalls = append(validCalls, fmt.Sprintf("GET_PARTIAL_TEXT:%s", args))
-			}
-		case "FINAL_ANSWER":
-			if args := toolCall.Function.Arguments.Arguments; args != "" {
-				validCalls = append(validCalls, fmt.Sprintf("FINAL_ANSWER:%s", args))
-			}
-		case "GET_STATS":
-			validCalls = append(validCalls, "GET_STATS")
 		}
 	}
 
@@ -4273,7 +4435,7 @@ func processLanguagesContinuouslyWithMode(db *Database, referenceLanguage string
 
 // Helper function to process a list of shuffled prayers
 func processShuffledPrayers(db *Database, prayers []Writing, referenceLanguage string, useGemini bool, reportFile *os.File, verbose bool, maxRounds int) ([]Writing, error) {
-	return processShuffledPrayersWithMode(db, prayers, referenceLanguage, useGemini, reportFile, verbose, false, maxRounds)
+	return processShuffledPrayersWithMode(db, prayers, referenceLanguage, useGemini, reportFile, verbose, false, maxRounds, "match")
 }
 
 // Process random prayers from all languages with mode support
@@ -4307,10 +4469,10 @@ func processRandomPrayersWithMode(db *Database, referenceLanguage string, useGem
 	fmt.Fprintf(reportFile, "Processing %d random prayers from all languages at %s\n\n", totalToProcess, time.Now().Format(time.RFC3339))
 
 	// Process the shuffled prayers
-	return processShuffledPrayersWithMode(db, allUnmatched, referenceLanguage, useGemini, reportFile, verbose, legacyMode, maxRounds)
+	return processShuffledPrayersWithMode(db, allUnmatched, referenceLanguage, useGemini, reportFile, verbose, legacyMode, maxRounds, operationMode)
 }
 
-func processShuffledPrayersWithMode(db *Database, prayers []Writing, referenceLanguage string, useGemini bool, reportFile *os.File, verbose bool, legacyMode bool, maxRounds int) ([]Writing, error) {
+func processShuffledPrayersWithMode(db *Database, prayers []Writing, referenceLanguage string, useGemini bool, reportFile *os.File, verbose bool, legacyMode bool, maxRounds int, operationMode string) ([]Writing, error) {
 	var unmatchedPrayers []Writing
 
 	for i, writing := range prayers {
@@ -4329,11 +4491,11 @@ func processShuffledPrayersWithMode(db *Database, prayers []Writing, referenceLa
 		}
 
 		// Use the appropriate header for this prayer's language
-		languageSpecificHeader := prepareLLMHeaderWithMode(*db, writing.Language, referenceLanguage, "match")
+		languageSpecificHeader := prepareLLMHeaderWithMode(*db, writing.Language, referenceLanguage, operationMode)
 		prompt := languageSpecificHeader + "\n\nPrayer text to analyze:\n" + writing.Text
 
 		// Add transliteration context if needed
-		prompt = addTransliterationContext(*db, writing, prompt)
+		prompt = addTransliterationContext(*db, writing, prompt, operationMode)
 
 		fmt.Fprintf(reportFile, "Processing writing: %s (%s) (Version: %s)\n", writing.Name, writing.Language, writing.Version)
 
@@ -5415,7 +5577,7 @@ func processPrayersForLanguageWithMode(db *Database, targetLanguage, referenceLa
 		prompt := header + "\n\nPrayer text to analyze:\n" + writing.Text
 
 		// Add transliteration context if needed
-		prompt = addTransliterationContext(*db, writing, prompt)
+		prompt = addTransliterationContext(*db, writing, prompt, operationMode)
 
 		fmt.Fprintf(reportFile, "Processing writing: %s (Version: %s)\n", writing.Name, writing.Version)
 
@@ -5676,8 +5838,8 @@ func processPrayersForLanguage(db *Database, targetLanguage, referenceLanguage s
 					fmt.Printf("  MATCHED: %s -> database updated\n", response.PhelpsCode)
 				}
 
-				// After successful match, check for transliteration opportunities
-				checkAndTriggerTransliteration(*db, writing, response.PhelpsCode, verbose, reportFile)
+				// Record successful match and check for transliteration opportunities
+				checkAndTriggerTransliteration(*db, writing, response.PhelpsCode, verbose, reportFile, "match")
 			}
 		}
 
@@ -5774,7 +5936,7 @@ func checkOllama(model string) error {
 func main() {
 	var targetLanguage = flag.String("language", "", "Target language code(s) to process - single (es) or multiple (es,fr,de) or auto-detect optimal")
 	var referenceLanguage = flag.String("reference", "en", "Reference language for Phelps codes (default: en)")
-	var operationMode = flag.String("mode", "match", "Operation mode: match (existing codes only), match-add (try match then add new), add-only (skip matching, add new codes), translit (transliteration matching/correction)")
+	var operationMode = flag.String("mode", "match-add", "Operation mode: match (existing codes only), match-add (try match then add new), add-only (skip matching, add new codes), translit (transliteration matching/correction)")
 	var useGemini = flag.Bool("gemini", true, "Use Gemini CLI (default: true, falls back to Ollama)")
 	var ollamaModel = flag.String("model", "gpt-oss", "Ollama model to use (default: gpt-oss)")
 	var reportPath = flag.String("report", "prayer_matching_report.txt", "Path for the report file")
@@ -5817,7 +5979,7 @@ func main() {
 		fmt.Printf("Options:\n")
 		flag.PrintDefaults()
 		fmt.Printf("Examples:\n")
-		fmt.Printf("  %s                                 # Auto-select optimal language (match mode)\n", os.Args[0])
+		fmt.Printf("  %s                                 # Auto-select optimal language (match-add mode)\n", os.Args[0])
 		fmt.Printf("  %s -language=es -max=10            # Process first 10 Spanish prayers\n", os.Args[0])
 		fmt.Printf("  %s -language=fr -verbose           # Process French with detailed output\n", os.Args[0])
 		fmt.Printf("  %s -language=es,fr,de -max=50      # Process multiple languages (50 total)\n", os.Args[0])
@@ -5825,8 +5987,8 @@ func main() {
 		fmt.Printf("  %s -language=es -mode=match-add    # Try matching, add new codes if no match\n", os.Args[0])
 		fmt.Printf("  %s -language=en -mode=add-only     # Skip matching, add new codes from inventory\n", os.Args[0])
 		fmt.Printf("  %s -mode=add-only                  # Defaults to English for inventory-based adding\n", os.Args[0])
-		fmt.Printf("  %s -language=ar -mode=translit     # Fix Arabic transliteration (auto-adds -translit)\n", os.Args[0])
-		fmt.Printf("  %s -language=fa -mode=translit     # Fix Persian transliteration (auto-adds -translit)\n", os.Args[0])
+		fmt.Printf("  %s -language=ar -mode=translit     # Fix Arabic transliteration (match ar, correct ar-translit)\n", os.Args[0])
+		fmt.Printf("  %s -language=fa -mode=translit     # Fix Persian transliteration (match fa, correct fa-translit)\n", os.Args[0])
 		fmt.Printf("  %s -mode=translit                  # Fix all transliterations (defaults to ar,fa)\n", os.Args[0])
 		fmt.Printf("  %s -language=es -gemini=false      # Process Spanish prayers using only Ollama\n", os.Args[0])
 		fmt.Printf("  %s -lucky -max=20                  # Process 20 random prayers from all languages\n", os.Args[0])
@@ -5896,29 +6058,27 @@ func main() {
 	// Special validation and processing for translit mode
 	if *operationMode == "translit" {
 		if *targetLanguage == "" {
-			// Default to both Arabic and Persian transliterations
+			// Default to both Arabic and Persian originals for matching
 			*targetLanguage = "ar,fa"
-			fmt.Printf("🔤 TRANSLIT mode: Defaulting to Arabic and Persian transliterations\n")
+			fmt.Printf("🔤 TRANSLIT mode: Defaulting to Arabic and Persian originals for matching\n")
 		}
 
 		// Parse and process languages for translit mode
 		languages := strings.Split(*targetLanguage, ",")
-		var translitLanguages []string
+		var processLanguages []string
 
 		for _, lang := range languages {
 			lang = strings.TrimSpace(lang)
-
-			// Auto-append -translit suffix if needed
 			if lang == "ar" || lang == "arabic" {
-				translitLanguages = append(translitLanguages, "ar-translit")
-				fmt.Printf("🔤 TRANSLIT mode: Converting %s -> ar-translit\n", lang)
+				processLanguages = append(processLanguages, "ar")
+				fmt.Printf("🔤 TRANSLIT mode: Processing %s originals to match and correct transliterations\n", lang)
 			} else if lang == "fa" || lang == "persian" || lang == "per" {
-				translitLanguages = append(translitLanguages, "fa-translit")
-				fmt.Printf("🔤 TRANSLIT mode: Converting %s -> fa-translit\n", lang)
+				processLanguages = append(processLanguages, "fa")
+				fmt.Printf("🔤 TRANSLIT mode: Processing %s originals to match and correct transliterations\n", lang)
 			} else if strings.HasSuffix(lang, "-translit") {
-				translitLanguages = append(translitLanguages, lang)
 				baseLanguage := strings.TrimSuffix(lang, "-translit")
-				fmt.Printf("🔤 TRANSLIT mode: Processing %s transliteration corrections\n", baseLanguage)
+				processLanguages = append(processLanguages, baseLanguage)
+				fmt.Printf("🔤 TRANSLIT mode: Processing %s originals to correct %s transliterations\n", baseLanguage, lang)
 			} else {
 				fmt.Printf("⚠️  WARNING: TRANSLIT mode works only with Arabic or Persian languages.\n")
 				fmt.Printf("   You specified: %s (not supported)\n", lang)
@@ -5931,13 +6091,14 @@ func main() {
 					fmt.Printf("Exiting. Use -language=ar,fa or -language=ar-translit,fa-translit for translit mode.\n")
 					return
 				}
-				translitLanguages = append(translitLanguages, lang)
+				processLanguages = append(processLanguages, lang)
 			}
 		}
 
-		// Update targetLanguage with processed translit languages
-		*targetLanguage = strings.Join(translitLanguages, ",")
+		// Update targetLanguage with processed languages (originals for matching)
+		*targetLanguage = strings.Join(processLanguages, ",")
 		fmt.Printf("🔤 TRANSLIT mode: Final language list: %s\n", *targetLanguage)
+		fmt.Printf("🔤 TRANSLIT mode: Will match on originals then correct transliterations\n")
 	}
 
 	// Set up signal handling for graceful stop and force quit

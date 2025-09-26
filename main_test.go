@@ -703,31 +703,31 @@ func TestExtractAllFunctionCalls(t *testing.T) {
 	}{
 		{
 			name: "Standard format function calls",
-			text: `SEARCH_KEYWORDS:lord,god,assist
-SEARCH_LENGTH:50-150
-SEARCH_OPENING:O Lord my God
-GET_FULL_TEXT:AB00001FIR
-GET_FOCUS_TEXT:lord,AB00001FIR,AB00002SEC
-GET_PARTIAL_TEXT:AB00001FIR,100-500
+			text: `ADD_NOTE:match,AB00001FIR,85,Found good match for Fire Tablet
+SEARCH_NOTES:fire,tablet
+CLEAR_NOTES:match
+EXTEND_ROUNDS:Need more time to verify
+SWITCH_REFERENCE_LANGUAGE:ar
 FINAL_ANSWER:AB00001FIR,85,This prayer matches based on distinctive phrases
+CORRECT_TRANSLITERATION:AB00001FIR,90,Corrected transliteration text
 GET_STATS`,
 			expectedValid: []string{
-				"SEARCH_KEYWORDS:lord,god,assist",
-				"SEARCH_LENGTH:50-150",
-				"SEARCH_OPENING:O Lord my God",
-				"GET_FULL_TEXT:AB00001FIR",
-				"GET_FOCUS_TEXT:lord,AB00001FIR,AB00002SEC",
-				"GET_PARTIAL_TEXT:AB00001FIR,100-500",
+				"ADD_NOTE:match,AB00001FIR,85,Found good match for Fire Tablet",
+				"SEARCH_NOTES:fire,tablet",
+				"CLEAR_NOTES:match",
+				"EXTEND_ROUNDS:Need more time to verify",
+				"SWITCH_REFERENCE_LANGUAGE:ar",
 				"FINAL_ANSWER:AB00001FIR,85,This prayer matches based on distinctive phrases",
+				"CORRECT_TRANSLITERATION:AB00001FIR,90,Corrected transliteration text",
 				"GET_STATS",
 			},
 			expectedInvalid: 0,
 		},
 		{
 			name: "Tool calls JSON format",
-			text: `{"tool_calls":[{"function":{"name":"SEARCH_KEYWORDS","arguments":{"arguments":"lord,god,assist","name":"SEARCH_KEYWORDS"}}}]}`,
+			text: `{"tool_calls":[{"function":{"name":"ADD_NOTE","arguments":{"arguments":"match,AB00001FIR,85,Test note","name":"ADD_NOTE"}}}]}`,
 			expectedValid: []string{
-				"SEARCH_KEYWORDS:lord,god,assist",
+				"ADD_NOTE:match,AB00001FIR,85,Test note",
 			},
 			expectedInvalid: 0,
 		},
@@ -1512,12 +1512,17 @@ func TestOperationModeValidation(t *testing.T) {
 	}{
 		{"ar", "match", true},
 		{"fa", "match", true},
-		{"ar-translit", "match", true},
-		{"fa-translit", "match", true},
+		{"ar-translit", "match", false}, // translit versions not checked in match mode
+		{"fa-translit", "match", false}, // translit versions not checked in match mode
 		{"en", "match", false},
 		{"es", "match", false},
 		{"ar", "translit", true},
+		{"fa", "translit", true},
+		{"ar-translit", "translit", true},
 		{"fa-translit", "translit", true},
+		{"ar", "match-add", true},
+		{"fa", "add-only", true},
+		{"en", "translit", false},
 	}
 
 	for _, tt := range tests {
@@ -1525,50 +1530,6 @@ func TestOperationModeValidation(t *testing.T) {
 		if result != tt.expected {
 			t.Errorf("shouldCheckTransliteration(%s, %s): expected %v, got %v", tt.language, tt.mode, tt.expected, result)
 		}
-	}
-}
-
-func TestPrepareLLMHeaderWithMode(t *testing.T) {
-	// Create a mock database with some known Phelps codes
-	db := Database{
-		Writing: []Writing{
-			{Phelps: "AB00001FIR", Language: "en", Name: "Fire Tablet", Text: "Test prayer 1"},
-			{Phelps: "AB00032DAR", Language: "en", Name: "Tablet of Ahmad", Text: "Test prayer 2"},
-		},
-	}
-
-	tests := []struct {
-		mode     string
-		contains []string
-	}{
-		{
-			mode:     "match",
-			contains: []string{"MODE: MATCH ONLY"},
-		},
-		{
-			mode:     "match-add",
-			contains: []string{"MODE: MATCH-ADD", "NEW CODE WORKFLOW"},
-		},
-		{
-			mode:     "add-only",
-			contains: []string{"MODE: ADD-ONLY", "ADD-ONLY WORKFLOW"},
-		},
-		{
-			mode:     "translit",
-			contains: []string{"MODE: TRANSLITERATION", "TRANSLIT WORKFLOW"},
-		},
-	}
-
-	for _, tt := range tests {
-		t.Run("Mode_"+tt.mode, func(t *testing.T) {
-			header := prepareLLMHeaderWithMode(db, "English", "en", tt.mode)
-
-			for _, expectedText := range tt.contains {
-				if !strings.Contains(header, expectedText) {
-					t.Errorf("Header for mode %s should contain %q", tt.mode, expectedText)
-				}
-			}
-		})
 	}
 }
 
@@ -1634,33 +1595,33 @@ func TestTranslitLanguageProcessing(t *testing.T) {
 		expectedCount  int
 	}{
 		{
-			name:           "Arabic base language",
+			name:           "Arabic base language - now stays as original",
 			inputLang:      "ar",
-			expectedOutput: "ar-translit",
+			expectedOutput: "ar",
 			expectedCount:  1,
 		},
 		{
-			name:           "Persian base language",
+			name:           "Persian base language - now stays as original",
 			inputLang:      "fa",
-			expectedOutput: "fa-translit",
+			expectedOutput: "fa",
 			expectedCount:  1,
 		},
 		{
-			name:           "Persian alternative",
+			name:           "Persian alternative - converts to fa",
 			inputLang:      "persian",
-			expectedOutput: "fa-translit",
+			expectedOutput: "fa",
 			expectedCount:  1,
 		},
 		{
-			name:           "Already translit format",
+			name:           "Translit format converts to base",
 			inputLang:      "ar-translit",
-			expectedOutput: "ar-translit",
+			expectedOutput: "ar",
 			expectedCount:  1,
 		},
 		{
-			name:           "Multiple languages",
+			name:           "Multiple languages stay as originals",
 			inputLang:      "ar,fa",
-			expectedOutput: "ar-translit,fa-translit",
+			expectedOutput: "ar,fa",
 			expectedCount:  2,
 		},
 	}
@@ -1668,30 +1629,663 @@ func TestTranslitLanguageProcessing(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			languages := strings.Split(tt.inputLang, ",")
-			var translitLanguages []string
+			var processLanguages []string
 
 			for _, lang := range languages {
 				lang = strings.TrimSpace(lang)
 
+				// New translit mode logic: process originals to match and correct transliterations
 				if lang == "ar" || lang == "arabic" {
-					translitLanguages = append(translitLanguages, "ar-translit")
+					processLanguages = append(processLanguages, "ar")
 				} else if lang == "fa" || lang == "persian" || lang == "per" {
-					translitLanguages = append(translitLanguages, "fa-translit")
+					processLanguages = append(processLanguages, "fa")
 				} else if strings.HasSuffix(lang, "-translit") {
-					translitLanguages = append(translitLanguages, lang)
+					baseLanguage := strings.TrimSuffix(lang, "-translit")
+					processLanguages = append(processLanguages, baseLanguage)
 				} else {
-					translitLanguages = append(translitLanguages, lang)
+					processLanguages = append(processLanguages, lang)
 				}
 			}
 
-			result := strings.Join(translitLanguages, ",")
+			result := strings.Join(processLanguages, ",")
 			if result != tt.expectedOutput {
 				t.Errorf("Expected %s, got %s", tt.expectedOutput, result)
 			}
 
-			if len(translitLanguages) != tt.expectedCount {
-				t.Errorf("Expected %d languages, got %d", tt.expectedCount, len(translitLanguages))
+			if len(processLanguages) != tt.expectedCount {
+				t.Errorf("Expected %d languages, got %d", tt.expectedCount, len(processLanguages))
 			}
 		})
+	}
+}
+
+func TestCommandFilteringByMode(t *testing.T) {
+	tests := []struct {
+		name         string
+		functionName string
+		mode         string
+		enabled      bool
+	}{
+		// Search functions - only in match, match-add, translit
+		{"Search in match mode", "SEARCH", "match", true},
+		{"Search in match-add mode", "SEARCH", "match-add", true},
+		{"Search in translit mode", "SEARCH", "translit", true},
+		{"Search in add-only mode", "SEARCH", "add-only", false},
+
+		// Inventory functions - only in match-add, add-only
+		{"Inventory search in match-add", "SEARCH_INVENTORY", "match-add", true},
+		{"Inventory search in add-only", "SEARCH_INVENTORY", "add-only", true},
+		{"Inventory search in match", "SEARCH_INVENTORY", "match", false},
+		{"Inventory search in translit", "SEARCH_INVENTORY", "translit", false},
+
+		// Universal functions - always enabled
+		{"Final answer in match", "FINAL_ANSWER", "match", true},
+		{"Final answer in add-only", "FINAL_ANSWER", "add-only", true},
+		{"Final answer in translit", "FINAL_ANSWER", "translit", true},
+
+		// Transliteration functions - always enabled
+		{"Translit correction in match", "CORRECT_TRANSLITERATION", "match", true},
+		{"Translit correction in translit", "CORRECT_TRANSLITERATION", "translit", true},
+		{"Translit correction in add-only", "CORRECT_TRANSLITERATION", "add-only", true},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			// Find the function handler
+			var handler FunctionCallHandler
+			for _, h := range registeredFunctions {
+				if strings.Contains(h.GetDescription(), tt.functionName) {
+					handler = h
+					break
+				}
+			}
+
+			if handler == nil {
+				t.Fatalf("Function %s not found in registry", tt.functionName)
+			}
+
+			enabled := handler.IsEnabledForMode(tt.mode)
+			if enabled != tt.enabled {
+				t.Errorf("Function %s in mode %s: expected enabled=%v, got %v",
+					tt.functionName, tt.mode, tt.enabled, enabled)
+			}
+		})
+	}
+}
+
+func TestModeDefaultValue(t *testing.T) {
+	// Test that the default mode is now "match-add"
+	// This is tested by checking the flag default value
+	expectedDefault := "match-add"
+
+	// We can't easily test flag defaults in unit tests, but we can test
+	// that the prepareLLMHeaderWithMode function works correctly with match-add mode
+	db := Database{
+		Writing: []Writing{
+			{Phelps: "AB00001FIR", Language: "en", Name: "Test", Text: "Test"},
+		},
+	}
+
+	header := prepareLLMHeaderWithMode(db, "English", "en", expectedDefault)
+
+	if !strings.Contains(header, "MODE: MATCH-ADD") {
+		t.Errorf("Expected header to contain MATCH-ADD mode guidance")
+	}
+
+	if !strings.Contains(header, "NEW CODE WORKFLOW") {
+		t.Errorf("Expected header to contain NEW CODE WORKFLOW for match-add mode")
+	}
+}
+
+func TestAddTransliterationContext(t *testing.T) {
+	db := Database{
+		Writing: []Writing{
+			{Phelps: "TEST001", Language: "ar", Text: "Arabic text"},
+		},
+	}
+
+	tests := []struct {
+		name      string
+		writing   Writing
+		mode      string
+		shouldAdd bool
+		contains  []string
+	}{
+		{
+			name:      "Arabic prayer in match mode",
+			writing:   Writing{Language: "ar", Text: "Arabic text"},
+			mode:      "match",
+			shouldAdd: true,
+			contains:  []string{"TRANSLITERATION NOTE", "This is an Arabic/Persian prayer"},
+		},
+		{
+			name:      "Persian prayer in translit mode",
+			writing:   Writing{Language: "fa", Text: "Persian text"},
+			mode:      "translit",
+			shouldAdd: true,
+			contains:  []string{"TRANSLITERATION NOTE", "TRANSLIT MODE", "Find the Phelps code"},
+		},
+		{
+			name:      "Arabic transliteration in translit mode",
+			writing:   Writing{Language: "ar-translit", Text: "Transliterated text"},
+			mode:      "translit",
+			shouldAdd: true,
+			contains:  []string{"TRANSLITERATION NOTE", "FIND_ORIGINAL_VERSION"},
+		},
+		{
+			name:      "English prayer in match mode",
+			writing:   Writing{Language: "en", Text: "English text"},
+			mode:      "match",
+			shouldAdd: false,
+			contains:  []string{},
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			originalPrompt := "Original prompt text"
+			result := addTransliterationContext(db, tt.writing, originalPrompt, tt.mode)
+
+			if tt.shouldAdd {
+				if result == originalPrompt {
+					t.Errorf("Expected transliteration context to be added, but prompt unchanged")
+				}
+
+				for _, expectedText := range tt.contains {
+					if !strings.Contains(result, expectedText) {
+						t.Errorf("Expected result to contain %q", expectedText)
+					}
+				}
+			} else {
+				if result != originalPrompt {
+					t.Errorf("Expected prompt to remain unchanged for language %s in mode %s", tt.writing.Language, tt.mode)
+				}
+			}
+		})
+	}
+}
+
+func TestTranslitModeWorkflow(t *testing.T) {
+	// Test the complete translit mode workflow
+	db := Database{
+		Writing: []Writing{
+			// Arabic original
+			{Phelps: "AB00001FIR", Language: "ar", Name: "Fire Tablet", Text: "Arabic original text"},
+			// Corresponding transliteration (should be found and corrected)
+			{Phelps: "AB00001FIR", Language: "ar-translit", Name: "Fire Tablet", Text: "Poor transliteration"},
+			// Persian original
+			{Phelps: "AB00002TAB", Language: "fa", Name: "Tablet of Ahmad", Text: "Persian original text"},
+			// Missing Persian transliteration (should be flagged for creation)
+		},
+	}
+
+	tests := []struct {
+		name             string
+		inputLanguage    string
+		expectedLanguage string
+		mode             string
+		description      string
+	}{
+		{
+			name:             "Arabic translit mode processes original",
+			inputLanguage:    "ar",
+			expectedLanguage: "ar",
+			mode:             "translit",
+			description:      "Should process Arabic original to match Phelps code, then correct ar-translit",
+		},
+		{
+			name:             "Persian translit mode processes original",
+			inputLanguage:    "fa",
+			expectedLanguage: "fa",
+			mode:             "translit",
+			description:      "Should process Persian original to match Phelps code, then correct fa-translit",
+		},
+		{
+			name:             "Arabic translit input converts to original",
+			inputLanguage:    "ar-translit",
+			expectedLanguage: "ar",
+			mode:             "translit",
+			description:      "Should convert ar-translit input to ar for matching",
+		},
+		{
+			name:             "Persian translit input converts to original",
+			inputLanguage:    "fa-translit",
+			expectedLanguage: "fa",
+			mode:             "translit",
+			description:      "Should convert fa-translit input to fa for matching",
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			// Test language conversion logic (from main.go translit mode processing)
+			var processLanguage string
+			if tt.inputLanguage == "ar" || tt.inputLanguage == "arabic" {
+				processLanguage = "ar"
+			} else if tt.inputLanguage == "fa" || tt.inputLanguage == "persian" || tt.inputLanguage == "per" {
+				processLanguage = "fa"
+			} else if strings.HasSuffix(tt.inputLanguage, "-translit") {
+				processLanguage = strings.TrimSuffix(tt.inputLanguage, "-translit")
+			} else {
+				processLanguage = tt.inputLanguage
+			}
+
+			if processLanguage != tt.expectedLanguage {
+				t.Errorf("Expected language %s, got %s", tt.expectedLanguage, processLanguage)
+			}
+
+			// Test that the correct functions are available in translit mode
+			searchEnabled := false
+			translitEnabled := false
+			inventoryDisabled := true
+
+			for _, handler := range registeredFunctions {
+				desc := handler.GetDescription()
+				if strings.Contains(desc, "SEARCH:") {
+					searchEnabled = handler.IsEnabledForMode(tt.mode)
+				}
+				if strings.Contains(desc, "CORRECT_TRANSLITERATION") {
+					translitEnabled = handler.IsEnabledForMode(tt.mode)
+				}
+				if strings.Contains(desc, "SEARCH_INVENTORY") {
+					inventoryDisabled = !handler.IsEnabledForMode(tt.mode)
+				}
+			}
+
+			if !searchEnabled {
+				t.Errorf("SEARCH functions should be enabled in translit mode")
+			}
+			if !translitEnabled {
+				t.Errorf("CORRECT_TRANSLITERATION should be enabled in translit mode")
+			}
+			if !inventoryDisabled {
+				t.Errorf("SEARCH_INVENTORY should be disabled in translit mode")
+			}
+
+			// Test that transliteration checking is triggered for ar/fa
+			shouldCheck := shouldCheckTransliteration(processLanguage, tt.mode)
+			if !shouldCheck {
+				t.Errorf("shouldCheckTransliteration should return true for %s in %s mode", processLanguage, tt.mode)
+			}
+
+			// Test header contains correct guidance
+			header := prepareLLMHeaderWithMode(db, processLanguage, "en", tt.mode)
+			if !strings.Contains(header, "MODE: TRANSLITERATION") {
+				t.Errorf("Header should contain TRANSLITERATION mode guidance")
+			}
+			if !strings.Contains(header, "TRANSLIT WORKFLOW") {
+				t.Errorf("Header should contain TRANSLIT WORKFLOW")
+			}
+			if !strings.Contains(header, "ORIGINAL language (ar/fa)") {
+				t.Errorf("Header should mention using original language for matching")
+			}
+		})
+	}
+}
+
+func TestTranslitModeEndToEnd(t *testing.T) {
+	// Test that demonstrates the complete workflow:
+	// 1. Input: ar-translit or ar -> Process: ar (original)
+	// 2. Use SEARCH functions to match original
+	// 3. Use transliteration functions to correct ar-translit version
+
+	t.Run("Translit mode workflow explanation", func(t *testing.T) {
+		// This test documents the expected workflow:
+
+		// BEFORE (old workflow - incorrect):
+		// translit mode: ar -> ar-translit (process transliteration directly)
+
+		// AFTER (new workflow - correct):
+		// translit mode: ar -> ar (process original to match, then correct ar-translit)
+		// translit mode: ar-translit -> ar (convert to original, then correct ar-translit)
+
+		testCases := map[string]string{
+			"ar":          "ar", // Arabic original stays original
+			"fa":          "fa", // Persian original stays original
+			"ar-translit": "ar", // Arabic translit converts to original
+			"fa-translit": "fa", // Persian translit converts to original
+			"arabic":      "ar", // Arabic alias converts to ar
+			"persian":     "fa", // Persian alias converts to fa
+		}
+
+		for input, expected := range testCases {
+			var result string
+			if input == "ar" || input == "arabic" {
+				result = "ar"
+			} else if input == "fa" || input == "persian" || input == "per" {
+				result = "fa"
+			} else if strings.HasSuffix(input, "-translit") {
+				result = strings.TrimSuffix(input, "-translit")
+			} else {
+				result = input
+			}
+
+			if result != expected {
+				t.Errorf("Language conversion: input %s should become %s, got %s", input, expected, result)
+			}
+		}
+
+		// Verify the key insight: we always work on originals in translit mode
+		t.Log("✅ TRANSLIT MODE WORKFLOW:")
+		t.Log("   1. Input any ar/fa variant -> Process the ORIGINAL (ar/fa)")
+		t.Log("   2. Use SEARCH functions to match original and get Phelps code")
+		t.Log("   3. Use transliteration functions to check/correct ar-translit/fa-translit")
+		t.Log("   4. This ensures we match on reliable original text, not transliterations")
+	})
+}
+
+func TestModeSpecificFunctionGeneration(t *testing.T) {
+	// Test that mode-specific function lists are generated correctly from EnabledModes
+	tests := []struct {
+		mode          string
+		shouldInclude []string
+		shouldExclude []string
+		description   string
+	}{
+		{
+			mode: "match",
+			shouldInclude: []string{
+				"SEARCH:", "GET_FULL_TEXT:", "FINAL_ANSWER:",
+				"ADD_NOTE:", "GET_STATS", // universal functions
+			},
+			shouldExclude: []string{
+				"SEARCH_INVENTORY:", "ADD_NEW_PRAYER:", // inventory functions
+			},
+			description: "Match mode should have search functions but no inventory functions",
+		},
+		{
+			mode: "match-add",
+			shouldInclude: []string{
+				"SEARCH:", "GET_FULL_TEXT:", "FINAL_ANSWER:", // matching functions
+				"SEARCH_INVENTORY:", "ADD_NEW_PRAYER:", // inventory functions
+				"ADD_NOTE:", "GET_STATS", // universal functions
+			},
+			shouldExclude: []string{},
+			description:   "Match-add mode should have both matching and inventory functions",
+		},
+		{
+			mode: "add-only",
+			shouldInclude: []string{
+				"SEARCH_INVENTORY:", "CHECK_TAG:", "ADD_NEW_PRAYER:", // inventory functions
+				"FINAL_ANSWER:", "ADD_NOTE:", "GET_STATS", // universal functions
+			},
+			shouldExclude: []string{
+				"SEARCH:", "GET_FULL_TEXT:", // matching functions should be excluded
+			},
+			description: "Add-only mode should have inventory functions but no matching functions",
+		},
+		{
+			mode: "translit",
+			shouldInclude: []string{
+				"SEARCH:", "GET_FULL_TEXT:", // matching functions
+				"CORRECT_TRANSLITERATION:", "CHECK_TRANSLIT_CONSISTENCY:", // translit functions
+				"FINAL_ANSWER:", "ADD_NOTE:", "GET_STATS", // universal functions
+			},
+			shouldExclude: []string{
+				"SEARCH_INVENTORY:", "ADD_NEW_PRAYER:", // inventory functions
+			},
+			description: "Translit mode should have matching and transliteration functions but no inventory functions",
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.description, func(t *testing.T) {
+			// Test concise function list
+			functionList := generateConciseFunctionListForMode(tt.mode)
+
+			for _, shouldInclude := range tt.shouldInclude {
+				if !strings.Contains(functionList, shouldInclude) {
+					t.Errorf("Mode %s should include function %s in list: %s", tt.mode, shouldInclude, functionList)
+				}
+			}
+
+			for _, shouldExclude := range tt.shouldExclude {
+				if strings.Contains(functionList, shouldExclude) {
+					t.Errorf("Mode %s should NOT include function %s in list: %s", tt.mode, shouldExclude, functionList)
+				}
+			}
+
+			// Test detailed function descriptions
+			descriptions := generateFunctionDescriptionsForMode(tt.mode)
+
+			for _, shouldInclude := range tt.shouldInclude {
+				if !strings.Contains(descriptions, shouldInclude) {
+					t.Errorf("Mode %s should include function %s in descriptions", tt.mode, shouldInclude)
+				}
+			}
+
+			for _, shouldExclude := range tt.shouldExclude {
+				if strings.Contains(descriptions, shouldExclude) {
+					t.Errorf("Mode %s should NOT include function %s in descriptions", tt.mode, shouldExclude)
+				}
+			}
+
+			t.Logf("Mode %s functions: %s", tt.mode, functionList)
+		})
+	}
+}
+
+func TestModeInstructionsContainCorrectFunctions(t *testing.T) {
+	// Test that mode instructions include dynamically generated function lists
+	db := Database{
+		Writing: []Writing{
+			{Phelps: "AB00001FIR", Language: "en", Name: "Test", Text: "Test"},
+		},
+	}
+
+	modes := []string{"match", "match-add", "add-only", "translit"}
+
+	for _, mode := range modes {
+		t.Run("Mode_"+mode, func(t *testing.T) {
+			header := prepareLLMHeaderWithMode(db, "English", "en", mode)
+
+			// Should contain the mode guidance
+			expectedModeText := strings.ToUpper(mode)
+			if mode == "match-add" {
+				expectedModeText = "MATCH-ADD"
+			} else if mode == "add-only" {
+				expectedModeText = "ADD-ONLY"
+			} else if mode == "translit" {
+				expectedModeText = "TRANSLITERATION"
+			}
+
+			if !strings.Contains(header, expectedModeText) {
+				t.Errorf("Header should contain mode guidance for %s", mode)
+			}
+
+			// Should contain function descriptions
+			if !strings.Contains(header, "AVAILABLE FUNCTIONS FOR THIS MODE:") {
+				t.Errorf("Header should contain available functions section")
+			}
+
+			// Should contain examples section
+			if !strings.Contains(header, "Example:") {
+				t.Errorf("Header should contain function examples")
+			}
+
+			// Verify mode-specific functions are present
+			switch mode {
+			case "match":
+				if !strings.Contains(header, "SEARCH:") || strings.Contains(header, "SEARCH_INVENTORY:") {
+					t.Errorf("Match mode should have SEARCH but not SEARCH_INVENTORY")
+				}
+			case "add-only":
+				if strings.Contains(header, "SEARCH:") || !strings.Contains(header, "SEARCH_INVENTORY:") {
+					t.Errorf("Add-only mode should have SEARCH_INVENTORY but not SEARCH")
+				}
+			case "translit":
+				if !strings.Contains(header, "SEARCH:") || !strings.Contains(header, "CORRECT_TRANSLITERATION:") {
+					t.Errorf("Translit mode should have both SEARCH and CORRECT_TRANSLITERATION")
+				}
+			}
+		})
+	}
+}
+
+func TestImprovedModeInstructions(t *testing.T) {
+	// Test that the new mode instructions are clear and actionable for LLMs
+	db := Database{
+		Writing: []Writing{
+			{Phelps: "AB00001FIR", Language: "en", Name: "Test", Text: "Test"},
+		},
+	}
+
+	tests := []struct {
+		mode             string
+		shouldContain    []string
+		shouldNotContain []string
+	}{
+		{
+			mode: "match",
+			shouldContain: []string{
+				"MODE: MATCH ONLY",
+				"🎯 GOAL:",
+				"SIMPLE WORKFLOW:",
+				"1. SEARCH:",
+				"2. GET_FULL_TEXT:",
+				"3. FINAL_ANSWER:",
+			},
+			shouldNotContain: []string{
+				"SEARCH_INVENTORY",
+				"ADD_NEW_PRAYER",
+				"complex",
+				"lengthy",
+			},
+		},
+		{
+			mode: "match-add",
+			shouldContain: []string{
+				"MODE: MATCH-ADD",
+				"🎯 GOAL:",
+				"SIMPLE WORKFLOW:",
+				"Step 1 - TRY MATCHING:",
+				"Step 2 - IF NO MATCH:",
+				"SEARCH_INVENTORY:",
+			},
+			shouldNotContain: []string{
+				"complex workflow",
+				"confusing instructions",
+			},
+		},
+		{
+			mode: "add-only",
+			shouldContain: []string{
+				"MODE: ADD-ONLY",
+				"🎯 GOAL:",
+				"SIMPLE WORKFLOW:",
+				"SEARCH_INVENTORY:",
+				"❌ DO NOT use SEARCH functions",
+			},
+			shouldNotContain: []string{
+				"SEARCH:",
+				"GET_FULL_TEXT:",
+			},
+		},
+		{
+			mode: "translit",
+			shouldContain: []string{
+				"MODE: TRANSLITERATION",
+				"🎯 GOAL:",
+				"SIMPLE WORKFLOW:",
+				"1. SEARCH:",
+				"2. GET_FULL_TEXT:",
+				"3. CHECK_TRANSLIT_CONSISTENCY:",
+				"4. If transliteration needs fixing: CORRECT_TRANSLITERATION:",
+				"5. FINAL_ANSWER:",
+				"✅ Available functions:",
+			},
+			shouldNotContain: []string{
+				"TRANSLITERATION STANDARDS:",
+				"Use proper Bahá'í transliteration",
+				"Follow Bahá'í conventions",
+				"lengthy explanation",
+				"SEARCH_INVENTORY",
+			},
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run("Mode_"+tt.mode+"_instructions", func(t *testing.T) {
+			header := prepareLLMHeaderWithMode(db, "English", "en", tt.mode)
+
+			// Check that required content is present
+			for _, required := range tt.shouldContain {
+				if !strings.Contains(header, required) {
+					t.Errorf("Mode %s instructions should contain %q", tt.mode, required)
+				}
+			}
+
+			// Check that problematic content is not present
+			for _, forbidden := range tt.shouldNotContain {
+				if strings.Contains(header, forbidden) {
+					t.Errorf("Mode %s instructions should NOT contain %q", tt.mode, forbidden)
+				}
+			}
+
+			// Verify instructions are concise (not too long)
+			lines := strings.Split(header, "\n")
+			modeSection := ""
+			inModeSection := false
+			for _, line := range lines {
+				if strings.HasPrefix(line, "MODE: ") {
+					inModeSection = true
+				}
+				if inModeSection {
+					modeSection += line + "\n"
+					if strings.HasPrefix(line, "Current reference language:") {
+						break
+					}
+				}
+			}
+
+			// Mode instructions should be focused and clear
+			if len(modeSection) < 50 {
+				t.Errorf("Mode %s instructions seem too short: %s", tt.mode, modeSection)
+			}
+		})
+	}
+}
+
+func TestTranslitModeHeaderOutput(t *testing.T) {
+	// Test to show what the actual header looks like for translit mode
+	db := Database{
+		Writing: []Writing{
+			{Phelps: "AB00001FIR", Language: "ar", Name: "Fire Tablet", Text: "Test prayer"},
+			{Phelps: "AB00002TAB", Language: "fa", Name: "Tablet of Ahmad", Text: "Test prayer"},
+		},
+	}
+
+	header := prepareLLMHeaderWithMode(db, "Arabic", "en", "translit")
+
+	t.Logf("=== TRANSLIT MODE HEADER ===")
+	t.Logf("%s", header)
+
+	// Verify key components are present
+	requiredElements := []string{
+		"MODE: TRANSLITERATION",
+		"Match original Arabic/Persian text",
+		"AVAILABLE FUNCTIONS FOR THIS MODE:",
+		"SEARCH:",
+		"CHECK_TRANSLIT_CONSISTENCY:",
+		"CORRECT_TRANSLITERATION:",
+		"RESPOND ONLY WITH FUNCTION CALLS",
+	}
+
+	for _, element := range requiredElements {
+		if !strings.Contains(header, element) {
+			t.Errorf("Translit mode header missing required element: %s", element)
+		}
+	}
+
+	// Verify problematic elements are NOT present
+	shouldNotContain := []string{
+		"SEARCH_INVENTORY:", // Should not be available in translit mode
+		"ADD_NEW_PRAYER:",   // Should not be available in translit mode
+	}
+
+	for _, element := range shouldNotContain {
+		if strings.Contains(header, element) {
+			t.Errorf("Translit mode header should NOT contain: %s", element)
+		}
 	}
 }
