@@ -1,8 +1,9 @@
 Prayer Matching Report
 =====================
-Started: 2025-09-22T23:13:06+01:00
-Target Language: es
+Started: 2025-09-26T21:53:58+01:00
+Target Language: fa-translit
 Reference Language: en
+Operation Mode: translit
 Lucky Mode: false
 Continue Mode: false
 No Priority Languages: false
@@ -11,6 +12,8 @@ Gemini Quota Exceeded: false
 Ollama Model: gpt-oss
 Interactive Mode: true
 Max Prayers: 0
-Verbose Mode: false
+Verbose Mode: true
 
 Database loaded successfully
+Database size: 9000 writings, 120 languages, 162 match attempts, 3 language pairs, 0 skip entries
+Processing writing:  (Version: 011d5894-1bab-4c39-b9e8-7ead5b8b9c81)

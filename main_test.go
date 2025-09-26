@@ -1043,22 +1043,22 @@ func TestProcessFinalAnswer(t *testing.T) {
 		{
 			name:     "Valid final answer",
 			args:     "AB00001FIR,85,This prayer matches based on distinctive phrases and structure",
-			expected: "FINAL ANSWER RECEIVED:\nPhelps: AB00001FIR\nConfidence: 85\nReasoning: This prayer matches based on distinctive phrases and structure",
+			expected: "FINAL ANSWER RECEIVED:\nPhelps: AB00001FIR\nConfidence: 85%\nReasoning: This prayer matches based on distinctive phrases and structure",
 		},
 		{
 			name:     "Unknown answer",
 			args:     "UNKNOWN,0,No matching prayer found after extensive search",
-			expected: "FINAL ANSWER RECEIVED:\nPhelps: UNKNOWN\nConfidence: 0\nReasoning: No matching prayer found after extensive search",
+			expected: "FINAL ANSWER RECEIVED:\nPhelps: UNKNOWN\nConfidence: 0%\nReasoning: No matching prayer found after extensive search",
 		},
 		{
 			name:     "Reasoning with commas",
 			args:     "AB00002TEST,75,Prayer mentions Lord, God, mercy, and blessing which match reference text",
-			expected: "FINAL ANSWER RECEIVED:\nPhelps: AB00002TEST\nConfidence: 75\nReasoning: Prayer mentions Lord, God, mercy, and blessing which match reference text",
+			expected: "FINAL ANSWER RECEIVED:\nPhelps: AB00002TEST\nConfidence: 75%\nReasoning: Prayer mentions Lord, God, mercy, and blessing which match reference text",
 		},
 		{
 			name:     "High confidence match",
 			args:     "AB00003XYZ,95,Exact phrase match found in opening and closing sentences",
-			expected: "FINAL ANSWER RECEIVED:\nPhelps: AB00003XYZ\nConfidence: 95\nReasoning: Exact phrase match found in opening and closing sentences",
+			expected: "FINAL ANSWER RECEIVED:\nPhelps: AB00003XYZ\nConfidence: 95%\nReasoning: Exact phrase match found in opening and closing sentences",
 		},
 		{
 			name:     "Insufficient arguments",
@@ -1067,18 +1067,18 @@ func TestProcessFinalAnswer(t *testing.T) {
 		},
 		{
 			name:     "Invalid confidence - not a number",
-			args:     "AB00001FIR,high,This prayer matches well",
-			expected: "Error: Invalid confidence value 'high'. Must be 0-100",
+			args:     "AB00001FIR,high,Test reasoning",
+			expected: "Error: Invalid confidence value 'high'. Must be a number 0-100",
 		},
 		{
 			name:     "Invalid confidence - negative",
 			args:     "AB00001FIR,-10,This doesn't match",
-			expected: "Error: Confidence must be between 0-100",
+			expected: "Error: Confidence must be between 0-100 (or 0.0-1.0)",
 		},
 		{
 			name:     "Invalid confidence - too high",
-			args:     "AB00001FIR,150,This matches perfectly",
-			expected: "Error: Confidence must be between 0-100",
+			args:     "AB00001FIR,150,This is very confident but invalid",
+			expected: "Error: Confidence must be between 0-100 (or 0.0-1.0)",
 		},
 		{
 			name:     "Empty phelps code",
@@ -1093,7 +1093,7 @@ func TestProcessFinalAnswer(t *testing.T) {
 		{
 			name:     "Minimal valid input",
 			args:     "TEST,0,No match",
-			expected: "FINAL ANSWER RECEIVED:\nPhelps: TEST\nConfidence: 0\nReasoning: No match",
+			expected: "FINAL ANSWER RECEIVED:\nPhelps: TEST\nConfidence: 0%\nReasoning: No match",
 		},
 	}
 
@@ -1308,6 +1308,389 @@ func TestCommandRCompatibility(t *testing.T) {
 				if len(validCalls) > 0 {
 					t.Errorf("Expected invalid call, but got valid: %v", validCalls)
 				}
+			}
+		})
+	}
+}
+
+func TestSearchInventoryFunction(t *testing.T) {
+	// Create a SearchInventoryFunction instance
+	searchFunc := SearchInventoryFunction{NewPrefixFunction("SEARCH_INVENTORY")}
+	mockDB := Database{} // Empty database for this test
+
+	tests := []struct {
+		name     string
+		call     string
+		expected []string
+	}{
+		{
+			name: "Missing arguments",
+			call: "SEARCH_INVENTORY:",
+			expected: []string{
+				"Error: SEARCH_INVENTORY requires format: keywords,language",
+				"",
+				"SUPPORTED LANGUAGES (with good inventory coverage):",
+				"- Eng (English) - best coverage",
+				"- Ara (Arabic) - original texts",
+				"- Per (Persian) - original texts",
+				"- Trk (Turkish) - some coverage",
+				"",
+				"Example: SEARCH_INVENTORY:lord god mercy,Eng",
+			},
+		},
+		{
+			name: "Unsupported language",
+			call: "SEARCH_INVENTORY:lord god,xyz",
+			expected: []string{
+				"Warning: Language 'xyz' may have very limited inventory coverage.",
+				"",
+				"BEST SUPPORTED LANGUAGES:",
+				"- Eng (English) - comprehensive coverage",
+				"- Ara (Arabic) - original Bahá'í texts",
+				"- Per (Persian) - original Bahá'í texts",
+				"",
+				"Continue with inventory search anyway? Use exact format: SEARCH_INVENTORY:keywords,Eng",
+			},
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			result := searchFunc.Execute(mockDB, "en", tt.call)
+			if len(result) != len(tt.expected) {
+				t.Errorf("Expected %d results, got %d", len(tt.expected), len(result))
+				return
+			}
+			for i, expected := range tt.expected {
+				if i < len(result) && result[i] != expected {
+					t.Errorf("Result %d: expected %q, got %q", i, expected, result[i])
+				}
+			}
+		})
+	}
+}
+
+func TestCheckTagFunction(t *testing.T) {
+	checkFunc := CheckTagFunction{NewPrefixFunction("CHECK_TAG")}
+	mockDB := Database{} // Empty database for this test
+
+	tests := []struct {
+		name     string
+		call     string
+		hasError bool
+	}{
+		{
+			name:     "Empty PIN",
+			call:     "CHECK_TAG:",
+			hasError: true,
+		},
+		{
+			name:     "Valid PIN format",
+			call:     "CHECK_TAG:AB00001",
+			hasError: false,
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			result := checkFunc.Execute(mockDB, "en", tt.call)
+			hasError := len(result) > 0 && strings.Contains(result[0], "Error:")
+
+			if hasError != tt.hasError {
+				t.Errorf("Expected error: %v, got error: %v (result: %v)", tt.hasError, hasError, result[0])
+			}
+		})
+	}
+}
+
+func TestAddNewPrayerFunction(t *testing.T) {
+	addFunc := AddNewPrayerFunction{NewPrefixFunction("ADD_NEW_PRAYER")}
+	mockDB := Database{} // Empty database for this test
+
+	tests := []struct {
+		name     string
+		call     string
+		hasError bool
+	}{
+		{
+			name:     "Missing arguments",
+			call:     "ADD_NEW_PRAYER:",
+			hasError: true,
+		},
+		{
+			name:     "Invalid confidence - not a number",
+			call:     "ADD_NEW_PRAYER:AB00001FIR,high,Test reasoning",
+			hasError: true,
+		},
+		{
+			name:     "Invalid confidence - out of range",
+			call:     "ADD_NEW_PRAYER:AB00001FIR,150,Test reasoning",
+			hasError: true,
+		},
+		{
+			name:     "Invalid Phelps code - too short",
+			call:     "ADD_NEW_PRAYER:AB001,85,Test reasoning",
+			hasError: true,
+		},
+		{
+			name:     "Invalid Phelps code - wrong length",
+			call:     "ADD_NEW_PRAYER:AB00001FIRRR,85,Test reasoning",
+			hasError: true,
+		},
+		{
+			name:     "Valid format - PIN only",
+			call:     "ADD_NEW_PRAYER:AB00001,85,Complete document prayer",
+			hasError: false, // Will fail with PIN validation, but format is correct
+		},
+		{
+			name:     "Valid format - PIN with tag",
+			call:     "ADD_NEW_PRAYER:AB00001FIR,85,First prayer from document",
+			hasError: false, // Will fail with PIN validation, but format is correct
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			result := addFunc.Execute(mockDB, "en", tt.call)
+			hasError := len(result) > 0 && strings.Contains(result[0], "Error:")
+
+			if hasError != tt.hasError {
+				t.Errorf("Expected error: %v, got error: %v (result: %v)", tt.hasError, hasError, result[0])
+			}
+		})
+	}
+}
+
+func TestCorrectTransliterationFunction(t *testing.T) {
+	correctFunc := CorrectTransliterationFunction{NewPrefixFunction("CORRECT_TRANSLITERATION")}
+	mockDB := Database{} // Empty database for this test
+
+	tests := []struct {
+		name     string
+		call     string
+		hasError bool
+	}{
+		{
+			name:     "Missing arguments",
+			call:     "CORRECT_TRANSLITERATION:",
+			hasError: true,
+		},
+		{
+			name:     "Invalid confidence",
+			call:     "CORRECT_TRANSLITERATION:AB00001FIR,abc,O Thou Who art the Lord",
+			hasError: true,
+		},
+		{
+			name:     "Text too short",
+			call:     "CORRECT_TRANSLITERATION:AB00001FIR,85,Short",
+			hasError: true,
+		},
+		{
+			name:     "Valid correction",
+			call:     "CORRECT_TRANSLITERATION:AB00001FIR,85,O Thou Who art the Lord of all names and the Creator of the heavens",
+			hasError: false,
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			result := correctFunc.Execute(mockDB, "en", tt.call)
+			hasError := len(result) > 0 && strings.Contains(result[0], "Error:")
+
+			if hasError != tt.hasError {
+				t.Errorf("Expected error: %v, got error: %v", tt.hasError, hasError)
+			}
+		})
+	}
+}
+
+func TestOperationModeValidation(t *testing.T) {
+	tests := []struct {
+		language string
+		mode     string
+		expected bool
+	}{
+		{"ar", "match", true},
+		{"fa", "match", true},
+		{"ar-translit", "match", true},
+		{"fa-translit", "match", true},
+		{"en", "match", false},
+		{"es", "match", false},
+		{"ar", "translit", true},
+		{"fa-translit", "translit", true},
+	}
+
+	for _, tt := range tests {
+		result := shouldCheckTransliteration(tt.language, tt.mode)
+		if result != tt.expected {
+			t.Errorf("shouldCheckTransliteration(%s, %s): expected %v, got %v", tt.language, tt.mode, tt.expected, result)
+		}
+	}
+}
+
+func TestPrepareLLMHeaderWithMode(t *testing.T) {
+	// Create a mock database with some known Phelps codes
+	db := Database{
+		Writing: []Writing{
+			{Phelps: "AB00001FIR", Language: "en", Name: "Fire Tablet", Text: "Test prayer 1"},
+			{Phelps: "AB00032DAR", Language: "en", Name: "Tablet of Ahmad", Text: "Test prayer 2"},
+		},
+	}
+
+	tests := []struct {
+		mode     string
+		contains []string
+	}{
+		{
+			mode:     "match",
+			contains: []string{"MODE: MATCH ONLY"},
+		},
+		{
+			mode:     "match-add",
+			contains: []string{"MODE: MATCH-ADD", "NEW CODE WORKFLOW"},
+		},
+		{
+			mode:     "add-only",
+			contains: []string{"MODE: ADD-ONLY", "ADD-ONLY WORKFLOW"},
+		},
+		{
+			mode:     "translit",
+			contains: []string{"MODE: TRANSLITERATION", "TRANSLIT WORKFLOW"},
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run("Mode_"+tt.mode, func(t *testing.T) {
+			header := prepareLLMHeaderWithMode(db, "English", "en", tt.mode)
+
+			for _, expectedText := range tt.contains {
+				if !strings.Contains(header, expectedText) {
+					t.Errorf("Header for mode %s should contain %q", tt.mode, expectedText)
+				}
+			}
+		})
+	}
+}
+
+func TestMultiLanguageSupport(t *testing.T) {
+	tests := []struct {
+		name          string
+		languageInput string
+		expectedLangs []string
+	}{
+		{
+			name:          "Single language",
+			languageInput: "es",
+			expectedLangs: []string{"es"},
+		},
+		{
+			name:          "Multiple languages",
+			languageInput: "es,fr,de",
+			expectedLangs: []string{"es", "fr", "de"},
+		},
+		{
+			name:          "Languages with spaces",
+			languageInput: "es, fr, de",
+			expectedLangs: []string{"es", "fr", "de"},
+		},
+		{
+			name:          "Empty string",
+			languageInput: "",
+			expectedLangs: []string{""},
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			var languages []string
+			if tt.languageInput != "" {
+				splitLangs := strings.Split(tt.languageInput, ",")
+				for _, lang := range splitLangs {
+					languages = append(languages, strings.TrimSpace(lang))
+				}
+			} else {
+				languages = []string{tt.languageInput}
+			}
+
+			if len(languages) != len(tt.expectedLangs) {
+				t.Errorf("Expected %d languages, got %d", len(tt.expectedLangs), len(languages))
+				return
+			}
+
+			for i, expected := range tt.expectedLangs {
+				if languages[i] != expected {
+					t.Errorf("Language %d: expected %s, got %s", i, expected, languages[i])
+				}
+			}
+		})
+	}
+}
+
+func TestTranslitLanguageProcessing(t *testing.T) {
+	tests := []struct {
+		name           string
+		inputLang      string
+		expectedOutput string
+		expectedCount  int
+	}{
+		{
+			name:           "Arabic base language",
+			inputLang:      "ar",
+			expectedOutput: "ar-translit",
+			expectedCount:  1,
+		},
+		{
+			name:           "Persian base language",
+			inputLang:      "fa",
+			expectedOutput: "fa-translit",
+			expectedCount:  1,
+		},
+		{
+			name:           "Persian alternative",
+			inputLang:      "persian",
+			expectedOutput: "fa-translit",
+			expectedCount:  1,
+		},
+		{
+			name:           "Already translit format",
+			inputLang:      "ar-translit",
+			expectedOutput: "ar-translit",
+			expectedCount:  1,
+		},
+		{
+			name:           "Multiple languages",
+			inputLang:      "ar,fa",
+			expectedOutput: "ar-translit,fa-translit",
+			expectedCount:  2,
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			languages := strings.Split(tt.inputLang, ",")
+			var translitLanguages []string
+
+			for _, lang := range languages {
+				lang = strings.TrimSpace(lang)
+
+				if lang == "ar" || lang == "arabic" {
+					translitLanguages = append(translitLanguages, "ar-translit")
+				} else if lang == "fa" || lang == "persian" || lang == "per" {
+					translitLanguages = append(translitLanguages, "fa-translit")
+				} else if strings.HasSuffix(lang, "-translit") {
+					translitLanguages = append(translitLanguages, lang)
+				} else {
+					translitLanguages = append(translitLanguages, lang)
+				}
+			}
+
+			result := strings.Join(translitLanguages, ",")
+			if result != tt.expectedOutput {
+				t.Errorf("Expected %s, got %s", tt.expectedOutput, result)
+			}
+
+			if len(translitLanguages) != tt.expectedCount {
+				t.Errorf("Expected %d languages, got %d", tt.expectedCount, len(translitLanguages))
 			}
 		})
 	}

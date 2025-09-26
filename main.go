@@ -2212,6 +2212,10 @@ Reasoning: [Explanation of why no match was found, mentioning what you looked fo
 
 // Prepare interactive header for LLM calls
 func prepareLLMHeader(db Database, targetLanguage, referenceLanguage string) string {
+	return prepareLLMHeaderWithMode(db, targetLanguage, referenceLanguage, "match")
+}
+
+func prepareLLMHeaderWithMode(db Database, targetLanguage, referenceLanguage string, operationMode string) string {
 	if targetLanguage == "" {
 		targetLanguage = "English"
 	}
@@ -2221,7 +2225,56 @@ func prepareLLMHeader(db Database, targetLanguage, referenceLanguage string) str
 
 	phelpsContext := buildPhelpsContext(db, referenceLanguage)
 
+	var modeGuidance string
+	switch operationMode {
+	case "match":
+		modeGuidance = `MODE: MATCH ONLY - Find existing Phelps codes only. Use UNKNOWN if no match found.`
+	case "match-add":
+		modeGuidance = `MODE: MATCH-ADD - Try matching first. If no match found, create new Phelps code from inventory.
+
+NEW CODE WORKFLOW (when no match found):
+1. SEARCH_INVENTORY:keywords,language - find potential source documents
+2. CHECK_TAG:PIN - see existing tags for that document
+3. ADD_NEW_PRAYER:new_phelps_code,confidence,reasoning - create new code
+4. FINAL_ANSWER:new_phelps_code,confidence,reasoning - complete assignment
+
+PHELPS CODE FORMAT:
+- Entire document: Use PIN directly (e.g., AB00156)
+- Part of document: Use PIN + 3-letter tag (e.g., AB00001FIR, AB00001SHI)
+- Choose logical tags: FIR (first), SEC (second), etc. or meaningful abbreviations`
+	case "add-only":
+		modeGuidance = `MODE: ADD-ONLY - Skip matching, create new Phelps codes from inventory only.
+⚠️  BEST RESULTS: English (Eng), Arabic (Ara), Persian (Per) - other languages have limited inventory coverage.
+
+ADD-ONLY WORKFLOW:
+1. SEARCH_INVENTORY:keywords,language - find source document in inventory
+2. CHECK_TAG:PIN - see what tags already exist for that PIN
+3. ADD_NEW_PRAYER:new_phelps_code,confidence,reasoning - create new code
+4. FINAL_ANSWER:new_phelps_code,confidence,reasoning - complete assignment
+
+Do NOT use SEARCH or other matching functions - go straight to inventory search.`
+	case "translit":
+		modeGuidance = `MODE: TRANSLITERATION - Match/correct Arabic or Persian transliteration.
+
+TRANSLIT WORKFLOW:
+1. Find corresponding original (ar/fa) version using existing Phelps code
+2. Compare transliteration quality against Bahá'í transliteration standards
+3. If poor quality: CORRECT_TRANSLITERATION with improved version
+4. If good quality: FINAL_ANSWER with existing code
+5. If no corresponding version: treat as regular matching
+
+TRANSLITERATION STANDARDS:
+- Arabic: Use proper Bahá'í transliteration (not academic)
+- Persian: Follow Bahá'í conventions for names and terms
+- Preserve sacred names and technical terms accurately
+- Focus on readability for Bahá'í community
+
+Only works with ar-translit and fa-translit languages.`
+	}
+
 	header := fmt.Sprintf(`TASK: Match prayer text in %s to Phelps code. RESPOND ONLY WITH FUNCTION CALLS.
+
+%s
 
 Current reference language: %s (use SWITCH_REFERENCE_LANGUAGE if needed)
 
@@ -2240,7 +2293,7 @@ SEARCH examples (ALWAYS COMBINE multiple criteria):
 
 AVOID separate searches - always combine criteria in ONE search!
 
-MANDATORY WORKFLOW:
+STANDARD WORKFLOW (match/match-add modes):
 1. Use ONE combined SEARCH with keywords + opening phrase + length range
 2. Get full text of top candidates
 3. Use GET_FOCUS_TEXT to verify multiple candidates (keyword or 'head'/'tail')
@@ -2267,13 +2320,13 @@ Database: %d prayers (%s)
 %s
 
 AVAILABLE FUNCTIONS:
-%s`, targetLanguage, referenceLanguage, referenceLanguage, len(phelpsContext), referenceLanguage, formatNotesForPrompt(getRelevantNotes(targetLanguage)), generateFunctionHelp())
+%s`, targetLanguage, modeGuidance, referenceLanguage, referenceLanguage, len(phelpsContext), referenceLanguage, formatNotesForPrompt(getRelevantNotes(targetLanguage)), generateFunctionHelp())
 
 	return header
 }
 
 // Interactive LLM conversation with function call support using Ollama API
-func callLLMInteractive(db Database, currentReferenceLanguage string, prompt string, useGemini bool, textLength int, maxRoundsParam int) (LLMResponse, error) {
+func callLLMInteractive(db Database, currentReferenceLanguage string, prompt string, useGemini bool, textLength int, maxRoundsParam int, operationMode string) (LLMResponse, error) {
 	// Store the current reference language for potential switching
 	activeReferenceLanguage := currentReferenceLanguage
 	maxRounds := maxRoundsParam // Maximum conversation rounds to prevent infinite loops
@@ -2517,7 +2570,7 @@ func callLLMInteractive(db Database, currentReferenceLanguage string, prompt str
 						activeReferenceLanguage = newRefLang
 
 						// Update the header for remaining conversation
-						newHeader := prepareLLMHeader(db, "", activeReferenceLanguage)
+						newHeader := prepareLLMHeaderWithMode(db, "", activeReferenceLanguage, operationMode)
 						messages[0] = OllamaMessage{Role: "user", Content: newHeader + "\n\nPrayer text to analyze:\n" + strings.Split(messages[0].Content, "Prayer text to analyze:\n")[1]}
 
 						systemMessage += fmt.Sprintf("REFERENCE_LANGUAGE_CHANGED: Now using %s as reference language.\n", newRefLang)
@@ -3031,6 +3084,526 @@ func (l ListReferenceLanguagesFunction) GetUsageExample() string {
 	return "LIST_REFERENCE_LANGUAGES"
 }
 
+type SearchInventoryFunction struct{ PrefixFunction }
+
+func (s SearchInventoryFunction) Execute(db Database, referenceLanguage string, call string) []string {
+	args := strings.TrimPrefix(call, "SEARCH_INVENTORY:")
+	parts := strings.Split(args, ",")
+	if len(parts) < 2 {
+		return []string{
+			"Error: SEARCH_INVENTORY requires format: keywords,language",
+			"",
+			"SUPPORTED LANGUAGES (with good inventory coverage):",
+			"- Eng (English) - best coverage",
+			"- Ara (Arabic) - original texts",
+			"- Per (Persian) - original texts",
+			"- Trk (Turkish) - some coverage",
+			"",
+			"Example: SEARCH_INVENTORY:lord god mercy,Eng",
+		}
+	}
+
+	keywords := strings.TrimSpace(parts[0])
+	language := strings.TrimSpace(parts[1])
+
+	// Map common language codes to inventory format and validate
+	inventoryLang := language
+	var isWellSupported bool
+	switch strings.ToLower(language) {
+	case "en", "eng":
+		inventoryLang = "Eng"
+		isWellSupported = true
+	case "ar", "ara", "arabic":
+		inventoryLang = "Ara"
+		isWellSupported = true
+	case "fa", "per", "persian":
+		inventoryLang = "Per"
+		isWellSupported = true
+	case "tr", "trk", "turkish":
+		inventoryLang = "Trk"
+		isWellSupported = false
+	default:
+		return []string{
+			fmt.Sprintf("Warning: Language '%s' may have very limited inventory coverage.", language),
+			"",
+			"BEST SUPPORTED LANGUAGES:",
+			"- Eng (English) - comprehensive coverage",
+			"- Ara (Arabic) - original Bahá'í texts",
+			"- Per (Persian) - original Bahá'í texts",
+			"",
+			"Continue with inventory search anyway? Use exact format: SEARCH_INVENTORY:keywords,Eng",
+		}
+	}
+
+	// Build search query for inventory table
+	keywordList := strings.Split(keywords, " ")
+	var conditions []string
+	for _, keyword := range keywordList {
+		keyword = strings.TrimSpace(keyword)
+		if keyword != "" {
+			escaped := strings.ReplaceAll(keyword, "'", "''")
+			conditions = append(conditions, fmt.Sprintf("(Title LIKE '%%%s%%' OR `First line (original)` LIKE '%%%s%%' OR `First line (translated)` LIKE '%%%s%%' OR Abstracts LIKE '%%%s%%')", escaped, escaped, escaped, escaped))
+		}
+	}
+
+	whereClause := strings.Join(conditions, " AND ")
+	if whereClause == "" {
+		whereClause = "1=1"
+	}
+
+	query := fmt.Sprintf("SELECT PIN, Title, `First line (original)`, `First line (translated)` FROM inventory WHERE Language = '%s' AND (%s) LIMIT 10", inventoryLang, whereClause)
+
+	cmd := exec.Command("dolt", "sql", "-q", query)
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return []string{fmt.Sprintf("Error searching inventory: %v", err)}
+	}
+
+	lines := strings.Split(string(output), "\n")
+	var results []string
+	if isWellSupported {
+		results = append(results, fmt.Sprintf("INVENTORY SEARCH: '%s' in language '%s' ✅", keywords, inventoryLang))
+	} else {
+		results = append(results, fmt.Sprintf("INVENTORY SEARCH: '%s' in language '%s' ⚠️ (limited coverage)", keywords, inventoryLang))
+	}
+
+	for i, line := range lines {
+		if i < 3 || line == "" { // Skip header lines
+			continue
+		}
+		if strings.Contains(line, "|") {
+			fields := strings.Split(line, "|")
+			if len(fields) >= 4 {
+				pin := strings.TrimSpace(fields[0])
+				title := strings.TrimSpace(fields[1])
+				firstOriginal := strings.TrimSpace(fields[2])
+				firstTranslated := strings.TrimSpace(fields[3])
+
+				result := fmt.Sprintf("PIN: %s - %s", pin, title)
+				if firstOriginal != "" && firstOriginal != "NULL" {
+					result += fmt.Sprintf("\n  Original: %s", firstOriginal)
+				}
+				if firstTranslated != "" && firstTranslated != "NULL" {
+					result += fmt.Sprintf("\n  Translated: %s", firstTranslated)
+				}
+				results = append(results, result)
+			}
+		}
+	}
+
+	if len(results) == 1 {
+		results = append(results, "No matching documents found.")
+	}
+
+	return results
+}
+
+func (s SearchInventoryFunction) GetDescription() string {
+	return "SEARCH_INVENTORY:keywords,language (search inventory table for documents by title/content)"
+}
+
+func (s SearchInventoryFunction) GetUsageExample() string {
+	return "SEARCH_INVENTORY:lord god mercy,Eng"
+}
+
+type CheckTagFunction struct{ PrefixFunction }
+
+func (c CheckTagFunction) Execute(db Database, referenceLanguage string, call string) []string {
+	args := strings.TrimPrefix(call, "CHECK_TAG:")
+	pin := strings.TrimSpace(args)
+
+	if pin == "" {
+		return []string{"Error: CHECK_TAG requires a PIN (e.g., AB00001)"}
+	}
+
+	// Escape PIN for SQL query
+	escapedPIN := strings.ReplaceAll(pin, "'", "''")
+
+	// Query for all Phelps codes starting with this PIN
+	query := fmt.Sprintf("SELECT DISTINCT phelps FROM writings WHERE phelps LIKE '%s%%' AND phelps IS NOT NULL AND phelps != '' ORDER BY phelps", escapedPIN)
+
+	cmd := exec.Command("dolt", "sql", "-q", query)
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return []string{fmt.Sprintf("Error checking tags for PIN %s: %v", pin, err)}
+	}
+
+	lines := strings.Split(string(output), "\n")
+	var results []string
+	results = append(results, fmt.Sprintf("EXISTING PHELPS CODES for PIN '%s':", pin))
+
+	var foundCodes []string
+	for i, line := range lines {
+		if i < 3 || line == "" { // Skip header lines
+			continue
+		}
+		if strings.Contains(line, "|") {
+			fields := strings.Split(line, "|")
+			if len(fields) >= 1 {
+				phelpsCode := strings.TrimSpace(fields[0])
+				if phelpsCode != "" && phelpsCode != "NULL" {
+					foundCodes = append(foundCodes, phelpsCode)
+				}
+			}
+		}
+	}
+
+	if len(foundCodes) == 0 {
+		results = append(results, "No existing Phelps codes found for this PIN.")
+		results = append(results, "This means:")
+		results = append(results, "- If the prayer IS the entire document, use: "+pin)
+		results = append(results, "- If the prayer is PART of the document, use: "+pin+"XXX (where XXX is a 3-letter tag)")
+	} else {
+		results = append(results, fmt.Sprintf("Found %d existing codes:", len(foundCodes)))
+		for _, code := range foundCodes {
+			if len(code) == len(pin) {
+				results = append(results, "- "+code+" (entire document)")
+			} else if len(code) > len(pin) {
+				tag := code[len(pin):]
+				results = append(results, "- "+code+" (tag: "+tag+")")
+			} else {
+				results = append(results, "- "+code)
+			}
+		}
+		results = append(results, "For a new prayer from this document, suggest next available tag.")
+	}
+
+	return results
+}
+
+func (c CheckTagFunction) GetDescription() string {
+	return "CHECK_TAG:pin (show existing Phelps codes and tags for a PIN)"
+}
+
+func (c CheckTagFunction) GetUsageExample() string {
+	return "CHECK_TAG:AB00001"
+}
+
+type AddNewPrayerFunction struct{ PrefixFunction }
+
+func (a AddNewPrayerFunction) Execute(db Database, referenceLanguage string, call string) []string {
+	args := strings.TrimPrefix(call, "ADD_NEW_PRAYER:")
+	parts := strings.SplitN(args, ",", 3)
+	if len(parts) != 3 {
+		return []string{"Error: ADD_NEW_PRAYER requires format: phelps_code,confidence,reasoning"}
+	}
+
+	phelpsCode := strings.TrimSpace(parts[0])
+	confidenceStr := strings.TrimSpace(parts[1])
+	reasoning := strings.TrimSpace(parts[2])
+
+	// Validate confidence
+	confidence, err := strconv.ParseFloat(confidenceStr, 64)
+	if err != nil {
+		return []string{"Error: Confidence must be a number (0-100)"}
+	}
+	if confidence < 0 || confidence > 100 {
+		return []string{"Error: Confidence must be between 0 and 100"}
+	}
+
+	// Basic validation of Phelps code format
+	if len(phelpsCode) < 7 {
+		return []string{"Error: Phelps code too short - should be PIN (7 chars) or PIN+tag (10 chars)"}
+	}
+
+	// Extract PIN from Phelps code
+	var pin string
+	if len(phelpsCode) == 7 {
+		pin = phelpsCode // Entire document
+	} else if len(phelpsCode) == 10 {
+		pin = phelpsCode[:7] // Document with 3-letter tag
+	} else {
+		return []string{"Error: Invalid Phelps code format - should be 7 chars (PIN) or 10 chars (PIN+tag)"}
+	}
+
+	// Check if PIN exists in inventory
+	escapedPIN := strings.ReplaceAll(pin, "'", "''")
+	checkQuery := fmt.Sprintf("SELECT COUNT(*) FROM inventory WHERE PIN = '%s'", escapedPIN)
+	cmd := exec.Command("dolt", "sql", "-q", checkQuery)
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return []string{fmt.Sprintf("Error validating PIN %s: %v", pin, err)}
+	}
+
+	// Parse count result
+	lines := strings.Split(string(output), "\n")
+	var count int
+	for i, line := range lines {
+		if i < 3 || line == "" {
+			continue
+		}
+		if strings.Contains(line, "|") {
+			fields := strings.Split(line, "|")
+			if len(fields) >= 1 {
+				countStr := strings.TrimSpace(fields[0])
+				if countStr != "NULL" && countStr != "" {
+					count, _ = strconv.Atoi(countStr)
+				}
+			}
+		}
+	}
+
+	if count == 0 {
+		return []string{fmt.Sprintf("Error: PIN %s not found in inventory - cannot create Phelps code", pin)}
+	}
+
+	// Check if Phelps code already exists
+	escapedPhelps := strings.ReplaceAll(phelpsCode, "'", "''")
+	existsQuery := fmt.Sprintf("SELECT COUNT(*) FROM writings WHERE phelps = '%s'", escapedPhelps)
+	cmd = exec.Command("dolt", "sql", "-q", existsQuery)
+	output, err = cmd.CombinedOutput()
+	if err != nil {
+		return []string{fmt.Sprintf("Error checking existing Phelps code: %v", err)}
+	}
+
+	// Parse exists result
+	lines = strings.Split(string(output), "\n")
+	var existsCount int
+	for i, line := range lines {
+		if i < 3 || line == "" {
+			continue
+		}
+		if strings.Contains(line, "|") {
+			fields := strings.Split(line, "|")
+			if len(fields) >= 1 {
+				countStr := strings.TrimSpace(fields[0])
+				if countStr != "NULL" && countStr != "" {
+					existsCount, _ = strconv.Atoi(countStr)
+				}
+			}
+		}
+	}
+
+	if existsCount > 0 {
+		return []string{fmt.Sprintf("Error: Phelps code %s already exists - cannot create duplicate", phelpsCode)}
+	}
+
+	// Log the successful creation attempt
+	results := []string{
+		fmt.Sprintf("✅ NEW PHELPS CODE READY: %s", phelpsCode),
+		fmt.Sprintf("   PIN: %s (validated in inventory)", pin),
+		fmt.Sprintf("   Confidence: %.0f%%", confidence),
+		fmt.Sprintf("   Reasoning: %s", reasoning),
+		"",
+		"This new Phelps code will be assigned when the prayer is processed.",
+		"Use FINAL_ANSWER with this code to complete the assignment.",
+	}
+
+	return results
+}
+
+func (a AddNewPrayerFunction) GetDescription() string {
+	return "ADD_NEW_PRAYER:phelps_code,confidence,reasoning (create new Phelps code from inventory PIN)"
+}
+
+func (a AddNewPrayerFunction) GetUsageExample() string {
+	return "ADD_NEW_PRAYER:AB00001THI,85,Third prayer from Will and Testament document"
+}
+
+type CorrectTransliterationFunction struct{ PrefixFunction }
+
+func (c CorrectTransliterationFunction) Execute(db Database, referenceLanguage string, call string) []string {
+	args := strings.TrimPrefix(call, "CORRECT_TRANSLITERATION:")
+	parts := strings.SplitN(args, ",", 3)
+	if len(parts) != 3 {
+		return []string{"Error: CORRECT_TRANSLITERATION requires format: phelps_code,confidence,corrected_text"}
+	}
+
+	phelpsCode := strings.TrimSpace(parts[0])
+	confidenceStr := strings.TrimSpace(parts[1])
+	correctedText := strings.TrimSpace(parts[2])
+
+	// Validate confidence
+	confidence, err := strconv.ParseFloat(confidenceStr, 64)
+	if err != nil {
+		return []string{"Error: Confidence must be a number (0-100)"}
+	}
+	if confidence < 0 || confidence > 100 {
+		return []string{"Error: Confidence must be between 0 and 100"}
+	}
+
+	if len(correctedText) < 10 {
+		return []string{"Error: Corrected text seems too short - provide substantial correction"}
+	}
+
+	results := []string{
+		fmt.Sprintf("✅ TRANSLITERATION CORRECTION READY: %s", phelpsCode),
+		fmt.Sprintf("   Confidence: %.0f%%", confidence),
+		fmt.Sprintf("   Corrected text preview: %s...", correctedText[:min(100, len(correctedText))]),
+		"",
+		"This transliteration correction will be applied when processed.",
+		"Use FINAL_ANSWER with this code to complete the correction.",
+	}
+
+	return results
+}
+
+func (c CorrectTransliterationFunction) GetDescription() string {
+	return "CORRECT_TRANSLITERATION:phelps_code,confidence,corrected_text (provide improved transliteration)"
+}
+
+func (c CorrectTransliterationFunction) GetUsageExample() string {
+	return "CORRECT_TRANSLITERATION:AB00001FIR,90,O Thou Who art the Lord of all names..."
+}
+
+type CheckTranslitConsistencyFunction struct{ PrefixFunction }
+
+func (c CheckTranslitConsistencyFunction) Execute(db Database, referenceLanguage string, call string) []string {
+	args := strings.TrimPrefix(call, "CHECK_TRANSLIT_CONSISTENCY:")
+	phelpsCode := strings.TrimSpace(args)
+
+	if phelpsCode == "" {
+		return []string{"Error: CHECK_TRANSLIT_CONSISTENCY requires a Phelps code"}
+	}
+
+	// Find all language versions of this prayer
+	escapedPhelps := strings.ReplaceAll(phelpsCode, "'", "''")
+	query := fmt.Sprintf("SELECT language, LEFT(text, 300), name FROM writings WHERE phelps = '%s' AND language IN ('ar', 'fa', 'ar-translit', 'fa-translit') ORDER BY language", escapedPhelps)
+
+	cmd := exec.Command("dolt", "sql", "-q", query)
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return []string{fmt.Sprintf("Error checking transliteration consistency: %v", err)}
+	}
+
+	lines := strings.Split(string(output), "\n")
+	var results []string
+	results = append(results, fmt.Sprintf("TRANSLITERATION CONSISTENCY CHECK for %s:", phelpsCode))
+
+	versions := make(map[string]string)
+	names := make(map[string]string)
+
+	for i, line := range lines {
+		if i < 3 || line == "" {
+			continue
+		}
+		if strings.Contains(line, "|") {
+			fields := strings.Split(line, "|")
+			if len(fields) >= 3 {
+				language := strings.TrimSpace(fields[0])
+				textPreview := strings.TrimSpace(fields[1])
+				name := strings.TrimSpace(fields[2])
+
+				if language != "" && language != "NULL" {
+					versions[language] = textPreview
+					names[language] = name
+				}
+			}
+		}
+	}
+
+	if len(versions) == 0 {
+		results = append(results, "No Arabic/Persian versions found for consistency check.")
+		return results
+	}
+
+	// Report what versions exist
+	for _, lang := range []string{"ar", "fa", "ar-translit", "fa-translit"} {
+		if text, exists := versions[lang]; exists {
+			status := "✅"
+			if strings.HasSuffix(lang, "-translit") {
+				// Check if original exists
+				originalLang := strings.TrimSuffix(lang, "-translit")
+				if _, hasOriginal := versions[originalLang]; !hasOriginal {
+					status = "⚠️ (missing original)"
+				}
+			}
+			results = append(results, fmt.Sprintf("- %s %s: %s", status, strings.ToUpper(lang), names[lang]))
+			if text != "" && text != "NULL" {
+				results = append(results, fmt.Sprintf("  Preview: %s...", text))
+			}
+		}
+	}
+
+	// Suggest actions
+	results = append(results, "")
+	if _, hasAr := versions["ar"]; hasAr {
+		if _, hasArTranslit := versions["ar-translit"]; !hasArTranslit {
+			results = append(results, "💡 Suggestion: Arabic original exists but no transliteration found")
+		}
+	}
+	if _, hasFa := versions["fa"]; hasFa {
+		if _, hasFaTranslit := versions["fa-translit"]; !hasFaTranslit {
+			results = append(results, "💡 Suggestion: Persian original exists but no transliteration found")
+		}
+	}
+
+	return results
+}
+
+func (c CheckTranslitConsistencyFunction) GetDescription() string {
+	return "CHECK_TRANSLIT_CONSISTENCY:phelps_code (check Arabic/Persian vs transliteration versions)"
+}
+
+func (c CheckTranslitConsistencyFunction) GetUsageExample() string {
+	return "CHECK_TRANSLIT_CONSISTENCY:AB00001FIR"
+}
+
+type FindOriginalVersionFunction struct{ PrefixFunction }
+
+func (f FindOriginalVersionFunction) Execute(db Database, referenceLanguage string, call string) []string {
+	args := strings.TrimPrefix(call, "FIND_ORIGINAL_VERSION:")
+	phelpsCode := strings.TrimSpace(args)
+
+	if phelpsCode == "" {
+		return []string{"Error: FIND_ORIGINAL_VERSION requires a Phelps code"}
+	}
+
+	// Find corresponding original language versions (ar, fa)
+	escapedPhelps := strings.ReplaceAll(phelpsCode, "'", "''")
+	query := fmt.Sprintf("SELECT language, LEFT(text, 200), name FROM writings WHERE phelps = '%s' AND language IN ('ar', 'fa') LIMIT 5", escapedPhelps)
+
+	cmd := exec.Command("dolt", "sql", "-q", query)
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return []string{fmt.Sprintf("Error finding original versions: %v", err)}
+	}
+
+	lines := strings.Split(string(output), "\n")
+	var results []string
+	results = append(results, fmt.Sprintf("ORIGINAL VERSIONS for %s:", phelpsCode))
+
+	var foundVersions []string
+	for i, line := range lines {
+		if i < 3 || line == "" {
+			continue
+		}
+		if strings.Contains(line, "|") {
+			fields := strings.Split(line, "|")
+			if len(fields) >= 3 {
+				language := strings.TrimSpace(fields[0])
+				textPreview := strings.TrimSpace(fields[1])
+				name := strings.TrimSpace(fields[2])
+
+				if language != "" && language != "NULL" {
+					result := fmt.Sprintf("- %s: %s", strings.ToUpper(language), name)
+					if textPreview != "" && textPreview != "NULL" {
+						result += fmt.Sprintf("\n  Text: %s...", textPreview)
+					}
+					foundVersions = append(foundVersions, result)
+				}
+			}
+		}
+	}
+
+	if len(foundVersions) == 0 {
+		results = append(results, "No Arabic or Persian original versions found.")
+		results = append(results, "This may be a standalone transliteration or the original is missing.")
+	} else {
+		results = append(results, foundVersions...)
+	}
+
+	return results
+}
+
+func (f FindOriginalVersionFunction) GetDescription() string {
+	return "FIND_ORIGINAL_VERSION:phelps_code (find Arabic/Persian original for comparison)"
+}
+
+func (f FindOriginalVersionFunction) GetUsageExample() string {
+	return "FIND_ORIGINAL_VERSION:AB00001FIR"
+}
+
 // Helper functions for easier function registration
 func NewPrefixFunction(name string) PrefixFunction {
 	return PrefixFunction{
@@ -3065,6 +3638,98 @@ var registeredFunctions = []FunctionCallHandler{
 	FinalAnswerFunction{NewPrefixFunction("FINAL_ANSWER")},
 	GetStatsFunction{NewStandaloneFunction("GET_STATS")},
 	ListReferenceLanguagesFunction{NewStandaloneFunction("LIST_REFERENCE_LANGUAGES")},
+	SearchInventoryFunction{NewPrefixFunction("SEARCH_INVENTORY")},
+	CheckTagFunction{NewPrefixFunction("CHECK_TAG")},
+	AddNewPrayerFunction{NewPrefixFunction("ADD_NEW_PRAYER")},
+	CorrectTransliterationFunction{NewPrefixFunction("CORRECT_TRANSLITERATION")},
+	FindOriginalVersionFunction{NewPrefixFunction("FIND_ORIGINAL_VERSION")},
+	CheckTranslitConsistencyFunction{NewPrefixFunction("CHECK_TRANSLIT_CONSISTENCY")},
+}
+
+// Helper function to determine if we should check transliteration
+func shouldCheckTransliteration(language, operationMode string) bool {
+	if operationMode == "translit" {
+		return true
+	}
+	// Auto-check for ar/fa prayers in any mode
+	return language == "ar" || language == "fa" || language == "ar-translit" || language == "fa-translit"
+}
+
+// Add transliteration context to the prompt
+func addTransliterationContext(db Database, writing Writing, originalPrompt string) string {
+	if !shouldCheckTransliteration(writing.Language, "match") {
+		return originalPrompt
+	}
+
+	translitGuidance := "\n\nTRANSLITERATION NOTE:\n"
+	if writing.Language == "ar" || writing.Language == "fa" {
+		translitGuidance += "⚠️ This is an Arabic/Persian prayer. After matching, check if transliteration version exists and needs updating.\n"
+		translitGuidance += "Use CHECK_TRANSLIT_CONSISTENCY after finding the Phelps code to verify transliteration quality.\n"
+	} else if strings.HasSuffix(writing.Language, "-translit") {
+		baseLanguage := strings.TrimSuffix(writing.Language, "-translit")
+		translitGuidance += fmt.Sprintf("⚠️ This is %s transliteration. Use FIND_ORIGINAL_VERSION to locate the original for comparison.\n", baseLanguage)
+		translitGuidance += "Compare transliteration quality and use CORRECT_TRANSLITERATION if needed.\n"
+	}
+
+	return originalPrompt + translitGuidance
+}
+
+// Check and trigger transliteration after successful prayer matching
+func checkAndTriggerTransliteration(db Database, writing Writing, phelpsCode string, verbose bool, reportFile *os.File) {
+	if !shouldCheckTransliteration(writing.Language, "match") {
+		return
+	}
+
+	// Check if transliteration versions exist
+	escapedPhelps := strings.ReplaceAll(phelpsCode, "'", "''")
+	var query string
+	var expectedTranslit string
+
+	if writing.Language == "ar" {
+		expectedTranslit = "ar-translit"
+		query = fmt.Sprintf("SELECT COUNT(*) FROM writings WHERE phelps = '%s' AND language = 'ar-translit'", escapedPhelps)
+	} else if writing.Language == "fa" {
+		expectedTranslit = "fa-translit"
+		query = fmt.Sprintf("SELECT COUNT(*) FROM writings WHERE phelps = '%s' AND language = 'fa-translit'", escapedPhelps)
+	} else {
+		return // Not ar/fa, skip
+	}
+
+	cmd := exec.Command("dolt", "sql", "-q", query)
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		if verbose {
+			fmt.Printf("  ⚠️ Could not check transliteration status: %v\n", err)
+		}
+		return
+	}
+
+	// Parse result
+	lines := strings.Split(string(output), "\n")
+	var count int
+	for i, line := range lines {
+		if i < 3 || line == "" {
+			continue
+		}
+		if strings.Contains(line, "|") {
+			fields := strings.Split(line, "|")
+			if len(fields) >= 1 {
+				countStr := strings.TrimSpace(fields[0])
+				if countStr != "NULL" && countStr != "" {
+					count, _ = strconv.Atoi(countStr)
+				}
+			}
+		}
+	}
+
+	if count == 0 {
+		fmt.Fprintf(reportFile, "  📝 TRANSLITERATION OPPORTUNITY: No %s version found for %s\n", expectedTranslit, phelpsCode)
+		if verbose {
+			fmt.Printf("  📝 Consider creating %s transliteration for %s\n", expectedTranslit, phelpsCode)
+		}
+	} else if verbose {
+		fmt.Printf("  ✅ %s transliteration exists for %s\n", expectedTranslit, phelpsCode)
+	}
 }
 
 // RegisterFunction adds a new function to the registry (for extensions)
@@ -3537,7 +4202,7 @@ func processRandomPrayers(db *Database, referenceLanguage string, useGemini bool
 }
 
 // Process languages continuously in priority order with mode support
-func processLanguagesContinuouslyWithMode(db *Database, defaultReferenceLanguage string, useGemini bool, reportFile *os.File, maxPrayers int, verbose bool, noPriority bool, legacyMode bool, maxRounds int) ([]Writing, error) {
+func processLanguagesContinuouslyWithMode(db *Database, referenceLanguage string, useGemini bool, reportFile *os.File, maxPrayers int, verbose, noPriority, legacyMode bool, maxRounds int, operationMode string) ([]Writing, error) {
 	languages := getLanguagesPrioritized(*db, noPriority)
 
 	if len(languages) == 0 {
@@ -3566,71 +4231,8 @@ func processLanguagesContinuouslyWithMode(db *Database, defaultReferenceLanguage
 	var allUnmatched []Writing
 	totalProcessed := 0
 
-	for i, lang := range languages {
-		if maxPrayers > 0 && totalProcessed >= maxPrayers {
-			fmt.Printf("Reached maximum prayer limit (%d). Stopping.\n", maxPrayers)
-			break
-		}
-
-		remainingQuota := 0
-		if maxPrayers > 0 {
-			remainingQuota = maxPrayers - totalProcessed
-		}
-
-		fmt.Printf("\n--- Processing language %d/%d: %s ---\n", i+1, len(languages), lang)
-		fmt.Fprintf(reportFile, "\n--- Language %d/%d: %s ---\n", i+1, len(languages), lang)
-
-		unmatchedForLang, err := processPrayersForLanguageWithMode(db, lang, defaultReferenceLanguage, useGemini, reportFile, remainingQuota, verbose, legacyMode, maxRounds)
-		if err != nil {
-			log.Printf("Error processing language %s: %v", lang, err)
-			continue
-		}
-
-		allUnmatched = append(allUnmatched, unmatchedForLang...)
-
-		// Count how many prayers were actually processed (not just unmatched)
-		missing := calculateMissingPrayersPerLanguage(*db)
-		processed := missing[lang] - len(unmatchedForLang) // approximation
-		totalProcessed += processed
-
-		if atomic.LoadInt32(&stopRequested) == 1 {
-			fmt.Printf("Stop requested. Processed %d languages so far.\n", i+1)
-			break
-		}
-	}
-
-	return allUnmatched, nil
-}
-
-// Process languages continuously in priority order
-func processLanguagesContinuously(db *Database, referenceLanguage string, useGemini bool, reportFile *os.File, maxPrayers int, verbose bool, noPriority bool, maxRounds int) ([]Writing, error) {
-	languages := getLanguagesPrioritized(*db, noPriority)
-
-	if len(languages) == 0 {
-		fmt.Printf("No languages with missing prayers found!\n")
-		return []Writing{}, nil
-	}
-
-	if noPriority {
-		fmt.Printf("🔄 Continue mode: Processing languages by missing count (smallest first)\n")
-	} else {
-		fmt.Printf("🔄 Continue mode: Processing languages in priority order\n")
-	}
-	fmt.Printf("Language queue: %v\n", languages[:min(5, len(languages))])
-	if len(languages) > 5 {
-		fmt.Printf("... and %d more\n", len(languages)-5)
-	}
-
-	fmt.Fprintf(reportFile, "=== CONTINUE MODE: Continuous Language Processing ===\n")
-	if noPriority {
-		fmt.Fprintf(reportFile, "Processing languages by missing count (smallest first) at %s\n", time.Now().Format(time.RFC3339))
-	} else {
-		fmt.Fprintf(reportFile, "Processing languages in priority order at %s\n", time.Now().Format(time.RFC3339))
-	}
-	fmt.Fprintf(reportFile, "Language queue: %v\n\n", languages)
-
-	var allUnmatched []Writing
-	totalProcessed := 0
+	// Get missing counts for all languages
+	missing := calculateMissingPrayersPerLanguage(*db)
 
 	for i, lang := range languages {
 		if maxPrayers > 0 && totalProcessed >= maxPrayers {
@@ -3643,10 +4245,10 @@ func processLanguagesContinuously(db *Database, referenceLanguage string, useGem
 			remainingQuota = maxPrayers - totalProcessed
 		}
 
-		fmt.Printf("\n--- Processing language %d/%d: %s ---\n", i+1, len(languages), lang)
-		fmt.Fprintf(reportFile, "\n--- Language %d/%d: %s ---\n", i+1, len(languages), lang)
+		fmt.Printf("\n--- Processing language %d/%d: %s (%d missing) ---\n", i+1, len(languages), lang, missing[lang])
+		fmt.Fprintf(reportFile, "\n--- Language %d/%d: %s (%d missing) ---\n", i+1, len(languages), lang, missing[lang])
 
-		unmatchedForLang, err := processPrayersForLanguage(db, lang, referenceLanguage, useGemini, reportFile, remainingQuota, verbose, maxRounds)
+		unmatchedForLang, err := processPrayersForLanguageWithMode(db, lang, referenceLanguage, useGemini, reportFile, remainingQuota, verbose, legacyMode, maxRounds, operationMode)
 		if err != nil {
 			log.Printf("Error processing language %s: %v", lang, err)
 			continue
@@ -3655,9 +4257,10 @@ func processLanguagesContinuously(db *Database, referenceLanguage string, useGem
 		allUnmatched = append(allUnmatched, unmatchedForLang...)
 
 		// Count how many prayers were actually processed (not just unmatched)
-		missing := calculateMissingPrayersPerLanguage(*db)
-		processed := missing[lang] - len(unmatchedForLang) // approximation
+		processed := missing[lang] - len(unmatchedForLang)
 		totalProcessed += processed
+
+		fmt.Printf("✅ Completed language %s: processed %d prayers\n", lang, processed)
 
 		if atomic.LoadInt32(&stopRequested) == 1 {
 			fmt.Printf("Stop requested. Processed %d languages so far.\n", i+1)
@@ -3674,7 +4277,7 @@ func processShuffledPrayers(db *Database, prayers []Writing, referenceLanguage s
 }
 
 // Process random prayers from all languages with mode support
-func processRandomPrayersWithMode(db *Database, referenceLanguage string, useGemini bool, reportFile *os.File, maxPrayers int, verbose bool, legacyMode bool, maxRounds int) ([]Writing, error) {
+func processRandomPrayersWithMode(db *Database, referenceLanguage string, useGemini bool, reportFile *os.File, maxPrayers int, verbose, legacyMode bool, maxRounds int, operationMode string) ([]Writing, error) {
 	// Collect all unmatched prayers from all languages
 	var allUnmatched []Writing
 	for _, writing := range db.Writing {
@@ -3726,8 +4329,11 @@ func processShuffledPrayersWithMode(db *Database, prayers []Writing, referenceLa
 		}
 
 		// Use the appropriate header for this prayer's language
-		languageSpecificHeader := prepareLLMHeader(*db, writing.Language, referenceLanguage)
+		languageSpecificHeader := prepareLLMHeaderWithMode(*db, writing.Language, referenceLanguage, "match")
 		prompt := languageSpecificHeader + "\n\nPrayer text to analyze:\n" + writing.Text
+
+		// Add transliteration context if needed
+		prompt = addTransliterationContext(*db, writing, prompt)
 
 		fmt.Fprintf(reportFile, "Processing writing: %s (%s) (Version: %s)\n", writing.Name, writing.Language, writing.Version)
 
@@ -3742,7 +4348,7 @@ func processShuffledPrayersWithMode(db *Database, prayers []Writing, referenceLa
 			response, err = callLLM(oldPrompt, useGemini, len(writing.Text))
 		} else {
 			// Use new interactive mode
-			response, err = callLLMInteractive(*db, referenceLanguage, prompt, useGemini, len(writing.Text), maxRounds)
+			response, err = callLLMInteractive(*db, referenceLanguage, prompt, useGemini, len(writing.Text), maxRounds, "match")
 		}
 		if err != nil {
 			fmt.Fprintf(reportFile, "  ERROR: LLM call failed: %v\n", err)
@@ -4714,7 +5320,7 @@ func updateWritingPhelps(phelps, language, version string) error {
 }
 
 // Process prayers for a specific language
-func processPrayersForLanguageWithMode(db *Database, targetLanguage, referenceLanguage string, useGemini bool, reportFile *os.File, maxPrayers int, verbose bool, legacyMode bool, maxRounds int) ([]Writing, error) {
+func processPrayersForLanguageWithMode(db *Database, targetLanguage, referenceLanguage string, useGemini bool, reportFile *os.File, maxPrayers int, verbose bool, legacyMode bool, maxRounds int, operationMode string) ([]Writing, error) {
 	// Smart reference language selection if same as target
 	if referenceLanguage == targetLanguage {
 		// Get available reference languages from database
@@ -4739,7 +5345,7 @@ func processPrayersForLanguageWithMode(db *Database, targetLanguage, referenceLa
 		}
 	}
 
-	header := prepareLLMHeader(*db, targetLanguage, referenceLanguage)
+	header := prepareLLMHeaderWithMode(*db, targetLanguage, referenceLanguage, operationMode)
 	processed := 0
 	totalEligible := 0
 	var unmatchedPrayers []Writing
@@ -4808,6 +5414,9 @@ func processPrayersForLanguageWithMode(db *Database, targetLanguage, referenceLa
 
 		prompt := header + "\n\nPrayer text to analyze:\n" + writing.Text
 
+		// Add transliteration context if needed
+		prompt = addTransliterationContext(*db, writing, prompt)
+
 		fmt.Fprintf(reportFile, "Processing writing: %s (Version: %s)\n", writing.Name, writing.Version)
 
 		fmt.Printf("   🧠 Analyzing with LLM...")
@@ -4822,7 +5431,7 @@ func processPrayersForLanguageWithMode(db *Database, targetLanguage, referenceLa
 			response, err = callLLM(oldPrompt, useGemini, len(writing.Text))
 		} else {
 			// Use new interactive mode
-			response, err = callLLMInteractive(*db, referenceLanguage, prompt, useGemini, len(writing.Text), maxRounds)
+			response, err = callLLMInteractive(*db, referenceLanguage, prompt, useGemini, len(writing.Text), maxRounds, operationMode)
 		}
 		if err != nil {
 			fmt.Fprintf(reportFile, "  ERROR: LLM call failed: %v\n", err)
@@ -5011,7 +5620,7 @@ func processPrayersForLanguage(db *Database, targetLanguage, referenceLanguage s
 		var err error
 
 		// Use new interactive mode by default
-		response, err = callLLMInteractive(*db, referenceLanguage, prompt, useGemini, len(writing.Text), maxRounds)
+		response, err = callLLMInteractive(*db, referenceLanguage, prompt, useGemini, len(writing.Text), maxRounds, "match")
 		if err != nil {
 			fmt.Fprintf(reportFile, "  ERROR: LLM call failed: %v\n", err)
 			if verbose {
@@ -5066,6 +5675,9 @@ func processPrayersForLanguage(db *Database, targetLanguage, referenceLanguage s
 				if verbose {
 					fmt.Printf("  MATCHED: %s -> database updated\n", response.PhelpsCode)
 				}
+
+				// After successful match, check for transliteration opportunities
+				checkAndTriggerTransliteration(*db, writing, response.PhelpsCode, verbose, reportFile)
 			}
 		}
 
@@ -5160,8 +5772,9 @@ func checkOllama(model string) error {
 }
 
 func main() {
-	var targetLanguage = flag.String("language", "", "Target language code to process (default: auto-detect optimal)")
+	var targetLanguage = flag.String("language", "", "Target language code(s) to process - single (es) or multiple (es,fr,de) or auto-detect optimal")
 	var referenceLanguage = flag.String("reference", "en", "Reference language for Phelps codes (default: en)")
+	var operationMode = flag.String("mode", "match", "Operation mode: match (existing codes only), match-add (try match then add new), add-only (skip matching, add new codes), translit (transliteration matching/correction)")
 	var useGemini = flag.Bool("gemini", true, "Use Gemini CLI (default: true, falls back to Ollama)")
 	var ollamaModel = flag.String("model", "gpt-oss", "Ollama model to use (default: gpt-oss)")
 	var reportPath = flag.String("report", "prayer_matching_report.txt", "Path for the report file")
@@ -5204,10 +5817,17 @@ func main() {
 		fmt.Printf("Options:\n")
 		flag.PrintDefaults()
 		fmt.Printf("Examples:\n")
-		fmt.Printf("  %s                                 # Auto-select optimal language\n", os.Args[0])
+		fmt.Printf("  %s                                 # Auto-select optimal language (match mode)\n", os.Args[0])
 		fmt.Printf("  %s -language=es -max=10            # Process first 10 Spanish prayers\n", os.Args[0])
 		fmt.Printf("  %s -language=fr -verbose           # Process French with detailed output\n", os.Args[0])
+		fmt.Printf("  %s -language=es,fr,de -max=50      # Process multiple languages (50 total)\n", os.Args[0])
 		fmt.Printf("  %s -language=de -interactive=false # Process German without interactive mode\n", os.Args[0])
+		fmt.Printf("  %s -language=es -mode=match-add    # Try matching, add new codes if no match\n", os.Args[0])
+		fmt.Printf("  %s -language=en -mode=add-only     # Skip matching, add new codes from inventory\n", os.Args[0])
+		fmt.Printf("  %s -mode=add-only                  # Defaults to English for inventory-based adding\n", os.Args[0])
+		fmt.Printf("  %s -language=ar -mode=translit     # Fix Arabic transliteration (auto-adds -translit)\n", os.Args[0])
+		fmt.Printf("  %s -language=fa -mode=translit     # Fix Persian transliteration (auto-adds -translit)\n", os.Args[0])
+		fmt.Printf("  %s -mode=translit                  # Fix all transliterations (defaults to ar,fa)\n", os.Args[0])
 		fmt.Printf("  %s -language=es -gemini=false      # Process Spanish prayers using only Ollama\n", os.Args[0])
 		fmt.Printf("  %s -lucky -max=20                  # Process 20 random prayers from all languages\n", os.Args[0])
 		fmt.Printf("  %s -continue -max=50               # Auto-process languages in priority order\n", os.Args[0])
@@ -5223,8 +5843,101 @@ func main() {
 		fmt.Printf("  If Gemini fails, install Gemini CLI or use -gemini=false\n")
 		fmt.Printf("  For languages with minimal missing prayers, consider using -language=es or -language=fr\n")
 		fmt.Printf("  Use -max=N to limit processing and -verbose for detailed output\n")
+		fmt.Printf("  Use -mode=match-add to create new codes when no existing match found\n")
+		fmt.Printf("  Use -mode=add-only for adding missing codes (best: English, Arabic, Persian)\n")
+		fmt.Printf("  ADD-ONLY mode: Works best with -language=en/ar/fa (inventory has limited other languages)\n")
+		fmt.Printf("  MULTI-LANGUAGE: Use comma-separated list (es,fr,de) to process multiple languages\n")
+		fmt.Printf("  TRANSLIT mode: Supports ar/fa base languages, auto-converts to ar-translit/fa-translit\n")
 		fmt.Printf("  Send SIGINT (Ctrl+C) for graceful stop after current prayer (press twice to force quit)\n")
 		return
+	}
+
+	// Validate operation mode
+	validModes := map[string]bool{"match": true, "match-add": true, "add-only": true, "translit": true}
+	if !validModes[*operationMode] {
+		log.Fatalf("Invalid operation mode: %s. Valid modes: match, match-add, add-only, translit", *operationMode)
+	}
+
+	// Special validation for add-only mode
+	if *operationMode == "add-only" {
+		if *targetLanguage == "" {
+			// Default to English for add-only mode
+			*targetLanguage = "en"
+			fmt.Printf("🔤 ADD-ONLY mode: Defaulting to English language\n")
+		}
+
+		// Warn about non-supported languages
+		supportedLangs := map[string]string{
+			"en": "English", "eng": "English",
+			"ar": "Arabic", "ara": "Arabic", "arabic": "Arabic",
+			"fa": "Persian", "per": "Persian", "persian": "Persian",
+		}
+
+		langName, isSupported := supportedLangs[strings.ToLower(*targetLanguage)]
+		if !isSupported {
+			fmt.Printf("⚠️  WARNING: ADD-ONLY mode works best with English, Arabic, or Persian.\n")
+			fmt.Printf("   You specified: %s\n", *targetLanguage)
+			fmt.Printf("   The inventory table has limited coverage for other languages.\n")
+			fmt.Printf("   You may find very few or no matching documents.\n\n")
+			fmt.Printf("   Continue anyway? (y/N): ")
+
+			var response string
+			fmt.Scanln(&response)
+			if strings.ToLower(response) != "y" && strings.ToLower(response) != "yes" {
+				fmt.Printf("Exiting. Use -language=en, -language=ar, or -language=fa for best results.\n")
+				return
+			}
+			fmt.Printf("Continuing with language: %s\n\n", *targetLanguage)
+		} else {
+			fmt.Printf("🔤 ADD-ONLY mode: Processing %s prayers from inventory\n", langName)
+		}
+	}
+
+	// Special validation and processing for translit mode
+	if *operationMode == "translit" {
+		if *targetLanguage == "" {
+			// Default to both Arabic and Persian transliterations
+			*targetLanguage = "ar,fa"
+			fmt.Printf("🔤 TRANSLIT mode: Defaulting to Arabic and Persian transliterations\n")
+		}
+
+		// Parse and process languages for translit mode
+		languages := strings.Split(*targetLanguage, ",")
+		var translitLanguages []string
+
+		for _, lang := range languages {
+			lang = strings.TrimSpace(lang)
+
+			// Auto-append -translit suffix if needed
+			if lang == "ar" || lang == "arabic" {
+				translitLanguages = append(translitLanguages, "ar-translit")
+				fmt.Printf("🔤 TRANSLIT mode: Converting %s -> ar-translit\n", lang)
+			} else if lang == "fa" || lang == "persian" || lang == "per" {
+				translitLanguages = append(translitLanguages, "fa-translit")
+				fmt.Printf("🔤 TRANSLIT mode: Converting %s -> fa-translit\n", lang)
+			} else if strings.HasSuffix(lang, "-translit") {
+				translitLanguages = append(translitLanguages, lang)
+				baseLanguage := strings.TrimSuffix(lang, "-translit")
+				fmt.Printf("🔤 TRANSLIT mode: Processing %s transliteration corrections\n", baseLanguage)
+			} else {
+				fmt.Printf("⚠️  WARNING: TRANSLIT mode works only with Arabic or Persian languages.\n")
+				fmt.Printf("   You specified: %s (not supported)\n", lang)
+				fmt.Printf("   Supported: ar, fa, ar-translit, fa-translit\n")
+				fmt.Printf("   Continue anyway? (y/N): ")
+
+				var response string
+				fmt.Scanln(&response)
+				if strings.ToLower(response) != "y" && strings.ToLower(response) != "yes" {
+					fmt.Printf("Exiting. Use -language=ar,fa or -language=ar-translit,fa-translit for translit mode.\n")
+					return
+				}
+				translitLanguages = append(translitLanguages, lang)
+			}
+		}
+
+		// Update targetLanguage with processed translit languages
+		*targetLanguage = strings.Join(translitLanguages, ",")
+		fmt.Printf("🔤 TRANSLIT mode: Final language list: %s\n", *targetLanguage)
 	}
 
 	// Set up signal handling for graceful stop and force quit
@@ -5281,6 +5994,7 @@ func main() {
 	fmt.Fprintf(reportFile, "Started: %s\n", time.Now().Format(time.RFC3339))
 	fmt.Fprintf(reportFile, "Target Language: %s\n", *targetLanguage)
 	fmt.Fprintf(reportFile, "Reference Language: %s\n", *referenceLanguage)
+	fmt.Fprintf(reportFile, "Operation Mode: %s\n", *operationMode)
 	fmt.Fprintf(reportFile, "Lucky Mode: %t\n", *lucky)
 	fmt.Fprintf(reportFile, "Continue Mode: %t\n", *continueMode)
 	fmt.Fprintf(reportFile, "No Priority Languages: %t\n", *noPriority)
@@ -5317,7 +6031,7 @@ func main() {
 		if *legacyMode {
 			header = prepareLLMHeaderLegacy(db, targetLang, *referenceLanguage)
 		} else {
-			header = prepareLLMHeader(db, targetLang, *referenceLanguage)
+			header = prepareLLMHeaderWithMode(db, targetLang, *referenceLanguage, *operationMode)
 		}
 		fmt.Print(header)
 
@@ -5387,7 +6101,7 @@ func main() {
 	}
 
 	if modeCount > 1 {
-		log.Fatalf("Error: Cannot use multiple modes simultaneously. Choose one: -language=X, -lucky, or -continue")
+		log.Fatalf("Error: Cannot use multiple modes simultaneously. Choose one: -language=X[,Y,Z], -lucky, or -continue")
 	}
 
 	// Auto-select optimal language if no mode specified
@@ -5436,6 +6150,22 @@ func main() {
 		fmt.Fprintf(reportFile, "\n")
 	}
 
+	// Handle multiple languages if specified
+	var targetLanguages []string
+	if *targetLanguage != "" {
+		targetLanguages = strings.Split(*targetLanguage, ",")
+		for i, lang := range targetLanguages {
+			targetLanguages[i] = strings.TrimSpace(lang)
+		}
+
+		if len(targetLanguages) > 1 {
+			fmt.Printf("🌐 Processing multiple languages: %v\n", targetLanguages)
+			fmt.Fprintf(reportFile, "Processing multiple languages: %v\n", targetLanguages)
+		}
+	} else {
+		targetLanguages = []string{*targetLanguage}
+	}
+
 	// Show database size
 	log.Println("Database size:",
 		len(db.Writing), "/", db.Skipped["writing"],
@@ -5464,12 +6194,54 @@ func main() {
 	var processErr error
 
 	if *lucky {
-		unmatchedPrayers, processErr = processRandomPrayersWithMode(&db, *referenceLanguage, *useGemini, reportFile, *maxPrayers, *verbose, *legacyMode, *maxRounds)
+		unmatchedPrayers, processErr = processRandomPrayersWithMode(&db, *referenceLanguage, *useGemini, reportFile, *maxPrayers, *verbose, *legacyMode, *maxRounds, *operationMode)
 	} else if *continueMode {
-		unmatchedPrayers, processErr = processLanguagesContinuouslyWithMode(&db, *referenceLanguage, *useGemini, reportFile, *maxPrayers, *verbose, *noPriority, *legacyMode, *maxRounds)
+		unmatchedPrayers, processErr = processLanguagesContinuouslyWithMode(&db, *referenceLanguage, *useGemini, reportFile, *maxPrayers, *verbose, *noPriority, *legacyMode, *maxRounds, *operationMode)
+	} else if len(targetLanguages) > 1 {
+		// Multiple language mode
+		var allUnmatched []Writing
+		totalProcessed := 0
+		prayersPerLanguage := *maxPrayers
+		if *maxPrayers > 0 {
+			prayersPerLanguage = *maxPrayers / len(targetLanguages)
+			if prayersPerLanguage == 0 {
+				prayersPerLanguage = 1
+			}
+		}
+
+		for i, lang := range targetLanguages {
+			if atomic.LoadInt32(&stopRequested) == 1 {
+				fmt.Printf("\n🛑 Stop requested. Processed %d languages so far.\n", i)
+				break
+			}
+
+			remainingQuota := prayersPerLanguage
+			if *maxPrayers > 0 && i == len(targetLanguages)-1 {
+				// Give remaining quota to last language
+				remainingQuota = *maxPrayers - totalProcessed
+				if remainingQuota <= 0 {
+					break
+				}
+			}
+
+			fmt.Printf("\n📚 Processing language %d/%d: %s\n", i+1, len(targetLanguages), lang)
+			fmt.Fprintf(reportFile, "\n=== Language %d/%d: %s ===\n", i+1, len(targetLanguages), lang)
+
+			languageUnmatched, err := processPrayersForLanguageWithMode(&db, lang, *referenceLanguage, *useGemini, reportFile, remainingQuota, *verbose, *legacyMode, *maxRounds, *operationMode)
+			if err != nil {
+				fmt.Printf("⚠️ Error processing language %s: %v\n", lang, err)
+				continue
+			}
+
+			allUnmatched = append(allUnmatched, languageUnmatched...)
+			totalProcessed += (remainingQuota - len(languageUnmatched))
+		}
+
+		unmatchedPrayers = allUnmatched
+		fmt.Printf("🎯 Multi-language processing completed: %d languages, %d unmatched prayers\n", len(targetLanguages), len(allUnmatched))
 	} else {
 		// Single language mode (traditional)
-		unmatchedPrayers, processErr = processPrayersForLanguageWithMode(&db, *targetLanguage, *referenceLanguage, *useGemini, reportFile, *maxPrayers, *verbose, *legacyMode, *maxRounds)
+		unmatchedPrayers, processErr = processPrayersForLanguageWithMode(&db, targetLanguages[0], *referenceLanguage, *useGemini, reportFile, *maxPrayers, *verbose, *legacyMode, *maxRounds, *operationMode)
 	}
 
 	if processErr != nil {
@@ -5487,6 +6259,49 @@ func main() {
 	// Final status report
 	fmt.Fprintf(reportFile, "\n=== FINAL STATUS ===\n")
 	fmt.Fprintf(reportFile, "Completed: %s\n", time.Now().Format(time.RFC3339))
+	fmt.Fprintf(reportFile, "Operation Mode: %s\n", *operationMode)
+
+	// Report transliteration statistics if relevant
+	if *operationMode == "translit" || (len(targetLanguages) > 0 && shouldCheckTransliteration(targetLanguages[0], *operationMode)) {
+		fmt.Fprintf(reportFile, "\n=== TRANSLITERATION STATUS ===\n")
+
+		// Count transliteration opportunities
+		translitQuery := "SELECT COUNT(*) as ar_missing FROM writings w1 WHERE w1.language = 'ar' AND w1.phelps IS NOT NULL AND w1.phelps != '' AND NOT EXISTS (SELECT 1 FROM writings w2 WHERE w2.phelps = w1.phelps AND w2.language = 'ar-translit')"
+		cmd := exec.Command("dolt", "sql", "-q", translitQuery)
+		if output, err := cmd.CombinedOutput(); err == nil {
+			lines := strings.Split(string(output), "\n")
+			for i, line := range lines {
+				if i >= 3 && strings.Contains(line, "|") {
+					fields := strings.Split(line, "|")
+					if len(fields) >= 1 {
+						count := strings.TrimSpace(fields[0])
+						if count != "" && count != "NULL" {
+							fmt.Fprintf(reportFile, "Arabic prayers missing transliteration: %s\n", count)
+						}
+					}
+					break
+				}
+			}
+		}
+
+		translitQuery = "SELECT COUNT(*) as fa_missing FROM writings w1 WHERE w1.language = 'fa' AND w1.phelps IS NOT NULL AND w1.phelps != '' AND NOT EXISTS (SELECT 1 FROM writings w2 WHERE w2.phelps = w1.phelps AND w2.language = 'fa-translit')"
+		cmd = exec.Command("dolt", "sql", "-q", translitQuery)
+		if output, err := cmd.CombinedOutput(); err == nil {
+			lines := strings.Split(string(output), "\n")
+			for i, line := range lines {
+				if i >= 3 && strings.Contains(line, "|") {
+					fields := strings.Split(line, "|")
+					if len(fields) >= 1 {
+						count := strings.TrimSpace(fields[0])
+						if count != "" && count != "NULL" {
+							fmt.Fprintf(reportFile, "Persian prayers missing transliteration: %s\n", count)
+						}
+					}
+					break
+				}
+			}
+		}
+	}
 	if atomic.LoadInt32(&geminiQuotaExceeded) == 1 {
 		fmt.Fprintf(reportFile, "Gemini quota was exceeded during processing - continued with Ollama only\n")
 		log.Printf("Prayer matching completed with Gemini quota exceeded - used Ollama fallback. Report written to: %s", *reportPath)
