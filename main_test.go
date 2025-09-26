@@ -1595,33 +1595,33 @@ func TestTranslitLanguageProcessing(t *testing.T) {
 		expectedCount  int
 	}{
 		{
-			name:           "Arabic base language - now stays as original",
+			name:           "Arabic base language - converts to ar-translit",
 			inputLang:      "ar",
-			expectedOutput: "ar",
+			expectedOutput: "ar-translit",
 			expectedCount:  1,
 		},
 		{
-			name:           "Persian base language - now stays as original",
+			name:           "Persian base language - converts to fa-translit",
 			inputLang:      "fa",
-			expectedOutput: "fa",
+			expectedOutput: "fa-translit",
 			expectedCount:  1,
 		},
 		{
-			name:           "Persian alternative - converts to fa",
+			name:           "Persian alternative - converts to fa-translit",
 			inputLang:      "persian",
-			expectedOutput: "fa",
+			expectedOutput: "fa-translit",
 			expectedCount:  1,
 		},
 		{
-			name:           "Translit format converts to base",
+			name:           "Translit format stays as translit",
 			inputLang:      "ar-translit",
-			expectedOutput: "ar",
+			expectedOutput: "ar-translit",
 			expectedCount:  1,
 		},
 		{
-			name:           "Multiple languages stay as originals",
+			name:           "Multiple languages convert to translits",
 			inputLang:      "ar,fa",
-			expectedOutput: "ar,fa",
+			expectedOutput: "ar-translit,fa-translit",
 			expectedCount:  2,
 		},
 	}
@@ -1634,14 +1634,13 @@ func TestTranslitLanguageProcessing(t *testing.T) {
 			for _, lang := range languages {
 				lang = strings.TrimSpace(lang)
 
-				// New translit mode logic: process originals to match and correct transliterations
+				// New translit mode logic: process transliterations directly
 				if lang == "ar" || lang == "arabic" {
-					processLanguages = append(processLanguages, "ar")
+					processLanguages = append(processLanguages, "ar-translit")
 				} else if lang == "fa" || lang == "persian" || lang == "per" {
-					processLanguages = append(processLanguages, "fa")
+					processLanguages = append(processLanguages, "fa-translit")
 				} else if strings.HasSuffix(lang, "-translit") {
-					baseLanguage := strings.TrimSuffix(lang, "-translit")
-					processLanguages = append(processLanguages, baseLanguage)
+					processLanguages = append(processLanguages, lang)
 				} else {
 					processLanguages = append(processLanguages, lang)
 				}
@@ -1687,6 +1686,14 @@ func TestCommandFilteringByMode(t *testing.T) {
 		{"Translit correction in match", "CORRECT_TRANSLITERATION", "match", true},
 		{"Translit correction in translit", "CORRECT_TRANSLITERATION", "translit", true},
 		{"Translit correction in add-only", "CORRECT_TRANSLITERATION", "add-only", true},
+
+		// Transliteration-specific functions - only in translit mode
+		{"Match confirmed in translit", "MATCH_CONFIRMED", "translit", true},
+		{"Match confirmed in match", "MATCH_CONFIRMED", "match", false},
+		{"Search version in translit", "SEARCH_VERSION", "translit", true},
+		{"Search version in match", "SEARCH_VERSION", "match", false},
+		{"Correct version in translit", "CORRECT_VERSION", "translit", true},
+		{"Correct version in match", "CORRECT_VERSION", "match", false},
 	}
 
 	for _, tt := range tests {
@@ -1713,6 +1720,63 @@ func TestCommandFilteringByMode(t *testing.T) {
 	}
 }
 
+func TestMatchConfirmedFunction(t *testing.T) {
+	db := Database{
+		Writing: []Writing{
+			{Phelps: "AB00001FIR", Language: "ar", Name: "Fire Tablet", Text: "Arabic original text"},
+			{Phelps: "AB00001FIR", Language: "ar-translit", Name: "Fire Tablet", Text: "Transliteration text"},
+		},
+	}
+
+	tests := []struct {
+		name          string
+		call          string
+		hasError      bool
+		shouldContain string
+	}{
+		{
+			name:          "Valid match confirmation",
+			call:          "MATCH_CONFIRMED:AB00001FIR,95.5",
+			hasError:      false,
+			shouldContain: "MATCH CONFIRMED: AB00001FIR (95.5% confidence)",
+		},
+		{
+			name:     "Missing confidence",
+			call:     "MATCH_CONFIRMED:AB00001FIR",
+			hasError: true,
+		},
+		{
+			name:     "Invalid confidence",
+			call:     "MATCH_CONFIRMED:AB00001FIR,invalid",
+			hasError: true,
+		},
+		{
+			name:     "Empty Phelps code",
+			call:     "MATCH_CONFIRMED:,95.0",
+			hasError: true,
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			handler := MatchConfirmedFunction{NewPrefixFunctionWithModes("MATCH_CONFIRMED", []string{"translit"})}
+			result := handler.Execute(db, "ar", tt.call)
+
+			if tt.hasError {
+				if len(result) == 0 || !strings.Contains(strings.Join(result, " "), "requires") {
+					t.Errorf("Expected error message, got: %v", result)
+				}
+			} else {
+				if len(result) == 0 {
+					t.Errorf("Expected result, got empty")
+				} else if tt.shouldContain != "" && !strings.Contains(strings.Join(result, " "), tt.shouldContain) {
+					t.Errorf("Expected result to contain '%s', got: %v", tt.shouldContain, result)
+				}
+			}
+		})
+	}
+}
+
 func TestModeDefaultValue(t *testing.T) {
 	// Test that the default mode is now "match-add"
 	// This is tested by checking the flag default value
@@ -1732,8 +1796,8 @@ func TestModeDefaultValue(t *testing.T) {
 		t.Errorf("Expected header to contain MATCH-ADD mode guidance")
 	}
 
-	if !strings.Contains(header, "NEW CODE WORKFLOW") {
-		t.Errorf("Expected header to contain NEW CODE WORKFLOW for match-add mode")
+	if !strings.Contains(header, "SIMPLE WORKFLOW") {
+		t.Errorf("Expected header to contain SIMPLE WORKFLOW for match-add mode")
 	}
 }
 
@@ -1759,11 +1823,18 @@ func TestAddTransliterationContext(t *testing.T) {
 			contains:  []string{"TRANSLITERATION NOTE", "This is an Arabic/Persian prayer"},
 		},
 		{
-			name:      "Persian prayer in translit mode",
-			writing:   Writing{Language: "fa", Text: "Persian text"},
+			name:      "Persian transliteration in translit mode with Phelps",
+			writing:   Writing{Language: "fa-translit", Phelps: "TEST001", Version: "test-version-123", Text: "Persian transliteration text"},
 			mode:      "translit",
 			shouldAdd: true,
-			contains:  []string{"TRANSLITERATION NOTE", "TRANSLIT MODE", "Find the Phelps code"},
+			contains:  []string{"TRANSLITERATION NOTE", "TRANSLIT MODE", "fa transliteration", "Has Phelps code"},
+		},
+		{
+			name:      "Arabic transliteration in translit mode without Phelps",
+			writing:   Writing{Language: "ar-translit", Version: "test-version-456", Text: "Arabic transliteration text"},
+			mode:      "translit",
+			shouldAdd: true,
+			contains:  []string{"TRANSLITERATION NOTE", "TRANSLIT MODE", "No Phelps code", "MATCH_CONFIRMED"},
 		},
 		{
 			name:      "Arabic transliteration in translit mode",
@@ -1827,32 +1898,32 @@ func TestTranslitModeWorkflow(t *testing.T) {
 		description      string
 	}{
 		{
-			name:             "Arabic translit mode processes original",
+			name:             "Arabic translit mode processes transliteration",
 			inputLanguage:    "ar",
-			expectedLanguage: "ar",
+			expectedLanguage: "ar-translit",
 			mode:             "translit",
-			description:      "Should process Arabic original to match Phelps code, then correct ar-translit",
+			description:      "Should process ar-translit directly with ar as reference language",
 		},
 		{
-			name:             "Persian translit mode processes original",
+			name:             "Persian translit mode processes transliteration",
 			inputLanguage:    "fa",
-			expectedLanguage: "fa",
+			expectedLanguage: "fa-translit",
 			mode:             "translit",
-			description:      "Should process Persian original to match Phelps code, then correct fa-translit",
+			description:      "Should process fa-translit directly with fa as reference language",
 		},
 		{
-			name:             "Arabic translit input converts to original",
+			name:             "Arabic translit input stays as translit",
 			inputLanguage:    "ar-translit",
-			expectedLanguage: "ar",
+			expectedLanguage: "ar-translit",
 			mode:             "translit",
-			description:      "Should convert ar-translit input to ar for matching",
+			description:      "Should process ar-translit directly",
 		},
 		{
-			name:             "Persian translit input converts to original",
+			name:             "Persian translit input stays as translit",
 			inputLanguage:    "fa-translit",
-			expectedLanguage: "fa",
+			expectedLanguage: "fa-translit",
 			mode:             "translit",
-			description:      "Should convert fa-translit input to fa for matching",
+			description:      "Should process fa-translit directly",
 		},
 	}
 
@@ -1861,11 +1932,11 @@ func TestTranslitModeWorkflow(t *testing.T) {
 			// Test language conversion logic (from main.go translit mode processing)
 			var processLanguage string
 			if tt.inputLanguage == "ar" || tt.inputLanguage == "arabic" {
-				processLanguage = "ar"
+				processLanguage = "ar-translit"
 			} else if tt.inputLanguage == "fa" || tt.inputLanguage == "persian" || tt.inputLanguage == "per" {
-				processLanguage = "fa"
+				processLanguage = "fa-translit"
 			} else if strings.HasSuffix(tt.inputLanguage, "-translit") {
-				processLanguage = strings.TrimSuffix(tt.inputLanguage, "-translit")
+				processLanguage = tt.inputLanguage
 			} else {
 				processLanguage = tt.inputLanguage
 			}
@@ -1902,22 +1973,23 @@ func TestTranslitModeWorkflow(t *testing.T) {
 				t.Errorf("SEARCH_INVENTORY should be disabled in translit mode")
 			}
 
-			// Test that transliteration checking is triggered for ar/fa
+			// Test that transliteration checking is triggered for ar-translit/fa-translit
 			shouldCheck := shouldCheckTransliteration(processLanguage, tt.mode)
 			if !shouldCheck {
 				t.Errorf("shouldCheckTransliteration should return true for %s in %s mode", processLanguage, tt.mode)
 			}
 
 			// Test header contains correct guidance
-			header := prepareLLMHeaderWithMode(db, processLanguage, "en", tt.mode)
+			baseLanguage := strings.TrimSuffix(processLanguage, "-translit")
+			header := prepareLLMHeaderWithMode(db, processLanguage, baseLanguage, tt.mode)
 			if !strings.Contains(header, "MODE: TRANSLITERATION") {
 				t.Errorf("Header should contain TRANSLITERATION mode guidance")
 			}
-			if !strings.Contains(header, "TRANSLIT WORKFLOW") {
-				t.Errorf("Header should contain TRANSLIT WORKFLOW")
+			if !strings.Contains(header, "SIMPLE WORKFLOW") {
+				t.Errorf("Header should contain SIMPLE WORKFLOW")
 			}
-			if !strings.Contains(header, "ORIGINAL language (ar/fa)") {
-				t.Errorf("Header should mention using original language for matching")
+			if !strings.Contains(header, "MATCH_CONFIRMED") || !strings.Contains(header, "CORRECT_TRANSLITERATION") {
+				t.Errorf("Header should mention MATCH_CONFIRMED and CORRECT_TRANSLITERATION functions")
 			}
 		})
 	}
@@ -1925,52 +1997,69 @@ func TestTranslitModeWorkflow(t *testing.T) {
 
 func TestTranslitModeEndToEnd(t *testing.T) {
 	// Test that demonstrates the complete workflow:
-	// 1. Input: ar-translit or ar -> Process: ar (original)
-	// 2. Use SEARCH functions to match original
-	// 3. Use transliteration functions to correct ar-translit version
+	// 1. Input: ar or ar-translit -> Process: ar-translit (transliteration directly)
+	// 2. Use base language (ar/fa) as reference for matching
+	// 3. Use version IDs and MATCH_CONFIRMED/CORRECT_TRANSLITERATION functions
 
 	t.Run("Translit mode workflow explanation", func(t *testing.T) {
 		// This test documents the expected workflow:
 
-		// BEFORE (old workflow - incorrect):
-		// translit mode: ar -> ar-translit (process transliteration directly)
-
-		// AFTER (new workflow - correct):
-		// translit mode: ar -> ar (process original to match, then correct ar-translit)
-		// translit mode: ar-translit -> ar (convert to original, then correct ar-translit)
+		// NEW (simplified workflow):
+		// translit mode: ar -> ar-translit (process transliteration with ar as reference)
+		// translit mode: ar-translit -> ar-translit (process transliteration directly)
+		// translit mode: fa -> fa-translit (process transliteration with fa as reference)
 
 		testCases := map[string]string{
-			"ar":          "ar", // Arabic original stays original
-			"fa":          "fa", // Persian original stays original
-			"ar-translit": "ar", // Arabic translit converts to original
-			"fa-translit": "fa", // Persian translit converts to original
-			"arabic":      "ar", // Arabic alias converts to ar
-			"persian":     "fa", // Persian alias converts to fa
+			"ar":          "ar-translit", // Arabic base converts to ar-translit
+			"fa":          "fa-translit", // Persian base converts to fa-translit
+			"ar-translit": "ar-translit", // Arabic translit stays ar-translit
+			"fa-translit": "fa-translit", // Persian translit stays fa-translit
+			"arabic":      "ar-translit", // Arabic alias converts to ar-translit
+			"persian":     "fa-translit", // Persian alias converts to fa-translit
 		}
 
 		for input, expected := range testCases {
 			var result string
 			if input == "ar" || input == "arabic" {
-				result = "ar"
-			} else if input == "fa" || input == "persian" || input == "per" {
-				result = "fa"
+				result = "ar-translit"
+			} else if input == "fa" || input == "persian" {
+				result = "fa-translit"
 			} else if strings.HasSuffix(input, "-translit") {
-				result = strings.TrimSuffix(input, "-translit")
-			} else {
 				result = input
 			}
 
 			if result != expected {
-				t.Errorf("Language conversion: input %s should become %s, got %s", input, expected, result)
+				t.Errorf("Input %s: expected %s, got %s", input, expected, result)
 			}
 		}
 
-		// Verify the key insight: we always work on originals in translit mode
-		t.Log("✅ TRANSLIT MODE WORKFLOW:")
-		t.Log("   1. Input any ar/fa variant -> Process the ORIGINAL (ar/fa)")
-		t.Log("   2. Use SEARCH functions to match original and get Phelps code")
-		t.Log("   3. Use transliteration functions to check/correct ar-translit/fa-translit")
-		t.Log("   4. This ensures we match on reliable original text, not transliterations")
+		// Test that new functions are available
+		matchConfirmedFound := false
+		searchVersionFound := false
+		correctVersionFound := false
+
+		for _, handler := range registeredFunctions {
+			desc := handler.GetDescription()
+			if strings.Contains(desc, "MATCH_CONFIRMED") && handler.IsEnabledForMode("translit") {
+				matchConfirmedFound = true
+			}
+			if strings.Contains(desc, "SEARCH_VERSION") && handler.IsEnabledForMode("translit") {
+				searchVersionFound = true
+			}
+			if strings.Contains(desc, "CORRECT_VERSION") && handler.IsEnabledForMode("translit") {
+				correctVersionFound = true
+			}
+		}
+
+		if !matchConfirmedFound {
+			t.Error("MATCH_CONFIRMED function should be available in translit mode")
+		}
+		if !searchVersionFound {
+			t.Error("SEARCH_VERSION function should be available in translit mode")
+		}
+		if !correctVersionFound {
+			t.Error("CORRECT_VERSION function should be available in translit mode")
+		}
 	})
 }
 
@@ -2187,12 +2276,10 @@ func TestImprovedModeInstructions(t *testing.T) {
 				"MODE: TRANSLITERATION",
 				"🎯 GOAL:",
 				"SIMPLE WORKFLOW:",
-				"1. SEARCH:",
-				"2. GET_FULL_TEXT:",
-				"3. CHECK_TRANSLIT_CONSISTENCY:",
-				"4. If transliteration needs fixing: CORRECT_TRANSLITERATION:",
-				"5. FINAL_ANSWER:",
-				"✅ Available functions:",
+				"SEARCH:",
+				"CHECK_TRANSLIT_CONSISTENCY:",
+				"CORRECT_TRANSLITERATION:",
+				"FINAL_ANSWER:",
 			},
 			shouldNotContain: []string{
 				"TRANSLITERATION STANDARDS:",

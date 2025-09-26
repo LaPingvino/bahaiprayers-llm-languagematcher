@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"bytes"
 	"context"
+	_ "embed"
 	"encoding/csv"
 	"encoding/json"
 	"flag"
@@ -49,6 +50,67 @@ type SessionNote struct {
 
 var sessionNotes []SessionNote
 var sessionNotesMutex sync.Mutex
+
+// Transliteration corrections storage
+type TranslitCorrection struct {
+	PhelpsCode    string
+	Confidence    float64
+	CorrectedText string
+	Language      string // ar-translit or fa-translit
+}
+
+var pendingTranslitCorrections []TranslitCorrection
+var translitCorrectionsMutex sync.Mutex
+
+//go:embed transliteration_standards.txt
+var transliterationStandardsContent string
+
+// Helper function to execute dolt commands in the correct directory
+func execDoltCommand(args ...string) *exec.Cmd {
+	cmd := exec.Command("dolt", args...)
+	cmd.Dir = "bahaiwritings"
+	return cmd
+}
+
+// Helper function to execute dolt query and return output with error handling
+func execDoltQuery(query string) ([]byte, error) {
+	cmd := execDoltCommand("sql", "-q", query)
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return nil, fmt.Errorf("dolt query failed: %w: %s", err, string(output))
+	}
+	return output, nil
+}
+
+// Helper function to execute dolt CSV query and return output with error handling
+func execDoltQueryCSV(query string) ([]byte, error) {
+	cmd := execDoltCommand("sql", "-r", "csv", "-q", query)
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return nil, fmt.Errorf("dolt CSV query failed: %w: %s", err, string(output))
+	}
+	return output, nil
+}
+
+// Helper function to execute dolt command and return error if it fails
+func execDoltRun(args ...string) error {
+	cmd := execDoltCommand(args...)
+	if err := cmd.Run(); err != nil {
+		return fmt.Errorf("dolt command failed: %w", err)
+	}
+	return nil
+}
+
+// Function to get Bahá'í transliteration standards from embedded content
+func getTransliterationStandards() []string {
+	lines := strings.Split(transliterationStandardsContent, "\n")
+	var results []string
+	for _, line := range lines {
+		// Include all lines, even empty ones for proper formatting
+		results = append(results, line)
+	}
+	return results
+}
 
 // Helper function to truncate large responses and store them
 func truncateAndStore(response string, source string) string {
@@ -949,8 +1011,59 @@ func buildPhelpsContext(db Database, referenceLanguage string) map[string]string
 	return phelpsContext
 }
 
+// Build context map with version IDs as keys instead of Phelps codes
+func buildVersionContext(db Database, referenceLanguage string) map[string]string {
+	versionContext := make(map[string]string)
+
+	// Get writings by reference language
+	var relevantWritings []Writing
+	for _, writing := range db.Writing {
+		if writing.Language == referenceLanguage && writing.Text != "" {
+			relevantWritings = append(relevantWritings, writing)
+		}
+	}
+
+	// If no reference language data, use any language
+	if len(relevantWritings) == 0 {
+		for _, writing := range db.Writing {
+			if writing.Text != "" {
+				relevantWritings = append(relevantWritings, writing)
+			}
+		}
+	}
+
+	// Build context for each version
+	for _, writing := range relevantWritings {
+		wordCount := len(strings.Fields(writing.Text))
+		charCount := len(writing.Text)
+
+		opening := ""
+		if len(writing.Text) > 50 {
+			opening = writing.Text[:50] + "..."
+		} else {
+			opening = writing.Text
+		}
+
+		phelpsDisplay := writing.Phelps
+		if phelpsDisplay == "" {
+			phelpsDisplay = "NO_PHELPS"
+		}
+
+		context := fmt.Sprintf("%s (Version: %s) [%d words, %d chars] Opening: \"%s\" Name: %s",
+			phelpsDisplay, writing.Version, wordCount, charCount, opening, writing.Name)
+
+		versionContext[writing.Version] = context
+	}
+
+	return versionContext
+}
+
 // Unified search function that handles multiple combined criteria
 func searchPrayersUnified(db Database, referenceLanguage string, searchStr string) []string {
+	return searchPrayersUnifiedWithVersions(db, referenceLanguage, searchStr, false)
+}
+
+func searchPrayersUnifiedWithVersions(db Database, referenceLanguage string, searchStr string, returnVersions bool) []string {
 	searchStr = strings.TrimSpace(searchStr)
 	if searchStr == "" {
 		return []string{"Error: No search criteria provided. Use: SEARCH:keywords,opening phrase,100-200,..."}
@@ -962,18 +1075,33 @@ func searchPrayersUnified(db Database, referenceLanguage string, searchStr strin
 
 	// Apply each search type found
 	if len(criteria.Keywords) > 0 {
-		keywordResults := searchPrayersByKeywordsWithScore(db, referenceLanguage, criteria.Keywords)
-		allResults = append(allResults, keywordResults...)
+		if returnVersions {
+			keywordResults := searchPrayersByKeywordsWithScoreVersions(db, referenceLanguage, criteria.Keywords)
+			allResults = append(allResults, keywordResults...)
+		} else {
+			keywordResults := searchPrayersByKeywordsWithScore(db, referenceLanguage, criteria.Keywords)
+			allResults = append(allResults, keywordResults...)
+		}
 	}
 
 	if criteria.Opening != "" {
-		openingResults := searchPrayersByOpeningWithScore(db, referenceLanguage, criteria.Opening)
-		allResults = append(allResults, openingResults...)
+		if returnVersions {
+			openingResults := searchPrayersByOpeningWithScoreVersions(db, referenceLanguage, criteria.Opening)
+			allResults = append(allResults, openingResults...)
+		} else {
+			openingResults := searchPrayersByOpeningWithScore(db, referenceLanguage, criteria.Opening)
+			allResults = append(allResults, openingResults...)
+		}
 	}
 
 	if criteria.LengthRange != "" {
-		lengthResults := searchPrayersByLengthWithScore(db, referenceLanguage, criteria.LengthRange)
-		allResults = append(allResults, lengthResults...)
+		if returnVersions {
+			lengthResults := searchPrayersByLengthWithScoreVersions(db, referenceLanguage, criteria.LengthRange)
+			allResults = append(allResults, lengthResults...)
+		} else {
+			lengthResults := searchPrayersByLengthWithScore(db, referenceLanguage, criteria.LengthRange)
+			allResults = append(allResults, lengthResults...)
+		}
 	}
 
 	if len(allResults) == 0 {
@@ -1117,6 +1245,7 @@ func isLengthRange(s string) bool {
 
 // SearchResult represents a search result with scoring
 type SearchResult struct {
+	ID         string // Can be Phelps code or Version ID
 	Context    string
 	PhelpsCode string
 	Score      int
@@ -1141,8 +1270,117 @@ func searchPrayersByKeywordsWithScore(db Database, referenceLanguage string, key
 
 		if score > 0 {
 			results = append(results, SearchResult{
+				ID:         phelps,
 				Context:    context,
 				PhelpsCode: phelps,
+				Score:      score,
+				SearchType: "KEYWORDS",
+			})
+		}
+	}
+
+	return results
+}
+
+func searchPrayersByOpeningWithScoreVersions(db Database, referenceLanguage string, opening string) []SearchResult {
+	versionContext := buildVersionContext(db, referenceLanguage)
+	var results []SearchResult
+	openingLower := strings.ToLower(strings.TrimSpace(opening))
+
+	for version, context := range versionContext {
+		if strings.Contains(context, "Opening: \"") {
+			parts := strings.Split(context, "Opening: \"")
+			if len(parts) > 1 {
+				contextOpening := strings.Split(parts[1], "\"")[0]
+				openingCtxLower := strings.ToLower(contextOpening)
+
+				similarity := 0
+				if strings.Contains(openingCtxLower, openingLower) {
+					similarity = 15
+				} else {
+					// Check for partial matches
+					openingWords := strings.Fields(openingLower)
+					for _, word := range openingWords {
+						if len(word) > 2 && strings.Contains(openingCtxLower, word) {
+							similarity += 3
+						}
+					}
+				}
+
+				if similarity > 0 {
+					results = append(results, SearchResult{
+						ID:         version,
+						Context:    context,
+						PhelpsCode: "", // No Phelps code for version-based search
+						Score:      similarity,
+						SearchType: "OPENING",
+					})
+				}
+			}
+		}
+	}
+
+	return results
+}
+
+func searchPrayersByLengthWithScoreVersions(db Database, referenceLanguage string, lengthStr string) []SearchResult {
+	parts := strings.Split(lengthStr, "-")
+	if len(parts) != 2 {
+		return []SearchResult{}
+	}
+
+	minLength, err1 := strconv.Atoi(strings.TrimSpace(parts[0]))
+	maxLength, err2 := strconv.Atoi(strings.TrimSpace(parts[1]))
+	if err1 != nil || err2 != nil {
+		return []SearchResult{}
+	}
+
+	versionContext := buildVersionContext(db, referenceLanguage)
+	var results []SearchResult
+
+	for version, context := range versionContext {
+		if strings.Contains(context, "words") {
+			parts := strings.Split(context, "[")
+			if len(parts) > 1 {
+				wordPart := strings.Split(parts[1], " words")[0]
+				if wordCount, err := strconv.Atoi(strings.TrimSpace(wordPart)); err == nil {
+					if wordCount >= minLength && wordCount <= maxLength {
+						results = append(results, SearchResult{
+							ID:         version,
+							Context:    context,
+							PhelpsCode: "", // No Phelps code for version-based search
+							Score:      5,  // Basic score for length match
+							SearchType: "LENGTH",
+						})
+					}
+				}
+			}
+		}
+	}
+
+	return results
+}
+
+func searchPrayersByKeywordsWithScoreVersions(db Database, referenceLanguage string, keywords []string) []SearchResult {
+	versionContext := buildVersionContext(db, referenceLanguage)
+	var results []SearchResult
+
+	for version, context := range versionContext {
+		score := 0
+		contextLower := strings.ToLower(context)
+
+		for _, keyword := range keywords {
+			keywordLower := strings.ToLower(strings.TrimSpace(keyword))
+			if strings.Contains(contextLower, keywordLower) {
+				score += 10
+			}
+		}
+
+		if score > 0 {
+			results = append(results, SearchResult{
+				ID:         version,
+				Context:    context,
+				PhelpsCode: "", // No Phelps code for version-based search
 				Score:      score,
 				SearchType: "KEYWORDS",
 			})
@@ -1182,6 +1420,7 @@ func searchPrayersByOpeningWithScore(db Database, referenceLanguage string, open
 				if commonWords > 0 {
 					score := commonWords * 3 // Higher weight for opening matches
 					results = append(results, SearchResult{
+						ID:         phelps,
 						Context:    context,
 						PhelpsCode: phelps,
 						Score:      score,
@@ -1231,6 +1470,7 @@ func searchPrayersByLengthWithScore(db Database, referenceLanguage string, lengt
 					}
 
 					results = append(results, SearchResult{
+						ID:         phelps,
 						Context:    context,
 						PhelpsCode: phelps,
 						Score:      score,
@@ -2023,8 +2263,7 @@ func cleanupInvalidPhelpsCode() (int, error) {
 
 	// Find invalid codes in match_attempts
 	query1 := fmt.Sprintf("SELECT id, phelps_code FROM match_attempts WHERE phelps_code != 'UNKNOWN' AND phelps_code != '' AND phelps_code NOT REGEXP '%s'", validPattern)
-	cmd1 := exec.Command("dolt", "sql", "-r", "csv", "-q", query1)
-	output1, err := cmd1.Output()
+	output1, err := execDoltQueryCSV(query1)
 	if err != nil {
 		return 0, fmt.Errorf("failed to query match_attempts: %w", err)
 	}
@@ -2054,8 +2293,7 @@ func cleanupInvalidPhelpsCode() (int, error) {
 
 	// Find invalid codes in writings
 	query2 := fmt.Sprintf("SELECT version, phelps FROM writings WHERE phelps != '' AND phelps IS NOT NULL AND phelps NOT REGEXP '%s'", validPattern)
-	cmd2 := exec.Command("dolt", "sql", "-r", "csv", "-q", query2)
-	output2, err := cmd2.Output()
+	output2, err := execDoltQueryCSV(query2)
 	if err != nil {
 		return 0, fmt.Errorf("failed to query writings: %w", err)
 	}
@@ -2094,8 +2332,7 @@ func cleanupInvalidPhelpsCode() (int, error) {
 
 		for _, attempt := range invalidAttempts {
 			updateQuery1 := fmt.Sprintf("UPDATE match_attempts SET phelps_code = '', result_type = 'failure', reasoning = CONCAT('Invalid Phelps code reset: %s - ', reasoning) WHERE id = %s", attempt.PhelpsCode, attempt.ID)
-			cmd := exec.Command("dolt", "sql", "-q", updateQuery1)
-			if err := cmd.Run(); err != nil {
+			if err := execDoltRun("sql", "-q", updateQuery1); err != nil {
 				return totalCleaned, fmt.Errorf("failed to update match_attempt %s: %w", attempt.ID, err)
 			}
 			totalCleaned++
@@ -2111,8 +2348,7 @@ func cleanupInvalidPhelpsCode() (int, error) {
 
 		for _, writing := range invalidWritings {
 			updateQuery2 := fmt.Sprintf("UPDATE writings SET phelps = '' WHERE version = '%s'", writing.Version)
-			cmd := exec.Command("dolt", "sql", "-q", updateQuery2)
-			if err := cmd.Run(); err != nil {
+			if err := execDoltRun("sql", "-q", updateQuery2); err != nil {
 				return totalCleaned, fmt.Errorf("failed to update writing %s: %w", writing.Version, err)
 			}
 			totalCleaned++
@@ -3200,8 +3436,7 @@ func (s SearchInventoryFunction) Execute(db Database, referenceLanguage string, 
 
 	query := fmt.Sprintf("SELECT PIN, Title, `First line (original)`, `First line (translated)` FROM inventory WHERE Language = '%s' AND (%s) LIMIT 10", inventoryLang, whereClause)
 
-	cmd := exec.Command("dolt", "sql", "-q", query)
-	output, err := cmd.CombinedOutput()
+	output, err := execDoltQuery(query)
 	if err != nil {
 		return []string{fmt.Sprintf("Error searching inventory: %v", err)}
 	}
@@ -3269,8 +3504,7 @@ func (c CheckTagFunction) Execute(db Database, referenceLanguage string, call st
 	// Query for all Phelps codes starting with this PIN
 	query := fmt.Sprintf("SELECT DISTINCT phelps FROM writings WHERE phelps LIKE '%s%%' AND phelps IS NOT NULL AND phelps != '' ORDER BY phelps", escapedPIN)
 
-	cmd := exec.Command("dolt", "sql", "-q", query)
-	output, err := cmd.CombinedOutput()
+	output, err := execDoltQuery(query)
 	if err != nil {
 		return []string{fmt.Sprintf("Error checking tags for PIN %s: %v", pin, err)}
 	}
@@ -3370,8 +3604,7 @@ func (a AddNewPrayerFunction) Execute(db Database, referenceLanguage string, cal
 	// Check if PIN exists in inventory
 	escapedPIN := strings.ReplaceAll(pin, "'", "''")
 	checkQuery := fmt.Sprintf("SELECT COUNT(*) FROM inventory WHERE PIN = '%s'", escapedPIN)
-	cmd := exec.Command("dolt", "sql", "-q", checkQuery)
-	output, err := cmd.CombinedOutput()
+	output, err := execDoltQuery(checkQuery)
 	if err != nil {
 		return []string{fmt.Sprintf("Error validating PIN %s: %v", pin, err)}
 	}
@@ -3401,8 +3634,7 @@ func (a AddNewPrayerFunction) Execute(db Database, referenceLanguage string, cal
 	// Check if Phelps code already exists
 	escapedPhelps := strings.ReplaceAll(phelpsCode, "'", "''")
 	existsQuery := fmt.Sprintf("SELECT COUNT(*) FROM writings WHERE phelps = '%s'", escapedPhelps)
-	cmd = exec.Command("dolt", "sql", "-q", existsQuery)
-	output, err = cmd.CombinedOutput()
+	output, err = execDoltQuery(existsQuery)
 	if err != nil {
 		return []string{fmt.Sprintf("Error checking existing Phelps code: %v", err)}
 	}
@@ -3454,21 +3686,30 @@ func (a AddNewPrayerFunction) GetUsageExample() string {
 type CorrectTransliterationFunction struct{ PrefixFunction }
 
 func (c CorrectTransliterationFunction) Execute(db Database, referenceLanguage string, call string) []string {
+	// Check if Bahá'í transliteration standards have been accessed this session
+	standardsNotes := searchSessionNotes("TRANSLIT_STANDARDS", "TRANSLIT_STANDARDS", referenceLanguage)
+	if len(standardsNotes) == 0 {
+		return []string{"Error: You must use CHECK_TRANSLIT_STANDARDS first to review Bahá'í transliteration guidelines before making corrections"}
+	}
+
 	args := strings.TrimPrefix(call, "CORRECT_TRANSLITERATION:")
 	parts := strings.SplitN(args, ",", 3)
-	if len(parts) != 3 {
-		return []string{"Error: CORRECT_TRANSLITERATION requires format: phelps_code,confidence,corrected_text"}
+	if len(parts) < 2 {
+		return []string{"Error: CORRECT_TRANSLITERATION requires: phelps_code,corrected_text[,confidence]"}
 	}
 
 	phelpsCode := strings.TrimSpace(parts[0])
-	confidenceStr := strings.TrimSpace(parts[1])
-	correctedText := strings.TrimSpace(parts[2])
+	correctedText := strings.TrimSpace(parts[1])
 
-	// Validate confidence
-	confidence, err := strconv.ParseFloat(confidenceStr, 64)
-	if err != nil {
-		return []string{"Error: Confidence must be a number (0-100)"}
+	// Optional confidence parameter (default to 95.0)
+	confidence := 95.0
+	if len(parts) == 3 {
+		confidenceStr := strings.TrimSpace(parts[2])
+		if parsed, err := strconv.ParseFloat(confidenceStr, 64); err == nil {
+			confidence = parsed
+		}
 	}
+
 	if confidence < 0 || confidence > 100 {
 		return []string{"Error: Confidence must be between 0 and 100"}
 	}
@@ -3477,24 +3718,68 @@ func (c CorrectTransliterationFunction) Execute(db Database, referenceLanguage s
 		return []string{"Error: Corrected text seems too short - provide substantial correction"}
 	}
 
+	// Determine target language based on original writing language
+	// Need to find the original writing language to determine correct transliteration target
+	targetLang := "ar-translit" // Default to Arabic transliteration
+
+	// Check if we can find the original writing to determine language
+	for _, writing := range db.Writing {
+		if writing.Phelps == phelpsCode && (writing.Language == "ar" || writing.Language == "fa") {
+			if writing.Language == "fa" {
+				targetLang = "fa-translit"
+			} else {
+				targetLang = "ar-translit"
+			}
+			break
+		}
+	}
+
+	// Fallback: check if corrected text contains Persian-style transliteration patterns
+	if strings.Contains(strings.ToLower(correctedText), "khuda") ||
+		strings.Contains(strings.ToLower(correctedText), "baha") ||
+		strings.Contains(strings.ToLower(correctedText), "persian") {
+		targetLang = "fa-translit"
+	}
+
+	// Store the correction for later application
+	correction := TranslitCorrection{
+		PhelpsCode:    phelpsCode,
+		Confidence:    confidence / 100.0, // Convert to decimal
+		CorrectedText: correctedText,
+		Language:      targetLang,
+	}
+
 	results := []string{
-		fmt.Sprintf("✅ TRANSLITERATION CORRECTION READY: %s", phelpsCode),
+		fmt.Sprintf("✅ TRANSLITERATION CORRECTION STORED: %s", phelpsCode),
+		fmt.Sprintf("   Target: %s", targetLang),
 		fmt.Sprintf("   Confidence: %.0f%%", confidence),
 		fmt.Sprintf("   Corrected text preview: %s...", correctedText[:min(100, len(correctedText))]),
 		"",
-		"This transliteration correction will be applied when processed.",
+		"This transliteration correction will be applied when FINAL_ANSWER is processed.",
 		"Use FINAL_ANSWER with this code to complete the correction.",
 	}
+
+	// Add transliteration standards reference
+	results = append(results, "")
+	results = append(results, "📚 TRANSLITERATION REFERENCE:")
+	results = append(results, "Use CHECK_TRANSLIT_STANDARDS for detailed guidance on correct transliteration.")
+
+	// Add session note to track that a correction was made
+	addSessionNote(referenceLanguage, "SUCCESS", fmt.Sprintf("CORRECT_TRANSLITERATION:%s applied", phelpsCode), phelpsCode, confidence)
+
+	translitCorrectionsMutex.Lock()
+	pendingTranslitCorrections = append(pendingTranslitCorrections, correction)
+	translitCorrectionsMutex.Unlock()
 
 	return results
 }
 
 func (c CorrectTransliterationFunction) GetDescription() string {
-	return "CORRECT_TRANSLITERATION:phelps_code,confidence,corrected_text (provide improved transliteration)"
+	return "CORRECT_TRANSLITERATION:phelps_code,corrected_text (store corrected transliteration - requires CHECK_TRANSLIT_STANDARDS first)"
 }
 
 func (c CorrectTransliterationFunction) GetUsageExample() string {
-	return "CORRECT_TRANSLITERATION:AB00001FIR,90,O Thou Who art the Lord of all names..."
+	return "CORRECT_TRANSLITERATION:AB00001FIR,O Thou Who art the Lord of all names..."
 }
 
 func (c CorrectTransliterationFunction) IsEnabledInMode(mode string) bool {
@@ -3515,8 +3800,7 @@ func (c CheckTranslitConsistencyFunction) Execute(db Database, referenceLanguage
 	escapedPhelps := strings.ReplaceAll(phelpsCode, "'", "''")
 	query := fmt.Sprintf("SELECT language, LEFT(text, 300), name FROM writings WHERE phelps = '%s' AND language IN ('ar', 'fa', 'ar-translit', 'fa-translit') ORDER BY language", escapedPhelps)
 
-	cmd := exec.Command("dolt", "sql", "-q", query)
-	output, err := cmd.CombinedOutput()
+	output, err := execDoltQuery(query)
 	if err != nil {
 		return []string{fmt.Sprintf("Error checking transliteration consistency: %v", err)}
 	}
@@ -3612,8 +3896,7 @@ func (f FindOriginalVersionFunction) Execute(db Database, referenceLanguage stri
 	escapedPhelps := strings.ReplaceAll(phelpsCode, "'", "''")
 	query := fmt.Sprintf("SELECT language, LEFT(text, 200), name FROM writings WHERE phelps = '%s' AND language IN ('ar', 'fa') LIMIT 5", escapedPhelps)
 
-	cmd := exec.Command("dolt", "sql", "-q", query)
-	output, err := cmd.CombinedOutput()
+	output, err := execDoltQuery(query)
 	if err != nil {
 		return []string{fmt.Sprintf("Error finding original versions: %v", err)}
 	}
@@ -3731,6 +4014,201 @@ var registeredFunctions = []FunctionCallHandler{
 	CorrectTransliterationFunction{NewPrefixFunction("CORRECT_TRANSLITERATION")},
 	FindOriginalVersionFunction{NewPrefixFunction("FIND_ORIGINAL_VERSION")},
 	CheckTranslitConsistencyFunction{NewPrefixFunction("CHECK_TRANSLIT_CONSISTENCY")},
+	CheckTranslitStandardsFunction{NewStandaloneFunctionWithModes("CHECK_TRANSLIT_STANDARDS", []string{"translit", "match", "match-add"})},
+
+	// Transliteration-specific version matching and correction functions
+	MatchVersionFunction{NewPrefixFunctionWithModes("MATCH_VERSION", []string{"translit"})},
+	CorrectVersionFunction{NewPrefixFunctionWithModes("CORRECT_VERSION", []string{"translit"})},
+	SearchVersionFunction{NewPrefixFunctionWithModes("SEARCH_VERSION", []string{"translit"})},
+	MatchConfirmedFunction{NewPrefixFunctionWithModes("MATCH_CONFIRMED", []string{"translit"})},
+}
+
+type CheckTranslitStandardsFunction struct{ StandaloneFunction }
+
+func (c CheckTranslitStandardsFunction) Execute(db Database, referenceLanguage string, call string) []string {
+	// Add session note to track that standards were accessed
+	addSessionNote(referenceLanguage, "TRANSLIT_STANDARDS", "Bahá'í transliteration standards accessed", "", 100.0)
+
+	// Return the complete embedded Bahá'í transliteration standards
+	return getTransliterationStandards()
+}
+
+func (c CheckTranslitStandardsFunction) GetDescription() string {
+	return "CHECK_TRANSLIT_STANDARDS (display official Bahá'í transliteration guidelines)"
+}
+
+func (c CheckTranslitStandardsFunction) GetUsageExample() string {
+	return "CHECK_TRANSLIT_STANDARDS"
+}
+
+func (c CheckTranslitStandardsFunction) IsEnabledInMode(mode string) bool {
+	return mode == "translit" || mode == "match" || mode == "match-add"
+}
+
+// MATCH_VERSION function - matches current prayer version to get Phelps code (translit mode only)
+type MatchVersionFunction struct {
+	PrefixFunction
+}
+
+func (m MatchVersionFunction) Execute(db Database, referenceLanguage string, functionCall string) []string {
+	// Extract prayer text or description from the function call
+	description := strings.TrimSpace(strings.TrimPrefix(functionCall, "MATCH_VERSION:"))
+
+	if description == "" {
+		return []string{"MATCH_VERSION requires description: MATCH_VERSION:prayer text or keywords"}
+	}
+
+	// Search for matching prayers using the description
+	results := searchPrayersUnified(db, referenceLanguage, description)
+
+	if len(results) == 0 || strings.Contains(results[0], "No prayers found") {
+		return []string{fmt.Sprintf("MATCH_VERSION: No matches found for '%s' in %s inventory", description, referenceLanguage)}
+	}
+
+	// Format response for transliteration mode
+	response := []string{}
+	response = append(response, fmt.Sprintf("MATCH_VERSION results for '%s' in %s:", description, referenceLanguage))
+	response = append(response, "")
+	response = append(response, results...)
+	response = append(response, "")
+	response = append(response, "Next steps:")
+	response = append(response, "1. Select the best matching Phelps code from above")
+	response = append(response, "2. Use CORRECT_VERSION:PhelpsCode to check/fix the transliteration")
+	response = append(response, "3. Use FINAL_ANSWER:PhelpsCode with your confidence when done")
+
+	return response
+}
+
+// MATCH_CONFIRMED function - confirms match without terminating conversation (translit mode only)
+type MatchConfirmedFunction struct {
+	PrefixFunction
+}
+
+func (m MatchConfirmedFunction) Execute(db Database, referenceLanguage string, functionCall string) []string {
+	// Extract Phelps code and confidence from the function call
+	args := strings.TrimSpace(strings.TrimPrefix(functionCall, "MATCH_CONFIRMED:"))
+
+	parts := strings.Split(args, ",")
+	if len(parts) < 2 {
+		return []string{"MATCH_CONFIRMED requires: MATCH_CONFIRMED:PhelpsCode,confidence"}
+	}
+
+	phelpsCode := strings.TrimSpace(parts[0])
+	confidenceStr := strings.TrimSpace(parts[1])
+
+	if phelpsCode == "" {
+		return []string{"MATCH_CONFIRMED: Phelps code cannot be empty"}
+	}
+
+	confidence, err := strconv.ParseFloat(confidenceStr, 64)
+	if err != nil {
+		return []string{"MATCH_CONFIRMED: Invalid confidence value. Use number like 95.0"}
+	}
+
+	response := []string{}
+	response = append(response, fmt.Sprintf("✅ MATCH CONFIRMED: %s (%.1f%% confidence)", phelpsCode, confidence))
+	response = append(response, "")
+	response = append(response, "Next steps:")
+	response = append(response, "1. Review the current transliteration quality")
+	response = append(response, "2. Use CORRECT_TRANSLITERATION:"+phelpsCode+",corrected_text if improvements needed")
+	response = append(response, "3. Use FINAL_ANSWER:"+phelpsCode+" when satisfied")
+
+	return response
+}
+
+// CORRECT_VERSION function - corrects transliteration of a matched prayer (translit mode only)
+type CorrectVersionFunction struct {
+	PrefixFunction
+}
+
+func (c CorrectVersionFunction) Execute(db Database, referenceLanguage string, functionCall string) []string {
+	args := strings.TrimSpace(strings.TrimPrefix(functionCall, "CORRECT_VERSION:"))
+
+	// Parse arguments: version_id,corrected_transliteration
+	parts := strings.SplitN(args, ",", 2)
+	if len(parts) < 1 || parts[0] == "" {
+		return []string{"CORRECT_VERSION requires version ID: CORRECT_VERSION:version_id or CORRECT_VERSION:version_id,corrected_transliteration"}
+	}
+
+	versionID := strings.TrimSpace(parts[0])
+
+	// If only version ID provided, show current status
+	if len(parts) == 1 {
+		// Find the writing by version ID
+		var targetWriting *Writing
+		for _, writing := range db.Writing {
+			if writing.Version == versionID {
+				targetWriting = &writing
+				break
+			}
+		}
+
+		if targetWriting == nil {
+			return []string{fmt.Sprintf("CORRECT_VERSION: No writing found with version ID %s", versionID)}
+		}
+
+		response := []string{}
+		response = append(response, fmt.Sprintf("CORRECT_VERSION status for version %s:", versionID))
+		response = append(response, "")
+		response = append(response, fmt.Sprintf("Language: %s", targetWriting.Language))
+		response = append(response, fmt.Sprintf("Current text: %s", targetWriting.Text[:min(200, len(targetWriting.Text))]+"..."))
+		response = append(response, "")
+		response = append(response, "To submit correction: CORRECT_VERSION:"+versionID+",your_corrected_transliteration")
+
+		return response
+	}
+
+	// Submit corrected transliteration
+	correctedText := strings.TrimSpace(parts[1])
+	if correctedText == "" {
+		return []string{"CORRECT_VERSION: Corrected transliteration cannot be empty"}
+	}
+
+	// Store the correction
+	err := createOrUpdateTransliteration(versionID, referenceLanguage+"-translit", correctedText, 95.0)
+	if err != nil {
+		return []string{fmt.Sprintf("CORRECT_VERSION: Failed to store correction: %v", err)}
+	}
+
+	return []string{
+		fmt.Sprintf("✅ TRANSLITERATION CORRECTION STORED for version %s", versionID),
+		fmt.Sprintf("Language: %s-translit", referenceLanguage),
+		fmt.Sprintf("Corrected text: %s", correctedText[:min(100, len(correctedText))]+"..."),
+		"",
+		"Use FINAL_ANSWER:version_id to complete the process",
+	}
+}
+
+// SEARCH_VERSION function - searches for prayers and returns version IDs (translit mode only)
+type SearchVersionFunction struct {
+	PrefixFunction
+}
+
+func (s SearchVersionFunction) Execute(db Database, referenceLanguage string, functionCall string) []string {
+	// Extract search criteria from the function call
+	searchStr := strings.TrimSpace(strings.TrimPrefix(functionCall, "SEARCH_VERSION:"))
+
+	if searchStr == "" {
+		return []string{"SEARCH_VERSION requires search criteria: SEARCH_VERSION:keywords or opening phrase"}
+	}
+
+	// Search for matching prayers with version information
+	results := searchPrayersUnifiedWithVersions(db, referenceLanguage, searchStr, true)
+
+	if len(results) == 0 || strings.Contains(results[0], "No prayers found") {
+		return []string{fmt.Sprintf("SEARCH_VERSION: No matches found for '%s' in %s", searchStr, referenceLanguage)}
+	}
+
+	// Format response for transliteration mode
+	response := []string{}
+	response = append(response, fmt.Sprintf("SEARCH_VERSION results for '%s' in %s:", searchStr, referenceLanguage))
+	response = append(response, "")
+	response = append(response, results...)
+	response = append(response, "")
+	response = append(response, "Each result shows: PHELPS_CODE (Version: VERSION_ID, MATCH%) CONTEXT")
+	response = append(response, "Use the Version ID to reference the specific prayer text")
+
+	return response
 }
 
 // Helper function to determine if we should check transliteration
@@ -3751,15 +4229,27 @@ func addTransliterationContext(db Database, writing Writing, originalPrompt stri
 
 	translitGuidance := "\n\nTRANSLITERATION NOTE:\n"
 	if operationMode == "translit" {
-		if writing.Language == "ar" || writing.Language == "fa" {
-			translitGuidance += fmt.Sprintf("🔤 TRANSLIT MODE: This is the %s original. Find the Phelps code, then check/correct the %s-translit version.\n", writing.Language, writing.Language)
-			translitGuidance += "1. Match this original prayer to get the Phelps code\n"
-			translitGuidance += "2. Use CHECK_TRANSLIT_CONSISTENCY to verify transliteration quality\n"
-			translitGuidance += "3. Use CORRECT_TRANSLITERATION if the transliteration needs improvement\n"
-		} else if strings.HasSuffix(writing.Language, "-translit") {
+		if strings.HasSuffix(writing.Language, "-translit") {
 			baseLanguage := strings.TrimSuffix(writing.Language, "-translit")
-			translitGuidance += fmt.Sprintf("🔤 TRANSLIT MODE: This is %s transliteration. Use FIND_ORIGINAL_VERSION to locate the original for comparison.\n", baseLanguage)
-			translitGuidance += "Compare transliteration quality and use CORRECT_TRANSLITERATION if needed.\n"
+			translitGuidance += fmt.Sprintf("🔤 TRANSLIT MODE: This is %s transliteration (Version: %s)\n", baseLanguage, writing.Version)
+
+			if writing.Phelps != "" && strings.TrimSpace(writing.Phelps) != "" {
+				translitGuidance += fmt.Sprintf("Has Phelps code: %s\n", writing.Phelps)
+				translitGuidance += "1. Use CHECK_TRANSLIT_STANDARDS to review Bahá'í transliteration guidelines\n"
+				translitGuidance += "2. Review current transliteration quality against standards\n"
+				translitGuidance += "3. Use CORRECT_TRANSLITERATION:" + writing.Phelps + ",corrected_text if improvements needed\n"
+				translitGuidance += "4. Use FINAL_ANSWER:" + writing.Phelps + " when satisfied\n"
+			} else {
+				translitGuidance += "No Phelps code - match this transliteration to find original:\n"
+				translitGuidance += "1. Use search functions to find matching original prayer\n"
+				translitGuidance += "2. Use MATCH_CONFIRMED:PhelpsCode,confidence to confirm match\n"
+				translitGuidance += "3. Use CHECK_TRANSLIT_STANDARDS to review Bahá'í guidelines\n"
+				translitGuidance += "4. Use CORRECT_TRANSLITERATION:PhelpsCode,corrected_text if needed\n"
+				translitGuidance += "5. Use FINAL_ANSWER:PhelpsCode when done\n"
+			}
+		} else if writing.Language == "ar" || writing.Language == "fa" {
+			translitGuidance += fmt.Sprintf("🔤 TRANSLIT MODE: This is %s original - not typical for translit mode\n", writing.Language)
+			translitGuidance += "Consider processing the corresponding transliteration instead.\n"
 		}
 	} else {
 		// Non-translit modes
@@ -3794,11 +4284,10 @@ func checkAndTriggerTransliteration(db Database, writing Writing, phelpsCode str
 		return // Only check for ar/fa base languages
 	}
 
-	cmd := exec.Command("dolt", "sql", "-q", query)
-	output, err := cmd.CombinedOutput()
+	output, err := execDoltQuery(query)
 	if err != nil {
 		if verbose {
-			fmt.Printf("  ⚠️ Could not check transliteration status: %v\n", err)
+			log.Printf("Error checking for transliteration trigger for %s (%s): %v", phelpsCode, writing.Language, err)
 		}
 		return
 	}
@@ -4670,13 +5159,11 @@ func interactiveAssignment(db *Database, unmatchedPrayers []Writing, reportFile 
 	// Commit interactive changes if any
 	if assigned > 0 {
 		commitMessage := fmt.Sprintf("Interactive prayer assignment: %d prayers assigned", assigned)
-		cmd := exec.Command("dolt", "add", ".")
-		if output, err := cmd.CombinedOutput(); err != nil {
-			fmt.Fprintf(reportFile, "  ERROR: Failed to stage interactive changes: %v: %s\n", err, string(output))
+		if err := execDoltRun("add", "."); err != nil {
+			fmt.Fprintf(reportFile, "  ERROR: Failed to stage interactive changes: %v\n", err)
 		} else {
-			cmd = exec.Command("dolt", "commit", "-m", commitMessage)
-			if output, err := cmd.CombinedOutput(); err != nil {
-				fmt.Fprintf(reportFile, "  ERROR: Failed to commit interactive changes: %v: %s\n", err, string(output))
+			if err := execDoltRun("commit", "-m", commitMessage); err != nil {
+				fmt.Fprintf(reportFile, "  ERROR: Failed to commit interactive changes: %v\n", err)
 			} else {
 				fmt.Fprintf(reportFile, "  SUCCESS: Interactive changes committed: %s\n", commitMessage)
 			}
@@ -4954,10 +5441,10 @@ func GetDatabase() Database {
 
 	// Helper to run a dolt query and return the resulting CSV output
 	runQuery := func(table string, columns string) (string, error) {
-		cmd := exec.Command("dolt", "sql", "-q", fmt.Sprintf("SELECT %s FROM %s", columns, table), "-r", "csv")
-		out, err := cmd.CombinedOutput()
+		query := fmt.Sprintf("SELECT %s FROM %s", columns, table)
+		out, err := execDoltQueryCSV(query)
 		if err != nil {
-			return "", fmt.Errorf("dolt query for %s failed: %w: %s", table, err, string(out))
+			return "", fmt.Errorf("dolt query for %s failed: %w", table, err)
 		}
 		return string(out), nil
 	}
@@ -5139,9 +5626,8 @@ func insertMatchAttempt(attempt MatchAttempt) error {
 		attempt.ConfidenceScore, escapedReasoning, escapedProvider, escapedModel,
 		attempt.ProcessingTimeSeconds, escapedFailureReason)
 
-	cmd := exec.Command("dolt", "sql", "-q", query)
-	if output, err := cmd.CombinedOutput(); err != nil {
-		return fmt.Errorf("failed to insert match attempt: %w: %s", err, string(output))
+	if _, err := execDoltQuery(query); err != nil {
+		return fmt.Errorf("failed to insert match attempt: %w", err)
 	}
 
 	return nil
@@ -5259,10 +5745,9 @@ func updateLanguagePairStats(attempt MatchAttempt) error {
 		strings.ReplaceAll(attempt.TargetLanguage, "'", "''"),
 		strings.ReplaceAll(attempt.ReferenceLanguage, "'", "''"))
 
-	cmd := exec.Command("dolt", "sql", "-q", query, "-r", "csv")
-	output, err := cmd.CombinedOutput()
+	output, err := execDoltQueryCSV(query)
 	if err != nil {
-		return fmt.Errorf("failed to check existing language pair stats: %w: %s", err, string(output))
+		return fmt.Errorf("failed to check existing language pair stats: %w", err)
 	}
 
 	lines := strings.Split(strings.TrimSpace(string(output)), "\n")
@@ -5294,7 +5779,9 @@ func updateLanguagePairStats(attempt MatchAttempt) error {
 			strings.ReplaceAll(attempt.TargetLanguage, "'", "''"),
 			strings.ReplaceAll(attempt.ReferenceLanguage, "'", "''"))
 
-		cmd = exec.Command("dolt", "sql", "-q", updateQuery)
+		if _, err := execDoltQuery(updateQuery); err != nil {
+			err = fmt.Errorf("failed to update language pair stats: %w", err)
+		}
 	} else {
 		// Insert new stats
 		insertQuery := fmt.Sprintf(`INSERT INTO language_pair_stats
@@ -5318,11 +5805,13 @@ func updateLanguagePairStats(attempt MatchAttempt) error {
 			attempt.ConfidenceScore,
 			float64(attempt.ProcessingTimeSeconds))
 
-		cmd = exec.Command("dolt", "sql", "-q", insertQuery)
+		if _, err := execDoltQuery(insertQuery); err != nil {
+			err = fmt.Errorf("failed to update language pair stats: %w", err)
+		}
 	}
 
-	if output, err := cmd.CombinedOutput(); err != nil {
-		return fmt.Errorf("failed to update language pair stats: %w: %s", err, string(output))
+	if err != nil {
+		return err
 	}
 
 	return nil
@@ -5376,9 +5865,8 @@ func checkAndAddToSkipList(db Database, versionID, targetLanguage string) error 
 			strings.ReplaceAll(attemptedLangsStr, "'", "''"),
 			failureCount, len(attemptedRefLangs))
 
-		cmd := exec.Command("dolt", "sql", "-q", query)
-		if output, err := cmd.CombinedOutput(); err != nil {
-			return fmt.Errorf("failed to add to skip list: %w: %s", err, string(output))
+		if _, err := execDoltQuery(query); err != nil {
+			return fmt.Errorf("failed to add to skip list: %w", err)
 		}
 
 		log.Printf("Added prayer %s (%s) to skip list after %d failures with %d reference languages",
@@ -5473,9 +5961,67 @@ func updateWritingPhelps(phelps, language, version string) error {
 	query := fmt.Sprintf(`UPDATE writings SET phelps = '%s' WHERE language = '%s' AND version = '%s'`,
 		escapedPhelps, escapedLanguage, escapedVersion)
 
-	cmd := exec.Command("dolt", "sql", "-q", query)
-	if output, err := cmd.CombinedOutput(); err != nil {
-		return fmt.Errorf("failed to update writing: %w: %s", err, string(output))
+	if _, err := execDoltQuery(query); err != nil {
+		return fmt.Errorf("failed to update database: %v", err)
+	}
+
+	return nil
+}
+
+func createOrUpdateTransliteration(identifier, targetLang, correctedText string, confidence float64) error {
+	// Generate a new UUID for the version
+	newVersion := fmt.Sprintf("%s", time.Now().Format("20060102-150405"))
+
+	// Escape strings for SQL injection prevention
+	escapedIdentifier := strings.ReplaceAll(identifier, "'", "''")
+	escapedLang := strings.ReplaceAll(targetLang, "'", "''")
+	escapedText := strings.ReplaceAll(correctedText, "'", "''")
+	escapedVersion := strings.ReplaceAll(newVersion, "'", "''")
+
+	// Check if identifier is a version ID or Phelps code
+	var checkQuery string
+	if strings.Contains(identifier, "-") && len(identifier) > 20 {
+		// Looks like a version ID (UUID format)
+		checkQuery = fmt.Sprintf("SELECT version FROM writings WHERE version = '%s' AND language = '%s' LIMIT 1", escapedIdentifier, escapedLang)
+	} else {
+		// Looks like a Phelps code
+		checkQuery = fmt.Sprintf("SELECT version FROM writings WHERE phelps = '%s' AND language = '%s' LIMIT 1", escapedIdentifier, escapedLang)
+	}
+
+	output, err := execDoltQuery(checkQuery)
+
+	var query string
+	if err != nil || len(strings.TrimSpace(string(output))) == 0 {
+		// Create new transliteration entry
+		if strings.Contains(identifier, "-") && len(identifier) > 20 {
+			// Using version ID - need to find the Phelps code from original
+			var originalPhelps string
+			origQuery := fmt.Sprintf("SELECT phelps FROM writings WHERE version = '%s' LIMIT 1", escapedIdentifier)
+			if origOutput, origErr := execDoltQuery(origQuery); origErr == nil && len(strings.TrimSpace(string(origOutput))) > 0 {
+				originalPhelps = strings.TrimSpace(string(origOutput))
+			}
+			query = fmt.Sprintf(`INSERT INTO writings (phelps, language, version, text, name, type, notes, link, source, source_id)
+				VALUES ('%s', '%s', '%s', '%s', 'Transliteration (Corrected)', 'prayer', 'AI-corrected transliteration', '', '', '')`,
+				strings.ReplaceAll(originalPhelps, "'", "''"), escapedLang, escapedVersion, escapedText)
+		} else {
+			// Using Phelps code directly
+			query = fmt.Sprintf(`INSERT INTO writings (phelps, language, version, text, name, type, notes, link, source, source_id)
+				VALUES ('%s', '%s', '%s', '%s', 'Transliteration (Corrected)', 'prayer', 'AI-corrected transliteration', '', '', '')`,
+				escapedIdentifier, escapedLang, escapedVersion, escapedText)
+		}
+	} else {
+		// Update existing transliteration
+		if strings.Contains(identifier, "-") && len(identifier) > 20 {
+			query = fmt.Sprintf(`UPDATE writings SET text = '%s', version = '%s' WHERE version = '%s' AND language = '%s'`,
+				escapedText, escapedVersion, escapedIdentifier, escapedLang)
+		} else {
+			query = fmt.Sprintf(`UPDATE writings SET text = '%s', version = '%s' WHERE phelps = '%s' AND language = '%s'`,
+				escapedText, escapedVersion, escapedIdentifier, escapedLang)
+		}
+	}
+
+	if _, err := execDoltQuery(query); err != nil {
+		return fmt.Errorf("failed to create/update transliteration: %v", err)
 	}
 
 	return nil
@@ -5483,8 +6029,18 @@ func updateWritingPhelps(phelps, language, version string) error {
 
 // Process prayers for a specific language
 func processPrayersForLanguageWithMode(db *Database, targetLanguage, referenceLanguage string, useGemini bool, reportFile *os.File, maxPrayers int, verbose bool, legacyMode bool, maxRounds int, operationMode string) ([]Writing, error) {
-	// Smart reference language selection if same as target
-	if referenceLanguage == targetLanguage {
+	// In translit mode, use the base language for reference
+	if operationMode == "translit" {
+		originalRef := referenceLanguage
+		if strings.HasSuffix(targetLanguage, "-translit") {
+			baseLanguage := strings.TrimSuffix(targetLanguage, "-translit")
+			referenceLanguage = baseLanguage
+			if referenceLanguage != originalRef {
+				fmt.Printf("🔤 TRANSLIT mode: Using %s as reference language for %s transliterations\n", referenceLanguage, targetLanguage)
+				fmt.Fprintf(reportFile, "TRANSLIT mode: Using %s as reference language for %s transliterations\n", referenceLanguage, targetLanguage)
+			}
+		}
+	} else if referenceLanguage == targetLanguage {
 		// Get available reference languages from database
 		availableLanguages := make(map[string]bool)
 		for _, writing := range db.Writing {
@@ -5514,14 +6070,27 @@ func processPrayersForLanguageWithMode(db *Database, targetLanguage, referenceLa
 
 	// Count eligible prayers
 	for _, writing := range db.Writing {
-		if writing.Language == targetLanguage && (writing.Phelps == "" || strings.TrimSpace(writing.Phelps) == "") {
-			totalEligible++
+		if operationMode == "translit" {
+			// In translit mode, process transliteration versions
+			if writing.Language == targetLanguage && strings.HasSuffix(writing.Language, "-translit") {
+				totalEligible++
+			}
+		} else {
+			// In other modes, process prayers with empty Phelps codes
+			if writing.Language == targetLanguage && (writing.Phelps == "" || strings.TrimSpace(writing.Phelps) == "") {
+				totalEligible++
+			}
 		}
 	}
 
 	if totalEligible == 0 {
-		fmt.Printf("No unmatched prayers found for language: %s\n", targetLanguage)
-		fmt.Fprintf(reportFile, "No unmatched prayers found for language: %s\n", targetLanguage)
+		if operationMode == "translit" {
+			fmt.Printf("No transliteration prayers found for language: %s\n", targetLanguage)
+			fmt.Fprintf(reportFile, "No transliteration prayers found for language: %s\n", targetLanguage)
+		} else {
+			fmt.Printf("No unmatched prayers found for language: %s\n", targetLanguage)
+			fmt.Fprintf(reportFile, "No unmatched prayers found for language: %s\n", targetLanguage)
+		}
 		return []Writing{}, nil
 	}
 
@@ -5535,7 +6104,16 @@ func processPrayersForLanguageWithMode(db *Database, targetLanguage, referenceLa
 	}
 
 	for _, writing := range db.Writing {
-		if writing.Language != targetLanguage || (writing.Phelps != "" && strings.TrimSpace(writing.Phelps) != "") {
+		var shouldProcess bool
+		if operationMode == "translit" {
+			// In translit mode, process transliteration versions
+			shouldProcess = writing.Language == targetLanguage && strings.HasSuffix(writing.Language, "-translit")
+		} else {
+			// In other modes, process prayers without Phelps codes
+			shouldProcess = writing.Language == targetLanguage && (writing.Phelps == "" || strings.TrimSpace(writing.Phelps) == "")
+		}
+
+		if !shouldProcess {
 			continue
 		}
 
@@ -5687,6 +6265,41 @@ func processPrayersForLanguageWithMode(db *Database, targetLanguage, referenceLa
 			} else {
 				fmt.Fprintf(reportFile, "  MATCHED: %s (%.1f%% confidence) -> database updated\n", response.PhelpsCode, response.Confidence*100)
 			}
+
+			// Apply any pending transliteration corrections
+			translitCorrectionsMutex.Lock()
+			var appliedCorrections []TranslitCorrection
+			for _, correction := range pendingTranslitCorrections {
+				if correction.PhelpsCode == response.PhelpsCode {
+					err := createOrUpdateTransliteration(correction.PhelpsCode, correction.Language, correction.CorrectedText, correction.Confidence)
+					if err != nil {
+						log.Printf("Error applying transliteration correction: %v", err)
+						fmt.Fprintf(reportFile, "  ERROR applying transliteration correction: %v\n", err)
+						fmt.Printf("  ⚠️  Failed to apply transliteration correction: %v\n", err)
+					} else {
+						fmt.Printf("  ✅ Applied transliteration correction for %s (%s)\n", correction.PhelpsCode, correction.Language)
+						fmt.Fprintf(reportFile, "  TRANSLITERATION CORRECTED: %s (%s) -> database updated\n", correction.PhelpsCode, correction.Language)
+						appliedCorrections = append(appliedCorrections, correction)
+					}
+				}
+			}
+
+			// Remove applied corrections from pending list
+			var remainingCorrections []TranslitCorrection
+			for _, correction := range pendingTranslitCorrections {
+				found := false
+				for _, applied := range appliedCorrections {
+					if applied.PhelpsCode == correction.PhelpsCode && applied.Language == correction.Language {
+						found = true
+						break
+					}
+				}
+				if !found {
+					remainingCorrections = append(remainingCorrections, correction)
+				}
+			}
+			pendingTranslitCorrections = remainingCorrections
+			translitCorrectionsMutex.Unlock()
 		} else {
 			unmatchedPrayers = append(unmatchedPrayers, writing)
 			if response.PhelpsCode == "UNKNOWN" {
@@ -6058,9 +6671,9 @@ func main() {
 	// Special validation and processing for translit mode
 	if *operationMode == "translit" {
 		if *targetLanguage == "" {
-			// Default to both Arabic and Persian originals for matching
-			*targetLanguage = "ar,fa"
-			fmt.Printf("🔤 TRANSLIT mode: Defaulting to Arabic and Persian originals for matching\n")
+			// Default to both Arabic and Persian transliterations
+			*targetLanguage = "ar-translit,fa-translit"
+			fmt.Printf("🔤 TRANSLIT mode: Defaulting to Arabic and Persian transliterations\n")
 		}
 
 		// Parse and process languages for translit mode
@@ -6070,35 +6683,33 @@ func main() {
 		for _, lang := range languages {
 			lang = strings.TrimSpace(lang)
 			if lang == "ar" || lang == "arabic" {
-				processLanguages = append(processLanguages, "ar")
-				fmt.Printf("🔤 TRANSLIT mode: Processing %s originals to match and correct transliterations\n", lang)
+				processLanguages = append(processLanguages, "ar-translit")
+				fmt.Printf("🔤 TRANSLIT mode: Processing ar-translit to check/correct transliterations\n")
 			} else if lang == "fa" || lang == "persian" || lang == "per" {
-				processLanguages = append(processLanguages, "fa")
-				fmt.Printf("🔤 TRANSLIT mode: Processing %s originals to match and correct transliterations\n", lang)
+				processLanguages = append(processLanguages, "fa-translit")
+				fmt.Printf("🔤 TRANSLIT mode: Processing fa-translit to check/correct transliterations\n")
 			} else if strings.HasSuffix(lang, "-translit") {
-				baseLanguage := strings.TrimSuffix(lang, "-translit")
-				processLanguages = append(processLanguages, baseLanguage)
-				fmt.Printf("🔤 TRANSLIT mode: Processing %s originals to correct %s transliterations\n", baseLanguage, lang)
+				processLanguages = append(processLanguages, lang)
+				fmt.Printf("🔤 TRANSLIT mode: Processing %s to check/correct transliterations\n", lang)
 			} else {
-				fmt.Printf("⚠️  WARNING: TRANSLIT mode works only with Arabic or Persian languages.\n")
+				fmt.Printf("⚠️  WARNING: TRANSLIT mode works only with transliteration languages.\n")
 				fmt.Printf("   You specified: %s (not supported)\n", lang)
-				fmt.Printf("   Supported: ar, fa, ar-translit, fa-translit\n")
+				fmt.Printf("   Supported: ar-translit, fa-translit\n")
 				fmt.Printf("   Continue anyway? (y/N): ")
 
 				var response string
 				fmt.Scanln(&response)
 				if strings.ToLower(response) != "y" && strings.ToLower(response) != "yes" {
-					fmt.Printf("Exiting. Use -language=ar,fa or -language=ar-translit,fa-translit for translit mode.\n")
+					fmt.Printf("Exiting. Use -language=ar-translit,fa-translit for translit mode.\n")
 					return
 				}
-				processLanguages = append(processLanguages, lang)
 			}
 		}
 
-		// Update targetLanguage with processed languages (originals for matching)
+		// Update targetLanguage with processed languages
 		*targetLanguage = strings.Join(processLanguages, ",")
 		fmt.Printf("🔤 TRANSLIT mode: Final language list: %s\n", *targetLanguage)
-		fmt.Printf("🔤 TRANSLIT mode: Will match on originals then correct transliterations\n")
+		fmt.Printf("🔤 TRANSLIT mode: Will process transliterations directly with version IDs\n")
 	}
 
 	// Set up signal handling for graceful stop and force quit
