@@ -4235,8 +4235,34 @@ func addTransliterationContext(db Database, writing Writing, originalPrompt stri
 
 			if writing.Phelps != "" && strings.TrimSpace(writing.Phelps) != "" {
 				translitGuidance += fmt.Sprintf("Has Phelps code: %s\n", writing.Phelps)
+
+				// Find and provide the original text for comparison
+				var originalText string
+				for _, w := range db.Writing {
+					if w.Phelps == writing.Phelps && w.Language == baseLanguage {
+						originalText = w.Text
+						break
+					}
+				}
+
+				if originalText != "" {
+					translitGuidance += "\n📖 ORIGINAL " + strings.ToUpper(baseLanguage) + " TEXT:\n"
+					if len(originalText) > 300 {
+						translitGuidance += originalText[:300] + "...\n"
+					} else {
+						translitGuidance += originalText + "\n"
+					}
+					translitGuidance += "\n🔤 CURRENT TRANSLITERATION:\n"
+					if len(writing.Text) > 300 {
+						translitGuidance += writing.Text[:300] + "...\n"
+					} else {
+						translitGuidance += writing.Text + "\n"
+					}
+					translitGuidance += "\n"
+				}
+
 				translitGuidance += "1. Use CHECK_TRANSLIT_STANDARDS to review Bahá'í transliteration guidelines\n"
-				translitGuidance += "2. Review current transliteration quality against standards\n"
+				translitGuidance += "2. Compare current transliteration with original using Bahá'í standards\n"
 				translitGuidance += "3. Use CORRECT_TRANSLITERATION:" + writing.Phelps + ",corrected_text if improvements needed\n"
 				translitGuidance += "4. Use FINAL_ANSWER:" + writing.Phelps + " when satisfied\n"
 			} else {

@@ -1,11 +1,11 @@
 Prayer Matching Report
 =====================
-Started: 2025-09-27T00:31:30+01:00
-Target Language: ar-translit,fa-translit
+Started: 2025-09-27T00:37:41+01:00
+Target Language: 
 Reference Language: en
-Operation Mode: translit
+Operation Mode: match-add
 Lucky Mode: false
-Continue Mode: false
+Continue Mode: true
 No Priority Languages: false
 Using Gemini: true
 Gemini Quota Exceeded: false
@@ -15,9 +15,11 @@ Max Prayers: 0
 Verbose Mode: true
 
 Database loaded successfully
-Processing multiple languages: [ar-translit fa-translit]
-Database size: 9000 writings, 120 languages, 175 match attempts, 5 language pairs, 0 skip entries
+Database size: 9000 writings, 120 languages, 177 match attempts, 5 language pairs, 0 skip entries
+=== CONTINUE MODE: Continuous Language Processing ===
+Processing languages in priority order at 2025-09-27T00:37:42+01:00
+Language queue: [ar en it ru hi fr ko es pt de ja fa fo bla mic chr oj haw gwi moh nv chn hur wam km tpi ta ne lkt meu fy kiw ik lb mi co cs cnr st mh be lt eu uk ch gil srn sl am fj hz mt cy hr bi et kl lg bn mg kn vi sq bs af sv lv no ar-translit fi sk id ur ky hu ml hy nl tl bg da th ht zh-Hant zh-Hans is el az ca pl ro fa-translit]
 
-=== Language 1/2: ar-translit ===
-TRANSLIT mode: Using ar as reference language for ar-translit transliterations
-Processing writing:  (Version: 006d8a7c-daf0-4716-94c2-0ab24e05cf54)
+
+--- Language 1/92: ar (14 missing) ---
+Processing writing:  (Version: 1b5c1593-5e10-4f83-ba2f-1640ccf32983)
