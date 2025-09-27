@@ -1,11 +1,11 @@
 Prayer Matching Report
 =====================
-Started: 2025-09-27T00:37:41+01:00
-Target Language: 
+Started: 2025-09-27T04:25:27+01:00
+Target Language: en
 Reference Language: en
-Operation Mode: match-add
+Operation Mode: add-only
 Lucky Mode: false
-Continue Mode: true
+Continue Mode: false
 No Priority Languages: false
 Using Gemini: true
 Gemini Quota Exceeded: false
@@ -15,11 +15,22 @@ Max Prayers: 0
 Verbose Mode: true
 
 Database loaded successfully
-Database size: 9000 writings, 120 languages, 177 match attempts, 5 language pairs, 0 skip entries
-=== CONTINUE MODE: Continuous Language Processing ===
-Processing languages in priority order at 2025-09-27T00:37:42+01:00
-Language queue: [ar en it ru hi fr ko es pt de ja fa fo bla mic chr oj haw gwi moh nv chn hur wam km tpi ta ne lkt meu fy kiw ik lb mi co cs cnr st mh be lt eu uk ch gil srn sl am fj hz mt cy hr bi et kl lg bn mg kn vi sq bs af sv lv no ar-translit fi sk id ur ky hu ml hy nl tl bg da th ht zh-Hant zh-Hans is el az ca pl ro fa-translit]
-
-
---- Language 1/92: ar (14 missing) ---
-Processing writing:  (Version: 1b5c1593-5e10-4f83-ba2f-1640ccf32983)
+Database size: 9000 writings, 120 languages, 185 match attempts, 5 language pairs, 0 skip entries
+Auto-selected reference language: en -> es (avoiding same-language matching)
+Processing writing:  (Version: 0631cec0-229e-4737-b390-faf4551f1bca)
+  UNMATCHED: NO_PIN_FOUND (0.0% confidence) - Unable to identify a Phelps PIN from inventory or API searches to create a new code. The source "Bahá’í Prayers, UK, 79" did not yield a direct PIN, and general searches for keywords and opening phrases did not provide sufficient information to derive a PIN without guessing, which is prohibited.
+Processing writing:  (Version: 06e3ae81-f2cf-4219-9e16-5f791bf4351d)
+  UNMATCHED: UNKNOWN (0.0% confidence) - Interactive search exceeded maximum conversation rounds (10 total)
+Processing writing:  (Version: 07d34815-091e-4936-a788-3f03e86681c4)
+  UNMATCHED: UNKNOWN (0.0% confidence) - Interactive search exceeded maximum conversation rounds (10 total)
+Processing writing:  (Version: 0b452d15-f317-4f01-9b40-91a119e189af)
+  UNMATCHED: UNKNOWN (0.0% confidence) - Interactive search exceeded maximum conversation rounds (10 total)
+Processing writing:  (Version: 1246c952-1a56-4495-a61c-bccb67b97c1f)
+  UNMATCHED: UNKNOWN (0.0% confidence) - Interactive search exceeded maximum conversation rounds (10 total)
+Processing writing:  (Version: 13ca36d7-0362-4470-a6d2-af85742eeb3b)
+  UNMATCHED: UNKNOWN (0.0% confidence) - Interactive search exceeded maximum conversation rounds (10 total)
+Processing writing:  (Version: 15cc16a3-fd5b-48a0-891b-e62614309f20)
+  UNMATCHED: AB00001FIR (0.0% confidence) - No match found in inventory.
+Processing writing:  (Version: 16dbf587-b22b-45d5-891a-e2280e973e01)
+  UNMATCHED: UNKNOWN (0.0% confidence) - Interactive search exceeded maximum conversation rounds (10 total)
+Processing writing:  (Version: 1746fee8-65ee-4f92-b13b-d726b151bd26)

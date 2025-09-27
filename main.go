@@ -65,6 +65,41 @@ var translitCorrectionsMutex sync.Mutex
 //go:embed transliteration_standards.txt
 var transliterationStandardsContent string
 
+// Session tracking for discovered PINs
+var discoveredPINs map[string]bool
+var discoveredPINsMutex sync.RWMutex
+
+// BahaiPrayers.net API data structures
+type BahaiPrayersLanguage struct {
+	Code    string   `json:"code"`
+	Name    string   `json:"name"`
+	Authors []string `json:"authors,omitempty"`
+}
+
+type BahaiPrayersSearchResult struct {
+	DocumentID string  `json:"documentId"`
+	Title      string  `json:"title"`
+	Author     string  `json:"author"`
+	Language   string  `json:"language"`
+	Excerpt    string  `json:"excerpt"`
+	Score      float64 `json:"score"`
+}
+
+type BahaiPrayersSearchResponse []BahaiPrayersSearchResult
+
+type BahaiPrayersDocumentRequest struct {
+	DocumentID string `json:"documentId"`
+	Language   string `json:"language"`
+	Highlight  string `json:"highlight"`
+}
+
+type BahaiPrayersDocumentResponse struct {
+	HTML     string `json:"html"`
+	Title    string `json:"title"`
+	Author   string `json:"author"`
+	Language string `json:"language"`
+}
+
 // Helper function to execute dolt commands in the correct directory
 func execDoltCommand(args ...string) *exec.Cmd {
 	cmd := exec.Command("dolt", args...)
@@ -252,7 +287,46 @@ func getSessionNotesStats() map[string]int {
 }
 
 // Add a session note
-func addSessionNote(language, noteType, content, phelpsCode string, confidence float64) {
+func initializeSession() {
+	discoveredPINsMutex.Lock()
+	defer discoveredPINsMutex.Unlock()
+	if discoveredPINs == nil {
+		discoveredPINs = make(map[string]bool)
+	}
+}
+
+func addDiscoveredPIN(pin string) {
+	discoveredPINsMutex.Lock()
+	defer discoveredPINsMutex.Unlock()
+	if discoveredPINs == nil {
+		discoveredPINs = make(map[string]bool)
+	}
+	discoveredPINs[pin] = true
+}
+
+func isPINDiscovered(pin string) bool {
+	discoveredPINsMutex.RLock()
+	defer discoveredPINsMutex.RUnlock()
+	if discoveredPINs == nil {
+		return false
+	}
+	return discoveredPINs[pin]
+}
+
+func clearDiscoveredPINs() {
+	discoveredPINsMutex.Lock()
+	defer discoveredPINsMutex.Unlock()
+	if discoveredPINs == nil {
+		discoveredPINs = make(map[string]bool)
+	} else {
+		// Clear the map
+		for pin := range discoveredPINs {
+			delete(discoveredPINs, pin)
+		}
+	}
+}
+
+func addSessionNote(language string, noteType string, content string, phelpsCode string, confidence float64) {
 	sessionNotesMutex.Lock()
 	defer sessionNotesMutex.Unlock()
 
@@ -264,7 +338,6 @@ func addSessionNote(language, noteType, content, phelpsCode string, confidence f
 		PhelpsCode: phelpsCode,
 		Confidence: confidence,
 	}
-
 	sessionNotes = append(sessionNotes, note)
 
 	// Keep only the most recent 50 notes to avoid memory bloat
@@ -359,6 +432,102 @@ func showStoredRawResponses() {
 	}
 
 	fmt.Printf("%s\n", strings.Repeat("=", 80))
+}
+
+// BahaiPrayers.net API functions
+func getBahaiPrayersLanguages() ([]BahaiPrayersLanguage, error) {
+	resp, err := http.Get("https://BahaiPrayers.net/api/ai/languages")
+	if err != nil {
+		return nil, fmt.Errorf("failed to get languages: %w", err)
+	}
+	defer resp.Body.Close()
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read response: %w", err)
+	}
+
+	var languages []BahaiPrayersLanguage
+	err = json.Unmarshal(body, &languages)
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse languages: %w", err)
+	}
+
+	return languages, nil
+}
+
+func searchBahaiPrayers(query, language, author string) (BahaiPrayersSearchResponse, error) {
+	url := fmt.Sprintf("https://BahaiPrayers.net/api/ai/search?query=%s&language=%s",
+		strings.ReplaceAll(query, " ", "%20"),
+		strings.ReplaceAll(language, " ", "%20"))
+
+	if author != "" {
+		url += fmt.Sprintf("&author=%s", strings.ReplaceAll(author, " ", "%20"))
+	}
+
+	log.Printf("DEBUG: API URL: %s", url)
+
+	resp, err := http.Get(url)
+	if err != nil {
+		return BahaiPrayersSearchResponse{}, fmt.Errorf("failed to search: %w", err)
+	}
+	defer resp.Body.Close()
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return BahaiPrayersSearchResponse{}, fmt.Errorf("failed to read response: %w", err)
+	}
+
+	log.Printf("DEBUG: Raw API response (first 500 chars): %s", string(body[:min(len(body), 500)]))
+
+	var searchResponse BahaiPrayersSearchResponse
+	err = json.Unmarshal(body, &searchResponse)
+	if err != nil {
+		log.Printf("DEBUG: JSON unmarshal error: %v", err)
+		log.Printf("DEBUG: Full raw response: %s", string(body))
+		return BahaiPrayersSearchResponse{}, fmt.Errorf("failed to parse search results: %w", err)
+	}
+
+	log.Printf("DEBUG: Parsed %d results", len(searchResponse))
+	if len(searchResponse) > 0 {
+		log.Printf("DEBUG: First result - Title: '%s', Author: '%s', Excerpt: '%s'",
+			searchResponse[0].Title, searchResponse[0].Author, searchResponse[0].Excerpt)
+	}
+
+	return searchResponse, nil
+}
+
+func getBahaiPrayersDocument(documentID, language, highlight string) (*BahaiPrayersDocumentResponse, error) {
+	requestData := BahaiPrayersDocumentRequest{
+		DocumentID: documentID,
+		Language:   language,
+		Highlight:  highlight,
+	}
+
+	jsonData, err := json.Marshal(requestData)
+	if err != nil {
+		return nil, fmt.Errorf("failed to marshal request: %w", err)
+	}
+
+	resp, err := http.Post("https://BahaiPrayers.net/api/ai/GetHtmlPost",
+		"application/json", bytes.NewBuffer(jsonData))
+	if err != nil {
+		return nil, fmt.Errorf("failed to get document: %w", err)
+	}
+	defer resp.Body.Close()
+
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read response: %w", err)
+	}
+
+	var docResponse BahaiPrayersDocumentResponse
+	err = json.Unmarshal(body, &docResponse)
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse document: %w", err)
+	}
+
+	return &docResponse, nil
 }
 
 // Ollama API request/response structures
@@ -724,6 +893,10 @@ func CallGemini(messages []OllamaMessage) (string, error) {
 
 	// Format full conversation history into a single prompt
 	var fullPrompt strings.Builder
+
+	// Add Gemini-specific anti-tool-calling prefix
+	fullPrompt.WriteString("🚨 IMPORTANT FOR GEMINI: You are operating in TEXT-ONLY mode. Do NOT use any built-in tools, functions, or code execution. Do NOT attempt to call external APIs or use search tools. Respond with ONLY the simple text function calls described in the prompt (format: FUNCTION_NAME:arguments).\n\n")
+
 	for i, msg := range messages {
 		if msg.Role == "user" {
 			if i == 0 {
@@ -2487,10 +2660,35 @@ Step 1 - TRY MATCHING:
 3. If good match: FINAL_ANSWER:phelps_code,confidence,reasoning
 
 Step 2 - IF NO MATCH (confidence <70):
-1. SEARCH_INVENTORY:keywords,language
-2. CHECK_TAG:PIN (see existing tags)
-3. ADD_NEW_PRAYER:new_code,confidence,reasoning
-4. FINAL_ANSWER:new_code,confidence,reasoning`
+OPTION A - INVENTORY SEARCH:
+1. SMART_INVENTORY_SEARCH:keywords,language (find documents by metadata)
+   OR SEARCH_INVENTORY:keywords,language,field (manual field selection)
+
+OPTION B - FULL TEXT API SEARCH (when inventory search fails):
+1. API_SEARCH:keywords,language[,author] (search full texts via BahaiPrayers.net)
+2. API_GET_DOCUMENT:documentId,language (get complete document with title/author)
+3. SMART_INVENTORY_SEARCH:work_title author,language (find PIN using API results)
+
+FINAL STEPS (both options):
+4. GET_INVENTORY_CONTEXT:PIN (explore promising matches in detail)
+5. CHECK_TAG:PIN (see what tags already exist for this PIN)
+6. ADD_NEW_PRAYER:PIN+TAG,confidence,reasoning (create new code)
+7. FINAL_ANSWER:new_code,confidence,reasoning
+
+❌ DO NOT guess PINs - you MUST find them via inventory/API search first!
+
+💡 SEARCH FUNCTION RULES:
+- ❌ DO NOT use SEARCH:keywords,opening,length (prayer matching - wrong for this mode)
+- ✅ USE inventory searches: SMART_INVENTORY_SEARCH, SEARCH_INVENTORY
+- ✅ USE API searches: API_SEARCH, API_GET_DOCUMENT
+
+💡 TAG CREATION TIPS:
+- PINs are 7 characters (e.g., AB00001)
+- Tags are 3 characters based on English keywords from the prayer
+- Full codes: AB00001FIR, AB00001SEC, etc.
+- Use CHECK_TAG:PIN to see existing tags before creating new ones
+- Tag examples: GOD (prayer about God), MER (mercy), UNI (unity), LOV (love)
+- For series like Hidden Words: A01, A02 (Arabic), P01, P02 (Persian)`
 
 	case "add-only":
 		modeGuidance = `MODE: ADD-ONLY
@@ -2498,12 +2696,49 @@ Step 2 - IF NO MATCH (confidence <70):
 ⚠️  WORKS BEST: English, Arabic, Persian (limited other languages)
 
 SIMPLE WORKFLOW:
-1. SEARCH_INVENTORY:keywords,language
-2. CHECK_TAG:PIN (see what tags exist)
-3. ADD_NEW_PRAYER:new_code,confidence,reasoning
-4. FINAL_ANSWER:new_code,confidence,reasoning
+OPTION A - START WITH INVENTORY:
+1. SMART_INVENTORY_SEARCH:keywords,language (search document metadata)
+   OR SEARCH_INVENTORY:keywords,language,field (manual field selection)
 
-❌ DO NOT use SEARCH functions - go straight to inventory!`
+OPTION B - FULL TEXT API SEARCH (if inventory fails or for better coverage):
+1. API_SEARCH:keywords,language[,author] (search full Bahá'í texts via API)
+   Example: API_SEARCH:praise sovereignty mercy,english
+2. API_GET_DOCUMENT:documentId,language (get full document from search result)
+   Example: API_GET_DOCUMENT:doc123,english
+3. SMART_INVENTORY_SEARCH:work_title author,language (use API info to find PIN)
+   Example: SMART_INVENTORY_SEARCH:Hidden Words Baha'u'llah,Eng
+
+FINAL STEPS:
+4. GET_INVENTORY_CONTEXT:PIN (explore promising matches in detail)
+5. CHECK_TAG:PIN (see what tags already exist for this PIN)
+6. ADD_NEW_PRAYER:PIN+TAG,confidence,reasoning (create new code)
+7. FINAL_ANSWER:new_code,confidence,reasoning
+
+❌ PROHIBITED IN ADD-ONLY MODE:
+- DO NOT use SEARCH:keywords,opening,length (that's for prayer matching)
+- DO NOT guess PINs - you MUST find them via inventory/API search first!
+
+✅ ALLOWED SEARCH FUNCTIONS:
+- SMART_INVENTORY_SEARCH, SEARCH_INVENTORY (inventory searches)
+- API_SEARCH, API_GET_DOCUMENT (full-text API searches)
+
+🌐 API SEARCH ADVANTAGES:
+- Searches complete text of all Bahá'í Writings, not just metadata
+- Better for finding prayers by content when title/author unknown
+- Returns work title/author info needed for inventory PIN lookup
+
+💡 INVENTORY SEARCH TIPS:
+- Use SMART_INVENTORY_SEARCH for rule-based field selection
+- For Arabic/Persian: try searching first lines with Arabic keywords
+- Use GET_INVENTORY_CONTEXT:PIN for complete document details
+
+💡 TAG CREATION TIPS:
+- PINs are 7 characters (e.g., AB00001)
+- Tags are 3 characters based on English keywords from the prayer
+- Full codes: AB00001FIR, AB00001SEC, etc.
+- Use CHECK_TAG:PIN to see existing tags before creating new ones
+- Tag examples: GOD (prayer about God), MER (mercy), UNI (unity), LOV (love)
+- For series like Hidden Words: A01, A02 (Arabic), P01, P02 (Persian)`
 
 	case "translit":
 		modeGuidance = `MODE: TRANSLITERATION
@@ -2536,8 +2771,23 @@ Current reference language: %s (use SWITCH_REFERENCE_LANGUAGE if needed)
 4. Maximum 10 rounds - be efficient
 5. If unsure, do more searches then FINAL_ANSWER
 
+⚠️ IMPORTANT: DO NOT USE BUILT-IN TOOL CALLING SYSTEMS
+- DO NOT use OpenAI-style function calls with JSON {"function": "name", "arguments": {...}}
+- DO NOT use Gemini/Claude native tool calling features
+- DO NOT expect any external tool registry or API
+- USE ONLY the simple text format shown below: FUNCTION_NAME:arguments
+- This system has its own custom function parser - ignore your built-in tools
+
 📋 AVAILABLE FUNCTIONS FOR THIS MODE:
 %s
+
+🎯 FUNCTION CALL FORMAT EXAMPLES:
+✅ CORRECT: SEARCH:keywords,opening_phrase,length_range
+✅ CORRECT: SMART_INVENTORY_SEARCH:praise mercy sovereignty
+✅ CORRECT: FINAL_ANSWER:AB00001GOD,85,Prayer about God's mercy
+❌ WRONG: {"function": "search", "arguments": {"keywords": "praise"}}
+❌ WRONG: search(keywords="praise", opening="O Lord")
+❌ WRONG: Using any JSON format, parentheses, or built-in tool syntax
 
 %s
 
@@ -2545,6 +2795,14 @@ Current reference language: %s (use SWITCH_REFERENCE_LANGUAGE if needed)
 - Combine multiple criteria in ONE search (keywords + opening + length)
 - Use EXTEND_ROUNDS:reason if making progress but need more time
 - Don't do separate searches - combine everything in one SEARCH call
+
+🌐 SEARCH FUNCTIONS CLARIFICATION:
+- ❌ AVOID: Prayer matching SEARCH: functions (SEARCH:keywords,opening,length)
+- ✅ USE: INVENTORY searches (SMART_INVENTORY_SEARCH, SEARCH_INVENTORY)
+- ✅ USE: API searches (API_SEARCH, API_GET_DOCUMENT)
+- INVENTORY: Fast metadata search (titles, subjects, abstracts)
+- API: Comprehensive full-text search of all Bahá'í Writings
+- API returns work title/author info needed for PIN discovery
 
 SEARCH LANGUAGE: All searches use %s terms only
 CONFIDENCE: Use >70 for match, UNKNOWN if <70
@@ -3372,60 +3630,129 @@ type SearchInventoryFunction struct{ PrefixFunction }
 func (s SearchInventoryFunction) Execute(db Database, referenceLanguage string, call string) []string {
 	args := strings.TrimPrefix(call, "SEARCH_INVENTORY:")
 	parts := strings.Split(args, ",")
-	if len(parts) < 2 {
+
+	// Handle both comma-separated and space-separated keywords
+	if len(parts) < 1 || strings.TrimSpace(parts[0]) == "" {
 		return []string{
-			"Error: SEARCH_INVENTORY requires format: keywords,language",
+			"Error: SEARCH_INVENTORY requires format: keywords[,source_language,field]",
 			"",
-			"SUPPORTED LANGUAGES (with good inventory coverage):",
-			"- Eng (English) - best coverage",
-			"- Ara (Arabic) - original texts",
-			"- Per (Persian) - original texts",
-			"- Trk (Turkish) - some coverage",
+			"💡 SIMPLIFIED USAGE:",
+			"SEARCH_INVENTORY:praise sovereignty mercy",
+			"SEARCH_INVENTORY:lord god forgiveness,ALL",
+			"SEARCH_INVENTORY:الحمد لله,first_line",
 			"",
-			"Example: SEARCH_INVENTORY:lord god mercy,Eng",
+			"🔍 OPTIONAL PARAMETERS:",
+			"• source_language: Eng/Ara/Per (filters by document language, rarely needed)",
+			"• field: title/first_line/subjects/notes/ALL (default: ALL)",
+			"",
+			"📚 NOTE: Language parameter filters by source document language,",
+			"not search language. Most searches should omit this parameter.",
 		}
 	}
 
-	keywords := strings.TrimSpace(parts[0])
-	language := strings.TrimSpace(parts[1])
+	// Extract keywords - handle both space and comma separation within first part
+	keywordsPart := strings.TrimSpace(parts[0])
+	language := "" // Optional - filters by source document language
+	searchField := "ALL"
 
-	// Map common language codes to inventory format and validate
+	if len(parts) >= 2 {
+		secondPart := strings.TrimSpace(parts[1])
+		// Check if second part is a field name or language code
+		if secondPart == "title" || secondPart == "first_line" || secondPart == "abstracts" ||
+			secondPart == "subjects" || secondPart == "notes" || secondPart == "publications" ||
+			secondPart == "ALL" || strings.ToLower(secondPart) == "all" {
+			searchField = strings.ToLower(secondPart)
+		} else {
+			language = secondPart
+		}
+	}
+
+	if len(parts) >= 3 {
+		searchField = strings.TrimSpace(strings.ToLower(parts[2]))
+	}
+
+	// If the first part contains multiple comma-separated keywords, split them
+	var keywords []string
+	if strings.Contains(keywordsPart, ",") && len(parts) > 3 {
+		// This means keywords were passed as comma-separated in first position
+		// Reconstruct: parts[0],parts[1],...,parts[n-2] are keywords, parts[n-1] is language, parts[n] is field
+		keywordParts := parts[:len(parts)-1]
+		language = strings.TrimSpace(parts[len(parts)-1])
+		if len(parts) > 2 {
+			language = strings.TrimSpace(parts[len(parts)-2])
+			searchField = strings.TrimSpace(strings.ToLower(parts[len(parts)-1]))
+		}
+		keywords = make([]string, len(keywordParts))
+		for i, kw := range keywordParts {
+			keywords[i] = strings.TrimSpace(kw)
+		}
+	} else {
+		// Split by spaces as before
+		keywords = strings.Fields(keywordsPart)
+	}
+
+	// Map common language codes to inventory format and validate (if specified)
 	inventoryLang := language
-	var isWellSupported bool
-	switch strings.ToLower(language) {
-	case "en", "eng":
-		inventoryLang = "Eng"
-		isWellSupported = true
-	case "ar", "ara", "arabic":
-		inventoryLang = "Ara"
-		isWellSupported = true
-	case "fa", "per", "persian":
-		inventoryLang = "Per"
-		isWellSupported = true
-	case "tr", "trk", "turkish":
-		inventoryLang = "Trk"
-		isWellSupported = false
-	default:
-		return []string{
-			fmt.Sprintf("Warning: Language '%s' may have very limited inventory coverage.", language),
-			"",
-			"BEST SUPPORTED LANGUAGES:",
-			"- Eng (English) - comprehensive coverage",
-			"- Ara (Arabic) - original Bahá'í texts",
-			"- Per (Persian) - original Bahá'í texts",
-			"",
-			"Continue with inventory search anyway? Use exact format: SEARCH_INVENTORY:keywords,Eng",
+	var isWellSupported bool = true
+
+	if language != "" {
+		switch strings.ToLower(language) {
+		case "en", "eng":
+			inventoryLang = "Eng"
+			isWellSupported = true
+		case "ar", "ara", "arabic":
+			inventoryLang = "Ara"
+			isWellSupported = true
+		case "fa", "per", "persian":
+			inventoryLang = "Per"
+			isWellSupported = true
+		case "tr", "trk", "turkish":
+			inventoryLang = "Trk"
+			isWellSupported = false
+		default:
+			inventoryLang = language
+			isWellSupported = false
 		}
+		// Language filtering is now handled in the loop below
 	}
 
-	// Build search query for inventory table
-	keywordList := strings.Split(keywords, " ")
+	// Suggest Arabic search for Arabic/Persian languages
+	arabicSuggestion := ""
+	if (inventoryLang == "Ara" || inventoryLang == "Per") && searchField == "ALL" {
+		arabicSuggestion = "\n💡 TIP: Try searching first line with Arabic keywords: SEARCH_INVENTORY:الحمد لله,Ara,first_line"
+	}
+
+	// Build search query for inventory table with enhanced field coverage
 	var conditions []string
-	for _, keyword := range keywordList {
+	var searchFields []string
+
+	// Define searchable fields based on parameter
+	switch searchField {
+	case "title":
+		searchFields = []string{"Title"}
+	case "first_line":
+		searchFields = []string{"`First line (original)`", "`First line (translated)`"}
+	case "abstracts":
+		searchFields = []string{"Abstracts"}
+	case "subjects":
+		searchFields = []string{"Subjects"}
+	case "notes":
+		searchFields = []string{"Notes"}
+	case "publications":
+		searchFields = []string{"Publications"}
+	default: // "ALL" or any other value
+		searchFields = []string{"Title", "`First line (original)`", "`First line (translated)`", "Abstracts", "Subjects", "Notes", "Publications", "Translations", "Manuscripts"}
+	}
+
+	for _, keyword := range keywords {
 		keyword = strings.TrimSpace(keyword)
 		if keyword != "" {
 			escaped := strings.ReplaceAll(keyword, "'", "''")
-			conditions = append(conditions, fmt.Sprintf("(Title LIKE '%%%s%%' OR `First line (original)` LIKE '%%%s%%' OR `First line (translated)` LIKE '%%%s%%' OR Abstracts LIKE '%%%s%%')", escaped, escaped, escaped, escaped))
+			var fieldConditions []string
+			for _, field := range searchFields {
+				fieldConditions = append(fieldConditions, fmt.Sprintf("%s LIKE '%%%s%%'", field, escaped))
+			}
+			conditions = append(conditions, fmt.Sprintf("(%s)", strings.Join(fieldConditions, " OR ")))
 		}
 	}
 
@@ -3434,58 +3761,389 @@ func (s SearchInventoryFunction) Execute(db Database, referenceLanguage string, 
 		whereClause = "1=1"
 	}
 
-	query := fmt.Sprintf("SELECT PIN, Title, `First line (original)`, `First line (translated)` FROM inventory WHERE Language = '%s' AND (%s) LIMIT 10", inventoryLang, whereClause)
+	// Search through in-memory inventory instead of SQL query
+	var matchingInventory []Inventory
 
-	output, err := execDoltQuery(query)
-	if err != nil {
-		return []string{fmt.Sprintf("Error searching inventory: %v", err)}
-	}
-
-	lines := strings.Split(string(output), "\n")
-	var results []string
-	if isWellSupported {
-		results = append(results, fmt.Sprintf("INVENTORY SEARCH: '%s' in language '%s' ✅", keywords, inventoryLang))
-	} else {
-		results = append(results, fmt.Sprintf("INVENTORY SEARCH: '%s' in language '%s' ⚠️ (limited coverage)", keywords, inventoryLang))
-	}
-
-	for i, line := range lines {
-		if i < 3 || line == "" { // Skip header lines
-			continue
-		}
-		if strings.Contains(line, "|") {
-			fields := strings.Split(line, "|")
-			if len(fields) >= 4 {
-				pin := strings.TrimSpace(fields[0])
-				title := strings.TrimSpace(fields[1])
-				firstOriginal := strings.TrimSpace(fields[2])
-				firstTranslated := strings.TrimSpace(fields[3])
-
-				result := fmt.Sprintf("PIN: %s - %s", pin, title)
-				if firstOriginal != "" && firstOriginal != "NULL" {
-					result += fmt.Sprintf("\n  Original: %s", firstOriginal)
-				}
-				if firstTranslated != "" && firstTranslated != "NULL" {
-					result += fmt.Sprintf("\n  Translated: %s", firstTranslated)
-				}
-				results = append(results, result)
+	// Filter by language if specified
+	var searchInventory []Inventory
+	if language != "" {
+		for _, inv := range db.Inventory {
+			if inv.Language == inventoryLang {
+				searchInventory = append(searchInventory, inv)
 			}
 		}
+	} else {
+		searchInventory = db.Inventory
+	}
+
+	// Search through inventory items
+	for _, inv := range searchInventory {
+		// Check if all keywords match in the selected fields
+		allKeywordsMatch := true
+		for _, keyword := range keywords {
+			keywordLower := strings.ToLower(strings.TrimSpace(keyword))
+			if keywordLower == "" {
+				continue
+			}
+
+			keywordFound := false
+
+			// Search in the appropriate fields based on searchField
+			switch searchField {
+			case "title":
+				if strings.Contains(strings.ToLower(inv.Title), keywordLower) {
+					keywordFound = true
+				}
+			case "first_line":
+				if strings.Contains(strings.ToLower(inv.FirstLineOriginal), keywordLower) ||
+					strings.Contains(strings.ToLower(inv.FirstLineTranslated), keywordLower) {
+					keywordFound = true
+				}
+			case "abstracts":
+				if strings.Contains(strings.ToLower(inv.Abstracts), keywordLower) {
+					keywordFound = true
+				}
+			case "subjects":
+				if strings.Contains(strings.ToLower(inv.Subjects), keywordLower) {
+					keywordFound = true
+				}
+			case "notes":
+				if strings.Contains(strings.ToLower(inv.Notes), keywordLower) {
+					keywordFound = true
+				}
+			case "publications":
+				if strings.Contains(strings.ToLower(inv.Publications), keywordLower) {
+					keywordFound = true
+				}
+			default: // "ALL" or any other value
+				if strings.Contains(strings.ToLower(inv.Title), keywordLower) ||
+					strings.Contains(strings.ToLower(inv.FirstLineOriginal), keywordLower) ||
+					strings.Contains(strings.ToLower(inv.FirstLineTranslated), keywordLower) ||
+					strings.Contains(strings.ToLower(inv.Abstracts), keywordLower) ||
+					strings.Contains(strings.ToLower(inv.Subjects), keywordLower) ||
+					strings.Contains(strings.ToLower(inv.Notes), keywordLower) ||
+					strings.Contains(strings.ToLower(inv.Publications), keywordLower) ||
+					strings.Contains(strings.ToLower(inv.Translations), keywordLower) ||
+					strings.Contains(strings.ToLower(inv.Manuscripts), keywordLower) {
+					keywordFound = true
+				}
+			}
+
+			if !keywordFound {
+				allKeywordsMatch = false
+				break
+			}
+		}
+
+		if allKeywordsMatch {
+			matchingInventory = append(matchingInventory, inv)
+		}
+	}
+
+	// Limit results
+	if len(matchingInventory) > 15 {
+		matchingInventory = matchingInventory[:15]
+	}
+
+	var results []string
+	keywordsStr := strings.Join(keywords, " ")
+	if language != "" {
+		if isWellSupported {
+			results = append(results, fmt.Sprintf("INVENTORY SEARCH: '%s' filtered by language '%s' (field: %s) ✅%s", keywordsStr, inventoryLang, searchField, arabicSuggestion))
+		} else {
+			results = append(results, fmt.Sprintf("INVENTORY SEARCH: '%s' filtered by language '%s' (field: %s) ⚠️ (limited coverage)%s", keywordsStr, inventoryLang, searchField, arabicSuggestion))
+		}
+	} else {
+		results = append(results, fmt.Sprintf("INVENTORY SEARCH: '%s' (field: %s, all languages) 🌍%s", keywordsStr, searchField, arabicSuggestion))
+	}
+
+	for _, inv := range matchingInventory {
+		// Track discovered PIN for session validation
+		if inv.PIN != "" {
+			addDiscoveredPIN(inv.PIN)
+		}
+
+		result := fmt.Sprintf("PIN: %s - %s [%s]", inv.PIN, inv.Title, inv.Language)
+
+		// Show which fields matched and provide context
+		var matchedFields []string
+		for _, keyword := range keywords {
+			keywordLower := strings.ToLower(strings.TrimSpace(keyword))
+			if keywordLower != "" {
+				if strings.Contains(strings.ToLower(inv.Title), keywordLower) {
+					matchedFields = append(matchedFields, "title")
+				}
+				if strings.Contains(strings.ToLower(inv.FirstLineOriginal), keywordLower) {
+					matchedFields = append(matchedFields, "first_line_original")
+				}
+				if strings.Contains(strings.ToLower(inv.FirstLineTranslated), keywordLower) {
+					matchedFields = append(matchedFields, "first_line_translated")
+				}
+				if strings.Contains(strings.ToLower(inv.Abstracts), keywordLower) {
+					matchedFields = append(matchedFields, "abstracts")
+				}
+				if strings.Contains(strings.ToLower(inv.Subjects), keywordLower) {
+					matchedFields = append(matchedFields, "subjects")
+				}
+				if strings.Contains(strings.ToLower(inv.Notes), keywordLower) {
+					matchedFields = append(matchedFields, "notes")
+				}
+				if strings.Contains(strings.ToLower(inv.Publications), keywordLower) {
+					matchedFields = append(matchedFields, "publications")
+				}
+			}
+		}
+
+		// Remove duplicates from matchedFields
+		uniqueFields := make(map[string]bool)
+		var uniqueMatchedFields []string
+		for _, field := range matchedFields {
+			if !uniqueFields[field] {
+				uniqueFields[field] = true
+				uniqueMatchedFields = append(uniqueMatchedFields, field)
+			}
+		}
+
+		if len(uniqueMatchedFields) > 0 {
+			result += fmt.Sprintf("\n  📍 Matched in: %s", strings.Join(uniqueMatchedFields, ", "))
+		}
+
+		if inv.FirstLineOriginal != "" {
+			result += fmt.Sprintf("\n  🔤 Original: %s", inv.FirstLineOriginal)
+		}
+		if inv.FirstLineTranslated != "" {
+			result += fmt.Sprintf("\n  🌍 Translated: %s", inv.FirstLineTranslated)
+		}
+		if inv.Subjects != "" {
+			// Show first few subjects for context
+			subjectList := strings.Split(inv.Subjects, ",")
+			if len(subjectList) > 3 {
+				result += fmt.Sprintf("\n  🏷️  Subjects: %s... (%d total)", strings.Join(subjectList[:3], ", "), len(subjectList))
+			} else {
+				result += fmt.Sprintf("\n  🏷️  Subjects: %s", inv.Subjects)
+			}
+		}
+		if inv.Abstracts != "" {
+			// Show first 100 chars of abstracts
+			if len(inv.Abstracts) > 100 {
+				result += fmt.Sprintf("\n  📄 Abstract: %s...", inv.Abstracts[:100])
+			} else {
+				result += fmt.Sprintf("\n  📄 Abstract: %s", inv.Abstracts)
+			}
+		}
+		results = append(results, result)
 	}
 
 	if len(results) == 1 {
 		results = append(results, "No matching documents found.")
+		if inventoryLang == "Ara" || inventoryLang == "Per" {
+			results = append(results, "💡 Try searching with Arabic text in first line: SEARCH_INVENTORY:الحمد لله,Ara,first_line")
+		}
 	}
 
 	return results
 }
 
 func (s SearchInventoryFunction) GetDescription() string {
-	return "SEARCH_INVENTORY:keywords,language (search inventory table for documents by title/content)"
+	return "SEARCH_INVENTORY:keywords[,source_language,field] (search inventory by keywords, language filter optional)"
 }
 
 func (s SearchInventoryFunction) GetUsageExample() string {
-	return "SEARCH_INVENTORY:lord god mercy,Eng"
+	return "SEARCH_INVENTORY:praise sovereignty mercy"
+}
+
+type SmartInventorySearchFunction struct{ PrefixFunction }
+
+func (s SmartInventorySearchFunction) Execute(db Database, referenceLanguage string, call string) []string {
+	args := strings.TrimPrefix(call, "SMART_INVENTORY_SEARCH:")
+	parts := strings.Split(args, ",")
+	if len(parts) < 1 || strings.TrimSpace(parts[0]) == "" {
+		return []string{
+			"Error: SMART_INVENTORY_SEARCH requires format: keywords[,source_language]",
+			"",
+			"🧠 SMART FEATURES:",
+			"• Automatically selects optimal search fields",
+			"• Detects opening phrases, themes, and content types",
+			"• Searches across all document languages by default",
+			"",
+			"📝 EXAMPLES:",
+			"SMART_INVENTORY_SEARCH:praise sovereignty mercy",
+			"SMART_INVENTORY_SEARCH:الحمد لله",
+			"SMART_INVENTORY_SEARCH:prayer themes topics",
+			"SMART_INVENTORY_SEARCH:forgiveness mercy,Eng",
+			"",
+			"💡 NOTE: Language parameter is optional and filters by source document language.",
+		}
+	}
+
+	keywords := strings.TrimSpace(parts[0])
+	language := ""
+	if len(parts) >= 2 {
+		language = strings.TrimSpace(parts[1])
+	}
+
+	// Validate inputs
+	if keywords == "" {
+		return []string{
+			"❌ Error: Keywords cannot be empty",
+			"Example: SMART_INVENTORY_SEARCH:praise mercy sovereignty",
+		}
+	}
+
+	// Analyze keywords to determine optimal search strategy
+	keywordsLower := strings.ToLower(keywords)
+	var suggestedFields []string
+	var searchStrategy string
+
+	// Detect content type and suggest appropriate fields
+	if strings.Contains(keywordsLower, "topic") || strings.Contains(keywordsLower, "theme") || strings.Contains(keywordsLower, "subject") {
+		suggestedFields = []string{"subjects"}
+		searchStrategy = "Subject-based search (topics/themes detected)"
+	} else if strings.Contains(keywordsLower, "note") || strings.Contains(keywordsLower, "comment") {
+		suggestedFields = []string{"notes"}
+		searchStrategy = "Notes search (commentary/notes detected)"
+	} else if strings.Contains(keywordsLower, "publication") || strings.Contains(keywordsLower, "book") || strings.Contains(keywordsLower, "volume") {
+		suggestedFields = []string{"publications"}
+		searchStrategy = "Publication search (source texts detected)"
+	} else if len(keywords) > 50 || strings.Contains(keywordsLower, "praise") || strings.Contains(keywordsLower, "الحمد") || strings.Contains(keywordsLower, "سبحان") ||
+		strings.Contains(keywordsLower, "he is") || strings.Contains(keywordsLower, "all praise") {
+		suggestedFields = []string{"first_line"}
+		searchStrategy = "First line search (opening phrase detected)"
+	} else if strings.Count(keywords, " ") <= 2 {
+		suggestedFields = []string{"title", "subjects"}
+		searchStrategy = "Title + subjects search (short keywords)"
+	} else {
+		suggestedFields = []string{"ALL"}
+		searchStrategy = "Comprehensive search (mixed content)"
+	}
+
+	// Execute the search using the determined strategy
+	var searchCall string
+	if language != "" {
+		if len(suggestedFields) == 1 && suggestedFields[0] != "ALL" {
+			searchCall = fmt.Sprintf("SEARCH_INVENTORY:%s,%s,%s", keywords, language, suggestedFields[0])
+		} else {
+			searchCall = fmt.Sprintf("SEARCH_INVENTORY:%s,%s,ALL", keywords, language)
+		}
+	} else {
+		if len(suggestedFields) == 1 && suggestedFields[0] != "ALL" {
+			searchCall = fmt.Sprintf("SEARCH_INVENTORY:%s,%s", keywords, suggestedFields[0])
+		} else {
+			searchCall = fmt.Sprintf("SEARCH_INVENTORY:%s", keywords)
+		}
+	}
+
+	// Get regular inventory search function
+	inventoryFunc := SearchInventoryFunction{NewPrefixFunction("SEARCH_INVENTORY")}
+	results := inventoryFunc.Execute(db, referenceLanguage, searchCall)
+
+	// Prepend strategy explanation
+	strategyInfo := []string{
+		fmt.Sprintf("🔍 SMART SEARCH STRATEGY: %s", searchStrategy),
+		fmt.Sprintf("🎯 SELECTED FIELDS: %s", strings.Join(suggestedFields, ", ")),
+		"",
+	}
+
+	return append(strategyInfo, results...)
+}
+
+func (s SmartInventorySearchFunction) GetDescription() string {
+	return "SMART_INVENTORY_SEARCH:keywords[,source_language] (intelligent inventory search with automatic field selection)"
+}
+
+func (s SmartInventorySearchFunction) GetUsageExample() string {
+	return "SMART_INVENTORY_SEARCH:praise sovereignty mercy"
+}
+
+type GetInventoryContextFunction struct{ PrefixFunction }
+
+func (g GetInventoryContextFunction) Execute(db Database, referenceLanguage string, call string) []string {
+	pin := strings.TrimPrefix(call, "GET_INVENTORY_CONTEXT:")
+	pin = strings.TrimSpace(pin)
+
+	if pin == "" {
+		return []string{
+			"Error: GET_INVENTORY_CONTEXT requires a PIN",
+			"",
+			"Usage: GET_INVENTORY_CONTEXT:AB00001",
+			"Shows complete inventory information for the specified PIN",
+		}
+	}
+
+	// Find inventory record in memory
+	var foundInventory *Inventory
+	for _, inv := range db.Inventory {
+		if inv.PIN == pin {
+			foundInventory = &inv
+			break
+		}
+	}
+
+	var results []string
+	if foundInventory == nil {
+		results = append(results, fmt.Sprintf("No inventory record found for PIN: %s", pin))
+		return results
+	}
+
+	// Track discovered PIN for session validation
+	addDiscoveredPIN(pin)
+
+	results = append(results, fmt.Sprintf("📋 INVENTORY CONTEXT: %s", foundInventory.PIN))
+	results = append(results, fmt.Sprintf("📖 Title: %s", foundInventory.Title))
+	results = append(results, fmt.Sprintf("🌍 Language: %s", foundInventory.Language))
+
+	if foundInventory.WordCount != "" {
+		results = append(results, fmt.Sprintf("📊 Word count: %s", foundInventory.WordCount))
+	}
+
+	if foundInventory.FirstLineOriginal != "" {
+		results = append(results, fmt.Sprintf("🔤 First line (original): %s", foundInventory.FirstLineOriginal))
+	}
+
+	if foundInventory.FirstLineTranslated != "" {
+		results = append(results, fmt.Sprintf("🌍 First line (translated): %s", foundInventory.FirstLineTranslated))
+	}
+
+	if foundInventory.Subjects != "" {
+		results = append(results, fmt.Sprintf("🏷️  Subjects: %s", foundInventory.Subjects))
+	}
+
+	if foundInventory.Abstracts != "" {
+		results = append(results, fmt.Sprintf("📄 Abstracts: %s", foundInventory.Abstracts))
+	}
+
+	if foundInventory.Notes != "" {
+		results = append(results, fmt.Sprintf("📝 Notes: %s", foundInventory.Notes))
+	}
+
+	if foundInventory.Manuscripts != "" {
+		results = append(results, fmt.Sprintf("📜 Manuscripts: %s", foundInventory.Manuscripts))
+	}
+
+	if foundInventory.Publications != "" {
+		results = append(results, fmt.Sprintf("📚 Publications: %s", foundInventory.Publications))
+	}
+
+	if foundInventory.Translations != "" {
+		results = append(results, fmt.Sprintf("🌍 Translations: %s", foundInventory.Translations))
+	}
+
+	if foundInventory.MusicalInterpretations != "" {
+		results = append(results, fmt.Sprintf("🎵 Musical interpretations: %s", foundInventory.MusicalInterpretations))
+	}
+
+	results = append(results, "")
+	results = append(results, "💡 Use CHECK_TAG:"+pin+" to see existing Phelps codes for this document")
+
+	return results
+}
+
+func (g GetInventoryContextFunction) GetDescription() string {
+	return "GET_INVENTORY_CONTEXT:PIN (get complete inventory information for a specific PIN)"
+}
+
+func (g GetInventoryContextFunction) GetUsageExample() string {
+	return "GET_INVENTORY_CONTEXT:AB00001"
 }
 
 type CheckTagFunction struct{ PrefixFunction }
@@ -3534,6 +4192,13 @@ func (c CheckTagFunction) Execute(db Database, referenceLanguage string, call st
 		results = append(results, "This means:")
 		results = append(results, "- If the prayer IS the entire document, use: "+pin)
 		results = append(results, "- If the prayer is PART of the document, use: "+pin+"XXX (where XXX is a 3-letter tag)")
+		results = append(results, "")
+		results = append(results, "💡 SUGGESTED TAGS for new prayers:")
+		results = append(results, "- Use 3-letter mnemonics based on English keywords from the prayer")
+		results = append(results, "- Examples: GOD (prayer about God), MER (mercy), UNI (unity), LOV (love)")
+		results = append(results, "- For series: A01, A02... (Arabic), P01, P02... (Persian)")
+		results = append(results, "- Pattern: first few letters of main theme/keyword")
+		results = append(results, "- Check existing tags first to avoid conflicts")
 	} else {
 		results = append(results, fmt.Sprintf("Found %d existing codes:", len(foundCodes)))
 		for _, code := range foundCodes {
@@ -3568,9 +4233,21 @@ type AddNewPrayerFunction struct{ PrefixFunction }
 
 func (a AddNewPrayerFunction) Execute(db Database, referenceLanguage string, call string) []string {
 	args := strings.TrimPrefix(call, "ADD_NEW_PRAYER:")
-	parts := strings.SplitN(args, ",", 3)
-	if len(parts) != 3 {
-		return []string{"Error: ADD_NEW_PRAYER requires format: phelps_code,confidence,reasoning"}
+	parts := strings.SplitN(args, ",", 4) // Allow for optional version ID
+	if len(parts) < 3 {
+		return []string{
+			"Error: ADD_NEW_PRAYER requires format: phelps_code,confidence,reasoning[,version_id]",
+			"",
+			"CORRECT FORMAT:",
+			"ADD_NEW_PRAYER:AB12345GOD,85,Prayer praising God's sovereignty",
+			"ADD_NEW_PRAYER:BH00001MER,90,Prayer about divine mercy",
+			"",
+			"PARTS EXPLAINED:",
+			"• phelps_code: PIN (7 chars) + TAG (3 chars) = 10 chars total",
+			"• confidence: Number 0-100 indicating match certainty",
+			"• reasoning: Brief explanation of why this code fits",
+			"• version_id: (optional) specific prayer version to assign code to",
+		}
 	}
 
 	phelpsCode := strings.TrimSpace(parts[0])
@@ -3580,107 +4257,437 @@ func (a AddNewPrayerFunction) Execute(db Database, referenceLanguage string, cal
 	// Validate confidence
 	confidence, err := strconv.ParseFloat(confidenceStr, 64)
 	if err != nil {
-		return []string{"Error: Confidence must be a number (0-100)"}
+		return []string{
+			fmt.Sprintf("Error: Confidence '%s' must be a number (0-100)", confidenceStr),
+			"Example: ADD_NEW_PRAYER:AB12345GOD,85,Prayer about God's attributes",
+		}
 	}
 	if confidence < 0 || confidence > 100 {
-		return []string{"Error: Confidence must be between 0 and 100"}
+		return []string{
+			fmt.Sprintf("Error: Confidence %.1f must be between 0 and 100", confidence),
+			"Example: ADD_NEW_PRAYER:AB12345GOD,85,Prayer about God's attributes",
+		}
+	}
+
+	// Validate reasoning is not empty
+	if strings.TrimSpace(reasoning) == "" {
+		return []string{
+			"Error: Reasoning cannot be empty",
+			"Provide a brief explanation like: 'Prayer about divine mercy and forgiveness'",
+		}
 	}
 
 	// Basic validation of Phelps code format
 	if len(phelpsCode) < 7 {
-		return []string{"Error: Phelps code too short - should be PIN (7 chars) or PIN+tag (10 chars)"}
+		return []string{
+			fmt.Sprintf("Error: Phelps code '%s' too short - should be PIN (7 chars) or PIN+tag (10 chars)", phelpsCode),
+			"Examples: AB12345 (entire document) or AB12345GOD (specific prayer about God)",
+		}
 	}
 
 	// Extract PIN from Phelps code
-	var pin string
+	var pin, tag string
 	if len(phelpsCode) == 7 {
 		pin = phelpsCode // Entire document
+		tag = ""
 	} else if len(phelpsCode) == 10 {
 		pin = phelpsCode[:7] // Document with 3-letter tag
+		tag = phelpsCode[7:]
 	} else {
-		return []string{"Error: Invalid Phelps code format - should be 7 chars (PIN) or 10 chars (PIN+tag)"}
-	}
-
-	// Check if PIN exists in inventory
-	escapedPIN := strings.ReplaceAll(pin, "'", "''")
-	checkQuery := fmt.Sprintf("SELECT COUNT(*) FROM inventory WHERE PIN = '%s'", escapedPIN)
-	output, err := execDoltQuery(checkQuery)
-	if err != nil {
-		return []string{fmt.Sprintf("Error validating PIN %s: %v", pin, err)}
-	}
-
-	// Parse count result
-	lines := strings.Split(string(output), "\n")
-	var count int
-	for i, line := range lines {
-		if i < 3 || line == "" {
-			continue
+		return []string{
+			fmt.Sprintf("Error: Invalid Phelps code format '%s' - should be 7 chars (PIN) or 10 chars (PIN+tag)", phelpsCode),
+			"Examples: AB12345 or AB12345GOD",
 		}
-		if strings.Contains(line, "|") {
-			fields := strings.Split(line, "|")
-			if len(fields) >= 1 {
-				countStr := strings.TrimSpace(fields[0])
-				if countStr != "NULL" && countStr != "" {
-					count, _ = strconv.Atoi(countStr)
+	}
+
+	// Validate TAG format if present
+	if tag != "" {
+		if len(tag) != 3 {
+			return []string{
+				fmt.Sprintf("Error: TAG '%s' must be exactly 3 characters", tag),
+				"Good tags: GOD, MER, UNI, LOV, PRA, A01, P01",
+			}
+		}
+		// Check if tag contains only letters and numbers
+		for _, char := range tag {
+			if !((char >= 'A' && char <= 'Z') || (char >= '0' && char <= '9')) {
+				return []string{
+					fmt.Sprintf("Error: TAG '%s' must contain only uppercase letters and numbers", tag),
+					"Good tags: GOD, MER, UNI, LOV, PRA, A01, P01",
 				}
 			}
 		}
 	}
 
-	if count == 0 {
-		return []string{fmt.Sprintf("Error: PIN %s not found in inventory - cannot create Phelps code", pin)}
-	}
-
-	// Check if Phelps code already exists
-	escapedPhelps := strings.ReplaceAll(phelpsCode, "'", "''")
-	existsQuery := fmt.Sprintf("SELECT COUNT(*) FROM writings WHERE phelps = '%s'", escapedPhelps)
-	output, err = execDoltQuery(existsQuery)
-	if err != nil {
-		return []string{fmt.Sprintf("Error checking existing Phelps code: %v", err)}
-	}
-
-	// Parse exists result
-	lines = strings.Split(string(output), "\n")
-	var existsCount int
-	for i, line := range lines {
-		if i < 3 || line == "" {
-			continue
+	// Check if PIN exists in inventory using in-memory database
+	var pinExists bool
+	for _, inv := range db.Inventory {
+		if inv.PIN == pin {
+			pinExists = true
+			break
 		}
-		if strings.Contains(line, "|") {
-			fields := strings.Split(line, "|")
-			if len(fields) >= 1 {
-				countStr := strings.TrimSpace(fields[0])
-				if countStr != "NULL" && countStr != "" {
-					existsCount, _ = strconv.Atoi(countStr)
-				}
+	}
+
+	if !pinExists {
+		return []string{
+			fmt.Sprintf("❌ Error: PIN %s not found in inventory - cannot create Phelps code", pin),
+			"",
+			"🔍 SOLUTION STEPS:",
+			"1. SMART_INVENTORY_SEARCH:keywords,Eng",
+			"   Find documents with keywords like 'praise sovereignty mercy'",
+			"",
+			"2. Look for PIN values in results (format: AB12345, BH00123, etc.)",
+			"",
+			"3. GET_INVENTORY_CONTEXT:PIN",
+			"   Explore the document to understand its content",
+			"",
+			"4. CHECK_TAG:PIN",
+			"   See existing tags to avoid conflicts",
+			"",
+			"5. ADD_NEW_PRAYER:PIN+TAG,confidence,reasoning",
+			"   Create your Phelps code with validated PIN",
+			"",
+			"💡 WORKFLOW EXAMPLE:",
+			"• SMART_INVENTORY_SEARCH:praise sovereignty mercy,Eng",
+			"• GET_INVENTORY_CONTEXT:AB12345 (if found)",
+			"• CHECK_TAG:AB12345",
+			"• ADD_NEW_PRAYER:AB12345GOD,90,Prayer praising God's sovereignty",
+		}
+	}
+
+	// Check if PIN was discovered through proper inventory search workflow
+	if !isPINDiscovered(pin) {
+		return []string{
+			fmt.Sprintf("❌ Error: PIN %s not discovered through inventory search", pin),
+			"",
+			"🔒 SECURITY: ADD_NEW_PRAYER requires PINs discovered via search",
+			"",
+			"🔍 REQUIRED WORKFLOW:",
+			"1. SMART_INVENTORY_SEARCH:keywords  (discovers PINs)",
+			"   OR SEARCH_INVENTORY:keywords",
+			"",
+			"2. GET_INVENTORY_CONTEXT:" + pin + "  (optional, for context)",
+			"",
+			"3. CHECK_TAG:" + pin + "  (see existing tags)",
+			"",
+			"4. ADD_NEW_PRAYER:" + pin + "XXX,confidence,reasoning",
+			"",
+			"💡 This ensures proper verification of inventory documents",
+			"   before creating new Phelps codes.",
+		}
+	}
+
+	// Check if Phelps code already exists in writings using in-memory database
+	var codeExists bool
+	for _, writing := range db.Writing {
+		if writing.Phelps == phelpsCode {
+			codeExists = true
+			break
+		}
+	}
+
+	if codeExists {
+		return []string{
+			fmt.Sprintf("❌ Error: Phelps code %s already exists", phelpsCode),
+			"",
+			"💡 SOLUTION: Try a different TAG:",
+			"• Use CHECK_TAG:" + pin + " to see existing tags",
+			"• Choose a new 3-letter tag (GOD, MER, UNI, LOV, PRA, etc.)",
+			fmt.Sprintf("• Then use ADD_NEW_PRAYER:%sNEW,confidence,reasoning", pin),
+		}
+	}
+
+	// Get optional version ID or find a prayer that needs a Phelps code
+	var targetVersion string
+	if len(parts) >= 4 {
+		targetVersion = strings.TrimSpace(parts[3])
+	} else {
+		// Find a prayer without a Phelps code in the target language
+		for _, writing := range db.Writing {
+			if writing.Language == referenceLanguage && (writing.Phelps == "" || strings.TrimSpace(writing.Phelps) == "") {
+				targetVersion = writing.Version
+				break
+			}
+		}
+		if targetVersion == "" {
+			return []string{
+				"❌ Error: No prayers found without Phelps codes in language: " + referenceLanguage,
+				"",
+				"💡 Either:",
+				"1. All prayers already have codes assigned",
+				"2. No prayers exist for this language",
+				"3. Specify a version_id: ADD_NEW_PRAYER:" + phelpsCode + ",confidence,reasoning,version_id",
 			}
 		}
 	}
 
-	if existsCount > 0 {
-		return []string{fmt.Sprintf("Error: Phelps code %s already exists - cannot create duplicate", phelpsCode)}
+	// Actually assign the Phelps code to the prayer
+	err = updateWritingPhelps(phelpsCode, referenceLanguage, targetVersion)
+	if err != nil {
+		return []string{
+			fmt.Sprintf("❌ Error: Failed to assign Phelps code to prayer: %v", err),
+			"",
+			"💡 The code was validated but could not be saved to database.",
+			"Try again or check database connection.",
+		}
 	}
 
-	// Log the successful creation attempt
+	// Add session note for tracking
+	addSessionNote(referenceLanguage, "SUCCESS",
+		fmt.Sprintf("Assigned new Phelps code: %s (PIN: %s, TAG: %s) -> %s", phelpsCode, pin, tag, targetVersion),
+		phelpsCode, confidence)
+
+	// Log the successful creation and assignment
 	results := []string{
-		fmt.Sprintf("✅ NEW PHELPS CODE READY: %s", phelpsCode),
-		fmt.Sprintf("   PIN: %s (validated in inventory)", pin),
-		fmt.Sprintf("   Confidence: %.0f%%", confidence),
-		fmt.Sprintf("   Reasoning: %s", reasoning),
-		"",
-		"This new Phelps code will be assigned when the prayer is processed.",
-		"Use FINAL_ANSWER with this code to complete the assignment.",
+		fmt.Sprintf("✅ NEW PHELPS CODE ASSIGNED: %s", phelpsCode),
+		fmt.Sprintf("   📍 PIN: %s (found in inventory)", pin),
 	}
+
+	if tag != "" {
+		results = append(results, fmt.Sprintf("   🏷️  TAG: %s", tag))
+	} else {
+		results = append(results, "   🏷️  TAG: (none - entire document)")
+	}
+
+	results = append(results, []string{
+		fmt.Sprintf("   📊 Confidence: %.0f%%", confidence),
+		fmt.Sprintf("   💭 Reasoning: %s", reasoning),
+		fmt.Sprintf("   🎯 Assigned to: %s", targetVersion),
+		"",
+		"✅ Prayer code assigned successfully in database!",
+		"✨ Use FINAL_ANSWER:" + phelpsCode + " to complete the LLM conversation",
+	}...)
 
 	return results
 }
 
 func (a AddNewPrayerFunction) GetDescription() string {
-	return "ADD_NEW_PRAYER:phelps_code,confidence,reasoning (create new Phelps code from inventory PIN)"
+	return "ADD_NEW_PRAYER:phelps_code,confidence,reasoning[,version_id] (assign new Phelps code to prayer)"
 }
 
 func (a AddNewPrayerFunction) GetUsageExample() string {
-	return "ADD_NEW_PRAYER:AB00001THI,85,Third prayer from Will and Testament document"
+	return "ADD_NEW_PRAYER:AB00001GOD,85,Prayer praising God's sovereignty"
+}
+
+type BahaiPrayersApiSearchFunction struct{ PrefixFunction }
+
+func (b BahaiPrayersApiSearchFunction) Execute(db Database, referenceLanguage string, call string) []string {
+	args := strings.TrimPrefix(call, "API_SEARCH:")
+	parts := strings.SplitN(args, ",", 3) // query,language[,author]
+
+	if len(parts) < 1 || strings.TrimSpace(parts[0]) == "" {
+		return []string{
+			"Error: API_SEARCH requires format: query,language[,author]",
+			"",
+			"🌐 BAHAIPRAYERS.NET API SEARCH:",
+			"Search all Writings in all languages using AI",
+			"",
+			"EXAMPLES:",
+			"API_SEARCH:love mercy,english",
+			"API_SEARCH:الحمد لله,arabic",
+			"API_SEARCH:praise sovereignty,english,Baha'u'llah",
+			"",
+			"SUPPORTED LANGUAGES:",
+			"english, arabic, persian, french, spanish, german, portuguese, etc.",
+			"",
+			"💡 TWO-STEP PROCESS:",
+			"1. API search finds full text matches",
+			"2. LLM determines work title/author to search inventory for PIN codes",
+		}
+	}
+
+	query := strings.TrimSpace(parts[0])
+	language := "english" // default
+	author := ""
+
+	if len(parts) >= 2 {
+		language = strings.TrimSpace(parts[1])
+	}
+	if len(parts) >= 3 {
+		author = strings.TrimSpace(parts[2])
+	}
+
+	// Search BahaiPrayers.net API
+	searchResults, err := searchBahaiPrayers(query, language, author)
+	if err != nil {
+		return []string{
+			fmt.Sprintf("❌ API Search Error: %v", err),
+			"",
+			"🔧 TROUBLESHOOTING:",
+			"• Check internet connection",
+			"• Try different language format (english vs en)",
+			"• Simplify search query",
+			"• Try without author parameter",
+		}
+	}
+
+	if len(searchResults) == 0 {
+		return []string{
+			fmt.Sprintf("No results found for '%s' in %s", query, language),
+			"",
+			"💡 TRY DIFFERENT SEARCH:",
+			"• Use simpler keywords",
+			"• Try different language",
+			"• Remove author filter",
+			"• Try related terms",
+		}
+	}
+
+	results := []string{
+		fmt.Sprintf("🌐 API SEARCH RESULTS: '%s' in %s", query, language),
+		fmt.Sprintf("Found %d matches (showing top results)", len(searchResults)),
+		"",
+	}
+
+	// Show top results with work identification focus
+	maxResults := 10
+	if len(searchResults) < maxResults {
+		maxResults = len(searchResults)
+	}
+
+	for i, result := range searchResults[:maxResults] {
+		results = append(results, fmt.Sprintf("📖 RESULT %d:", i+1))
+		results = append(results, fmt.Sprintf("   📚 Title: %s", result.Title))
+		results = append(results, fmt.Sprintf("   ✍️  Author: %s", result.Author))
+		results = append(results, fmt.Sprintf("   🌍 Language: %s", result.Language))
+		results = append(results, fmt.Sprintf("   📊 Score: %.2f", result.Score))
+
+		// Show excerpt for context
+		excerpt := result.Excerpt
+		if len(excerpt) > 200 {
+			excerpt = excerpt[:200] + "..."
+		}
+		results = append(results, fmt.Sprintf("   📝 Excerpt: %s", excerpt))
+		results = append(results, "")
+	}
+
+	results = append(results, "🔄 NEXT STEPS FOR INVENTORY MATCHING:")
+	results = append(results, "")
+	results = append(results, "1. Identify the work title and author from results above")
+	results = append(results, "2. SMART_INVENTORY_SEARCH:title author,language")
+	results = append(results, "   Example: SMART_INVENTORY_SEARCH:Hidden Words Baha'u'llah,Eng")
+	results = append(results, "3. GET_INVENTORY_CONTEXT:PIN (explore promising matches)")
+	results = append(results, "4. CHECK_TAG:PIN (see existing tags)")
+	results = append(results, "5. ADD_NEW_PRAYER:PIN+TAG,confidence,reasoning")
+	results = append(results, "")
+	results = append(results, "💡 Focus on matching the WORK TITLE and AUTHOR to find the correct PIN")
+
+	return results
+}
+
+func (b BahaiPrayersApiSearchFunction) GetDescription() string {
+	return "API_SEARCH:query,language[,author] (search BahaiPrayers.net API for full texts)"
+}
+
+func (b BahaiPrayersApiSearchFunction) GetUsageExample() string {
+	return "API_SEARCH:love mercy,english"
+}
+
+type ApiGetDocumentFunction struct{ PrefixFunction }
+
+func (a ApiGetDocumentFunction) Execute(db Database, referenceLanguage string, call string) []string {
+	args := strings.TrimPrefix(call, "API_GET_DOCUMENT:")
+	parts := strings.SplitN(args, ",", 3) // documentId,language[,highlight]
+
+	if len(parts) < 2 || strings.TrimSpace(parts[0]) == "" || strings.TrimSpace(parts[1]) == "" {
+		return []string{
+			"Error: API_GET_DOCUMENT requires format: documentId,language[,highlight]",
+			"",
+			"📄 GET FULL DOCUMENT FROM BAHAIPRAYERS.NET:",
+			"Retrieve complete document with highlighting",
+			"",
+			"EXAMPLES:",
+			"API_GET_DOCUMENT:doc123,english",
+			"API_GET_DOCUMENT:doc456,arabic,الحمد",
+			"",
+			"💡 USE AFTER API_SEARCH:",
+			"1. API_SEARCH:keywords,language (find matches)",
+			"2. API_GET_DOCUMENT:documentId,language (get full text)",
+			"3. Analyze work title/author for inventory search",
+			"4. SMART_INVENTORY_SEARCH:title author,language",
+		}
+	}
+
+	documentId := strings.TrimSpace(parts[0])
+	language := strings.TrimSpace(parts[1])
+	highlight := ""
+
+	if len(parts) >= 3 {
+		highlight = strings.TrimSpace(parts[2])
+	}
+
+	// Get full document from BahaiPrayers.net API
+	docResponse, err := getBahaiPrayersDocument(documentId, language, highlight)
+	if err != nil {
+		return []string{
+			fmt.Sprintf("❌ API Document Error: %v", err),
+			"",
+			"🔧 TROUBLESHOOTING:",
+			"• Check document ID from API_SEARCH results",
+			"• Verify language parameter",
+			"• Check internet connection",
+		}
+	}
+
+	results := []string{
+		fmt.Sprintf("📄 DOCUMENT RETRIEVED: %s", documentId),
+		fmt.Sprintf("📚 Title: %s", docResponse.Title),
+		fmt.Sprintf("✍️  Author: %s", docResponse.Author),
+		fmt.Sprintf("🌍 Language: %s", docResponse.Language),
+		"",
+		"📖 FULL DOCUMENT TEXT:",
+		"",
+	}
+
+	// Clean and format the HTML content
+	htmlContent := docResponse.HTML
+	// Remove HTML tags for cleaner display (basic cleanup)
+	htmlContent = strings.ReplaceAll(htmlContent, "<p>", "")
+	htmlContent = strings.ReplaceAll(htmlContent, "</p>", "\n")
+	htmlContent = strings.ReplaceAll(htmlContent, "<br>", "\n")
+	htmlContent = strings.ReplaceAll(htmlContent, "<br/>", "\n")
+	htmlContent = strings.ReplaceAll(htmlContent, "<div>", "")
+	htmlContent = strings.ReplaceAll(htmlContent, "</div>", "\n")
+
+	// Split into lines and limit length for display
+	lines := strings.Split(htmlContent, "\n")
+	maxLines := 50 // Show first 50 lines
+	displayLines := 0
+
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if line != "" && displayLines < maxLines {
+			results = append(results, line)
+			displayLines++
+		}
+	}
+
+	if len(lines) > maxLines {
+		results = append(results, fmt.Sprintf("... [Document continues - %d more lines]", len(lines)-maxLines))
+	}
+
+	results = append(results, "")
+	results = append(results, "🔄 NEXT STEPS FOR INVENTORY MATCHING:")
+	results = append(results, "")
+	results = append(results, fmt.Sprintf("1. Work Title: '%s'", docResponse.Title))
+	results = append(results, fmt.Sprintf("2. Author: '%s'", docResponse.Author))
+	results = append(results, "3. SMART_INVENTORY_SEARCH:title author,language")
+	results = append(results, fmt.Sprintf("   Example: SMART_INVENTORY_SEARCH:%s %s,Eng", docResponse.Title, docResponse.Author))
+	results = append(results, "4. GET_INVENTORY_CONTEXT:PIN (explore matches)")
+	results = append(results, "5. CHECK_TAG:PIN (see existing tags)")
+	results = append(results, "6. ADD_NEW_PRAYER:PIN+TAG,confidence,reasoning")
+	results = append(results, "")
+	results = append(results, "💡 Use the work title and author above to find the correct PIN in inventory")
+
+	return results
+}
+
+func (a ApiGetDocumentFunction) GetDescription() string {
+	return "API_GET_DOCUMENT:documentId,language[,highlight] (get full document from BahaiPrayers.net)"
+}
+
+func (a ApiGetDocumentFunction) GetUsageExample() string {
+	return "API_GET_DOCUMENT:doc123,english"
 }
 
 type CorrectTransliterationFunction struct{ PrefixFunction }
@@ -4007,6 +5014,10 @@ var registeredFunctions = []FunctionCallHandler{
 
 	// Inventory functions - available in match-add and add-only modes
 	SearchInventoryFunction{NewPrefixFunctionWithModes("SEARCH_INVENTORY", []string{"match-add", "add-only"})},
+	SmartInventorySearchFunction{NewPrefixFunctionWithModes("SMART_INVENTORY_SEARCH", []string{"match-add", "add-only"})},
+	BahaiPrayersApiSearchFunction{NewPrefixFunctionWithModes("API_SEARCH", []string{"match-add", "add-only"})},
+	ApiGetDocumentFunction{NewPrefixFunctionWithModes("API_GET_DOCUMENT", []string{"match-add", "add-only"})},
+	GetInventoryContextFunction{NewPrefixFunctionWithModes("GET_INVENTORY_CONTEXT", []string{"match-add", "add-only"})},
 	CheckTagFunction{NewPrefixFunctionWithModes("CHECK_TAG", []string{"match-add", "add-only"})},
 	AddNewPrayerFunction{NewPrefixFunctionWithModes("ADD_NEW_PRAYER", []string{"match-add", "add-only"})},
 
@@ -4079,6 +5090,14 @@ func (m MatchVersionFunction) Execute(db Database, referenceLanguage string, fun
 	return response
 }
 
+func (m MatchVersionFunction) GetDescription() string {
+	return "MATCH_VERSION:phelps_code (match transliteration to existing prayer version)"
+}
+
+func (m MatchVersionFunction) GetUsageExample() string {
+	return "MATCH_VERSION:AB00001"
+}
+
 // MATCH_CONFIRMED function - confirms match without terminating conversation (translit mode only)
 type MatchConfirmedFunction struct {
 	PrefixFunction
@@ -4114,6 +5133,14 @@ func (m MatchConfirmedFunction) Execute(db Database, referenceLanguage string, f
 	response = append(response, "3. Use FINAL_ANSWER:"+phelpsCode+" when satisfied")
 
 	return response
+}
+
+func (m MatchConfirmedFunction) GetDescription() string {
+	return "MATCH_CONFIRMED:phelps_code,confidence (confirm match without terminating conversation)"
+}
+
+func (m MatchConfirmedFunction) GetUsageExample() string {
+	return "MATCH_CONFIRMED:AB00001,95.5"
 }
 
 // CORRECT_VERSION function - corrects transliteration of a matched prayer (translit mode only)
@@ -4179,6 +5206,14 @@ func (c CorrectVersionFunction) Execute(db Database, referenceLanguage string, f
 	}
 }
 
+func (c CorrectVersionFunction) GetDescription() string {
+	return "CORRECT_VERSION:version_id[,corrected_transliteration] (correct transliteration for a specific version)"
+}
+
+func (c CorrectVersionFunction) GetUsageExample() string {
+	return "CORRECT_VERSION:AB00001-v1,corrected_transliteration_text"
+}
+
 // SEARCH_VERSION function - searches for prayers and returns version IDs (translit mode only)
 type SearchVersionFunction struct {
 	PrefixFunction
@@ -4209,6 +5244,14 @@ func (s SearchVersionFunction) Execute(db Database, referenceLanguage string, fu
 	response = append(response, "Use the Version ID to reference the specific prayer text")
 
 	return response
+}
+
+func (s SearchVersionFunction) GetDescription() string {
+	return "SEARCH_VERSION:keywords (search for prayers and return version IDs for transliteration work)"
+}
+
+func (s SearchVersionFunction) GetUsageExample() string {
+	return "SEARCH_VERSION:lord god mercy"
 }
 
 // Helper function to determine if we should check transliteration
@@ -4427,7 +5470,7 @@ func generateFunctionExamplesForMode(operationMode string) string {
 
 	if len(examples) == 0 {
 		examples = []string{
-			"SEARCH:keywords,opening_phrase,length_range",
+			"SMART_INVENTORY_SEARCH:keywords",
 			"FINAL_ANSWER:phelps_code,confidence,reasoning",
 		}
 	}
@@ -4444,9 +5487,9 @@ func isKeyFunctionForMode(pattern string, operationMode string) bool {
 	case "match":
 		return pattern == "SEARCH:" || pattern == "GET_FULL_TEXT:" || pattern == "FINAL_ANSWER:"
 	case "match-add":
-		return pattern == "SEARCH:" || pattern == "GET_FULL_TEXT:" || pattern == "SEARCH_INVENTORY:" || pattern == "ADD_NEW_PRAYER:" || pattern == "FINAL_ANSWER:"
+		return pattern == "SEARCH:" || pattern == "GET_FULL_TEXT:" || pattern == "SMART_INVENTORY_SEARCH:" || pattern == "API_SEARCH:" || pattern == "API_GET_DOCUMENT:" || pattern == "GET_INVENTORY_CONTEXT:" || pattern == "ADD_NEW_PRAYER:" || pattern == "FINAL_ANSWER:"
 	case "add-only":
-		return pattern == "SEARCH_INVENTORY:" || pattern == "CHECK_TAG:" || pattern == "ADD_NEW_PRAYER:" || pattern == "FINAL_ANSWER:"
+		return pattern == "SMART_INVENTORY_SEARCH:" || pattern == "API_SEARCH:" || pattern == "API_GET_DOCUMENT:" || pattern == "GET_INVENTORY_CONTEXT:" || pattern == "CHECK_TAG:" || pattern == "ADD_NEW_PRAYER:" || pattern == "FINAL_ANSWER:"
 	case "translit":
 		return pattern == "SEARCH:" || pattern == "GET_FULL_TEXT:" || pattern == "CHECK_TRANSLIT_CONSISTENCY:" || pattern == "CORRECT_TRANSLITERATION:" || pattern == "FINAL_ANSWER:"
 	default:
@@ -4498,10 +5541,92 @@ func extractAllFunctionCalls(text string) ([]string, []InvalidFunctionCall) {
 
 	for _, line := range lines {
 		line = strings.TrimSpace(line)
+		originalLine := line
+
+		// Skip empty lines and pure text responses
+		if line == "" {
+			continue
+		}
 
 		// Check for standard format using centralized validation
 		if isValidFunctionCall(line) {
 			validCalls = append(validCalls, line)
+			continue
+		}
+
+		// Check for various built-in LLM tool calling formats
+
+		// OpenAI-style tool error responses
+		if strings.Contains(line, "Tool") && strings.Contains(line, "not found in registry") {
+			// Extract the attempted tool name
+			parts := strings.Split(line, "\"")
+			if len(parts) >= 2 {
+				attemptedTool := parts[1]
+				invalidCalls = append(invalidCalls, InvalidFunctionCall{
+					Original: originalLine,
+					Error:    fmt.Sprintf("❌ LLM tried to use OpenAI-style tool '%s' instead of simple format. Use: SMART_INVENTORY_SEARCH:keywords or SEARCH_INVENTORY:keywords", attemptedTool),
+				})
+			} else {
+				invalidCalls = append(invalidCalls, InvalidFunctionCall{
+					Original: originalLine,
+					Error:    fmt.Sprintf("❌ LLM tried to use OpenAI-style function calling. %s", suggestCorrectFunctionFormat(originalLine)),
+				})
+			}
+			continue
+		}
+
+		// JSON function call attempts (OpenAI/Gemini format)
+		if (strings.Contains(line, `"function"`) && strings.Contains(line, `"arguments"`)) ||
+			(strings.Contains(line, `{"name"`) && strings.Contains(line, `"parameters"`)) {
+			invalidCalls = append(invalidCalls, InvalidFunctionCall{
+				Original: originalLine,
+				Error:    fmt.Sprintf("❌ JSON function call detected. DO NOT use {\"function\": \"name\"} format. %s", suggestCorrectFunctionFormat(originalLine)),
+			})
+			continue
+		}
+
+		// Function call with parentheses (typical programming syntax)
+		if strings.Contains(line, "(") && strings.Contains(line, ")") &&
+			(strings.Contains(strings.ToUpper(line), "SEARCH") ||
+				strings.Contains(strings.ToUpper(line), "GET_") ||
+				strings.Contains(strings.ToUpper(line), "ADD_") ||
+				strings.Contains(strings.ToUpper(line), "API_")) {
+			invalidCalls = append(invalidCalls, InvalidFunctionCall{
+				Original: originalLine,
+				Error:    fmt.Sprintf("❌ Function call with parentheses detected. DO NOT use function() syntax. %s", suggestCorrectFunctionFormat(originalLine)),
+			})
+			continue
+		}
+
+		// Gemini/Claude tool use attempts
+		if strings.Contains(strings.ToLower(line), "tool_use") ||
+			strings.Contains(strings.ToLower(line), "use_tool") ||
+			strings.Contains(line, "<tool_") {
+			invalidCalls = append(invalidCalls, InvalidFunctionCall{
+				Original: originalLine,
+				Error:    fmt.Sprintf("❌ Native tool calling detected. DO NOT use built-in tool systems. %s", suggestCorrectFunctionFormat(originalLine)),
+			})
+			continue
+		}
+
+		// Action/thought format attempts
+		if strings.HasPrefix(strings.ToUpper(line), "ACTION:") ||
+			strings.HasPrefix(strings.ToUpper(line), "THOUGHT:") ||
+			strings.HasPrefix(strings.ToUpper(line), "OBSERVATION:") {
+			invalidCalls = append(invalidCalls, InvalidFunctionCall{
+				Original: originalLine,
+				Error:    fmt.Sprintf("❌ Action/Thought format detected. DO NOT use ACTION: or THOUGHT: prefixes. %s", suggestCorrectFunctionFormat(originalLine)),
+			})
+			continue
+		}
+
+		// Check if this is a conversational response that should be a function call
+		if strings.Contains(strings.ToLower(line), "search") || strings.Contains(strings.ToLower(line), "inventory") ||
+			strings.Contains(strings.ToLower(line), "prayer") || strings.Contains(strings.ToLower(line), "unable to proceed") {
+			invalidCalls = append(invalidCalls, InvalidFunctionCall{
+				Original: originalLine,
+				Error:    "❌ Conversational response detected. You MUST use function calls only. Example: SMART_INVENTORY_SEARCH:praise sovereignty mercy",
+			})
 			continue
 		}
 
@@ -4555,6 +5680,39 @@ func extractAllFunctionCalls(text string) ([]string, []InvalidFunctionCall) {
 	}
 
 	return validCalls, invalidCalls
+}
+
+func suggestCorrectFunctionFormat(originalCall string) string {
+	upperCall := strings.ToUpper(originalCall)
+
+	// Try to extract function intent and suggest correct format
+	if strings.Contains(upperCall, "SEARCH") && strings.Contains(upperCall, "INVENTORY") {
+		return "SMART_INVENTORY_SEARCH:keywords,language or SEARCH_INVENTORY:keywords,language,field"
+	}
+	if strings.Contains(upperCall, "SEARCH") && !strings.Contains(upperCall, "INVENTORY") {
+		return "SEARCH:keywords,opening_phrase,length_range"
+	}
+	if strings.Contains(upperCall, "GET") && strings.Contains(upperCall, "FULL") {
+		return "GET_FULL_TEXT:phelps_code"
+	}
+	if strings.Contains(upperCall, "GET") && strings.Contains(upperCall, "FOCUS") {
+		return "GET_FOCUS_TEXT:phelps_code"
+	}
+	if strings.Contains(upperCall, "API") && strings.Contains(upperCall, "SEARCH") {
+		return "API_SEARCH:keywords,language[,author]"
+	}
+	if strings.Contains(upperCall, "API") && strings.Contains(upperCall, "GET") {
+		return "API_GET_DOCUMENT:documentId,language"
+	}
+	if strings.Contains(upperCall, "ADD") && strings.Contains(upperCall, "PRAYER") {
+		return "ADD_NEW_PRAYER:PIN+TAG,confidence,reasoning"
+	}
+	if strings.Contains(upperCall, "FINAL") && strings.Contains(upperCall, "ANSWER") {
+		return "FINAL_ANSWER:phelps_code,confidence,reasoning"
+	}
+
+	// Default suggestion
+	return "Use format: FUNCTION_NAME:arguments (e.g., SMART_INVENTORY_SEARCH:keywords)"
 }
 
 // ToolCall represents a single tool call in the JSON format
@@ -4996,6 +6154,9 @@ func processShuffledPrayersWithMode(db *Database, prayers []Writing, referenceLa
 			fmt.Fprintf(reportFile, "Graceful stop requested at %s. Processed %d prayers.\n", time.Now().Format(time.RFC3339), i)
 			break
 		}
+
+		// Clear discovered PINs for each new prayer to ensure proper workflow
+		clearDiscoveredPINs()
 
 		fmt.Printf("\n📿 Processing prayer %d/%d: %s\n", i+1, len(prayers), writing.Name)
 		fmt.Printf("   Language: %s | Version: %s\n", writing.Language, writing.Version)
@@ -5445,9 +6606,26 @@ type SkipListEntry struct {
 	SkipUntil                   string
 }
 
+type Inventory struct {
+	PIN                    string
+	Title                  string
+	WordCount              string
+	Language               string
+	FirstLineOriginal      string
+	FirstLineTranslated    string
+	Manuscripts            string
+	Publications           string
+	Translations           string
+	MusicalInterpretations string
+	Notes                  string
+	Abstracts              string
+	Subjects               string
+}
+
 type Database struct {
 	Writing           []Writing
 	Language          []Language
+	Inventory         []Inventory
 	MatchAttempts     []MatchAttempt
 	LanguagePairStats []LanguagePairStats
 	SkipList          []SkipListEntry
@@ -5459,6 +6637,7 @@ func GetDatabase() Database {
 	db := Database{
 		Writing:           []Writing{},
 		Language:          []Language{},
+		Inventory:         []Inventory{},
 		MatchAttempts:     []MatchAttempt{},
 		LanguagePairStats: []LanguagePairStats{},
 		SkipList:          []SkipListEntry{},
@@ -5529,7 +6708,42 @@ func GetDatabase() Database {
 		}
 	}
 
-	// Load MatchAttempts data
+	// Load Inventory data
+	if csvOut, err := runQuery("inventory", "PIN,Title,`Word count`,Language,`First line (original)`,`First line (translated)`,Manuscripts,Publications,Translations,`Musical interpretations`,Notes,Abstracts,Subjects"); err != nil {
+		log.Printf("Warning: Failed to load inventory data: %v", err)
+	} else {
+		r := csv.NewReader(strings.NewReader(csvOut))
+		r.FieldsPerRecord = 13
+		r.LazyQuotes = true
+		records, err := r.ReadAll()
+		if err != nil {
+			log.Printf("Warning: Failed to parse inventory CSV: %v", err)
+		} else {
+			if len(records) > 0 {
+				records = records[1:] // skip header
+			}
+			for _, rec := range records {
+				inv := Inventory{
+					PIN:                    rec[0],
+					Title:                  rec[1],
+					WordCount:              rec[2],
+					Language:               rec[3],
+					FirstLineOriginal:      rec[4],
+					FirstLineTranslated:    rec[5],
+					Manuscripts:            rec[6],
+					Publications:           rec[7],
+					Translations:           rec[8],
+					MusicalInterpretations: rec[9],
+					Notes:                  rec[10],
+					Abstracts:              rec[11],
+					Subjects:               rec[12],
+				}
+				db.Inventory = append(db.Inventory, inv)
+			}
+		}
+	}
+
+	// Load MatchAttempts
 	if csvOut, err := runQuery("match_attempts", "id,version_id,target_language,reference_language,attempt_timestamp,result_type,phelps_code,confidence_score,reasoning,llm_provider,llm_model,processing_time_seconds,failure_reason"); err != nil {
 		log.Printf("Warning: Failed to load match attempts data: %v", err)
 	} else {
@@ -5994,6 +7208,28 @@ func updateWritingPhelps(phelps, language, version string) error {
 	return nil
 }
 
+func createNewPrayerEntry(phelps, language, text, name, pin string) error {
+	// Escape strings for SQL injection prevention
+	escapedPhelps := strings.ReplaceAll(phelps, "'", "''")
+	escapedLanguage := strings.ReplaceAll(language, "'", "''")
+	escapedText := strings.ReplaceAll(text, "'", "''")
+	escapedName := strings.ReplaceAll(name, "'", "''")
+
+	// Generate a unique version ID based on timestamp and PIN
+	version := fmt.Sprintf("NEW_%s_%d", pin, time.Now().Unix())
+	escapedVersion := strings.ReplaceAll(version, "'", "''")
+
+	query := fmt.Sprintf(`INSERT INTO writings (phelps, language, version, text, name, type, notes, link, source, source_id)
+		VALUES ('%s', '%s', '%s', '%s', '%s', 'prayer', 'AI-created from inventory', '', 'inventory-based', '%s')`,
+		escapedPhelps, escapedLanguage, escapedVersion, escapedText, escapedName, pin)
+
+	if _, err := execDoltQuery(query); err != nil {
+		return fmt.Errorf("failed to create new prayer entry: %v", err)
+	}
+
+	return nil
+}
+
 func createOrUpdateTransliteration(identifier, targetLang, correctedText string, confidence float64) error {
 	// Generate a new UUID for the version
 	newVersion := fmt.Sprintf("%s", time.Now().Format("20060102-150405"))
@@ -6170,6 +7406,9 @@ func processPrayersForLanguageWithMode(db *Database, targetLanguage, referenceLa
 			maxToProcess = maxPrayers
 		}
 
+		// Clear discovered PINs for each new prayer to ensure proper workflow
+		clearDiscoveredPINs()
+
 		fmt.Printf("\n📿 Processing prayer %d/%d: %s\n", processed, maxToProcess, writing.Name)
 		fmt.Printf("   Language: %s | Version: %s\n", writing.Language, writing.Version)
 		if len(writing.Text) > 150 {
@@ -6281,15 +7520,20 @@ func processPrayersForLanguageWithMode(db *Database, targetLanguage, referenceLa
 		}
 
 		if response.PhelpsCode != "UNKNOWN" && response.Confidence >= 0.70 {
-			fmt.Printf("  ✅ MATCHED: %s -> database updated\n", response.PhelpsCode)
-
-			err := updateWritingPhelps(response.PhelpsCode, writing.Language, writing.Version)
-			if err != nil {
-				log.Printf("Error updating database: %v", err)
-				fmt.Fprintf(reportFile, "  ERROR updating database: %v\n", err)
-				fmt.Printf("  ❌ Database update failed: %v\n", err)
+			if operationMode == "add-only" {
+				fmt.Printf("  ✅ NEW CODE: %s -> already assigned by ADD_NEW_PRAYER\n", response.PhelpsCode)
+				fmt.Fprintf(reportFile, "  NEW CODE: %s (%.1f%% confidence) -> assigned in database\n", response.PhelpsCode, response.Confidence*100)
 			} else {
-				fmt.Fprintf(reportFile, "  MATCHED: %s (%.1f%% confidence) -> database updated\n", response.PhelpsCode, response.Confidence*100)
+				fmt.Printf("  ✅ MATCHED: %s -> database updated\n", response.PhelpsCode)
+
+				err := updateWritingPhelps(response.PhelpsCode, writing.Language, writing.Version)
+				if err != nil {
+					log.Printf("Error updating database: %v", err)
+					fmt.Fprintf(reportFile, "  ERROR updating database: %v\n", err)
+					fmt.Printf("  ❌ Database update failed: %v\n", err)
+				} else {
+					fmt.Fprintf(reportFile, "  MATCHED: %s (%.1f%% confidence) -> database updated\n", response.PhelpsCode, response.Confidence*100)
+				}
 			}
 
 			// Apply any pending transliteration corrections
@@ -6583,6 +7827,7 @@ func main() {
 	var maxPrayers = flag.Int("max", 0, "Maximum number of prayers to process (0 = unlimited)")
 	var maxRounds = flag.Int("max-rounds", 10, "Maximum conversation rounds in interactive mode (default: 10)")
 	var cleanupInvalidCodes = flag.Bool("cleanup-invalid-codes", false, "Clean up invalid Phelps codes from database (reset to empty)")
+	// var testAPI = flag.Bool("test-api", false, "Test API connectivity and response parsing")
 	var verbose = flag.Bool("verbose", false, "Enable verbose output")
 	var showHelp = flag.Bool("help", false, "Show help message")
 	var showRaw = flag.Bool("show-raw", false, "Show full raw responses at the end")
@@ -6807,6 +8052,9 @@ func main() {
 	db := GetDatabase()
 	log.Println("Database loaded")
 	fmt.Fprintf(reportFile, "Database loaded successfully\n")
+
+	// Initialize session tracking for discovered PINs
+	initializeSession()
 
 	// Test prompt mode - show the prompt and exit
 	if *testPrompt {
