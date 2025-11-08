@@ -46,7 +46,6 @@ type SessionNote struct {
 	Content    string
 	PhelpsCode string  // Optional, for successful matches
 	Confidence float64 // Optional, for confidence-related notes
-	SessionID  string  // Unique identifier for cross-session persistence
 }
 
 var sessionNotes []SessionNote
@@ -128,58 +127,6 @@ func execDoltQueryCSV(query string) ([]byte, error) {
 	return output, nil
 }
 
-// Helper function to execute parameterized dolt query with safe parameter substitution
-func execDoltQueryParam(query string, params ...interface{}) ([]byte, error) {
-	// Simple parameter substitution - replace ? with parameters in order
-	finalQuery := query
-	for _, param := range params {
-		placeholder := "?"
-		var replacement string
-
-		switch v := param.(type) {
-		case string:
-			replacement = fmt.Sprintf("'%s'", strings.ReplaceAll(v, "'", "''")) // Escape single quotes
-		case int, int64, float64:
-			replacement = fmt.Sprintf("%v", v)
-		default:
-			replacement = fmt.Sprintf("'%v'", v)
-		}
-
-		// Replace first occurrence of ?
-		if idx := strings.Index(finalQuery, placeholder); idx != -1 {
-			finalQuery = finalQuery[:idx] + replacement + finalQuery[idx+len(placeholder):]
-		}
-	}
-
-	return execDoltQuery(finalQuery)
-}
-
-// Helper function to execute parameterized dolt CSV query with safe parameter substitution
-func execDoltQueryCSVParam(query string, params ...interface{}) ([]byte, error) {
-	// Simple parameter substitution - replace ? with parameters in order
-	finalQuery := query
-	for _, param := range params {
-		placeholder := "?"
-		var replacement string
-
-		switch v := param.(type) {
-		case string:
-			replacement = fmt.Sprintf("'%s'", strings.ReplaceAll(v, "'", "''")) // Escape single quotes
-		case int, int64, float64:
-			replacement = fmt.Sprintf("%v", v)
-		default:
-			replacement = fmt.Sprintf("'%v'", v)
-		}
-
-		// Replace first occurrence of ?
-		if idx := strings.Index(finalQuery, placeholder); idx != -1 {
-			finalQuery = finalQuery[:idx] + replacement + finalQuery[idx+len(placeholder):]
-		}
-	}
-
-	return execDoltQueryCSV(finalQuery)
-}
-
 // Helper function to execute dolt command and return error if it fails
 func execDoltRun(args ...string) error {
 	cmd := execDoltCommand(args...)
@@ -235,13 +182,14 @@ func clearOldSessionNotes(maxAge time.Duration) int {
 	return removed
 }
 
-// Search session notes by content or type (cross-session)
+// Search session notes by content or type
 func searchSessionNotes(query string, noteType string, language string) []SessionNote {
+	sessionNotesMutex.Lock()
+	defer sessionNotesMutex.Unlock()
+
 	var matches []SessionNote
 	queryLower := strings.ToLower(query)
 
-	// Search in-memory notes first (current session)
-	sessionNotesMutex.Lock()
 	for _, note := range sessionNotes {
 		// Filter by language if specified
 		if language != "" && note.Language != language && note.Language != "" {
@@ -263,71 +211,17 @@ func searchSessionNotes(query string, noteType string, language string) []Sessio
 
 		matches = append(matches, note)
 	}
-	sessionNotesMutex.Unlock()
-
-	// Search persistent database (all sessions)
-	var sqlQuery strings.Builder
-	var args []interface{}
-
-	sqlQuery.WriteString("SELECT timestamp, language, note_type, content, phelps_code, confidence, session_id FROM session_notes WHERE 1=1")
-
-	if language != "" {
-		sqlQuery.WriteString(" AND (language = ? OR language = '')")
-		args = append(args, language)
-	}
-
-	if noteType != "" {
-		sqlQuery.WriteString(" AND note_type = ?")
-		args = append(args, strings.ToUpper(noteType))
-	}
-
-	if query != "" {
-		sqlQuery.WriteString(" AND LOWER(content) LIKE ?")
-		args = append(args, "%"+queryLower+"%")
-	}
-
-	sqlQuery.WriteString(" ORDER BY timestamp DESC LIMIT 50")
-
-	output, err := execDoltQueryCSVParam(sqlQuery.String(), args...)
-	if err == nil {
-		reader := csv.NewReader(strings.NewReader(string(output)))
-		reader.Comma = ','
-		reader.LazyQuotes = true
-		reader.FieldsPerRecord = -1
-
-		if records, err := reader.ReadAll(); err == nil {
-			for i, record := range records {
-				if i == 0 || len(record) < 7 { // Skip header
-					continue
-				}
-
-				timestamp, _ := time.Parse("2006-01-02 15:04:05", record[0])
-				confidence, _ := strconv.ParseFloat(record[5], 64)
-
-				note := SessionNote{
-					Timestamp:  timestamp,
-					Language:   record[1],
-					NoteType:   record[2],
-					Content:    record[3],
-					PhelpsCode: record[4],
-					Confidence: confidence,
-					SessionID:  record[6],
-				}
-				matches = append(matches, note)
-			}
-		}
-	}
 
 	return matches
 }
 
-// Remove notes by type or language (cross-session)
+// Remove notes by type or language
 func removeSessionNotes(noteType string, language string, olderThan time.Duration) int {
-	removed := 0
-
-	// Remove from in-memory notes (current session)
 	sessionNotesMutex.Lock()
+	defer sessionNotesMutex.Unlock()
+
 	var kept []SessionNote
+	removed := 0
 	cutoff := time.Time{}
 
 	if olderThan > 0 {
@@ -360,33 +254,6 @@ func removeSessionNotes(noteType string, language string, olderThan time.Duratio
 	}
 
 	sessionNotes = kept
-	sessionNotesMutex.Unlock()
-
-	// Remove from persistent database (all sessions)
-	var sqlQuery strings.Builder
-	var args []interface{}
-
-	sqlQuery.WriteString("DELETE FROM session_notes WHERE 1=1")
-
-	if noteType != "" {
-		sqlQuery.WriteString(" AND note_type = ?")
-		args = append(args, strings.ToUpper(noteType))
-	}
-
-	if language != "" {
-		sqlQuery.WriteString(" AND language = ?")
-		args = append(args, language)
-	}
-
-	if olderThan > 0 {
-		sqlQuery.WriteString(" AND timestamp < ?")
-		args = append(args, cutoff.Format("2006-01-02 15:04:05"))
-	}
-
-	if _, err := execDoltQueryParam(sqlQuery.String(), args...); err != nil {
-		log.Printf("Warning: Could not remove session notes from database: %v", err)
-	}
-
 	return removed
 }
 
@@ -426,32 +293,6 @@ func initializeSession() {
 	if discoveredPINs == nil {
 		discoveredPINs = make(map[string]bool)
 	}
-
-	// Create persistent notes table if it doesn't exist
-	createSessionNotesTable()
-}
-
-// createSessionNotesTable creates the persistent session notes table
-func createSessionNotesTable() {
-	createTableSQL := `
-	CREATE TABLE IF NOT EXISTS session_notes (
-		id INT AUTO_INCREMENT PRIMARY KEY,
-		timestamp DATETIME NOT NULL,
-		language VARCHAR(10) NOT NULL,
-		note_type VARCHAR(20) NOT NULL,
-		content TEXT NOT NULL,
-		phelps_code VARCHAR(20),
-		confidence FLOAT,
-		session_id VARCHAR(100) NOT NULL,
-		INDEX idx_language (language),
-		INDEX idx_type (note_type),
-		INDEX idx_timestamp (timestamp),
-		INDEX idx_session (session_id)
-	)`
-
-	if _, err := execDoltQueryParam(createTableSQL); err != nil {
-		log.Printf("Warning: Could not create session_notes table: %v", err)
-	}
 }
 
 func addDiscoveredPIN(pin string) {
@@ -489,10 +330,6 @@ func addSessionNote(language string, noteType string, content string, phelpsCode
 	sessionNotesMutex.Lock()
 	defer sessionNotesMutex.Unlock()
 
-	// Generate unique session ID if not already set
-	sessionID := generateSessionID()
-
-	// Add to in-memory cache
 	note := SessionNote{
 		Timestamp:  time.Now(),
 		Language:   language,
@@ -500,92 +337,40 @@ func addSessionNote(language string, noteType string, content string, phelpsCode
 		Content:    content,
 		PhelpsCode: phelpsCode,
 		Confidence: confidence,
-		SessionID:  sessionID,
 	}
 	sessionNotes = append(sessionNotes, note)
 
-	// Keep only the most recent 50 notes in memory
+	// Keep only the most recent 50 notes to avoid memory bloat
 	if len(sessionNotes) > 50 {
 		sessionNotes = sessionNotes[len(sessionNotes)-50:]
 	}
-
-	// Persist to database for cross-session access
-	insertSQL := `INSERT INTO session_notes (timestamp, language, note_type, content, phelps_code, confidence, session_id)
-				  VALUES (?, ?, ?, ?, ?, ?, ?)`
-
-	if _, err := execDoltQueryParam(insertSQL, note.Timestamp.Format("2006-01-02 15:04:05"),
-		language, noteType, content, phelpsCode, confidence, sessionID); err != nil {
-		log.Printf("Warning: Could not persist session note: %v", err)
-	}
 }
 
-var currentSessionID string
-
-// generateSessionID creates a unique identifier for this session
-func generateSessionID() string {
-	if currentSessionID == "" {
-		currentSessionID = fmt.Sprintf("%s_%d_%d",
-			time.Now().Format("20060102_150405"),
-			os.Getpid(),
-			rand.Intn(1000))
-	}
-	return currentSessionID
-}
-
-// Get relevant session notes for a language from all sessions (cross-session)
+// Get relevant session notes for a language
 func getRelevantNotes(language string) []SessionNote {
+	sessionNotesMutex.Lock()
+	defer sessionNotesMutex.Unlock()
+
 	var relevant []SessionNote
 
-	// First, get from in-memory cache (current session)
-	sessionNotesMutex.Lock()
+	// Get notes for the specific language first
 	for _, note := range sessionNotes {
 		if note.Language == language || note.Language == "" {
 			relevant = append(relevant, note)
 		}
 	}
-	sessionNotesMutex.Unlock()
 
-	// Then, get from persistent database (previous sessions)
-	query := `
-		SELECT timestamp, language, note_type, content, phelps_code, confidence, session_id
-		FROM session_notes
-		WHERE language = ? OR language = '' OR note_type IN ('STRATEGY', 'PATTERN')
-		ORDER BY timestamp DESC
-		LIMIT 20`
-
-	output, err := execDoltQueryCSVParam(query, language)
-	if err == nil {
-		reader := csv.NewReader(strings.NewReader(string(output)))
-		reader.Comma = ','
-		reader.LazyQuotes = true
-		reader.FieldsPerRecord = -1
-
-		if records, err := reader.ReadAll(); err == nil {
-			for i, record := range records {
-				if i == 0 || len(record) < 7 { // Skip header
-					continue
-				}
-
-				timestamp, _ := time.Parse("2006-01-02 15:04:05", record[0])
-				confidence, _ := strconv.ParseFloat(record[5], 64)
-
-				note := SessionNote{
-					Timestamp:  timestamp,
-					Language:   record[1],
-					NoteType:   record[2],
-					Content:    record[3],
-					PhelpsCode: record[4],
-					Confidence: confidence,
-					SessionID:  record[6],
-				}
-				relevant = append(relevant, note)
-			}
+	// Add general notes that might be helpful
+	for _, note := range sessionNotes {
+		if note.Language != language && note.Language != "" &&
+			(note.NoteType == "STRATEGY" || note.NoteType == "PATTERN") {
+			relevant = append(relevant, note)
 		}
 	}
 
-	// Sort by timestamp (most recent first) and limit to 15 total
-	if len(relevant) > 15 {
-		relevant = relevant[:15]
+	// Return most recent 10 notes
+	if len(relevant) > 10 {
+		relevant = relevant[len(relevant)-10:]
 	}
 
 	return relevant
@@ -598,40 +383,31 @@ func formatNotesForPrompt(notes []SessionNote) string {
 	}
 
 	var formatted strings.Builder
-	formatted.WriteString("\nCROSS-SESSION EXPERIENCE NOTES:\n")
-	formatted.WriteString("Here are insights from all previous LLM sessions (current and past):\n")
-
-	currentSession := generateSessionID()
+	formatted.WriteString("\nSESSION EXPERIENCE NOTES:\n")
+	formatted.WriteString("Here are insights from previous prayers in this session:\n")
 
 	for _, note := range notes {
 		timeAgo := time.Since(note.Timestamp).Round(time.Minute)
-		sessionMarker := ""
-		if note.SessionID == currentSession {
-			sessionMarker = " [CURRENT SESSION]"
-		} else if note.SessionID != "" {
-			sessionMarker = fmt.Sprintf(" [SESSION: %s]", note.SessionID[len(note.SessionID)-8:]) // Show last 8 chars
-		}
-
 		switch note.NoteType {
 		case "SUCCESS":
 			if note.PhelpsCode != "" {
-				formatted.WriteString(fmt.Sprintf("✅ SUCCESS (%v ago): %s [%s, confidence: %.0f%%]%s\n",
-					timeAgo, note.Content, note.PhelpsCode, note.Confidence*100, sessionMarker))
+				formatted.WriteString(fmt.Sprintf("✅ SUCCESS (%v ago): %s [%s, confidence: %.0f%%]\n",
+					timeAgo, note.Content, note.PhelpsCode, note.Confidence*100))
 			} else {
-				formatted.WriteString(fmt.Sprintf("✅ SUCCESS (%v ago): %s%s\n", timeAgo, note.Content, sessionMarker))
+				formatted.WriteString(fmt.Sprintf("✅ SUCCESS (%v ago): %s\n", timeAgo, note.Content))
 			}
 		case "FAILURE":
-			formatted.WriteString(fmt.Sprintf("❌ FAILURE (%v ago): %s%s\n", timeAgo, note.Content, sessionMarker))
+			formatted.WriteString(fmt.Sprintf("❌ FAILURE (%v ago): %s\n", timeAgo, note.Content))
 		case "PATTERN":
-			formatted.WriteString(fmt.Sprintf("🔍 PATTERN (%v ago): %s%s\n", timeAgo, note.Content, sessionMarker))
+			formatted.WriteString(fmt.Sprintf("🔍 PATTERN (%v ago): %s\n", timeAgo, note.Content))
 		case "STRATEGY":
-			formatted.WriteString(fmt.Sprintf("💡 STRATEGY (%v ago): %s%s\n", timeAgo, note.Content, sessionMarker))
+			formatted.WriteString(fmt.Sprintf("💡 STRATEGY (%v ago): %s\n", timeAgo, note.Content))
 		case "TIP":
-			formatted.WriteString(fmt.Sprintf("💭 TIP (%v ago): %s%s\n", timeAgo, note.Content, sessionMarker))
+			formatted.WriteString(fmt.Sprintf("💭 TIP (%v ago): %s\n", timeAgo, note.Content))
 		}
 	}
 
-	formatted.WriteString("\nUse these cross-session insights to improve your analysis and learn from previous LLM experiences.\n")
+	formatted.WriteString("\nUse these insights to improve your analysis.\n")
 	return formatted.String()
 }
 
@@ -1226,15 +1002,6 @@ type LLMResponse struct {
 	PhelpsCode string
 	Confidence float64
 	Reasoning  string
-}
-
-type LLMEvaluation struct {
-	IsValid        bool
-	OriginalValid  bool
-	ImprovedCode   string
-	ImprovedConf   float64
-	ImprovedReason string
-	EvalReasoning  string
 }
 
 // LLMCaller interface allows dependency injection for testing
@@ -4177,47 +3944,6 @@ func (s SearchInventoryFunction) Execute(db Database, referenceLanguage string, 
 	return results
 }
 
-// formatEnhancedResult formats an enhanced inventory entry for display
-func (s SearchInventoryFunction) formatEnhancedResult(enh EnhancedInventory) string {
-	inv := enh.Inventory
-	result := fmt.Sprintf("PIN: %s | Title: %s | Lang: %s | Words: %s",
-		inv.PIN, truncateString(inv.Title, 40), inv.Language, inv.WordCount)
-
-	if inv.FirstLineOriginal != "" {
-		result += fmt.Sprintf(" | First: %s", truncateString(inv.FirstLineOriginal, 50))
-	}
-
-	// Add source counts
-	if len(enh.Publications) > 0 {
-		result += fmt.Sprintf(" | Pubs: %d", len(enh.Publications))
-	}
-	if len(enh.Manuscripts) > 0 {
-		result += fmt.Sprintf(" | MSS: %d", len(enh.Manuscripts))
-	}
-	if len(enh.Translations) > 0 {
-		result += fmt.Sprintf(" | Trans: %d", len(enh.Translations))
-	}
-
-	if inv.Notes != "" {
-		result += fmt.Sprintf(" | Notes: %s", truncateString(inv.Notes, 30))
-	}
-
-	return result
-}
-
-// formatBasicResult formats a basic inventory entry for display
-func (s SearchInventoryFunction) formatBasicResult(inv Inventory) string {
-	result := fmt.Sprintf("PIN: %s | Title: %s | Lang: %s | Words: %s",
-		inv.PIN, truncateString(inv.Title, 40), inv.Language, inv.WordCount)
-	if inv.FirstLineOriginal != "" {
-		result += fmt.Sprintf(" | First: %s", truncateString(inv.FirstLineOriginal, 50))
-	}
-	if inv.Notes != "" {
-		result += fmt.Sprintf(" | Notes: %s", truncateString(inv.Notes, 30))
-	}
-	return result
-}
-
 func (s SearchInventoryFunction) GetDescription() string {
 	return "SEARCH_INVENTORY:keywords[,source_language,field] (search inventory by keywords, language filter optional)"
 }
@@ -4507,37 +4233,26 @@ type AddNewPrayerFunction struct{ PrefixFunction }
 
 func (a AddNewPrayerFunction) Execute(db Database, referenceLanguage string, call string) []string {
 	args := strings.TrimPrefix(call, "ADD_NEW_PRAYER:")
-	parts := strings.SplitN(args, ",", 5) // Allow for optional version ID and enhanced mode
+	parts := strings.SplitN(args, ",", 4) // Allow for optional version ID
 	if len(parts) < 3 {
 		return []string{
-			"Error: ADD_NEW_PRAYER requires format: phelps_code,confidence,reasoning[,version_id][,enhanced]",
+			"Error: ADD_NEW_PRAYER requires format: phelps_code,confidence,reasoning[,version_id]",
 			"",
-			"FORMATS:",
-			"Standard: ADD_NEW_PRAYER:AB12345GOD,85,Prayer praising God's sovereignty",
-			"Auto-generate: ADD_NEW_PRAYER:AUTO,85,Prayer about mercy,version_id",
-			"Enhanced: ADD_NEW_PRAYER:AB12345GOD,85,Prayer praising God's sovereignty,version_id,true",
+			"CORRECT FORMAT:",
+			"ADD_NEW_PRAYER:AB12345GOD,85,Prayer praising God's sovereignty",
+			"ADD_NEW_PRAYER:BH00001MER,90,Prayer about divine mercy",
 			"",
 			"PARTS EXPLAINED:",
-			"• phelps_code: PIN (7 chars) + TAG (3 chars) = 10 chars, or 'AUTO' to generate",
+			"• phelps_code: PIN (7 chars) + TAG (3 chars) = 10 chars total",
 			"• confidence: Number 0-100 indicating match certainty",
 			"• reasoning: Brief explanation of why this code fits",
 			"• version_id: (optional) specific prayer version to assign code to",
-			"• enhanced: (optional) 'true' to use enhanced source analysis",
 		}
 	}
 
 	phelpsCode := strings.TrimSpace(parts[0])
 	confidenceStr := strings.TrimSpace(parts[1])
 	reasoning := strings.TrimSpace(parts[2])
-
-	// Check for enhanced mode
-	_ = false
-	if len(parts) >= 5 && strings.ToLower(strings.TrimSpace(parts[4])) == "true" {
-		_ = true
-	}
-
-	// Auto-generation mode
-	autoGenerate := strings.ToUpper(phelpsCode) == "AUTO"
 
 	// Validate confidence
 	confidence, err := strconv.ParseFloat(confidenceStr, 64)
@@ -4570,103 +4285,35 @@ func (a AddNewPrayerFunction) Execute(db Database, referenceLanguage string, cal
 		}
 	}
 
+	// Extract PIN from Phelps code
 	var pin, tag string
-	var title, language string
-
-	// Get target version info for auto-generation
-	var targetVersion string
-	if len(parts) >= 4 {
-		targetVersion = strings.TrimSpace(parts[3])
+	if len(phelpsCode) == 7 {
+		pin = phelpsCode // Entire document
+		tag = ""
+	} else if len(phelpsCode) == 10 {
+		pin = phelpsCode[:7] // Document with 3-letter tag
+		tag = phelpsCode[7:]
+	} else {
+		return []string{
+			fmt.Sprintf("Error: Invalid Phelps code format '%s' - should be 7 chars (PIN) or 10 chars (PIN+tag)", phelpsCode),
+			"Examples: AB12345 or AB12345GOD",
+		}
 	}
 
-	if autoGenerate {
-		// Find target prayer for auto-generation
-		if targetVersion == "" {
-			for _, writing := range db.Writing {
-				if writing.Language == referenceLanguage && (writing.Phelps == "" || strings.TrimSpace(writing.Phelps) == "") {
-					targetVersion = writing.Version
-					title = writing.Name
-					language = writing.Language
-					break
-				}
-			}
-		} else {
-			for _, writing := range db.Writing {
-				if writing.Version == targetVersion {
-					title = writing.Name
-					language = writing.Language
-					break
-				}
-			}
-		}
-
-		if targetVersion == "" {
+	// Validate TAG format if present
+	if tag != "" {
+		if len(tag) != 3 {
 			return []string{
-				"❌ Error: No prayers found for auto-generation in language: " + referenceLanguage,
-				"",
-				"💡 Specify a version_id: ADD_NEW_PRAYER:AUTO,confidence,reasoning,version_id",
+				fmt.Sprintf("Error: TAG '%s' must be exactly 3 characters", tag),
+				"Good tags: GOD, MER, UNI, LOV, PRA, A01, P01",
 			}
 		}
-
-		// Find best matching PIN from inventory based on title and reasoning
-		bestPIN, bestScore := "", 0.0
-		// TODO: Implement findBestInventoryMatch function
-		if bestPIN == "" {
-			return []string{
-				"❌ Error: Could not find suitable inventory PIN for auto-generation",
-				"",
-				"📝 Title: " + title,
-				"🔍 Reasoning: " + reasoning,
-				"",
-				"💡 Try: SMART_INVENTORY_SEARCH:keywords to find suitable PIN manually",
-			}
-		}
-
-		pin = bestPIN
-		tag = generateCodeSuffix(title, language)
-		phelpsCode = pin + tag
-
-		return []string{
-			fmt.Sprintf("🤖 AUTO-GENERATED CODE: %s", phelpsCode),
-			fmt.Sprintf("📌 PIN: %s (match score: %.1f%%)", pin, bestScore*100),
-			fmt.Sprintf("🏷️  TAG: %s (from title analysis)", tag),
-			fmt.Sprintf("📝 Title: %s", title),
-			fmt.Sprintf("🌐 Language: %s", language),
-			"",
-			"💡 Use this generated code in your ADD_NEW_PRAYER call:",
-			fmt.Sprintf("ADD_NEW_PRAYER:%s,%.0f,%s,%s", phelpsCode, confidence, reasoning, targetVersion),
-		}
-	} else {
-		// Standard manual mode - validate format
-		if len(phelpsCode) == 7 {
-			pin = phelpsCode // Entire document
-			tag = ""
-		} else if len(phelpsCode) == 10 {
-			pin = phelpsCode[:7] // Document with 3-letter tag
-			tag = phelpsCode[7:]
-		} else {
-			return []string{
-				fmt.Sprintf("Error: Invalid Phelps code format '%s' - should be 7 chars (PIN) or 10 chars (PIN+tag)", phelpsCode),
-				"Examples: AB12345 or AB12345GOD",
-				"Or use: ADD_NEW_PRAYER:AUTO,confidence,reasoning to auto-generate",
-			}
-		}
-
-		// Validate TAG format if present
-		if tag != "" {
-			if len(tag) != 3 {
+		// Check if tag contains only letters and numbers
+		for _, char := range tag {
+			if !((char >= 'A' && char <= 'Z') || (char >= '0' && char <= '9')) {
 				return []string{
-					fmt.Sprintf("Error: TAG '%s' must be exactly 3 characters", tag),
+					fmt.Sprintf("Error: TAG '%s' must contain only uppercase letters and numbers", tag),
 					"Good tags: GOD, MER, UNI, LOV, PRA, A01, P01",
-				}
-			}
-			// Check if tag contains only letters and numbers
-			for _, char := range tag {
-				if !((char >= 'A' && char <= 'Z') || (char >= '0' && char <= '9')) {
-					return []string{
-						fmt.Sprintf("Error: TAG '%s' must contain only uppercase letters and numbers", tag),
-						"Good tags: GOD, MER, UNI, LOV, PRA, A01, P01",
-					}
 				}
 			}
 		}
@@ -4682,15 +4329,6 @@ func (a AddNewPrayerFunction) Execute(db Database, referenceLanguage string, cal
 	}
 
 	if !pinExists {
-		if autoGenerate {
-			return []string{
-				fmt.Sprintf("❌ Error: Auto-generated PIN %s not found in inventory", pin),
-				"",
-				"🤖 AUTO-GENERATION FAILED",
-				"💡 This should not happen - please report this bug",
-			}
-		}
-
 		return []string{
 			fmt.Sprintf("❌ Error: PIN %s not found in inventory - cannot create Phelps code", pin),
 			"",
@@ -4760,18 +4398,18 @@ func (a AddNewPrayerFunction) Execute(db Database, referenceLanguage string, cal
 	}
 
 	// Get optional version ID or find a prayer that needs a Phelps code
-	var targetVer string
+	var targetVersion string
 	if len(parts) >= 4 {
-		targetVer = strings.TrimSpace(parts[3])
+		targetVersion = strings.TrimSpace(parts[3])
 	} else {
 		// Find a prayer without a Phelps code in the target language
 		for _, writing := range db.Writing {
 			if writing.Language == referenceLanguage && (writing.Phelps == "" || strings.TrimSpace(writing.Phelps) == "") {
-				targetVer = writing.Version
+				targetVersion = writing.Version
 				break
 			}
 		}
-		if targetVer == "" {
+		if targetVersion == "" {
 			return []string{
 				"❌ Error: No prayers found without Phelps codes in language: " + referenceLanguage,
 				"",
@@ -4784,7 +4422,7 @@ func (a AddNewPrayerFunction) Execute(db Database, referenceLanguage string, cal
 	}
 
 	// Actually assign the Phelps code to the prayer
-	err = updateWritingPhelps(phelpsCode, referenceLanguage, targetVer)
+	err = updateWritingPhelps(phelpsCode, referenceLanguage, targetVersion)
 	if err != nil {
 		return []string{
 			fmt.Sprintf("❌ Error: Failed to assign Phelps code to prayer: %v", err),
@@ -6740,176 +6378,6 @@ func callLLM(prompt string, useGemini bool, textLength int) (LLMResponse, error)
 	return callLLMWithCaller(prompt, useGemini, textLength, DefaultLLMCaller{})
 }
 
-// buildEvaluationPrompt creates a prompt for the evaluation LLM
-func buildEvaluationPrompt(db Database, prayerText string, originalResponse LLMResponse) string {
-	var prompt strings.Builder
-
-	prompt.WriteString("You are an expert evaluator for Bahá'í prayer matching. Your job is to evaluate whether a previous LLM correctly matched a prayer to a Phelps code.\n\n")
-
-	prompt.WriteString("EVALUATION CRITERIA:\n")
-	prompt.WriteString("1. Does the matched prayer content actually correspond to the Phelps code?\n")
-	prompt.WriteString("2. Is the confidence level appropriate for the quality of match?\n")
-	prompt.WriteString("3. Are there better matches available?\n")
-	prompt.WriteString("4. Is the reasoning sound and well-justified?\n\n")
-
-	prompt.WriteString("ORIGINAL LLM RESPONSE:\n")
-	prompt.WriteString(fmt.Sprintf("Phelps: %s\n", originalResponse.PhelpsCode))
-	prompt.WriteString(fmt.Sprintf("Confidence: %.1f%%\n", originalResponse.Confidence*100))
-	prompt.WriteString(fmt.Sprintf("Reasoning: %s\n\n", originalResponse.Reasoning))
-
-	prompt.WriteString("PRAYER TO EVALUATE:\n")
-	prompt.WriteString(prayerText)
-	prompt.WriteString("\n\n")
-
-	// Get actual text of matched prayer for comparison
-	if originalResponse.PhelpsCode != "UNKNOWN" {
-		matchedTexts := getFullTextByPhelps(db, "en", originalResponse.PhelpsCode)
-		if len(matchedTexts) > 0 && matchedTexts[0] != "" {
-			matchedText := strings.Join(matchedTexts, "\n")
-			prompt.WriteString("MATCHED PRAYER TEXT (from database):\n")
-			if len(matchedText) > 500 {
-				prompt.WriteString(matchedText[:500] + "...\n\n")
-			} else {
-				prompt.WriteString(matchedText + "\n\n")
-			}
-		}
-	}
-
-	prompt.WriteString("RESPOND WITH:\n")
-	prompt.WriteString("VALID: [YES/NO] - Is the original match correct?\n")
-	prompt.WriteString("CONFIDENCE_APPROPRIATE: [YES/NO] - Is the confidence level appropriate?\n")
-	prompt.WriteString("IMPROVED_CODE: [Phelps code or NONE] - Better match if available\n")
-	prompt.WriteString("IMPROVED_CONFIDENCE: [0-100] - Confidence for improved match\n")
-	prompt.WriteString("IMPROVED_REASONING: [explanation] - Why the improved match is better\n")
-	prompt.WriteString("EVALUATION: [detailed explanation of your assessment]\n")
-
-	return prompt.String()
-}
-
-// parseEvaluationResponse parses the evaluation LLM's response
-func parseEvaluationResponse(response string) LLMEvaluation {
-	evaluation := LLMEvaluation{
-		IsValid:       false,
-		OriginalValid: false,
-		ImprovedCode:  "",
-		ImprovedConf:  0.0,
-	}
-
-	lines := strings.Split(response, "\n")
-	for _, line := range lines {
-		line = strings.TrimSpace(line)
-
-		if strings.HasPrefix(strings.ToUpper(line), "VALID:") {
-			value := strings.TrimSpace(strings.TrimPrefix(strings.ToUpper(line), "VALID:"))
-			evaluation.OriginalValid = (value == "YES")
-		} else if strings.HasPrefix(strings.ToUpper(line), "IMPROVED_CODE:") {
-			code := strings.TrimSpace(strings.TrimPrefix(line, "IMPROVED_CODE:"))
-			if code != "NONE" && code != "" && code != "IMPROVED_CODE:" {
-				evaluation.ImprovedCode = code
-				evaluation.IsValid = true
-			}
-		} else if strings.HasPrefix(strings.ToUpper(line), "IMPROVED_CONFIDENCE:") {
-			confStr := strings.TrimSpace(strings.TrimPrefix(line, "IMPROVED_CONFIDENCE:"))
-			if conf, err := strconv.ParseFloat(confStr, 64); err == nil {
-				if conf > 1.0 {
-					evaluation.ImprovedConf = conf / 100.0
-				} else {
-					evaluation.ImprovedConf = conf
-				}
-			}
-		} else if strings.HasPrefix(strings.ToUpper(line), "IMPROVED_REASONING:") {
-			evaluation.ImprovedReason = strings.TrimSpace(strings.TrimPrefix(line, "IMPROVED_REASONING:"))
-		} else if strings.HasPrefix(strings.ToUpper(line), "EVALUATION:") {
-			evaluation.EvalReasoning = strings.TrimSpace(strings.TrimPrefix(line, "EVALUATION:"))
-		}
-	}
-
-	return evaluation
-}
-
-// applyEvaluation applies the evaluation results to create the final response
-func applyEvaluation(original LLMResponse, eval LLMEvaluation) LLMResponse {
-	// If evaluation found a better match, use it
-	if eval.IsValid && eval.ImprovedCode != "" && eval.ImprovedConf > original.Confidence {
-		return LLMResponse{
-			PhelpsCode: eval.ImprovedCode,
-			Confidence: eval.ImprovedConf,
-			Reasoning:  fmt.Sprintf("EVALUATED & IMPROVED: %s (Original: %s at %.1f%%)", eval.ImprovedReason, original.PhelpsCode, original.Confidence*100),
-		}
-	}
-
-	// If original is valid but confidence should be adjusted
-	if eval.OriginalValid {
-		// Boost confidence slightly for validated matches
-		adjustedConf := original.Confidence + 0.1
-		if adjustedConf > 1.0 {
-			adjustedConf = 1.0
-		}
-		return LLMResponse{
-			PhelpsCode: original.PhelpsCode,
-			Confidence: adjustedConf,
-			Reasoning:  fmt.Sprintf("VALIDATED: %s (Confidence boosted from %.1f%%)", original.Reasoning, original.Confidence*100),
-		}
-	}
-
-	// If original is not valid, reduce confidence
-	if !eval.OriginalValid {
-		adjustedConf := original.Confidence * 0.7 // Reduce confidence by 30%
-		return LLMResponse{
-			PhelpsCode: original.PhelpsCode,
-			Confidence: adjustedConf,
-			Reasoning:  fmt.Sprintf("EVALUATION CONCERN: %s (Confidence reduced from %.1f%% due to: %s)", original.Reasoning, original.Confidence*100, eval.EvalReasoning),
-		}
-	}
-
-	// Default: return original
-	return original
-}
-
-// callLLMWithEvaluation calls the main LLM and then uses a second LLM to evaluate the response
-func callLLMWithEvaluation(db Database, prayerText, originalPrompt string, useGemini bool, textLength int, caller LLMCaller) (LLMResponse, error) {
-	// First, get the original LLM response
-	originalResponse, err := callLLMWithCaller(originalPrompt, useGemini, textLength, caller)
-	if err != nil {
-		return originalResponse, err
-	}
-
-	// For UNKNOWN responses or very low confidence, skip evaluation
-	if originalResponse.PhelpsCode == "UNKNOWN" || originalResponse.Confidence < 0.3 {
-		return originalResponse, nil
-	}
-
-	// Create evaluation prompt
-	evalPrompt := buildEvaluationPrompt(db, prayerText, originalResponse)
-
-	// Call second LLM for evaluation
-	evalResponse, evalErr := callLLMWithCaller(evalPrompt, useGemini, textLength, caller)
-	if evalErr != nil {
-		// If evaluation fails, return original response
-		fmt.Printf("    ⚠️  Evaluation LLM failed, using original response: %v\n", evalErr)
-		return originalResponse, nil
-	}
-
-	// Parse evaluation response - use full response text, not just reasoning field
-	fullEvalText := fmt.Sprintf("Phelps: %s\nConfidence: %.1f\nReasoning: %s",
-		evalResponse.PhelpsCode, evalResponse.Confidence*100, evalResponse.Reasoning)
-	evaluation := parseEvaluationResponse(fullEvalText)
-
-	// Apply evaluation results
-	finalResponse := applyEvaluation(originalResponse, evaluation)
-
-	fmt.Printf("    🔍 EVALUATION RESULTS:\n")
-	fmt.Printf("       Original: %s (%.1f%%) - %s\n", originalResponse.PhelpsCode, originalResponse.Confidence*100, originalResponse.Reasoning)
-	if evaluation.IsValid && evaluation.ImprovedCode != "" {
-		fmt.Printf("       Improved: %s (%.1f%%) - %s\n", evaluation.ImprovedCode, evaluation.ImprovedConf*100, evaluation.ImprovedReason)
-		fmt.Printf("       Evaluation: %s\n", evaluation.EvalReasoning)
-	} else {
-		fmt.Printf("       Evaluation: %s\n", evaluation.EvalReasoning)
-	}
-
-	return finalResponse, nil
-}
-
 // callLLMWithCaller allows dependency injection for testing
 func callLLMWithCaller(prompt string, useGemini bool, textLength int, caller LLMCaller) (LLMResponse, error) {
 	var response string
@@ -7154,26 +6622,10 @@ type Inventory struct {
 	Subjects               string
 }
 
-type InventorySource struct {
-	PIN         string
-	SourceType  string // "publication", "manuscript", "translation"
-	Reference   string
-	URL         string
-	DisplayText string
-}
-
-type EnhancedInventory struct {
-	Inventory
-	Publications []InventorySource
-	Manuscripts  []InventorySource
-	Translations []InventorySource
-}
-
 type Database struct {
 	Writing           []Writing
 	Language          []Language
 	Inventory         []Inventory
-	EnhancedInventory []EnhancedInventory
 	MatchAttempts     []MatchAttempt
 	LanguagePairStats []LanguagePairStats
 	SkipList          []SkipListEntry
@@ -7389,267 +6841,7 @@ func GetDatabase() Database {
 		}
 	}
 
-	// Load enhanced inventory data
-	db.loadEnhancedInventory()
-
 	return db
-}
-
-// loadEnhancedInventory loads inventory data with detailed source links
-func (db *Database) loadEnhancedInventory() {
-	// Create map for quick lookup
-	enhancedMap := make(map[string]*EnhancedInventory)
-
-	// Initialize with basic inventory data
-	for _, inv := range db.Inventory {
-		enhancedMap[inv.PIN] = &EnhancedInventory{
-			Inventory:    inv,
-			Publications: []InventorySource{},
-			Manuscripts:  []InventorySource{},
-			Translations: []InventorySource{},
-		}
-	}
-
-	// Load publications
-	output, err := execDoltQueryCSV("SELECT PIN, publication_ref, url, display_text FROM inventory_publications")
-	if err == nil {
-		reader := csv.NewReader(strings.NewReader(string(output)))
-		reader.Comma = ','
-		reader.LazyQuotes = true
-		reader.FieldsPerRecord = -1
-
-		if records, err := reader.ReadAll(); err == nil {
-			for i, record := range records {
-				if i == 0 || len(record) < 4 {
-					continue
-				}
-				pin := record[0]
-				if enhanced, exists := enhancedMap[pin]; exists {
-					source := InventorySource{
-						PIN:         pin,
-						SourceType:  "publication",
-						Reference:   record[1],
-						URL:         record[2],
-						DisplayText: record[3],
-					}
-					enhanced.Publications = append(enhanced.Publications, source)
-				}
-			}
-		}
-	}
-
-	// Load manuscripts
-	output, err = execDoltQueryCSV("SELECT PIN, manuscript_ref, url, display_text FROM inventory_manuscripts")
-	if err == nil {
-		reader := csv.NewReader(strings.NewReader(string(output)))
-		reader.Comma = ','
-		reader.LazyQuotes = true
-		reader.FieldsPerRecord = -1
-
-		if records, err := reader.ReadAll(); err == nil {
-			for i, record := range records {
-				if i == 0 || len(record) < 4 {
-					continue
-				}
-				pin := record[0]
-				if enhanced, exists := enhancedMap[pin]; exists {
-					source := InventorySource{
-						PIN:         pin,
-						SourceType:  "manuscript",
-						Reference:   record[1],
-						URL:         record[2],
-						DisplayText: record[3],
-					}
-					enhanced.Manuscripts = append(enhanced.Manuscripts, source)
-				}
-			}
-		}
-	}
-
-	// Load translations
-	output, err = execDoltQueryCSV("SELECT PIN, translation_ref, url, display_text FROM inventory_translations")
-	if err == nil {
-		reader := csv.NewReader(strings.NewReader(string(output)))
-		reader.Comma = ','
-		reader.LazyQuotes = true
-		reader.FieldsPerRecord = -1
-
-		if records, err := reader.ReadAll(); err == nil {
-			for i, record := range records {
-				if i == 0 || len(record) < 4 {
-					continue
-				}
-				pin := record[0]
-				if enhanced, exists := enhancedMap[pin]; exists {
-					source := InventorySource{
-						PIN:         pin,
-						SourceType:  "translation",
-						Reference:   record[1],
-						URL:         record[2],
-						DisplayText: record[3],
-					}
-					enhanced.Translations = append(enhanced.Translations, source)
-				}
-			}
-		}
-	}
-
-	// Convert map to slice
-	for _, enhanced := range enhancedMap {
-		db.EnhancedInventory = append(db.EnhancedInventory, *enhanced)
-	}
-}
-
-// generateEnhancedPhelpsCode creates a Phelps code using inventory patterns and enhanced logic
-func generateEnhancedPhelpsCode(db Database, pin, language, title string) string {
-	// Analyze existing patterns in the database
-	prefixCounts := make(map[string]int)
-	maxNumbers := make(map[string]int)
-
-	// Extract patterns from existing Phelps codes
-	for _, w := range db.Writing {
-		if w.Phelps != "" && len(w.Phelps) >= 5 {
-			prefix := w.Phelps[:2] // AB, BH, etc.
-			prefixCounts[prefix]++
-
-			// Extract numeric part
-			if len(w.Phelps) >= 7 {
-				numPart := w.Phelps[2:7] // 00001, etc.
-				if num := parseNumber(numPart); num > maxNumbers[prefix] {
-					maxNumbers[prefix] = num
-				}
-			}
-		}
-	}
-
-	// Determine prefix based on PIN or content analysis
-	var prefix string
-	if strings.HasPrefix(pin, "AB") {
-		prefix = "AB"
-	} else if strings.HasPrefix(pin, "BH") {
-		prefix = "BH"
-	} else if language == "Per" || language == "Ara" {
-		prefix = "BH" // Bahá'u'lláh's writings often in Persian/Arabic
-	} else {
-		prefix = "AB" // Default to 'Abdu'l-Bahá
-	}
-
-	// Generate next number in sequence
-	nextNum := maxNumbers[prefix] + 1
-	numStr := fmt.Sprintf("%05d", nextNum)
-
-	// Generate suffix based on content or default
-	suffix := generateCodeSuffix(title, language)
-
-	return prefix + numStr + suffix
-}
-
-// parseNumber safely parses a numeric string
-func parseNumber(numStr string) int {
-	var num int
-	fmt.Sscanf(numStr, "%d", &num)
-	return num
-}
-
-// generateCodeSuffix creates a 3-letter suffix based on title and language
-func generateCodeSuffix(title, language string) string {
-	// Common Bahá'í text suffixes
-	titleLower := strings.ToLower(title)
-
-	// Specific text patterns
-	if strings.Contains(titleLower, "tablet") {
-		return "TAB"
-	} else if strings.Contains(titleLower, "prayer") {
-		return "PRA"
-	} else if strings.Contains(titleLower, "fire") {
-		return "FIR"
-	} else if strings.Contains(titleLower, "will") && strings.Contains(titleLower, "testament") {
-		return "WIL"
-	} else if strings.Contains(titleLower, "travell") {
-		return "TRA"
-	} else if strings.Contains(titleLower, "secret") {
-		return "SEC"
-	} else if strings.Contains(titleLower, "hidden") {
-		return "HID"
-	} else if strings.Contains(titleLower, "word") {
-		return "WOR"
-	} else if strings.Contains(titleLower, "book") {
-		return "BOO"
-	} else if strings.Contains(titleLower, "letter") {
-		return "LET"
-	}
-
-	// Language-based defaults
-	switch language {
-	case "Per":
-		return "PER"
-	case "Ara":
-		return "ARA"
-	case "Eng":
-		return "ENG"
-	default:
-		return "NEW"
-	}
-}
-
-// getSourcesForPIN retrieves all source links for a given PIN from enhanced inventory
-func getSourcesForPIN(db Database, pin string) []InventorySource {
-	var sources []InventorySource
-
-	for _, enhanced := range db.EnhancedInventory {
-		if enhanced.PIN == pin {
-			sources = append(sources, enhanced.Publications...)
-			sources = append(sources, enhanced.Manuscripts...)
-			sources = append(sources, enhanced.Translations...)
-			break
-		}
-	}
-
-	return sources
-}
-
-// fetchSourceContent attempts to fetch content from accessible URLs
-func fetchSourceContent(url string) (string, error) {
-	// Only attempt to fetch from known safe domains
-	safeDomains := []string{
-		"bahai.org",
-		"reference.bahai.org",
-		"oceanoflights.org",
-		"bahai-library.com",
-		"afnanlibrary.org",
-	}
-
-	isSafe := false
-	for _, domain := range safeDomains {
-		if strings.Contains(url, domain) {
-			isSafe = true
-			break
-		}
-	}
-
-	if !isSafe {
-		return "", fmt.Errorf("URL not from trusted domain")
-	}
-
-	// Simple HTTP GET with timeout
-	client := &http.Client{Timeout: 10 * time.Second}
-	resp, err := client.Get(url)
-	if err != nil {
-		return "", err
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode != 200 {
-		return "", fmt.Errorf("HTTP %d", resp.StatusCode)
-	}
-
-	// Read limited content to avoid large downloads
-	body, err := io.ReadAll(io.LimitReader(resp.Body, 10000)) // 10KB limit
-	if err != nil {
-		return "", err
-	}
-
-	return string(body), nil
 }
 
 // Insert match attempt record
@@ -8472,12 +7664,8 @@ func processPrayersForLanguage(db *Database, targetLanguage, referenceLanguage s
 		var response LLMResponse
 		var err error
 
-		// Use evaluation layer for substantial prayers, interactive mode for others
-		if len(writing.Text) > 100 { // Only use evaluation for substantial prayers
-			response, err = callLLMWithEvaluation(*db, writing.Text, prompt, useGemini, len(writing.Text), DefaultLLMCaller{})
-		} else {
-			response, err = callLLMInteractive(*db, referenceLanguage, prompt, useGemini, len(writing.Text), maxRounds, "match")
-		}
+		// Use new interactive mode by default
+		response, err = callLLMInteractive(*db, referenceLanguage, prompt, useGemini, len(writing.Text), maxRounds, "match")
 		if err != nil {
 			fmt.Fprintf(reportFile, "  ERROR: LLM call failed: %v\n", err)
 			if verbose {
