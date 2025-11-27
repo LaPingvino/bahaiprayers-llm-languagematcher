@@ -1,0 +1,8 @@
+{
+  "description": "English Bahá'í Prayer Reference Collection",
+  "purpose": "Normative reference for matching prayers across languages using Phelps codes",
+  "source": "bahaiprayers.net and related sources",
+  "total_prayers": 256,
+  "last_updated": "2025-11-27",
+  "phelps_code_format": "Two letters (author initials) + 5 digits + 3 letter mnemonic",
+  "usage": "This file serves as the master reference for cross-language prayer matching",

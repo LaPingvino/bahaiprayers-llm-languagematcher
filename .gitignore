@@ -1,39 +1,69 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
+# Build artifacts
+prayer-matcher
+bahaiprayers-llm-languagematcher
+
+# Go build artifacts
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
-
-# Test binary, built with `go test -c`
 *.test
-
-# Code coverage profiles and other test artifacts
 *.out
-coverage.*
-*.coverprofile
-profile.cov
-
-# Dependency directories (remove the comment below to include it)
-# vendor/
-
-# Go workspace file
 go.work
-go.work.sum
 
-# env file
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# LLM processing artifacts
+failed_response_*.txt
+gemini_response_*.txt
+pending_batch_*.json
+remaining_batches_*.json
+matching_report_*.txt
+matching_output_*.log
+*.processed
+
+# Compressed matching logs
+compressed_bulk_*.log
+ultra_compressed_*.log
+smart_fallback_*.log
+
+# Database and prayer data (keep structure, not content)
+bahaiwritings/.dolt/
+*.json
+!go.mod
+!go.sum
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Testing artifacts
+coverage.out
+*.cover
+test_results/
+
+# Local configuration
 .env
+.env.local
+config.local.*
 
-# Editor/IDE
-# .idea/
-# .vscode/
+# SQL history
+.sqlhistory
 
-# dolt database
-bahaiwritings/
-
-# binary
-bahaiprayers-llm-languagematcher
-prayer-matcher
+# Temporary scripts and notes
+temp_*
+test_*
+scratch_*
+notes_*

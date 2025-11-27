@@ -17,11 +17,14 @@ import (
 	"time"
 )
 
-// --- Global variables for LLM configuration ---
-var OllamaModel string = "gpt-oss"                  // Default Ollama model
-var ollamaAPIURL = "http://localhost:11434"         // Ollama API endpoint
-var claudeAPIKey *string                           // Claude API Key from flag or env var
-var claudeAPIURL = "https://api.anthropic.com/v1/messages" // Claude API endpoint (or configurable)
+// --- Configuration ---
+var claudeAPIKey string
+var useCLI bool
+var useGemini bool
+var useGptOss bool
+var useCompressed bool
+var useUltraCompressed bool
+var claudeModel = "claude-sonnet-4-20250514" // Latest Sonnet 4
 
 // --- Data Structures ---
 type Writing struct {
@@ -35,7 +38,7 @@ type Writing struct {
 	Text       string
 	Source     string
 	SourceID   string
-	IsVerified bool // New field for verification status
+	IsVerified bool
 }
 
 type Language struct {
@@ -44,46 +47,53 @@ type Language struct {
 	Name     string
 }
 
-type Inventory struct {
-	PIN                    string
-	Title                  string
-	WordCount              string
-	Language               string
-	FirstLineOriginal      string
-	FirstLineTranslated    string
-	Manuscripts            string
-	Publications           string
-	Translations           string
-	MusicalInterpretations string
-	Notes                  string
-	Abstracts              string
-	Subjects               string
-}
-
 type Database struct {
 	Writings  []Writing
 	Languages []Language
-	Inventory []Inventory
 }
 
-// LLMResponse represents the parsed response from an LLM for matching
-type LLMResponse struct {
-	PhelpsCode string
-	Confidence float64
-	Reasoning  string
-	Action     string // NEW_TRANSLATION, MATCH_EXISTING, PROBLEM
+// EnglishReference represents a prayer from the English reference collection
+type EnglishReference struct {
+	Phelps   string
+	Name     string
+	Text     string
+	Category string
+}
+
+// TargetPrayer represents a prayer in the target language to be matched
+type TargetPrayer struct {
+	Version string
+	Name    string
+	Text    string
+	Link    string
+	Source  string
+}
+
+// MatchResult represents the LLM's matching decision
+type MatchResult struct {
+	Phelps         string `json:"phelps"`
+	TargetVersion  string `json:"target_version"`
+	MatchType      string `json:"match_type"` // EXISTING, NEW_TRANSLATION, or SKIP
+	Confidence     int    `json:"confidence"`
+	TranslatedText string `json:"translated_text,omitempty"`
+	Reasoning      string `json:"reasoning"`
+}
+
+// BatchMatchResponse is the complete response from Claude
+type BatchMatchResponse struct {
+	Matches []MatchResult `json:"matches"`
+	Summary string        `json:"summary"`
 }
 
 // --- Dolt Helper Functions ---
 
-// Helper function to execute dolt commands in the correct directory
 func execDoltCommand(args ...string) *exec.Cmd {
 	cmd := exec.Command("dolt", args...)
 	cmd.Dir = "bahaiwritings"
+	cmd.Env = append(os.Environ(), "DOLT_PAGER=cat")
 	return cmd
 }
 
-// Helper function to execute dolt query and return output with error handling
 func execDoltQuery(query string) ([]byte, error) {
 	cmd := execDoltCommand("sql", "-q", query)
 	output, err := cmd.CombinedOutput()
@@ -93,7 +103,6 @@ func execDoltQuery(query string) ([]byte, error) {
 	return output, nil
 }
 
-// Helper function to execute dolt CSV query and return output with error handling
 func execDoltQueryCSV(query string) ([]byte, error) {
 	cmd := execDoltCommand("sql", "-r", "csv", "-q", query)
 	output, err := cmd.CombinedOutput()
@@ -103,223 +112,87 @@ func execDoltQueryCSV(query string) ([]byte, error) {
 	return output, nil
 }
 
-// Helper function to execute parameterized dolt query with safe parameter substitution
-func execDoltQueryParam(query string, params ...interface{}) ([]byte, error) {
-	finalQuery := query
-	for _, param := range params {
-		placeholder := "?"
-		var replacement string
-
-		switch v := param.(type) {
-		case string:
-			replacement = fmt.Sprintf("'%s'", strings.ReplaceAll(v, "'", "''"))
-		case int, int64, float64:
-			replacement = fmt.Sprintf("%v", v)
-		case bool: // Handle bool type for is_verified
-			replacement = fmt.Sprintf("%t", v)
-		default:
-			replacement = fmt.Sprintf("'%v'", v)
-		}
-
-		if idx := strings.Index(finalQuery, placeholder); idx != -1 {
-			finalQuery = finalQuery[:idx] + replacement + finalQuery[idx+len(placeholder):]
-		}
-	}
-	return execDoltQuery(finalQuery)
-}
-
-// MustBool safely parses a boolean string, logging a warning on error
-func MustBool(s string) bool {
+func parseBool(s string) bool {
 	b, err := strconv.ParseBool(s)
 	if err != nil {
-		log.Printf("Warning: Failed to parse bool '%s', defaulting to false: %v", s, err)
-		return false // Default to false if parsing fails
+		return false
 	}
 	return b
 }
 
-// GetDatabase loads necessary data from Dolt (writings, languages, inventory)
+// GetDatabase loads the writings and languages from Dolt
 func GetDatabase() (Database, error) {
 	db := Database{
 		Writings:  []Writing{},
 		Languages: []Language{},
-		Inventory: []Inventory{},
 	}
 
-	runQuery := func(table string, columns string) (string, error) {
-		query := fmt.Sprintf("SELECT %s FROM %s", columns, table)
-		out, err := execDoltQueryCSV(query)
-		if err != nil {
-			return "", fmt.Errorf("dolt query for %s failed: %w", table, err)
-		}
-		return string(out), nil
+	// Load writings
+	csvOut, err := execDoltQueryCSV("SELECT phelps,language,version,name,type,notes,link,text,source,source_id,is_verified FROM writings")
+	if err != nil {
+		return Database{}, fmt.Errorf("failed to load writings: %w", err)
 	}
 
-	// Load Writing data
-	if csvOut, err := runQuery("writings", "phelps,language,version,name,type,notes,link,text,source,source_id,is_verified"); err != nil {
-		return Database{}, fmt.Errorf("failed to load writing data: %w", err)
-	} else {
-		r := csv.NewReader(strings.NewReader(csvOut))
-		r.FieldsPerRecord = 11
-		r.LazyQuotes = true
-		records, err := r.ReadAll()
-		if err != nil {
-			return Database{}, fmt.Errorf("failed to parse writing CSV: %v", err)
-		}
-		if len(records) > 0 {
-			records = records[1:] // skip header
-		}
-		for _, rec := range records {
-			w := Writing{
-				Phelps:     rec[0],
-				Language:   rec[1],
-				Version:    rec[2],
-				Name:       rec[3],
-				Type:       rec[4],
-				Notes:      rec[5],
-				Link:       rec[6],
-				Text:       rec[7],
-				Source:     rec[8],
-				SourceID:   rec[9],
-				IsVerified: MustBool(rec[10]),
-			}
-			db.Writings = append(db.Writings, w)
-		}
+	r := csv.NewReader(strings.NewReader(string(csvOut)))
+	r.FieldsPerRecord = 11
+	r.LazyQuotes = true
+	records, err := r.ReadAll()
+	if err != nil {
+		return Database{}, fmt.Errorf("failed to parse writings CSV: %v", err)
 	}
 
-	// Load Language data
-	if csvOut, err := runQuery("languages", "langcode,inlang,name"); err != nil {
-		return Database{}, fmt.Errorf("failed to load language data: %w", err)
-	} else {
-		r := csv.NewReader(strings.NewReader(csvOut))
-		r.FieldsPerRecord = 3
-		records, err := r.ReadAll()
-		if err != nil {
-			return Database{}, fmt.Errorf("failed to parse language CSV: %v", err)
-		}
-		if len(records) > 0 {
-			records = records[1:]
-		}
-		for _, rec := range records {
-			l := Language{
-				LangCode: rec[0],
-				InLang:   rec[1],
-				Name:     rec[2],
-			}
-			db.Languages = append(db.Languages, l)
-		}
+	if len(records) > 0 {
+		records = records[1:] // skip header
 	}
 
-	// Load Inventory data
-	if csvOut, err := runQuery("inventory", "PIN,Title,`Word count`,Language,`First line (original)`,`First line (translated)`,Manuscripts,Publications,Translations,`Musical interpretations`,Notes,Abstracts,Subjects"); err != nil {
-		log.Printf("Warning: Failed to load inventory data: %v", err) // Not fatal for this script
-	} else {
-		r := csv.NewReader(strings.NewReader(csvOut))
-		r.FieldsPerRecord = 13
-		r.LazyQuotes = true
-		records, err := r.ReadAll()
-		if err != nil {
-			log.Printf("Warning: Failed to parse inventory CSV: %v", err)
-		} else {
-			if len(records) > 0 {
-				records = records[1:] // skip header
-			}
-			for _, rec := range records {
-				inv := Inventory{
-					PIN:                    rec[0],
-					Title:                  rec[1],
-					WordCount:              rec[2],
-					Language:               rec[3],
-					FirstLineOriginal:      rec[4],
-					FirstLineTranslated:    rec[5],
-					Manuscripts:            rec[6],
-					Publications:           rec[7],
-					Translations:           rec[8],
-					MusicalInterpretations: rec[9],
-					Notes:                  rec[10],
-					Abstracts:              rec[11],
-					Subjects:               rec[12],
-				}
-				db.Inventory = append(db.Inventory, inv)
-			}
+	for _, rec := range records {
+		w := Writing{
+			Phelps:     rec[0],
+			Language:   rec[1],
+			Version:    rec[2],
+			Name:       rec[3],
+			Type:       rec[4],
+			Notes:      rec[5],
+			Link:       rec[6],
+			Text:       rec[7],
+			Source:     rec[8],
+			SourceID:   rec[9],
+			IsVerified: parseBool(rec[10]),
 		}
+		db.Writings = append(db.Writings, w)
+	}
+
+	// Load languages
+	csvOut, err = execDoltQueryCSV("SELECT langcode,inlang,name FROM languages")
+	if err != nil {
+		return Database{}, fmt.Errorf("failed to load languages: %w", err)
+	}
+
+	r = csv.NewReader(strings.NewReader(string(csvOut)))
+	r.FieldsPerRecord = 3
+	records, err = r.ReadAll()
+	if err != nil {
+		return Database{}, fmt.Errorf("failed to parse languages CSV: %v", err)
+	}
+
+	if len(records) > 0 {
+		records = records[1:]
+	}
+
+	for _, rec := range records {
+		l := Language{
+			LangCode: rec[0],
+			InLang:   rec[1],
+			Name:     rec[2],
+		}
+		db.Languages = append(db.Languages, l)
 	}
 
 	return db, nil
 }
 
-// --- LLM Interaction Functions ---
+// --- Claude API Integration ---
 
-// Ollama API request/response structures
-type OllamaMessage struct {
-	Role    string `json:"role"`
-	Content string `json:"content"`
-}
-
-type OllamaChatRequest struct {
-	Model    string          `json:"model"`
-	Messages []OllamaMessage `json:"messages"`
-	Stream   bool            `json:"stream"`
-}
-
-type OllamaChatResponse struct {
-	Message OllamaMessage `json:"message"`
-	Done    bool          `json:"done"`
-}
-
-// Call Ollama API
-func CallOllama(prompt string, timeout time.Duration) (string, error) {
-	log.Printf("Starting Ollama API with model %s (timeout: %v)...", OllamaModel, timeout.Round(time.Second))
-
-	request := OllamaChatRequest{
-		Model:    OllamaModel,
-		Messages: []OllamaMessage{{Role: "user", Content: prompt}},
-		Stream:   false,
-	}
-
-	requestBody, err := json.Marshal(request)
-	if err != nil {
-		return "", fmt.Errorf("failed to marshal request: %w", err)
-	}
-
-	ctx, cancel := context.WithTimeout(context.Background(), timeout)
-	defer cancel()
-
-	httpReq, err := http.NewRequestWithContext(ctx, "POST", ollamaAPIURL+"/api/chat", bytes.NewBuffer(requestBody))
-	if err != nil {
-		return "", fmt.Errorf("failed to create HTTP request: %w", err)
-	}
-	httpReq.Header.Set("Content-Type", "application/json")
-
-	client := &http.Client{}
-	resp, err := client.Do(httpReq)
-	if err != nil {
-		if ctx.Err() == context.DeadlineExceeded {
-			return "", fmt.Errorf("ollama API timed out after %v with model %s", timeout.Round(time.Second), OllamaModel)
-		}
-		return "", fmt.Errorf("ollama API request failed: %w", err)
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode != http.StatusOK {
-		body, _ := io.ReadAll(resp.Body)
-		return "", fmt.Errorf("ollama API returned status %d: %s", resp.StatusCode, string(body))
-	}
-
-	responseBody, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return "", fmt.Errorf("failed to read response: %w", err)
-	}
-
-	var chatResponse OllamaChatResponse
-	if err := json.Unmarshal(responseBody, &chatResponse); err != nil {
-		return "", fmt.Errorf("failed to parse Ollama response: %w", err)
-	}
-
-	return filterCodeBlock(strings.TrimSpace(chatResponse.Message.Content)), nil
-}
-
-// Claude API request/response structures (simplified for stub)
 type ClaudeMessage struct {
 	Role    string `json:"role"`
 	Content string `json:"content"`
@@ -331,61 +204,95 @@ type ClaudeRequest struct {
 	MaxTokens int             `json:"max_tokens"`
 }
 
-type ClaudeResponse struct {
-	Content []struct {
-		Text string `json:"text"`
-	} `json:"content"`
+type ClaudeContentBlock struct {
+	Type string `json:"type"`
+	Text string `json:"text"`
 }
 
-// CallClaude Stub function
-func CallClaude(prompt string, timeout time.Duration) (string, error) {
-	if claudeAPIKey == nil || *claudeAPIKey == "" {
-		return "", fmt.Errorf("Claude API Key not provided. Use -claude-api-key flag or set CLAUDE_API_KEY environment variable.")
+type ClaudeResponse struct {
+	Content []ClaudeContentBlock `json:"content"`
+	Usage   struct {
+		InputTokens  int `json:"input_tokens"`
+		OutputTokens int `json:"output_tokens"`
+	} `json:"usage"`
+}
+
+// CallClaudeCLI uses the claude CLI tool (works with Claude Pro subscription)
+func CallClaudeCLI(prompt string) (string, error) {
+	log.Printf("Calling Claude via CLI (model: %s)...", claudeModel)
+
+	// Write prompt to temp file
+	tmpFile, err := os.CreateTemp("", "claude_prompt_*.txt")
+	if err != nil {
+		return "", fmt.Errorf("failed to create temp file: %w", err)
+	}
+	defer os.Remove(tmpFile.Name())
+
+	if _, err := tmpFile.WriteString(prompt); err != nil {
+		return "", fmt.Errorf("failed to write prompt: %w", err)
+	}
+	tmpFile.Close()
+
+	// Call claude CLI with file input
+	// Use bash -c to handle the file redirection properly
+	cmd := exec.Command("bash", "-c", fmt.Sprintf("claude --model %s --print < %s", claudeModel, tmpFile.Name()))
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return "", fmt.Errorf("claude CLI failed: %w: %s", err, string(output))
 	}
 
-	log.Printf("Starting Claude API call (timeout: %v)...", timeout.Round(time.Second))
+	log.Printf("Claude CLI success")
+	return strings.TrimSpace(string(output)), nil
+}
+
+// CallClaudeAPI uses the direct API (requires API key)
+func CallClaudeAPI(prompt string, maxTokens int) (string, error) {
+	if claudeAPIKey == "" {
+		return "", fmt.Errorf("CLAUDE_API_KEY environment variable not set")
+	}
+
+	log.Printf("Calling Claude API (model: %s, max tokens: %d)...", claudeModel, maxTokens)
 
 	request := ClaudeRequest{
-		Model:    "claude-3-opus-20240229", // Example Claude model
-		Messages: []ClaudeMessage{{Role: "user", Content: prompt}},
-		MaxTokens: 4000, // Reasonable default
+		Model:     claudeModel,
+		Messages:  []ClaudeMessage{{Role: "user", Content: prompt}},
+		MaxTokens: maxTokens,
 	}
 
 	requestBody, err := json.Marshal(request)
 	if err != nil {
-		return "", fmt.Errorf("failed to marshal Claude request: %w", err)
+		return "", fmt.Errorf("failed to marshal request: %w", err)
 	}
 
-	ctx, cancel := context.WithTimeout(context.Background(), timeout)
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
 	defer cancel()
 
-	httpReq, err := http.NewRequestWithContext(ctx, "POST", claudeAPIURL, bytes.NewBuffer(requestBody))
+	httpReq, err := http.NewRequestWithContext(ctx, "POST", "https://api.anthropic.com/v1/messages", bytes.NewBuffer(requestBody))
 	if err != nil {
-		return "", fmt.Errorf("failed to create Claude HTTP request: %w", err)
+		return "", fmt.Errorf("failed to create HTTP request: %w", err)
 	}
 
 	httpReq.Header.Set("Content-Type", "application/json")
-	httpReq.Header.Set("x-api-key", *claudeAPIKey)
-	httpReq.Header.Set("anthropic-version", "2023-06-01") // Required for Claude
+	httpReq.Header.Set("x-api-key", claudeAPIKey)
+	httpReq.Header.Set("anthropic-version", "2023-06-01")
 
 	client := &http.Client{}
 	resp, err := client.Do(httpReq)
 	if err != nil {
 		if ctx.Err() == context.DeadlineExceeded {
-			return "", fmt.Errorf("claude API timed out after %v", timeout.Round(time.Second))
+			return "", fmt.Errorf("claude API timed out after 5 minutes")
 		}
 		return "", fmt.Errorf("claude API request failed: %w", err)
 	}
 	defer resp.Body.Close()
 
-	if resp.StatusCode != http.StatusOK {
-		body, _ := io.ReadAll(resp.Body)
-		return "", fmt.Errorf("claude API returned status %d: %s", resp.StatusCode, string(body))
-	}
-
 	responseBody, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return "", fmt.Errorf("failed to read Claude response: %w", err)
+		return "", fmt.Errorf("failed to read response: %w", err)
+	}
+
+	if resp.StatusCode != http.StatusOK {
+		return "", fmt.Errorf("claude API returned status %d: %s", resp.StatusCode, string(responseBody))
 	}
 
 	var claudeResponse ClaudeResponse
@@ -393,511 +300,455 @@ func CallClaude(prompt string, timeout time.Duration) (string, error) {
 		return "", fmt.Errorf("failed to parse Claude response: %w", err)
 	}
 
-	if len(claudeResponse.Content) > 0 {
-		return filterCodeBlock(strings.TrimSpace(claudeResponse.Content[0].Text)), nil
+	if len(claudeResponse.Content) == 0 {
+		return "", fmt.Errorf("claude API returned empty content")
 	}
 
-	return "", fmt.Errorf("claude API returned empty content")
+	log.Printf("Claude API success (input: %d tokens, output: %d tokens)",
+		claudeResponse.Usage.InputTokens, claudeResponse.Usage.OutputTokens)
+
+	return strings.TrimSpace(claudeResponse.Content[0].Text), nil
 }
 
-// CallLLM is an orchestrator to choose between Ollama and Claude
-func CallLLM(prompt string, useClaude bool, timeout time.Duration) (string, error) {
-	if useClaude {
-		return CallClaude(prompt, timeout)
-	}
-	return CallOllama(prompt, timeout)
-}
+// CallClaude is the unified interface that picks CLI or API
+// CallGeminiCLI calls Gemini using the CLI
+func CallGeminiCLI(prompt string) (string, error) {
+	log.Printf("Calling Gemini via CLI...")
 
-
-// --- General Helper Functions ---
-
-// filterCodeBlock removes markdown code block fences (```json) from the response
-func filterCodeBlock(response string) string {
-	if strings.HasPrefix(response, "```json") {
-		response = strings.TrimPrefix(response, "```json")
-	} else if strings.HasPrefix(response, "```") {
-		response = strings.TrimPrefix(response, "```")
-	}
-	if strings.HasSuffix(response, "```") {
-		response = strings.TrimSuffix(response, "```")
-	}
-	return strings.TrimSpace(response)
-}
-
-// Helper for phelps code generation, if needed for new translations
-func generateCodeSuffix(text string) string {
-	// Simple keyword extraction for suffix
-	textLower := strings.ToLower(text)
-	if strings.Contains(textLower, "prayer") {
-		return "PRA"
-	} else if strings.Contains(textLower, "love") {
-		return "LOV"
-	} else if strings.Contains(textLower, "mercy") {
-		return "MER"
-	} else if strings.Contains(textLower, "unity") {
-		return "UNI"
-	} else if strings.Contains(textLower, "god") {
-		return "GOD"
-	}
-	return "NEW" // Default suffix
-}
-
-// Helper to check if a Phelps code already exists in the database
-func phelpsCodeExistsInDb(db *Database, phelpsCode string) bool {
-	for _, w := range db.Writings {
-		if w.Phelps == phelpsCode {
-			return true
-		}
-	}
-	return false
-}
-
-// --- Main Logic for Translate Stage ---
-func translatePrayersMain() {
-	targetLanguage := flag.String("language", "", "Target language code for translation (e.g., pt, es)")
-	maxPrayers := flag.Int("max", 0, "Maximum number of English prayers to translate (0 = unlimited)")
-	ollamaModel := flag.String("model", "gpt-oss", "Ollama model to use for translation (default: gpt-oss)")
-	reportPath := flag.String("report", "translation_report.txt", "Path for the translation report file")
-	verbose := flag.Bool("verbose", false, "Enable verbose output")
-	useClaude := flag.Bool("use-claude", false, "Use Claude API for LLM calls")
-	claudeAPIKey = flag.String("claude-api-key", os.Getenv("CLAUDE_API_KEY"), "Claude API Key (or set CLAUDE_API_KEY env var)") // Claude API Key flag
-	flag.Parse()
-
-	if *targetLanguage == "" {
-		log.Fatal("Error: -language flag is required (e.g., -language=pt)")
-	}
-	OllamaModel = *ollamaModel
-
-	log.Printf("Starting translation for language: %s using model: %s", *targetLanguage, OllamaModel)
-
-	db, err := GetDatabase()
+	// Write prompt to temp file
+	tmpFile, err := os.CreateTemp("", "gemini_prompt_*.txt")
 	if err != nil {
-		log.Fatalf("Failed to load database: %v", err)
+		return "", fmt.Errorf("failed to create temp file: %w", err)
 	}
-	log.Println("Database loaded successfully.")
+	defer os.Remove(tmpFile.Name())
 
-	// Open report file
-	reportFile, err := os.Create(*reportPath)
+	if _, err := tmpFile.WriteString(prompt); err != nil {
+		tmpFile.Close()
+		return "", fmt.Errorf("failed to write prompt: %w", err)
+	}
+	tmpFile.Close()
+
+	// Call gemini CLI
+	cmd := exec.Command("gemini", "-f", tmpFile.Name())
+	output, err := cmd.CombinedOutput()
 	if err != nil {
-		log.Fatalf("Failed to create report file: %v", err)
+		return "", fmt.Errorf("gemini CLI failed: %w: %s", err, string(output))
 	}
-	defer reportFile.Close()
 
-	fmt.Fprintf(reportFile, "Prayer Translation Report\n")
-	fmt.Fprintf(reportFile, "=========================\n")
-	fmt.Fprintf(reportFile, "Started: %s\n", time.Now().Format(time.RFC3339))
-	fmt.Fprintf(reportFile, "Target Language: %s\n", *targetLanguage)
-	fmt.Fprintf(reportFile, "LLM Model: %s (Claude: %t)\n", OllamaModel, *useClaude)
-	fmt.Fprintf(reportFile, "Max Prayers to Process: %d\n", *maxPrayers)
-	fmt.Fprintf(reportFile, "Verbose Mode: %t\n\n", *verbose)
+	log.Printf("Gemini CLI success")
+	return string(output), nil
+}
 
-	processedCount := 0
-	translatedCount := 0
-	skippedCount := 0
+// CallGptOss calls gpt-oss for local processing
+func CallGptOss(prompt string) (string, error) {
+	log.Printf("Calling gpt-oss (local fallback)...")
 
-	// Get English prayers with Phelps codes
-	englishPrayers := make(map[string]Writing)
+	// Write prompt to temp file
+	tmpFile, err := os.CreateTemp("", "gptoss_prompt_*.txt")
+	if err != nil {
+		return "", fmt.Errorf("failed to create temp file: %w", err)
+	}
+	defer os.Remove(tmpFile.Name())
+
+	if _, err := tmpFile.WriteString(prompt); err != nil {
+		tmpFile.Close()
+		return "", fmt.Errorf("failed to write prompt: %w", err)
+	}
+	tmpFile.Close()
+
+	// Call gpt-oss CLI
+	cmd := exec.Command("gpt-oss", "-f", tmpFile.Name())
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return "", fmt.Errorf("gpt-oss CLI failed: %w: %s", err, string(output))
+	}
+
+	log.Printf("gpt-oss success (local processing)")
+	return string(output), nil
+}
+
+// CallClaude routes to CLI, API, or fallback based on configuration
+func CallClaude(prompt string, maxTokens int) (string, error) {
+	if useGptOss {
+		return CallGptOss(prompt)
+	}
+	if useGemini {
+		return CallGeminiCLI(prompt)
+	}
+	if useCLI {
+		return CallClaudeCLI(prompt)
+	}
+	return CallClaudeAPI(prompt, maxTokens)
+}
+
+// --- Matching Logic ---
+
+// BuildEnglishReference extracts all English prayers with Phelps codes
+func BuildEnglishReference(db Database) []EnglishReference {
+	var refs []EnglishReference
 	for _, w := range db.Writings {
 		if w.Language == "en" && w.Phelps != "" && w.Text != "" {
-			englishPrayers[w.Phelps] = w
+			refs = append(refs, EnglishReference{
+				Phelps:   w.Phelps,
+				Name:     w.Name,
+				Text:     w.Text,
+				Category: w.Type,
+			})
 		}
 	}
-
-	// Identify already translated prayers in the target language
-	existingTranslations := make(map[string]bool) // Map of phelpsCode -> true if translated
-	for _, w := range db.Writings {
-		if w.Language == *targetLanguage && w.Phelps != "" && w.IsVerified {
-			existingTranslations[w.Phelps] = true
-		}
-	}
-	
-	// Identify draft translations that might need updating
-	existingDrafts := make(map[string]Writing) // Map of phelpsCode -> Writing
-	for _, w := range db.Writings {
-		if w.Language == *targetLanguage && w.Phelps != "" && w.Source == "LLM_DRAFT_TRANSLATION" {
-			existingDrafts[w.Phelps] = w
-		}
-	}
-
-
-	fmt.Fprintf(reportFile, "Found %d English prayers with Phelps codes.\n", len(englishPrayers))
-	fmt.Fprintf(reportFile, "Found %d existing translations in %s.\n", len(existingTranslations), *targetLanguage)
-	fmt.Fprintf(reportFile, "Found %d existing draft translations in %s.\n", len(existingDrafts), *targetLanguage)
-	fmt.Printf("Found %d English prayers with Phelps codes.\n", len(englishPrayers))
-	fmt.Printf("Found %d existing translations in %s.\n", len(existingTranslations), *targetLanguage)
-	fmt.Printf("Found %d existing draft translations in %s.\n", len(existingDrafts), *targetLanguage)
-
-
-	for phelps, enPrayer := range englishPrayers {
-		if *maxPrayers > 0 && processedCount >= *maxPrayers {
-			log.Printf("Max prayers limit (%d) reached. Stopping.", *maxPrayers)
-			break
-		}
-
-		// Skip if a verified translation already exists
-		if existingTranslations[phelps] {
-			if *verbose {
-				fmt.Printf("Skipping %s (English) -> %s: Verified translation already exists.\n", phelps, *targetLanguage)
-			}
-			skippedCount++
-			continue
-		}
-
-		processedCount++
-		fmt.Printf("\n--- Processing %d/%d: Translating %s (English) to %s ---\n", processedCount, len(englishPrayers), phelps, *targetLanguage)
-		fmt.Fprintf(reportFile, "\n--- Processing %d/%d: Translating %s (English) to %s ---\n", processedCount, len(englishPrayers), phelps, *targetLanguage)
-
-		// Prepare prompt for LLM
-		prompt := fmt.Sprintf("Translate the following English Baháʼí prayer into %s:\n\n%s", *targetLanguage, enPrayer.Text)
-
-		if *verbose {
-			fmt.Printf("  Prompting LLM for translation...\n")
-		}
-
-		translatedText, err := CallLLM(prompt, *useClaude, 5*time.Minute) // 5 minutes timeout for translation
-		if err != nil {
-			log.Printf("Error translating %s to %s: %v", phelps, *targetLanguage, err)
-			fmt.Fprintf(reportFile, "  ERROR translating %s: %v\n", phelps, err)
-			skippedCount++
-			continue
-		}
-
-		if strings.TrimSpace(translatedText) == "" {
-			log.Printf("LLM returned empty translation for %s to %s", phelps, *targetLanguage)
-			fmt.Fprintf(reportFile, "  WARNING: Empty translation returned for %s\n", phelps)
-			skippedCount++
-			continue
-		}
-
-		// Update or insert the translated prayer
-		err = updateOrInsertTranslation(&db, phelps, *targetLanguage, translatedText)
-		if err != nil {
-			log.Printf("Error saving translated prayer %s (%s): %v", phelps, *targetLanguage, err)
-			fmt.Fprintf(reportFile, "  ERROR saving translated prayer %s: %v\n", phelps, err)
-			skippedCount++
-		} else {
-			translatedCount++
-			fmt.Printf("  ✅ Translated %s to %s. Saved as draft.\n", phelps, *targetLanguage)
-			fmt.Fprintf(reportFile, "  Translated %s to %s. Saved as draft.\n", phelps, *targetLanguage)
-		}
-		time.Sleep(500 * time.Millisecond) // Small delay to avoid overwhelming Ollama/Claude
-	}
-
-	fmt.Printf("\n--- Translation Process Complete ---\n")
-	fmt.Printf("Total English prayers processed: %d\n", processedCount)
-	fmt.Printf("Newly translated/updated drafts: %d\n", translatedCount)
-	fmt.Printf("Skipped (verified/errors): %d\n", skippedCount)
-
-	fmt.Fprintf(reportFile, "\n--- Translation Process Complete ---\n")
-	fmt.Fprintf(reportFile, "Total English prayers processed: %d\n", processedCount)
-	fmt.Fprintf(reportFile, "Newly translated/updated drafts: %d\n", translatedCount)
-	fmt.Fprintf(reportFile, "Skipped (verified/errors): %d\n", skippedCount)
-	fmt.Fprintf(reportFile, "Completed: %s\n", time.Now().Format(time.RFC3339))
-
-	// Commit changes to Dolt
-	if translatedCount > 0 {
-		commitMessage := fmt.Sprintf("Translate prayers: %d new/updated drafts for %s", translatedCount, *targetLanguage)
-		cmd := execDoltCommand("add", ".")
-		if output, err := cmd.CombinedOutput(); err != nil {
-			log.Printf("ERROR: Failed to stage changes for Dolt commit: %v: %s", err, string(output))
-			fmt.Fprintf(reportFile, "  ERROR: Failed to stage changes for Dolt commit: %v: %s\n", err, string(output))
-		} else {
-			cmd = execDoltCommand("commit", "-m", commitMessage)
-			if output, err := cmd.CombinedOutput(); err != nil {
-				log.Printf("ERROR: Failed to commit changes to Dolt: %v: %s", err, string(output))
-				fmt.Fprintf(reportFile, "  ERROR: Failed to commit changes to Dolt: %v: %s\n", err, string(output))
-			} else {
-				log.Printf("SUCCESS: Changes committed to Dolt: %s", commitMessage)
-				fmt.Fprintf(reportFile, "  SUCCESS: Changes committed to Dolt: %s\n", commitMessage)
-			}
-		}
-	}
+	return refs
 }
 
-// --- Main Logic for Match Stage ---
-func matchTranslatedPrayersMain() {
-	targetLanguage := flag.String("language", "", "Target language code for matching (e.g., pt, es)")
-	maxPrayers := flag.Int("max", 0, "Maximum number of draft prayers to process (0 = unlimited)")
-	ollamaModel := flag.String("model", "gpt-oss", "Ollama model to use for matching (default: gpt-oss)")
-	reportPath := flag.String("report", "matching_report.txt", "Path for the matching report file")
-	verbose := flag.Bool("verbose", false, "Enable verbose output")
-	useClaude := flag.Bool("use-claude", false, "Use Claude API for LLM calls")
-	claudeAPIKey = flag.String("claude-api-key", os.Getenv("CLAUDE_API_KEY"), "Claude API Key (or set CLAUDE_API_KEY env var)") // Claude API Key flag
-	flag.Parse()
-
-	if *targetLanguage == "" {
-		log.Fatal("Error: -language flag is required (e.g., -language=pt)")
-	}
-	OllamaModel = *ollamaModel
-
-	log.Printf("Starting matching for language: %s using model: %s", *targetLanguage, OllamaModel)
-
-	db, err := GetDatabase()
-	if err != nil {
-		log.Fatalf("Failed to load database: %v", err)
-	}
-	log.Println("Database loaded successfully.")
-
-	// Open report file
-	reportFile, err := os.Create(*reportPath)
-	if err != nil {
-		log.Fatalf("Failed to create report file: %v", err)
-	}
-	defer reportFile.Close()
-
-	fmt.Fprintf(reportFile, "Prayer Matching Report (from Draft Translations)\n")
-	fmt.Fprintf(reportFile, "===============================================\n")
-	fmt.Fprintf(reportFile, "Started: %s\n", time.Now().Format(time.RFC3339))
-	fmt.Fprintf(reportFile, "Target Language: %s\n", *targetLanguage)
-	fmt.Fprintf(reportFile, "LLM Model: %s (Claude: %t)\n", OllamaModel, *useClaude)
-	fmt.Fprintf(reportFile, "Max Draft Prayers to Process: %d\n", *maxPrayers)
-	fmt.Fprintf(reportFile, "Verbose Mode: %t\n\n", *verbose)
-
-	processedCount := 0
-	matchedCount := 0
-	newlyAssignedCount := 0
-	problemCount := 0
-
-	// Get English prayers with Phelps codes (for reference)
-	englishReferencePrayers := make(map[string]Writing)
+// BuildTargetPrayers extracts all prayers in target language
+func BuildTargetPrayers(db Database, language string) []TargetPrayer {
+	var prayers []TargetPrayer
 	for _, w := range db.Writings {
-		if w.Language == "en" && w.Phelps != "" && w.Text != "" {
-			englishReferencePrayers[w.Phelps] = w
+		if w.Language == language && w.Text != "" {
+			prayers = append(prayers, TargetPrayer{
+				Version: w.Version,
+				Name:    w.Name,
+				Text:    w.Text,
+				Link:    w.Link,
+				Source:  w.Source,
+			})
 		}
 	}
+	return prayers
+}
 
-	// Get existing *verified* translations in the target language (for matching against)
-	existingVerifiedTranslations := make(map[string]Writing) // phelpsCode -> Writing
-	for _, w := range db.Writings {
-		if w.Language == *targetLanguage && w.Phelps != "" && w.IsVerified {
-			existingVerifiedTranslations[w.Phelps] = w
-		}
+// ChunkSize defines how many English prayers to process per request
+const ChunkSize = 30
+
+// CreateMatchingPrompt builds the structured prompt for Claude
+func CreateMatchingPrompt(englishRefs []EnglishReference, targetPrayers []TargetPrayer, targetLang string, chunkInfo string) string {
+	var prompt strings.Builder
+
+	prompt.WriteString("You are an expert in Bahá'í prayers tasked with matching prayers across languages.\n\n")
+	if chunkInfo != "" {
+		prompt.WriteString(fmt.Sprintf("# BATCH INFO\n%s\n\n", chunkInfo))
 	}
+	prompt.WriteString("# YOUR TASK\n")
+	prompt.WriteString(fmt.Sprintf("Match %s prayers to English reference prayers using Phelps codes. For each English prayer:\n", targetLang))
+	prompt.WriteString("1. Find the matching prayer in the target language collection (if it exists)\n")
+	prompt.WriteString("2. If no match exists, provide a NEW_TRANSLATION\n")
+	prompt.WriteString("3. Assign the same Phelps code to maintain cross-language linking\n\n")
 
-	// Get draft translations to be processed
-	var draftTranslations []Writing
-	for _, w := range db.Writings {
-		if w.Language == *targetLanguage && w.Source == "LLM_DRAFT_TRANSLATION" && !w.IsVerified {
-			draftTranslations = append(draftTranslations, w)
-		}
-	}
+	prompt.WriteString("# ENGLISH REFERENCE COLLECTION (with Phelps codes)\n")
+	prompt.WriteString("```json\n")
+	englishJSON, _ := json.MarshalIndent(englishRefs, "", "  ")
+	prompt.WriteString(string(englishJSON))
+	prompt.WriteString("\n```\n\n")
 
-	log.Printf("Found %d English reference prayers.", len(englishReferencePrayers))
-	log.Printf("Found %d existing VERIFIED translations in %s.", len(existingVerifiedTranslations), *targetLanguage)
-	log.Printf("Found %d DRAFT translations to process in %s.", len(draftTranslations), *targetLanguage)
+	prompt.WriteString(fmt.Sprintf("# TARGET LANGUAGE COLLECTION (%s)\n", targetLang))
+	prompt.WriteString("```json\n")
+	targetJSON, _ := json.MarshalIndent(targetPrayers, "", "  ")
+	prompt.WriteString(string(targetJSON))
+	prompt.WriteString("\n```\n\n")
 
-	fmt.Fprintf(reportFile, "Found %d English reference prayers.\n", len(englishReferencePrayers))
-	fmt.Fprintf(reportFile, "Found %d existing VERIFIED translations in %s.\n", len(existingVerifiedTranslations), *targetLanguage)
-	fmt.Fprintf(reportFile, "Found %d DRAFT translations to process in %s.\n", len(draftTranslations), *targetLanguage)
-
-
-	for i, draftPrayer := range draftTranslations {
-		if *maxPrayers > 0 && processedCount >= *maxPrayers {
-			log.Printf("Max draft prayers limit (%d) reached. Stopping.", *maxPrayers)
-			break
-		}
-
-		processedCount++
-		fmt.Printf("\n--- Processing draft %d/%d: %s (Phelps: %s) ---\n", i+1, len(draftTranslations), draftPrayer.Version, draftPrayer.Phelps)
-		fmt.Fprintf(reportFile, "\n--- Processing draft %d/%d: %s (Phelps: %s) ---\n", i+1, len(draftTranslations), draftPrayer.Version, draftPrayer.Phelps)
-
-		// Get the English original for this draft
-		enOriginal, hasEnglishOriginal := englishReferencePrayers[draftPrayer.Phelps]
-
-		// Build prompt for matching/verification
-		var prompt strings.Builder
-		prompt.WriteString(fmt.Sprintf("You are an expert Baháʼí scholar and prayer matcher. Your task is to analyze a [Target Language] prayer text, an English original, and existing canonical translations. Based on this, you will determine if the [Target Language] prayer is a match to an existing known prayer, or if it is a new valid translation.\n\n"))
-		prompt.WriteString(fmt.Sprintf("Target Language: %s\n\n", *targetLanguage))
-
-		if hasEnglishOriginal {
-			prompt.WriteString(fmt.Sprintf("English Original (Phelps: %s):\n%s\n\n", enOriginal.Phelps, enOriginal.Text))
-		} else {
-			prompt.WriteString(fmt.Sprintf("English Original: (Phelps: %s) - NOT FOUND IN REFERENCE. This draft might be problematic or the English original is missing.\n\n", draftPrayer.Phelps))
-		}
-
-		prompt.WriteString(fmt.Sprintf("Draft %s Translation (Version: %s):\n%s\n\n", *targetLanguage, draftPrayer.Version, draftPrayer.Text))
-		
-		prompt.WriteString("Here are existing *verified* translations in " + *targetLanguage + " for reference (compare with these first):")
-		// Include relevant verified translations in the prompt for context
-		// For now, let's just include a few general verified translations,
-		// or ones that share similar keywords with the draft or English original.
-		// This is where "intelligent context pruning" from the previous discussion would be implemented.
-		// For simplification, let's just add a placeholder for now.
-		prompt.WriteString("[Curated list of relevant existing VERIFIED translations in " + *targetLanguage + " (Phelps: Text)]\n\n")
-
-
-		prompt.WriteString("Your response should be in the following JSON format. Please provide a clear action and reasoning:\n")
-		prompt.WriteString(`{
-  "phelps_code": "<Phelps Code or NEW_TRANSLATION or PROBLEM>",
-  "confidence": <0-100 float>,
-  "reasoning": "<Your detailed explanation>",
-  "action": "<MATCH_EXISTING, NEW_TRANSLATION, or PROBLEM>"
+	prompt.WriteString("# OUTPUT FORMAT\n")
+	prompt.WriteString("Respond with JSON in this exact format:\n")
+	prompt.WriteString("```json\n")
+	prompt.WriteString(`{
+  "matches": [
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "es_prayer_001",
+      "match_type": "EXISTING",
+      "confidence": 95,
+      "reasoning": "Opening phrase and content match perfectly"
+    },
+    {
+      "phelps": "AB00002SEC",
+      "target_version": "",
+      "match_type": "NEW_TRANSLATION",
+      "confidence": 100,
+      "translated_text": "[Your translation here]",
+      "reasoning": "No existing translation found, created new one"
+    }
+  ],
+  "summary": "Matched X existing prayers, created Y new translations"
 }
 `)
-		
-		prompt.WriteString("Instructions:\n")
-		prompt.WriteString("1. If the Draft Translation is identical or very similar to an existing VERIFIED translation in " + *targetLanguage + " (based on content and Phelps code match), set 'action' to 'MATCH_EXISTING' and provide the Phelps code and high confidence.\n")
-		prompt.WriteString("2. If the Draft Translation is a valid translation of the English original but does NOT match any existing VERIFIED translation, set 'action' to 'NEW_TRANSLATION'. Assign a Phelps code based on the English original's PIN and generate a 3-letter suffix (e.g., AB00001GOD, AB00001MER). Provide high confidence.\n")
-		prompt.WriteString("3. If the Draft Translation is poor quality, irrelevant, or if the English original is missing and cannot be validated, set 'action' to 'PROBLEM'. Provide reasoning and low confidence. In this case, 'phelps_code' can be the original draft's phelps code or empty.\n")
-		prompt.WriteString("4. Ensure 'phelps_code' is present for MATCH_EXISTING and NEW_TRANSLATION actions. For NEW_TRANSLATION, generate a unique 10-character code (7-char PIN + 3-char TAG).\n\n")
+	prompt.WriteString("```\n\n")
 
-		if *verbose {
-			fmt.Printf("  Prompting LLM for matching/verification...\n")
-		}
+	prompt.WriteString("# RULES\n")
+	prompt.WriteString("- match_type must be: EXISTING (found match), NEW_TRANSLATION (translate), or SKIP (cannot match/translate)\n")
+	prompt.WriteString("- For EXISTING: provide target_version\n")
+	prompt.WriteString("- For NEW_TRANSLATION: provide translated_text\n")
+	prompt.WriteString("- confidence: 0-100 (how sure you are of the match/translation)\n")
+	prompt.WriteString("- Always include reasoning\n")
+	prompt.WriteString("- Preserve theological terminology and style\n\n")
 
-		var llmResponseRaw string
-		var callErr error
+	prompt.WriteString("Begin matching now. Return only the JSON response.\n")
 
-		if *useClaude {
-			llmResponseRaw, callErr = CallClaude(prompt.String(), 2*time.Minute) // 2 minutes timeout for matching
-		} else {
-			llmResponseRaw, callErr = CallOllama(prompt.String(), 2*time.Minute)
-		}
-
-		if callErr != nil {
-			log.Printf("Error during LLM matching for %s (%s): %v", draftPrayer.Version, *targetLanguage, callErr)
-			fmt.Fprintf(reportFile, "  ERROR LLM Matching for %s: %v\n", draftPrayer.Version, callErr)
-			problemCount++
-			continue
-		}
-
-		var llmResponse LLMResponse
-		if err := json.Unmarshal([]byte(llmResponseRaw), &llmResponse); err != nil {
-			log.Printf("Error parsing LLM response for %s (%s): %v. Raw: %s", draftPrayer.Version, *targetLanguage, err, llmResponseRaw)
-			fmt.Fprintf(reportFile, "  ERROR Parsing LLM Response for %s: %v. Raw: %s\n", draftPrayer.Version, err, llmResponseRaw)
-			problemCount++
-			continue
-		}
-
-		fmt.Printf("  LLM Decision: %s (Phelps: %s, Conf: %.1f%%)\n", llmResponse.Action, llmResponse.PhelpsCode, llmResponse.Confidence)
-		fmt.Fprintf(reportFile, "  LLM Decision: %s (Phelps: %s, Conf: %.1f%%)\n", llmResponse.Action, llmResponse.PhelpsCode, llmResponse.Confidence)
-
-		// Process LLM's action
-		switch llmResponse.Action {
-		case "MATCH_EXISTING":
-			if llmResponse.PhelpsCode == "" {
-				log.Printf("ERROR: LLM returned MATCH_EXISTING but no phelps_code for %s", draftPrayer.Version)
-				fmt.Fprintf(reportFile, "  ERROR: LLM returned MATCH_EXISTING but no phelps_code for %s\n", draftPrayer.Version)
-				problemCount++
-				continue
-			}
-			// Update the draft prayer to reflect it's now a confirmed match
-			query := `UPDATE writings SET phelps = ?, source = ?, notes = ?, is_verified = ?
-			              WHERE version = ?`
-			
-			if _, err := execDoltQueryParam(query,
-				llmResponse.PhelpsCode,
-				"LLM_VERIFIED_MATCH",
-				llmResponse.Reasoning,
-				tru e, // Verified
-				draftPrayer.Version); err != nil {
-				log.Printf("Error updating writings table for MATCH_EXISTING (%s): %v", draftPrayer.Version, err)
-				fmt.Fprintf(reportFile, "  ERROR DB Update for MATCH_EXISTING: %v\n", err)
-				problemCount++
-			} else {
-				matchedCount++
-				fmt.Printf("  ✅ Updated draft %s: Matched to existing %s.\n", draftPrayer.Version, llmResponse.PhelpsCode)
-				fmt.Fprintf(reportFile, "  Updated draft %s: Matched to existing %s.\n", draftPrayer.Version, llmResponse.PhelpsCode)
-			}
-
-		case "NEW_TRANSLATION":
-			// The LLM has confirmed this is a new, valid translation of the English prayer identified by draftPrayer.Phelps.
-			// Therefore, the Phelps code should be the same as the English original.
-			finalPhelpsCode := draftPrayer.Phelps
-			
-			// Update the draft prayer
-			query := `UPDATE writings SET phelps = ?, source = ?, notes = ?, is_verified = ?
-			                      WHERE version = ?`
-			
-			if _, err := execDoltQueryParam(query,
-				finalPhelpsCode,
-				"LLM_TRANSLATED_UNVERIFIED",
-				llmResponse.Reasoning,
-				false, // Still unverified, requires human review
-				draftPrayer.Version); err != nil {
-				log.Printf("Error updating writings table for NEW_TRANSLATION (%s): %v", draftPrayer.Version, err)
-				fmt.Fprintf(reportFile, "  ERROR DB Update for NEW_TRANSLATION: %v\n", err)
-				problemCount++
-			} else {
-				newlyAssignedCount++
-				fmt.Printf("  ✅ Updated draft %s: Confirmed as new translation. Assigned Phelps: %s.\n", draftPrayer.Version, finalPhelpsCode)
-				fmt.Fprintf(reportFile, "  Updated draft %s: Confirmed as new translation. Assigned Phelps: %s.\n", draftPrayer.Version, finalPhelpsCode)
-			}
-
-		case "PROBLEM":
-			problemCount++
-			// Mark the draft as problematic for review
-			query := `UPDATE writings SET source = ?, notes = ?, is_verified = ?
-			                      WHERE version = ?`
-			
-			if _, err := execDoltQueryParam(query,
-				"LLM_PROBLEM_DRAFT",
-				llmResponse.Reasoning,
-				false, // Still unverified
-				draftPrayer.Version); err != nil {
-				log.Printf("Error updating writings table for PROBLEM (%s): %v", draftPrayer.Version, err)
-				fmt.Fprintf(reportFile, "  ERROR DB Update for PROBLEM: %v\n", err)
-			} else {
-				fmt.Printf("  ⚠️  Marked draft %s as problematic: %s.\n", draftPrayer.Version, llmResponse.Reasoning)
-				fmt.Fprintf(reportFile, "  Marked draft %s as problematic: %s.\n", draftPrayer.Version, llmResponse.Reasoning)
-			}
-
-		default:
-			problemCount++
-			log.Printf("LLM returned unregonized action for %s (%s): %s", draftPrayer.Version, *targetLanguage, llmResponse.Action)
-			fmt.Fprintf(reportFile, "  ERROR LLM returned unregonized action for %s: %s\n", draftPrayer.Version, llmResponse.Action)
-		}
-		time.Sleep(500 * time.Millisecond) // Small delay to avoid overwhelming Ollama
-	}
-
-	fmt.Printf("\n--- Matching Process Complete ---\n")
-	fmt.Printf("Total draft prayers processed: %d\n", processedCount)
-	fmt.Printf("Matched to existing prayers: %d\n", matchedCount)
-	fmt.Printf("Confirmed as new translations: %d\n", newlyAssignedCount)
-	fmt.Printf("Problematic drafts: %d\n", problemCount)
-
-	fmt.Fprintf(reportFile, "\n--- Matching Process Complete ---\n")
-	fmt.Fprintf(reportFile, "Total draft prayers processed: %d\n", processedCount)
-	fmt.Fprintf(reportFile, "Matched to existing prayers: %d\n", matchedCount)
-	fmt.Fprintf(reportFile, "Confirmed as new translations: %d\n", newlyAssignedCount)
-	fmt.Fprintf(reportFile, "Problematic drafts: %d\n", problemCount)
-	fmt.Fprintf(reportFile, "Completed: %s\n", time.Now().Format(time.RFC3339))
-
-	// Commit changes to Dolt
-	if processedCount > 0 { // Commit if anything was processed
-		commitMessage := fmt.Sprintf("Match translated prayers: %d drafts processed for %s (matched: %d, new: %d, problems: %d)",
-			processedCount, *targetLanguage, matchedCount, newlyAssignedCount, problemCount)
-		cmd := execDoltCommand("add", ".")
-		if output, err := cmd.CombinedOutput(); err != nil {
-			log.Printf("ERROR: Failed to stage changes for Dolt commit: %v: %s", err, string(output))
-			fmt.Fprintf(reportFile, "  ERROR: Failed to stage changes for Dolt commit: %v: %s\n", err, string(output))
-		} else {
-			cmd = execDoltCommand("commit", "-m", commitMessage)
-			if output, err := cmd.CombinedOutput(); err != nil {
-				log.Printf("ERROR: Failed to commit changes to Dolt: %v: %s", err, string(output))
-				fmt.Fprintf(reportFile, "  ERROR: Failed to commit changes to Dolt: %v: %s\n", err, string(output))
-			} else {
-				log.Printf("SUCCESS: Changes committed to Dolt: %s", commitMessage)
-				fmt.Fprintf(reportFile, "  SUCCESS: Changes committed to Dolt: %s\n", commitMessage)
-			}
-		}
-	}
+	return prompt.String()
 }
 
+// ProcessMatchResults applies the matching results to the database
+func ProcessMatchResults(db *Database, results BatchMatchResponse, targetLang string, reportFile *os.File) error {
+	matched := 0
+	translated := 0
+	skipped := 0
+
+	for _, match := range results.Matches {
+		fmt.Fprintf(reportFile, "\n--- Processing: %s ---\n", match.Phelps)
+		fmt.Fprintf(reportFile, "  Type: %s\n", match.MatchType)
+		fmt.Fprintf(reportFile, "  Confidence: %d%%\n", match.Confidence)
+		fmt.Fprintf(reportFile, "  Reasoning: %s\n", match.Reasoning)
+
+		switch match.MatchType {
+		case "EXISTING":
+			// Update existing prayer with Phelps code
+			query := fmt.Sprintf("UPDATE writings SET phelps = '%s' WHERE version = '%s' AND language = '%s'",
+				strings.ReplaceAll(match.Phelps, "'", "''"),
+				strings.ReplaceAll(match.TargetVersion, "'", "''"),
+				targetLang)
+
+			if _, err := execDoltQuery(query); err != nil {
+				fmt.Fprintf(reportFile, "  ERROR: Failed to update: %v\n", err)
+				continue
+			}
+			matched++
+			fmt.Fprintf(reportFile, "  ✅ Updated %s -> %s\n", match.TargetVersion, match.Phelps)
+
+		case "NEW_TRANSLATION":
+			// Insert new translation
+			version := fmt.Sprintf("%s_llm_%s", targetLang, match.Phelps)
+			query := fmt.Sprintf(`INSERT INTO writings (phelps, language, version, name, text, source, is_verified)
+				VALUES ('%s', '%s', '%s', 'LLM Translation', '%s', 'LLM_TRANSLATION', false)`,
+				strings.ReplaceAll(match.Phelps, "'", "''"),
+				targetLang,
+				strings.ReplaceAll(version, "'", "''"),
+				strings.ReplaceAll(match.TranslatedText, "'", "''"))
+
+			if _, err := execDoltQuery(query); err != nil {
+				fmt.Fprintf(reportFile, "  ERROR: Failed to insert: %v\n", err)
+				continue
+			}
+			translated++
+			fmt.Fprintf(reportFile, "  ✅ Created new translation for %s\n", match.Phelps)
+
+		case "SKIP":
+			skipped++
+			fmt.Fprintf(reportFile, "  ⏭️  Skipped\n")
+		}
+	}
+
+	fmt.Fprintf(reportFile, "\n=== SUMMARY ===\n")
+	fmt.Fprintf(reportFile, "Matched existing: %d\n", matched)
+	fmt.Fprintf(reportFile, "New translations: %d\n", translated)
+	fmt.Fprintf(reportFile, "Skipped: %d\n", skipped)
+
+	log.Printf("Summary: %d matched, %d translated, %d skipped", matched, translated, skipped)
+
+	return nil
+}
+
+// --- Main ---
+
 func main() {
-	var stage = flag.String("stage", "", "Stage to run: 'translate' or 'match'")
+	targetLanguage := flag.String("language", "", "Target language code (e.g., es, pt, fr)")
+	reportPath := flag.String("report", "matching_report.txt", "Path for the report file")
+	dryRun := flag.Bool("dry-run", false, "Don't update database, just show what would happen")
+	useCLIFlag := flag.Bool("cli", false, "Use claude CLI instead of API (works with Claude Pro)")
+	useGeminiFlag := flag.Bool("gemini", false, "Use Gemini CLI as fallback when Claude hits rate limits")
+	useGptOssFlag := flag.Bool("gpt-oss", false, "Use gpt-oss as local fallback (no rate limits)")
+	useCompressedFlag := flag.Bool("compressed", false, "Use compressed fingerprint matching (90% fewer API calls)")
+	useUltraCompressedFlag := flag.Bool("ultra", false, "Use ultra-compressed multi-language batching (97% fewer API calls)")
 	flag.Parse()
 
-	if *stage == "" {
-		log.Fatal("Error: -stage flag is required (e.g., -stage=translate or -stage=match)")
+	useCLI = *useCLIFlag
+	useGemini = *useGeminiFlag
+	useGptOss = *useGptOssFlag
+	useCompressed = *useCompressedFlag
+	useUltraCompressed = *useUltraCompressedFlag
+
+	// Get API key from environment (only required if not using CLI)
+	if !useCLI && !useGemini && !useGptOss {
+		claudeAPIKey = os.Getenv("CLAUDE_API_KEY")
+		if claudeAPIKey == "" {
+			log.Fatal("CLAUDE_API_KEY environment variable must be set (or use -cli/-gemini/-gpt-oss flag)")
+		}
 	}
 
-	sswitch *stage {
-	case "translate":
-		translatePrayersMain()
-	case "match":
-		matchTranslatedPrayersMain()
-	default:
-		log.Fatalf("Error: Invalid stage '%s'. Must be 'translate' or 'match'.", *stage)
+	// Check Gemini requirements
+	if useGemini {
+		if os.Getenv("GEMINI_API_KEY") == "" {
+			log.Fatal("GEMINI_API_KEY environment variable must be set when using -gemini flag")
+		}
 	}
+
+	// Check gpt-oss requirements
+	if useGptOss {
+		if _, err := exec.LookPath("gpt-oss"); err != nil {
+			log.Fatal("gpt-oss CLI not found. Please install it first: https://github.com/your-repo/gpt-oss")
+		}
+	}
+
+	// Route to ultra-compressed matching if requested (processes ALL languages)
+	if useUltraCompressed {
+		if *targetLanguage != "" {
+			log.Println("Note: -ultra flag processes ALL languages, ignoring -language flag")
+		}
+		if useGptOss {
+			log.Printf("Starting ULTRA-COMPRESSED multi-language batch matching with gpt-oss (local)")
+		} else if useGemini {
+			log.Printf("Starting ULTRA-COMPRESSED multi-language batch matching with Gemini")
+		} else {
+			log.Printf("Starting ULTRA-COMPRESSED multi-language batch matching")
+		}
+		if err := UltraCompressedBulkMatching(); err != nil {
+			log.Fatalf("Ultra-compressed matching failed: %v", err)
+		}
+		log.Println("Ultra-compressed matching completed successfully!")
+		return
+	}
+
+	if *targetLanguage == "" {
+		log.Fatal("Error: -language flag is required (e.g., -language=es)")
+	}
+
+	// Route to compressed matching if requested
+	if useCompressed {
+		if useGptOss {
+			log.Printf("Starting COMPRESSED matching for language: %s (using gpt-oss local)", *targetLanguage)
+		} else if useGemini {
+			log.Printf("Starting COMPRESSED matching for language: %s (using Gemini)", *targetLanguage)
+		} else {
+			log.Printf("Starting COMPRESSED matching for language: %s", *targetLanguage)
+		}
+		if err := CompressedLanguageMatching(*targetLanguage); err != nil {
+			log.Fatalf("Compressed matching failed: %v", err)
+		}
+		log.Println("Compressed matching completed successfully!")
+		return
+	}
+
+	log.Printf("Starting structured matching for language: %s", *targetLanguage)
+
+	// Load database
+	db, err := GetDatabase()
+	if err != nil {
+		log.Fatalf("Failed to load database: %v", err)
+	}
+	log.Printf("Database loaded: %d writings, %d languages", len(db.Writings), len(db.Languages))
+
+	// Build reference collections
+	englishRefs := BuildEnglishReference(db)
+	targetPrayers := BuildTargetPrayers(db, *targetLanguage)
+	log.Printf("English reference: %d prayers", len(englishRefs))
+	log.Printf("Target %s prayers: %d prayers", *targetLanguage, len(targetPrayers))
+
+	if len(englishRefs) == 0 {
+		log.Fatal("No English reference prayers found")
+	}
+
+	// Create report file
+	reportFile, err := os.Create(*reportPath)
+	if err != nil {
+		log.Fatalf("Failed to create report file: %v", err)
+	}
+	defer reportFile.Close()
+
+	fmt.Fprintf(reportFile, "Structured Prayer Matching Report\n")
+	fmt.Fprintf(reportFile, "==================================\n")
+	fmt.Fprintf(reportFile, "Started: %s\n", time.Now().Format(time.RFC3339))
+	fmt.Fprintf(reportFile, "Target Language: %s\n", *targetLanguage)
+	fmt.Fprintf(reportFile, "English References: %d\n", len(englishRefs))
+	fmt.Fprintf(reportFile, "Target Prayers: %d\n", len(targetPrayers))
+	fmt.Fprintf(reportFile, "Dry Run: %v\n\n", *dryRun)
+
+	// Process in chunks
+	totalChunks := (len(englishRefs) + ChunkSize - 1) / ChunkSize
+	log.Printf("Processing in %d chunks of ~%d prayers each", totalChunks, ChunkSize)
+	fmt.Fprintf(reportFile, "Processing in %d chunks\n\n", totalChunks)
+
+	var allMatches []MatchResult
+
+	for chunkIdx := 0; chunkIdx < totalChunks; chunkIdx++ {
+		start := chunkIdx * ChunkSize
+		end := start + ChunkSize
+		if end > len(englishRefs) {
+			end = len(englishRefs)
+		}
+
+		englishChunk := englishRefs[start:end]
+		chunkInfo := fmt.Sprintf("Processing chunk %d/%d (English prayers %d-%d)", chunkIdx+1, totalChunks, start+1, end)
+
+		log.Printf("Chunk %d/%d: Processing %d English prayers", chunkIdx+1, totalChunks, len(englishChunk))
+		fmt.Fprintf(reportFile, "\n=== CHUNK %d/%d ===\n", chunkIdx+1, totalChunks)
+
+		// Create prompt for this chunk
+		prompt := CreateMatchingPrompt(englishChunk, targetPrayers, *targetLanguage, chunkInfo)
+
+		// Call Claude
+		log.Printf("Calling Claude for chunk %d/%d...", chunkIdx+1, totalChunks)
+		response, err := CallClaude(prompt, 8000)
+		if err != nil {
+			log.Fatalf("Claude API failed on chunk %d: %v", chunkIdx+1, err)
+		}
+
+		fmt.Fprintf(reportFile, "Claude response received (%d chars)\n", len(response))
+
+		// Parse response
+		response = strings.TrimPrefix(response, "```json")
+		response = strings.TrimPrefix(response, "```")
+		response = strings.TrimSuffix(response, "```")
+		response = strings.TrimSpace(response)
+
+		var chunkResults BatchMatchResponse
+		if err := json.Unmarshal([]byte(response), &chunkResults); err != nil {
+			log.Printf("Failed to parse chunk %d response: %v\nResponse: %s", chunkIdx+1, err, response)
+			fmt.Fprintf(reportFile, "ERROR parsing chunk %d: %v\n", chunkIdx+1, err)
+			continue
+		}
+
+		log.Printf("Chunk %d: Parsed %d matches", chunkIdx+1, len(chunkResults.Matches))
+		fmt.Fprintf(reportFile, "Parsed %d matches from chunk %d\n", len(chunkResults.Matches), chunkIdx+1)
+
+		allMatches = append(allMatches, chunkResults.Matches...)
+
+		// Small delay between chunks to be respectful
+		if chunkIdx < totalChunks-1 {
+			time.Sleep(2 * time.Second)
+		}
+	}
+
+	log.Printf("Total matches collected: %d", len(allMatches))
+	fmt.Fprintf(reportFile, "\n=== PROCESSING ALL RESULTS ===\n")
+	fmt.Fprintf(reportFile, "Total matches: %d\n\n", len(allMatches))
+
+	// Combine all matches
+	combinedResults := BatchMatchResponse{
+		Matches: allMatches,
+		Summary: fmt.Sprintf("Processed %d chunks, %d total matches", totalChunks, len(allMatches)),
+	}
+
+	if !*dryRun {
+		// Process and apply results
+		if err := ProcessMatchResults(&db, combinedResults, *targetLanguage, reportFile); err != nil {
+			log.Fatalf("Failed to process results: %v", err)
+		}
+
+		// Commit to Dolt
+		commitMsg := fmt.Sprintf("Structured matching for %s: %s", *targetLanguage, combinedResults.Summary)
+		cmd := execDoltCommand("add", ".")
+		if output, err := cmd.CombinedOutput(); err != nil {
+			log.Printf("WARNING: Failed to stage changes: %v: %s", err, string(output))
+		} else {
+			cmd = execDoltCommand("commit", "-m", commitMsg)
+			if output, err := cmd.CombinedOutput(); err != nil {
+				log.Printf("WARNING: Failed to commit: %v: %s", err, string(output))
+			} else {
+				log.Printf("✅ Committed to Dolt: %s", commitMsg)
+				fmt.Fprintf(reportFile, "\n✅ Committed to Dolt: %s\n", commitMsg)
+			}
+		}
+	} else {
+		fmt.Fprintf(reportFile, "\n⚠️  DRY RUN - No changes made to database\n")
+		log.Println("Dry run completed - no changes made")
+	}
+
+	fmt.Fprintf(reportFile, "\nCompleted: %s\n", time.Now().Format(time.RFC3339))
+	log.Printf("Report saved to: %s", *reportPath)
 }
