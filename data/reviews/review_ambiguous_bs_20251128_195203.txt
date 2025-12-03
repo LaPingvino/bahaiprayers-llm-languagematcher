@@ -1,0 +1,2056 @@
+AMBIGUOUS MATCHES - BS
+Generated: 2025-11-28 19:52:03
+Total items: 205
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/205] Target Prayer: 647c0287-4c2a-40f5-844d-c9c85b691fd5
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap, general_theme_match
+Ambiguity: opening_phrase_differs_significantly
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/205] Target Prayer: 1fe1c115-fcf0-4406-8511-fb5904783bf3
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: general_devotional_theme, word_count_approx
+Ambiguity: opening_phrase_too_generic_for_precise_mapping
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/205] Target Prayer: fb1ca530-6eb6-42f7-bb1d-5a6133751d38
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: theme_overlap, word_count_different
+Ambiguity: opening_phrase_different
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/205] Target Prayer: 437bae07-d496-4f20-b4e7-109cd07098fa
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=75)%
+Reasons: key_terms_overlap, semantic_similarity
+Ambiguity: no_direct_opening_match
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/205] Target Prayer: b0b5c2c2-79ac-4e94-b504-416dfd296f8a
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=75)%
+Reasons: key_terms_overlap, semantic_similarity
+Ambiguity: no_direct_opening_match
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/205] Target Prayer: 394b1538-5370-4aa1-a4da-b953ce83e691
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: opening_phrase_semantic_but_not_literal_match
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/205] Target Prayer: 4bd1b875-92f3-4878-85ab-397888b00a95
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: opening_phrase_semantic_but_not_literal_match
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/205] Target Prayer: b3c73603-78a4-48b4-8ea4-3f37131a3ff6
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_theme_match_no_strong_structural_correspondence
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/205] Target Prayer: e3f9e31c-3d71-4df9-96af-8244e49bc73c
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_theme_match_no_strong_structural_correspondence
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/205] Target Prayer: c1fc69bd-8e88-49b7-8041-fc8abd671e2f
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_supplication_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/205] Target Prayer: eadd03d0-024f-4903-a1e1-a25ef0b0a167
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_supplication_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/205] Target Prayer: 6b3b003a-ee53-4dbe-82d2-d36b1cd867f2
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/205] Target Prayer: 62b5452f-bfa5-47a4-b285-87b2231f497e
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/205] Target Prayer: ed98c0df-7cc1-453d-9d6d-2602c6b1a008
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/205] Target Prayer: 3c9a1ead-4865-4deb-809e-45309e32e3a2
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/205] Target Prayer: 2aabcac3-9336-46f5-a14b-9a331d1bf791
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=75)%
+Reasons: key_terms_overlap
+Ambiguity: different_focus_in_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/205] Target Prayer: c7a2c1ca-8350-41f0-bc51-e60463ea5c54
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=75)%
+Reasons: key_terms_overlap
+Ambiguity: different_focus_in_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/205] Target Prayer: 23fcdaf2-1764-4800-bb48-ce974c8c99c3
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: general_devotional_theme
+Ambiguity: no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/205] Target Prayer: afbdadb8-ee05-4f56-9481-5d0384665aeb
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/205] Target Prayer: 07093c49-916b-446f-a129-05113accd896
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/205] Target Prayer: c1fc69bd-8e88-49b7-8041-fc8abd671e2f
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: opening_phrase_too_generic
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/205] Target Prayer: 62b5452f-bfa5-47a4-b285-87b2231f497e
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: opening_phrase_too_generic
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/205] Target Prayer: 2fb8ead3-42b5-4627-b70e-20d218934131
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_divine_attributes
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/205] Target Prayer: 50f09192-b275-4c08-b6b8-e739a41aee52
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_divine_attributes
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/205] Target Prayer: 3c0386e724aa
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap, general_devotional_theme
+Ambiguity: no_strong_textual_correspondence
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/205] Target Prayer: 68343452-1a4b-4306-84cf-783d6e53192d
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap, general_devotional_theme
+Ambiguity: no_strong_textual_correspondence
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/205] Target Prayer: afbdadb8-ee05-4f56-9481-5d0384665aeb
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/205] Target Prayer: df237f83-abb6-4577-834f-c509cf7b6920
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/205] Target Prayer: 608bc5b2-f788-419e-8a02-bedd2d08610c
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/205] Target Prayer: 251ef67d-f3e5-4236-afc4-ac057b89e8cd
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/205] Target Prayer: df237f83-abb6-4577-834f-c509cf7b6920
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: short_prayer_with_generic_devotional_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: short_prayer_with_generic_devotional_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/205] Target Prayer: c1fc69bd-8e88-49b7-8041-fc8abd671e2f
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme_with_no_strong_textual_correspondence
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/205] Target Prayer: 62b5452f-bfa5-47a4-b285-87b2231f497e
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme_with_no_strong_textual_correspondence
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/205] Target Prayer: 2aabcac3-9336-46f5-a14b-9a331d1bf791
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=75)%
+Reasons: key_terms_overlap
+Ambiguity: different_focus_in_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/205] Target Prayer: c7a2c1ca-8350-41f0-bc51-e60463ea5c54
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=75)%
+Reasons: key_terms_overlap
+Ambiguity: different_focus_in_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/205] Target Prayer: fb1ca530-6eb6-42f7-bb1d-5a6133751d38
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: theme_overlap, word_count_different
+Ambiguity: opening_phrase_different
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/205] Target Prayer: 437bae07-d496-4f20-b4e7-109cd07098fa
+Suggested Phelps: ABU0070GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: no_direct_opening_match
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/205] Target Prayer: 381940f63bfe
+Suggested Phelps: BB00630
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_supplication_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/205] Target Prayer: d3ff7822-2e10-43ed-aba2-11c5680acb25
+Suggested Phelps: BB00630
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_supplication_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/205] Target Prayer: dff0eda41947
+Suggested Phelps: BH08264
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/205] Target Prayer: a6b90097-632d-4563-9bac-a43858ac12fc
+Suggested Phelps: BH08852
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/205] Target Prayer: 9fc5b350-707c-45da-8d6e-c6e9d055b4bf
+Suggested Phelps: BH08852
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/205] Target Prayer: df237f83-abb6-4577-834f-c509cf7b6920
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/205] Target Prayer: 535cac7e-f268-4cd5-ad7a-e61f48349df4
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/205] Target Prayer: 296f69f7-e3da-4d61-9515-f392397079c2
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/205] Target Prayer: 437bae07-d496-4f20-b4e7-109cd07098fa
+Suggested Phelps: ABU0188TUR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/205] Target Prayer: ebcd4f92-104a-4da1-b4df-3c4ae4931984
+Suggested Phelps: ABU0188TUR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/205] Target Prayer: 4c1590d1-b28b-4e6e-a59e-70706556ebf0
+Suggested Phelps: BB00004REN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/205] Target Prayer: df237f83-abb6-4577-834f-c509cf7b6920
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/205] Target Prayer: d0790bf25772
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/205] Target Prayer: 50f09192-b275-4c08-b6b8-e739a41aee52
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/205] Target Prayer: 608bc5b2-f788-419e-8a02-bedd2d08610c
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_unity_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/205] Target Prayer: 251ef67d-f3e5-4236-afc4-ac057b89e8cd
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_unity_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/205] Target Prayer: f98b73b7-1f8e-4df9-8b1b-326064fe7300
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/205] Target Prayer: df237f83-abb6-4577-834f-c509cf7b6920
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_protection_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_protection_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/205] Target Prayer: 314152293e71
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/205] Target Prayer: 1ef2755b-f7a5-4c94-a485-ce0bb670eb1f
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/205] Target Prayer: f98b73b7-1f8e-4df9-8b1b-326064fe7300
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/205] Target Prayer: 74ca680a-44e7-4ac5-ad9d-91b79c938a88
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/205] Target Prayer: 0ff3216e5fb6
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: opening_phrase_different_and_general_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/205] Target Prayer: 15273068-a7ec-4ddd-9aff-1fc0a5c927de
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/205] Target Prayer: 42ce630c-1619-46f8-ac06-1d4a65c9e794
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/205] Target Prayer: 0ff3216e5fb6
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: opening_phrase_different_and_general_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/205] Target Prayer: 6b3b003a-ee53-4dbe-82d2-d36b1cd867f2
+Suggested Phelps: BB00147ORD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/205] Target Prayer: 251ef67d-f3e5-4236-afc4-ac057b89e8cd
+Suggested Phelps: BB00147ORD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/205] Target Prayer: 6bc7f46a-1113-417c-8667-6ea39da66f37
+Suggested Phelps: AB00728MDS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/205] Target Prayer: d01614c5-dc05-4eee-85d2-f1da17cb2899
+Suggested Phelps: AB00728MDS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/205] Target Prayer: a6b90097-632d-4563-9bac-a43858ac12fc
+Suggested Phelps: BH08824
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/205] Target Prayer: 9fc5b350-707c-45da-8d6e-c6e9d055b4bf
+Suggested Phelps: BH08824
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/205] Target Prayer: df237f83-abb6-4577-834f-c509cf7b6920
+Suggested Phelps: AB00156LOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: AB00156LOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/205] Target Prayer: 6adc2ed3-5148-45c4-91a9-1564402bfc81
+Suggested Phelps: AB00169FRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/205] Target Prayer: 1a04c6cd-efee-42d4-98de-3d889ef39bbb
+Suggested Phelps: AB00169FRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/205] Target Prayer: df237f83-abb6-4577-834f-c509cf7b6920
+Suggested Phelps: BH00593
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_protection_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: BH00593
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_protection_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/205] Target Prayer: f98b73b7-1f8e-4df9-8b1b-326064fe7300
+Suggested Phelps: BH09404
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/205] Target Prayer: 74ca680a-44e7-4ac5-ad9d-91b79c938a88
+Suggested Phelps: BH09404
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/205] Target Prayer: cd98388326a6
+Suggested Phelps: BH02848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/205] Target Prayer: ead6e6c2-74d3-439e-9cf9-ff60930077fc
+Suggested Phelps: BH02848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/205] Target Prayer: 4c3dc24e-3d48-42ef-adb1-d3cb518934b9
+Suggested Phelps: BH03629GRI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_theme_no_strong_textual_correspondence
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/205] Target Prayer: 6b3b003a-ee53-4dbe-82d2-d36b1cd867f2
+Suggested Phelps: BH07683
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/205] Target Prayer: 62b5452f-bfa5-47a4-b285-87b2231f497e
+Suggested Phelps: BH07683
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/205] Target Prayer: c1fc69bd-8e88-49b7-8041-fc8abd671e2f
+Suggested Phelps: AB00553
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: AB00553
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/205] Target Prayer: 9f901ecb-5b5e-4700-ba0a-adf022deed8e
+Suggested Phelps: BH07721
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/205] Target Prayer: 296f69f7-e3da-4d61-9515-f392397079c2
+Suggested Phelps: BH07721
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/205] Target Prayer: f98b73b7-1f8e-4df9-8b1b-326064fe7300
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/205] Target Prayer: 74ca680a-44e7-4ac5-ad9d-91b79c938a88
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/205] Target Prayer: 608bc5b2-f788-419e-8a02-bedd2d08610c
+Suggested Phelps: AB00963IMP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/205] Target Prayer: 251ef67d-f3e5-4236-afc4-ac057b89e8cd
+Suggested Phelps: AB00963IMP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/205] Target Prayer: df237f83-abb6-4577-834f-c509cf7b6920
+Suggested Phelps: BB00018MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: BB00018MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/205] Target Prayer: 55a82b6780a7
+Suggested Phelps: AB02596
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: general_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/205] Target Prayer: 2d26b3b3-ef76-42a6-aef0-2d6a1461a441
+Suggested Phelps: AB02596
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: general_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/205] Target Prayer: 1ef2755b-f7a5-4c94-a485-ce0bb670eb1f
+Suggested Phelps: BH00009AWA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/205] Target Prayer: fec28ecc7aa5
+Suggested Phelps: BH05894
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/205] Target Prayer: 2be7ef76-3172-4485-b26b-bb2fb29c213a
+Suggested Phelps: BH05894
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/205] Target Prayer: c1fc69bd-8e88-49b7-8041-fc8abd671e2f
+Suggested Phelps: BH00238
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: BH00238
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/205] Target Prayer: 437bae07-d496-4f20-b4e7-109cd07098fa
+Suggested Phelps: BB00543VIC
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/205] Target Prayer: ebcd4f92-104a-4da1-b4df-3c4ae4931984
+Suggested Phelps: BB00543VIC
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/205] Target Prayer: b224cf89a38d
+Suggested Phelps: BB00100EXI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/205] Target Prayer: 4d639e8797ce
+Suggested Phelps: BB00100EXI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/205] Target Prayer: c1fc69bd-8e88-49b7-8041-fc8abd671e2f
+Suggested Phelps: BH07180
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: BH07180
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/205] Target Prayer: afbdadb8-ee05-4f56-9481-5d0384665aeb
+Suggested Phelps: BH09498
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/205] Target Prayer: 4d639e8797ce
+Suggested Phelps: BH09498
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/205] Target Prayer: 6b3b003a-ee53-4dbe-82d2-d36b1cd867f2
+Suggested Phelps: BB00002MEN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/205] Target Prayer: 251ef67d-f3e5-4236-afc4-ac057b89e8cd
+Suggested Phelps: BB00002MEN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/205] Target Prayer: 2fb8ead3-42b5-4627-b70e-20d218934131
+Suggested Phelps: AB00308DES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/205] Target Prayer: 50f09192-b275-4c08-b6b8-e739a41aee52
+Suggested Phelps: AB00308DES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/205] Target Prayer: fec28ecc7aa5
+Suggested Phelps: AB05167
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_healing_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/205] Target Prayer: 2be7ef76-3172-4485-b26b-bb2fb29c213a
+Suggested Phelps: AB05167
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_healing_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/205] Target Prayer: f98b73b7-1f8e-4df9-8b1b-326064fe7300
+Suggested Phelps: BH06026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/205] Target Prayer: 74ca680a-44e7-4ac5-ad9d-91b79c938a88
+Suggested Phelps: BH06026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/205] Target Prayer: cd98388326a6
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/205] Target Prayer: 1a04c6cd-efee-42d4-98de-3d889ef39bbb
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[123/205] Target Prayer: bb1e18ea-79fc-438b-be91-e4a2d4a610fb
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[124/205] Target Prayer: 62b5452f-bfa5-47a4-b285-87b2231f497e
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[125/205] Target Prayer: 15273068-a7ec-4ddd-9aff-1fc0a5c927de
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[126/205] Target Prayer: 42ce630c-1619-46f8-ac06-1d4a65c9e794
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[127/205] Target Prayer: c1fc69bd-8e88-49b7-8041-fc8abd671e2f
+Suggested Phelps: BH06296
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[128/205] Target Prayer: 6bc7f46a-1113-417c-8667-6ea39da66f37
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[129/205] Target Prayer: d01614c5-dc05-4eee-85d2-f1da17cb2899
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[130/205] Target Prayer: 6adc2ed3-5148-45c4-91a9-1564402bfc81
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[131/205] Target Prayer: 1a04c6cd-efee-42d4-98de-3d889ef39bbb
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[132/205] Target Prayer: 437bae07-d496-4f20-b4e7-109cd07098fa
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[133/205] Target Prayer: ebcd4f92-104a-4da1-b4df-3c4ae4931984
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[134/205] Target Prayer: 6bc7f46a-1113-417c-8667-6ea39da66f37
+Suggested Phelps: ABU0095KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[135/205] Target Prayer: c1fc69bd-8e88-49b7-8041-fc8abd671e2f
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[136/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[137/205] Target Prayer: c21f7aea771c
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[138/205] Target Prayer: df237f83-abb6-4577-834f-c509cf7b6920
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[139/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[140/205] Target Prayer: 97990e2c-9b76-45ba-80b6-d9e7d762e42d
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[141/205] Target Prayer: 296f69f7-e3da-4d61-9515-f392397079c2
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[142/205] Target Prayer: df237f83-abb6-4577-834f-c509cf7b6920
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[143/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[144/205] Target Prayer: 380056513de0
+Suggested Phelps: AB00774SAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[145/205] Target Prayer: 2a36e690-e8ed-4f84-add1-d21529a18504
+Suggested Phelps: AB00774SAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[146/205] Target Prayer: 1144945d-16df-40ce-a9f6-47d24e3658f1
+Suggested Phelps: AB08704NEW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: theme_match
+Ambiguity: very_general_blessing_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[147/205] Target Prayer: 04fcaded-c275-45df-9c18-0c12711df3f7
+Suggested Phelps: AB08704NEW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: theme_match
+Ambiguity: very_general_blessing_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[148/205] Target Prayer: 296f69f7-e3da-4d61-9515-f392397079c2
+Suggested Phelps: BH09024
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: opening_phrase_different
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[149/205] Target Prayer: a6b90097-632d-4563-9bac-a43858ac12fc
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[150/205] Target Prayer: 9fc5b350-707c-45da-8d6e-c6e9d055b4bf
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[151/205] Target Prayer: 81fc0390-8587-4f54-b59c-72d9c3c11cbc
+Suggested Phelps: BH07426DRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[152/205] Target Prayer: 96debdf3-3aa9-4219-9c85-5c9556648f66
+Suggested Phelps: BH07426DRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[153/205] Target Prayer: ecc9953d-59a9-4178-ae1c-d6f852c02aa8
+Suggested Phelps: BH02898MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[154/205] Target Prayer: 296f69f7-e3da-4d61-9515-f392397079c2
+Suggested Phelps: BH02898MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[155/205] Target Prayer: 437bae07-d496-4f20-b4e7-109cd07098fa
+Suggested Phelps: AB00128FEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[156/205] Target Prayer: ebcd4f92-104a-4da1-b4df-3c4ae4931984
+Suggested Phelps: AB00128FEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[157/205] Target Prayer: 8d8d1cc0-935c-40b9-b114-52af0897b0d0
+Suggested Phelps: BB00485TRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[158/205] Target Prayer: 55a82b6780a7
+Suggested Phelps: AB09139
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[159/205] Target Prayer: f98b73b7-1f8e-4df9-8b1b-326064fe7300
+Suggested Phelps: BH06429
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[160/205] Target Prayer: 74ca680a-44e7-4ac5-ad9d-91b79c938a88
+Suggested Phelps: BH06429
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[161/205] Target Prayer: 0b6b65d9-6f6d-49aa-8aa4-bf39cbc79b19
+Suggested Phelps: AB00204PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=75)%
+Reasons: semantic_similarity, key_terms_overlap
+Ambiguity: opening_phrase_too_generic
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[162/205] Target Prayer: b224cf89a38d
+Suggested Phelps: BH07661
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[163/205] Target Prayer: 296f69f7-e3da-4d61-9515-f392397079c2
+Suggested Phelps: BH07661
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[164/205] Target Prayer: 6d17d777-83dd-4171-bf04-47f63af9c12d
+Suggested Phelps: AB06012
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_protection_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[165/205] Target Prayer: d3ff7822-2e10-43ed-aba2-11c5680acb25
+Suggested Phelps: AB06012
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_protection_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[166/205] Target Prayer: f98b73b7-1f8e-4df9-8b1b-326064fe7300
+Suggested Phelps: BH09508
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[167/205] Target Prayer: 74ca680a-44e7-4ac5-ad9d-91b79c938a88
+Suggested Phelps: BH09508
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[168/205] Target Prayer: 6bc7f46a-1113-417c-8667-6ea39da66f37
+Suggested Phelps: AB02024
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[169/205] Target Prayer: d01614c5-dc05-4eee-85d2-f1da17cb2899
+Suggested Phelps: AB02024
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[170/205] Target Prayer: 296f69f7-e3da-4d61-9515-f392397079c2
+Suggested Phelps: BH07775
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: generic_opening_phrase
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[171/205] Target Prayer: bb1e18ea-79fc-438b-be91-e4a2d4a610fb
+Suggested Phelps: BH10076
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[172/205] Target Prayer: 62b5452f-bfa5-47a4-b285-87b2231f497e
+Suggested Phelps: BH10076
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[173/205] Target Prayer: 6b3b003a-ee53-4dbe-82d2-d36b1cd867f2
+Suggested Phelps: BH02753ENT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[174/205] Target Prayer: 62b5452f-bfa5-47a4-b285-87b2231f497e
+Suggested Phelps: BH02753ENT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[175/205] Target Prayer: f98b73b7-1f8e-4df9-8b1b-326064fe7300
+Suggested Phelps: BH08822
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[176/205] Target Prayer: 74ca680a-44e7-4ac5-ad9d-91b79c938a88
+Suggested Phelps: BH08822
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[177/205] Target Prayer: d0790bf25772
+Suggested Phelps: BH04475
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_protection_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[178/205] Target Prayer: e50906d8-8593-4f9d-8e9a-9600c55fbb8e
+Suggested Phelps: BH04475
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_protection_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[179/205] Target Prayer: f98b73b7-1f8e-4df9-8b1b-326064fe7300
+Suggested Phelps: BH01554HUQ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[180/205] Target Prayer: 74ca680a-44e7-4ac5-ad9d-91b79c938a88
+Suggested Phelps: BH01554HUQ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[181/205] Target Prayer: 437bae07-d496-4f20-b4e7-109cd07098fa
+Suggested Phelps: ABU0394GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_unity_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[182/205] Target Prayer: ebcd4f92-104a-4da1-b4df-3c4ae4931984
+Suggested Phelps: ABU0394GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: key_terms_overlap
+Ambiguity: general_unity_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[183/205] Target Prayer: 6b3b003a-ee53-4dbe-82d2-d36b1cd867f2
+Suggested Phelps: BH08363
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[184/205] Target Prayer: c1fc69bd-8e88-49b7-8041-fc8abd671e2f
+Suggested Phelps: BH03562
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[185/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: BH03562
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[186/205] Target Prayer: 6adc2ed3-5148-45c4-91a9-1564402bfc81
+Suggested Phelps: AB00032DAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[187/205] Target Prayer: 1a04c6cd-efee-42d4-98de-3d889ef39bbb
+Suggested Phelps: AB00032DAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_forgiveness_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[188/205] Target Prayer: f98b73b7-1f8e-4df9-8b1b-326064fe7300
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[189/205] Target Prayer: 74ca680a-44e7-4ac5-ad9d-91b79c938a88
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[190/205] Target Prayer: f98b73b7-1f8e-4df9-8b1b-326064fe7300
+Suggested Phelps: BH07657
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[191/205] Target Prayer: 74ca680a-44e7-4ac5-ad9d-91b79c938a88
+Suggested Phelps: BH07657
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[192/205] Target Prayer: bb1e18ea-79fc-438b-be91-e4a2d4a610fb
+Suggested Phelps: BH09848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: general_unity_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[193/205] Target Prayer: 62b5452f-bfa5-47a4-b285-87b2231f497e
+Suggested Phelps: BH09848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: general_unity_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[194/205] Target Prayer: d0790bf25772
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[195/205] Target Prayer: 50f09192-b275-4c08-b6b8-e739a41aee52
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[196/205] Target Prayer: 23fcdaf2-1764-4800-bb48-ce974c8c99c3
+Suggested Phelps: AB02524
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[197/205] Target Prayer: d5f93576-3fbe-47b3-9dd9-7a8548fdd64b
+Suggested Phelps: AB02524
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_guidance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[198/205] Target Prayer: 9ec281ad-111c-4e85-b489-42cb8dd97711
+Suggested Phelps: AB07158
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[199/205] Target Prayer: b883e811-541a-453f-9d99-3088ed6797fd
+Suggested Phelps: AB07158
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: opening_phrase_similar_keywords
+Ambiguity: length_difference_and_generic_opening
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[200/205] Target Prayer: 23fcdaf2-1764-4800-bb48-ce974c8c99c3
+Suggested Phelps: BB00001KNO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[201/205] Target Prayer: 1b312880-50bc-4abf-a4d6-e6ab5a7e7f19
+Suggested Phelps: BB00001KNO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_devotional_theme_no_strong_textual_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[202/205] Target Prayer: 6adc2ed3-5148-45c4-91a9-1564402bfc81
+Suggested Phelps: AB00049RAP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[203/205] Target Prayer: 1a04c6cd-efee-42d4-98de-3d889ef39bbb
+Suggested Phelps: AB00049RAP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[204/205] Target Prayer: cd98388326a6
+Suggested Phelps: BH02777RIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[205/205] Target Prayer: ead6e6c2-74d3-439e-9cf9-ff60930077fc
+Suggested Phelps: BH02777RIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: general_assistance_theme
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

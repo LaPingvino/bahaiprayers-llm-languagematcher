@@ -1,0 +1,102 @@
+AMBIGUOUS MATCHES - CY
+Generated: 2025-11-28 13:50:33
+Total items: 10
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/10] Target Prayer: 389e7650-9ebc-45f6-8a3c-7cff1c117a88
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: is_short_prayer_status_match, word_count_somewhat_similar, char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/10] Target Prayer: 8af94328-98e0-47d5-a493-de8177b02028
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: is_short_prayer_status_match, word_count_somewhat_similar, char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/10] Target Prayer: 64f850fd-b9b3-4996-b166-01f7b886a1f8
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: is_short_prayer_status_match, word_count_somewhat_similar, char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/10] Target Prayer: d5834078-2a0e-4977-8c83-ed4e390027b1
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: is_short_prayer_status_match, word_count_somewhat_similar, char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/10] Target Prayer: 232a1ba7-c953-49b5-a75f-101efbd7e906
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: is_short_prayer_status_match, word_count_somewhat_similar, char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/10] Target Prayer: acefd74aaf3d
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: is_short_prayer_status_match, word_count_somewhat_similar, char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/10] Target Prayer: 64f850fd-b9b3-4996-b166-01f7b886a1f8
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: is_short_prayer_status_match, word_count_somewhat_similar, char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/10] Target Prayer: d5834078-2a0e-4977-8c83-ed4e390027b1
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: is_short_prayer_status_match, word_count_somewhat_similar, char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/10] Target Prayer: 95fd32ca-6297-41d8-867e-08518324100b
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: is_short_prayer_status_match, word_count_somewhat_similar, char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/10] Target Prayer: 61179228-16c3-4acc-8fe4-d4d4ec249cb9
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: is_short_prayer_status_match, word_count_somewhat_similar, char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,1672 @@
+AMBIGUOUS MATCHES - MT
+Generated: 2025-11-28 13:52:35
+Total items: 166
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/166] Target Prayer: 5b35aedc-45ec-4c48-900b-fc7a1ae4c85e
+Suggested Phelps: BB00002ENA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=42)%
+Reasons: char_count_similar_range, common_key_terms (lord), common_signature_terms (hinn), word_count_similar_range, short_prayer_overlap_bonus
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/166] Target Prayer: 02ca5feb-4afa-4a97-8a90-2a71182facec
+Suggested Phelps: BB00002ENA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=27)%
+Reasons: common_key_terms (lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/166] Target Prayer: d5834078-2a0e-4977-8c83-ed4e390027b1
+Suggested Phelps: BB00002ENA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=27)%
+Reasons: common_key_terms (lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/166] Target Prayer: d0cdea81452c
+Suggested Phelps: BH03470
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_phonetic_terms (god), char_count_similar_range, opening_closing_phonetic_terms, short_prayer_overlap_bonus, common_key_terms (almighty, god, protection), word_count_similar_range, common_signature_terms (almighty, protection)
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/166] Target Prayer: fa000c1050ab
+Suggested Phelps: BH00009SHE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=42)%
+Reasons: common_phonetic_terms (god, light), common_key_terms (god, light, lord, protection, revelation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/166] Target Prayer: a8a79679-4ede-46b7-8686-2378b04dd9e4
+Suggested Phelps: BH00009SHE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=42)%
+Reasons: common_phonetic_terms (god), common_key_terms (god, lord, protection, revelation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/166] Target Prayer: 0cd3db37-071e-49f8-99dd-6b344e0e5a8f
+Suggested Phelps: BH00009SHE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=42)%
+Reasons: common_phonetic_terms (god), common_key_terms (god, lord, protection, revelation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/166] Target Prayer: 6125a33c-f626-4fb4-8f8e-8a306d91db5b
+Suggested Phelps: BB00623
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_phonetic_terms (god), common_key_terms (god, praise, servants), char_count_similar_range, word_count_similar_range, short_prayer_overlap_bonus
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/166] Target Prayer: 4827d578480d
+Suggested Phelps: BB00623
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_phonetic_terms (god), common_key_terms (god, praise, servants), char_count_similar_range, word_count_similar_range, short_prayer_overlap_bonus
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/166] Target Prayer: 7749d7939342
+Suggested Phelps: BB00623
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_phonetic_terms (god), common_key_terms (god, praise, servants), char_count_similar_range, word_count_similar_range, short_prayer_overlap_bonus
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/166] Target Prayer: 54357480-c4e3-469a-a982-cf324072ab01
+Suggested Phelps: BB00623
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_phonetic_terms (jainkoa), common_key_terms (god, praise), char_count_similar_range, word_count_similar_range, short_prayer_overlap_bonus
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/166] Target Prayer: 232a1ba7-c953-49b5-a75f-101efbd7e906
+Suggested Phelps: BB00623
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: char_count_similar_range, common_key_terms (god, praise, servants), word_count_similar_range, short_prayer_overlap_bonus, common_signature_terms (uauatanga)
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/166] Target Prayer: 444d1863-ffd6-4720-a5d6-3323a99ca037
+Suggested Phelps: BB00623
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: char_count_similar_range, common_key_terms (god, praise, servants), word_count_similar_range, short_prayer_overlap_bonus, common_signature_terms (bůh)
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/166] Target Prayer: aa0d2f15-8c3d-4921-b09f-25e4e924b9b4
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=42)%
+Reasons: common_phonetic_terms (lord), common_key_terms (forgiveness, light, lord), common_signature_terms (dosnumo), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/166] Target Prayer: 3a10250833de
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=42)%
+Reasons: common_phonetic_terms (lord), common_key_terms (forgiveness, light, lord), common_signature_terms (môj), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/166] Target Prayer: 1da54162-c01c-4cf8-b48f-285a8deea460
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=42)%
+Reasons: common_phonetic_terms (lord), common_key_terms (forgiveness, light, lord), common_signature_terms (аб, божа, грахі), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/166] Target Prayer: 34684b7f-3494-457d-9c3c-4b8da165b9d7
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=42)%
+Reasons: common_key_terms (forgiveness, light, lord), common_signature_terms (aroha, tōu), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/166] Target Prayer: cc900929-d480-4aba-8e73-2cb0ea93a511
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=42)%
+Reasons: common_key_terms (forgiveness, light, lord), common_signature_terms (chì, signore), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/166] Target Prayer: b7cfd7a0-6cf7-42f4-b29d-afe53e30bdc2
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=42)%
+Reasons: common_key_terms (forgiveness, light, lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/166] Target Prayer: a4a17311-3f64-470a-b596-b51bf197fcce
+Suggested Phelps: BB00522
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=32)%
+Reasons: common_key_terms (lord, mercy), common_signature_terms (pane), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/166] Target Prayer: a046bb69-3caa-4dff-8374-2b864ce16c06
+Suggested Phelps: BB00522
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=32)%
+Reasons: common_key_terms (lord, mercy), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/166] Target Prayer: a3c0dee3-c2c5-4c7b-b17c-59e4be53834a
+Suggested Phelps: BB00522
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=32)%
+Reasons: common_key_terms (lord, mercy), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/166] Target Prayer: ce8c8de9-4e4c-4bce-83ac-e0107ab22802
+Suggested Phelps: BB00522
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=32)%
+Reasons: common_key_terms (lord, mercy), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/166] Target Prayer: 5acea85a-3506-43c5-ae80-c308cdccff93
+Suggested Phelps: BBU0015
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: char_count_similar_range, opening_closing_phonetic_terms, short_prayer_overlap_bonus, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/166] Target Prayer: 167a2063edc5
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_key_terms (almighty, forgiveness, god, holy, kingdom, light, lord, servants, tablet), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/166] Target Prayer: 9b07f9d2-d372-4a30-93f8-ab590235d677
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god, kingdom), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/166] Target Prayer: ce1a0153-5916-49ff-9203-58e49a605135
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god, kingdom), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/166] Target Prayer: 985c0726-bcd8-4ade-9a20-a057dac81ba2
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god, kingdom), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/166] Target Prayer: 540e74c1-bb6f-408c-8bdc-bf3c05f0f0f1
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god, kingdom), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/166] Target Prayer: 8eff3219-27d0-4495-9ccf-53a14a566f0e
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god, kingdom), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/166] Target Prayer: 996efe2f-38d6-45a3-ad5a-110b3faf203c
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, lord, praise, protection), common_signature_terms (ħarsu, ħlejqa), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/166] Target Prayer: c66e32a8-9524-4eb3-b463-2c46885e236c
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, lord, praise, protection), common_signature_terms (ogni), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/166] Target Prayer: 25349b0cd452
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, lord, praise, protection), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/166] Target Prayer: f480b14a-ec7c-4222-9701-46d54cc6e055
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, lord, praise, protection), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/166] Target Prayer: 25349b0cd452
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/166] Target Prayer: d0cdea81452c
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/166] Target Prayer: 02ca5feb-4afa-4a97-8a90-2a71182facec
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/166] Target Prayer: 5fd65831-5f6a-4d03-be00-3e01c8487f1b
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_phonetic_terms (god), common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/166] Target Prayer: 7009d8063b6b
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), common_signature_terms (allah, jimxu, jkunu), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/166] Target Prayer: a6822259-b5a7-4c9c-adc6-9b51f0cf4299
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), common_signature_terms (cori, signore), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/166] Target Prayer: e4e27315-ff0b-4340-91d0-428bd6fae383
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/166] Target Prayer: 5fd65831-5f6a-4d03-be00-3e01c8487f1b
+Suggested Phelps: BB00001ENA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=32)%
+Reasons: common_key_terms (faithful, lord), char_count_similar_range, word_count_similar_range, short_prayer_overlap_bonus
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/166] Target Prayer: 5fd65831-5f6a-4d03-be00-3e01c8487f1b
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=32)%
+Reasons: common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/166] Target Prayer: 7009d8063b6b
+Suggested Phelps: BB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, blessing, forgiveness, god, grace), common_signature_terms (allah, jimxu, jkunu), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/166] Target Prayer: 5fd65831-5f6a-4d03-be00-3e01c8487f1b
+Suggested Phelps: BB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_phonetic_terms (god), common_key_terms (almighty, blessing, forgiveness, god, grace), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/166] Target Prayer: a6822259-b5a7-4c9c-adc6-9b51f0cf4299
+Suggested Phelps: BB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, blessing, forgiveness, god, grace), common_signature_terms (cori, signore), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/166] Target Prayer: e4e27315-ff0b-4340-91d0-428bd6fae383
+Suggested Phelps: BB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, blessing, forgiveness, god, grace), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: BB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, blessing, forgiveness, god, grace), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/166] Target Prayer: a963e9fc3ffc
+Suggested Phelps: ABU0129EDU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (god), common_signature_terms (allah, dawn), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/166] Target Prayer: 04bfc0c2-337f-48b6-881d-142f6a98c440
+Suggested Phelps: ABU0129EDU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (god), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/166] Target Prayer: 6f4d68d8-8e5b-4f72-9d14-32c4f0b3543e
+Suggested Phelps: ABU0129EDU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (god), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/166] Target Prayer: 28807793e46f
+Suggested Phelps: ABU0129EDU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (god), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/166] Target Prayer: 22085abaa333
+Suggested Phelps: ABU0129EDU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (god), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/166] Target Prayer: 9b07f9d2-d372-4a30-93f8-ab590235d677
+Suggested Phelps: AB04004BAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (forgiveness, god, kingdom, lord), char_count_similar_range, word_count_similar_range, short_prayer_overlap_bonus
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/166] Target Prayer: ce1a0153-5916-49ff-9203-58e49a605135
+Suggested Phelps: AB04004BAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (forgiveness, god, kingdom, lord), char_count_similar_range, word_count_similar_range, short_prayer_overlap_bonus
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/166] Target Prayer: 6ae74daa-56fe-4b35-8ac1-69da743d3057
+Suggested Phelps: AB04004BAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (forgiveness, god, kingdom, lord), char_count_similar_range, word_count_similar_range, short_prayer_overlap_bonus
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/166] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (god, lord, servants), common_signature_terms (allah, ġid, ħadd), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/166] Target Prayer: 327833b5-0f9b-40bf-84ae-99fff9cbc6c0
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (god, lord, servants), common_signature_terms (chì, mare, sole), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/166] Target Prayer: d0cdea81452c
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (god, lord, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/166] Target Prayer: 2b972b112dbc
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (god, lord, servants), common_signature_terms (dy't, minsken), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/166] Target Prayer: d186082c3d09
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (god, lord, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/166] Target Prayer: 0f80304b-8564-49a2-b895-97d86f16d795
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (god, lord, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/166] Target Prayer: 9b07f9d2-d372-4a30-93f8-ab590235d677
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god, kingdom), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/166] Target Prayer: f480b14a-ec7c-4222-9701-46d54cc6e055
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god, kingdom), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/166] Target Prayer: 6670ea17-e9bf-44db-a3f0-1d43041931cf
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (god, heer, light, lord, prayer, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/166] Target Prayer: 37e97433-fc7d-41fa-915a-84e4de602b4d
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (god, heer, light, lord, prayer, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (almighty, god, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/166] Target Prayer: 2b972b112dbc
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (almighty, god, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/166] Target Prayer: ce1a0153-5916-49ff-9203-58e49a605135
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (covenant, kingdom, lord, manifestation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/166] Target Prayer: 9b07f9d2-d372-4a30-93f8-ab590235d677
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (covenant, kingdom, lord, manifestation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/166] Target Prayer: 996efe2f-38d6-45a3-ad5a-110b3faf203c
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (covenant, kingdom, lord, manifestation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/166] Target Prayer: 540e74c1-bb6f-408c-8bdc-bf3c05f0f0f1
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (covenant, kingdom, lord, manifestation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/166] Target Prayer: 8eff3219-27d0-4495-9ccf-53a14a566f0e
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (covenant, kingdom, lord, manifestation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/166] Target Prayer: 77391c3a-2b35-4f22-802f-85ac237800a1
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=20)%
+Reasons: common_key_terms (kingdom), word_count_similar_range, char_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (blessing, grace, holy, lord, servants), common_key_terms (believers, blessing, grace, holy, lord, praise, protection, servants, tablet), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: ABU0070GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (almighty, forgiveness, god, kingdom, lord, servants), common_key_terms (almighty, blessing, forgiveness, god, kingdom, lord, manifestation, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/166] Target Prayer: 40f4f7c2150b
+Suggested Phelps: AB00397HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (glory, kingdom), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: ABU0394GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (god, lord, mercy), common_key_terms (god, lord, mercy, praise), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/166] Target Prayer: 0595502bf651
+Suggested Phelps: AB00204PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_phonetic_terms (god), common_key_terms (divine, forgiveness, guidance), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/166] Target Prayer: 2d4bbd1b-74f7-4a7b-8190-c3a79e9db4d9
+Suggested Phelps: AB00204PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (divine, forgiveness, guidance), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/166] Target Prayer: 6a20a9ec0722
+Suggested Phelps: AB00204PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (divine, forgiveness, guidance), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/166] Target Prayer: 40f4f7c2150b
+Suggested Phelps: ABU0003DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (forgiveness, god), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/166] Target Prayer: 1da54162-c01c-4cf8-b48f-285a8deea460
+Suggested Phelps: ABU0003DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (forgiveness, god), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/166] Target Prayer: 1871c429d665
+Suggested Phelps: ABU0003DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (forgiveness, god), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/166] Target Prayer: d5834078-2a0e-4977-8c83-ed4e390027b1
+Suggested Phelps: BH00009HOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, god, lord, praise, protection, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/166] Target Prayer: 02ca5feb-4afa-4a97-8a90-2a71182facec
+Suggested Phelps: BH00009HOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, god, lord, praise, protection, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/166] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH00009HOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, god, lord, praise, protection, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/166] Target Prayer: 2b972b112dbc
+Suggested Phelps: BH00009HOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, god, lord, praise, protection, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/166] Target Prayer: 327833b5-0f9b-40bf-84ae-99fff9cbc6c0
+Suggested Phelps: BH00009HOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=37)%
+Reasons: common_key_terms (almighty, god, lord, praise, protection, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: ABU0030SHE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (almighty, forgiveness, grace, guidance, holy, kingdom, light, lord, servants), common_key_terms (almighty, forgiveness, grace, guidance, holy, kingdom, light, lord, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/166] Target Prayer: a3c0dee3-c2c5-4c7b-b17c-59e4be53834a
+Suggested Phelps: AB00065STE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, covenant, faithful, guidance, lord, manifestation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/166] Target Prayer: 2878ed63f6be
+Suggested Phelps: AB00065STE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, covenant, faithful, guidance, lord, manifestation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/166] Target Prayer: 2b8dae93-6aaa-4699-a420-1762e3f9fadf
+Suggested Phelps: AB00065STE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, covenant, faithful, guidance, lord, manifestation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/166] Target Prayer: ce8c8de9-4e4c-4bce-83ac-e0107ab22802
+Suggested Phelps: AB00065STE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, covenant, faithful, guidance, lord, manifestation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/166] Target Prayer: bdc726ec712a
+Suggested Phelps: AB00065STE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, covenant, faithful, guidance, lord, manifestation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/166] Target Prayer: a6822259-b5a7-4c9c-adc6-9b51f0cf4299
+Suggested Phelps: AB00065STE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, covenant, faithful, guidance, lord, manifestation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/166] Target Prayer: b7cfd7a0-6cf7-42f4-b29d-afe53e30bdc2
+Suggested Phelps: AB00065STE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, covenant, faithful, guidance, lord, manifestation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/166] Target Prayer: 66c05569-ae35-48c9-8101-6bd40c05e0f0
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (divine, holy, lord, praise, revelation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/166] Target Prayer: 2e53ca79-8cb1-44d8-b30e-2ce423b6d38b
+Suggested Phelps: BB00147ORD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, believers, divine, god, lord, protection), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/166] Target Prayer: 0ecf635f-866e-4709-8c43-186df68e6ba3
+Suggested Phelps: BB00147ORD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, believers, divine, god, lord, protection), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/166] Target Prayer: 1e6cb391-e148-4f5a-9f82-588083a35486
+Suggested Phelps: BB00100EXI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (god, lord), common_key_terms (believers, forgiveness, glory, god, lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/166] Target Prayer: eb00b58b7e1d
+Suggested Phelps: AB10769
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (kingdom, lord, sacred, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/166] Target Prayer: 40f4f7c2150b
+Suggested Phelps: BH10973
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (god, kingdom, praise, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/166] Target Prayer: 5374b6cf-18ee-43cc-8231-a60361c73e55
+Suggested Phelps: BB00018ADJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_key_terms (almighty, god), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/166] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BB00018ADJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/166] Target Prayer: 327833b5-0f9b-40bf-84ae-99fff9cbc6c0
+Suggested Phelps: BB00018ADJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/166] Target Prayer: 7009d8063b6b
+Suggested Phelps: BB00018ADJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/166] Target Prayer: 2b972b112dbc
+Suggested Phelps: BB00018ADJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/166] Target Prayer: 04239a4e-9156-48b8-9b6c-3e72314f27ae
+Suggested Phelps: BH00009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_key_terms (almighty, god, grace, lord, mercy, protection, revelation, servants), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/166] Target Prayer: 994669e7-1296-4141-932a-2d35aef56f72
+Suggested Phelps: BH00009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god, grace, lord, mercy, protection, revelation, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/166] Target Prayer: b928c63e-9594-4f89-a36f-d3a56bf187f2
+Suggested Phelps: BH00009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god, grace, lord, mercy, protection, revelation, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/166] Target Prayer: 40f4f7c2150b
+Suggested Phelps: BH00009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (almighty, god, grace, lord, mercy, protection, revelation, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/166] Target Prayer: 25349b0cd452
+Suggested Phelps: AB00001SHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, divine, glory, god, holy, kingdom, manifestation, protection, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/166] Target Prayer: 2b972b112dbc
+Suggested Phelps: AB00001SHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, divine, glory, god, holy, kingdom, manifestation, protection, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/166] Target Prayer: 0578dd82-4a77-4f98-9da3-4b31df835fa1
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (god, kingdom, lord, revelation, servants), common_key_terms (bahá, glory, god, kingdom, lord, revelation, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/166] Target Prayer: 88809b66-75d5-4a84-9ff2-11bf28c6d4a0
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_key_terms (bahá, glory, god, kingdom, lord, revelation, servants), common_signature_terms (dy't, sille, wurde), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/166] Target Prayer: 40f4f7c2150b
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (bahá, glory, god, kingdom, lord, revelation, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/166] Target Prayer: a3c0dee3-c2c5-4c7b-b17c-59e4be53834a
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (bahá, glory, god, kingdom, lord, revelation, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/166] Target Prayer: 330cf9b0-9ff8-40d6-adb7-81fe42f8e5a2
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (god, kingdom, light, lord, servants), common_key_terms (almighty, believers, blessing, divine, god, kingdom, light, lord, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/166] Target Prayer: 88809b66-75d5-4a84-9ff2-11bf28c6d4a0
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_key_terms (almighty, believers, blessing, divine, god, kingdom, light, lord, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[123/166] Target Prayer: 40f4f7c2150b
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (almighty, believers, blessing, divine, god, kingdom, light, lord, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[124/166] Target Prayer: a3c0dee3-c2c5-4c7b-b17c-59e4be53834a
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (almighty, believers, blessing, divine, god, kingdom, light, lord, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[125/166] Target Prayer: f0298a7c-fb7b-44a0-a927-4eecff91ca2a
+Suggested Phelps: BH00238
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (almighty, bahá, glory, god, kingdom, light, lord, praise, protection), common_key_terms (almighty, bahá, creator, glory, god, kingdom, light, lord, praise, protection, tablet, yá), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[126/166] Target Prayer: 330cf9b0-9ff8-40d6-adb7-81fe42f8e5a2
+Suggested Phelps: BH00238
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (almighty, bahá, glory, god, kingdom, light, lord, praise, protection), common_key_terms (almighty, bahá, creator, glory, god, kingdom, light, lord, praise, protection, tablet, yá), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[127/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: ABU0268AME
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (god, lord, mercy), common_key_terms (god, lord, mercy, praise), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[128/166] Target Prayer: a6822259-b5a7-4c9c-adc6-9b51f0cf4299
+Suggested Phelps: ABU0268AME
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (god, lord, mercy, praise), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[129/166] Target Prayer: 25349b0cd452
+Suggested Phelps: ABU0268AME
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (god, lord, mercy, praise), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[130/166] Target Prayer: 994669e7-1296-4141-932a-d2d35aef56f72
+Suggested Phelps: ABU0394GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (god, lord, mercy, praise), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[131/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: ABU0394GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (god, lord, mercy, praise), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[132/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: BH00438
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (divine, god, gott, grace, kingdom, lord, mercy), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[133/166] Target Prayer: 280f0a41e6f2
+Suggested Phelps: BH00438
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (divine, god, gott, grace, kingdom, lord, mercy), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[134/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: AB00362LOV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (god, lord), common_key_terms (blessing, faithful, god, lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[135/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: AB00044PRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (almighty, divine, god, grace, guidance, holy, servants), common_key_terms (almighty, divine, god, grace, guidance, holy, kingdom, light, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[136/166] Target Prayer: 25349b0cd452
+Suggested Phelps: AB00044PRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, divine, god, grace, guidance, holy, kingdom, light, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[137/166] Target Prayer: 2b972b112dbc
+Suggested Phelps: AB00044PRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, divine, god, grace, guidance, holy, kingdom, light, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[138/166] Target Prayer: 34684b7f-3494-457d-9c3c-4b8da165b9d7
+Suggested Phelps: AB00049RAP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (bahá, glory, god, kingdom, lord, prayer), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[139/166] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: AB00049RAP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (bahá, glory, god, kingdom, lord, prayer), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[140/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: BB00005ALL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (almighty, divine, god, grace, guidance, kingdom, manifestation, praise, prayer, revelation), common_key_terms (almighty, blessing, divine, god, grace, guidance, kingdom, manifestation, praise, prayer, revelation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[141/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: ABU0095KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (almighty, forgiveness, god, holy, kingdom, light, lord, mercy, protection, servants), common_key_terms (almighty, blessing, forgiveness, god, grace, holy, kingdom, light, lord, mercy, protection, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[142/166] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: BH00009AWA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (almighty, faithful, forgiveness, glory, god, grace, lord, praise, revelation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[143/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: BH00009AWA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (almighty, faithful, forgiveness, glory, god, grace, lord, praise, revelation), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[144/166] Target Prayer: 6670ea17-e9bf-44db-a3f0-1d43041931cf
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (almighty, glory, holy, lord, servants), common_key_terms (almighty, glory, holy, lord, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[145/166] Target Prayer: 40f4f7c2150b
+Suggested Phelps: AB02000DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (grace, lord, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[146/166] Target Prayer: 1da54162-c01c-4cf8-b48f-285a8deea460
+Suggested Phelps: AB02000DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (grace, lord, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[147/166] Target Prayer: 1871c429d665
+Suggested Phelps: AB02000DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (grace, lord, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[148/166] Target Prayer: 6670ea17-e9bf-44db-a3f0-1d43041931cf
+Suggested Phelps: BH00634
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (forgiveness, lord, manifestation, mercy, praise), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[149/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: BH00634
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (forgiveness, lord, manifestation, mercy, praise), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[150/166] Target Prayer: cc900929-d480-4aba-8e73-2cb0ea93a511
+Suggested Phelps: BH00634
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (forgiveness, lord, manifestation, mercy, praise), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[151/166] Target Prayer: 50c1c28e-5a7d-48b5-a780-241249e0bf9b
+Suggested Phelps: AB07304
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (forgiveness, light, lord, mercy), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[152/166] Target Prayer: f15cba497076
+Suggested Phelps: AB07304
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (forgiveness, light, lord, mercy), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[153/166] Target Prayer: 330cf9b0-9ff8-40d6-adb7-81fe42f8e5a2
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (almighty, believers, glory, god, kingdom, light, lord, praise, prayer, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[154/166] Target Prayer: f0298a7c-fb7b-44a0-a927-4eecff91ca2a
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (almighty, believers, glory, god, kingdom, light, lord, praise, prayer, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[155/166] Target Prayer: 0578dd82-4a77-4f98-9da3-4b31df835fa1
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: common_key_terms (almighty, believers, glory, god, kingdom, light, lord, praise, prayer, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[156/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: ABU0023UNI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (almighty, creator, forgiveness, god, kingdom, light, lord, mercy, servants), common_key_terms (almighty, creator, forgiveness, glory, god, kingdom, light, lord, mercy, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[157/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: AB00169FRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (bahá, god, grace, guidance, light, lord, servants), common_key_terms (bahá, god, grace, guidance, light, lord, praise, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[158/166] Target Prayer: 
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, bahá, eternal, faithful, god, holy, kingdom, lord, mercy, prayer, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[159/166] Target Prayer: 25349b0cd452
+Suggested Phelps: AB00189AID
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, god, guidance, light, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[160/166] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: AB00209UND
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, bahá, god, holy, kingdom, light, lord, praise), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[161/166] Target Prayer: 
+Suggested Phelps: AB00210BIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, bahá, god, guidance, light, lord, praise), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[162/166] Target Prayer: 
+Suggested Phelps: AB00218SOU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, bahá, divine, god, holy, kingdom, lord), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[163/166] Target Prayer: 
+Suggested Phelps: AB00241HIG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (almighty, bahá, forgiveness, god, grace, guidance, holy, kingdom, lord, praise, supplication), common_key_terms (almighty, bahá, forgiveness, god, grace, guidance, holy, kingdom, light, lord, praise, servants, supplication), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[164/166] Target Prayer: 
+Suggested Phelps: AB00308DES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: common_phonetic_terms (almighty, divine, god, grace, guidance, kingdom, light, lord, servants), common_key_terms (almighty, divine, glory, god, grace, guidance, kingdom, light, lord, manifestation, revelation, sacred, servants), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[165/166] Target Prayer: 
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (divine, grace, guidance, holy, kingdom, lord, mercy, praise, signore, tablet), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[166/166] Target Prayer: 
+Suggested Phelps: AB00388COM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: common_key_terms (almighty, divine, holy, kingdom, light, praise), char_count_similar_range, word_count_similar_range
+Ambiguity: Moderate term/count overlap; further review needed.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

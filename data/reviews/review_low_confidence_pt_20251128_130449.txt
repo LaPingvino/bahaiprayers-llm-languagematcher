@@ -1,0 +1,39 @@
+LOW CONFIDENCE MATCHES - PT
+Generated: 2025-11-28 13:04:49
+Total items: 3
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/3] Target Prayer: 2f9e9e8bd1d2
+Suggested Phelps: AB00001
+Match Type: LIKELY
+Confidence: %!d(float64=0.85)%
+Reasons: opening_phrase_similarity, key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/3] Target Prayer: e2aa2f2bd1bc2
+Suggested Phelps: AB00002
+Match Type: LIKELY
+Confidence: %!d(float64=0.9)%
+Reasons: strong_signature_overlap, similar_word_count
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/3] Target Prayer: bfca5d6e7
+Suggested Phelps: AB00004
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_translation
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,21 @@
+AMBIGUOUS MATCHES - PT
+Generated: 2025-11-28 13:04:49
+Total items: 1
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/1] Target Prayer: d4eb2d5f0f2
+Suggested Phelps: AB00003
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=0.92)%
+Reasons: high_similarity_multiple_matches
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

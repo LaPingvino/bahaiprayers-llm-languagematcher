@@ -1,0 +1,876 @@
+LOW CONFIDENCE MATCHES - MT
+Generated: 2025-11-28 13:52:35
+Total items: 96
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/96] Target Prayer: cdd50116-1408-4c67-b363-ee3eabb22ef9
+Suggested Phelps: BH00009GRA
+Match Type: LIKELY
+Confidence: %!d(float64=57)%
+Reasons: common_phonetic_terms (god), common_key_terms (god, grace, mercy, protection), common_signature_terms (god, grace, mercy, protection), char_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/96] Target Prayer: cc5630e9-02a0-4220-a683-d940257ed625
+Suggested Phelps: BB00002ENA
+Match Type: LIKELY
+Confidence: %!d(float64=62)%
+Reasons: common_phonetic_terms (faithful), common_key_terms (faithful, lord), common_signature_terms (faithful, lord), char_count_similar_range, word_count_similar_range, short_prayer_overlap_bonus
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/96] Target Prayer: 77d13bee-0886-4954-8546-e5a0ebac48d7
+Suggested Phelps: BH00009SHE
+Match Type: LIKELY
+Confidence: %!d(float64=62)%
+Reasons: common_phonetic_terms (god, light), common_key_terms (god, light, lord, protection, revelation), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms, common_signature_terms (god, light, lord, protection, revelation)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/96] Target Prayer: 0cd3db37-071e-49f8-99dd-6b344e0e5a8f
+Suggested Phelps: BH00009SHE
+Match Type: LIKELY
+Confidence: %!d(float64=62)%
+Reasons: common_phonetic_terms (god, light), common_key_terms (god, light, lord, protection, revelation), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms, common_signature_terms (god, light, lord, protection, revelation)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/96] Target Prayer: 1888b877-3408-4315-9a49-75ffb06db2e4
+Suggested Phelps: BB00617
+Match Type: LIKELY
+Confidence: %!d(float64=62)%
+Reasons: common_phonetic_terms (forgiveness, light, lord), common_key_terms (forgiveness, light, lord, praise), common_signature_terms (forgiveness, light, lord, praise), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/96] Target Prayer: 7a7a49205-6424-4b88-85b7-5d8556ef526e
+Suggested Phelps: BB00617
+Match Type: LIKELY
+Confidence: %!d(float64=62)%
+Reasons: common_phonetic_terms (lord), common_key_terms (forgiveness, light, lord), common_signature_terms (jeho, tvé), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/96] Target Prayer: ac52de9b-9bcb-4a10-b329-c3019360d3c6
+Suggested Phelps: BB00522
+Match Type: LIKELY
+Confidence: %!d(float64=57)%
+Reasons: common_key_terms (lord, mercy), common_signature_terms (pane), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/96] Target Prayer: 5acea85a-3506-43c5-ae80-c308cdccff93
+Suggested Phelps: BBU0015
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_key_terms (god), char_count_similar_range, opening_closing_phonetic_terms, short_prayer_overlap_bonus, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/96] Target Prayer: ca52f744-b146-4070-8d1c-a3b318692259
+Suggested Phelps: BH01313NAM
+Match Type: LIKELY
+Confidence: %!d(float64=62)%
+Reasons: common_key_terms (god, mercy), common_signature_terms (mým, tvé), char_count_similar_range, opening_closing_phonetic_terms, short_prayer_overlap_bonus, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/96] Target Prayer: a852e8cba210
+Suggested Phelps: BH01313NAM
+Match Type: LIKELY
+Confidence: %!d(float64=62)%
+Reasons: common_key_terms (god, mercy), common_signature_terms (tavo, žemiškame), char_count_similar_range, opening_closing_phonetic_terms, short_prayer_overlap_bonus, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/96] Target Prayer: 4a1ee9b6-fb32-4843-acd8-4b1608c65249
+Suggested Phelps: BH01313NAM
+Match Type: LIKELY
+Confidence: %!d(float64=62)%
+Reasons: common_key_terms (god, mercy), common_signature_terms (tōku, tōu), char_count_similar_range, opening_closing_phonetic_terms, short_prayer_overlap_bonus, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/96] Target Prayer: daa0c46d-c062-40ba-b12d-0479986d8930
+Suggested Phelps: BH11205
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_key_terms (god, praise), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms, short_prayer_overlap_bonus
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/96] Target Prayer: de728327-636f-4a65-a124-22669e9af3b4
+Suggested Phelps: BH11205
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_key_terms (god, praise), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms, short_prayer_overlap_bonus
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/96] Target Prayer: 6670ea17-e9bf-44db-a3f0-1d43041931cf
+Suggested Phelps: ABU0009SER
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (almighty, god, holy, lord, servants), common_key_terms (almighty, forgiveness, god, holy, kingdom, light, lord, servants, tablet), common_signature_terms (almighty, god, holy, lord), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/96] Target Prayer: 61179228-16c3-4acc-8fe4-d4d4ec249cb9
+Suggested Phelps: AB09794CHI
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_phonetic_terms (god), common_key_terms (almighty, god, kingdom), common_signature_terms (god, kingdom), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/96] Target Prayer: b741e86e-86d2-48bd-b2f2-f6a6ab1b3076
+Suggested Phelps: AB09794CHI
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_phonetic_terms (god), common_key_terms (almighty, god, kingdom), common_signature_terms (boже, воістину, грудей), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/96] Target Prayer: 95ff7f91a4b2
+Suggested Phelps: AB10703RAD
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (almighty, lord, protection), common_key_terms (almighty, lord, praise, protection), common_signature_terms (almighty, lord, protection), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/96] Target Prayer: f6b18299-0bfe-4edf-9e7e-6bb61476adf0
+Suggested Phelps: AB10703RAD
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (almighty, lord, protection), common_key_terms (almighty, lord, praise, protection), common_signature_terms (абароны, ад, госпадзе, гэтае), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/96] Target Prayer: 8241277a-30e2-42ec-8aaa-86559b049a93
+Suggested Phelps: AB10703RAD
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (almighty, lord, protection), common_key_terms (almighty, lord, praise, protection), common_signature_terms (аби, господи, даруй, дня), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/96] Target Prayer: e4aa0a5a-3603-4f2f-9d0a-e309ab3a13ec
+Suggested Phelps: AB00001FIR
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, divine, god, grace, guidance, lord), common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), common_signature_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/96] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: AB00001FIR
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, divine, god, grace, guidance, lord), common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), common_signature_terms (боже, великодушний, вседаруючий, вірним), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/96] Target Prayer: bcfaca62-08b5-4902-b55d-4f920011bc66
+Suggested Phelps: AB00001FIR
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, divine, god, grace, guidance, lord), common_key_terms (almighty, divine, faithful, forgiveness, god, grace, guidance, light, lord), common_signature_terms (allah, божа, divine), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/96] Target Prayer: e4aa0a5a-3603-4f2f-9d0a-e309ab3a13ec
+Suggested Phelps: BB00001FIR
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, forgiveness, god, grace), common_key_terms (almighty, blessing, forgiveness, god, grace), common_signature_terms (almighty, blessing, forgiveness, god, grace), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/96] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: BB00001FIR
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, forgiveness, god, grace), common_key_terms (almighty, blessing, forgiveness, god, grace), common_signature_terms (боже, великодушний, вседаруючий, вірним), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/96] Target Prayer: bcfaca62-08b5-4902-b55d-4f920011bc66
+Suggested Phelps: BB00001FIR
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, forgiveness, god, grace), common_key_terms (almighty, blessing, forgiveness, god, grace), common_signature_terms (allah, божа, divine), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/96] Target Prayer: 8eff3219-27d0-4495-9ccf-53a14a566f0e
+Suggested Phelps: ABU0129EDU
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (god), common_key_terms (god), common_signature_terms (аби, виховуй, дарувальник, дітей), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/96] Target Prayer: 214f8be6148b
+Suggested Phelps: ABU0129EDU
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (god), common_key_terms (god), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/96] Target Prayer: 540e74c1-bb6f-408c-8bdc-bf3c05f0f0f1
+Suggested Phelps: AB04004BAB
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_key_terms (forgiveness, god, kingdom, lord), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms, short_prayer_overlap_bonus
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/96] Target Prayer: f0298a7c-fb7b-44a0-a927-4eecff91ca2a
+Suggested Phelps: BH00662FLO
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_phonetic_terms (god, lord, servants), common_key_terms (god, lord, servants), common_signature_terms (ľuďom, úpenlivo, úst), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/96] Target Prayer: bd6d1e87-34e9-4f6a-ad71-76382d144cdb
+Suggested Phelps: BH00662FLO
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_phonetic_terms (god, lord, servants), common_key_terms (god, lord, servants), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/96] Target Prayer: 53059d9a4b41
+Suggested Phelps: AB10714
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_key_terms (almighty, god, kingdom), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms, common_signature_terms (almighty, god, kingdom, protection)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/96] Target Prayer: ce1a0153-5916-49ff-9203-58e49a605135
+Suggested Phelps: AB10714
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_key_terms (almighty, god, kingdom), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms, common_signature_terms (абарані, адукацыі, божа, будуць)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/96] Target Prayer: 1d1ef862-55fa-4811-aa13-cecd6bb264b4
+Suggested Phelps: BH10505
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_phonetic_terms (god, lord), common_key_terms (god, heer, light, lord, prayer, servants), common_signature_terms (god, heer, light, lord, prayer, servants), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/96] Target Prayer: f480b14a-ec7c-4222-9701-46d54cc6e055
+Suggested Phelps: AB10701
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_key_terms (covenant, kingdom, lord, manifestation), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms, common_signature_terms (господи, дитя, завіту)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: AB00073SER
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (blessing, grace, holy, lord, servants), common_key_terms (believers, blessing, grace, holy, lord, praise, protection, servants, tablet), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: ABU0070GAT
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, blessing, forgiveness, god, kingdom, lord, servants), common_key_terms (almighty, blessing, forgiveness, god, kingdom, lord, manifestation, servants), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/96] Target Prayer: 18bffd9655e9
+Suggested Phelps: AB00397HEA
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_key_terms (glory, kingdom), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: ABU0394GAT
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (god, lord, mercy), common_key_terms (god, lord, mercy, praise), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/96] Target Prayer: c0a0d17a-ca7d-4994-855b-8d3f23d9039b
+Suggested Phelps: AB00204PIT
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_key_terms (divine, forgiveness, guidance), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/96] Target Prayer: 18bffd9655e9
+Suggested Phelps: ABU0003DIS
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_key_terms (forgiveness, god), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/96] Target Prayer: ffbe3d291ea6
+Suggested Phelps: BH00009HOW
+Match Type: LIKELY
+Confidence: %!d(float64=57)%
+Reasons: common_phonetic_terms (god, lord, protection, servants), common_key_terms (almighty, god, lord, praise, protection, servants), common_signature_terms (almighty, god, lord, protection, servants), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/96] Target Prayer: e8bcd9c4-93bb-42f2-b287-dc391ad31e8f
+Suggested Phelps: BH00009HOW
+Match Type: LIKELY
+Confidence: %!d(float64=57)%
+Reasons: common_phonetic_terms (god, lord, protection, servants), common_key_terms (almighty, god, lord, praise, protection, servants), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: ABU0030SHE
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, forgiveness, grace, guidance, holy, kingdom, light, lord, servants), common_key_terms (almighty, forgiveness, grace, guidance, holy, kingdom, light, lord, servants), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/96] Target Prayer: 8f21559b-90b3-4cae-894d-bc0eb64f9cae
+Suggested Phelps: AB00065STE
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_key_terms (almighty, covenant, faithful, guidance, lord, manifestation), common_signature_terms (ľudského, ňadier, škola), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/96] Target Prayer: cbeee93a-b4f5-4dbc-b494-900572e554b1
+Suggested Phelps: BB00147ORD
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (almighty, divine, god, lord, protection), common_key_terms (almighty, believers, divine, god, lord, protection), common_signature_terms (allah, dawk, jxejnu, kull), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/96] Target Prayer: 10d53710-ed41-4453-9939-ed3709681141
+Suggested Phelps: BB00100EXI
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (god, lord), common_key_terms (believers, forgiveness, glory, god, lord), common_signature_terms (bože, god, koji, tvog), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/96] Target Prayer: 9a14e218-1283-4c0a-9627-2094dc9d3bd0
+Suggested Phelps: BB00100EXI
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (god, lord), common_key_terms (believers, forgiveness, glory, god, lord), common_signature_terms (jedním, nadevše, tisíc, žádej), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/96] Target Prayer: 94d82682-766a-4ce1-b6e9-2d7051114440
+Suggested Phelps: BB00100EXI
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (god, lord), common_key_terms (believers, forgiveness, glory, god, lord), common_signature_terms (viešpatie, šaukiasi, šlovė, ženklais), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/96] Target Prayer: 994669e7-1296-4141-932a-2d35aef56f72
+Suggested Phelps: AB10769
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_key_terms (kingdom, lord, sacred, servants), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/96] Target Prayer: a9656535-dfc4-4fb1-8812-d3b19b1427a9
+Suggested Phelps: BH10973
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_phonetic_terms (god, kingdom, servants), common_key_terms (god, kingdom, praise, servants), common_signature_terms (allah, ta’, tieghek, ġeneruż), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/96] Target Prayer: b928c63e-9594-4f89-a36f-d3a56bf187f2
+Suggested Phelps: BH10973
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_phonetic_terms (god, kingdom, servants), common_key_terms (god, kingdom, praise, servants), common_signature_terms (koho, ľuďí, útechou), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/96] Target Prayer: 0578dd82-4a77-4f98-9da3-4b31df835fa1
+Suggested Phelps: BH10973
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_phonetic_terms (god, kingdom, servants), common_key_terms (god, kingdom, praise, servants), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/96] Target Prayer: 02ca5feb-4afa-4a97-8a90-2a71182facec
+Suggested Phelps: BB00018ADJ
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, god), common_key_terms (almighty, god), common_signature_terms (tavo, žingsnius), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/96] Target Prayer: e8bcd9c4-93bb-42f2-b287-dc391ad31e8f
+Suggested Phelps: BB00018ADJ
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, god), common_key_terms (almighty, god), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/96] Target Prayer: d92de3a0-ea69-42da-bcdb-7b78a1fd9d2f
+Suggested Phelps: BB00018ADJ
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, god), common_key_terms (almighty, god), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/96] Target Prayer: b7cfd7a0-6cf7-42f4-b29d-afe53e30bdc2
+Suggested Phelps: BH00009SER
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, god, grace, lord, mercy, protection, revelation, servants), common_key_terms (almighty, god, grace, lord, mercy, protection, revelation, servants), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/96] Target Prayer: 6670ea17-e9bf-44db-a3f0-1d43041931cf
+Suggested Phelps: BH00009SER
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, god, grace, lord, mercy, protection, revelation, servants), common_key_terms (almighty, god, grace, lord, mercy, protection, revelation, servants), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/96] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: AB00001SHI
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (almighty, divine, god, holy, kingdom, protection, servants), common_key_terms (almighty, divine, glory, god, holy, kingdom, manifestation, protection, servants), common_signature_terms (almighty, divine, holy, kingdom, protection), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/96] Target Prayer: 6670ea17-e9bf-44db-a3f0-1d43041931cf
+Suggested Phelps: AB00001SHI
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (almighty, divine, god, holy, kingdom, protection, servants), common_key_terms (almighty, divine, glory, god, holy, kingdom, manifestation, protection, servants), common_signature_terms (абарону, ад, божа, было), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/96] Target Prayer: f0298a7c-fb7b-44a0-a927-4eecff91ca2a
+Suggested Phelps: BH00053MAG
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (bahá, god, kingdom, lord, revelation, servants), common_key_terms (bahá, glory, god, kingdom, lord, revelation, servants), common_signature_terms (ľuďom, úpenlivo, úst), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/96] Target Prayer: 330cf9b0-9ff8-40d6-adb7-81fe42f8e5a2
+Suggested Phelps: BH00053MAG
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (bahá, god, kingdom, lord, revelation, servants), common_key_terms (bahá, glory, god, kingdom, lord, revelation, servants), common_signature_terms (адвеку, азары, акрамя, акіяна), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/96] Target Prayer: f0298a7c-fb7b-44a0-a927-4eecff91ca2a
+Suggested Phelps: BH00223MAG
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, divine, god, kingdom, light, lord, servants), common_key_terms (almighty, believers, blessing, divine, god, kingdom, light, lord, servants), common_signature_terms (ľuďom, úpenlivo, úst), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/96] Target Prayer: 0578dd82-4a77-4f98-9da3-4b31df835fa1
+Suggested Phelps: BH00223MAG
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, divine, god, kingdom, light, lord, servants), common_key_terms (almighty, believers, blessing, divine, god, kingdom, light, lord, servants), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: ABU0268AME
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (god, lord, mercy), common_key_terms (god, lord, mercy, praise), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/96] Target Prayer: 994669e7-1296-4141-932a-2d35aef56f72
+Suggested Phelps: ABU0268AME
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_key_terms (god, lord, mercy, praise), common_signature_terms (allah, ta’, tieghek, ġeneruż), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: ABU0394GAT
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (god, lord, mercy), common_key_terms (god, lord, mercy, praise), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/96] Target Prayer: 68e7f561-5867-4a35-82cf-4f82c9d4b93b
+Suggested Phelps: BH00438
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_key_terms (divine, god, gott, grace, kingdom, lord, mercy), char_count_similar_range, word_count_similar_range, common_signature_terms (госпадзе, жыцця, мой, шчодрасці)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/96] Target Prayer: 6670ea17-e9bf-44db-a3f0-1d43041931cf
+Suggested Phelps: AB00362LOV
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (blessing, god, lord), common_key_terms (blessing, faithful, god, lord), common_signature_terms (абарону, ад, божа, было), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: AB00044PRO
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, divine, god, grace, guidance, holy, servants), common_key_terms (almighty, divine, god, grace, guidance, holy, kingdom, light, servants), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/96] Target Prayer: 140f0a50-8770-4e7a-a160-3b0dad3d6a8b
+Suggested Phelps: AB00049RAP
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_key_terms (bahá, glory, god, kingdom, lord, prayer), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: BB00005ALL
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, blessing, divine, god, grace, guidance, kingdom, manifestation, praise, prayer, revelation), common_key_terms (almighty, blessing, divine, god, grace, guidance, kingdom, manifestation, praise, prayer, revelation), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/96] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BB00005SEE
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_phonetic_terms (god, lord, mercy, revelation), common_key_terms (glory, god, grace, lord, mercy, revelation), common_signature_terms (allah, biex, f’ġieh, għalija), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/96] Target Prayer: f2debd83-d969-4d5e-81d0-c6e5dffaea23
+Suggested Phelps: BB00005SEE
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_phonetic_terms (god, lord, mercy, revelation), common_key_terms (glory, god, grace, lord, mercy, revelation), common_signature_terms (dieve, mano, tave, tavo), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/96] Target Prayer: 1e6cb391-e148-4f5a-9f82-588083a35486
+Suggested Phelps: BB00005SEE
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_phonetic_terms (god, lord, mercy, revelation), common_key_terms (glory, god, grace, lord, mercy, revelation), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: ABU0095KIN
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, blessing, forgiveness, god, holy, kingdom, light, lord, mercy, protection, servants), common_key_terms (almighty, blessing, forgiveness, god, grace, holy, kingdom, light, lord, mercy, protection, servants), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/96] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BH00009AWA
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_key_terms (almighty, faithful, forgiveness, glory, god, grace, lord, praise, revelation), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/96] Target Prayer: f2debd83-d969-4d5e-81d0-c6e5dffaea23
+Suggested Phelps: BH00009AWA
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_key_terms (almighty, faithful, forgiveness, glory, god, grace, lord, praise, revelation), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/96] Target Prayer: 1e6cb391-e148-4f5a-9f82-588083a35486
+Suggested Phelps: BH00009AWA
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_key_terms (almighty, faithful, forgiveness, glory, god, grace, lord, praise, revelation), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/96] Target Prayer: 848469f4-a51e-4dc6-b74f-667b5758442e
+Suggested Phelps: AB10275
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, glory, holy, lord, servants), common_key_terms (almighty, glory, holy, lord, servants), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/96] Target Prayer: 18bffd9655e9
+Suggested Phelps: AB02000DIS
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_key_terms (grace, lord, servants), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/96] Target Prayer: d48f4a738bd1
+Suggested Phelps: BH00634
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (forgiveness, lord, mercy, praise), common_key_terms (forgiveness, lord, manifestation, mercy, praise), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/96] Target Prayer: d9c90d45-3ea3-42ac-b2f1-1848fecd14b8
+Suggested Phelps: AB07304
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (forgiveness, light, lord, mercy), common_key_terms (forgiveness, light, lord, mercy), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/96] Target Prayer: 708cc3c9-8c45-4e9f-b2df-22488a1680cf
+Suggested Phelps: AB07304
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (forgiveness, light, lord, mercy), common_key_terms (forgiveness, light, lord, mercy), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/96] Target Prayer: 903c1c71-f631-4230-bd6c-3c4406721002
+Suggested Phelps: AB07304
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (forgiveness, light, lord, mercy), common_key_terms (forgiveness, light, lord, mercy), common_signature_terms (juos, šviesą), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: ABU0023UNI
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, creator, forgiveness, god, kingdom, light, lord, mercy, servants), common_key_terms (almighty, creator, forgiveness, glory, god, kingdom, light, lord, mercy, servants), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: AB00169FRA
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (bahá, god, grace, guidance, light, lord, servants), common_key_terms (bahá, god, grace, guidance, light, lord, praise, servants), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: AB00169BEH
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (almighty, bahá, eternal, faithful, god, holy, kingdom, lord, mercy, prayer, servants), common_key_terms (almighty, bahá, eternal, faithful, god, holy, kingdom, lord, mercy, prayer, servants), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/96] Target Prayer: 54754fd6-e9ff-40a2-a4b9-406ee717c648
+Suggested Phelps: AB00189AID
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, god, guidance, light, servants), common_key_terms (almighty, god, guidance, light, servants), common_signature_terms (боже, великодушний, вседаруючий, вірним), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/96] Target Prayer: 6670ea17-e9bf-44db-a3f0-1d43041931cf
+Suggested Phelps: AB00189AID
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, god, guidance, light, servants), common_key_terms (almighty, god, guidance, light, servants), common_signature_terms (абарону, ад, божа, было), char_count_similar_range, word_count_similar_range, opening_closing_phonetic_terms
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: AB00209UND
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (almighty, bahá, god, holy, kingdom, light, lord), common_key_terms (almighty, bahá, god, holy, kingdom, light, lord, praise), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: AB00210BIR
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (almighty, bahá, god, guidance, light, lord, praise), common_key_terms (almighty, bahá, god, guidance, light, lord, praise), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: AB00218SOU
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_phonetic_terms (almighty, bahá, divine, god, holy, kingdom, lord), common_key_terms (almighty, bahá, divine, god, holy, kingdom, lord), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: AB00241HIG
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, bahá, forgiveness, god, grace, guidance, holy, kingdom, lord, praise, supplication), common_key_terms (almighty, bahá, forgiveness, god, grace, guidance, holy, kingdom, light, lord, praise, servants, supplication), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: AB00308DES
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: common_phonetic_terms (almighty, divine, god, grace, guidance, kingdom, light, lord, servants), common_key_terms (almighty, divine, glory, god, grace, guidance, kingdom, light, lord, manifestation, revelation, sacred, servants), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/96] Target Prayer: b6a85648-3abd-4701-b635-1cb6de3570b0
+Suggested Phelps: AB00314HOR
+Match Type: LIKELY
+Confidence: %!d(float64=50)%
+Reasons: common_phonetic_terms (divine, grace, guidance, holy, kingdom, lord, mercy, praise), common_key_terms (divine, grace, guidance, holy, kingdom, lord, mercy, praise, signore, tablet), common_signature_terms (благаславі, божа, былі), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/96] Target Prayer: 909d08f7-b088-4372-9545-0256f6b2555b
+Suggested Phelps: AB00388COM
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: common_key_terms (almighty, divine, holy, kingdom, light, praise), common_signature_terms (ľudskog, ľuďstva, šíriteľmi), char_count_similar_range, word_count_similar_range
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

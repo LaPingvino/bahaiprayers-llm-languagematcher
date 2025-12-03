@@ -1,0 +1,57 @@
+AMBIGUOUS MATCHES - HI
+Generated: 2025-11-28 20:45:20
+Total items: 5
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/5] Target Prayer: 07f3040f-d6ff-4774-8baa-1931076f0c3e
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=0.6)%
+Reasons: keyword_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/5] Target Prayer: a0c3b328432f
+Suggested Phelps: AB11281
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=0.6)%
+Reasons: opening_phrase_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/5] Target Prayer: 090adc02-1cab-4eb2-a93b-dfec56b1c377
+Suggested Phelps: BH00074BLE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=0.6)%
+Reasons: key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/5] Target Prayer: 1a07c265-28cb-43aa-9577-dbd84a17ee09
+Suggested Phelps: BB00018FOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=0.6)%
+Reasons: key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/5] Target Prayer: 1a07c265-28cb-43aa-9577-dbd84a17ee09
+Suggested Phelps: AB05996
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=0.6)%
+Reasons: key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

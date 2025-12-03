@@ -1,0 +1,138 @@
+AMBIGUOUS MATCHES - FY
+Generated: 2025-11-28 17:50:24
+Total items: 14
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/14] Target Prayer: b1a26fbc-6c32-41ff-8bc0-d96cc94131c3
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=56)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/14] Target Prayer: b1a26fbc-6c32-41ff-8bc0-d96cc94131c3
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=56)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/14] Target Prayer: a3d2625a-d35c-4421-afad-fdb79684d8a4
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/14] Target Prayer: a3d2625a-d35c-4421-afad-fdb79684d8a4
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/14] Target Prayer: a3d2625a-d35c-4421-afad-fdb79684d8a4
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/14] Target Prayer: a3d2625a-d35c-4421-afad-fdb79684d8a4
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/14] Target Prayer: a3d2625a-d35c-4421-afad-fdb79684d8a4
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/14] Target Prayer: a3d2625a-d35c-4421-afad-fdb79684d8a4
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/14] Target Prayer: a3d2625a-d35c-4421-afad-fdb79684d8a4
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/14] Target Prayer: b1a26fbc-6c32-41ff-8bc0-d96cc94131c3
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=56)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/14] Target Prayer: a3d2625a-d35c-4421-afad-fdb79684d8a4
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/14] Target Prayer: a3d2625a-d35c-4421-afad-fdb79684d8a4
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/14] Target Prayer: b1a26fbc-6c32-41ff-8bc0-d96cc94131c3
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=56)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/14] Target Prayer: a3d2625a-d35c-4421-afad-fdb79684d8a4
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

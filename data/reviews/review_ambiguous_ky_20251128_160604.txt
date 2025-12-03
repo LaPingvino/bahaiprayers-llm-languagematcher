@@ -1,0 +1,82 @@
+AMBIGUOUS MATCHES - KY
+Generated: 2025-11-28 16:06:04
+Total items: 7
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/7] Target Prayer: 19ca9e3aaec9
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: similar_word_count, similar_character_count, some_key_terms_overlap
+Ambiguity: text_hash and structure_hash are different, but word and character counts are similar, and opening phrase mentions 'lord', 'god', 'kingdom', 'praise' which are common in many prayers. However, there are no specific identifying key terms or phrases that confirm a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/7] Target Prayer: 17b854a6-997b-4cf4-8006-63644def7ca7
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_opening_phrase, key_terms_overlap
+Ambiguity: Both prayers start with similar invocations ('O my God, O my God!' / 'I noqu Kalou! I noqu Kalou!') and share some key terms related to God and supplication. However, text_hash and structure_hash are different.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/7] Target Prayer: 1888b877-3408-4315-9a49-75ffb06db2e4
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=75)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: Opening phrases are functionally similar with 'forgive me, o my lord' and 'nitolbok li taħfirli, o sid tiegħi'. Key terms like 'forgiveness' and 'lord' overlap. However, text_hash and structure_hash are different.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/7] Target Prayer: 90c534b0-ed67-4a10-9586-f11822c6af70
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: similar_opening_keywords, key_terms_overlap
+Ambiguity: Opening phrases share keywords about longing and God's beauty/presence. Key terms also overlap. However, text_hash and structure_hash are different.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/7] Target Prayer: d4d33acd-0c90-4da3-8d57-82f7b20effa7
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: similar_opening_keywords, key_terms_overlap
+Ambiguity: Opening phrases share keywords about longing and God's beauty/presence. Key terms also overlap. However, text_hash and structure_hash are different.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/7] Target Prayer: 1888b877-3408-4315-9a49-75ffb06db2e4
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=75)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: Opening phrases are functionally similar with 'forgive me, o my lord' and 'nitolbok li taħfirli, o sid tiegħi'. Key terms like 'forgiveness' and 'lord' overlap. However, text_hash and structure_hash are different.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/7] Target Prayer: 1888b877-3408-4315-9a49-75ffb06db2e4
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=75)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: Opening phrases are functionally similar with 'forgive me, o my lord' and 'nitolbok li taħfirli, o sid tiegħi'. Key terms like 'forgiveness' and 'lord' overlap. However, text_hash and structure_hash are different.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

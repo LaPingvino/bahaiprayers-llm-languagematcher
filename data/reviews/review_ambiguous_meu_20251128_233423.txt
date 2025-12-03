@@ -1,0 +1,192 @@
+AMBIGUOUS MATCHES - MEU
+Generated: 2025-11-28 23:34:23
+Total items: 18
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/18] Target Prayer: 2557a28f-bd55-481f-ad3a-4125f49f1156
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: type_match: forgiveness, key_terms_overlap: god, seigneur, émanent, être, similar_opening, word_count_within_range (204 vs 272)
+Ambiguity: Multiple similar prayers for forgiveness
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/18] Target Prayer: 03b279c5-fe5d-4c3e-b1e7-f15840481c26
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: short_prayer_status_mismatch, type_mismatch, some_key_term_overlap: god
+Ambiguity: No clear short prayer matches in Meu, but some terms are general enough.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/18] Target Prayer: 0f98787f-36ca-413a-a6a8-0eea658b3a57
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: no_explicit_forgiveness_theme, key_term_overlap: god, word_count_difference (127 vs 52)
+Ambiguity: General invocation but not clearly a forgiveness prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/18] Target Prayer: f2fdcdaeb994
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_term_overlap: god, is_short_prayer_match, word_count_difference (230 vs 52)
+Ambiguity: Prayer of similar invocation, but much longer and for humanity in general.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/18] Target Prayer: 0f98787f-36ca-413a-a6a8-0eea658b3a57
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap: god, kingdom, lord, servants, type_mismatch: guidance vs unity, word_count_difference
+Ambiguity: Theme of community/guidance, but not explicitly the same prayer
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/18] Target Prayer: 0f98787f-36ca-413a-a6a8-0eea658b3a57
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: type_mismatch: assistance vs unity, key_terms_overlap: god, word_count_difference
+Ambiguity: Seeking assistance, but not directly for 'being kept back from'
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/18] Target Prayer: 085edf38-d030-4d4c-a62f-4087cf742695
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap: god, lord, grace, type_mismatch: forgiveness vs unity, word_count_difference (180 vs 181)
+Ambiguity: Close word count, but types and names differ.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/18] Target Prayer: 7abd0d5e-7a76-4c0c-ba40-0025a68ba164
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap: god, lord, type_mismatch: forgiveness vs assistance, similar_word_count_range
+Ambiguity: General prayer but not strong thematic link.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/18] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap: god, opening_phrase_similar: 'gloarje is oan jo, o myn god!', type_match: general vs forgiveness (related)
+Ambiguity: General devotional, but not strong theme of forgiveness.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/18] Target Prayer: 10922ab0-cb64-4df2-a959-bdc7ea97a538
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap: divine, glory, god, grace, holy, light, revelation, type_match: devotional, significant_word_count_difference (719 vs 1684)
+Ambiguity: Devotional themes and some keyword overlap, but significant length difference suggests it's not the same prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/18] Target Prayer: 03b279c5-fe5d-4c3e-b1e7-f15840481c26
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: theme_match: 'children' vs 'O God! Educate these children', key_terms_overlap: lord, type_match: general vs forgiveness (related)
+Ambiguity: General prayer for children, not direct match for 'excellent plants'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/18] Target Prayer: 10922ab0-cb64-4df2-a959-bdc7ea97a538
+Suggested Phelps: BH00155WOU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap: bahá, believers, creator, divine, god, grace, light, lord, manifestation, mercy, protection, tablet, yá, type_match: guidance vs forgiveness (related), significant_word_count_difference (1044 vs 1684)
+Ambiguity: Some overlap in thematic keywords, but different prayer types and significant length difference.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/18] Target Prayer: 17eb8499-a201-4191-ab9c-ec6f66749d48
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap: glory, god, light, type_match: devotional vs general (related), word_count_difference (60 vs 166)
+Ambiguity: General devotional theme, but not strong direct match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/18] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: theme_match: 'excellent plants' vs 'O God! Educate these children', key_terms_overlap: kingdom, lord, type_mismatch: general vs forgiveness (related)
+Ambiguity: General prayer for growth/education, not exact match for 'excellent plants'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/18] Target Prayer: 03b279c5-fe5d-4c3e-b1e7-f15840481c26
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: no_clear_thematic_match, key_term_overlap: god, type_mismatch: forgiveness vs forgiveness (different prayers)
+Ambiguity: General prayer, not specific enough to match this forgiveness prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/18] Target Prayer: 0f98787f-36ca-413a-a6a8-0eea658b3a57
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: no_explicit_forgiveness_theme, key_term_overlap: god, word_count_difference (127 vs 90)
+Ambiguity: General invocation but not clearly a forgiveness prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/18] Target Prayer: 5a723048-463b-41aa-ad58-08e75efbfdf3
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar: 'louange à toi, ô seigneur, mon dieu!' vs 'magnified be thy name, o lord my god!', key_terms_overlap: glory, god, grace, lord, mercy, type_match: devotional vs general (related), word_count_difference (228 vs 226)
+Ambiguity: General devotional theme, but not strong direct match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/18] Target Prayer: 445bec42-8d1d-4258-8de5-32413ff9d839
+Suggested Phelps: BH10231
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: key_terms_overlap: almighty, god, lord, manifestation, praise, servants, type_match: assistance vs forgiveness (related), word_count_difference (255 vs 153)
+Ambiguity: Seeking assistance, but theme of 'wrongs committed' not explicit.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,84 @@
+LOW CONFIDENCE MATCHES - HU
+Generated: 2025-11-28 16:05:32
+Total items: 9
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/9] Target Prayer: 
+Suggested Phelps: AB09139
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/9] Target Prayer: 
+Suggested Phelps: AB09139
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/9] Target Prayer: 
+Suggested Phelps: AB09139
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/9] Target Prayer: 
+Suggested Phelps: BH00687
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/9] Target Prayer: 
+Suggested Phelps: BH00687
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/9] Target Prayer: 
+Suggested Phelps: BH00687
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/9] Target Prayer: 
+Suggested Phelps: AB01023SAE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/9] Target Prayer: 
+Suggested Phelps: AB01023SAE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/9] Target Prayer: 
+Suggested Phelps: AB01023SAE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

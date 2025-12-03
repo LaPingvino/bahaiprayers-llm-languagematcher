@@ -1,0 +1,16 @@
+PRAYER MATCHING SUMMARY - HI
+Generated: 2025-11-28 13:52:22
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 16
+High confidence matches: 0 (0.0%)
+Low confidence matches:  16 (100.0%)
+Ambiguous matches:       0 (0.0%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Review low confidence matches in: review_low_confidence_hi_*.txt
+
+Next steps: Review files, make corrections, then run database updates.

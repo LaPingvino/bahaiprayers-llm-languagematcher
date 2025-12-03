@@ -1,0 +1,66 @@
+AMBIGUOUS MATCHES - BG
+Generated: 2025-11-28 13:50:00
+Total items: 6
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/6] Target Prayer: 15234c07-9c43-42b7-92ad-790ddbf48d47
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=91)%
+Ambiguity: multiple strong candidates with similar scores
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/6] Target Prayer: 2d07a0d0-c515-47c6-b505-e55e86ac1052
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=90)%
+Ambiguity: multiple strong candidates with similar scores
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/6] Target Prayer: 47c510de-e6c6-4d45-9004-2888b41ee2bf
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=90)%
+Ambiguity: multiple strong candidates with similar scores
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/6] Target Prayer: 9aa36040-0dae-4b7f-b8b9-9fde7a07c43f
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=92)%
+Ambiguity: multiple strong candidates with similar scores
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/6] Target Prayer: c2c5d0c7-9421-40fd-aed2-92caf81f0d32
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=91)%
+Ambiguity: multiple strong candidates with similar scores
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/6] Target Prayer: daabc45b-b2c0-44c6-b6d2-97cfb0a9a733
+Suggested Phelps: BH02848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=91)%
+Ambiguity: multiple strong candidates with similar scores
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

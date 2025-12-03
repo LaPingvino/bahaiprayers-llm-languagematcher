@@ -1,0 +1,20 @@
+LOW CONFIDENCE MATCHES - RU
+Generated: 2025-11-28 14:26:53
+Total items: 1
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/1] Target Prayer: bba9130d-e4d8-4bee-9719-f616352882dc
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=50)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

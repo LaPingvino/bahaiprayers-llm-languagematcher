@@ -1,0 +1,48 @@
+LOW CONFIDENCE MATCHES - BG
+Generated: 2025-11-28 13:50:00
+Total items: 4
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/4] Target Prayer: 3c9800f5-676e-415a-964b-81e5d3f9aeb3
+Suggested Phelps: NEW_TRANSLATION
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_reasonable_match_found
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/4] Target Prayer: d02c6589-3494-4bb2-8a3d-1c6c33b96d61
+Suggested Phelps: D02C6589
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_reasonable_match_found
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/4] Target Prayer: d110d100-73fc-4fdb-bef2-d46ded56e78e
+Suggested Phelps: D110D100
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_reasonable_match_found
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/4] Target Prayer: d28e1140-9942-4f76-90f7-f4b92180fca9
+Suggested Phelps: D28E1140
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_reasonable_match_found
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,192 @@
+AMBIGUOUS MATCHES - FA
+Generated: 2025-11-28 13:00:27
+Total items: 18
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/18] Target Prayer: 0fdc42a3-c6ca-47e9-b5a9-74a2e99f9337
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_match_infants_prayer, key_terms_overlap_infants
+Ambiguity: Same theme (infants prayer) but significant difference in word/character count, suggesting it's a different prayer for the same purpose.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/18] Target Prayer: 05717a4c-87b4-4f89-b7d4-27defe658106
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_match_infants_prayer, key_terms_overlap_infants
+Ambiguity: Same theme (infants prayer) but significant difference in word/character count, suggesting it's a different prayer for the same purpose.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/18] Target Prayer: 5fa397c4d6d5
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: thematic_match_infants_prayer, opening_phrase_similar_infants, key_terms_overlap_infants
+Ambiguity: Strong thematic match (infants prayer), similar opening sentiment, but significant word/character count difference indicates it's likely a different prayer for the same purpose.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/18] Target Prayer: b2d1725d43e4
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_match_infants_prayer, key_terms_overlap_infants
+Ambiguity: Same theme (infants prayer) but significant difference in word/character count, suggesting it's a different prayer for the same purpose.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/18] Target Prayer: 40764483e260
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: opening_phrase_exact_match_el, type_match_forgiveness
+Ambiguity: Exact match in opening phrase 'Glorified art thou, O Lord, my God!' and type 'forgiveness', but significant difference in word/character count suggests a different translation or version.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/18] Target Prayer: lb-2
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=70)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: Similar opening and key terms, but wording is not identical, and structure might be different.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/18] Target Prayer: ht-15
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: Similar praise opening, but content and key terms don't align strongly for a 'LIKELY' match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/18] Target Prayer: 5fa397c4d6d5
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: thematic_match_children_prayer, key_terms_overlap
+Ambiguity: Both are children's prayers but significant differences in length and specific wording suggest different prayers, not a direct translation.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/18] Target Prayer: b2d1725d43e4
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_match_children_prayer, key_terms_overlap
+Ambiguity: Both are children's prayers but significant differences in length and specific wording suggest different prayers, not a direct translation.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/18] Target Prayer: ht-9
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: Similar praise opening, but content and key terms don't align strongly for a 'LIKELY' match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/18] Target Prayer: 0fdc42a3-c6ca-47e9-b5a9-74a2e99f9337
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_match_infants_prayer, key_terms_overlap_infants
+Ambiguity: Same theme (infants prayer) but significant difference in word/character count, suggesting it's a different prayer for the same purpose.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/18] Target Prayer: 05717a4c-87b4-4f89-b7d4-27defe658106
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_match_infants_prayer, key_terms_overlap_infants
+Ambiguity: Same theme (infants prayer) but significant difference in word/character count, suggesting it's a different prayer for the same purpose.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/18] Target Prayer: 5fa397c4d6d5
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: thematic_match_infants_prayer, opening_phrase_similar_infants, key_terms_overlap_infants
+Ambiguity: Strong thematic match (infants prayer), similar opening sentiment, but significant word/character count difference indicates it's likely a different prayer for the same purpose.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/18] Target Prayer: b2d1725d43e4
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_match_infants_prayer, key_terms_overlap_infants
+Ambiguity: Same theme (infants prayer) but significant difference in word/character count, suggesting it's a different prayer for the same purpose.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/18] Target Prayer: 0fdc42a3-c6ca-47e9-b5a9-74a2e99f9337
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_match_infants_prayer, key_terms_overlap_infants
+Ambiguity: Same theme (infants prayer) but significant difference in word/character count, suggesting it's a different prayer for the same purpose.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/18] Target Prayer: 05717a4c-87b4-4f89-b7d4-27defe658106
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_match_infants_prayer, key_terms_overlap_infants
+Ambiguity: Same theme (infants prayer) but significant difference in word/character count, suggesting it's a different prayer for the same purpose.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/18] Target Prayer: 5fa397c4d6d5
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: thematic_match_infants_prayer, opening_phrase_similar_infants, key_terms_overlap_infants
+Ambiguity: Strong thematic match (infants prayer), similar opening sentiment, but significant word/character count difference indicates it's likely a different prayer for the same purpose.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/18] Target Prayer: b2d1725d43e4
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_match_infants_prayer, key_terms_overlap_infants
+Ambiguity: Same theme (infants prayer) but significant difference in word/character count, suggesting it's a different prayer for the same purpose.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

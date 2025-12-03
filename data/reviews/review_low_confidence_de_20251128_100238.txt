@@ -1,0 +1,57 @@
+LOW CONFIDENCE MATCHES - DE
+Generated: 2025-11-28 10:02:38
+Total items: 5
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/5] Target Prayer: afb63c08-e5a5-408c-abf7-0243889fadce
+Suggested Phelps: AFB63C08
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_sufficient_semantic_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/5] Target Prayer: c74b7ebd-8b1b-4741-b15f-bc9d333b2cc5
+Suggested Phelps: C74B7EBD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_sufficient_semantic_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/5] Target Prayer: dec324d0-7fd3-4965-8c8e-75f6ca2dd277
+Suggested Phelps: DEC324D0
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_sufficient_semantic_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/5] Target Prayer: ea5abc2b-e491-4684-90f4-4db79f26ac2c
+Suggested Phelps: EA5ABC2B
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_sufficient_semantic_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/5] Target Prayer: f2986647-594a-4b8d-a96a-21ce7910a0b4
+Suggested Phelps: F2986647
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_sufficient_semantic_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

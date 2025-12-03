@@ -1,0 +1,672 @@
+AMBIGUOUS MATCHES - MT
+Generated: 2025-11-28 13:04:32
+Total items: 66
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/66] Target Prayer: 5b35aedc-45ec-4c48-900b-fc7a1ae4c85e
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Type also differs.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/66] Target Prayer: 7009d8063b6b
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/66] Target Prayer: 1a555697fbb4
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/66] Target Prayer: d648a16e730a
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/66] Target Prayer: 1a555697fbb4
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/66] Target Prayer: 26061efb-721f-47fa-8142-80e05e7cb938
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/66] Target Prayer: 26061efb-721f-47fa-8142-80e05e7cb938
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/66] Target Prayer: 55122b87-b3c1-4239-b43b-dcd129d7b233
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/66] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/66] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BH08264
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/66] Target Prayer: 26061efb-721f-47fa-8142-80e05e7cb938
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH08244
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/66] Target Prayer: d648a16e730a
+Suggested Phelps: BH03109KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/66] Target Prayer: 55fabe7bedd1
+Suggested Phelps: AB02326
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/66] Target Prayer: 26061efb-721f-47fa-8142-80e05e7cb938
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/66] Target Prayer: 4d174f6409d6
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/66] Target Prayer: 0e4da5ebe82e
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/66] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/66] Target Prayer: 26061efb-721f-47fa-8142-80e05e7cb938
+Suggested Phelps: BH10231
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/66] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/66] Target Prayer: 26061efb-721f-47fa-8142-80e05e7cb938
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/66] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/66] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BB00147ORD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/66] Target Prayer: d648a16e730a
+Suggested Phelps: BH08824
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/66] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: AB00156LOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/66] Target Prayer: 26061efb-721f-47fa-8142-80e05e7cb938
+Suggested Phelps: AB00169FRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/66] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BH00593
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH09404
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/66] Target Prayer: 26061efb-721f-47fa-8142-80e05e7cb938
+Suggested Phelps: BH02848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/66] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BH07683
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH00634
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/66] Target Prayer: d648a16e730a
+Suggested Phelps: BH09289
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/66] Target Prayer: 7009d8063b6b
+Suggested Phelps: AB00189AID
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/66] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BH07721
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/66] Target Prayer: a3172c7799ee
+Suggested Phelps: AB10685
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/66] Target Prayer: d648a16e730a
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/66] Target Prayer: 55fabe7bedd1
+Suggested Phelps: AB02596
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/66] Target Prayer: 25330b8ef48e
+Suggested Phelps: AB09040
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/66] Target Prayer: 786e9c48-c4d8-466c-9f39-c43daa361ede
+Suggested Phelps: BB00018ADJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/66] Target Prayer: d648a16e730a
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/66] Target Prayer: d648a16e730a
+Suggested Phelps: BH00868WIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH07426DRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH02898MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/66] Target Prayer: d648a16e730a
+Suggested Phelps: BB00485TRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/66] Target Prayer: d648a16e730a
+Suggested Phelps: BH00009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/66] Target Prayer: d648a16e730a
+Suggested Phelps: BB00621
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/66] Target Prayer: d648a16e730a
+Suggested Phelps: BH08242
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/66] Target Prayer: 1a555697fbb4
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH07657
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/66] Target Prayer: d648a16e730a
+Suggested Phelps: BH09848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/66] Target Prayer: 8e817fe9b16a
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH02524
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/66] Target Prayer: 26061efb-721f-47fa-8142-80e05e7cb938
+Suggested Phelps: BH02777RIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH08308
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH10581
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/66] Target Prayer: 994669e7-1296-4141-932a-2d35aef56f72
+Suggested Phelps: BBU0015
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: medium_opening_closing_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/66] Target Prayer: 4d174f6409d6
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/66] Target Prayer: fcdb3d57a998
+Suggested Phelps: BH07780
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/66] Target Prayer: ba02faff6ce6
+Suggested Phelps: BH10973
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/66] Target Prayer: c59cd444c754
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Type also differs.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/66] Target Prayer: c59cd444c754
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: medium_key_terms_overlap
+Ambiguity: Low key terms overlap, opening/closing are very different. Text hash mismatch.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,534 @@
+LOW CONFIDENCE MATCHES - FY
+Generated: 2025-11-28 17:50:24
+Total items: 58
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB02304TST
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH07106
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/58] Target Prayer: fbce7d414730
+Suggested Phelps: BH10505
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: ABU0009SER
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH05703KEP
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH09864
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB10714
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/58] Target Prayer: 61179228-16c3-4acc-8fe4-d4d4ec249cb9
+Suggested Phelps: AB09794CHI
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH09872
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH05768
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH05071
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB10701
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH08604
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH03111
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH01503ENJ
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BB00556
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/58] Target Prayer: d9ac2c6a-bc7a-4247-8675-cc718960f502
+Suggested Phelps: AB10703RAD
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH07469
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH09855
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH08855
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH08433
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB06211
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB03082
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB10275
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/58] Target Prayer: 9ca3202f-3d14-438a-9b08-89394bfb4822
+Suggested Phelps: BH04421HEA
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB00184KIN
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH00531TRA
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH08594
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB10701
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH08244
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB00431PIT
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH03109KIN
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB02326
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH07426FOO
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BB00002ENA
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: ABU0070GAT
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BB00630
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH08264
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH08852
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH09960
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BB00374
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/58] Target Prayer: fbce7d414730
+Suggested Phelps: AB03017CAL
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB11281
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH08244
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB00431PIT
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH03109KIN
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB02326
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH07426FOO
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BB00002ENA
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: ABU0070GAT
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BB00630
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH08264
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH08852
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH09960
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BB00374
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/58] Target Prayer: fbce7d414730
+Suggested Phelps: AB03017CAL
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: AB11281
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/58] Target Prayer: 17b0975d7e7b
+Suggested Phelps: BH08244
+Match Type: LIKELY
+Confidence: %!d(float64=68)%
+Reasons: similar_length, key_terms_overlap (1)
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

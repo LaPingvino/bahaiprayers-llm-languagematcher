@@ -1,0 +1,16 @@
+PRAYER MATCHING SUMMARY - TL
+Generated: 2025-11-28 20:27:03
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 128
+High confidence matches: 128 (100.0%)
+Low confidence matches:  0 (0.0%)
+Ambiguous matches:       0 (0.0%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ 128 high confidence matches applied automatically
+
+Next steps: Review files, make corrections, then run database updates.

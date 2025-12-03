@@ -1,0 +1,30 @@
+AMBIGUOUS MATCHES - ZH-HANS
+Generated: 2025-11-29 00:23:01
+Total items: 2
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/2] Target Prayer: ecb282344f3d
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: opening_phrase_thematic_overlap, key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/2] Target Prayer: a826ba92357b
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_overlap_forgiveness_mercy
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

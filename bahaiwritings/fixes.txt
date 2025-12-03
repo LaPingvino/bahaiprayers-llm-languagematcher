@@ -1,0 +1,1013 @@
+diff --dolt a/writings b/writings
+--- a/writings
++++ b/writings
++---+-----------------+--------------------------------------+
+|   | phelps          | version                              |
++---+-----------------+--------------------------------------+
+| < | NULL            | 006d8a7c-daf0-4716-94c2-0ab24e05cf54 |
+| > | AB00553         | 006d8a7c-daf0-4716-94c2-0ab24e05cf54 |
+| < | NULL            | 00a2f851-1be9-4ff6-8bda-1b3854298aca |
+| > | AB07158         | 00a2f851-1be9-4ff6-8bda-1b3854298aca |
+| < | NULL            | 00bd2321-35c0-4986-ba8c-ed9a8a5275fe |
+| > | BH09401         | 00bd2321-35c0-4986-ba8c-ed9a8a5275fe |
+| < | NULL            | 00e8065e-cb20-4fc7-9972-d8b38f36aec7 |
+| > | TMP00069        | 00e8065e-cb20-4fc7-9972-d8b38f36aec7 |
+| < | NULL            | 011d5894-1bab-4c39-b9e8-7ead5b8b9c81 |
+| > | BH00438         | 011d5894-1bab-4c39-b9e8-7ead5b8b9c81 |
+| < | NULL            | 0121acad-660b-4234-a94e-1c3d2d383c80 |
+| > | ABU0070GAT      | 0121acad-660b-4234-a94e-1c3d2d383c80 |
+| < | NULL            | 01d57874-465f-42f8-8abd-f0996b3056ac |
+| > | BH07657         | 01d57874-465f-42f8-8abd-f0996b3056ac |
+| < | NULL            | 03461a16-d942-49df-a1f1-20eea88f9d6c |
+| > | AB00241HIG      | 03461a16-d942-49df-a1f1-20eea88f9d6c |
+| < | NULL            | 035d0cc2-1dd6-4aa0-b90a-007c472f029b |
+| > | BH00568IMP      | 035d0cc2-1dd6-4aa0-b90a-007c472f029b |
+| < | NULL            | 03ce30d2-0077-4bfc-9481-e7bcfb866b47 |
+| > | BH09508         | 03ce30d2-0077-4bfc-9481-e7bcfb866b47 |
+| < | NULL            | 046ce522-9329-4459-b244-cd7aa3b95e81 |
+| > | ABU0137ALL      | 046ce522-9329-4459-b244-cd7aa3b95e81 |
+| < | NULL            | 05494fd0-5b3f-4dba-9cb8-8ef0567c2a2c |
+| > | BH07106         | 05494fd0-5b3f-4dba-9cb8-8ef0567c2a2c |
+| < | NULL            | 05ab5ff1-1631-4b5e-bcec-3b157e7a3b65 |
+| > | BH08855         | 05ab5ff1-1631-4b5e-bcec-3b157e7a3b65 |
+| < | NULL            | 0603e169-4617-45f0-880e-5d512066d7b0 |
+| > | TMP00056        | 0603e169-4617-45f0-880e-5d512066d7b0 |
+| < | AB03461MAR      | 068b50ae-d492-4758-b6ba-e2156533f04e |
+| > |                 | 068b50ae-d492-4758-b6ba-e2156533f04e |
+| < | NULL            | 06a05b50-6e0a-47dd-b336-0e6d9b29f357 |
+| > | AB00388COM      | 06a05b50-6e0a-47dd-b336-0e6d9b29f357 |
+| < | NULL            | 06fde28e-8dab-4ab3-afa4-79d14c170675 |
+| > | BH00438         | 06fde28e-8dab-4ab3-afa4-79d14c170675 |
+| < | NULL            | 07673a97-633b-46f1-8144-7d6d612f1397 |
+| > | BH03629GRI      | 07673a97-633b-46f1-8144-7d6d612f1397 |
+| < | NULL            | 07846922-c48c-45c4-8825-d95c93cece77 |
+| > |                 | 07846922-c48c-45c4-8825-d95c93cece77 |
+| < | NULL            | 078a7cad-40a8-4f0f-9d99-57ae8ba6fb3e |
+| > | AB00210BIR      | 078a7cad-40a8-4f0f-9d99-57ae8ba6fb3e |
+| < | NULL            | 081f78f2-2939-404c-b1bf-e3bcac054745 |
+| > | BH09848         | 081f78f2-2939-404c-b1bf-e3bcac054745 |
+| < | NULL            | 084e5390-05d8-4b06-a672-a0ee291a40ee |
+| > | NEW_TRANSLATION | 084e5390-05d8-4b06-a672-a0ee291a40ee |
+| < | AB00001FIR      | 08a15ee3-ba28-42de-8cf0-def6e87003c3 |
+| > |                 | 08a15ee3-ba28-42de-8cf0-def6e87003c3 |
+| < | NULL            | 08c0cad1-f906-4296-8904-8e4d7d1cb88d |
+| > | BB00522         | 08c0cad1-f906-4296-8904-8e4d7d1cb88d |
+| < | NULL            | 0918dc9a-c0a8-4d80-b4f2-89ecc8b7324f |
+| > | BH02022         | 0918dc9a-c0a8-4d80-b4f2-89ecc8b7324f |
+| < | NULL            | 09bb0f23-1310-47cc-a4b8-79409a2651aa |
+| > | BH09401         | 09bb0f23-1310-47cc-a4b8-79409a2651aa |
+| < | BH09085         | 0a06655c-1fb4-4cb4-b034-6df27988eedd |
+| > |                 | 0a06655c-1fb4-4cb4-b034-6df27988eedd |
+| < | NULL            | 0a911b9c-ca76-4b15-aad6-3939860ab5f2 |
+| > | ABU0188TUR      | 0a911b9c-ca76-4b15-aad6-3939860ab5f2 |
+| < | NULL            | 0b14dde1-9e69-4c4e-86d4-6f7c77c95c1c |
+| > | AB00001SHI      | 0b14dde1-9e69-4c4e-86d4-6f7c77c95c1c |
+| < | NULL            | 0d2e0497-a66a-48d4-bfee-3f12e7ef7df5 |
+| > | BH00009SER      | 0d2e0497-a66a-48d4-bfee-3f12e7ef7df5 |
+| < | NULL            | 0e10b825-fcb4-494d-82c6-b2d6faa39510 |
+| > | AB00094WEA      | 0e10b825-fcb4-494d-82c6-b2d6faa39510 |
+| < | NULL            | 0ef370bb-df98-4555-9b01-7987206accba |
+| > | BH04569         | 0ef370bb-df98-4555-9b01-7987206accba |
+| < | NULL            | 0f2f11d3-797c-426e-a9fc-c940b285ebe1 |
+| > | AB02866         | 0f2f11d3-797c-426e-a9fc-c940b285ebe1 |
+| < | AB00001SHI      | 0f4b0d14-d3c5-49df-a926-3a4c57c4a634 |
+| > |                 | 0f4b0d14-d3c5-49df-a926-3a4c57c4a634 |
+| < | NULL            | 1097f772-6ae0-4318-803e-bf154b4844dd |
+| > | BH07180         | 1097f772-6ae0-4318-803e-bf154b4844dd |
+| < | NULL            | 10a3e14f-9317-43f0-80b2-5f6f9de859ec |
+| > | BH02307         | 10a3e14f-9317-43f0-80b2-5f6f9de859ec |
+| < | NULL            | 11cc129c-b967-45c1-9059-658dab0e7e78 |
+| > | BH06026         | 11cc129c-b967-45c1-9059-658dab0e7e78 |
+| < | AB00094WEA      | 11ea12a4-ce31-4b08-bbe9-3bfed5e50f08 |
+| > |                 | 11ea12a4-ce31-4b08-bbe9-3bfed5e50f08 |
+| < | NULL            | 124713b1-c2be-47c5-825d-7ddc1cdf54cd |
+| > | AB10701         | 124713b1-c2be-47c5-825d-7ddc1cdf54cd |
+| < | NULL            | 12a17676-3ebf-4657-9fc3-212511dcd40e |
+| > | AB07158         | 12a17676-3ebf-4657-9fc3-212511dcd40e |
+| < | NULL            | 12bb8673-efea-4d32-b5ac-9a24675bbd9c |
+| > | AB05652WIS      | 12bb8673-efea-4d32-b5ac-9a24675bbd9c |
+| < | NULL            | 135adfbf-7515-434f-824c-60b31bd50e92 |
+| > |                 | 135adfbf-7515-434f-824c-60b31bd50e92 |
+| < | NULL            | 13830a97-38b7-4c28-b6fc-a5bbb4b8511f |
+| > | BH07180         | 13830a97-38b7-4c28-b6fc-a5bbb4b8511f |
+| < | NULL            | 13e634cb-995e-4608-b6b4-3a4c292d6945 |
+| > | BB00617         | 13e634cb-995e-4608-b6b4-3a4c292d6945 |
+| < | NULL            | 14ae4feb-3c2f-410b-9843-2c7c941fe2fc |
+| > | AB00001SHI      | 14ae4feb-3c2f-410b-9843-2c7c941fe2fc |
+| < | NULL            | 150fd883-ee22-4f9a-8c50-26696026f0f3 |
+| > | BH08604         | 150fd883-ee22-4f9a-8c50-26696026f0f3 |
+| < | NULL            | 15199aa6-4966-4650-b420-5681cc6c8c31 |
+| > | BH00009SHE      | 15199aa6-4966-4650-b420-5681cc6c8c31 |
+| < | NULL            | 1525edf2-68b1-4c75-a72b-0e7344be1cfb |
+| > |                 | 1525edf2-68b1-4c75-a72b-0e7344be1cfb |
+| < | NULL            | 1580da1b-36e1-45fb-9ca4-1af6a9bc3980 |
+| > | AB07759         | 1580da1b-36e1-45fb-9ca4-1af6a9bc3980 |
+| < | NULL            | 15c093ed-00bd-4308-aa11-11f4e47715c9 |
+| > | BH03447         | 15c093ed-00bd-4308-aa11-11f4e47715c9 |
+| < | BH00154FIR      | 15c2889b-029f-4777-af33-f3ad21e69c41 |
+| > |                 | 15c2889b-029f-4777-af33-f3ad21e69c41 |
+| < | NULL            | 167ba57b-e05a-42b0-a005-642c0ae3ea19 |
+| > | BH01313NAM      | 167ba57b-e05a-42b0-a005-642c0ae3ea19 |
+| < | NULL            | 17269926-cdf3-4281-a0ea-bf1ee3c2b067 |
+| > | BH07683         | 17269926-cdf3-4281-a0ea-bf1ee3c2b067 |
+| < | NULL            | 175c922b-5942-4fd6-94e5-f6a42dfa4910 |
+| > | BH02022         | 175c922b-5942-4fd6-94e5-f6a42dfa4910 |
+| < | NULL            | 17c9c3da-0e5e-426e-b6cc-3f67719619e2 |
+| > | AB09139         | 17c9c3da-0e5e-426e-b6cc-3f67719619e2 |
+| < | NULL            | 1895a7a2-2ddc-4783-9be3-6b40f7b5d47b |
+| > | AB02024         | 1895a7a2-2ddc-4783-9be3-6b40f7b5d47b |
+| < | NULL            | 18b60e10-2c29-44ef-a50b-6fff812d3e0d |
+| > | TMP00027        | 18b60e10-2c29-44ef-a50b-6fff812d3e0d |
+| < | NULL            | 19c700eb-fe2f-462a-9d0e-2d54a10cbab3 |
+| > | BH00095MGX      | 19c700eb-fe2f-462a-9d0e-2d54a10cbab3 |
+| < | BH03447         | 19d8333d-ef2d-4c7d-ac67-61df2f14b689 |
+| > |                 | 19d8333d-ef2d-4c7d-ac67-61df2f14b689 |
+| < | NULL            | 19ff065f-b95a-4c0f-80a6-5c4be3467311 |
+| > |                 | 19ff065f-b95a-4c0f-80a6-5c4be3467311 |
+| < | NULL            | 1a66d483-ae97-4a51-bb5b-e82187020b72 |
+| > | AB08693         | 1a66d483-ae97-4a51-bb5b-e82187020b72 |
+| < | BH01125         | 1ab7a2d5-21c1-48a7-b98c-21d24afe7ae2 |
+| > |                 | 1ab7a2d5-21c1-48a7-b98c-21d24afe7ae2 |
+| < | NULL            | 1b312880-50bc-4abf-a4d6-e6ab5a7e7f19 |
+| > | BH08604         | 1b312880-50bc-4abf-a4d6-e6ab5a7e7f19 |
+| < | BH08855         | 1b82ecd2-0a6d-4a05-a264-8075aafc35e8 |
+| > |                 | 1b82ecd2-0a6d-4a05-a264-8075aafc35e8 |
+| < | NULL            | 1c6b2623-6d78-40b0-9bb0-01a92d4d4258 |
+| > | AB00049RAP      | 1c6b2623-6d78-40b0-9bb0-01a92d4d4258 |
+| < | NULL            | 1c86bd05-f6ce-41d6-a53d-33a19898b2f4 |
+| > | BH10973         | 1c86bd05-f6ce-41d6-a53d-33a19898b2f4 |
+| < | NULL            | 1cad75b1-4983-48b2-89f1-9057e0b30a5c |
+| > | AB00169FRA      | 1cad75b1-4983-48b2-89f1-9057e0b30a5c |
+| < | NULL            | 1cb4fbb1-1393-4a5f-bbdb-010c729a1dcb |
+| > | BH05543         | 1cb4fbb1-1393-4a5f-bbdb-010c729a1dcb |
+| < | NULL            | 1d957147-a32c-40f7-afaa-fee8f4288630 |
+| > | AB00218SOU      | 1d957147-a32c-40f7-afaa-fee8f4288630 |
+| < | NULL            | 1d9cc7c8-ad5f-461a-a178-46e7e537f823 |
+| > | AB07124         | 1d9cc7c8-ad5f-461a-a178-46e7e537f823 |
+| < | NULL            | 1e77dc97-3fbd-4f19-973e-3bbc353a47f2 |
+| > | BH10505         | 1e77dc97-3fbd-4f19-973e-3bbc353a47f2 |
+| < | NULL            | 1ed19706-83a5-45d7-a4e2-e1ba120092ab |
+| > | AB02596         | 1ed19706-83a5-45d7-a4e2-e1ba120092ab |
+| < | NULL            | 1ff4402d-c27e-42b9-be8b-c69a2efb713c |
+| > | BH00009AWA      | 1ff4402d-c27e-42b9-be8b-c69a2efb713c |
+| < | NULL            | 20833936-33b6-4f98-ace4-ad18e19fb264 |
+| > | BH08828         | 20833936-33b6-4f98-ace4-ad18e19fb264 |
+| < | NULL            | 20b2c46a-7fde-4dd3-8d45-04e2b9befa96 |
+| > | AB02866         | 20b2c46a-7fde-4dd3-8d45-04e2b9befa96 |
+| < | NULL            | 21716a2a-da85-47ca-9627-e9565a1a2834 |
+| > | BH00005SEE      | 21716a2a-da85-47ca-9627-e9565a1a2834 |
+| < | NULL            | 217959ef-5eec-468a-9ea2-e7995d0faeca |
+| > | AB04980HOP      | 217959ef-5eec-468a-9ea2-e7995d0faeca |
+| < | NULL            | 222537af-0032-4394-bb4e-ed67bb837fc2 |
+| > | BH08846         | 222537af-0032-4394-bb4e-ed67bb837fc2 |
+| < | NULL            | 22ac4a1a-c27b-4002-978e-4b47d978b252 |
+| > | ABU0070GAT      | 22ac4a1a-c27b-4002-978e-4b47d978b252 |
+| < | NULL            | 23017bf4-950c-446c-9141-77bcf3f45721 |
+| > | AB03082         | 23017bf4-950c-446c-9141-77bcf3f45721 |
+| < | NULL            | 231494d3-d767-4a2c-b830-f11996c07fc0 |
+| > | AB07124         | 231494d3-d767-4a2c-b830-f11996c07fc0 |
+| < | NULL            | 233b5b0f-b89a-437b-b26f-81330b179a22 |
+| > | ABU0129EDU      | 233b5b0f-b89a-437b-b26f-81330b179a22 |
+| < | NULL            | 234037bb-dc2b-45c2-8747-6974532d2ecc |
+| > | BH07180         | 234037bb-dc2b-45c2-8747-6974532d2ecc |
+| < | NULL            | 236d13b1-6f7e-43e8-b835-8b5d8fe2f38c |
+| > | TMP00094        | 236d13b1-6f7e-43e8-b835-8b5d8fe2f38c |
+| < | NULL            | 23a59853-1787-4e7b-8d04-2270b92a6e7a |
+| > | AB00687SEE      | 23a59853-1787-4e7b-8d04-2270b92a6e7a |
+| < | NULL            | 23d7465f-6253-4f0d-b7d6-aa837998c1d1 |
+| > | AB00431PIT      | 23d7465f-6253-4f0d-b7d6-aa837998c1d1 |
+| < | NULL            | 23fa4081-91a3-40fd-b555-28b5f320009e |
+| > | ABU0009SER      | 23fa4081-91a3-40fd-b555-28b5f320009e |
+| < | AB10701         | 23fc518a-bdfe-410f-ad75-2c222c45cb72 |
+| > |                 | 23fc518a-bdfe-410f-ad75-2c222c45cb72 |
+| < | NULL            | 241ed906-44bd-48bd-b953-19fe6db2bf5d |
+| > | AB04980HOP      | 241ed906-44bd-48bd-b953-19fe6db2bf5d |
+| < | AB00527         | 2490e2b0-83fe-4e12-b640-e535080b10f7 |
+| > |                 | 2490e2b0-83fe-4e12-b640-e535080b10f7 |
+| < | NULL            | 2645a1df-3091-4c4a-a65c-d0861d99afe4 |
+| > | BH09401         | 2645a1df-3091-4c4a-a65c-d0861d99afe4 |
+| < | BB00617         | 26d68520-f017-49f1-9bba-010963bb206c |
+| > |                 | 26d68520-f017-49f1-9bba-010963bb206c |
+| < | NULL            | 26d95d1f-24dd-4fb9-bb5d-a948ba6021c1 |
+| > | AB00065STE      | 26d95d1f-24dd-4fb9-bb5d-a948ba6021c1 |
+| < | NULL            | 26e6befc-4154-4b2e-b933-eb0f1cdfbb9b |
+| > | BH02848         | 26e6befc-4154-4b2e-b933-eb0f1cdfbb9b |
+| < | NULL            | 271615e4-d895-4163-b26f-73636c11b5a5 |
+| > | AB02596         | 271615e4-d895-4163-b26f-73636c11b5a5 |
+| < | AB01023SAE      | 275081b1-04f0-4691-9943-5cf1d084cfac |
+| > |                 | 275081b1-04f0-4691-9943-5cf1d084cfac |
+| < | NULL            | 27b027ac-428c-414c-a5a0-0890a88d6715 |
+| > | SKIP            | 27b027ac-428c-414c-a5a0-0890a88d6715 |
+| < | NULL            | 283ca00f-5479-493b-b331-c58bc05a3fb3 |
+| > | BHU0004SUF      | 283ca00f-5479-493b-b331-c58bc05a3fb3 |
+| < | NULL            | 2853a736-0bbf-4130-9a30-46feb2343344 |
+| > | BH09085         | 2853a736-0bbf-4130-9a30-46feb2343344 |
+| < | NULL            | 287ceed3-0ee9-457a-90fc-d8378cb7c041 |
+| > | AB03082         | 287ceed3-0ee9-457a-90fc-d8378cb7c041 |
+| < | NULL            | 29905a86-99fd-4936-b78d-546a1d9722ed |
+| > | AB04980HOP      | 29905a86-99fd-4936-b78d-546a1d9722ed |
+| < | NULL            | 29c19079-61ba-4eae-a172-2cbcc8b5b627 |
+| > | BH08013         | 29c19079-61ba-4eae-a172-2cbcc8b5b627 |
+| < | NULL            | 2a1829e8-2f10-4982-a388-f09bcfd42eae |
+| > | AB09040         | 2a1829e8-2f10-4982-a388-f09bcfd42eae |
+| < | NULL            | 2b18fad2-5a3c-4b93-bc27-f698aef36e6f |
+| > | AB03017CAL      | 2b18fad2-5a3c-4b93-bc27-f698aef36e6f |
+| < | BH00005ALL      | 2b3cf473-e032-41d2-a35e-043fb95c8c82 |
+| > |                 | 2b3cf473-e032-41d2-a35e-043fb95c8c82 |
+| < | AB03082         | 2b6549b8-2152-4ae1-bb39-9eab107f7f36 |
+| > |                 | 2b6549b8-2152-4ae1-bb39-9eab107f7f36 |
+| < | NULL            | 2ba120a7-c8b5-4140-9942-891787dc8908 |
+| > | BH08855         | 2ba120a7-c8b5-4140-9942-891787dc8908 |
+| < | NULL            | 2bee5b4d-1511-4ee7-8f22-d49222e5e531 |
+| > |                 | 2bee5b4d-1511-4ee7-8f22-d49222e5e531 |
+| < | BB00560         | 2d297c17-6459-4c78-b5c4-82366736bc37 |
+| > |                 | 2d297c17-6459-4c78-b5c4-82366736bc37 |
+| < | BH00009GRA      | 2d2de9e4-1678-4378-b400-e97420b1ecbb |
+| > |                 | 2d2de9e4-1678-4378-b400-e97420b1ecbb |
+| < | BH06026         | 2d31b0b2-1e13-4571-8ca2-133ab93ebe77 |
+| > |                 | 2d31b0b2-1e13-4571-8ca2-133ab93ebe77 |
+| < | NULL            | 2d36df1d-5e1d-423c-9f16-73fd5be81825 |
+| > | BH00238         | 2d36df1d-5e1d-423c-9f16-73fd5be81825 |
+| < | NULL            | 2d8e0ad1-52e6-4ebb-9882-44571856d14b |
+| > | AB03896MAJ      | 2d8e0ad1-52e6-4ebb-9882-44571856d14b |
+| < | NULL            | 2e18bb34-3332-45a8-8ea8-117fe4446a2a |
+| > | AB09040         | 2e18bb34-3332-45a8-8ea8-117fe4446a2a |
+| < | NULL            | 2e5e0c90-2a44-4138-93b8-54a7d99f54f5 |
+| > | BH05768         | 2e5e0c90-2a44-4138-93b8-54a7d99f54f5 |
+| < | NULL            | 2e936d5f-4260-4876-ae22-8a694f966d97 |
+| > | AB07155WOM      | 2e936d5f-4260-4876-ae22-8a694f966d97 |
+| < | BH02022         | 2f6dc188-1a48-4e56-af3b-ce5c35833f49 |
+| > |                 | 2f6dc188-1a48-4e56-af3b-ce5c35833f49 |
+| < | NULL            | 3038ecbd-8fb0-4cb1-97e2-c261e2dca0a8 |
+| > | NEW_TRANSLATION | 3038ecbd-8fb0-4cb1-97e2-c261e2dca0a8 |
+| < | NULL            | 308b8d73-479e-4c0e-bccf-887c1d29bbb0 |
+| > | AB00362LOV      | 308b8d73-479e-4c0e-bccf-887c1d29bbb0 |
+| < | BH03908         | 30b347a0-b6e0-4539-8c75-e831a6f76905 |
+| > |                 | 30b347a0-b6e0-4539-8c75-e831a6f76905 |
+| < | AB00362LOV      | 311883b2-17d2-44d5-9bfd-5e518621b886 |
+| > |                 | 311883b2-17d2-44d5-9bfd-5e518621b886 |
+| < | BH00074BLE      | 320485db-7f20-45a1-8209-8298631ba7b5 |
+| > |                 | 320485db-7f20-45a1-8209-8298631ba7b5 |
+| < | AB09794CHI      | 3211593d-b7ff-42b3-8917-6ee658397798 |
+| > |                 | 3211593d-b7ff-42b3-8917-6ee658397798 |
+| < | NULL            | 322deb0d-ea38-4b21-bf02-9e57a5e996fe |
+| > | BH05894         | 322deb0d-ea38-4b21-bf02-9e57a5e996fe |
+| < | NULL            | 327833b5-0f9b-40bf-84ae-99fff9cbc6c0 |
+| > | BH08013         | 327833b5-0f9b-40bf-84ae-99fff9cbc6c0 |
+| < | BH03447         | 32d4722d-6fb5-4ad6-872b-69853f93a26b |
+| > |                 | 32d4722d-6fb5-4ad6-872b-69853f93a26b |
+| < | NULL            | 33c210aa-a497-4f37-b2b0-555bafdc796d |
+| > | BH08363         | 33c210aa-a497-4f37-b2b0-555bafdc796d |
+| < | AB03082         | 34e35c68-076c-41b6-85a6-60cc46fd3885 |
+| > |                 | 34e35c68-076c-41b6-85a6-60cc46fd3885 |
+| < | NULL            | 3509cd25-a4e6-4a23-8ca9-87f72f302f4f |
+| > | BH09401         | 3509cd25-a4e6-4a23-8ca9-87f72f302f4f |
+| < | NULL            | 35627a76-d5d6-4340-95b6-298095373976 |
+| > | BH10688         | 35627a76-d5d6-4340-95b6-298095373976 |
+| < | NULL            | 360875ec-4d7a-4163-b755-44d3a1cf0a68 |
+| > | BH03181         | 360875ec-4d7a-4163-b755-44d3a1cf0a68 |
+| < | NULL            | 36856d08-049a-4df8-af95-cf912003f145 |
+| > | BH10127         | 36856d08-049a-4df8-af95-cf912003f145 |
+| < | NULL            | 37a225cb-f0d2-4f21-94e6-a0861c61eecc |
+| > | BH09401         | 37a225cb-f0d2-4f21-94e6-a0861c61eecc |
+| < | NULL            | 388acdff-3f3e-4e1f-b841-da6182c9cdaa |
+| > | AB00169BEH      | 388acdff-3f3e-4e1f-b841-da6182c9cdaa |
+| < | NULL            | 38dacaf2-c829-45d9-b28c-cf472571b957 |
+| > | BH03447         | 38dacaf2-c829-45d9-b28c-cf472571b957 |
+| < | NULL            | 38df8f24-5815-4421-88be-4941bed66801 |
+| > | BH05071         | 38df8f24-5815-4421-88be-4941bed66801 |
+| < | NULL            | 39f1e08b-7237-4ce4-98c5-7901c72e8dc7 |
+| > | AB02342AWA      | 39f1e08b-7237-4ce4-98c5-7901c72e8dc7 |
+| < | NULL            | 3a1c1dcc-eafe-4b82-b25b-c0eb68a9c744 |
+| > | BH10076         | 3a1c1dcc-eafe-4b82-b25b-c0eb68a9c744 |
+| < | AB00001FIR      | 3a40f5b5-a6fc-4194-a0f0-822a14a4f529 |
+| > |                 | 3a40f5b5-a6fc-4194-a0f0-822a14a4f529 |
+| < | NULL            | 3a5562d6-ec78-4dba-baab-45dfbc564e1f |
+| > | AB07155WOM      | 3a5562d6-ec78-4dba-baab-45dfbc564e1f |
+| < | BH04569         | 3abc3395-5b2a-435e-bcfb-7916074c3129 |
+| > |                 | 3abc3395-5b2a-435e-bcfb-7916074c3129 |
+| < | NULL            | 3bf15b88-8125-44de-b137-cde0a6676f2e |
+| > | BH08855         | 3bf15b88-8125-44de-b137-cde0a6676f2e |
+| < | NULL            | 3c068a2a-f83b-4af4-995b-3b46d8cc0967 |
+| > | BH02524         | 3c068a2a-f83b-4af4-995b-3b46d8cc0967 |
+| < | NULL            | 3cbadadd-b8b2-463c-b45a-b48cd5c6ea61 |
+| > | BH10973         | 3cbadadd-b8b2-463c-b45a-b48cd5c6ea61 |
+| < | NULL            | 3cf64491-99bb-422c-a680-72ab101ce222 |
+| > | BB00018FOR      | 3cf64491-99bb-422c-a680-72ab101ce222 |
+| < | NULL            | 3d6ad39a-a421-4322-95af-79e22e83a81f |
+| > | BB00623         | 3d6ad39a-a421-4322-95af-79e22e83a81f |
+| < | NULL            | 3f3ba871-30b2-42fe-969c-12d71c7a8375 |
+| > | AB06528MID      | 3f3ba871-30b2-42fe-969c-12d71c7a8375 |
+| < | NULL            | 3f93924b-7055-415f-8b61-fa309c103850 |
+| > | BH07683         | 3f93924b-7055-415f-8b61-fa309c103850 |
+| < | NULL            | 3fa26155-7113-44b4-bd50-ef63a0209296 |
+| > | BH00438         | 3fa26155-7113-44b4-bd50-ef63a0209296 |
+| < | NULL            | 4193be28-7c67-415a-9f1a-0c32d53a97d2 |
+| > | AB04620         | 4193be28-7c67-415a-9f1a-0c32d53a97d2 |
+| < | NULL            | 4216cc44-a493-4601-b15b-d2614c21178e |
+| > | AB00094WEA      | 4216cc44-a493-4601-b15b-d2614c21178e |
+| < | NULL            | 4296f95c-f59a-4c04-a011-fb45e0770643 |
+| > |                 | 4296f95c-f59a-4c04-a011-fb45e0770643 |
+| < | NULL            | 43d74643-1007-4d5e-bcaf-fb220f78e1ec |
+| > | BH00005ATT      | 43d74643-1007-4d5e-bcaf-fb220f78e1ec |
+| < | NULL            | 4455a11d-fd37-4d4e-9fde-e8fd04454852 |
+| > | AB00362LOV      | 4455a11d-fd37-4d4e-9fde-e8fd04454852 |
+| < | NULL            | 44be10a9-5d90-49cf-b6ee-b69c3ae2478d |
+| > | BH00009SER      | 44be10a9-5d90-49cf-b6ee-b69c3ae2478d |
+| < | BH07180         | 453fcfe4-4c23-4af3-a814-e4ebc202f021 |
+| > |                 | 453fcfe4-4c23-4af3-a814-e4ebc202f021 |
+| < | NULL            | 45887078-a77f-4a58-9519-ec7e197fb9ce |
+| > | ABU0129EDU      | 45887078-a77f-4a58-9519-ec7e197fb9ce |
+| < | AB00001FIR      | 45dee490-c8f5-4ea5-990d-14b837b53718 |
+| > |                 | 45dee490-c8f5-4ea5-990d-14b837b53718 |
+| < | NULL            | 45e00006-6fec-4e91-9015-35bbb158cdd0 |
+| > | BH05801         | 45e00006-6fec-4e91-9015-35bbb158cdd0 |
+| < | NULL            | 45f02c52-8521-4906-858b-29c4d9287b82 |
+| > | AB03896MAJ      | 45f02c52-8521-4906-858b-29c4d9287b82 |
+| < | NULL            | 46a339b0-4473-4100-8841-74670dab3887 |
+| > | AB10275         | 46a339b0-4473-4100-8841-74670dab3887 |
+| < | NULL            | 47254fd8-6990-412c-8fea-f167e5fbc93e |
+| > | ABU0188TUR      | 47254fd8-6990-412c-8fea-f167e5fbc93e |
+| < | NULL            | 4734be70-869a-4c52-9c1e-8a00727e310d |
+| > | TMP00005        | 4734be70-869a-4c52-9c1e-8a00727e310d |
+| < | NULL            | 47af1d79-0ddd-4fa6-9c0f-47819744a94a |
+| > | SKIP            | 47af1d79-0ddd-4fa6-9c0f-47819744a94a |
+| < | NULL            | 47b3d4cc-d91c-48a8-8583-77821c3d10e9 |
+| > | AB07709CON      | 47b3d4cc-d91c-48a8-8583-77821c3d10e9 |
+| < | NULL            | 47dbc9f7-6514-49f1-8a7b-773b1b80a51f |
+| > | BH10505         | 47dbc9f7-6514-49f1-8a7b-773b1b80a51f |
+| < | NULL            | 48dff6d7-d761-404d-b8aa-761faacd7eb9 |
+| > | BH09401         | 48dff6d7-d761-404d-b8aa-761faacd7eb9 |
+| < | NULL            | 48e3a988-dbc4-4875-a981-33f5af24dbbc |
+| > | ABU0070GAT      | 48e3a988-dbc4-4875-a981-33f5af24dbbc |
+| < | NULL            | 49b0b666-c75b-4765-8939-fb3b32f65cc0 |
+| > | BH03629GRI      | 49b0b666-c75b-4765-8939-fb3b32f65cc0 |
+| < | NULL            | 49efeec0-b88b-4098-9e08-40c7bf7d5297 |
+| > |                 | 49efeec0-b88b-4098-9e08-40c7bf7d5297 |
+| < | NULL            | 4a587000-b9ff-4bb5-a9c1-6a8e2f9d2ebc |
+| > | BH08242         | 4a587000-b9ff-4bb5-a9c1-6a8e2f9d2ebc |
+| < | NULL            | 4a89c05b-6f5e-4332-9f18-9f72eeb21ad8 |
+| > | BH10076         | 4a89c05b-6f5e-4332-9f18-9f72eeb21ad8 |
+| < | NULL            | 4adbe47f-0aa0-4d34-9cd8-b99508d50fe4 |
+| > | BH07180         | 4adbe47f-0aa0-4d34-9cd8-b99508d50fe4 |
+| < | NULL            | 4b4bbe18-91dd-4a61-b549-ed72208f1989 |
+| > | TMP00095        | 4b4bbe18-91dd-4a61-b549-ed72208f1989 |
+| < | NULL            | 4cc1dd2b-b21e-47d1-baa2-6bd7086da452 |
+| > | BH07426FOO      | 4cc1dd2b-b21e-47d1-baa2-6bd7086da452 |
+| < | NULL            | 4d01619b-fe10-4c49-b567-abd767ec62d2 |
+| > | AB04004BAB      | 4d01619b-fe10-4c49-b567-abd767ec62d2 |
+| < | NULL            | 4d0753d1-4dc3-41e5-8de9-5e27e9c33cb5 |
+| > | AB00218SOU      | 4d0753d1-4dc3-41e5-8de9-5e27e9c33cb5 |
+| < | NULL            | 4d86c5d7-9511-48f4-947d-e6f814a8367b |
+| > | AB00553         | 4d86c5d7-9511-48f4-947d-e6f814a8367b |
+| < | NULL            | 4dbbcee5-6bf0-4b3d-a148-36d51074ca81 |
+| > | BH01125         | 4dbbcee5-6bf0-4b3d-a148-36d51074ca81 |
+| < | NULL            | 4dd20eff-13dc-4010-b96e-6b79371e2d6a |
+| > | BB00560         | 4dd20eff-13dc-4010-b96e-6b79371e2d6a |
+| < | NULL            | 4dea9300-725d-4ed0-8b29-db0b6fd5c1a7 |
+| > | AB02866         | 4dea9300-725d-4ed0-8b29-db0b6fd5c1a7 |
+| < | NULL            | 4e15429d-10da-479e-8d69-6ac89d89fe4f |
+| > | TMP00056        | 4e15429d-10da-479e-8d69-6ac89d89fe4f |
+| < | NULL            | 4fd46e69-c8d4-4c9f-92f1-31b1e2624659 |
+| > | BB00617         | 4fd46e69-c8d4-4c9f-92f1-31b1e2624659 |
+| < | NULL            | 4fd6a532-19dd-43e9-a596-145d810a1efb |
+| > | BH00009SER      | 4fd6a532-19dd-43e9-a596-145d810a1efb |
+| < | AB00001FIR      | 5062d66b-6f26-4e42-ba4c-96a2086776af |
+| > |                 | 5062d66b-6f26-4e42-ba4c-96a2086776af |
+| < | ABU0095KIN      | 50c192d6-52d5-4857-a6e1-cc4d5d29957d |
+| > |                 | 50c192d6-52d5-4857-a6e1-cc4d5d29957d |
+| < | NULL            | 50dfc10e-5bea-4907-bb2f-63eb7a7b897c |
+| > | BH10578         | 50dfc10e-5bea-4907-bb2f-63eb7a7b897c |
+| < | NULL            | 51fa1027-d6b6-4fc1-9b76-f19806660f8a |
+| > | TMP00082        | 51fa1027-d6b6-4fc1-9b76-f19806660f8a |
+| < | NULL            | 522614d5-475a-4e47-b129-55da5f375014 |
+| > | BH06296         | 522614d5-475a-4e47-b129-55da5f375014 |
+| < | NULL            | 5417cd08-0196-47d7-90d6-d278f12d4353 |
+| > | BH00554         | 5417cd08-0196-47d7-90d6-d278f12d4353 |
+| < | NULL            | 542d2009-ed0a-432c-84f4-62a40b190796 |
+| > | AB07304         | 542d2009-ed0a-432c-84f4-62a40b190796 |
+| < | NULL            | 549844a6-d031-46d8-9524-50c879af012f |
+| > | BH09508         | 549844a6-d031-46d8-9524-50c879af012f |
+| < | BH01313NAM      | 549e6a8e-3b85-4e3e-b071-3842a9586539 |
+| > |                 | 549e6a8e-3b85-4e3e-b071-3842a9586539 |
+| < | NULL            | 54a1e021-66e2-461d-8cd9-ff7b78b7c8bf |
+| > | BH10505         | 54a1e021-66e2-461d-8cd9-ff7b78b7c8bf |
+| < | NULL            | 54dc2fb6-684f-4e68-92d1-1d5200bd7286 |
+| > | BH02524         | 54dc2fb6-684f-4e68-92d1-1d5200bd7286 |
+| < | NULL            | 54fb0a0f-1f3c-4db5-bb36-5bfed711ebf2 |
+| > | AB00001SHI      | 54fb0a0f-1f3c-4db5-bb36-5bfed711ebf2 |
+| < | NULL            | 56979dda-16b2-483a-880d-ce384e8bd1f2 |
+| > | BB00522         | 56979dda-16b2-483a-880d-ce384e8bd1f2 |
+| < | AB09794CHI      | 56d13f60-640f-4cc7-a466-4e8c0ffa9776 |
+| > |                 | 56d13f60-640f-4cc7-a466-4e8c0ffa9776 |
+| < | NULL            | 571bed4f-b746-4546-96cc-3fa992ac1289 |
+| > | BH10581         | 571bed4f-b746-4546-96cc-3fa992ac1289 |
+| < | NULL            | 5777de96-9fd6-41bf-94f6-975569f4ba7a |
+| > | AB01023SAE      | 5777de96-9fd6-41bf-94f6-975569f4ba7a |
+| < | NULL            | 57db972c-42a4-403a-8ef0-6310321ab22d |
+| > | AB03082         | 57db972c-42a4-403a-8ef0-6310321ab22d |
+| < | AB03461MAR      | 58372d54-0512-411d-8640-61711f071d8a |
+| > |                 | 58372d54-0512-411d-8640-61711f071d8a |
+| < | NULL            | 58f0fe5a-f902-43d7-adb0-002130a64d63 |
+| > | AB00787SPL      | 58f0fe5a-f902-43d7-adb0-002130a64d63 |
+| < | BH01026         | 59da975e-33a3-4d8b-ba57-8a5ddbcf5167 |
+| > |                 | 59da975e-33a3-4d8b-ba57-8a5ddbcf5167 |
+| < | NULL            | 5b1b67d4-bf6d-42c9-8325-2a1d8e444a31 |
+| > | BH07180         | 5b1b67d4-bf6d-42c9-8325-2a1d8e444a31 |
+| < | NULL            | 5b87f09f-27c5-429e-b329-51a2deeed750 |
+| > | BH04569         | 5b87f09f-27c5-429e-b329-51a2deeed750 |
+| < | BBU0015         | 5b8a07ca-56b4-41f7-aa49-e47da2b49369 |
+| > |                 | 5b8a07ca-56b4-41f7-aa49-e47da2b49369 |
+| < | NULL            | 5bf0117a-7180-419c-8541-091e156d49ac |
+| > | AB0210BIR       | 5bf0117a-7180-419c-8541-091e156d49ac |
+| < | NULL            | 5c40724d-9381-492d-a888-6062130c1fe9 |
+| > | AB00001SHI      | 5c40724d-9381-492d-a888-6062130c1fe9 |
+| < | NULL            | 5c85ca0c-94c3-4474-8ee9-7c8ec025a6d1 |
+| > | AB03017CAL      | 5c85ca0c-94c3-4474-8ee9-7c8ec025a6d1 |
+| < | NULL            | 5cb65670-be10-47ed-bc4e-7dbdde1ac971 |
+| > | BH00009HOW      | 5cb65670-be10-47ed-bc4e-7dbdde1ac971 |
+| < | NULL            | 5cda359c-78a5-4df8-9a79-ee759bf8c46a |
+| > | BH00868WIT      | 5cda359c-78a5-4df8-9a79-ee759bf8c46a |
+| < | NULL            | 5d265993-a2e1-425e-9d63-979ae0528c61 |
+| > | AB06528MID      | 5d265993-a2e1-425e-9d63-979ae0528c61 |
+| < | NULL            | 5d2ac376-db73-41ac-804e-e0505332f9e4 |
+| > | BH00438         | 5d2ac376-db73-41ac-804e-e0505332f9e4 |
+| < | NULL            | 5d9bbf43-08e8-4cc3-b610-6ea5afd56add |
+| > | BH00009SHE      | 5d9bbf43-08e8-4cc3-b610-6ea5afd56add |
+| < | NULL            | 5d9d6270-b0f4-4bf9-8735-3bc9e96ebdc9 |
+| > |                 | 5d9d6270-b0f4-4bf9-8735-3bc9e96ebdc9 |
+| < | NULL            | 5e03dc9a-7f7c-4f47-a9a3-da47c29e38f6 |
+| > | BH04990         | 5e03dc9a-7f7c-4f47-a9a3-da47c29e38f6 |
+| < | NULL            | 5f03b200-2b31-4321-bd34-0b16fcc8fabb |
+| > | TMP00003        | 5f03b200-2b31-4321-bd34-0b16fcc8fabb |
+| < | NULL            | 5f5aa3dd-7efb-4b87-ae68-fd22e4b4efde |
+| > | AB09139         | 5f5aa3dd-7efb-4b87-ae68-fd22e4b4efde |
+| < | NULL            | 5f6e302f-656f-470c-a0f6-20d52e402408 |
+| > | BH08433         | 5f6e302f-656f-470c-a0f6-20d52e402408 |
+| < | NULL            | 5fd304a6-cd6f-44eb-9f84-479fa5bcaeab |
+| > | SKIP            | 5fd304a6-cd6f-44eb-9f84-479fa5bcaeab |
+| < | NULL            | 5fd65831-5f6a-4d03-be00-3e01c8487f1b |
+| > | AB00001FIR      | 5fd65831-5f6a-4d03-be00-3e01c8487f1b |
+| < | NULL            | 5fefa4e4-84af-4bd8-8323-7052f6c1819f |
+| > | BH06026         | 5fefa4e4-84af-4bd8-8323-7052f6c1819f |
+| < | NULL            | 5ff630c3-d1b3-4f38-91b4-f218eea42dd0 |
+| > | BH00009AWA      | 5ff630c3-d1b3-4f38-91b4-f218eea42dd0 |
+| < | NULL            | 610d4b27-17df-4443-9148-40ab28f7fd16 |
+| > | AB04980HOP      | 610d4b27-17df-4443-9148-40ab28f7fd16 |
+| < | BH03470         | 6129de72-50e9-482b-aab2-20b59c090c32 |
+| > |                 | 6129de72-50e9-482b-aab2-20b59c090c32 |
+| < | NULL            | 6147e9dc-6be3-4ba1-9750-54eb12195951 |
+| > | BH08013         | 6147e9dc-6be3-4ba1-9750-54eb12195951 |
+| < | NULL            | 6177af2e-ed1e-42e5-8ab8-ca645650618d |
+| > | AB00094WEA      | 6177af2e-ed1e-42e5-8ab8-ca645650618d |
+| < | AB00388COM      | 62447ccd-d70e-4fc0-8401-d1ab85e1856e |
+| > |                 | 62447ccd-d70e-4fc0-8401-d1ab85e1856e |
+| < | NULL            | 6306264a-0fd0-406c-86e5-67ef3d265095 |
+| > |                 | 6306264a-0fd0-406c-86e5-67ef3d265095 |
+| < | BH00074BLE      | 63824538-cac4-45f0-8895-2e18092fbb7b |
+| > |                 | 63824538-cac4-45f0-8895-2e18092fbb7b |
+| < | NULL            | 64927942-fc6f-458d-b511-a0092e88cded |
+| > | AB07155WOM      | 64927942-fc6f-458d-b511-a0092e88cded |
+| < | NULL            | 65003b33-19cd-4bb4-8dab-80b9e337114a |
+| > | BH09874         | 65003b33-19cd-4bb4-8dab-80b9e337114a |
+| < | NULL            | 654059a1-871c-4599-baf4-291f7988b85b |
+| > | AB07155WOM      | 654059a1-871c-4599-baf4-291f7988b85b |
+| < | AB09794CHI      | 65900db3-28ea-4b45-8ec3-c7d804c0b606 |
+| > |                 | 65900db3-28ea-4b45-8ec3-c7d804c0b606 |
+| < | NULL            | 659b54e4-1ab8-4aac-b338-9251d53f239d |
+| > | BH08308         | 659b54e4-1ab8-4aac-b338-9251d53f239d |
+| < | NULL            | 65a325ef-eb1b-498e-b028-316f5cf0081f |
+| > | BH09024         | 65a325ef-eb1b-498e-b028-316f5cf0081f |
+| < | NULL            | 65cb4530-b98b-4eac-b108-9faf9a380a9a |
+| > | AB09040         | 65cb4530-b98b-4eac-b108-9faf9a380a9a |
+| < | NULL            | 65d1d3b4-7796-482d-87d3-edddf51a1425 |
+| > | SKIP            | 65d1d3b4-7796-482d-87d3-edddf51a1425 |
+| < | NULL            | 65f5b139-e6f3-4e15-9294-e5b8531a3dd3 |
+| > | AB03461MAR      | 65f5b139-e6f3-4e15-9294-e5b8531a3dd3 |
+| < | BH00009SHE      | 661f7707-5bab-4c7a-86d4-e6214d063445 |
+| > |                 | 661f7707-5bab-4c7a-86d4-e6214d063445 |
+| < | NULL            | 6772a643-1a9b-417c-8fca-dc1e56222472 |
+| > | BH03181         | 6772a643-1a9b-417c-8fca-dc1e56222472 |
+| < | NULL            | 6864056d-971b-4a8d-81ed-2c577a6221f0 |
+| > | BB00018MAJ      | 6864056d-971b-4a8d-81ed-2c577a6221f0 |
+| < | NULL            | 689178de-ce69-4b76-8bdb-a062c917eef9 |
+| > | BH08600FAC      | 689178de-ce69-4b76-8bdb-a062c917eef9 |
+| < | NULL            | 68b5006a-8636-4eaf-b94f-758565e9e6f1 |
+| > | AB04980HOP      | 68b5006a-8636-4eaf-b94f-758565e9e6f1 |
+| < | AB00949WIN      | 68e3b853-dc40-4a19-bffd-d217c03ad8fb |
+| > |                 | 68e3b853-dc40-4a19-bffd-d217c03ad8fb |
+| < | NULL            | 6a0f52b4-babf-4872-ae05-9b2238a1a5c8 |
+| > | BH05543         | 6a0f52b4-babf-4872-ae05-9b2238a1a5c8 |
+| < | NULL            | 6a747609-8d87-4205-98d6-cd98737aae03 |
+| > | BH08244         | 6a747609-8d87-4205-98d6-cd98737aae03 |
+| < | BH00053MAG      | 6a78344a-a57e-4311-b34b-22cfb1a69e23 |
+| > |                 | 6a78344a-a57e-4311-b34b-22cfb1a69e23 |
+| < | NULL            | 6bb2c4c5-27fd-46b3-90be-dee32d4b6b1b |
+| > | AB07759         | 6bb2c4c5-27fd-46b3-90be-dee32d4b6b1b |
+| < | NULL            | 6c4219b5-7da0-4ab0-abdc-4b892b3ca1a0 |
+| > | BH05768         | 6c4219b5-7da0-4ab0-abdc-4b892b3ca1a0 |
+| < | NULL            | 6d4e7fe0-c030-4f25-885c-5011ef689a7e |
+| > | AB00184KIN      | 6d4e7fe0-c030-4f25-885c-5011ef689a7e |
+| < | NULL            | 6d5b2c2a-81ea-4844-bb93-d7fef25cbc16 |
+| > | AB02342AWA      | 6d5b2c2a-81ea-4844-bb93-d7fef25cbc16 |
+| < | BH09872         | 6d890649-a979-4693-b98e-6f1210b42916 |
+| > |                 | 6d890649-a979-4693-b98e-6f1210b42916 |
+| < | NULL            | 6deb52bb-0f2e-4af2-bbbd-207b6ff29203 |
+| > | TMP00027        | 6deb52bb-0f2e-4af2-bbbd-207b6ff29203 |
+| < | NULL            | 6f47ef18-d6c5-4685-ac60-d11ba7762bb1 |
+| > | AB00049RAP      | 6f47ef18-d6c5-4685-ac60-d11ba7762bb1 |
+| < | AB10703RAD      | 6f90f800-1fc4-4187-bd2a-5392a2a2b33e |
+| > |                 | 6f90f800-1fc4-4187-bd2a-5392a2a2b33e |
+| < | NULL            | 6fda5fd5-1598-4270-86e3-e65f3e284b95 |
+| > | BH00593         | 6fda5fd5-1598-4270-86e3-e65f3e284b95 |
+| < | NULL            | 6fe526f4-d3fc-4b2c-bf38-66cebc85cb29 |
+| > | BH00778         | 6fe526f4-d3fc-4b2c-bf38-66cebc85cb29 |
+| < | NULL            | 70285cf7-1b24-409e-91db-012f5aa9111b |
+| > | TMP00096        | 70285cf7-1b24-409e-91db-012f5aa9111b |
+| < | NULL            | 703676af-d8d3-4283-a560-867b8f09c517 |
+| > | BH04990         | 703676af-d8d3-4283-a560-867b8f09c517 |
+| < | NULL            | 70676774-2897-4604-aba3-986ad6defecf |
+| > | BH10505         | 70676774-2897-4604-aba3-986ad6defecf |
+| < | NULL            | 71b9d9a1-f4f2-4e44-9bdc-1dbc0824367e |
+| > | AB10701         | 71b9d9a1-f4f2-4e44-9bdc-1dbc0824367e |
+| < | NULL            | 721b2271-8d75-4751-b256-c2c0bd7722f8 |
+| > | AB00218SOU      | 721b2271-8d75-4751-b256-c2c0bd7722f8 |
+| < | NULL            | 7266cd91-bb92-43ff-a3df-21014a551c7f |
+| > | BB00522         | 7266cd91-bb92-43ff-a3df-21014a551c7f |
+| < | AB03017CAL      | 727af105-8ffc-4386-aaba-3c99f769dbeb |
+| > |                 | 727af105-8ffc-4386-aaba-3c99f769dbeb |
+| < | BH08855         | 72af827f-8c35-47c5-be70-8ab95607aabe |
+| > |                 | 72af827f-8c35-47c5-be70-8ab95607aabe |
+| < | AB00001FIR      | 72b71892-c738-4edc-87ba-77bded2707b6 |
+| > |                 | 72b71892-c738-4edc-87ba-77bded2707b6 |
+| < | NULL            | 73391c85-a14b-4f3a-9cfc-064bc20ed54e |
+| > | AB07155WOM      | 73391c85-a14b-4f3a-9cfc-064bc20ed54e |
+| < | NULL            | 73abfc06-2217-43e9-a234-3d1005e27336 |
+| > | BH09848         | 73abfc06-2217-43e9-a234-3d1005e27336 |
+| < | NULL            | 7433c50c-3623-4a29-8eb6-124b8eaedd54 |
+| > | AB00527         | 7433c50c-3623-4a29-8eb6-124b8eaedd54 |
+| < | BH08013         | 7526ccbe-d617-4674-99cc-029783920b26 |
+| > |                 | 7526ccbe-d617-4674-99cc-029783920b26 |
+| < | NULL            | 75fbfd44-47bf-4987-88c2-5e1b4fc9b0fc |
+| > | ABU0137ALL      | 75fbfd44-47bf-4987-88c2-5e1b4fc9b0fc |
+| < | NULL            | 7632dc96-e935-4e8f-b6c3-69c4cbdcb163 |
+| > | BH08308         | 7632dc96-e935-4e8f-b6c3-69c4cbdcb163 |
+| < | NULL            | 7633c220-46e6-478c-bd4d-4237f28f2b10 |
+| > | TMP00052        | 7633c220-46e6-478c-bd4d-4237f28f2b10 |
+| < | NULL            | 768d4bc9-17d7-4b9b-90bb-38d00d39c88b |
+| > | BB00617         | 768d4bc9-17d7-4b9b-90bb-38d00d39c88b |
+| < | NULL            | 769f4006-3651-4bc2-afba-54f27d5f1ffd |
+| > | BH06026         | 769f4006-3651-4bc2-afba-54f27d5f1ffd |
+| < | NULL            | 772216a9-006f-47ed-95e1-b78cc879046d |
+| > | BH10505         | 772216a9-006f-47ed-95e1-b78cc879046d |
+| < | NULL            | 77391c3a-2b35-4f22-802f-85ac237800a1 |
+| > | AB04004BAB      | 77391c3a-2b35-4f22-802f-85ac237800a1 |
+| < | AB00044PRO      | 777e3587-283a-4a3f-b3c0-094d24acc912 |
+| > |                 | 777e3587-283a-4a3f-b3c0-094d24acc912 |
+| < | NULL            | 779e1672-21ce-4888-84a8-f82611cb3db3 |
+| > | AB00065KIN      | 779e1672-21ce-4888-84a8-f82611cb3db3 |
+| < | NULL            | 77e3634b-3a4b-408f-b20e-27e9b4fa0e14 |
+| > | AB04620         | 77e3634b-3a4b-408f-b20e-27e9b4fa0e14 |
+| < | NULL            | 77e863ee-24a5-4519-bc27-64686645cd47 |
+| > | AB00209UND      | 77e863ee-24a5-4519-bc27-64686645cd47 |
+| < | NULL            | 7814519b-acc9-4224-bb4c-f426bff8c2a2 |
+| > | AB07158         | 7814519b-acc9-4224-bb4c-f426bff8c2a2 |
+| < | NULL            | 78397ed9-ed49-42e9-9e1c-939f9912ac71 |
+| > | BB00583         | 78397ed9-ed49-42e9-9e1c-939f9912ac71 |
+| < | NULL            | 7857d6d9-1e7e-4149-af25-96c62bf3c4fe |
+| > | BH07469         | 7857d6d9-1e7e-4149-af25-96c62bf3c4fe |
+| < | NULL            | 79a6cb2e-34bb-4ba3-b0b1-4c8b7906b2ed |
+| > | AB03461MAR      | 79a6cb2e-34bb-4ba3-b0b1-4c8b7906b2ed |
+| < | BH04990         | 7a7729f1-198f-4848-ba13-387e8b06d8ed |
+| > |                 | 7a7729f1-198f-4848-ba13-387e8b06d8ed |
+| < | NULL            | 7c3783d3-203a-403e-ba62-719e95f662ca |
+| > | AB06012         | 7c3783d3-203a-403e-ba62-719e95f662ca |
+| < | NULL            | 7c5ee154-43eb-49f6-b17c-93fe3ef03884 |
+| > | BH02307         | 7c5ee154-43eb-49f6-b17c-93fe3ef03884 |
+| < | NULL            | 7ce39e4b-0937-40f2-9673-5e89e6b5297b |
+| > | AB00362LOV      | 7ce39e4b-0937-40f2-9673-5e89e6b5297b |
+| < | NULL            | 7d420528-a1fa-46f1-b61d-e1c028b35a73 |
+| > | BH10505         | 7d420528-a1fa-46f1-b61d-e1c028b35a73 |
+| < | AB07124         | 7de57df2-8534-431a-8382-46df85e86cb2 |
+| > |                 | 7de57df2-8534-431a-8382-46df85e86cb2 |
+| < | NULL            | 80436591-80dc-4c86-93bd-5baa79df5daf |
+| > | BH02524         | 80436591-80dc-4c86-93bd-5baa79df5daf |
+| < | NULL            | 810c74c6-6c53-46fd-973a-e844f2257b4e |
+| > | AB07759         | 810c74c6-6c53-46fd-973a-e844f2257b4e |
+| < | NULL            | 81809672-0f64-4f4c-b1e0-20c053f80097 |
+| > | BH09848         | 81809672-0f64-4f4c-b1e0-20c053f80097 |
+| < | NULL            | 8323301b-ce8b-4288-a69b-9464423eb980 |
+| > | BH04421HEA      | 8323301b-ce8b-4288-a69b-9464423eb980 |
+| < | NULL            | 83a8942f-38d9-4c02-a7e2-1b40d628b18f |
+| > | ABU0070GAT      | 83a8942f-38d9-4c02-a7e2-1b40d628b18f |
+| < | NULL            | 840bf9e2-5e24-4f11-9c1d-38cb2cd6d759 |
+| > | BH09864         | 840bf9e2-5e24-4f11-9c1d-38cb2cd6d759 |
+| < | NULL            | 8441391f-11c5-4f1a-b67b-dd485038759a |
+| > | AB02342AWA      | 8441391f-11c5-4f1a-b67b-dd485038759a |
+| < | NULL            | 84e4fcc0-5e6b-4b5d-b525-ea6e6a517ce8 |
+| > | BH01026         | 84e4fcc0-5e6b-4b5d-b525-ea6e6a517ce8 |
+| < | NULL            | 85cb39ea-433d-438e-b5c3-ce13cfb19cde |
+| > | BH09960         | 85cb39ea-433d-438e-b5c3-ce13cfb19cde |
+| < | NULL            | 876f9ee5-8adb-4c4a-bd13-3c0decc0448b |
+| > | AB10324         | 876f9ee5-8adb-4c4a-bd13-3c0decc0448b |
+| < | NULL            | 87c5ac09-719c-4a39-9d4b-5745ac14f7db |
+| > | AB11094         | 87c5ac09-719c-4a39-9d4b-5745ac14f7db |
+| < | NULL            | 87c8e639-07e5-4a32-807d-fad84f088cf5 |
+| > | AB00094WEA      | 87c8e639-07e5-4a32-807d-fad84f088cf5 |
+| < | NULL            | 894481d7-bf22-4795-bf00-1d5ed4f5e6be |
+| > | ABU0137ALL      | 894481d7-bf22-4795-bf00-1d5ed4f5e6be |
+| < | NULL            | 8969cbea-a040-437e-9c3b-ba8c90844ccd |
+| > | BH05071         | 8969cbea-a040-437e-9c3b-ba8c90844ccd |
+| < | NULL            | 8a9dd8fc-0b57-48cf-89fd-036ccdcc7664 |
+| > | BH02022         | 8a9dd8fc-0b57-48cf-89fd-036ccdcc7664 |
+| < | NULL            | 8acf8c01-d7a7-4b83-8e5c-40603a08603e |
+| > | AB11094         | 8acf8c01-d7a7-4b83-8e5c-40603a08603e |
+| < | NULL            | 8c75415f-7312-4cb1-adea-2894fa938b62 |
+| > | ABU0030SHE      | 8c75415f-7312-4cb1-adea-2894fa938b62 |
+| < | NULL            | 8c7a0b68-4eb6-4b89-89e9-a90035ab6b9a |
+| > | AB10769         | 8c7a0b68-4eb6-4b89-89e9-a90035ab6b9a |
+| < | NULL            | 8cd96dde-d567-4419-a06d-e971e08a4097 |
+| > | BH05543         | 8cd96dde-d567-4419-a06d-e971e08a4097 |
+| < | NULL            | 8d221400-3fd5-44fc-9b02-53d1a64a65e7 |
+| > | AB11094         | 8d221400-3fd5-44fc-9b02-53d1a64a65e7 |
+| < | NULL            | 8d5cd8ff-0fc6-4ced-a4c4-2cd4db410abe |
+| > | TMP00052        | 8d5cd8ff-0fc6-4ced-a4c4-2cd4db410abe |
+| < | BH09085         | 8f34bc8e-8681-4f67-9907-3f10d97953de |
+| > |                 | 8f34bc8e-8681-4f67-9907-3f10d97953de |
+| < | BH08855         | 8f747beb-3856-4e0c-908b-857e594a5a4b |
+| > |                 | 8f747beb-3856-4e0c-908b-857e594a5a4b |
+| < | NULL            | 8feeb262-08ae-4d72-8981-b2ac15c6204e |
+| > | BH08013         | 8feeb262-08ae-4d72-8981-b2ac15c6204e |
+| < | NULL            | 914d847c-415a-4aad-9777-b39ec00d140e |
+| > | BH08855         | 914d847c-415a-4aad-9777-b39ec00d140e |
+| < | NULL            | 91eea353-c13b-41eb-b338-0be7e53f316b |
+| > | BH09872         | 91eea353-c13b-41eb-b338-0be7e53f316b |
+| < | NULL            | 925ff600-e6c2-4498-bfa3-77ca75f2d84a |
+| > | AB02342AWA      | 925ff600-e6c2-4498-bfa3-77ca75f2d84a |
+| < | NULL            | 93481848-884a-4ec2-88a1-f880359cac16 |
+| > | BH01888         | 93481848-884a-4ec2-88a1-f880359cac16 |
+| < | NULL            | 93ac9473-98ac-43c8-9f51-9eeae0dd59b5 |
+| > | BH00554         | 93ac9473-98ac-43c8-9f51-9eeae0dd59b5 |
+| < | NULL            | 942c68d5-4c95-4ed5-976b-ab3e0de7edc8 |
+| > | BH08846         | 942c68d5-4c95-4ed5-976b-ab3e0de7edc8 |
+| < | NULL            | 9454a536-a5ea-4ecb-a21f-0261c97b31d5 |
+| > | BH05768         | 9454a536-a5ea-4ecb-a21f-0261c97b31d5 |
+| < | AB00128FEE      | 94ce7e69-1b29-4aef-bc44-1069733f817a |
+| > |                 | 94ce7e69-1b29-4aef-bc44-1069733f817a |
+| < | BH04990         | 9512d63c-499d-4224-a3f8-794754af9cc3 |
+| > |                 | 9512d63c-499d-4224-a3f8-794754af9cc3 |
+| < | NULL            | 958ba342-3b45-4853-921f-4368ee6f5373 |
+| > | BH10505         | 958ba342-3b45-4853-921f-4368ee6f5373 |
+| < | NULL            | 959f1ce6-da78-4be5-a89d-48f35214087d |
+| > | BH08600TES      | 959f1ce6-da78-4be5-a89d-48f35214087d |
+| < | NULL            | 96d05d88-97ab-4f94-83cd-66896780eff1 |
+| > | TMP00052        | 96d05d88-97ab-4f94-83cd-66896780eff1 |
+| < | BH05768         | 96d8d9dc-112a-4835-8329-68167d121838 |
+| > |                 | 96d8d9dc-112a-4835-8329-68167d121838 |
+| < | NULL            | 97d127d5-628d-45b2-b3df-211a487053c9 |
+| > | BH08855         | 97d127d5-628d-45b2-b3df-211a487053c9 |
+| < | NULL            | 98f2db87-de84-4d53-b9bb-2ff7c07826db |
+| > | BH01313NAM      | 98f2db87-de84-4d53-b9bb-2ff7c07826db |
+| < | NULL            | 99160823-3d71-41a1-b436-6a7434d4ee57 |
+| > | BH00868WIT      | 99160823-3d71-41a1-b436-6a7434d4ee57 |
+| < | NULL            | 99462ac6-d3a6-4736-ade5-a01c4b80836b |
+| > | AB03082         | 99462ac6-d3a6-4736-ade5-a01c4b80836b |
+| < | AB10714         | 9946bf00-bba6-464f-b694-ef40e83e0286 |
+| > |                 | 9946bf00-bba6-464f-b694-ef40e83e0286 |
+| < | NULL            | 99701d3e-2303-488f-9733-aa793bc9c10a |
+| > | BH02524         | 99701d3e-2303-488f-9733-aa793bc9c10a |
+| < | ABU0003DIS      | 999baf40-007c-424b-8e85-7fb9faa7a554 |
+| > |                 | 999baf40-007c-424b-8e85-7fb9faa7a554 |
+| < | NULL            | 99cabb97-faf0-42ae-8ed4-8fdd93106864 |
+| > | BH00009HOW      | 99cabb97-faf0-42ae-8ed4-8fdd93106864 |
+| < | NULL            | 9af24db1-7a75-4a20-b74a-a4da4ee2bc18 |
+| > | AB07709CON      | 9af24db1-7a75-4a20-b74a-a4da4ee2bc18 |
+| < | NULL            | 9b2e8770-12dd-4687-9cfe-8e89e26738d3 |
+| > | BB00018ADJ      | 9b2e8770-12dd-4687-9cfe-8e89e26738d3 |
+| < | NULL            | 9ba05c87-e952-4c6a-8050-9b4b58d8568a |
+| > | BH00438         | 9ba05c87-e952-4c6a-8050-9b4b58d8568a |
+| < | NULL            | 9c171699-eccf-43f3-b8b7-0e44e43cab9f |
+| > | NEW_001         | 9c171699-eccf-43f3-b8b7-0e44e43cab9f |
+| < | NULL            | 9d3e9cc6-80aa-44da-aa58-35f3f7b113d4 |
+| > | BH04990         | 9d3e9cc6-80aa-44da-aa58-35f3f7b113d4 |
+| < | NULL            | 9dad69c0-22f4-48ce-b517-e55d87ca0dc4 |
+| > | AB07158         | 9dad69c0-22f4-48ce-b517-e55d87ca0dc4 |
+| < | BH09498         | 9dd977a0-3032-4480-a4dc-d8ac6481208d |
+| > |                 | 9dd977a0-3032-4480-a4dc-d8ac6481208d |
+| < | BH09508         | 9f066caa-7dbc-48a3-89d8-0597197af243 |
+| > |                 | 9f066caa-7dbc-48a3-89d8-0597197af243 |
+| < | NULL            | 9f3be7e1-90b2-484e-bb3c-5f27b42dc2c3 |
+| > | AB03082         | 9f3be7e1-90b2-484e-bb3c-5f27b42dc2c3 |
+| < | NULL            | 9f900e22-852a-407d-807a-e414fb185246 |
+| > | BH02898MAG      | 9f900e22-852a-407d-807a-e414fb185246 |
+| < | NULL            | a046bb69-3caa-4dff-8374-2b864ce16c06 |
+| > | NEW_TRANSLATION | a046bb69-3caa-4dff-8374-2b864ce16c06 |
+| < | NULL            | a12244cb-21bf-4f6d-8cea-57d4c12f6a45 |
+| > | TMP00003        | a12244cb-21bf-4f6d-8cea-57d4c12f6a45 |
+| < | NULL            | a1f200e6-a6ff-4f2e-bb47-3c861f71ad56 |
+| > | AB09139         | a1f200e6-a6ff-4f2e-bb47-3c861f71ad56 |
+| < | NULL            | a236b259-3f34-4f1a-83b6-84d8173dc897 |
+| > | BH05771         | a236b259-3f34-4f1a-83b6-84d8173dc897 |
+| < | NULL            | a24f1698-5e15-4871-ac37-85b64c53c201 |
+| > | BH09024         | a24f1698-5e15-4871-ac37-85b64c53c201 |
+| < | AB00218SOU      | a25746c3-6976-4b88-b4df-3c45d53cdd99 |
+| > |                 | a25746c3-6976-4b88-b4df-3c45d53cdd99 |
+| < | BH08594         | a2ce0bbc-2e8d-48e6-a22b-b7a3a3eff2d7 |
+| > |                 | a2ce0bbc-2e8d-48e6-a22b-b7a3a3eff2d7 |
+| < | NULL            | a2d4f0c0-7358-4c9c-9b16-adedbb6f46b6 |
+| > | BH07106         | a2d4f0c0-7358-4c9c-9b16-adedbb6f46b6 |
+| < | NULL            | a3d39ffc-d418-470e-943d-dc3924d5f2a2 |
+| > | AB02304TST      | a3d39ffc-d418-470e-943d-dc3924d5f2a2 |
+| < | NULL            | a4b0b81c-43cc-4cb6-9cc1-2aed914442de |
+| > | AB05652WIS      | a4b0b81c-43cc-4cb6-9cc1-2aed914442de |
+| < | BB00623         | a5fd90f2-5593-4595-959a-1349827d7085 |
+| > |                 | a5fd90f2-5593-4595-959a-1349827d7085 |
+| < | NULL            | a6220364-6072-4f7a-a81b-5e17a8c16045 |
+| > |                 | a6220364-6072-4f7a-a81b-5e17a8c16045 |
+| < | NULL            | a6822259-b5a7-4c9c-adc6-9b51f0cf4299 |
+| > | BH10505         | a6822259-b5a7-4c9c-adc6-9b51f0cf4299 |
+| < | BH00778         | a7987532-3417-4ac2-a50e-e251d3c2fe48 |
+| > |                 | a7987532-3417-4ac2-a50e-e251d3c2fe48 |
+| < | NULL            | a84fada9-43bb-47eb-b98b-b379abc9ce16 |
+| > | BH09864         | a84fada9-43bb-47eb-b98b-b379abc9ce16 |
+| < | NULL            | a852d503-3174-4643-a037-d548b36184ed |
+| > | BH02524         | a852d503-3174-4643-a037-d548b36184ed |
+| < | NULL            | a9fdf99c-d311-4eb5-a92c-337bcae695ad |
+| > | BB00100EXI      | a9fdf99c-d311-4eb5-a92c-337bcae695ad |
+| < | NULL            | aa0d2f15-8c3d-4921-b09f-25e4e924b9b4 |
+| > | TMP00005        | aa0d2f15-8c3d-4921-b09f-25e4e924b9b4 |
+| < | BH00009GRA      | aa7277a2-0d22-4919-a2b6-5f2b7f115a10 |
+| > |                 | aa7277a2-0d22-4919-a2b6-5f2b7f115a10 |
+| < | NULL            | ab4fcd1d-92a2-4edc-aa4b-6532ad9ec1e6 |
+| > | NEW_002         | ab4fcd1d-92a2-4edc-aa4b-6532ad9ec1e6 |
+| < | NULL            | abdac496-0427-4234-945b-32cbb092612c |
+| > | BH09960         | abdac496-0427-4234-945b-32cbb092612c |
+| < | NULL            | ac199328-ee1e-4760-9c23-25dc52a33dac |
+| > | AB06528MID      | ac199328-ee1e-4760-9c23-25dc52a33dac |
+| < | NULL            | ac76c4e5-a759-407f-92cd-4e9d8093d328 |
+| > | BH03109KIN      | ac76c4e5-a759-407f-92cd-4e9d8093d328 |
+| < | NULL            | ad349af8-4e91-4375-af7d-eb6dac12ad15 |
+| > | NEW_FR_015      | ad349af8-4e91-4375-af7d-eb6dac12ad15 |
+| < | NULL            | ad5362d3-b0ba-4db4-842b-4eeb0a102197 |
+| > | BH10505         | ad5362d3-b0ba-4db4-842b-4eeb0a102197 |
+| < | NULL            | ae519a6a-9440-4f3e-8683-037a3c4cac6a |
+| > | AB07709CON      | ae519a6a-9440-4f3e-8683-037a3c4cac6a |
+| < | NULL            | aea0b86d-6561-42f0-87ff-d9da30b63dd7 |
+| > | BH07683         | aea0b86d-6561-42f0-87ff-d9da30b63dd7 |
+| < | AB00044PRO      | aef413ad-9184-4941-98f0-d71f5e5c2674 |
+| > |                 | aef413ad-9184-4941-98f0-d71f5e5c2674 |
+| < | BB00147GRO      | b0097ca5-fa73-4809-aa24-d5f0a52d8b17 |
+| > |                 | b0097ca5-fa73-4809-aa24-d5f0a52d8b17 |
+| < | BH08242         | b28c3650-fa05-4df5-951e-3d3ffa0d51bb |
+| > |                 | b28c3650-fa05-4df5-951e-3d3ffa0d51bb |
+| < | AB00553         | b361b1e2-1dfb-4682-a929-f30576dd34b6 |
+| > |                 | b361b1e2-1dfb-4682-a929-f30576dd34b6 |
+| < | NULL            | b38c2b78-b04b-4c4b-9f3b-fb2bb774133a |
+| > | AB11094         | b38c2b78-b04b-4c4b-9f3b-fb2bb774133a |
+| < | BH00009GRA      | b3ee1f9d-dcd3-469a-acb2-742e33ffabd9 |
+| > |                 | b3ee1f9d-dcd3-469a-acb2-742e33ffabd9 |
+| < | NULL            | b4ab1483-5689-405a-9ecd-8932a34b023f |
+| > | AB00094WEA      | b4ab1483-5689-405a-9ecd-8932a34b023f |
+| < | AB00218SOU      | b4f37c80-4bd5-47f3-ad15-fa8eaee340fc |
+| > |                 | b4f37c80-4bd5-47f3-ad15-fa8eaee340fc |
+| < | BH07113         | b551067c-bef8-49b2-b34c-91da7c853e8f |
+| > |                 | b551067c-bef8-49b2-b34c-91da7c853e8f |
+| < | NULL            | b751e1d0-1238-42b3-9d1b-698995197f91 |
+| > | AB11094         | b751e1d0-1238-42b3-9d1b-698995197f91 |
+| < | NULL            | b806d116-4454-4e67-a9c9-0af95b947c0c |
+| > | BH04990         | b806d116-4454-4e67-a9c9-0af95b947c0c |
+| < | BH09855         | b8147cbe-4002-4aa9-b930-de3d8ba7ebdb |
+| > |                 | b8147cbe-4002-4aa9-b930-de3d8ba7ebdb |
+| < | NULL            | b8475969-ac41-4678-902c-d04eda3bb3f1 |
+| > | BH00568IMP      | b8475969-ac41-4678-902c-d04eda3bb3f1 |
+| < | BH08242         | b90f8c38-db29-4829-8050-2e8132083c6c |
+| > |                 | b90f8c38-db29-4829-8050-2e8132083c6c |
+| < | NULL            | b942d70d-bf4d-470f-adfe-f8d57db35b8e |
+| > | AB07124         | b942d70d-bf4d-470f-adfe-f8d57db35b8e |
+| < | BH09085         | ba221022-4324-43b2-ac94-65f3e8126337 |
+| > |                 | ba221022-4324-43b2-ac94-65f3e8126337 |
+| < | AB00049RAP      | bb58de80-232b-4507-ba4b-c0f9d558f3c2 |
+| > |                 | bb58de80-232b-4507-ba4b-c0f9d558f3c2 |
+| < | BH04569         | bbb54ac4-3b76-45e8-91a6-46e3b590dd5a |
+| > |                 | bbb54ac4-3b76-45e8-91a6-46e3b590dd5a |
+| < | NULL            | bcc4c4be-206a-4ae8-92d0-176d5433ac84 |
+| > | AB03017CAL      | bcc4c4be-206a-4ae8-92d0-176d5433ac84 |
+| < | NULL            | bcd919e0-8adb-4b60-a751-c9e684f5247f |
+| > | AB00431PIT      | bcd919e0-8adb-4b60-a751-c9e684f5247f |
+| < | NULL            | bd2c74da-b8e6-455f-b99a-58a421d02afc |
+| > | AB11094         | bd2c74da-b8e6-455f-b99a-58a421d02afc |
+| < | NULL            | bd3f7c04-07ba-44af-97b1-d1359c777783 |
+| > | BH10581         | bd3f7c04-07ba-44af-97b1-d1359c777783 |
+| < | NULL            | bd552d7c-9d67-488f-8f2b-0a4584fbcf23 |
+| > | BH06429         | bd552d7c-9d67-488f-8f2b-0a4584fbcf23 |
+| < | NULL            | bd616c9c-c101-4ebc-8d62-6356e25ca504 |
+| > | BB00490         | bd616c9c-c101-4ebc-8d62-6356e25ca504 |
+| < | NULL            | bd63a43e-94dd-4826-8ef0-e125f1920d31 |
+| > | BH00554         | bd63a43e-94dd-4826-8ef0-e125f1920d31 |
+| < | NULL            | be1f217d-45ed-48c0-9147-90f5f7fcd17e |
+| > | BB00002MEN      | be1f217d-45ed-48c0-9147-90f5f7fcd17e |
+| < | NULL            | be835416-8b89-4fe9-92d0-df00cb5da0d4 |
+| > | TMP00027        | be835416-8b89-4fe9-92d0-df00cb5da0d4 |
+| < | AB00001FIR      | bf381941-293e-4e9b-a0d2-0d6b683f0dc1 |
+| > |                 | bf381941-293e-4e9b-a0d2-0d6b683f0dc1 |
+| < | NULL            | c07654b5-9db3-4693-88da-f928ea1753ba |
+| > | AB00169FRA      | c07654b5-9db3-4693-88da-f928ea1753ba |
+| < | NULL            | c178b12a-49ec-4e78-963e-eccc6c5baa8a |
+| > | BB00522         | c178b12a-49ec-4e78-963e-eccc6c5baa8a |
+| < | BH01313NAM      | c1e81b88-a568-43b7-b4ee-375c2623d120 |
+| > |                 | c1e81b88-a568-43b7-b4ee-375c2623d120 |
+| < | BH02848         | c224678f-f105-4cbb-adcf-039d7eb36f6f |
+| > |                 | c224678f-f105-4cbb-adcf-039d7eb36f6f |
+| < | NULL            | c24e2ff4-8ca2-407b-92ee-af42a2e00789 |
+| > | BH00154FIR      | c24e2ff4-8ca2-407b-92ee-af42a2e00789 |
+| < | NULL            | c254f990-47ba-480c-aa3a-adaea6e7ba99 |
+| > | AB05652WIS      | c254f990-47ba-480c-aa3a-adaea6e7ba99 |
+| < | BB00623         | c3574def-4a20-4b23-8dde-f8c9b4560886 |
+| > |                 | c3574def-4a20-4b23-8dde-f8c9b4560886 |
+| < | NULL            | c3a6adcd-8307-43c7-b93b-6d114243640e |
+| > | BH09872         | c3a6adcd-8307-43c7-b93b-6d114243640e |
+| < | NULL            | c485b729-54f5-4bd4-bda5-2272af2d22ae |
+| > | BH02524         | c485b729-54f5-4bd4-bda5-2272af2d22ae |
+| < | NULL            | c4c983c2-708d-4cae-8756-c3821d583b2c |
+| > | ABU0030SHE      | c4c983c2-708d-4cae-8756-c3821d583b2c |
+| < | NULL            | c52549f9-b97e-434d-bca1-b597b473927b |
+| > | BH07180         | c52549f9-b97e-434d-bca1-b597b473927b |
+| < | NULL            | c557b68d-357d-4a76-be2c-b01a20df041c |
+| > | BB00018DET      | c557b68d-357d-4a76-be2c-b01a20df041c |
+| < | NULL            | c5871cae-f92d-412f-88d7-45c73c16304f |
+| > | BH08308         | c5871cae-f92d-412f-88d7-45c73c16304f |
+| < | NULL            | c6315086-ab71-4e33-b1bd-e40301eff214 |
+| > | BH05849         | c6315086-ab71-4e33-b1bd-e40301eff214 |
+| < | NULL            | c64ccacb-4d76-4523-b68a-24a06b1a9276 |
+| > | BH02848         | c64ccacb-4d76-4523-b68a-24a06b1a9276 |
+| < | NULL            | c6998708-bf81-4f41-9217-6af1fa27057a |
+| > | BB00583         | c6998708-bf81-4f41-9217-6af1fa27057a |
+| < | NULL            | c8260530-9aa0-4d84-a690-e2f9d4931408 |
+| > | BH05771         | c8260530-9aa0-4d84-a690-e2f9d4931408 |
+| < | NULL            | c89e827c-4a52-44d6-a0e0-ea00d7363c9d |
+| > | TMP00045        | c89e827c-4a52-44d6-a0e0-ea00d7363c9d |
+| < | NULL            | c8e54ca1-a0d2-4b93-8bdc-8cff45b835da |
+| > | BH00308DES      | c8e54ca1-a0d2-4b93-8bdc-8cff45b835da |
+| < | NULL            | c989929e-a184-4555-ae3b-9957c1727b04 |
+| > | BB00560         | c989929e-a184-4555-ae3b-9957c1727b04 |
+| < | AB10492         | ca034cf6-c97b-4e3f-b845-dc34587d6a67 |
+| > |                 | ca034cf6-c97b-4e3f-b845-dc34587d6a67 |
+| < | AB04980HOP      | ca181f13-f763-4228-b0e2-e51d29622e8c |
+| > |                 | ca181f13-f763-4228-b0e2-e51d29622e8c |
+| < | NULL            | cbde88b2-c3bb-49cd-876c-8f8a296aef16 |
+| > | TMP00003        | cbde88b2-c3bb-49cd-876c-8f8a296aef16 |
+| < | NULL            | cc02edea-0ceb-4d0c-aebd-e814323f79c6 |
+| > | BH03585         | cc02edea-0ceb-4d0c-aebd-e814323f79c6 |
+| < | NULL            | ccf5d640-3de9-405b-8136-6e1bdad3bd8d |
+| > | BH09872         | ccf5d640-3de9-405b-8136-6e1bdad3bd8d |
+| < | NULL            | cddc4d4a-1583-4dc3-817e-900d0d34d48f |
+| > | BH08604         | cddc4d4a-1583-4dc3-817e-900d0d34d48f |
+| < | BH00074BLE      | cde3d84c-ed70-49f4-8161-a120f707a1e0 |
+| > |                 | cde3d84c-ed70-49f4-8161-a120f707a1e0 |
+| < | NULL            | ce11f720-ab07-4a3c-a9c6-736fe969dc32 |
+| > | NEW00001        | ce11f720-ab07-4a3c-a9c6-736fe969dc32 |
+| < | NULL            | ceab7a6a-c1c8-49b1-84ed-2a270dcd1dd5 |
+| > | BH02022         | ceab7a6a-c1c8-49b1-84ed-2a270dcd1dd5 |
+| < | NULL            | d04dbb0a-bb48-4b41-93f4-5673e6bc7013 |
+| > | AB00204PRO      | d04dbb0a-bb48-4b41-93f4-5673e6bc7013 |
+| < | NULL            | d09e7eaf-34f6-4259-a51f-27f3059bcc3d |
+| > | ABU0023UNI      | d09e7eaf-34f6-4259-a51f-27f3059bcc3d |
+| < | BH11209         | d19614bc-bc77-49a8-8ae8-89ef2f211aed |
+| > |                 | d19614bc-bc77-49a8-8ae8-89ef2f211aed |
+| < | BB00617         | d20c7057-df58-4b15-837e-e9a13e10a4d5 |
+| > |                 | d20c7057-df58-4b15-837e-e9a13e10a4d5 |
+| < | NULL            | d21ba511-5e71-4756-9f2a-9c0b199026a5 |
+| > | BH06026         | d21ba511-5e71-4756-9f2a-9c0b199026a5 |
+| < | NULL            | d2fa07fa-ad0a-446f-a771-2c231424d2a5 |
+| > | AB11094         | d2fa07fa-ad0a-446f-a771-2c231424d2a5 |
+| < | BH03470         | d34ac8e8-197f-42ac-b166-5004b0448021 |
+| > |                 | d34ac8e8-197f-42ac-b166-5004b0448021 |
+| < | NULL            | d3b3d61d-ce1e-4a9a-9886-a46194f8d620 |
+| > | NEW_003         | d3b3d61d-ce1e-4a9a-9886-a46194f8d620 |
+| < | NULL            | d3bf0de9-b717-4eb6-95ea-c885e8346d85 |
+| > | TMP00085        | d3bf0de9-b717-4eb6-95ea-c885e8346d85 |
+| < | NULL            | d5e0ca99-adb3-43da-9731-ead4e1a54f6a |
+| > | BH03111         | d5e0ca99-adb3-43da-9731-ead4e1a54f6a |
+| < | NULL            | d7c2570a-53ea-4914-a506-3dade883e751 |
+| > | BH05771         | d7c2570a-53ea-4914-a506-3dade883e751 |
+| < | NULL            | da943533-edcb-4939-bdaa-cd90dd671c8e |
+| > | ABU0030SHE      | da943533-edcb-4939-bdaa-cd90dd671c8e |
+| < | NULL            | daa1d778-6e90-4a3c-ae69-26d81e99cce0 |
+| > |                 | daa1d778-6e90-4a3c-ae69-26d81e99cce0 |
+| < | NULL            | db3eb601-34b9-4d88-a4c9-72e7e24ad157 |
+| > | NEW_004         | db3eb601-34b9-4d88-a4c9-72e7e24ad157 |
+| < | NULL            | dcd01d7e-2047-4432-8ab4-b548d28f2f1b |
+| > | BH03181         | dcd01d7e-2047-4432-8ab4-b548d28f2f1b |
+| < | NULL            | dd7c69f0-d2c6-4cb4-9f39-81a27648958e |
+| > | BH10973         | dd7c69f0-d2c6-4cb4-9f39-81a27648958e |
+| < | NULL            | de12bc14-5ec2-4e9f-b430-d808729f293b |
+| > | TMP00005        | de12bc14-5ec2-4e9f-b430-d808729f293b |
+| < | NULL            | de693d15-58df-4f8c-92b8-7a8bf620fb48 |
+| > | BH03270         | de693d15-58df-4f8c-92b8-7a8bf620fb48 |
+| < | NULL            | e142fe7f-256a-4667-896a-3ca7469243d0 |
+| > | NEW00002        | e142fe7f-256a-4667-896a-3ca7469243d0 |
+| < | NULL            | e1fdbb5c-08ba-499a-af18-cf01a2dc8818 |
+| > | AB04980HOP      | e1fdbb5c-08ba-499a-af18-cf01a2dc8818 |
+| < | NULL            | e205b0f1-494d-43db-a69b-1b7d1e1bc2bc |
+| > | BH00005ATT      | e205b0f1-494d-43db-a69b-1b7d1e1bc2bc |
+| < | NULL            | e22b3dfa-2ff2-4cea-9cd7-0664df4eb72d |
+| > | BH03629GRI      | e22b3dfa-2ff2-4cea-9cd7-0664df4eb72d |
+| < | NULL            | e2612e75-1edb-49a7-be70-e3093e1c7706 |
+| > | BH03181         | e2612e75-1edb-49a7-be70-e3093e1c7706 |
+| < | NULL            | e2ebd8b0-810e-4e0e-a5e2-6e4f90359940 |
+| > | BH05768         | e2ebd8b0-810e-4e0e-a5e2-6e4f90359940 |
+| < | NULL            | e4b496d7-29fd-4df4-a9ae-e8937ab990c0 |
+| > | BH00662FLO      | e4b496d7-29fd-4df4-a9ae-e8937ab990c0 |
+| < | NULL            | e54bcac2-facd-4ce2-ab78-41f281d1ef50 |
+| > | AB06012         | e54bcac2-facd-4ce2-ab78-41f281d1ef50 |
+| < | NULL            | e5900ba4-4a72-42ce-8b7f-b509f0fa38a6 |
+| > | AB02342AWA      | e5900ba4-4a72-42ce-8b7f-b509f0fa38a6 |
+| < | NULL            | e59499e6-269c-48f5-ba5d-58b30b64625e |
+| > | BH08855         | e59499e6-269c-48f5-ba5d-58b30b64625e |
+| < | BH10505         | e6dbb90f-f7fc-41b6-a8b7-820b750f92c4 |
+| > |                 | e6dbb90f-f7fc-41b6-a8b7-820b750f92c4 |
+| < | AB00949WIN      | e748aefe-0f44-4912-b41c-cb8285a3396a |
+| > |                 | e748aefe-0f44-4912-b41c-cb8285a3396a |
+| < | NULL            | e7688dc6-0581-4429-a9d1-19af5e20419a |
+| > | AB03896MAJ      | e7688dc6-0581-4429-a9d1-19af5e20419a |
+| < | NULL            | e77bc4ef-79c6-4e35-bdc4-1b4796f1e652 |
+| > | AB06211         | e77bc4ef-79c6-4e35-bdc4-1b4796f1e652 |
+| < | NULL            | e7e8399e-342b-4dc4-b376-887dd8bf2b12 |
+| > | BH08242         | e7e8399e-342b-4dc4-b376-887dd8bf2b12 |
+| < | AB00073SER      | eaafd99c-8c6e-42c2-9e4f-6648888ce127 |
+| > |                 | eaafd99c-8c6e-42c2-9e4f-6648888ce127 |
+| < | NULL            | eaf07f3a-2576-4286-8189-20854db26489 |
+| > | AB00049RAP      | eaf07f3a-2576-4286-8189-20854db26489 |
+| < | NULL            | eb1ddbe2-2960-44d5-a5be-5b9cd38227f6 |
+| > | BH00438         | eb1ddbe2-2960-44d5-a5be-5b9cd38227f6 |
+| < | NULL            | ee140bef-dc17-4f8d-a3e1-d125820ef477 |
+| > | TMP00005        | ee140bef-dc17-4f8d-a3e1-d125820ef477 |
+| < | NULL            | ef7eb087-7bc5-4d00-8d49-9ab6ee2adcfc |
+| > | BH09508         | ef7eb087-7bc5-4d00-8d49-9ab6ee2adcfc |
+| < | NULL            | efe1d1af-3b52-4a68-9ebb-a7aa92d1286d |
+| > | AB09040         | efe1d1af-3b52-4a68-9ebb-a7aa92d1286d |
+| < | NULL            | f0f1b915-cad0-49c7-b59e-181bcd31ae90 |
+| > | TMP00023        | f0f1b915-cad0-49c7-b59e-181bcd31ae90 |
+| < | BH09855         | f0f9070d-9c96-498b-93cc-a89bb929199e |
+| > |                 | f0f9070d-9c96-498b-93cc-a89bb929199e |
+| < | NULL            | f0fc154a-1747-40a7-8680-6ae5a6a26bc0 |
+| > | AB02596         | f0fc154a-1747-40a7-8680-6ae5a6a26bc0 |
+| < | NULL            | f12c5b23-7e4a-416e-a593-29eaaa4c10c0 |
+| > | BH04990         | f12c5b23-7e4a-416e-a593-29eaaa4c10c0 |
+| < | NULL            | f14fe517-fd2d-4bb0-9dc9-ff5f2b7c21dd |
+| > | TMP00001        | f14fe517-fd2d-4bb0-9dc9-ff5f2b7c21dd |
+| < | NULL            | f1659faa-65ee-4752-86d6-40d8d979a650 |
+| > | BH10973         | f1659faa-65ee-4752-86d6-40d8d979a650 |
+| < | NULL            | f1bb2b49-b816-4662-96d0-7bded0fbbf82 |
+| > | BH04990         | f1bb2b49-b816-4662-96d0-7bded0fbbf82 |
+| < | NULL            | f246a9a0-ea5e-43a2-92b5-1ee46c280875 |
+| > | BH00009GRA      | f246a9a0-ea5e-43a2-92b5-1ee46c280875 |
+| < | NULL            | f2c42b52-2ebd-436b-b635-52a00f422306 |
+| > | AB03082         | f2c42b52-2ebd-436b-b635-52a00f422306 |
+| < | NULL            | f39c7ef1-7441-439b-a820-62230fa14e53 |
+| > | AB04980HOP      | f39c7ef1-7441-439b-a820-62230fa14e53 |
+| < | NULL            | f4fb9c54-5c3c-4359-a169-41b259779132 |
+| > | BH07775         | f4fb9c54-5c3c-4359-a169-41b259779132 |
+| < | BH09498         | f6c68676-f0c7-4085-9194-c929bce3cee3 |
+| > |                 | f6c68676-f0c7-4085-9194-c929bce3cee3 |
+| < | NULL            | f6c76a49-f17d-4d03-a667-d858e1c57f66 |
+| > | BH10578         | f6c76a49-f17d-4d03-a667-d858e1c57f66 |
+| < | NULL            | f6f2e270-e7a2-4b01-a087-4079b498ae13 |
+| > | BH00202         | f6f2e270-e7a2-4b01-a087-4079b498ae13 |
+| < | NULL            | f7f6dadb-c531-492a-99cf-c0b58a46dcdd |
+| > | BH00223MAG      | f7f6dadb-c531-492a-99cf-c0b58a46dcdd |
+| < | NULL            | f82c740e-9c7d-4382-82b4-2f6e4dbb9dbc |
+| > | BH07106         | f82c740e-9c7d-4382-82b4-2f6e4dbb9dbc |
+| < | NULL            | f82ef250-840d-40e0-b4ad-ce875e82cfa3 |
+| > | AB09794CHI      | f82ef250-840d-40e0-b4ad-ce875e82cfa3 |
+| < | NULL            | f8aaacad-ae01-4dd2-9b75-a69d23c25114 |
+| > | AB09794CHI      | f8aaacad-ae01-4dd2-9b75-a69d23c25114 |
+| < | AB00209UND      | f9b14a62-6f39-492b-8273-e9b73e0c0af0 |
+| > |                 | f9b14a62-6f39-492b-8273-e9b73e0c0af0 |
+| < | NULL            | f9cd3adb-d332-4076-92d8-f74c5819205e |
+| > | TMP00005        | f9cd3adb-d332-4076-92d8-f74c5819205e |
+| < | AB00787SPL      | fa5cd94a-ba49-4bf5-b60f-af8d345166af |
+| > |                 | fa5cd94a-ba49-4bf5-b60f-af8d345166af |
+| < | NULL            | fa731644-26f5-44dc-80d7-53f6df8a5143 |
+| > | AB00209UND      | fa731644-26f5-44dc-80d7-53f6df8a5143 |
+| < | NULL            | fb09b01a-507d-4646-92b0-6da0b58c0cf3 |
+| > | BH07426DRE      | fb09b01a-507d-4646-92b0-6da0b58c0cf3 |
+| < | NULL            | fd43a59d-234f-4183-b794-3e537adaa531 |
+| > | AB03017CAL      | fd43a59d-234f-4183-b794-3e537adaa531 |
+| < | BH00005SEE      | fdd05168-a43c-409b-9727-0f02530bfb9f |
+| > |                 | fdd05168-a43c-409b-9727-0f02530bfb9f |
+| < | NULL            | fe07f460-f861-41ed-9b1b-175647512c47 |
+| > | AB00218SOU      | fe07f460-f861-41ed-9b1b-175647512c47 |
+| < | NULL            | fe7fe5d7-255f-466f-b78d-e33926acb8e8 |
+| > | BB00553         | fe7fe5d7-255f-466f-b78d-e33926acb8e8 |
+| < | NULL            | fe9e8e0e-c767-4218-a5d6-f77134f6214e |
+| > | AB00209UND      | fe9e8e0e-c767-4218-a5d6-f77134f6214e |
+| < | NULL            | fe9fc649-4966-4680-bc81-47e4968abb04 |
+| > | TMP00064        | fe9fc649-4966-4680-bc81-47e4968abb04 |
+| < | AB02304TST      | fec86982-67ae-40b3-8945-a860e21df877 |
+| > |                 | fec86982-67ae-40b3-8945-a860e21df877 |
+| < | BH00009GRA      | feee2909-fbc5-4374-9a80-db4a1deb789d |
+| > |                 | feee2909-fbc5-4374-9a80-db4a1deb789d |
+| < | NULL            | ff63be0b-42d7-4d38-bd2f-f7d98518d99d |
+| > | BH00554         | ff63be0b-42d7-4d38-bd2f-f7d98518d99d |
++---+-----------------+--------------------------------------+

@@ -1,0 +1,162 @@
+AMBIGUOUS MATCHES - HAW
+Generated: 2025-11-28 13:51:47
+Total items: 15
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/15] Target Prayer: dc8fa857-1923-4c79-ac9e-7044bb34930a
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: key_term_overlap, thematic_similarity
+Ambiguity: Both are 'for children' prayers but length and specific wording are different. Could be a different version.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/15] Target Prayer: 8704a7d9b8d0
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Some thematic overlap but significant differences in length and specific content details, with general terms like 'God' and 'almighty'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/15] Target Prayer: c71fdfa6-9b7a-4309-8d1e-90323ba41f4c
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=65)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both are long prayers with many invocations. The Arabic is the 'Tablet of the Bell' and covers similar devotional themes, but is not explicitly named 'Holy Mariner'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/15] Target Prayer: 1a241d0da6cf
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both mention 'forgiveness' and 'compassionate' but the word counts are significantly different.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/15] Target Prayer: 2bd590fc2737
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both prayers call for firmness in faith and strength, but wording and structure differ significantly. The Arabic is a general plea for steadfastness.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/15] Target Prayer: 7525908c5972
+Suggested Phelps: BB00630
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both mention 'removing difficulties', but the Arabic prayer is a longer supplication for forgiveness.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/15] Target Prayer: e29b2a92-2547-4fb3-b4ca-74c8dff5faaa
+Suggested Phelps: BH09960
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both prayers attribute power and glory to God, but the Arabic text is a longer and more general supplication.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/15] Target Prayer: aa579ad4-4780-407d-b889-3c5b7195ee10
+Suggested Phelps: BH08244
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both prayers focus on glorifying God and His creation, but the Arabic prayer is much longer and more encompassing.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/15] Target Prayer: 2bd590fc2737
+Suggested Phelps: BB00004REN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both prayers call for steadfastness and strength for believers, but wording and structure differ significantly.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/15] Target Prayer: e29b2a92-2547-4fb3-b4ca-74c8dff5faaa
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both prayers invoke God as shelter and helper, but the Arabic prayer is more extensive in its pleas for protection.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/15] Target Prayer: f065d571bfa5
+Suggested Phelps: BB00147ORD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both prayers are general supplications with overlap in themes of worship and seeking proximity to God. The Arabic prayer is much longer and more encompassing.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/15] Target Prayer: f065d571bfa5
+Suggested Phelps: BH09404
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both prayers glorify God and seek His grace, but the Arabic prayer is more extensive in its devotional content.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/15] Target Prayer: ed5a456b-6190-43ba-bf11-d17bba2185bd
+Suggested Phelps: BH07683
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both prayers focus on glorifying God and seeking divine assistance, but the Arabic text is a longer supplication.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/15] Target Prayer: 5c5f6a13-568b-4d63-a75e-9ea5193a25d6
+Suggested Phelps: BB00543VIC
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both prayers speak of tribulation and seeking divine assistance, but the Arabic prayer describes specific challenges.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/15] Target Prayer: 5c5f6a13-568b-4d63-a75e-9ea5193a25d6
+Suggested Phelps: BB00100EXI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: thematic_similarity, key_term_overlap
+Ambiguity: Both prayers express reliance on God and seek help, but the Arabic prayer details suffering. Different word counts.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

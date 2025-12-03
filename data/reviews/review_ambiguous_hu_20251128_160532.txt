@@ -1,0 +1,1312 @@
+AMBIGUOUS MATCHES - HU
+Generated: 2025-11-28 16:05:32
+Total items: 130
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/130] Target Prayer: b139fd2f8a32
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap, some phonetic terms overlap
+Ambiguity: General devotional tone, not strong textual matches.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/130] Target Prayer: 04d51106-02ec-46cb-ac81-c96726fbeae6
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap, some phonetic terms overlap
+Ambiguity: General devotional tone, not strong textual matches.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/130] Target Prayer: 3a8fdadf-50b4-42f4-8a39-033e5bc5c103
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: some key terms overlap (god, mercy), similar prayer type (healing/assistance), similar word count range
+Ambiguity: General prayer for assistance, not strong direct textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/130] Target Prayer: 234c1c96-70fc-4fb8-a37d-b86f7cf26065
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (lord, god), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/130] Target Prayer: 11eb53eb-8c51-4be4-94bb-659a9dbae22d
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (lord, god, mercy), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/130] Target Prayer: 14bc72aa-c32a-4e39-ab52-3ae1f828dc51
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: some key terms overlap (god, lord), short prayer
+Ambiguity: Short prayer, few distinct features for high confidence match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/130] Target Prayer: 079e712e-4765-420f-acc3-e94dbcc4724b
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: some key terms overlap (god, almighty), short prayer
+Ambiguity: Very short prayer, difficult to determine strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/130] Target Prayer: 234c1c96-70fc-4fb8-a37d-b86f7cf26065
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (god, lord, mercy), similar opening phrases: 'lauded be thy name, o my god!' and 'dicsőíttessék a neved, ó, uram, én istenem!'
+Ambiguity: General praise and supplication, not exact matches.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/130] Target Prayer: 1d7b411e-639f-4a0e-ba8b-181a9e778fc1
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, light), similar prayer length range
+Ambiguity: Devotional prayer, but no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/130] Target Prayer: 3a8fdadf-50b4-42f4-8a39-033e5bc5c103
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: some key terms overlap (glory, god, lord, protection), similar themes of supplication and divine attributes
+Ambiguity: General devotional tone, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/130] Target Prayer: 22f177f8-7f60-44d1-b609-4ba172684bf9
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (glory, god, lord, protection), similar themes of supplication and divine attributes
+Ambiguity: General devotional tone, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/130] Target Prayer: 8e12b22db0e1
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (almighty, god, light), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/130] Target Prayer: 0a16c9b2-df9b-448e-8c13-d123f7795ff3
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (almighty, god, light), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/130] Target Prayer: 5d5fc321-40fe-458c-adf5-9195daf1961f
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (almighty, god, holy, kingdom), similar prayer lengths
+Ambiguity: General devotional content, no strong textual match for full prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/130] Target Prayer: 0ecf8da8-8515-4973-a85e-c72b032acb21
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (almighty, divine, god, holy, kingdom), similar prayer lengths
+Ambiguity: General devotional content, no strong textual match for full prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/130] Target Prayer: 17560aa9-90f7-46f3-8834-2ef25dc09268
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: some key terms overlap (lord), themes of divine nurturing
+Ambiguity: Very different phrasing, but the theme of nurturing children is present.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/130] Target Prayer: a08cc830-8d84-41bd-b72b-95f4eeb2e882
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (god, glory, lord), similar prayer length range
+Ambiguity: Devotional prayer with no strong textual matches.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/130] Target Prayer: a08cc830-8d84-41bd-b72b-95f4eeb2e882
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (god, glory, lord), similar prayer length range
+Ambiguity: Devotional prayer with no strong textual matches.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/130] Target Prayer: 211e99ed-aa7b-4a7f-93df-4f9f8bbca219
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, lord, praise), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/130] Target Prayer: 211e99ed-aa7b-4a7f-93df-4f9f8bbca219
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, lord, praise), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/130] Target Prayer: d5b890de3f89
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, glory, praise), similar themes of servant's devotion
+Ambiguity: Devotional prayer, but no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/130] Target Prayer: d5b890de3f89
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, glory, praise), similar themes of servant's devotion
+Ambiguity: Devotional prayer, but no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/130] Target Prayer: 9fe243c4-434b-4d90-b366-4ef314846fa5
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (almighty, glory, god, lord, manifestation), similar prayer lengths
+Ambiguity: Very long devotional prayer, difficult to match precisely without extensive text comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/130] Target Prayer: 0ecf8da8-8515-4973-a85e-c72b032acb21
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (almighty, glory, god, lord, manifestation), similar prayer lengths
+Ambiguity: Very long devotional prayer, difficult to match precisely without extensive text comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/130] Target Prayer: 80f9e130c1df
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord), similar devotional themes
+Ambiguity: General devotional prayer, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/130] Target Prayer: 0765049a-de44-43fc-ae34-4bfff4e0b150
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord), similar devotional themes
+Ambiguity: General devotional prayer, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/130] Target Prayer: 211e99ed-aa7b-4a7f-93df-4f9f8bbca219
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (almighty, god, kingdom, light, lord), similar themes of guidance and assistance
+Ambiguity: General prayer for assistance, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/130] Target Prayer: 211e99ed-aa7b-4a7f-93df-4f9f8bbca219
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (almighty, god, kingdom, light, lord), similar themes of guidance and assistance
+Ambiguity: General prayer for assistance, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/130] Target Prayer: 079e712e-4765-420f-acc3-e94dbcc4724b
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: some key terms overlap (glory, god, light), short prayer
+Ambiguity: Very short prayer, difficult to determine strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/130] Target Prayer: 17560aa9-90f7-46f3-8834-2ef25dc09268
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: some key terms overlap (lord), themes of divine nurturing
+Ambiguity: Very different phrasing, but the theme of nurturing children is present.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/130] Target Prayer: d4d7ebbb-3f95-4691-bef0-ed0e93ae203c
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (lord, blessing, grace, holy), similar themes of serving God and seeking divine assistance
+Ambiguity: General devotional tone, not strong textual matches.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/130] Target Prayer: c6f6c16c-7e8a-4b32-86d9-ffcd58c0bedc
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (lord, blessing, grace, holy), similar themes of serving God and seeking divine assistance
+Ambiguity: General devotional tone, not strong textual matches.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/130] Target Prayer: 5d5fc321-40fe-458c-adf5-9195daf1961f
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (almighty, divine, god, holy, kingdom), similar prayer lengths
+Ambiguity: General devotional content, no strong textual match for full prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/130] Target Prayer: 0ecf8da8-8515-4973-a85e-c72b032acb21
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (almighty, divine, god, holy, kingdom), similar prayer lengths
+Ambiguity: General devotional content, no strong textual match for full prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/130] Target Prayer: 9d832f1e-79a8-4044-b020-6490a650211f
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (almighty, god, lord, mercy), similar themes of forgiveness and divine grace
+Ambiguity: General devotional prayer, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/130] Target Prayer: 9d832f1e-79a8-4044-b020-6490a650211f
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (almighty, god, lord, mercy), similar themes of forgiveness and divine grace
+Ambiguity: General devotional prayer, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/130] Target Prayer: f7e7e700-abff-456c-94e8-53f43e8bba71
+Suggested Phelps: AB11605
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar short prayer, seeking a pure heart
+Ambiguity: Very short prayer, difficult to confirm strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/130] Target Prayer: f5f00a90-e5b1-48d0-95ce-520bd65ffb34
+Suggested Phelps: AB11605
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar short prayer, seeking a pure heart
+Ambiguity: Very short prayer, difficult to confirm strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/130] Target Prayer: f472f431835e
+Suggested Phelps: AB11605
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar short prayer, seeking a pure heart
+Ambiguity: Very short prayer, difficult to confirm strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/130] Target Prayer: 19bed068-02f2-437c-b472-d5c8dea6f2a9
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (glory, god, lord, mercy), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/130] Target Prayer: 19bed068-02f2-437c-b472-d5c8dea6f2a9
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (glory, god, lord, mercy), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/130] Target Prayer: 234089d9-edd1-47d4-b4a4-61b5d95365c4
+Suggested Phelps: AB00728MDS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: some key terms overlap (lord, forgiveness, grace), similar prayer lengths, specific mention of women/children in both context.
+Ambiguity: Not a direct textual match, but strong thematic overlap with prayer for children.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/130] Target Prayer: 234089d9-edd1-47d4-b4a4-61b5d95365c4
+Suggested Phelps: AB00728MDS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: some key terms overlap (lord, forgiveness, grace), similar prayer lengths, specific mention of women/children in both context.
+Ambiguity: Not a direct textual match, but strong thematic overlap with prayer for children.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/130] Target Prayer: 3327c4bd-86a2-4b10-ba17-abdab9c5f533
+Suggested Phelps: BH08824
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (almighty, god, lord, blessing), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/130] Target Prayer: 3327c4bd-86a2-4b10-ba17-abdab9c5f533
+Suggested Phelps: BH08824
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (almighty, god, lord, blessing), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/130] Target Prayer: e2974d87-6d86-4813-9469-48abeb6af95d
+Suggested Phelps: AB00169FRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (god, grace, guidance, light, lord, praise), similar themes of divine assistance and guidance
+Ambiguity: General devotional prayer, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/130] Target Prayer: 21487121-cb09-444c-a4c2-6715f3c4b85a
+Suggested Phelps: AB00169FRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (god, grace, guidance, light, lord, praise), similar themes of divine assistance and guidance
+Ambiguity: General devotional prayer, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/130] Target Prayer: 27315b5a-8789-4daa-983e-1b498af3b743
+Suggested Phelps: BH00593
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (almighty, god, grace, lord, protection), similar themes of divine protection from evil
+Ambiguity: General protection prayer, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/130] Target Prayer: 27315b5a-8789-4daa-983e-1b498af3b743
+Suggested Phelps: BH00593
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (almighty, god, grace, lord, protection), similar themes of divine protection from evil
+Ambiguity: General protection prayer, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/130] Target Prayer: 89ced527-469c-429f-a7a0-1b0c2266ac2c
+Suggested Phelps: BH07683
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (glory, god, lord, kingdom), similar themes of praise and divine attributes
+Ambiguity: General devotional prayer, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/130] Target Prayer: 89ced527-469c-429f-a7a0-1b0c2266ac2c
+Suggested Phelps: BH07683
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (glory, god, lord, kingdom), similar themes of praise and divine attributes
+Ambiguity: General devotional prayer, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/130] Target Prayer: cc36cb46-49f4-4f59-8ff9-b9b7259b616f
+Suggested Phelps: BH09289
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (glory, god, kingdom, mercy, praise), similar devotional themes
+Ambiguity: General prayer for closeness to God, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/130] Target Prayer: 1cfbdbed-d244-4bb8-8072-e77d9ca8499d
+Suggested Phelps: BH09289
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (glory, god, kingdom, mercy, praise), similar devotional themes
+Ambiguity: General prayer for closeness to God, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/130] Target Prayer: 30b699fe-3bb3-4c40-bc42-b414e55c8321
+Suggested Phelps: BH07721
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord, manifestation), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/130] Target Prayer: ccf1ae19-79ab-4b91-875d-fb78f08cd7bd
+Suggested Phelps: BH07721
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord, manifestation), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/130] Target Prayer: a2eab866-fc17-4cb3-94c9-c86104bd9fbd
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (almighty, god, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/130] Target Prayer: a2eab866-fc17-4cb3-94c9-c86104bd9fbd
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (almighty, god, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/130] Target Prayer: 57122596-531a-4a02-8fa6-900be8f9464b
+Suggested Phelps: AB00963IMP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, grace, kingdom), similar themes of divine assistance
+Ambiguity: General prayer for assistance, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/130] Target Prayer: 57122596-531a-4a02-8fa6-900be8f9464b
+Suggested Phelps: AB00963IMP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, grace, kingdom), similar themes of divine assistance
+Ambiguity: General prayer for assistance, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/130] Target Prayer: 450fc4a4-94ec-4ab3-805f-02589dc6bb91
+Suggested Phelps: BB00018MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (glory, god, light, praise), similar prayer lengths
+Ambiguity: Devotional prayer, but no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/130] Target Prayer: 450fc4a4-94ec-4ab3-805f-02589dc6bb91
+Suggested Phelps: BB00018MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (glory, god, light, praise), similar prayer lengths
+Ambiguity: Devotional prayer, but no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/130] Target Prayer: 6b8b47ec-34d0-45f3-b6de-f93a94f65155
+Suggested Phelps: AB02596
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (lord, grace, holy), similar short prayer
+Ambiguity: General prayer for light and grace, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/130] Target Prayer: 6b8b47ec-34d0-45f3-b6de-f93a94f65155
+Suggested Phelps: AB02596
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (lord, grace, holy), similar short prayer
+Ambiguity: General prayer for light and grace, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/130] Target Prayer: fb93211174dc
+Suggested Phelps: BH05894
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (god, grace, lord, mercy), similar themes of divine intervention and grace
+Ambiguity: General supplication prayer, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/130] Target Prayer: 2df5edee-9dc0-4317-82e0-499d1005c7bf
+Suggested Phelps: BH05894
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (god, grace, lord, mercy), similar themes of divine intervention and grace
+Ambiguity: General supplication prayer, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/130] Target Prayer: a2f41b7f-4fa4-4afb-a211-01462b387eae
+Suggested Phelps: BH00238
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (bahá, glory, god, kingdom), similar themes of divine revelation and praise
+Ambiguity: General praise prayer, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/130] Target Prayer: a2f41b7f-4fa4-4afb-a211-01462b387eae
+Suggested Phelps: BH00238
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (bahá, glory, god, kingdom), similar themes of divine revelation and praise
+Ambiguity: General praise prayer, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/130] Target Prayer: 9d88b830-b680-4430-8f15-57ce3dba5f18
+Suggested Phelps: BB00543VIC
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (glory, god, lord, servants), similar themes of divine assistance
+Ambiguity: General prayer for victory and assistance, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/130] Target Prayer: 9d88b830-b680-4430-8f15-57ce3dba5f18
+Suggested Phelps: BB00543VIC
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (glory, god, lord, servants), similar themes of divine assistance
+Ambiguity: General prayer for victory and assistance, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/130] Target Prayer: 211e99ed-aa7b-4a7f-93df-4f9f8bbca219
+Suggested Phelps: BB00100EXI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/130] Target Prayer: 211e99ed-aa7b-4a7f-93df-4f9f8bbca219
+Suggested Phelps: BB00100EXI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/130] Target Prayer: a2eab866-fc17-4cb3-94c9-c86104bd9fbd
+Suggested Phelps: BH07180
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, light, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/130] Target Prayer: 2ccfa561-e528-4494-af58-17dd820fb296
+Suggested Phelps: BH07180
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, light, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/130] Target Prayer: c4314874ba98
+Suggested Phelps: BB00002MEN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/130] Target Prayer: 12b1b531-427f-4c61-9083-17a7dfe91574
+Suggested Phelps: BB00002MEN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/130] Target Prayer: 0a16c9b2-df9b-448e-8c13-d123f7795ff3
+Suggested Phelps: BH00308DES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (glory, god, lord, manifestation), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/130] Target Prayer: 0a16c9b2-df9b-448e-8c13-d123f7795ff3
+Suggested Phelps: BH00308DES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (glory, god, lord, manifestation), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/130] Target Prayer: e2974d87-6d86-4813-9469-48abeb6af95d
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (bahá, god, grace, guidance), similar prayer lengths
+Ambiguity: Long prayer for assistance, no strong textual match for full prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/130] Target Prayer: ae53ac1d-83a5-462c-ab88-1cf062885629
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (bahá, god, grace, guidance), similar prayer lengths
+Ambiguity: Long prayer for assistance, no strong textual match for full prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/130] Target Prayer: d0e16ef7-8c49-4cc3-8982-786efe45c74a
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/130] Target Prayer: d0e16ef7-8c49-4cc3-8982-786efe45c74a
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/130] Target Prayer: 3475f6f5-6e60-482b-9161-cd1d20623abf
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (glory, god, grace, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/130] Target Prayer: 27315b5a-8789-4daa-983e-1b498af3b743
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (glory, god, grace, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/130] Target Prayer: 15a36789eb08
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (almighty, bahá, god, holy, kingdom, lord), similar prayer lengths
+Ambiguity: General prayer for assistance, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/130] Target Prayer: 15a36789eb08
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (almighty, bahá, god, holy, kingdom, lord), similar prayer lengths
+Ambiguity: General prayer for assistance, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/130] Target Prayer: e7f1442b-6594-424b-8287-7933ca2bc500
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (god, lord, praise, servants), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/130] Target Prayer: 7e8fae70-e77e-4cf6-beac-891597de46e8
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (god, lord, praise, servants), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/130] Target Prayer: 234c1c96-70fc-4fb8-a37d-b86f7cf26065
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (almighty, glory, god, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/130] Target Prayer: 234c1c96-70fc-4fb8-a37d-b86f7cf26065
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (almighty, glory, god, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/130] Target Prayer: e57951fc2a4c
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, lord, mercy, praise), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/130] Target Prayer: 80a7983c-c65a-4042-99f4-1c0aed2f4a76
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, lord, mercy, praise), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/130] Target Prayer: e6d1e10b-0ed2-43ff-85de-bc51808b40ae
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (glory, god, holy, praise), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/130] Target Prayer: e6d1e10b-0ed2-43ff-85de-bc51808b40ae
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (glory, god, holy, praise), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/130] Target Prayer: 8e12b22db0e1
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (god, grace, kingdom, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/130] Target Prayer: a08cc830-8d84-41bd-b72b-95f4eeb2e882
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (god, grace, kingdom, lord), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/130] Target Prayer: 14cf6bed1013
+Suggested Phelps: ABU0023UNI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: some key terms overlap (god, lord, kingdom, light), similar length, some similar phrasing regarding unity and spiritual illumination
+Ambiguity: General prayer for unity and divine assistance, but not a strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/130] Target Prayer: 9a41ee4e-7d9f-4fd5-bda5-c012242d9061
+Suggested Phelps: ABU0023UNI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: some key terms overlap (god, lord, kingdom, light), similar length, some similar phrasing regarding unity and spiritual illumination
+Ambiguity: General prayer for unity and divine assistance, but not a strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/130] Target Prayer: 9fe243c4-434b-4898-982d-ae1807fb2513
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (almighty, glory, god, lord, revelation), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/130] Target Prayer: f121581a
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (almighty, glory, god, lord, revelation), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/130] Target Prayer: 079e712e-4765-420f-acc3-e94dbcc4724b
+Suggested Phelps: BH00868WIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, grace, mercy), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/130] Target Prayer: 6e049f79-6b22-46f4-8110-cfa6f4410132
+Suggested Phelps: BH00868WIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, grace, mercy), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/130] Target Prayer: 19bed068-02f2-437c-b472-d5c8dea6f2a9
+Suggested Phelps: AB08704NEW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: some key terms overlap (blessing, kingdom), short prayer
+Ambiguity: Very short prayer, difficult to determine strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/130] Target Prayer: 19bed068-02f2-437c-b472-d5c8dea6f2a9
+Suggested Phelps: AB08704NEW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: some key terms overlap (blessing, kingdom), short prayer
+Ambiguity: Very short prayer, difficult to determine strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/130] Target Prayer: 3a8fdadf-50b4-42f4-8a39-033e5bc5c103
+Suggested Phelps: BH09024
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: some key terms overlap (god, light, lord), similar themes of divine enlightenment and guidance
+Ambiguity: General devotional tone, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/130] Target Prayer: 22f177f8-7f60-44d1-b609-4ba172684bf9
+Suggested Phelps: BH09024
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: some key terms overlap (god, light, lord), similar themes of divine enlightenment and guidance
+Ambiguity: General devotional tone, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/130] Target Prayer: 211e99ed-aa7b-4a7f-93df-4f9f8bbca219
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (almighty, god, kingdom, light, lord), similar themes of praise and divine assistance
+Ambiguity: General prayer for assistance, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/130] Target Prayer: 211e99ed-aa7b-4a7f-93df-4f9f8bbca219
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (almighty, god, kingdom, light, lord), similar themes of praise and divine assistance
+Ambiguity: General prayer for assistance, no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/130] Target Prayer: 3a8fdadf-50b4-42f4-8a39-033e5bc5c103
+Suggested Phelps: BH07426DRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (glory, god, lord, light), similar prayer lengths
+Ambiguity: Devotional prayer, but no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/130] Target Prayer: 22f177f8-7f60-44d1-b609-4ba172684bf9
+Suggested Phelps: BH07426DRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: some key terms overlap (glory, god, lord, light), similar prayer lengths
+Ambiguity: Devotional prayer, but no strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/130] Target Prayer: 64bb65e7-7e87-497b-85c2-0c0906bbdb16
+Suggested Phelps: BH02898MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, lord, praise), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/130] Target Prayer: c24e06b438ea
+Suggested Phelps: BH02898MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, lord, praise), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/130] Target Prayer: f1eaff9a-bc86-4142-8c94-3e719967bfac
+Suggested Phelps: BH06429
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord, servants), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/130] Target Prayer: f1eaff9a-bc86-4142-8c94-3e719967bfac
+Suggested Phelps: BH06429
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord, servants), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/130] Target Prayer: 211e99ed-aa7b-4a7f-93df-4f9f8bbca219
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (bahá, god, kingdom, lord, revelation), similar themes of divine assistance
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/130] Target Prayer: 211e99ed-aa7b-4a7f-93df-4f9f8bbca219
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (bahá, god, kingdom, lord, revelation), similar themes of divine assistance
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/130] Target Prayer: d1772f85-c951-4b67-bf40-dd57b13fe55f
+Suggested Phelps: ABU0268AME
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, lord, mercy, praise), similar themes of spiritual gathering
+Ambiguity: General prayer for spiritual gathering, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/130] Target Prayer: d1772f85-c951-4b67-bf40-dd57b13fe55f
+Suggested Phelps: ABU0268AME
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, lord, mercy, praise), similar themes of spiritual gathering
+Ambiguity: General prayer for spiritual gathering, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/130] Target Prayer: d1772f85-c951-4b67-bf40-dd57b13fe55f
+Suggested Phelps: ABU0394GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, lord, mercy, praise), similar themes of spiritual gathering
+Ambiguity: General prayer for spiritual gathering, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/130] Target Prayer: d1772f85-c951-4b67-bf40-dd57b13fe55f
+Suggested Phelps: ABU0394GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, lord, mercy, praise), similar themes of spiritual gathering
+Ambiguity: General prayer for spiritual gathering, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/130] Target Prayer: e2974d87-6d86-4813-9469-48abeb6af95d
+Suggested Phelps: AB00204PRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (almighty, bahá, divine, eternal, god, light), similar prayer lengths
+Ambiguity: Long prayer for protection, no strong textual match for full prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/130] Target Prayer: ae53ac1d-83a5-462c-ab88-1cf062885629
+Suggested Phelps: AB00204PRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (almighty, bahá, divine, eternal, god, light), similar prayer lengths
+Ambiguity: Long prayer for protection, no strong textual match for full prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/130] Target Prayer: 796e3e05-7b8b-4488-8368-33d81e4604d2
+Suggested Phelps: AB00065KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (divine, god, holy, light), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[123/130] Target Prayer: 796e3e05-7b8b-4488-8368-33d81e4604d2
+Suggested Phelps: AB00065KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (divine, god, holy, light), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[124/130] Target Prayer: e9d3000c-6205-47bd-9bdf-171a7d7b8a0f
+Suggested Phelps: BH07113
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (almighty, god, lord, praise), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[125/130] Target Prayer: 22f177f8-7f60-44d1-b609-4ba172684bf9
+Suggested Phelps: BH07113
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (almighty, god, lord, praise), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[126/130] Target Prayer: 9fe243c4-434b-4898-982d-ae1807fb2513
+Suggested Phelps: BH07661
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord, praise), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[127/130] Target Prayer: c00fd57a-fe01-4bf9-9d91-889a7a9254d2
+Suggested Phelps: BH07661
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (glory, god, lord, praise), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[128/130] Target Prayer: 98c0a570-6160-4d7e-87ab-9f47140b0a3f
+Suggested Phelps: BH09508
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, grace, light, lord, mercy), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[129/130] Target Prayer: 98c0a570-6160-4d7e-87ab-9f47140b0a3f
+Suggested Phelps: BH09508
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: some key terms overlap (god, grace, light, lord, mercy), similar devotional themes
+Ambiguity: General praise and supplication, not strong textual match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[130/130] Target Prayer: 963fc7ec-db34-4b9e-b3c7-79d03ee2fe14
+Suggested Phelps: AB02024
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: some key terms overlap (almighty, divine, eternal, god, lord), similar prayer lengths
+Ambiguity: General prayer for assistance, no strong textual match for full prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

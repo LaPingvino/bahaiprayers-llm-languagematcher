@@ -1,0 +1,75 @@
+LOW CONFIDENCE MATCHES - TL
+Generated: 2025-11-28 09:08:22
+Total items: 7
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/7] Target Prayer: 970110a9-8eec-4d98-a170-740f965d2988
+Suggested Phelps: 970110a9-8eec-4d98-a170-740f965d2988
+Match Type: NEW_TRANSLATION
+Confidence: 0%
+Reasons: no_sufficient_match
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/7] Target Prayer: ac524e38-7c89-40ca-a0a0-e660ca0c581b
+Suggested Phelps: AC524E38
+Match Type: NEW_TRANSLATION
+Confidence: 0%
+Reasons: no_sufficient_match
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/7] Target Prayer: b97be015-490b-4349-9a84-3797a5c27c6d
+Suggested Phelps: B97BE015
+Match Type: NEW_TRANSLATION
+Confidence: 0%
+Reasons: no_sufficient_match
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/7] Target Prayer: cb88506e-4cd3-455c-a41c-21572f5d7217
+Suggested Phelps: CB88506E
+Match Type: NEW_TRANSLATION
+Confidence: 0%
+Reasons: no_sufficient_match
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/7] Target Prayer: da140f10-9f6c-4dff-87a6-fb920e7373d5
+Suggested Phelps: DA140F10
+Match Type: NEW_TRANSLATION
+Confidence: 0%
+Reasons: no_sufficient_match
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/7] Target Prayer: e3c1ffed-deed-479e-8e4a-fb83f49a5438
+Suggested Phelps: E3C1FFED
+Match Type: NEW_TRANSLATION
+Confidence: 0%
+Reasons: no_sufficient_match
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/7] Target Prayer: ff77e88b-f89a-4df5-aff4-c8cc7e82318a
+Suggested Phelps: FF77E88B
+Match Type: NEW_TRANSLATION
+Confidence: 0%
+Reasons: no_sufficient_match
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

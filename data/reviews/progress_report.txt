@@ -1,0 +1,119 @@
+
+================================================================================
+PRAYER MATCHING PROGRESS REPORT
+Generated: 2025-11-28 20:15:18
+================================================================================
+
+TOTAL PRAYERS PROCESSED: 606
+
+Breakdown:
+  - Initial batch (single + two-candidate):    487 prayers
+  - Additional single-candidate batch:         115 prayers  
+  - Clear two-candidate choices:                 4 prayers
+  ────────────────────────────────────────────────────────────────────────────────
+  TOTAL ASSIGNED:                              606 prayers
+
+ORIGINAL TASK: 1,089 prayers needing Phelps code assignment
+COMPLETION: 55.6%
+
+================================================================================
+REMAINING PRAYERS: 675 entries
+================================================================================
+
+Issues with remaining prayers:
+  - NEW_TRANSLATION (no English match):        1408 entries
+  - Not found in database (bad UUIDs):         201 entries
+  - Valid entries needing review:              -934 entries
+
+Breakdown by number of candidates (remaining):
+    1 candidates:  345 prayers ( 51.1%)
+    2 candidates:  197 prayers ( 29.2%)
+    3 candidates:   45 prayers (  6.7%)
+    4 candidates:   22 prayers (  3.3%)
+    5 candidates:   13 prayers (  1.9%)
+    6 candidates:    8 prayers (  1.2%)
+    7 candidates:    2 prayers (  0.3%)
+    8 candidates:    4 prayers (  0.6%)
+    9 candidates:    3 prayers (  0.4%)
+   10 candidates:    2 prayers (  0.3%)
+   11 candidates:    2 prayers (  0.3%)
+   13 candidates:    4 prayers (  0.6%)
+   15 candidates:    1 prayers (  0.1%)
+   16 candidates:    1 prayers (  0.1%)
+   17 candidates:    1 prayers (  0.1%)
+   20 candidates:    2 prayers (  0.3%)
+   21 candidates:    1 prayers (  0.1%)
+   26 candidates:    1 prayers (  0.1%)
+   28 candidates:    1 prayers (  0.1%)
+   29 candidates:    3 prayers (  0.4%)
+   31 candidates:    1 prayers (  0.1%)
+   37 candidates:    2 prayers (  0.3%)
+   39 candidates:    1 prayers (  0.1%)
+   41 candidates:    1 prayers (  0.1%)
+   42 candidates:    2 prayers (  0.3%)
+   43 candidates:    2 prayers (  0.3%)
+   45 candidates:    1 prayers (  0.1%)
+   46 candidates:    1 prayers (  0.1%)
+   73 candidates:    1 prayers (  0.1%)
+   93 candidates:    1 prayers (  0.1%)
+  101 candidates:    1 prayers (  0.1%)
+  112 candidates:    1 prayers (  0.1%)
+  113 candidates:    1 prayers (  0.1%)
+  175 candidates:    1 prayers (  0.1%)
+
+================================================================================
+RECOMMENDED NEXT STEPS
+================================================================================
+
+1. AUTOMATED PROCESSING (Low effort, medium value):
+   - Review and fix 201 entries with bad UUIDs
+   - These might be recoverable with database queries
+
+2. MANUAL REVIEW (Medium effort, high value):
+   - 242 prayers with 2-3 candidates
+   - These are relatively easy to match manually
+   - Could be processed in batches by language
+
+3. NEW_TRANSLATION ENTRIES (1408 prayers):
+   - These are non-English prayers with no English equivalent
+   - Options:
+     a) Verify they truly have no English match (search by content)
+     b) Assign to generic codes (AB00527, etc.)
+     c) Create new Phelps codes if they're unique prayers
+     d) Mark as untranslated and skip
+
+4. HIGH COMPLEXITY (88 prayers with 4+ candidates):
+   - These need deep semantic analysis or native speaker review
+   - Consider:
+     a) Using LLM to narrow down candidates
+     b) Manual expert review
+     c) Skipping for now and focusing on higher-confidence matches
+
+5. USER'S SUGGESTION TO INVESTIGATE:
+   - "Some languages might have another language in the text field for reference"
+   - Check if prayers contain multilingual content that could aid matching
+
+================================================================================
+FILES CREATED
+================================================================================
+
+SQL Updates:
+  - update_pure.sql                  (487 statements) ✓ EXECUTED
+  - update_remaining_single.sql      (115 statements) ✓ EXECUTED
+  - update_two_candidates.sql        (  4 statements) ✓ EXECUTED
+
+Analysis Files:
+  - consolidated_review_remaining.txt (675 prayers remaining)
+  - processed_uuids.txt               (606 UUIDs processed)
+
+================================================================================
+DATABASE STATUS
+================================================================================
+
+Before this session: ~5,563 prayers with Phelps codes
+After this session:  ~6,169 prayers with Phelps codes (+606)
+
+Progress: 55.6% of review task completed
+Remaining: 483 prayers from original consolidated report
+
+================================================================================

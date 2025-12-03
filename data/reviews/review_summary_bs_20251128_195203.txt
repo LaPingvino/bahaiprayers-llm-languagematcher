@@ -1,0 +1,18 @@
+PRAYER MATCHING SUMMARY - BS
+Generated: 2025-11-28 19:52:03
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 366
+High confidence matches: 154 (42.1%)
+Low confidence matches:  7 (1.9%)
+Ambiguous matches:       205 (56.0%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Review low confidence matches in: review_low_confidence_bs_*.txt
+□ Resolve ambiguous matches in: review_ambiguous_bs_*.txt
+□ 154 high confidence matches applied automatically
+
+Next steps: Review files, make corrections, then run database updates.

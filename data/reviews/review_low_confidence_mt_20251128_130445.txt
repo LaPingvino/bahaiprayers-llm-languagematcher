@@ -1,0 +1,5444 @@
+LOW CONFIDENCE MATCHES - MT
+Generated: 2025-11-28 13:04:45
+Total items: 679
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/679] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/679] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/679] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/679] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/679] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/679] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[123/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[124/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[125/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[126/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[127/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[128/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[129/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[130/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[131/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[132/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[133/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[134/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[135/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[136/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[137/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[138/679] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[139/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[140/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[141/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[142/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[143/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[144/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[145/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[146/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[147/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[148/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[149/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[150/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[151/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[152/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[153/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[154/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[155/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[156/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[157/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[158/679] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[159/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[160/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[161/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[162/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[163/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[164/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[165/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[166/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[167/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[168/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[169/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[170/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[171/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[172/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[173/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[174/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[175/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[176/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[177/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[178/679] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[179/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[180/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[181/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[182/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[183/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[184/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[185/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[186/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[187/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[188/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[189/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[190/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[191/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[192/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[193/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[194/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[195/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[196/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[197/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[198/679] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[199/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[200/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[201/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[202/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[203/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[204/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[205/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[206/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[207/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[208/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[209/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[210/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[211/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[212/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[213/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[214/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[215/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[216/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[217/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[218/679] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[219/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[220/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[221/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[222/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[223/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[224/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[225/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[226/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[227/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[228/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[229/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[230/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[231/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[232/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[233/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[234/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[235/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[236/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[237/679] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[238/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[239/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[240/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[241/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[242/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[243/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[244/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[245/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[246/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[247/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[248/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[249/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[250/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[251/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[252/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[253/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[254/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[255/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[256/679] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[257/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[258/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[259/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[260/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[261/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[262/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[263/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[264/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[265/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[266/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[267/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[268/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[269/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[270/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[271/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[272/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[273/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[274/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[275/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[276/679] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[277/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[278/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[279/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[280/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[281/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[282/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[283/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[284/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[285/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[286/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[287/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[288/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[289/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[290/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[291/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[292/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[293/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[294/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[295/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[296/679] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[297/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[298/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[299/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[300/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[301/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[302/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[303/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[304/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[305/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[306/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[307/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[308/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[309/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[310/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[311/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[312/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[313/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[314/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[315/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[316/679] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[317/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[318/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[319/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[320/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[321/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[322/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[323/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[324/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[325/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[326/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[327/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[328/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[329/679] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[330/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[331/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[332/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[333/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[334/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[335/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[336/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[337/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[338/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[339/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[340/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[341/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[342/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[343/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[344/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[345/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[346/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[347/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[348/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[349/679] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[350/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[351/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[352/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[353/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[354/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[355/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[356/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[357/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[358/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[359/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[360/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[361/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[362/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[363/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[364/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[365/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[366/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[367/679] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[368/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[369/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[370/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[371/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[372/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[373/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[374/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[375/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[376/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[377/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[378/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[379/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[380/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[381/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[382/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[383/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[384/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[385/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[386/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[387/679] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[388/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[389/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[390/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[391/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[392/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[393/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[394/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[395/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[396/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[397/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[398/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[399/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[400/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[401/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[402/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[403/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[404/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[405/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[406/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[407/679] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[408/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[409/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[410/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[411/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[412/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[413/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[414/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[415/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[416/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[417/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[418/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[419/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[420/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[421/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[422/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[423/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[424/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[425/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[426/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[427/679] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[428/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[429/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[430/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[431/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[432/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[433/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[434/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[435/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[436/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[437/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[438/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[439/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[440/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[441/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[442/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[443/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[444/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[445/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[446/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[447/679] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[448/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[449/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[450/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[451/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[452/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[453/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[454/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[455/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[456/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[457/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[458/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[459/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[460/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[461/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[462/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[463/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[464/679] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[465/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[466/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[467/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[468/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[469/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[470/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[471/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[472/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[473/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[474/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[475/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[476/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[477/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[478/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[479/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[480/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[481/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[482/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[483/679] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[484/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[485/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[486/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[487/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[488/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[489/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[490/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[491/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[492/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[493/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[494/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[495/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[496/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[497/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[498/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[499/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[500/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[501/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[502/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[503/679] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[504/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[505/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[506/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[507/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[508/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[509/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[510/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[511/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[512/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[513/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[514/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[515/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[516/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[517/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[518/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[519/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[520/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[521/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[522/679] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[523/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[524/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[525/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[526/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[527/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[528/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[529/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[530/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[531/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[532/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[533/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[534/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[535/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[536/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[537/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[538/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[539/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[540/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[541/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[542/679] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[543/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[544/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[545/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[546/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[547/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[548/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[549/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[550/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[551/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[552/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[553/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[554/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[555/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[556/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[557/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[558/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[559/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[560/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[561/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[562/679] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[563/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[564/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[565/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[566/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[567/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[568/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[569/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[570/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[571/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[572/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[573/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[574/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[575/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[576/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[577/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[578/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[579/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[580/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[581/679] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[582/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[583/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[584/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[585/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[586/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[587/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[588/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[589/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[590/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[591/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[592/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[593/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[594/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[595/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[596/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[597/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[598/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[599/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[600/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[601/679] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[602/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[603/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[604/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[605/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[606/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[607/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[608/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[609/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[610/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[611/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[612/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[613/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[614/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[615/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[616/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[617/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[618/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[619/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[620/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[621/679] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[622/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[623/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[624/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[625/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[626/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[627/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[628/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[629/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[630/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[631/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[632/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[633/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[634/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[635/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[636/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[637/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[638/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[639/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[640/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[641/679] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[642/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[643/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[644/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[645/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[646/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[647/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[648/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[649/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[650/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[651/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[652/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[653/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[654/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[655/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[656/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[657/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[658/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[659/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[660/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[661/679] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[662/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[663/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[664/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[665/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[666/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[667/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[668/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[669/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[670/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[671/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[672/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[673/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[674/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[675/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[676/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[677/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[678/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[679/679] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,2852 @@
+LOW CONFIDENCE MATCHES - CY
+Generated: 2025-11-28 13:50:33
+Total items: 284
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/284] Target Prayer: 1334632c940c
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/284] Target Prayer: d5834078-2a0e-4977-8c83-ed4e390027b1
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/284] Target Prayer: 63be00df-6fd8-4027-ac45-4ddd0be49938
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/284] Target Prayer: 9fb69892-f3c4-4077-ad57-6f7f7cd78eb8
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/284] Target Prayer: 3fc91a6f-463c-439a-8310-921aba4ee2e6
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/284] Target Prayer: 551e32527b6c
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/284] Target Prayer: 66f64902-f3ec-44b4-b1ab-1a63ff541873
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/284] Target Prayer: 4fb968156aa9
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/284] Target Prayer: 3038ecbd-8fb0-4cb1-97e2-c261e2dca0a8
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/284] Target Prayer: 63be00df-6fd8-4027-ac45-4ddd0be49938
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/284] Target Prayer: 04bfc0c2-337f-48b6-881d-142f6a98c440
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/284] Target Prayer: 4fb968156aa9
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/284] Target Prayer: 9fb69892-f3c4-4077-ad57-6f7f7cd78eb8
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/284] Target Prayer: 61179228-16c3-4acc-8fe4-d4d4ec249cb9
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/284] Target Prayer: 63be00df-6fd8-4027-ac45-4ddd0be49938
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/284] Target Prayer: 04bfc0c2-337f-48b6-881d-142f6a98c440
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/284] Target Prayer: ce1a0153-5916-49ff-9203-58e49a605135
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/284] Target Prayer: b8e42e47-8194-4b7b-9c0b-a7b9abc6b86d
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/284] Target Prayer: 214f8be6148b
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[123/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[124/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[125/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[126/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[127/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[128/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[129/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[130/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[131/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[132/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[133/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[134/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[135/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[136/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[137/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[138/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[139/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[140/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[141/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[142/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[143/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[144/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[145/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[146/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[147/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[148/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[149/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[150/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[151/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[152/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[153/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[154/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[155/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[156/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[157/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[158/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[159/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[160/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[161/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[162/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[163/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[164/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[165/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[166/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[167/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[168/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[169/284] Target Prayer: 61179228-16c3-4acc-8fe4-d4d4ec249cb9
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[170/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[171/284] Target Prayer: 04bfc0c2-337f-48b6-881d-142f6a98c440
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[172/284] Target Prayer: 51f31c6e295d
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[173/284] Target Prayer: ce1a0153-5916-49ff-9203-58e49a605135
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[174/284] Target Prayer: b8e42e47-8194-4b7b-9c0b-a7b9abc6b86d
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[175/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[176/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[177/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[178/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[179/284] Target Prayer: 1334632c940c
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[180/284] Target Prayer: d5834078-2a0e-4977-8c83-ed4e390027b1
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[181/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[182/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[183/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[184/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: ABU0070GAT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[185/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: ABU0070GAT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[186/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: ABU0070GAT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[187/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: ABU0070GAT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[188/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[189/284] Target Prayer: 04bfc0c2-337f-48b6-881d-142f6a98c440
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[190/284] Target Prayer: 51f31c6e295d
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[191/284] Target Prayer: ce1a0153-5916-49ff-9203-58e49a605135
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[192/284] Target Prayer: b8e42e47-8194-4b7b-9c0b-a7b9abc6b86d
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[193/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[194/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[195/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[196/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[197/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[198/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[199/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[200/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[201/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[202/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[203/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[204/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[205/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[206/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[207/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[208/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[209/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[210/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[211/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[212/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[213/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[214/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[215/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[216/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[217/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[218/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[219/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[220/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[221/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[222/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[223/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[224/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[225/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[226/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[227/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[228/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[229/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[230/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[231/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[232/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[233/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[234/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[235/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[236/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[237/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[238/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[239/284] Target Prayer: 61179228-16c3-4acc-8fe4-d4d4ec249cb9
+Suggested Phelps: AB11356
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[240/284] Target Prayer: 63be00df-6fd8-4027-ac45-4ddd0be49938
+Suggested Phelps: AB11356
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[241/284] Target Prayer: e898e385-c744-470f-9cf6-d6afe16bc7a2
+Suggested Phelps: AB11356
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[242/284] Target Prayer: ce1a0153-5916-49ff-9203-58e49a605135
+Suggested Phelps: AB11356
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[243/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB11356
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[244/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB11356
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[245/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB11356
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[246/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB00204PRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[247/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB00204PRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[248/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB00204PRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[249/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB00204PRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[250/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[251/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[252/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[253/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[254/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB00073SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[255/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB00073SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[256/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB00073SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[257/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB00073SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[258/284] Target Prayer: e5900ba4-4a72-42ce-8b7f-b509f0fa38a6
+Suggested Phelps: BH00662FLO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[259/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH00662FLO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[260/284] Target Prayer: 04bfc0c2-337f-48b6-881d-142f6a98c440
+Suggested Phelps: BH00662FLO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[261/284] Target Prayer: 51f31c6e295d
+Suggested Phelps: BH00662FLO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[262/284] Target Prayer: 9fb69892-f3c4-4077-ad57-6f7f7cd78eb8
+Suggested Phelps: BH00662FLO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[263/284] Target Prayer: ce1a0153-5916-49ff-9203-58e49a605135
+Suggested Phelps: BH00662FLO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[264/284] Target Prayer: b8e42e47-8194-4b7b-9c0b-a7b9abc6b86d
+Suggested Phelps: BH00662FLO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[265/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH00662FLO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[266/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: ABU0188TUR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[267/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: ABU0188TUR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[268/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: ABU0188TUR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[269/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: ABU0188TUR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[270/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BB00004REN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[271/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BB00004REN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[272/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BB00004REN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[273/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BB00004REN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[274/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: AB07124
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[275/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: AB07124
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[276/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: AB07124
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[277/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: AB07124
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[278/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[279/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[280/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[281/284] Target Prayer: 3aabc6b8-bb16-48e7-a49e-107e63edf365
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[282/284] Target Prayer: 2e18bb34-3332-45a8-8ea8-117fe4446a2a
+Suggested Phelps: BH07105
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[283/284] Target Prayer: 9b2e8770-12dd-4687-9cfe-8e89e26738d3
+Suggested Phelps: BH07105
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[284/284] Target Prayer: de824434-6963-4cf0-a190-d1431a98197e
+Suggested Phelps: BH07105
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: is_short_prayer_status_match
+Ambiguity: Short prayer, low similarity score, likely new translation or very different structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

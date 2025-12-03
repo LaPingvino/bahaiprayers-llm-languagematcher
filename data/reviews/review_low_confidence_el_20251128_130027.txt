@@ -1,0 +1,988 @@
+LOW CONFIDENCE MATCHES - EL
+Generated: 2025-11-28 13:00:27
+Total items: 122
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/122] Target Prayer: 
+Suggested Phelps: 
+Match Type: 
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,362 @@
+AMBIGUOUS MATCHES - IS
+Generated: 2025-11-28 09:06:19
+Total items: 35
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/35] Target Prayer: 5851b8dd-a53f-4a9e-9a92-8101ccdc23a7
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: 77%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/35] Target Prayer: 81f7e713-f9f8-4191-93f6-1928317b302c
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: 78%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/35] Target Prayer: 2b89b77e-ad4a-4ec3-9f30-64811a73ed8b
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: 77%
+Reasons: opening_phrase_similar, key_terms_overlap
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/35] Target Prayer: f07c3073-3ef3-41b3-a185-9cfad5631aca
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: 73%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/35] Target Prayer: 81f7e713-f9f8-4191-93f6-1928317b302c
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: 78%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/35] Target Prayer: fd287368-399c-4634-8b77-a345bb488318
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: 65%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/35] Target Prayer: f07c3073-3ef3-41b3-a185-9cfad5631aca
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: 73%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/35] Target Prayer: 41742681-5553-44ae-80d0-10870672ae9f
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: 66%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/35] Target Prayer: b3d6b402-c584-43a0-be07-3ca64c4868d8
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: 60%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/35] Target Prayer: 2f65e6b2-e9f0-4fb9-94fd-f2ccf6dab8ec
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: 60%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/35] Target Prayer: d3d08f21-6ee5-4f3d-8a12-b809cc6c3a46
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: 71%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/35] Target Prayer: 6984025f-67cc-42d4-b908-3a0253f6d4bf
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: 69%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/35] Target Prayer: b057e810-ce61-465e-add1-9bfcd227db1e
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: 63%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/35] Target Prayer: 805bcd0b-f58f-4e72-87e0-5cbc5461c4e6
+Suggested Phelps: BB00015SUF
+Match Type: AMBIGUOUS
+Confidence: 95%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/35] Target Prayer: 5521bb32-bb42-4ece-a24d-4922b6583a87
+Suggested Phelps: AB00189AID
+Match Type: AMBIGUOUS
+Confidence: 68%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/35] Target Prayer: e2f9cde8-6b24-4e21-bd18-9e6b63bd05d4
+Suggested Phelps: BH07180
+Match Type: AMBIGUOUS
+Confidence: 75%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/35] Target Prayer: 41742681-5553-44ae-80d0-10870672ae9f
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: 66%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/35] Target Prayer: 84fdd65d-5734-4e3b-a8c4-311504339ec0
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: 75%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/35] Target Prayer: 83bdbbbb-853e-4caf-b915-a7cd46cfc66e
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: 73%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/35] Target Prayer: 2cc58eae-b9f3-4228-8ae3-042de420f1d9
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: 71%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/35] Target Prayer: b3d6b402-c584-43a0-be07-3ca64c4868d8
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: 60%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/35] Target Prayer: 6984025f-67cc-42d4-b908-3a0253f6d4bf
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: 69%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/35] Target Prayer: 6984025f-67cc-42d4-b908-3a0253f6d4bf
+Suggested Phelps: AB00241HIG
+Match Type: AMBIGUOUS
+Confidence: 69%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/35] Target Prayer: fd287368-399c-4634-8b77-a345bb488318
+Suggested Phelps: BH00617
+Match Type: AMBIGUOUS
+Confidence: 65%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/35] Target Prayer: 9bceda7f-22a9-45b3-b75f-e5dcd6d7bd06
+Suggested Phelps: BH05771
+Match Type: AMBIGUOUS
+Confidence: 77%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/35] Target Prayer: ea9e79fe-49a8-4617-ac41-45084cb23dba
+Suggested Phelps: BB00583
+Match Type: AMBIGUOUS
+Confidence: 73%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/35] Target Prayer: d9829e5f-d28f-4e95-87a2-1792d723ddf3
+Suggested Phelps: BH10973
+Match Type: AMBIGUOUS
+Confidence: 71%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/35] Target Prayer: b3d6b402-c584-43a0-be07-3ca64c4868d8
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: 60%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/35] Target Prayer: b7917585-9264-46bb-8c3a-742b098d98a7
+Suggested Phelps: BH10127
+Match Type: AMBIGUOUS
+Confidence: 73%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/35] Target Prayer: 362b6e04-4f67-481c-88d4-e41ec5494f4b
+Suggested Phelps: BH00005ALL
+Match Type: AMBIGUOUS
+Confidence: 63%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/35] Target Prayer: b3d6b402-c584-43a0-be07-3ca64c4868d8
+Suggested Phelps: AB05996
+Match Type: AMBIGUOUS
+Confidence: 60%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/35] Target Prayer: 24f73c7e-7ae6-4249-905f-c9cb9356a6c0
+Suggested Phelps: AB10324
+Match Type: AMBIGUOUS
+Confidence: 76%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/35] Target Prayer: c96a3ffa-eb2f-4ec7-8df4-e82bac9b006e
+Suggested Phelps: AB07709CON
+Match Type: AMBIGUOUS
+Confidence: 74%
+Reasons: opening_phrase_similar, key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/35] Target Prayer: 2311be1c-88cd-40de-a41e-c78a7dea4528
+Suggested Phelps: AB00362LOV
+Match Type: AMBIGUOUS
+Confidence: 71%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/35] Target Prayer: 84fdd65d-5734-4e3b-a8c4-311504339ec0
+Suggested Phelps: AB00210BIR
+Match Type: AMBIGUOUS
+Confidence: 75%
+Reasons: key_terms_overlap, word_count_similar
+Ambiguity: multiple candidates with similar signatures
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

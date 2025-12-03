@@ -1,0 +1,252 @@
+AMBIGUOUS MATCHES - PT
+Generated: 2025-11-28 10:05:22
+Total items: 24
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/24] Target Prayer: 1a5f48db-7a1b-4f99-a5ba-31bfdb175210
+Suggested Phelps: AB10685
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=58.9)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/24] Target Prayer: a2c70e6d-6250-4af6-929a-4b366af2d9e4
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=58.7)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/24] Target Prayer: 74e17caa-8144-49d4-8d29-24d835f1bba7
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55.8)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/24] Target Prayer: 8fa35938-e579-45da-b3bd-175f29b52870
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55.1)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/24] Target Prayer: cbf4003b-f801-46fe-b7ba-5eb193d485cc
+Suggested Phelps: ABU0070GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54.1)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/24] Target Prayer: cbf4003b-f801-46fe-b7ba-5eb193d485cc
+Suggested Phelps: ABU0394GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54.1)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/24] Target Prayer: 11d57787-cab6-42df-ad75-843582a8cb4b
+Suggested Phelps: BH07661
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=53.6)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/24] Target Prayer: bb036064-d82c-4abd-a761-852c786f7b7d
+Suggested Phelps: BH00001ABI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=53.4)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/24] Target Prayer: bb036064-d82c-4abd-a761-852c786f7b7d
+Suggested Phelps: AB03461MAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=53.4)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/24] Target Prayer: 1c7e9302-f9d8-45b8-bd2f-08c81a19e4f2
+Suggested Phelps: BH07780
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=53)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/24] Target Prayer: 80b54e92-06e9-428d-baa9-04848e946866
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52.6)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/24] Target Prayer: a0c18e18-7f3d-4ff0-94d7-98cc3bbec052
+Suggested Phelps: AB00362LOV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52.4)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/24] Target Prayer: 11d57787-cab6-42df-ad75-843582a8cb4b
+Suggested Phelps: BH07113
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52.3)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/24] Target Prayer: 1149661a-7da6-4196-ac65-9466e80fc9b1
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/24] Target Prayer: 8fa35938-e579-45da-b3bd-175f29b52870
+Suggested Phelps: BH08264
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=51.6)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/24] Target Prayer: b743da61-389e-48c8-a391-5f4c48331394
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=51.4)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/24] Target Prayer: 69cc2421-da63-4fde-a866-0730912171b5
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=51.3)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/24] Target Prayer: bb036064-d82c-4abd-a761-852c786f7b7d
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50.9)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/24] Target Prayer: da8a7be9-9088-414f-98ad-8e7382aca263
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50.9)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/24] Target Prayer: f4bb399c-9c8a-4bde-9d11-063cf833f17b
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50.4)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/24] Target Prayer: 228937be-faf5-4a90-857d-0849c0e442bc
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/24] Target Prayer: 41afe864-0c46-44ab-b658-b48ee950bd48
+Suggested Phelps: BH10973
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/24] Target Prayer: d0faadb8-6af8-4d13-8151-e1ab2fe0fa0b
+Suggested Phelps: BH09289
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/24] Target Prayer: a8c3d38a-b9c7-484b-a080-88b405771907
+Suggested Phelps: BH03629GRI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: key_terms_overlap, signature_overlap, opening_phrase_similar, closing_phrase_similar, similar_word_count, similar_char_count
+Ambiguity: Multiple candidates with similar scores, difference between best and second best score is not significant
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

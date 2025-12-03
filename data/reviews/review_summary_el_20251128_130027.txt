@@ -1,0 +1,15 @@
+PRAYER MATCHING SUMMARY - EL
+Generated: 2025-11-28 13:00:27
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 0
+High confidence matches: 0 (NaN%)
+Low confidence matches:  0 (NaN%)
+Ambiguous matches:       0 (NaN%)
+New translations:        0 (NaN%)
+
+ACTION ITEMS:
+────────────
+
+Next steps: Review files, make corrections, then run database updates.

@@ -1,0 +1,3508 @@
+LOW CONFIDENCE MATCHES - KY
+Generated: 2025-11-28 16:06:15
+Total items: 415
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/415] Target Prayer: 06d7540d-c474-4019-a899-7d010c2c1888
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/415] Target Prayer: 0644bef3-bab6-4323-bd0d-13621896826f
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/415] Target Prayer: 110cd402-72aa-42c4-b68b-999f1dcdb888
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/415] Target Prayer: 0b732736-d596-41f0-b0c6-5a1fed919abf
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/415] Target Prayer: 028334c5-e19c-470e-bc6c-6d743e3e7c2a
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/415] Target Prayer: 6ef48ddb-ec09-4413-a8a5-8452cd15336e
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/415] Target Prayer: 8f21559b-90b3-4cae-894d-bc0eb64f9cae
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/415] Target Prayer: 1a6330d2-4444-471d-a4ed-4394ed7dfcb4
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/415] Target Prayer: d06a0255-3487-42a2-970a-4d14470d8221
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/415] Target Prayer: 81809672-0f64-4f4c-b1e0-20c053f80097
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/415] Target Prayer: 1e6cb391-e148-4f5a-9f82-588083a35486
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/415] Target Prayer: 336737c7-496a-4402-9dc7-9218c1a549da
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/415] Target Prayer: 01365e00-1c5c-4d2f-87be-978ba4909922
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/415] Target Prayer: 38e5e7d7-bfe9-43c6-8ee7-cc1e39b1e8b5
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/415] Target Prayer: 013887091446
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/415] Target Prayer: 794898e6-dd5a-4585-9982-e9e9c639b212
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/415] Target Prayer: 7937a12a-d2ba-4af5-9f56-f74ea6a9703e
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/415] Target Prayer: 1888b877-3408-4315-9a49-75ffb06db2e4
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/415] Target Prayer: 7c04768d-eb2a-4a0d-bba9-49e595d9ca1b
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/415] Target Prayer: 094d93fe-82b1-4af8-bc3a-1be977a060aa
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/415] Target Prayer: aeed233d-008a-45f7-953c-a54bacd446d8
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/415] Target Prayer: fa7e9f53-2de0-45b3-839f-d254963a96d0
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/415] Target Prayer: 03461a16-d942-49df-a1f1-20eea88f9d6c
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/415] Target Prayer: 20b505e3-7551-4d90-b914-2bf7a977fd2c
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/415] Target Prayer: 0c6905e1-2aac-4afd-8eee-93cdf279cbd8
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/415] Target Prayer: 5f5aa3dd-7efb-4b87-ae68-fd22e4b4efde
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/415] Target Prayer: 4526dbb1-db05-43d4-98de-84585e46a279
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/415] Target Prayer: df2f12d9-8daa-42b4-b519-f15aa9acd390
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/415] Target Prayer: 497eb554-da4e-422c-851a-fb20997ed7c5
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/415] Target Prayer: 2fca79914e3b
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/415] Target Prayer: 5ce16e60-2531-4eef-951a-6036d6300c9a
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/415] Target Prayer: 7c346b8b-11e0-492d-8f7a-3662e84d7aae
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/415] Target Prayer: 0644bef3-bab6-4323-bd0d-13621896826f
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/415] Target Prayer: 110cd402-72aa-42c4-b68b-999f1dcdb888
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/415] Target Prayer: b30e5d78-87f6-4ed0-bfc2-fea117d4a9a1
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/415] Target Prayer: d29c838f-2f06-4842-9cdf-900cbe12ceb7
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/415] Target Prayer: 2d6dd2e0-252a-43c3-8472-a0e71911d3cb
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/415] Target Prayer: 6aabb4d4-0e7e-43f1-9276-14079d9b87d0
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/415] Target Prayer: b391ce9a-5425-43d1-8bb7-4bd1baca6d9b
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/415] Target Prayer: 6ecea4a9-b593-48a3-b85e-56ec3ce2717c
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/415] Target Prayer: 07079594-122e-4be0-a45f-87248d8a1820
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/415] Target Prayer: 4216cc44-a493-4601-b15b-d2614c21178e
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/415] Target Prayer: a3172c7799ee
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/415] Target Prayer: 5bf78b07-b51e-4d23-a20e-b7cd06875d12
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/415] Target Prayer: 8ce16136-a5f5-42df-a41b-bd840b2117c6
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/415] Target Prayer: 8f21559b-90b3-4cae-894d-bc0eb64f9cae
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/415] Target Prayer: 9f621724-32e6-4ae8-beff-a51e92b4c8bf
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/415] Target Prayer: cbb06c78-34e1-4ecf-b8e5-658196462dff
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/415] Target Prayer: 505fa047-2833-4bee-8722-36525bb65f2c
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/415] Target Prayer: 5ce16e60-2531-4eef-951a-6036d6300c9a
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/415] Target Prayer: 49b0b666-c75b-4765-8939-fb3b32f65cc0
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/415] Target Prayer: f412aea7-233d-4f94-b950-f4fe26ffeb0b
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/415] Target Prayer: 5040e776b222
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/415] Target Prayer: 4f0f80be0064
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/415] Target Prayer: 9242889b-2245-44a2-914c-6e46c6d2dafe
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/415] Target Prayer: 68e7f561-5867-4a35-82cf-4f82c9d4b93b
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/415] Target Prayer: 4963e190-908d-4006-befb-310e42405503
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/415] Target Prayer: 7b70283d-2d00-49ae-a8f4-38cf81492923
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/415] Target Prayer: 2d1beb8e9745
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/415] Target Prayer: 497eb554-da4e-422c-851a-fb20997ed7c5
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/415] Target Prayer: 8ce16136-a5f5-42df-a41b-bd840b2117c6
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/415] Target Prayer: 4216cc44-a493-4601-b15b-d2614c21178e
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/415] Target Prayer: 6fda5fd5-1598-4270-86e3-e65f3e284b95
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/415] Target Prayer: 626a0bd4-6a14-4e13-9e02-bf305577b9d0
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/415] Target Prayer: b292a054-d34c-489b-ab15-61017f114725
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/415] Target Prayer: d4d33acd-0c90-4da3-8d57-82f7b20effa7
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/415] Target Prayer: 7d01fbf7-e8e1-43b0-99d2-89c5cd29b620
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/415] Target Prayer: 5fefa4e4-84af-4bd8-8323-7052f6c1819f
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/415] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/415] Target Prayer: fc3a406e-71a6-49d5-a4a4-e973e666caf3
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/415] Target Prayer: 990a9a95-e427-4fd8-b13a-b324af3786e2
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/415] Target Prayer: f412aea7-233d-4f94-b950-f4fe26ffeb0b
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/415] Target Prayer: a1a86970-2728-4f54-8399-7759556ce110
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/415] Target Prayer: cbb06c78-34e1-4ecf-b8e5-658196462dff
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/415] Target Prayer: 505fa047-2833-4bee-8722-36525bb65f2c
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/415] Target Prayer: 4f0f80be0064
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/415] Target Prayer: 4cf69584-5fd8-4853-b98c-d5fac2834fb9
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/415] Target Prayer: 0b9c6ee8-e115-4366-90dc-dd15028cb7f9
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/415] Target Prayer: 6ecea4a9-b593-48a3-b85e-56ec3ce2717c
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/415] Target Prayer: 996efe2f-38d6-45a3-ad5a-110b3faf203c
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/415] Target Prayer: 4216cc44-a493-4601-b15b-d2614c21178e
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/415] Target Prayer: fa054bda-72f6-40d4-8c49-ad69fc47f143
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/415] Target Prayer: f412aea7-233d-4f94-b950-f4fe26ffeb0b
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/415] Target Prayer: 0d67d5af-9702-4f72-a2f8-8775805a22a0
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/415] Target Prayer: 3038ecbd-8fb0-4cb1-97e2-c261e2dca0a8
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/415] Target Prayer: 9a7585ab-ba68-4614-9022-077e02f738ae
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: char_count_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/415] Target Prayer: 6327744d-d45c-4766-be93-0bd5f98c3b02
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: char_count_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/415] Target Prayer: ab30c2ad-f9b4-4e9e-8030-e80f230f7d07
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: char_count_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/415] Target Prayer: e898e385-c744-470f-9cf6-d6afe16bc7a2
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=10)%
+Reasons: char_count_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/415] Target Prayer: bb0de343782e
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/415] Target Prayer: d06a0255-3487-42a2-970a-4d14470d8221
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/415] Target Prayer: 85cb39ea-433d-438e-b5c3-ce13cfb19cde
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/415] Target Prayer: d06a0255-3487-42a2-970a-4d14470d8221
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/415] Target Prayer: 0b732736-d596-41f0-b0c6-5a1fed919abf
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/415] Target Prayer: 028334c5-e19c-470e-bc6c-6d743e3e7c2a
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/415] Target Prayer: 6ef48ddb-ec09-4413-a8a5-8452cd15336e
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/415] Target Prayer: 1e6cb391-e148-4f5a-9f82-588083a35486
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/415] Target Prayer: b27feecd-d999-4fa6-9105-8cfd36de8079
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/415] Target Prayer: ca0b171e-6182-4438-92c9-fd7a87a863cb
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/415] Target Prayer: 271615e4-d895-4163-b26f-73636c11b5a5
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/415] Target Prayer: 3038ecbd-8fb0-4cb1-97e2-c261e2dca0a8
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/415] Target Prayer: 7c346b8b-11e0-492d-8f7a-3662e84d7aae
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[123/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[124/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[125/415] Target Prayer: 7c9b01f2-e375-4f5c-a8a3-556bef36986d
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[126/415] Target Prayer: d06a0255-3487-42a2-970a-4d14470d8221
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[127/415] Target Prayer: d025d2fcec89
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[128/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[129/415] Target Prayer: d6b4e4ea-9b62-44c9-ac58-5d182b2c2c0b
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[130/415] Target Prayer: 626a0bd4-6a14-4e13-9e02-bf305577b9d0
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[131/415] Target Prayer: 5040e776b222
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[132/415] Target Prayer: 5ce16e60-2531-4eef-951a-6036d6300c9a
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[133/415] Target Prayer: 396687b0-f7aa-49cc-a435-0977a4941f72
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[134/415] Target Prayer: 5bf78b07-b51e-4d23-a20e-b7cd06875d12
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[135/415] Target Prayer: e597c14a-b1ee-4033-84e5-ba787212c1f0
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[136/415] Target Prayer: 2e53ca79-8cb1-44d8-b30e-2ce423b6d38b
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[137/415] Target Prayer: 4628412a-32ba-44ad-8404-e505032dc84f
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[138/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[139/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[140/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[141/415] Target Prayer: 40c6ac6e-ed85-47bb-82db-63f443564fdf
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[142/415] Target Prayer: 01365e00-1c5c-4d2f-87be-978ba4909922
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[143/415] Target Prayer: 0d67d5af-9702-4f72-a2f8-8775805a22a0
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[144/415] Target Prayer: 347cccab-d855-404d-82d2-797dcedf9db6
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[145/415] Target Prayer: e0084666-f7e4-4e44-938f-3cdd1c752b46
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[146/415] Target Prayer: f412aea7-233d-4f94-b950-f4fe26ffeb0b
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[147/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[148/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[149/415] Target Prayer: 2d1beb8e9745
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[150/415] Target Prayer: 497eb554-da4e-422c-851a-fb20997ed7c5
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[151/415] Target Prayer: 8ce16136-a5f5-42df-a41b-bd840b2117c6
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[152/415] Target Prayer: 4216cc44-a493-4601-b15b-d2614c21178e
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[153/415] Target Prayer: 4cf69584-5fd8-4853-b98c-d5fac2834fb9
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[154/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[155/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[156/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[157/415] Target Prayer: 0b9c6ee8-e115-4366-90dc-dd15028cb7f9
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[158/415] Target Prayer: 6ecea4a9-b593-48a3-b85e-56ec3ce2717c
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[159/415] Target Prayer: 996efe2f-38d6-45a3-ad5a-110b3faf203c
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[160/415] Target Prayer: 4216cc44-a493-4601-b15b-d2614c21178e
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[161/415] Target Prayer: df2f12d9-8daa-42b4-b519-f15aa9acd390
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[162/415] Target Prayer: fa2840fb-c742-4fe0-8d21-99c1a4cac5e6
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[163/415] Target Prayer: 360875ec-4d7a-4163-b755-44d3a1cf0a68
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[164/415] Target Prayer: 7b70283d-2d00-49ae-a8f4-38cf81492923
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[165/415] Target Prayer: 9c5e496d-987e-490c-b1e8-e8bba5d3b0e7
+Suggested Phelps: BH05801
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[166/415] Target Prayer: cbb06c78-34e1-4ecf-b8e5-658196462dff
+Suggested Phelps: BH05801
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[167/415] Target Prayer: 505fa047-2833-4bee-8722-36525bb65f2c
+Suggested Phelps: BH05801
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[168/415] Target Prayer: 4f0f80be0064
+Suggested Phelps: BH05801
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[169/415] Target Prayer: d8c69fcca96d
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[170/415] Target Prayer: 01365e00-1c5c-4d2f-87be-978ba4909922
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[171/415] Target Prayer: f5b49c98-aec4-424c-b8e4-47218fa58c5e
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[172/415] Target Prayer: cdd50116-1408-4c67-b363-ee3eabb22ef9
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[173/415] Target Prayer: 3b581800-93f1-4e2a-9812-35efa54d777e
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[174/415] Target Prayer: 626a0bd4-6a14-4e13-9e02-bf305577b9d0
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[175/415] Target Prayer: 07079594-122e-4be0-a45f-87248d8a1820
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[176/415] Target Prayer: 388acdff-3f3e-4e1f-b841-da6182c9cdaa
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[177/415] Target Prayer: 7b178856-764d-4f4e-975f-6c6437c2e450
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[178/415] Target Prayer: f412aea7-233d-4f94-b950-f4fe26ffeb0b
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[179/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[180/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[181/415] Target Prayer: 52fc26bd-dce8-432f-a391-a0bd2fb3f8d4
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[182/415] Target Prayer: fa2840fb-c742-4fe0-8d21-99c1a4cac5e6
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[183/415] Target Prayer: 79828127-8783-4e60-8114-5af862ef773e
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[184/415] Target Prayer: abf41819-bc80-4452-b8f5-971a05ff77dc
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[185/415] Target Prayer: 7c9b01f2-e375-4f5c-a8a3-556bef36986d
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[186/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[187/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[188/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[189/415] Target Prayer: 0b9c6ee8-e115-4366-90dc-dd15028cb7f9
+Suggested Phelps: AB10685
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[190/415] Target Prayer: 5bf78b07-b51e-4d23-a20e-b7cd06875d12
+Suggested Phelps: AB10685
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[191/415] Target Prayer: 996efe2f-38d6-45a3-ad5a-110b3faf203c
+Suggested Phelps: AB10685
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[192/415] Target Prayer: 4216cc44-a493-4601-b15b-d2614c21178e
+Suggested Phelps: AB10685
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[193/415] Target Prayer: 62de9f3e-91ec-4ea0-81ef-e7a671c5fde9
+Suggested Phelps: BH09162
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[194/415] Target Prayer: f412aea7-233d-4f94-b950-f4fe26ffeb0b
+Suggested Phelps: BH09162
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[195/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH09162
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[196/415] Target Prayer: b928c63e-9594-4f89-a36f-d3a56bf187f2
+Suggested Phelps: BH09162
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[197/415] Target Prayer: c3655d0a-f936-4fc9-8528-210a7cbb2078
+Suggested Phelps: AB00963IMP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[198/415] Target Prayer: fa2840fb-c742-4fe0-8d21-99c1a4cac5e6
+Suggested Phelps: AB00963IMP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[199/415] Target Prayer: 79828127-8783-4e60-8114-5af862ef773e
+Suggested Phelps: AB00963IMP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[200/415] Target Prayer: 909d08f7-b088-4372-9545-0256f6b2555b
+Suggested Phelps: AB00963IMP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[201/415] Target Prayer: 7f6f1f79-b69f-4291-a19c-32c7a40b15ac
+Suggested Phelps: BB00018MAJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[202/415] Target Prayer: 4104c80c-6714-49af-804b-8151b35efd19
+Suggested Phelps: BB00018MAJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[203/415] Target Prayer: 110cd402-72aa-42c4-b68b-999f1dcdb888
+Suggested Phelps: BB00018MAJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[204/415] Target Prayer: 7b70283d-2d00-49ae-a8f4-38cf81492923
+Suggested Phelps: BB00018MAJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[205/415] Target Prayer: 96864092f614
+Suggested Phelps: AB00065STE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[206/415] Target Prayer: 4104c80c-6714-49af-804b-8151b35efd19
+Suggested Phelps: AB00065STE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[207/415] Target Prayer: 2b8dae93-6aaa-4699-a420-1762e3f9fadf
+Suggested Phelps: AB00065STE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[208/415] Target Prayer: 7b70283d-2d00-49ae-a8f4-38cf81492923
+Suggested Phelps: AB00065STE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[209/415] Target Prayer: bc4bd395-c409-4db8-94c9-f191e522ae27
+Suggested Phelps: BH09085
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[210/415] Target Prayer: 4104c80c-6714-49af-804b-8151b35efd19
+Suggested Phelps: BH09085
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[211/415] Target Prayer: 110cd402-72aa-42c4-b68b-999f1dcdb888
+Suggested Phelps: BH09085
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[212/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: BH09085
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[213/415] Target Prayer: b8aceac0-cb05-4700-879e-ef99d8aa0a62
+Suggested Phelps: AB02596
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[214/415] Target Prayer: 5bf78b07-b51e-4d23-a20e-b7cd06875d12
+Suggested Phelps: AB02596
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[215/415] Target Prayer: 996efe2f-38d6-45a3-ad5a-110b3faf203c
+Suggested Phelps: AB02596
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[216/415] Target Prayer: 8f21559b-90b3-4cae-894d-bc0eb64f9cae
+Suggested Phelps: AB02596
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[217/415] Target Prayer: b6b210d1-ecb8-4529-a86b-f522c811b10f
+Suggested Phelps: BH00009AWA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[218/415] Target Prayer: 028334c5-e19c-470e-bc6c-6d743e3e7c2a
+Suggested Phelps: BH00009AWA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[219/415] Target Prayer: 505fa047-2833-4bee-8722-36525bb65f2c
+Suggested Phelps: BH00009AWA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[220/415] Target Prayer: 388acdff-3f3e-4e1f-b841-da6182c9cdaa
+Suggested Phelps: BH00009AWA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[221/415] Target Prayer: 6fda5fd5-1598-4270-86e3-e65f3e284b95
+Suggested Phelps: BH05894
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[222/415] Target Prayer: 028334c5-e19c-470e-bc6c-6d743e3e7c2a
+Suggested Phelps: BH05894
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[223/415] Target Prayer: 6f01008e-26c2-4476-83da-77d74a9e837e
+Suggested Phelps: BH05894
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[224/415] Target Prayer: 1e6cb391-e148-4f5a-9f82-588083a35486
+Suggested Phelps: BH05894
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[225/415] Target Prayer: 33ab0af1-0cee-4ca0-91b4-23b3d01636b8
+Suggested Phelps: BH00238
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[226/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: BH00238
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[227/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: BH00238
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[228/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: BH00238
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[229/415] Target Prayer: c3655d0a-f936-4fc9-8528-210a7cbb2078
+Suggested Phelps: BB00543VIC
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[230/415] Target Prayer: fa2840fb-c742-4fe0-8d21-99c1a4cac5e6
+Suggested Phelps: BB00543VIC
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[231/415] Target Prayer: 79828127-8783-4e60-8114-5af862ef773e
+Suggested Phelps: BB00543VIC
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[232/415] Target Prayer: 909d08f7-b088-4372-9545-0256f6b2555b
+Suggested Phelps: BB00543VIC
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[233/415] Target Prayer: 786e9c48-c4d8-466c-9f39-c43daa361ede
+Suggested Phelps: BH10688
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[234/415] Target Prayer: 01365e00-1c5c-4d2f-87be-978ba4909922
+Suggested Phelps: BH10688
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[235/415] Target Prayer: 786e9c48-c4d8-466c-9f39-c43daa361ede
+Suggested Phelps: BH10688
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[236/415] Target Prayer: 
+Suggested Phelps: BH10688
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[237/415] Target Prayer: 35fa4ae6-8980-472e-bfca-934ab1061b3d
+Suggested Phelps: BB00100EXI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[238/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BB00100EXI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[239/415] Target Prayer: 5040e776b222
+Suggested Phelps: BB00100EXI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[240/415] Target Prayer: 347cccab-d855-404d-82d2-797dcedf9db6
+Suggested Phelps: BB00100EXI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[241/415] Target Prayer: 5d1f65d9-f053-47ab-9126-0f886485c5ef
+Suggested Phelps: BH00154FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[242/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: BH00154FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[243/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: BH00154FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[244/415] Target Prayer: 7b70283d-2d00-49ae-a8f4-38cf81492923
+Suggested Phelps: BH00154FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[245/415] Target Prayer: 0c6905e1-2aac-4afd-8eee-93cdf279cbd8
+Suggested Phelps: BH00009SHE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[246/415] Target Prayer: f5b49c98-aec4-424c-b8e4-47218fa58c5e
+Suggested Phelps: BH00009SHE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[247/415] Target Prayer: cdd50116-1408-4c67-b363-ee3eabb22ef9
+Suggested Phelps: BH00009SHE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[248/415] Target Prayer: 0b732736-d596-41f0-b0c6-5a1fed919abf
+Suggested Phelps: BH07180
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[249/415] Target Prayer: 028334c5-e19c-470e-bc6c-6d743e3e7c2a
+Suggested Phelps: BH07180
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[250/415] Target Prayer: 6ef48ddb-ec09-4413-a8a5-8452cd15336e
+Suggested Phelps: BH07180
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[251/415] Target Prayer: 1e6cb391-e148-4f5a-9f82-588083a35486
+Suggested Phelps: BH07180
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[252/415] Target Prayer: b159de25-c817-4820-9ba4-23bb4b6923f3
+Suggested Phelps: BH09498
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[253/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BH09498
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[254/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH09498
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[255/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BH09498
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[256/415] Target Prayer: a3172c7799ee
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[257/415] Target Prayer: 5bf78b07-b51e-4d23-a20e-b7cd06875d12
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[258/415] Target Prayer: 8ce16136-a5f5-42df-a41b-bd840b2117c6
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[259/415] Target Prayer: 8f21559b-90b3-4cae-894d-bc0eb64f9cae
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[260/415] Target Prayer: a6cccb96-8935-444c-8284-3d9f92fd3ee3
+Suggested Phelps: BB00002MEN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[261/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BB00002MEN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[262/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BB00002MEN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[263/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BB00002MEN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[264/415] Target Prayer: b27feecd-d999-4fa6-9105-8cfd36de8079
+Suggested Phelps: BH00308DES
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[265/415] Target Prayer: ca0b171e-6182-4438-92c9-fd7a87a863cb
+Suggested Phelps: BH00308DES
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[266/415] Target Prayer: 271615e4-d895-4163-b26f-73636c11b5a5
+Suggested Phelps: BH00308DES
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[267/415] Target Prayer: 3038ecbd-8fb0-4cb1-97e2-c261e2dca0a8
+Suggested Phelps: BH00308DES
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[268/415] Target Prayer: 5d3fd677-efb6-46f4-9a3a-ff7623cf70b6
+Suggested Phelps: AB09040
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[269/415] Target Prayer: 5bf78b07-b51e-4d23-a20e-b7cd06875d12
+Suggested Phelps: AB09040
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[270/415] Target Prayer: 996efe2f-38d6-45a3-ad5a-110b3faf203c
+Suggested Phelps: AB09040
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[271/415] Target Prayer: 8f21559b-90b3-4cae-894d-bc0eb64f9cae
+Suggested Phelps: AB09040
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[272/415] Target Prayer: 7266cd91-bb92-43ff-a3df-21014a551c7f
+Suggested Phelps: AB05167
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[273/415] Target Prayer: f20081f0-20f0-4cdf-adf4-9e7c352806b7
+Suggested Phelps: AB05167
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[274/415] Target Prayer: bd3aacac-c6c6-493b-b6ac-403075d6632f
+Suggested Phelps: AB05167
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[275/415] Target Prayer: ecbeb48f-b240-4c57-9774-959ca4ffcd9b
+Suggested Phelps: AB05167
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[276/415] Target Prayer: b30e5d78-87f6-4ed0-bfc2-fea117d4a9a1
+Suggested Phelps: BB00018ADJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[277/415] Target Prayer: d29c838f-2f06-4842-9cdf-900cbe12ceb7
+Suggested Phelps: BB00018ADJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[278/415] Target Prayer: 2d6dd2e0-252a-43c3-8472-a0e71911d3cb
+Suggested Phelps: BB00018ADJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[279/415] Target Prayer: d92de3a0-ea69-42da-bcdb-7b78a1fd9d2f
+Suggested Phelps: BB00018ADJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[280/415] Target Prayer: 5fefa4e4-84af-4bd8-8323-7052f6c1819f
+Suggested Phelps: BH06026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[281/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BH06026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[282/415] Target Prayer: b03615c3-aa6a-4f55-9cf3-99932a6610af
+Suggested Phelps: BH06026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[283/415] Target Prayer: fc3a406e-71a6-49d5-a4a4-e973e666caf3
+Suggested Phelps: BH06026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[284/415] Target Prayer: d701fbf7-e8e1-43b0-99d2-89c5cd29b620
+Suggested Phelps: AB00094WEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[285/415] Target Prayer: f683aadc-04cb-434b-bafd-a23ee36c6a8c
+Suggested Phelps: AB00094WEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[286/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: AB00094WEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[287/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: AB00094WEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[288/415] Target Prayer: 0b9c6ee8-e115-4366-90dc-dd15028cb7f9
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[289/415] Target Prayer: 6ecea4a9-b593-48a3-b85e-56ec3ce2717c
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[290/415] Target Prayer: 996efe2f-38d6-45a3-ad5a-110b3faf203c
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[291/415] Target Prayer: 4216cc44-a493-4601-b15b-d2614c21178e
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[292/415] Target Prayer: 7c9b01f2-e375-4f5c-a8a3-556bef36986d
+Suggested Phelps: BH11278RIV
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[293/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BH11278RIV
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[294/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH11278RIV
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[295/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BH11278RIV
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[296/415] Target Prayer: 4e273bcf-71f8-474d-96ed-2ec9a1f28363
+Suggested Phelps: AB02825
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[297/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: AB02825
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[298/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: AB02825
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[299/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: AB02825
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[300/415] Target Prayer: 9d18ea2f-ca22-49b2-9216-6043e0038903
+Suggested Phelps: BH06296
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[301/415] Target Prayer: 5c2ea6ee-56fd-4132-a635-07ae577f63f9
+Suggested Phelps: BH06296
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[302/415] Target Prayer: b292a054-d34c-489b-ab15-61017f114725
+Suggested Phelps: BH06296
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[303/415] Target Prayer: fc3a406e-71a6-49d5-a4a4-e973e666caf3
+Suggested Phelps: BH06296
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[304/415] Target Prayer: 865e4083-66f4-4725-8de7-7e162aa12b70
+Suggested Phelps: AB10492
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[305/415] Target Prayer: 6ecea4a9-b593-48a3-b85e-56ec3ce2717c
+Suggested Phelps: AB10492
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[306/415] Target Prayer: 07079594-122e-4be0-a45f-87248d8a1820
+Suggested Phelps: AB10492
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[307/415] Target Prayer: 4216cc44-a493-4601-b15b-d2614c21178e
+Suggested Phelps: AB10492
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[308/415] Target Prayer: d216f351-1bb9-4c10-ac21-99a2e56520dd
+Suggested Phelps: AB00314HOR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[309/415] Target Prayer: fa2840fb-c742-4fe0-8d21-99c1a4cac5e6
+Suggested Phelps: AB00314HOR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[310/415] Target Prayer: 79828127-8783-4e60-8114-5af862ef773e
+Suggested Phelps: AB00314HOR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[311/415] Target Prayer: 03461a16-d942-49df-a1f1-20eea88f9d6c
+Suggested Phelps: AB00314HOR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[312/415] Target Prayer: da156c01-2705-472c-848a-e0d396314a39
+Suggested Phelps: AB00169BEH
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[313/415] Target Prayer: 4104c80c-6714-49af-804b-8151b35efd19
+Suggested Phelps: AB00169BEH
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[314/415] Target Prayer: 110cd402-72aa-42c4-b68b-999f1dcdb888
+Suggested Phelps: AB00169BEH
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[315/415] Target Prayer: 7b70283d-2d00-49ae-a8f4-38cf81492923
+Suggested Phelps: AB00169BEH
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[316/415] Target Prayer: 4e273bcf-71f8-474d-96ed-2ec9a1f28363
+Suggested Phelps: AB00787SPL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[317/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: AB00787SPL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[318/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: AB00787SPL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[319/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: AB00787SPL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[320/415] Target Prayer: 52fc26bd-dce8-432f-a391-a0bd2fb3f8d4
+Suggested Phelps: ABU0095KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[321/415] Target Prayer: fa2840fb-c742-4fe0-8d21-99c1a4cac5e6
+Suggested Phelps: ABU0095KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[322/415] Target Prayer: 79828127-8783-4e60-8114-5af862ef773e
+Suggested Phelps: ABU0095KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[323/415] Target Prayer: abf41819-bc80-4452-b8f5-971a05ff77dc
+Suggested Phelps: ABU0095KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[324/415] Target Prayer: b6b210d1-ecb8-4529-a86b-f522c811b10f
+Suggested Phelps: BB00554
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[325/415] Target Prayer: 028334c5-e19c-470e-bc6c-6d743e3e7c2a
+Suggested Phelps: BB00554
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[326/415] Target Prayer: 6f01008e-26c2-4476-83da-77d74a9e837e
+Suggested Phelps: BB00554
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[327/415] Target Prayer: 1e6cb391-e148-4f5a-9f82-588083a35486
+Suggested Phelps: BB00554
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[328/415] Target Prayer: 49b0b666-c75b-4765-8939-fb3b32f65cc0
+Suggested Phelps: BH09874
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[329/415] Target Prayer: cbb06c78-34e1-4ecf-b8e5-658196462dff
+Suggested Phelps: BH09874
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[330/415] Target Prayer: 505fa047-2833-4bee-8722-36525bb65f2c
+Suggested Phelps: BH09874
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[331/415] Target Prayer: 4f0f80be0064
+Suggested Phelps: BH09874
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[332/415] Target Prayer: 336737c7-496a-4402-9dc7-9218c1a549da
+Suggested Phelps: AB05652WIS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[333/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: AB05652WIS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[334/415] Target Prayer: d025d2fcec89
+Suggested Phelps: AB05652WIS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[335/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: AB05652WIS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[336/415] Target Prayer: 4963e190-908d-4006-befb-310e42405503
+Suggested Phelps: BH03181
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[337/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: BH03181
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[338/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: BH03181
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[339/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: BH03181
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[340/415] Target Prayer: 4e273bcf-71f8-474d-96ed-2ec9a1f28363
+Suggested Phelps: AB00687SEE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[341/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: AB00687SEE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[342/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: AB00687SEE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[343/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: AB00687SEE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[344/415] Target Prayer: 0b732736-d596-41f0-b0c6-5a1fed919abf
+Suggested Phelps: ABU0023UNI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[345/415] Target Prayer: 028334c5-e19c-470e-bc6c-6d743e3e7c2a
+Suggested Phelps: ABU0023UNI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[346/415] Target Prayer: 6ef48ddb-ec09-4413-a8a5-8452cd15336e
+Suggested Phelps: ABU0023UNI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[347/415] Target Prayer: 1e6cb391-e148-4f5a-9f82-588083a35486
+Suggested Phelps: ABU0023UNI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[348/415] Target Prayer: 610b497c-7d83-43ad-ad6d-eb424e026fe3
+Suggested Phelps: BH09399
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[349/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BH09399
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[350/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH09399
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[351/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BH09399
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[352/415] Target Prayer: c3655d0a-f936-4fc9-8528-210a7cbb2078
+Suggested Phelps: AB02000DIS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[353/415] Target Prayer: fa2840fb-c742-4fe0-8d21-99c1a4cac5e6
+Suggested Phelps: AB02000DIS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[354/415] Target Prayer: 79828127-8783-4e60-8114-5af862ef773e
+Suggested Phelps: AB02000DIS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[355/415] Target Prayer: 909d08f7-b088-4372-9545-0256f6b2555b
+Suggested Phelps: AB02000DIS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[356/415] Target Prayer: 7266cd91-bb92-43ff-a3df-21014a551c7f
+Suggested Phelps: AB00774SAB
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[357/415] Target Prayer: f20081f0-20f0-4cdf-adf4-9e7c352806b7
+Suggested Phelps: AB00774SAB
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[358/415] Target Prayer: bd3aacac-c6c6-493b-b6ac-403075d6632f
+Suggested Phelps: AB00774SAB
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[359/415] Target Prayer: ecbeb48f-b240-4c57-9774-959ca4ffcd9b
+Suggested Phelps: AB00774SAB
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[360/415] Target Prayer: 4cf69584-5fd8-4853-b98c-d5fac2834fb9
+Suggested Phelps: BH02307
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[361/415] Target Prayer: 0e0c264e-2714-48fc-a9aa-4ed6462d92e0
+Suggested Phelps: BH02307
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[362/415] Target Prayer: 38c8f9d5-c2fa-4328-a76e-865150619d58
+Suggested Phelps: BH02307
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[363/415] Target Prayer: 510b14f5-84a4-494e-8826-00330f4bc590
+Suggested Phelps: BH02307
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[364/415] Target Prayer: 5cda359c-78a5-4df8-9a79-ee759bf8c46a
+Suggested Phelps: BH00868WIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[365/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BH00868WIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[366/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH00868WIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[367/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BH00868WIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[368/415] Target Prayer: 4ef1c44ec741
+Suggested Phelps: AB08704NEW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[369/415] Target Prayer: 4104c80c-6714-49af-804b-8151b35efd19
+Suggested Phelps: AB08704NEW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[370/415] Target Prayer: 0d67d5af-9702-4f72-a2f8-8775805a22a0
+Suggested Phelps: AB08704NEW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[371/415] Target Prayer: 347cccab-d855-404d-82d2-797dcedf9db6
+Suggested Phelps: AB08704NEW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[372/415] Target Prayer: db428533-d64d-4e35-918d-691e1f97feec
+Suggested Phelps: BH09024
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[373/415] Target Prayer: 028334c5-e19c-470e-bc6c-6d743e3e7c2a
+Suggested Phelps: BH09024
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[374/415] Target Prayer: 6f01008e-26c2-4476-83da-77d74a9e837e
+Suggested Phelps: BH09024
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[375/415] Target Prayer: 1e6cb391-e148-4f5a-9f82-588083a35486
+Suggested Phelps: BH09024
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[376/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BH00223MAG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[377/415] Target Prayer: 4dd20eff-13dc-4010-b96e-6b79371e2d6a
+Suggested Phelps: BH00223MAG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[378/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH00223MAG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[379/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BH00223MAG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[380/415] Target Prayer: 6c4219b5-7da0-4ab0-abdc-4b892b3ca1a0
+Suggested Phelps: BH07426DRE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[381/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BH07426DRE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[382/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH07426DRE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[383/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BH07426DRE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[384/415] Target Prayer: 40c6ac6e-ed85-47bb-82db-63f443564fdf
+Suggested Phelps: BH02898MAG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[385/415] Target Prayer: 01365e00-1c5c-4d2f-87be-978ba4909922
+Suggested Phelps: BH02898MAG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[386/415] Target Prayer: 0d67d5af-9702-4f72-a2f8-8775805a22a0
+Suggested Phelps: BH02898MAG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[387/415] Target Prayer: 347cccab-d855-404d-82d2-797dcedf9db6
+Suggested Phelps: BH02898MAG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[388/415] Target Prayer: 5601fc8a4a7d
+Suggested Phelps: BH00074BLE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[389/415] Target Prayer: 0c6905e1-2aac-4afd-8eee-93cdf279cbd8
+Suggested Phelps: BH00074BLE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[390/415] Target Prayer: daa0c46d-c062-40ba-b12d-0479986d8930
+Suggested Phelps: BH00074BLE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[391/415] Target Prayer: 4526dbb1-db05-43d4-98de-84585e46a279
+Suggested Phelps: BH00074BLE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[392/415] Target Prayer: b159de25-c817-4820-9ba4-23bb4b6923f3
+Suggested Phelps: AB00128FEE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[393/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: AB00128FEE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[394/415] Target Prayer: d025d2fcec89
+Suggested Phelps: AB00128FEE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[395/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: AB00128FEE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[396/415] Target Prayer: 4b2a9c20-a9c9-41b0-a14a-210740da2e99
+Suggested Phelps: BB00485TRE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[397/415] Target Prayer: 7937a12a-d2ba-4af5-9f56-f74ea6a9703e
+Suggested Phelps: BB00485TRE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[398/415] Target Prayer: 1888b877-3408-4315-9a49-75ffb06db2e4
+Suggested Phelps: BB00485TRE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[399/415] Target Prayer: 7c04768d-eb2a-4a0d-bba9-49e595d9ca1b
+Suggested Phelps: BB00485TRE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[400/415] Target Prayer: b8aceac0-cb05-4700-879e-ef99d8aa0a62
+Suggested Phelps: AB09139
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[401/415] Target Prayer: 5bf78b07-b51e-4d23-a20e-b7cd06875d12
+Suggested Phelps: AB09139
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[402/415] Target Prayer: 996efe2f-38d6-45a3-ad5a-110b3faf203c
+Suggested Phelps: AB09139
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[403/415] Target Prayer: 8f21559b-90b3-4cae-894d-bc0eb64f9cae
+Suggested Phelps: AB09139
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[404/415] Target Prayer: b27feecd-d999-4fa6-9105-8cfd36de8079
+Suggested Phelps: BH06429
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[405/415] Target Prayer: ca0b171e-6182-4438-92c9-fd7a87a863cb
+Suggested Phelps: BH06429
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[406/415] Target Prayer: 271615e4-d895-4163-b26f-73636c11b5a5
+Suggested Phelps: BH06429
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[407/415] Target Prayer: 3038ecbd-8fb0-4cb1-97e2-c261e2dca0a8
+Suggested Phelps: BH06429
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[408/415] Target Prayer: 610b497c-7d83-43ad-ad6d-eb424e026fe3
+Suggested Phelps: BH00053MAG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[409/415] Target Prayer: 7ac54269-46f0-4e86-9ffe-734683c46145
+Suggested Phelps: BH00053MAG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=5)%
+Reasons: char_count_somewhat_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[410/415] Target Prayer: d025d2fcec89
+Suggested Phelps: BH00053MAG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[411/415] Target Prayer: 69b12b6b-d10c-4357-a550-96cfdc906f1c
+Suggested Phelps: BH00053MAG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[412/415] Target Prayer: 5bf78b07-b51e-4d23-a20e-b7cd06875d12
+Suggested Phelps: ABU0268AME
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[413/415] Target Prayer: 996efe2f-38d6-45a3-ad5a-110b3faf203c
+Suggested Phelps: ABU0268AME
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[414/415] Target Prayer: 8f21559b-90b3-4cae-894d-bc0eb64f9cae
+Suggested Phelps: ABU0268AME
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[415/415] Target Prayer: 3b581800-93f1-4e2a-9812-35efa54d777e
+Suggested Phelps: AB03896MAJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

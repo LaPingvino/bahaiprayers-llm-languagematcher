@@ -1,0 +1,30 @@
+LOW CONFIDENCE MATCHES - PL
+Generated: 2025-11-28 09:07:30
+Total items: 2
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/2] Target Prayer: 79e339f9-fcd9-4772-ac0f-822d2dc19294
+Suggested Phelps: AB11356
+Match Type: LIKELY
+Confidence: 60%
+Reasons: opening_phrase_high_overlap, closing_phrase_high_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/2] Target Prayer: a14222f5-1772-4248-ab30-2fb63bd50767
+Suggested Phelps: AB02099
+Match Type: NEW_TRANSLATION
+Confidence: 40%
+Reasons: opening_phrase_high_overlap, closing_phrase_high_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

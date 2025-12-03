@@ -1,0 +1,3462 @@
+AMBIGUOUS MATCHES - ML
+Generated: 2025-11-28 23:34:48
+Total items: 345
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/345] Target Prayer: 02ea2edf-1f88-43d1-853e-aca516107b0a
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/345] Target Prayer: b58065b44e8d
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/345] Target Prayer: 29c23ace-4bca-4581-8576-0952c27a54b6
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/345] Target Prayer: 12ee6b42-602b-4a7e-b31c-820da2e2d436
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/345] Target Prayer: c6657f4b-7414-49a6-952c-f0a03552c7b2
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/345] Target Prayer: f1bb2b49-b816-4662-96d0-7bded0fbbf82
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/345] Target Prayer: 645b5424-b695-49d5-af01-d47dd7fb5636
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/345] Target Prayer: 5b2e46a91cde
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/345] Target Prayer: 15aabcbc4b77
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/345] Target Prayer: 2c91a7fd-f9ad-4dc0-9e8c-aa6c8d7c4e55
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/345] Target Prayer: 31398722-660e-46d4-b0ca-75c1d02a296f
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/345] Target Prayer: 1cb8c617-b348-4f63-99da-a129ea537545
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/345] Target Prayer: 1508bb30-d39b-40c2-86e8-79d67fe5b896
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/345] Target Prayer: 217959ef-5eec-468a-9ea2-e7995d0faeca
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/345] Target Prayer: 14bc72aa-c32a-4e39-ab52-3ae1f828dc51
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/345] Target Prayer: e946e211-605f-4c00-aa4f-9e950d291272
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/345] Target Prayer: 35ba929a-51b4-4fad-859f-83be81aea07b
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/345] Target Prayer: 15735bf3-fbc9-4e33-9b3a-856f85fd0cd2
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/345] Target Prayer: 0f317ff9-10a8-491a-bd41-aab2a9b4661e
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/345] Target Prayer: 2dca55a0-9d17-4d03-b29d-f95a6721b366
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/345] Target Prayer: 464a6b14-3b01-4e74-b649-6e47a1ed5eb2
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/345] Target Prayer: 4685bfc2-1169-476e-801b-ef6842e8bf01
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/345] Target Prayer: 51d450f8-5a26-406f-b251-f0affb9aeebc
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/345] Target Prayer: 4aea4421-dca7-48c7-b628-e91f46d6a767
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/345] Target Prayer: 6a569577-beb6-422a-8d17-9e003c07ff29
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/345] Target Prayer: 39eea725-5bff-4f07-b03b-88e7d4170364
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/345] Target Prayer: 5a3135fd-8107-4092-9a79-8b5c06548c02
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/345] Target Prayer: 4f82203e-7de9-48a2-9fa4-f317ef7d510e
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/345] Target Prayer: 15a20341-0594-412a-9bfb-25af51af4d46
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/345] Target Prayer: 320762ac-2ea8-4443-b6b1-902c78c15fcb
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/345] Target Prayer: 604c1809-038a-4fb1-9aa7-02e05fd2ca95
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/345] Target Prayer: 5c5f6a13-568b-4d63-a75e-9ea5193a25d6
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/345] Target Prayer: 1ead5ddf-f769-4c73-ba30-aa6337ef6287
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/345] Target Prayer: 13427b5dad93
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/345] Target Prayer: 2388411f-d9c7-4801-8581-423943dd7880
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/345] Target Prayer: 2a365989-4f86-4779-b0aa-ccb1ffef5b17
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/345] Target Prayer: 8949fa49-37f7-4a67-9d3a-3054b5d84d95
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/345] Target Prayer: c19f5843-2c8f-43c5-9d5f-a1b95770e1c3
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/345] Target Prayer: a27c9fd8-f62c-487d-83ff-ab0ea306b669
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/345] Target Prayer: dc7c70fd-80f6-4ae2-ad13-764c942e2614
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/345] Target Prayer: 5dcb3906-3a71-4ccf-a75a-5644b9e8e430
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/345] Target Prayer: 235270fd-9c67-4d1c-b56e-70b8916b4d2a
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/345] Target Prayer: b5b4ff8f-4b9b-45d6-87da-1d73cbd6511f
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/345] Target Prayer: e082352f-d9bc-4c4f-bf5e-f48c385dfa10
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/345] Target Prayer: a3172c7799ee
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/345] Target Prayer: ad974bd3055a
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/345] Target Prayer: 7c0eb3e3-b8ed-49ef-9937-cc2d2d11f59a
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/345] Target Prayer: 3b2c1bab1e1e
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/345] Target Prayer: 21d03513-1d5a-4f82-a32b-cc0b80f7c747
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/345] Target Prayer: 26c08afd-2aab-461f-8088-88a517eb2cca
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/345] Target Prayer: 68cf76e4-e049-4a6f-90de-417429c6783c
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/345] Target Prayer: 5ea9ec0e-f68a-4c93-97e1-1777454e49af
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/345] Target Prayer: 0206949e-2991-409a-9fb0-478fd1537aaa
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/345] Target Prayer: a2d4f0c0-7358-4c9c-9b16-adedbb6f46b6
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/345] Target Prayer: 2fe33246-d8ca-4242-8b9b-cb6b5d865596
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/345] Target Prayer: a6f9ea38-d20d-4300-a95f-e9caeb37e006
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/345] Target Prayer: 026e47c0-30bd-4b97-a4b9-eac304faeb9c
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/345] Target Prayer: 61cd28fa-8539-44aa-a4ea-a5a691827322
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/345] Target Prayer: 1f493b30-efbc-43b9-b03e-2a252528b68c
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/345] Target Prayer: 48900115-d05b-44f9-b068-953a15871552
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/345] Target Prayer: 41429eb4-5f93-46e6-9161-e30c661c463f
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/345] Target Prayer: e6d47330-938c-4365-99fc-21d7b8d82eb8
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/345] Target Prayer: d2dee0738b50
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/345] Target Prayer: d05d78a0-73bd-4257-b29b-d6770b1ec3c0
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/345] Target Prayer: eb6c6271-c2d2-4f30-8331-594cff44a4c8
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/345] Target Prayer: 616787a5-de2e-4ace-97d3-84c847bd85ac
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/345] Target Prayer: 09ea9ec4-3be2-4fbf-bec6-978590c69951
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/345] Target Prayer: 0f6da774-e62e-4e57-a784-a6f43e924bf0
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/345] Target Prayer: 956daeed-7461-4aaf-8e41-efbfcf587eb9
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, type_match, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/345] Target Prayer: f5f00a90-e5b1-48d0-95ce-520bd65ffb34
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/345] Target Prayer: 4054ece7-ba57-4ad3-b331-ed236f5464ae
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/345] Target Prayer: 25ede51c-9a78-4bef-a7ed-e365eb89b900
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/345] Target Prayer: 61cd28fa-8539-44aa-a4ea-a5a691827322
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/345] Target Prayer: 51d450f8-5a26-406f-b251-f0affb9aeebc
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/345] Target Prayer: 929384cd-34ae-4331-8ac5-dcc7f9e13b2f
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/345] Target Prayer: d81713da-02bd-4aae-9e7b-c36823b42b5c
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/345] Target Prayer: 82ef16cc-bb5e-4324-8aa8-3a76c516ab77
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/345] Target Prayer: 2388411f-d9c7-4801-8581-423943dd7880
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/345] Target Prayer: 7afb97e5-2e90-42b8-800a-cb35f7bd7203
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/345] Target Prayer: f841af8b-3fe5-4d64-b7cd-08772108137e
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/345] Target Prayer: 5ea9ec0e-f68a-4c93-97e1-1777454e49af
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/345] Target Prayer: d2049ecc-ee7a-4619-b6fe-307032f4d9e4
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/345] Target Prayer: 4a2d9d17357b
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/345] Target Prayer: 40a36cbf-9837-4040-bf06-c36ffbd747a5
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/345] Target Prayer: 0b90e6cf-c19c-435c-ac9b-ea04e8326ac4
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/345] Target Prayer: 3937fcde-5f57-46bc-b715-126ca21ce0cb
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/345] Target Prayer: 1ead5ddf-f769-4c73-ba30-aa6337ef6287
+Suggested Phelps: BH00155WOU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/345] Target Prayer: 12ee6b42-602b-4a7e-b31c-820da2e2d436
+Suggested Phelps: BH00155WOU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/345] Target Prayer: 616787a5-de2e-4ace-97d3-84c847bd85ac
+Suggested Phelps: BH00155WOU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/345] Target Prayer: 09ea9ec4-3be2-4fbf-bec6-978590c69951
+Suggested Phelps: BH00155WOU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/345] Target Prayer: 86e07769-b0fa-46e3-a0fe-ff8596aaf9e8
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/345] Target Prayer: 56740a87-57dd-4f0b-ae98-a466faf7cab5
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/345] Target Prayer: 89b09f25-3d0b-4c7c-b611-4c534c39e649
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/345] Target Prayer: 9b59c60c-72a5-4aa8-b722-eb6c3aa16daa
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/345] Target Prayer: c0b17cfa-04fc-47c1-bd22-06c3e04bc46d
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/345] Target Prayer: 3d4ccf65-c5e2-49f1-9123-47dfe195eda9
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/345] Target Prayer: 2388411f-d9c7-4801-8581-423943dd7880
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/345] Target Prayer: 12ee6b42-602b-4a7e-b31c-820da2e2d436
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/345] Target Prayer: 27fdfe16-8eec-416e-a1fb-f7d8d6d05e64
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/345] Target Prayer: 0970d0e5-23ce-4ef0-96ec-bbb2fa15f4cf
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/345] Target Prayer: 199a22c0-e196-4899-aaa0-5b72e23c0025
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/345] Target Prayer: 1ea04fca-6ab9-4a70-aadd-17b937652517
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/345] Target Prayer: 026e47c0-30bd-4b97-a4b9-eac304faeb9c
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/345] Target Prayer: 47d1870f-4c04-44d7-9ed6-5babc6d7af58
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/345] Target Prayer: d2dee0738b50
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/345] Target Prayer: 4a8372c9-8765-4917-b88f-ecc75c22104b
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/345] Target Prayer: 582b70d8-ce04-493a-ae89-3e41c7e7a256
+Suggested Phelps: BH03470
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/345] Target Prayer: c01868f0-197f-4566-abf7-c9d370e93305
+Suggested Phelps: BH03470
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/345] Target Prayer: d6f6f467-60fe-4c76-b125-5fb2040fccce
+Suggested Phelps: BH03470
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/345] Target Prayer: 26240e057389
+Suggested Phelps: BH03470
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/345] Target Prayer: 5b6f484e83ea
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/345] Target Prayer: 479a984f-8f8f-4c08-bdd2-3ad279d2ee87
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/345] Target Prayer: f219b69a-e7d1-4b46-b3ea-08b115359b8a
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/345] Target Prayer: e082352f-d9bc-4c4f-bf5e-f48c385dfa10
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/345] Target Prayer: 43c611fa-8d2f-47af-8728-215f8e55f990
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/345] Target Prayer: 8f5d9605-85ef-42ca-a2bc-8c0f934d0b78
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/345] Target Prayer: 645b5424-b695-49d5-af01-d47dd7fb5636
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/345] Target Prayer: 7bf821bb-3098-4eb2-b1e4-b168e90a700c
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/345] Target Prayer: 60267f66-fd0b-4c69-9119-9007d46f1ad8
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/345] Target Prayer: 2c91a7fd-f9ad-4dc0-9e8c-aa6c8d7c4e55
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[123/345] Target Prayer: 1f493b30-efbc-43b9-b03e-2a252528b68c
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[124/345] Target Prayer: d05d78a0-73bd-4257-b29b-d6770b1ec3c0
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[125/345] Target Prayer: 596ea5d7-5e15-40b0-967a-b9fc0829419d
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[126/345] Target Prayer: 47d1870f-4c04-44d7-9ed6-5babc6d7af58
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[127/345] Target Prayer: d028e087-1439-4c9e-a8ab-ee549b7c9304
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[128/345] Target Prayer: ca209597-088e-4d1b-bff5-dc12ba527561
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[129/345] Target Prayer: d81713da-02bd-4aae-9e7b-c36823b42b5c
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[130/345] Target Prayer: 12ee6b42-602b-4a7e-b31c-820da2e2d436
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[131/345] Target Prayer: 616787a5-de2e-4ace-97d3-84c847bd85ac
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[132/345] Target Prayer: 7afb97e5-2e90-42b8-800a-cb35f7bd7203
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[133/345] Target Prayer: 0206949e-2991-409a-9fb0-478fd1537aaa
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[134/345] Target Prayer: 1b8779b4-ed07-4854-bc56-550c2c842915
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[135/345] Target Prayer: 1f493b30-efbc-43b9-b03e-2a252528b68c
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[136/345] Target Prayer: 1cb8c617-b348-4f63-99da-a129ea537545
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[137/345] Target Prayer: 29ab89bb-4996-4c1d-988e-a7d5bf2fba9c
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[138/345] Target Prayer: 217959ef-5eec-468a-9ea2-e7995d0faeca
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[139/345] Target Prayer: 3937fcde-5f57-46bc-b715-126ca21ce0cb
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[140/345] Target Prayer: 4f82203e-7de9-48a2-9fa4-f317ef7d510e
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[141/345] Target Prayer: 5344016d-ae97-446a-a56b-0535bc883700
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[142/345] Target Prayer: a0fc0723-998c-48da-8093-d55fd08e02a7
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[143/345] Target Prayer: 57122596-531a-4a02-8fa6-900be8f9464b
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[144/345] Target Prayer: 4a8372c9-8765-4917-b88f-ecc75c22104b
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[145/345] Target Prayer: d3f56c79-ad9b-4bb8-ae85-97d9716cb983
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[146/345] Target Prayer: 31975a5c-2a2a-4ad5-9715-18b8801a4bbd
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[147/345] Target Prayer: f219b69a-e7d1-4b46-b3ea-08b115359b8a
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[148/345] Target Prayer: d3f56c79-ad9b-4bb8-ae85-97d9716cb983
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[149/345] Target Prayer: 303665a8-6cd7-45d0-b906-67a0ab45aa4f
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[150/345] Target Prayer: f2fbd767d54a
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[151/345] Target Prayer: 3937fcde-5f57-46bc-b715-126ca21ce0cb
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[152/345] Target Prayer: 4f82203e-7de9-48a2-9fa4-f317ef7d510e
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[153/345] Target Prayer: f2408589-a443-4300-99f6-64b1ced69b5f
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[154/345] Target Prayer: fe7fe5d7-255f-466f-b78d-e33926acb8e8
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[155/345] Target Prayer: d2049ecc-ee7a-4619-b6fe-307032f4d9e4
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[156/345] Target Prayer: 5aacf11f-9627-4fcb-a438-c1061ef5500a
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[157/345] Target Prayer: 0f6da774-e62e-4e57-a784-a6f43e924bf0
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[158/345] Target Prayer: 956daeed-7461-4aaf-8e41-efbfcf587eb9
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, type_match, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[159/345] Target Prayer: f5f00a90-e5b1-48d0-95ce-520bd65ffb34
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[160/345] Target Prayer: 4054ece7-ba57-4ad3-b331-ed236f5464ae
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[161/345] Target Prayer: c0b17cfa-04fc-47c1-bd22-06c3e04bc46d
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[162/345] Target Prayer: 3d4ccf65-c5e2-49f1-9123-47dfe195eda9
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[163/345] Target Prayer: 2388411f-d9c7-4801-8581-423943dd7880
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[164/345] Target Prayer: 12ee6b42-602b-4a7e-b31c-820da2e2d436
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[165/345] Target Prayer: 27fdfe16-8eec-416e-a1fb-f7d8d6d05e64
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[166/345] Target Prayer: 0970d0e5-23ce-4ef0-96ec-bbb2fa15f4cf
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[167/345] Target Prayer: 199a22c0-e196-4899-aaa0-5b72e23c0025
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[168/345] Target Prayer: 1ea04fca-6ab9-4a70-aadd-17b937652517
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[169/345] Target Prayer: 60267f66-fd0b-4c69-9119-9007d46f1ad8
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[170/345] Target Prayer: 2c91a7fd-f9ad-4dc0-9e8c-aa6c8d7c4e55
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[171/345] Target Prayer: 1f493b30-efbc-43b9-b03e-2a252528b68c
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[172/345] Target Prayer: 1cb8c617-b348-4f63-99da-a129ea537545
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[173/345] Target Prayer: 71de8c27-0cd1-48b1-bc31-9939134eff11
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[174/345] Target Prayer: 2c91a7fd-f9ad-4dc0-9e8c-aa6c8d7c4e55
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[175/345] Target Prayer: 1f493b30-efbc-43b9-b03e-2a252528b68c
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[176/345] Target Prayer: 1cb8c617-b348-4f63-99da-a129ea537545
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[177/345] Target Prayer: 71de8c27-0cd1-48b1-bc31-9939134eff11
+Suggested Phelps: BH06296
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[178/345] Target Prayer: 5c627fb1-a288-42c2-b182-8259bfe356af
+Suggested Phelps: BH06296
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[179/345] Target Prayer: d2049ecc-ee7a-4619-b6fe-307032f4d9e4
+Suggested Phelps: BH06296
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[180/345] Target Prayer: 12ee6b42-602b-4a7e-b31c-820da2e2d436
+Suggested Phelps: BH06296
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[181/345] Target Prayer: aee8e1b90897
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[182/345] Target Prayer: 59bb52b2-b227-47a7-b74a-fee5328b033c
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[183/345] Target Prayer: b5b4ff8f-4b9b-45d6-87da-1d73cbd6511f
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[184/345] Target Prayer: 1ea04fca-6ab9-4a70-aadd-17b937652517
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[185/345] Target Prayer: f2e9caee-25b3-478c-9be2-918569473741
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[186/345] Target Prayer: 96c17761-6f21-4e20-87fb-f452339aaf28
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[187/345] Target Prayer: d028e087-1439-4c9e-a8ab-ee549b7c9304
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[188/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[189/345] Target Prayer: 40a36cbf-9837-4040-bf06-c36ffbd747a5
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[190/345] Target Prayer: 0b90e6cf-c19c-435c-ac9b-ea04e8326ac4
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[191/345] Target Prayer: 3937fcde-5f57-46bc-b715-126ca21ce0cb
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[192/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[193/345] Target Prayer: e9953dc5d925
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[194/345] Target Prayer: 56740a87-57dd-4f0b-ae98-a466faf7cab5
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[195/345] Target Prayer: 2fe33246-d8ca-4242-8b9b-cb6b5d865596
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[196/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[197/345] Target Prayer: 494ce1a3-a8d9-4aa2-9295-ad27ccc62e56
+Suggested Phelps: ABU0095KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[198/345] Target Prayer: 5772794f-2578-49d2-93fb-8f5c895b8f78
+Suggested Phelps: ABU0095KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[199/345] Target Prayer: 9dde5867-7a87-4cf9-9bc8-902df5fe3183
+Suggested Phelps: ABU0095KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[200/345] Target Prayer: 08ea0083-0f64-4f72-b033-ab1f7c7677bf
+Suggested Phelps: ABU0095KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[201/345] Target Prayer: bbbf952a-99f9-40b6-832e-f62a2933dca0
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[202/345] Target Prayer: 956daeed-7461-4aaf-8e41-efbfcf587eb9
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[203/345] Target Prayer: 604c1809-038a-4fb1-9aa7-02e05fd2ca95
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[204/345] Target Prayer: 5c5f6a13-568b-4d63-a75e-9ea5193a25d6
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[205/345] Target Prayer: 76d12b43ac95
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[206/345] Target Prayer: be33803f7bde
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[207/345] Target Prayer: 80a7983c-c65a-4042-99f4-1c0aed2f4a76
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[208/345] Target Prayer: 5ea9ec0e-f68a-4c93-97e1-1777454e49af
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[209/345] Target Prayer: 5b6f484e83ea
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[210/345] Target Prayer: e95e210774a9
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[211/345] Target Prayer: 5bc8ff4767d3
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[212/345] Target Prayer: 5ea9ec0e-f68a-4c93-97e1-1777454e49af
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[213/345] Target Prayer: 85bdc061-8b91-4b07-b1a5-b6f5387d4c1e
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[214/345] Target Prayer: e6d47330-938c-4365-99fc-21d7b8d82eb8
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[215/345] Target Prayer: 68cf76e4-e049-4a6f-90de-417429c6783c
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[216/345] Target Prayer: 1ea04fca-6ab9-4a70-aadd-17b937652517
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[217/345] Target Prayer: 6d08363b-8478-4af4-af12-b249bddfb28e
+Suggested Phelps: AB00005ATT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[218/345] Target Prayer: 16955329-0593-410a-a6a0-5b1b457a2d86
+Suggested Phelps: AB00005ATT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[219/345] Target Prayer: d6f6f467-60fe-4c76-b125-5fb2040fccce
+Suggested Phelps: AB00005ATT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[220/345] Target Prayer: 16955329-0593-410a-a6a0-5b1b457a2d86
+Suggested Phelps: AB00005ATT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[221/345] Target Prayer: 40a36cbf-9837-4040-bf06-c36ffbd747a5
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[222/345] Target Prayer: 0b90e6cf-c19c-435c-ac9b-ea04e8326ac4
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[223/345] Target Prayer: 3937fcde-5f57-46bc-b715-126ca21ce0cb
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[224/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[225/345] Target Prayer: 709b1155-adc9-4188-90c4-33f536e0e0c7
+Suggested Phelps: ABU0023UNI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[226/345] Target Prayer: bc5202d6c294
+Suggested Phelps: ABU0023UNI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[227/345] Target Prayer: 6b3110f1-dcaa-465c-805b-a5d1f05ee3d8
+Suggested Phelps: ABU0023UNI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[228/345] Target Prayer: bbfba8fa-24a2-4726-b923-d5319000dd9b
+Suggested Phelps: ABU0023UNI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[229/345] Target Prayer: 60267f66-fd0b-4c69-9119-9007d46f1ad8
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[230/345] Target Prayer: 2c91a7fd-f9ad-4dc0-9e8c-aa6c8d7c4e55
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[231/345] Target Prayer: 1f493b30-efbc-43b9-b03e-2a252528b68c
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[232/345] Target Prayer: 1cb8c617-b348-4f63-99da-a129ea537545
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[233/345] Target Prayer: ecbe2c77-9b60-4193-98a0-58e522657187
+Suggested Phelps: AB02000DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[234/345] Target Prayer: da943533-edcb-4939-bdaa-cd90dd671c8e
+Suggested Phelps: AB02000DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[235/345] Target Prayer: f95d960d-42e1-4816-8a49-baa44f5b165e
+Suggested Phelps: AB02000DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[236/345] Target Prayer: ecf51f19-70f7-4e65-a021-676d32eb0196
+Suggested Phelps: AB02000DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[237/345] Target Prayer: e7f1442b-6594-424b-8287-7933ca2bc500
+Suggested Phelps: AB00774SAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[238/345] Target Prayer: 31975a5c-2a2a-4ad5-9715-18b8801a4bbd
+Suggested Phelps: AB00774SAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[239/345] Target Prayer: e7ecd3ed-4f22-45cc-8757-5ca65aae7533
+Suggested Phelps: AB00774SAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[240/345] Target Prayer: c71fdfa6-9b7a-4309-8d1e-90323ba41f4c
+Suggested Phelps: AB00774SAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[241/345] Target Prayer: d81713da-02bd-4aae-9e7b-c36823b42b5c
+Suggested Phelps: BH02307
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[242/345] Target Prayer: 12ee6b42-602b-4a7e-b31c-820da2e2d436
+Suggested Phelps: BH02307
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[243/345] Target Prayer: 616787a5-de2e-4ace-97d3-84c847bd85ac
+Suggested Phelps: BH02307
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[244/345] Target Prayer: 7afb97e5-2e90-42b8-800a-cb35f7bd7203
+Suggested Phelps: BH02307
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[245/345] Target Prayer: b25be66e226d
+Suggested Phelps: BH00868WIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[246/345] Target Prayer: 0b90e6cf-c19c-435c-ac9b-ea04e8326ac4
+Suggested Phelps: BH00868WIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[247/345] Target Prayer: 3937fcde-5f57-46bc-b715-126ca21ce0cb
+Suggested Phelps: BH00868WIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[248/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: BH00868WIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[249/345] Target Prayer: e082352f-d9bc-4c4f-bf5e-f48c385dfa10
+Suggested Phelps: AB08704NEW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[250/345] Target Prayer: e95e210774a9
+Suggested Phelps: AB08704NEW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[251/345] Target Prayer: f5f00a90-e5b1-48d0-95ce-520bd65ffb34
+Suggested Phelps: AB08704NEW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[252/345] Target Prayer: 5ea9ec0e-f68a-4c93-97e1-1777454e49af
+Suggested Phelps: AB08704NEW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[253/345] Target Prayer: 22825c9f-13cf-49bb-8a8f-da6889a21886
+Suggested Phelps: BH09024
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[254/345] Target Prayer: bc5202d6c294
+Suggested Phelps: BH09024
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[255/345] Target Prayer: 6b3110f1-dcaa-465c-805b-a5d1f05ee3d8
+Suggested Phelps: BH09024
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[256/345] Target Prayer: bbfba8fa-24a2-4726-b923-d5319000dd9b
+Suggested Phelps: BH09024
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[257/345] Target Prayer: 40a36cbf-9837-4040-bf06-c36ffbd747a5
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[258/345] Target Prayer: 0b90e6cf-c19c-435c-ac9b-ea04e8326ac4
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[259/345] Target Prayer: 3937fcde-5f57-46bc-b715-126ca21ce0cb
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[260/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[261/345] Target Prayer: 2f9af8a9-c1d4-4be1-a7e8-8e9ae6719a7c
+Suggested Phelps: BH07426DRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[262/345] Target Prayer: 96c17761-6f21-4e20-87fb-f452339aaf28
+Suggested Phelps: BH07426DRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[263/345] Target Prayer: c63909c8-fdf2-425d-a300-3e5ee976c6ba
+Suggested Phelps: BH07426DRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[264/345] Target Prayer: 1d26dd77-b385-4c4c-94fa-7e646d180e16
+Suggested Phelps: BH07426DRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[265/345] Target Prayer: 40a36cbf-9837-4040-bf06-c36ffbd747a5
+Suggested Phelps: BH02898MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[266/345] Target Prayer: 0b90e6cf-c19c-435c-ac9b-ea04e8326ac4
+Suggested Phelps: BH02898MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[267/345] Target Prayer: 3937fcde-5f57-46bc-b715-126ca21ce0cb
+Suggested Phelps: BH02898MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[268/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: BH02898MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[269/345] Target Prayer: 55dc301b-1a88-4324-a245-6e492f027830
+Suggested Phelps: BH00074BLE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[270/345] Target Prayer: 4685bfc2-1169-476e-801b-ef6842e8bf01
+Suggested Phelps: BH00074BLE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[271/345] Target Prayer: 3242b7a3-55e2-44c3-844f-ede88eeada3e
+Suggested Phelps: BH00074BLE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[272/345] Target Prayer: c26c4597-53e1-4a4d-9c5d-2916fa9bc99f
+Suggested Phelps: BH00074BLE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[273/345] Target Prayer: c63909c8-fdf2-425d-a300-3e5ee976c6ba
+Suggested Phelps: AB00128FEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[274/345] Target Prayer: 47d1870f-4c04-44d7-9ed6-5babc6d7af58
+Suggested Phelps: AB00128FEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[275/345] Target Prayer: d028e087-1439-4c9e-a8ab-ee549b7c9304
+Suggested Phelps: AB00128FEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[276/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: AB00128FEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[277/345] Target Prayer: 3fccbf67-6f28-45e9-ac26-e4540796469f
+Suggested Phelps: BB00485TRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[278/345] Target Prayer: 8f5d9605-85ef-42ca-a2bc-8c0f934d0b78
+Suggested Phelps: BB00485TRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[279/345] Target Prayer: 645b5424-b695-49d5-af01-d47dd7fb5636
+Suggested Phelps: BB00485TRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[280/345] Target Prayer: 7bf821bb-3098-4eb2-b1e4-b168e90a700c
+Suggested Phelps: BB00485TRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[281/345] Target Prayer: 303665a8-6cd7-45d0-b906-67a0ab45aa4f
+Suggested Phelps: AB09139
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[282/345] Target Prayer: 43c611fa-8d2f-47af-8728-215f8e55f990
+Suggested Phelps: AB09139
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[283/345] Target Prayer: 3937fcde-5f57-46bc-b715-126ca21ce0cb
+Suggested Phelps: AB09139
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[284/345] Target Prayer: 4f82203e-7de9-48a2-9fa4-f317ef7d510e
+Suggested Phelps: AB09139
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[285/345] Target Prayer: 2f9af8a9-c1d4-4be1-a7e8-8e9ae6719a7c
+Suggested Phelps: BH06429
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[286/345] Target Prayer: 96c17761-6f21-4e20-87fb-f452339aaf28
+Suggested Phelps: BH06429
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[287/345] Target Prayer: c63909c8-fdf2-425d-a300-3e5ee976c6ba
+Suggested Phelps: BH06429
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[288/345] Target Prayer: 1d26dd77-b385-4c4c-94fa-7e646d180e16
+Suggested Phelps: BH06429
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[289/345] Target Prayer: 40a36cbf-9837-4040-bf06-c36ffbd747a5
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[290/345] Target Prayer: 0b90e6cf-c19c-435c-ac9b-ea04e8326ac4
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[291/345] Target Prayer: 3937fcde-5f57-46bc-b715-126ca21ce0cb
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[292/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[293/345] Target Prayer: f2e9caee-25b3-478c-9be2-918569473741
+Suggested Phelps: ABU0268AME
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[294/345] Target Prayer: 47d1870f-4c04-44d7-9ed6-5babc6d7af58
+Suggested Phelps: ABU0268AME
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[295/345] Target Prayer: d028e087-1439-4c9e-a8ab-ee549b7c9304
+Suggested Phelps: ABU0268AME
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[296/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: ABU0268AME
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[297/345] Target Prayer: 709b1155-adc9-4188-90c4-33f536e0e0c7
+Suggested Phelps: AB03896MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[298/345] Target Prayer: bc5202d6c294
+Suggested Phelps: AB03896MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[299/345] Target Prayer: 6b3110f1-dcaa-465c-805b-a5d1f05ee3d8
+Suggested Phelps: AB03896MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[300/345] Target Prayer: bbfba8fa-24a2-4726-b923-d5319000dd9b
+Suggested Phelps: AB03896MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[301/345] Target Prayer: 9f2a14b1-5e1b-4b9a-90e0-a76fe129e811
+Suggested Phelps: BH08600TES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[302/345] Target Prayer: d6c8d18c-1072-4e9a-ae59-ca1cfd542300
+Suggested Phelps: BH08600TES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[303/345] Target Prayer: 604c1809-038a-4fb1-9aa7-02e05fd2ca95
+Suggested Phelps: BH08600TES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[304/345] Target Prayer: 06f1cfc5-843d-4203-97ee-d2a5d5f1d65f
+Suggested Phelps: BH08600TES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[305/345] Target Prayer: 40a36cbf-9837-4040-bf06-c36ffbd747a5
+Suggested Phelps: AB04620
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[306/345] Target Prayer: 0b90e6cf-c19c-435c-ac9b-ea04e8326ac4
+Suggested Phelps: AB04620
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[307/345] Target Prayer: e3f4a5da-314e-4310-8263-17f16d36760a
+Suggested Phelps: AB04620
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[308/345] Target Prayer: 14f842f9-0ba2-484c-8184-d62037e4b704
+Suggested Phelps: AB04620
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[309/345] Target Prayer: 1ead5ddf-f769-4c73-ba30-aa6337ef6287
+Suggested Phelps: AB00204PRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[310/345] Target Prayer: 12ee6b42-602b-4a7e-b31c-820da2e2d436
+Suggested Phelps: AB00204PRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[311/345] Target Prayer: 2388411f-d9c7-4801-8581-423943dd7880
+Suggested Phelps: AB00204PRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[312/345] Target Prayer: 12ee6b42-602b-4a7e-b31c-820da2e2d436
+Suggested Phelps: AB00204PRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[313/345] Target Prayer: 5dcb3906-3a71-4ccf-a75a-5644b9e8e430
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[314/345] Target Prayer: 235270fd-9c67-4d1c-b56e-70b8916b4d2a
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[315/345] Target Prayer: b5b4ff8f-4b9b-45d6-87da-1d73cbd6511f
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[316/345] Target Prayer: e082352f-d9bc-4c4f-bf5e-f48c385dfa10
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[317/345] Target Prayer: 56665f06-190e-4742-b047-481757ca9dea
+Suggested Phelps: BH00870
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[318/345] Target Prayer: c4403b77-0ab1-4c35-a8a2-4d4b3883d750
+Suggested Phelps: BH00870
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[319/345] Target Prayer: 2388411f-d9c7-4801-8581-423943dd7880
+Suggested Phelps: BH00870
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[320/345] Target Prayer: 09ea9ec4-3be2-4fbf-bec6-978590c69951
+Suggested Phelps: BH00870
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[321/345] Target Prayer: d3f81dd8-7274-400e-960f-12e7405adfd9
+Suggested Phelps: AB00065KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[322/345] Target Prayer: efe1d1af-3b52-4a68-9ebb-a7aa92d1286d
+Suggested Phelps: AB00065KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[323/345] Target Prayer: 2fe33246-d8ca-4242-8b9b-cb6b5d865596
+Suggested Phelps: AB00065KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[324/345] Target Prayer: ed5a456b-6190-43ba-bf11-d17bba2185bd
+Suggested Phelps: AB00065KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[325/345] Target Prayer: 1ead5ddf-f769-4c73-ba30-aa6337ef6287
+Suggested Phelps: BH00687
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[326/345] Target Prayer: 12ee6b42-602b-4a7e-b31c-820da2e2d436
+Suggested Phelps: BH00687
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[327/345] Target Prayer: 616787a5-de2e-4ace-97d3-84c847bd85ac
+Suggested Phelps: BH00687
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[328/345] Target Prayer: 09ea9ec4-3be2-4fbf-bec6-978590c69951
+Suggested Phelps: BH00687
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[329/345] Target Prayer: 2f9af8a9-c1d4-4be1-a7e8-8e9ae6719a7c
+Suggested Phelps: BH07113
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[330/345] Target Prayer: 96c17761-6f21-4e20-87fb-f452339aaf28
+Suggested Phelps: BH07113
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[331/345] Target Prayer: c63909c8-fdf2-425d-a300-3e5ee976c6ba
+Suggested Phelps: BH07113
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[332/345] Target Prayer: 1d26dd77-b385-4c4c-94fa-7e646d180e16
+Suggested Phelps: BH07113
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[333/345] Target Prayer: ca2347b2-0fc4-4988-a3be-4953bd094676
+Suggested Phelps: AB00388COM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[334/345] Target Prayer: 4685bfc2-1169-476e-801b-ef6842e8bf01
+Suggested Phelps: AB00388COM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[335/345] Target Prayer: 51d450f8-5a26-406f-b251-f0affb9aeebc
+Suggested Phelps: AB00388COM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[336/345] Target Prayer: 03279342-5dc8-4dca-8c58-06f482c044aa
+Suggested Phelps: AB00388COM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[337/345] Target Prayer: 7905f672-a46a-4589-bacd-a94b29a892de
+Suggested Phelps: BH01313NAM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[338/345] Target Prayer: 03762f5e-0b66-4966-b33b-4ece204bfa29
+Suggested Phelps: BH01313NAM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[339/345] Target Prayer: a68bf54c-0034-4105-9213-160da570544c
+Suggested Phelps: BH01313NAM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[340/345] Target Prayer: 029d3094-2380-43c1-99c8-6dde4ad9ee64
+Suggested Phelps: BH01313NAM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[341/345] Target Prayer: 3fccbf67-6f28-45e9-ac26-e4540796469f
+Suggested Phelps: AB00204PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[342/345] Target Prayer: 8f5d9605-85ef-42ca-a2bc-8c0f934d0b78
+Suggested Phelps: AB00204PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[343/345] Target Prayer: 645b5424-b695-49d5-af01-d47dd7fb5636
+Suggested Phelps: AB00204PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[344/345] Target Prayer: 7bf821bb-3098-4eb2-b1e4-b168e90a700c
+Suggested Phelps: AB00204PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_length, paragraph_count_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[345/345] Target Prayer: 1ead5ddf-f769-4c73-ba30-aa6337ef6287
+Suggested Phelps: BB00490
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: similar_length, type_match, paragraph_count_match, verse_pattern_match, is_short_prayer_match
+Ambiguity: Text length and some structural properties are similar, but not enough for a strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

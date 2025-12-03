@@ -1,0 +1,72 @@
+AMBIGUOUS MATCHES - PL
+Generated: 2025-11-28 09:07:30
+Total items: 6
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/6] Target Prayer: 8f20a40f-fcd0-45f4-8bd6-d22b6cc92536
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: 95%
+Reasons: opening_phrase_high_overlap, closing_phrase_high_overlap, key_terms_high_overlap, word_count_similar
+Ambiguity: multiple candidates with similar high score
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/6] Target Prayer: b647235e-7682-4542-abf0-f74b1a37e5f8
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: 95%
+Reasons: opening_phrase_high_overlap, closing_phrase_high_overlap, key_terms_high_overlap, word_count_similar
+Ambiguity: multiple candidates with similar high score
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/6] Target Prayer: b7689fbc-4ba3-449a-97f8-207975e9a9c3
+Suggested Phelps: BH02848
+Match Type: AMBIGUOUS
+Confidence: 95%
+Reasons: opening_phrase_high_overlap, closing_phrase_high_overlap, key_terms_high_overlap, word_count_similar
+Ambiguity: multiple candidates with similar high score
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/6] Target Prayer: df8897f6-0a55-41ff-922d-b68e037d8512
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: 95%
+Reasons: opening_phrase_high_overlap, closing_phrase_high_overlap, key_terms_high_overlap, word_count_similar
+Ambiguity: multiple candidates with similar high score
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/6] Target Prayer: f29285fd-f14c-428d-934c-a96609c71484
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: 95%
+Reasons: opening_phrase_high_overlap, closing_phrase_high_overlap, key_terms_high_overlap, word_count_similar
+Ambiguity: multiple candidates with similar high score
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/6] Target Prayer: ffad5be9-0990-4b38-8942-16a72ea982e4
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: 95%
+Reasons: opening_phrase_high_overlap, closing_phrase_high_overlap, key_terms_high_overlap, word_count_similar
+Ambiguity: multiple candidates with similar high score
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,108 @@
+CONSOLIDATED REVIEW REPORT - FINAL
+====================================
+
+Generated: 2025-11-28 18:16:57
+Report File: consolidated_review_20251128_181657.txt
+
+OVERVIEW
+--------
+This report consolidates all ambiguous and low confidence review files,
+showing prayers that need Phelps codes assigned in their target languages.
+
+Key improvements:
+- Deduplicated: Shows each prayer ONCE with ALL candidate Phelps codes
+- Full text: Complete prayer text in target language for proper review
+- Quick comparison: First and last lines of English references for each candidate
+
+Statistics:
+- Total unique prayers: 1,089
+- Languages covered: 21
+- File size: 3.7 MB
+- Average candidates per prayer: 5.4
+
+WHAT THIS REPORT CONTAINS
+-------------------------
+Only prayers where the language+Phelps combination does NOT already exist
+in the database. These need manual review to assign the correct Phelps code.
+
+REPORT FORMAT
+-------------
+For each prayer:
+
+[N] Prayer UUID: <uuid>
+Name: <prayer name if available>
+
+FULL TEXT (<language>):
+<complete prayer text in target language>
+
+CANDIDATE PHELPS CODES (X options):
+  [1] PHELPS_CODE (Confidence: XX%, Type: MATCH_TYPE)
+      Name: <English prayer name>
+      First: <first line of English prayer>
+      Last:  <last line of English prayer>
+  [2] ...
+
+Selected: ________________
+Notes: ___________________________________________________
+
+HOW TO USE
+----------
+1. Read the full prayer text in the target language
+2. Compare with the first/last lines of each candidate English reference
+3. Pick the best match based on content similarity
+4. Write the selected Phelps code in "Selected:" field
+5. Add any notes about your decision
+
+LANGUAGES INCLUDED
+------------------
+CY  - Welsh
+DE  - German  
+FA  - Farsi/Persian
+FY  - Western Frisian
+HAW - Hawaiian
+HI  - Hindi
+HU  - Hungarian
+HZ  - Herero
+ID  - Indonesian
+IS  - Icelandic
+IT  - Italian
+KY  - Kyrgyz
+LV  - Latvian
+MT  - Maltese
+PL  - Polish
+PT  - Portuguese
+RO  - Romanian
+RU  - Russian
+TL  - Tagalog
+VI  - Vietnamese
+WAM - Wampanoag
+
+DATABASE VERIFICATION
+---------------------
+Total writings in database: 8,999
+Writings with Phelps codes: 5,766
+Writings without Phelps codes: 3,233
+
+Our report has 1,089 unique prayers, which is reasonable given:
+- Some prayers without Phelps codes may not have been in review files
+- Some may have been filtered out (invalid codes, duplicates, etc.)
+- This represents about 33% of prayers without Phelps codes
+
+NEXT STEPS
+----------
+1. Review each prayer and select the best matching Phelps code
+2. Update the database to assign selected Phelps codes to prayers
+3. Run the consolidation tool again to see remaining prayers
+4. Repeat until all prayers have appropriate Phelps codes assigned
+
+REGENERATING THE REPORT
+------------------------
+To regenerate with latest data:
+  ./consolidate-reviews
+
+The tool will:
+- Parse all review_ambiguous_*.txt and review_low_confidence_*.txt files
+- Check which language+Phelps combinations already exist (1,791 combinations)
+- Group prayers and their candidate matches
+- Pre-load all prayer texts (1,025 targets, 269 references)
+- Generate deduplicated report organized by language

@@ -1,0 +1,18 @@
+PRAYER MATCHING SUMMARY - CY
+Generated: 2025-11-28 13:50:33
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 351
+High confidence matches: 57 (16.2%)
+Low confidence matches:  284 (80.9%)
+Ambiguous matches:       10 (2.8%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Review low confidence matches in: review_low_confidence_cy_*.txt
+□ Resolve ambiguous matches in: review_ambiguous_cy_*.txt
+□ 57 high confidence matches applied automatically
+
+Next steps: Review files, make corrections, then run database updates.

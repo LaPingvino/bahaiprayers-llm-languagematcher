@@ -1,0 +1,20 @@
+LOW CONFIDENCE MATCHES - LV
+Generated: 2025-11-28 13:52:25
+Total items: 1
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/1] Target Prayer: 0eaea7ee9912
+Suggested Phelps: BH08704NEW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,50 @@
+SECOND ROUND REVIEW - COMPLETED
+Generated: 2025-11-29
+
+SUMMARY:
+========
+Successfully processed consolidated review file: consolidated_review_20251129_003240.txt
+
+INPUT:
+- Total prayers in consolidated file: 1,443
+- Persian (FA) prayers excluded: 237 (special case for later)
+- Non-Persian prayers processed: 1,198
+
+RESULTS:
+- SQL updates generated: 702
+- Prayers skipped (confidence <40%): 496
+- Success rate: 58.6% (702/1,198)
+
+CONFIDENCE DISTRIBUTION OF MATCHES:
+- 80-100%: 1 prayer (0%)
+- 60-79%: 385 prayers (54%)
+- 40-59%: 316 prayers (45%)
+
+LANGUAGES MATCHED (Top 10):
+1. Malayalam (ML): 112 prayers
+2. Maltese (MT): 107 prayers
+3. Indonesian (ID): 107 prayers
+4. Bosnian (BS): 58 prayers
+5. Herero (HZ): 55 prayers
+6. Russian (RU): 54 prayers
+7. Romanian (RO): 43 prayers
+8. Hungarian (HU): 42 prayers
+9. Hawaiian (HAW): 20 prayers
+10. Basque (EU): 17 prayers
+
+OVERALL DATABASE STATUS:
+- Total prayers: 8,999
+- With Phelps codes: 6,420 (71.3%)
+- Without Phelps codes: 2,579 (28.7%)
+
+NEXT STEPS:
+1. Process remaining 496 low-confidence prayers (manual review or lower threshold)
+2. Process 237 Persian prayers (combine with English prayer assignment)
+3. Handle languages still missing codes:
+   - Armenian (hy): 0/146 prayers matched
+   - Persian transliterated (fa-translit): 0/248 prayers matched
+   - Urdu (ur): 10/138 prayers (92% missing)
+
+FILES GENERATED:
+- phelps_code_updates.sql (full SQL with comments)
+- phelps_updates_only.sql (UPDATE statements only)

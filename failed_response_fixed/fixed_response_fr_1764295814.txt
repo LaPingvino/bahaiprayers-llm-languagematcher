@@ -1,0 +1,63 @@
+{
+  "matches": [
+    {
+      "phelps": "BB00554",
+      "target_version": "007b5005-55dc-49fa-bc2d-585a67ad51cb",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018MAJ",
+      "target_version": "00a41249-aeb2-4175-85f1-05c277cb9d28",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009AWA",
+      "target_version": "fd85caa9-6123-43b6-8425-35e3bab3c7ca",
+      "match_type": "AMBIGUOUS",
+      "confidence": 60,
+      "match_reasons": [
+        "multiple_candidates_met_likely_criteria"
+      ],
+      "ambiguity_reason": "multiple candidates with similar characteristics"
+    },
+    {
+      "phelps": "BH03562",
+      "target_version": "ff4a5139-4968-449a-a3d4-2d53b3d2f492",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00527",
+      "target_version": "ffb6b4de-e147-4e7e-8281-5957f5fc0c94",
+      "match_type": "AMBIGUOUS",
+      "confidence": 60,
+      "match_reasons": [
+        "multiple_candidates_met_likely_criteria"
+      ],
+      "ambiguity_reason": "multiple candidates with similar characteristics"
+    }
+  ],
+  "exact_matches": 0,
+  "likely_matches": 43,
+  "ambiguous_count": 19,
+  "new_translations": 2,
+  "summary": "Processed 64 prayers: 0 exact, 43 likely, 19 need review, 2 new translations needed"
+}

@@ -1,0 +1,2406 @@
+{
+  "matches": [
+    {
+      "phelps": "BH00009SER",
+      "target_version": "0098495e-44fa-4869-ae06-9e4f261c4d7e",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0070GAT",
+      "target_version": "0116c308-d96f-4464-887d-89845f05f6d9",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB07304",
+      "target_version": "0185c7ef-5a96-46e6-ac80-086fa4547fc3",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH05543",
+      "target_version": "01a6c5f2-6540-4c1c-a509-5f915e88652c",
+      "match_type": "AMBIGUOUS",
+      "confidence": 79,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ],
+      "ambiguity_reason": "best match score is moderate, consider manual review"
+    },
+    {
+      "phelps": "AB00527",
+      "target_version": "02103acc-4f42-4346-bb87-abdb23305850",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB03017CAL",
+      "target_version": "0442b341-925f-45f8-89d7-9e2d188eb67f",
+      "match_type": "LIKELY",
+      "confidence": 86,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB04980HOP",
+      "target_version": "049058a6-db32-46c2-b20c-dc7b41f910ba",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0030SHE",
+      "target_version": "04bfd706-b4bd-4817-aa8c-89d6153d58fa",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00154FIR",
+      "target_version": "04d51106-02ec-46cb-ac81-c96726fbeae6",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00774SAB",
+      "target_version": "050d2311-3cc4-4374-8840-ee543235c2cc",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00189AID",
+      "target_version": "05b03e98-8d20-4f10-9f3a-25a6c409e353",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09960",
+      "target_version": "0765049a-de44-43fc-ae34-4bfff4e0b150",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00308DES",
+      "target_version": "0a16c9b2-df9b-448e-8c13-d123f7795ff3",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH02307",
+      "target_version": "0ecf8da8-8515-4973-a85e-c72b032acb21",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB11094",
+      "target_version": "0f91571a-bbba-4005-9034-0d63c32712fb",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08600FAC",
+      "target_version": "10ee3f46-64b6-4068-9bb3-3f6afbe95b44",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00147GRO",
+      "target_version": "11eb53eb-8c51-4be4-94bb-659a9dbae22d",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009SHE",
+      "target_version": "12381dfd-6412-4099-abac-3f2e985b531d",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00002MEN",
+      "target_version": "12b1b531-427f-4c61-9083-17a7dfe91574",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH02848",
+      "target_version": "14aaae5b-8c6a-4178-93bc-bd291537e136",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB11356",
+      "target_version": "16125969-cdac-49fd-83e2-9a7ce0f695e1",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00617",
+      "target_version": "169df1fc-c98f-4fda-9e56-38823057541a",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB10714",
+      "target_version": "17560aa9-90f7-46f3-8834-2ef25dc09268",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07469",
+      "target_version": "18b8043c-1d71-49ee-b46a-8f75e702c938",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH06296",
+      "target_version": "19876f71-6649-4ee1-8872-4ad3c3c52bc1",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB02342AWA",
+      "target_version": "19bed068-02f2-437c-b472-d5c8dea6f2a9",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00431PIT",
+      "target_version": "1c07c75e-36c6-45ed-9393-e6a5323dc058",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09289",
+      "target_version": "1cfbdbed-d244-4bb8-8072-e77d9ca8499d",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB11605",
+      "target_version": "1fcb4543-c114-4104-8e43-02010dcaf61a",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009GRA",
+      "target_version": "1fd84808-c52c-4af0-9ca5-7a1271e152f1",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH05543",
+      "target_version": "20585693-3158-4018-baf9-ad20db089053",
+      "match_type": "AMBIGUOUS",
+      "confidence": 79,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ],
+      "ambiguity_reason": "best match score is moderate, consider manual review"
+    },
+    {
+      "phelps": "BH09401",
+      "target_version": "2074ae8f-7ef8-434b-837d-c977ac8adc11",
+      "match_type": "AMBIGUOUS",
+      "confidence": 79,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ],
+      "ambiguity_reason": "best match score is moderate, consider manual review"
+    },
+    {
+      "phelps": "BH09874",
+      "target_version": "20f05283-e2a8-4ee1-a495-cf95bbddc0b1",
+      "match_type": "AMBIGUOUS",
+      "confidence": 79,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ],
+      "ambiguity_reason": "best match score is moderate, consider manual review"
+    },
+    {
+      "phelps": "BB00100EXI",
+      "target_version": "211e5e84-2789-438d-9788-f69714245680",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07721",
+      "target_version": "21487121-cb09-444c-a4c2-6715f3c4b85a",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07661",
+      "target_version": "21c17e9e-976f-4671-bbcc-6046a1536ebb",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08264",
+      "target_version": "22c9184f-717c-4235-b0d7-4949c0c3077c",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07426DRE",
+      "target_version": "22f177f8-7f60-44d1-b609-4ba172684bf9",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "234a534d-b0c1-4e13-a34d-122bf8930bda",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08013",
+      "target_version": "27121449-f0d9-4423-aa8b-f4dc6357822a",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00623",
+      "target_version": "272a4628-a51c-4877-8dfd-e457451b3136",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00593",
+      "target_version": "27315b5a-8789-4daa-983e-1b498af3b743",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08600FAC",
+      "target_version": "27cc9804-86d8-4478-99ec-5d74cab22295",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00438",
+      "target_version": "27d781c3-f438-4cc7-a249-36baf20de4c3",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00431PIT",
+      "target_version": "28d87b62-45e5-4365-a67e-2d856550ed1b",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08700",
+      "target_version": "2a6c5b49-b1b6-4bdf-872c-021147003729",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH01125",
+      "target_version": "2b326e27-b1b3-439e-a9b7-381b37ddb222",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08822",
+      "target_version": "2ccfa561-e528-4494-af58-17dd820fb296",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH05894",
+      "target_version": "2df5edee-9dc0-4317-82e0-499d1005c7bf",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09874",
+      "target_version": "2f320a96-34b3-48f2-b1e7-01c6a433b906",
+      "match_type": "AMBIGUOUS",
+      "confidence": 79,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ],
+      "ambiguity_reason": "best match score is moderate, consider manual review"
+    },
+    {
+      "phelps": "BH09864",
+      "target_version": "2f9f0479-3aae-4f4e-96bd-449800a2a681",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09864",
+      "target_version": "2fae8d4b-c025-427c-a770-eccf3e7b7ca5",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "304dec89-4267-48b2-a7b1-dd2af72273b6",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH03562",
+      "target_version": "306ec7c8-dc18-4984-906b-8e7b03518f45",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09960",
+      "target_version": "30b699fe-3bb3-4c40-bc42-b414e55c8321",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH01888",
+      "target_version": "3238017a-6269-413a-8949-bad49f366e67",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00241HIG",
+      "target_version": "33b7247b-7757-4252-a755-30eae836b2b9",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB03896MAJ",
+      "target_version": "361cba0a-2fbe-4072-b859-7605c40fff1d",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009GRA",
+      "target_version": "3664899d-6f5c-4139-9d69-5f6657b98299",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09872",
+      "target_version": "36f78ffa-8b83-4f19-9a82-dc4b6792e71c",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018FOR",
+      "target_version": "3878ffc1-d10b-47a0-bfab-ce0c8c11c7d2",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB10703RAD",
+      "target_version": "390d4932-48d5-4f60-b10e-4f897e476d34",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009GRA",
+      "target_version": "395d6a50-2b6b-4de4-8584-2789ea2cdf76",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08600TES",
+      "target_version": "3a5522a3-0ea0-426d-bfb4-542aa960f69e",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "3a8de7fb-3fcd-4847-8463-771fe0d20592",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "3c6a63a0-61da-4007-a28e-909a373aa15b",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB02326",
+      "target_version": "3d4e9748-958d-430a-b2f7-266d26721719",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH03447",
+      "target_version": "3e7929f0-dcba-4c68-bff8-fdffa6be9111",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB01023SAE",
+      "target_version": "3f42d67f-aa3b-4a1f-abda-6a0486e7ee98",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0188TUR",
+      "target_version": "3fad49d4-a7c4-4be0-a6b9-372ebf314362",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH03908",
+      "target_version": "400d06c8-dec3-4a73-93bb-107e128e766c",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00870",
+      "target_version": "40be2861-20ac-4362-aeb5-bbc4eadbdce9",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08604",
+      "target_version": "40dda8eb-867b-4116-9c1d-2a26354a563d",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00687",
+      "target_version": "4435b2bd-ebee-40c6-a362-93856dfbf7f0",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018MAJ",
+      "target_version": "450fc4a4-94ec-4ab3-805f-02589dc6bb91",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07780",
+      "target_version": "46d040eb-6b42-4783-860f-fbc3a2505c28",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH10578",
+      "target_version": "46ed2890-6f89-4a50-93c4-84263a0e08c4",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "47f41624-8c6b-403f-a041-7fda5ebc452a",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00032DAR",
+      "target_version": "48200c8f-6bba-4478-8c35-a4a0baaaaaba",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09085",
+      "target_version": "4a830362-8324-40db-98d5-ccc7043ad2ec",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00687SEE",
+      "target_version": "4c7b7222-502f-4e02-8957-7b6e2089dbbf",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0095KIN",
+      "target_version": "4e2055ae-1e90-4812-a62d-7ef7d571cb0d",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH05771",
+      "target_version": "4f3bd59c-799d-4f52-9d99-0be6b6b518c6",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009AWA",
+      "target_version": "530e4913-ed2d-4296-ad51-e85b7a384b2f",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09399",
+      "target_version": "54e5bd48-5db0-4b22-addc-dcd2a8d82cc7",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07106",
+      "target_version": "55f7e3f4-b821-413e-8ff7-45826ab3d926",
+      "match_type": "AMBIGUOUS",
+      "confidence": 79,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ],
+      "ambiguity_reason": "best match score is moderate, consider manual review"
+    },
+    {
+      "phelps": "BH10973",
+      "target_version": "56c23151-cdda-4a86-95b8-3515d0230633",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB06528MID",
+      "target_version": "581b1560-218b-4676-b6c9-7e8de3e29cfe",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB02866",
+      "target_version": "587f7763-a415-4bdf-89bf-e6e74ec28d31",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB11281",
+      "target_version": "5882c082-efa9-4d76-b991-1f7e476a1f33",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB09040",
+      "target_version": "58da884b-0e39-4650-801b-9025ee09f9d2",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB04980HOP",
+      "target_version": "5a8c0c19-f50a-4571-aa5a-fba6b4c6cac7",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00053MAG",
+      "target_version": "5b193d11-2dda-4795-bf41-148d3cfea6bf",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018DET",
+      "target_version": "5ce42654-63be-4379-a539-db92e6560edf",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH11209",
+      "target_version": "5d527d12-cc63-4af9-9773-816f124078b2",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "5e45a12e-5968-4c82-a092-e8a4051ee352",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB03017CAL",
+      "target_version": "5e6e2882-c80e-42f5-8a1f-46eb41ab776c",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00553",
+      "target_version": "613e0976-7c9f-4a5f-a61e-a01da1c703a3",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0009SER",
+      "target_version": "61c0307f-8101-4ecb-a354-b00067570b44",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09960",
+      "target_version": "61c92355-ec27-4175-88bb-ab0b26f46cb8",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "6552d94d-f820-40b8-b4bb-340ddb399e53",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00490",
+      "target_version": "65f33633-c4f9-4898-982d-ae1807fb2513",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09498",
+      "target_version": "663a7aea-faf6-4125-a5b3-a2229feb2611",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08855",
+      "target_version": "68959e16-60b0-458a-b949-da35906b743b",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BHU0004SUF",
+      "target_version": "69305c1e-9ba0-4522-8f80-278b4b75ad7b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 79,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ],
+      "ambiguity_reason": "best match score is moderate, consider manual review"
+    },
+    {
+      "phelps": "BH00009HOW",
+      "target_version": "6ab2ae18-dd06-41f0-8b2a-989a13bcd5b1",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09872",
+      "target_version": "6aecc694-94a1-4bea-852f-5bdec7efe65b",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB11281",
+      "target_version": "6b8b47ec-34d0-45f3-b6de-f93a94f65155",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB10769",
+      "target_version": "6badf386-f98b-4cec-9fab-bfa69b498da0",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB07158",
+      "target_version": "6be0badf-d6fd-487c-87f7-b316179bfb0f",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH04475",
+      "target_version": "6bef4e1d-924b-4de1-9ed9-03ecf2812ba7",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00522",
+      "target_version": "6cf52df8-6143-4c57-bf6e-17b9b0e65de4",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00728MDS",
+      "target_version": "6db6fd12-5817-439c-96e8-025b83d89df9",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00560",
+      "target_version": "6dea05b5-81b5-4183-a2b4-a2b6e68a23f6",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09404",
+      "target_version": "6dfb22d7-f34c-4519-9975-37dc13e3c100",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00868WIT",
+      "target_version": "6e049f79-6b22-46f4-8110-cfa6f4410132",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH01313NAM",
+      "target_version": "6e58e051-13e7-45ea-87b2-d3c04217390b",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08433",
+      "target_version": "708aaceb-58f6-49b0-9072-b662e90a7bc6",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00362LOV",
+      "target_version": "723b790b-283c-403c-9dbd-8f31d85bcc86",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00094WEA",
+      "target_version": "73795caa-3e89-45de-a02d-534d88f4796f",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00073SER",
+      "target_version": "73f0b8ed-c4f9-409f-9be5-ab1ab2a04bcf",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018ADJ",
+      "target_version": "758b4c26-c4e5-4f88-8d7b-867bf66ff906",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0003DIS",
+      "target_version": "792c6758-9331-48a4-a125-e1c59a3bfeb2",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00065KIN",
+      "target_version": "796e3e05-7b8b-4488-8368-33d81e4604d2",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07775",
+      "target_version": "7aeb97d9-fcc2-4832-9abd-79a81188b25c",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018FOR",
+      "target_version": "7b72afa1-e978-4d51-a4e2-4d68c4057cfa",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB08693",
+      "target_version": "7bc767dc-9761-4989-937f-9eaf5bf95a80",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0009SER",
+      "target_version": "7c755ae1-96c4-490b-8f82-88dfea6eba9c",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB05652WIS",
+      "target_version": "7ca4422f-9eac-44fb-ab0d-173ddfc4a532",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09848",
+      "target_version": "7d8ab320-2c2f-42aa-8a0f-cd39a2a311ea",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00554",
+      "target_version": "7e8fae70-e77e-4cf6-beac-891597de46e8",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08308",
+      "target_version": "7f01d8f7-de72-4d25-a48c-da455a7c7dbb",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB10701",
+      "target_version": "7fd3313a-07bf-45e9-8f23-a108cbcebdb8",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB09794CHI",
+      "target_version": "8124880b-5076-4982-a288-e61b5ea54a0c",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00049RAP",
+      "target_version": "82ca9a10-6958-4767-8c72-6d11c00366b9",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08433",
+      "target_version": "8333c92f-8a41-4a25-bce2-add59cfcfbcf",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08242",
+      "target_version": "83b8cf0d-96ad-4500-b94a-9a90b287d3c6",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH03470",
+      "target_version": "85141c67-79eb-4949-bafa-bbf3936c9013",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00662FLO",
+      "target_version": "85793781-aaee-427a-ae7a-573354d14627",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB07155WOM",
+      "target_version": "863dfb42-37e7-4a62-8cd2-fa358daa8af4",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00005ALL",
+      "target_version": "868a9cf0-53af-42bb-a780-2f8cade4343c",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00431PIT",
+      "target_version": "8708d6b0-024c-4d95-a177-3f285adc57b1",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00374",
+      "target_version": "8786dd8c-f810-4fde-bbf2-58fd027bf877",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00583",
+      "target_version": "894cbe7f-eef4-4ac2-947e-cda806a0d8c2",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00147ORD",
+      "target_version": "89c9c8e0-c09e-4635-aeb7-db5c0184b5ee",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07683",
+      "target_version": "89ced527-469c-429f-a7a0-1b0c2266ac2c",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB07709CON",
+      "target_version": "8b176cfe-5e5c-4e81-865c-8cd9aa9edb0b",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07113",
+      "target_version": "8b8e57dd-bb88-4650-b6a0-6b4bb51e039d",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07426FOO",
+      "target_version": "8d6835b4-5f9a-49a0-83cd-d82a967e66f9",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH02524",
+      "target_version": "8f74f539-4b28-485d-a62e-acbfcf7c4294",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00634",
+      "target_version": "8fdfd7e9-7b02-4ec4-afdb-53f9c55feb8f",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00083RAD",
+      "target_version": "928e2747-0125-41ea-9e4b-ae4d9b8eeb01",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009GRA",
+      "target_version": "9464bcd8-fd18-4a36-96bd-d14faba096b2",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB02024",
+      "target_version": "963fc7ec-db34-4b9e-b3c7-79d03ee2fe14",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0137ALL",
+      "target_version": "9861c042-e1ac-4971-b426-e10b33cc73a1",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00621",
+      "target_version": "9986432e-dc78-4e88-ac4d-6f19ff5c5d32",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0023UNI",
+      "target_version": "9a41ee4e-7d9f-4fd5-bda5-c012242d9061",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH02198",
+      "target_version": "9a45b66c-c2c6-4816-a64d-d17be2b8f325",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07775",
+      "target_version": "9a65fc68-5f1f-4218-bb66-f987b182520c",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH06026",
+      "target_version": "9bac6172-5c9d-4533-8053-517acb2a6c31",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00553",
+      "target_version": "9c74d0e9-4f8d-46dd-80fc-3df93ec41fea",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0003DIS",
+      "target_version": "9d5b096f-fead-4164-8332-d1a019ebf5c8",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "9d832f1e-79a8-4044-b020-6490a650211f",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00543VIC",
+      "target_version": "9d88b830-b680-4430-8f15-57ce3dba5f18",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00001ABI",
+      "target_version": "9d894a2b-ca12-4288-b5d0-bf8b4ccd94bb",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00778",
+      "target_version": "9feb443a-64b7-4412-86bb-80c51c05c554",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07663",
+      "target_version": "a1cf41fd-674a-474c-8164-0abe5fe62dbe",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB02000DIS",
+      "target_version": "a1d555a4-628d-4398-bcae-12aeaae649d5",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00209UND",
+      "target_version": "a1ee275a-d2df-46cc-83d6-410355db635e",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08363",
+      "target_version": "a2e6a123-b235-4fbc-9d89-fe20367d46b0",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB10275",
+      "target_version": "a2e99707-e3e6-4ad2-b887-7882571645f6",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00210BIR",
+      "target_version": "a3513372-0f69-4673-9ff7-c6381295e689",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH02898MAG",
+      "target_version": "a47836d3-f1c4-4e32-bd0e-7d261db951ae",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB02326",
+      "target_version": "a591e6ed-b278-41ca-ab85-684e8d966c98",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AAB00388COM",
+      "target_version": "aab9240b-a802-4f63-8ea8-7d17a3b523e2",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09024",
+      "target_version": "ac24ff68-5e36-4e29-ab64-b31bb797cebe",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB03896MAJ",
+      "target_version": "ac930d18-4f5d-4dfc-bcfe-de7d27b40a8c",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB05805SER",
+      "target_version": "ad0e28cf-2756-4c74-a971-af49e36ee489",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00044PRO",
+      "target_version": "ae53ac1d-83a5-462c-ab88-1cf062885629",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB02825",
+      "target_version": "afb63c08-e5a5-408c-abf7-0243889fadce",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00128FEE",
+      "target_version": "b251de9b-8f7d-4096-8b47-0b3282194732",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB04980HOP",
+      "target_version": "b2a36eb5-360c-44b5-9550-927120afe184",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH03109KIN",
+      "target_version": "b5703bb9-1a04-4602-9c3e-b3572e7ab835",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB05167",
+      "target_version": "b5c406b4-635b-4bb8-84c8-2169d027de46",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB10973",
+      "target_version": "56c23151-cdda-4a86-95b8-3515d0230633",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07657",
+      "target_version": "b7760df7-89d8-4b01-b8c1-838b1001312c",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00001KNO",
+      "target_version": "b9a24a97-10b6-4b67-aa7a-8e27c29d228c",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH10688",
+      "target_version": "bac68876-1209-4483-ace1-f2bd2ccd5f6e",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH04421HEA",
+      "target_version": "bad80563-d435-40f9-b322-2b64958f7c6a",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH03111",
+      "target_version": "bd3dae5f-f147-401d-821c-58d5712b5c7a",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07661",
+      "target_version": "bd7a2065-70ba-4d49-87d3-b6bf9435f038",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB01023SAE",
+      "target_version": "bdb5cf69-9fb3-46d8-ade2-7d2cbf80c8a8",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0129EDU",
+      "target_version": "be834890-f51b-40ca-b555-1fc339ee4ad6",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH11205",
+      "target_version": "bf761b5c-8b17-4f18-88f3-8d292ebb1d35",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH02898MAG",
+      "target_version": "c00fd57a-fe01-4bf9-9d91-889a7a9254d2",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0188TUR",
+      "target_version": "c3dfebca-d0cd-45ab-9f10-6350fee4ad41",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08433",
+      "target_version": "c447b46c-dbd8-4a75-88b6-c89e7a85177c",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00223MAG",
+      "target_version": "c5959027-4b83-42af-92f6-f20ed95653a6",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH03629GRI",
+      "target_version": "c64239bd-b501-482e-a409-4f5454f61375",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00662FLO",
+      "target_version": "c74b7ebd-8b1b-4741-b15f-bc9d333b2cc5",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08855",
+      "target_version": "c8636681-1453-44b4-8601-b7b86d4ad5bd",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09960",
+      "target_version": "c8912c6e-b1bd-49b8-97e2-03a4f72e7747",
+      "match_type": "AMBIGUOUS",
+      "confidence": 79,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ],
+      "ambiguity_reason": "best match score is moderate, consider manual review"
+    },
+    {
+      "phelps": "BB00015SUF",
+      "target_version": "c9cae447-6199-46c9-844e-a4a5bdcacd34",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH09401",
+      "target_version": "ca681983-4036-4984-8d47-6432c2206489",
+      "match_type": "AMBIGUOUS",
+      "confidence": 79,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ],
+      "ambiguity_reason": "best match score is moderate, consider manual review"
+    },
+    {
+      "phelps": "AB02596",
+      "target_version": "cabd6d92-05e0-46cf-aa03-7afbc45400e7",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00388COM",
+      "target_version": "cb5b5e7c-e7c6-4c43-8eea-4e589484697b",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH01026",
+      "target_version": "cca51206-ad5c-49ff-92a6-15639c9e3b65",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08852",
+      "target_version": "ccf1ae19-79ab-4b91-875d-fb78f08cd7bd",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00065STE",
+      "target_version": "cf9ece7c-066f-49da-9b76-eab47d9d666d",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08308",
+      "target_version": "d220d26b-d6f4-46bd-8a49-3ec35cf7f368",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB10324",
+      "target_version": "d2ff0794-9fc8-45bb-8990-36aca80db613",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00218SOU",
+      "target_version": "d3e6068f-ce5a-40ea-b4cb-06bda1d88350",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB06012",
+      "target_version": "d8bb7ade-5fd7-48d6-a2ed-7f6350fae6fe",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH06429",
+      "target_version": "d9ae5f8a-52a6-4533-9900-33af29e6cf88",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB06211",
+      "target_version": "dd8180b2-5259-484a-bd0e-a35d988c05aa",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00001SHI",
+      "target_version": "ddc63a77-7190-4f0d-99f2-5d9b19fdf770",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0095KIN",
+      "target_version": "de69c325-9b70-4766-89c1-bc69b038d318",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH05703KEP",
+      "target_version": "dec324d0-7fd3-4965-8c8e-75f6ca2dd277",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00209UND",
+      "target_version": "e2d6c25b-099e-46fd-84d0-b105a513d33e",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00005ALL",
+      "target_version": "e4850874-b1c1-40e6-8db4-3f30b8f55ca7",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00630",
+      "target_version": "e5cbb755-920e-4487-b228-426bd88bdd6e",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BB00004REN",
+      "target_version": "e62eeffb-8fe8-41f8-be35-fda423ea0002",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH03181",
+      "target_version": "e6d1e10b-0ed2-43ff-85de-bc51808b40ae",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH04990",
+      "target_version": "e71114b9-be4e-4bec-80b9-4cd1fb6affcd",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH08242",
+      "target_version": "e8200dea-fbea-44ea-8edc-0dcc1d18d955",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009AWA",
+      "target_version": "e887f05e-f648-4ff4-8f02-5513b175c92a",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB04004BAB",
+      "target_version": "e910db96-1f28-4d26-bc18-04fea21c00bd",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "EA5ABC2B-E491-4684-90F4-4DB79F26AC2C",
+      "target_version": "ea5abc2b-e491-4684-90f4-4db79f26ac2c",
+      "match_type": "NEW_TRANSLATION",
+      "confidence": 0,
+      "match_reasons": [],
+      "ambiguity_reason": "no reasonable match found"
+    },
+    {
+      "phelps": "BB00002ENA",
+      "target_version": "eedd3ecf-7413-4d87-9887-f80b0d54db10",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH07661",
+      "target_version": "ef713ea4-66b1-4bfc-af71-ee2376e68c17",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0268AME",
+      "target_version": "f06559c6-0652-4f64-b7e6-3ffadd6ae773",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00218SOU",
+      "target_version": "f13b90a3-801a-4b52-95dc-d2bd9ce1803e",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00687SEE",
+      "target_version": "f2986647-594a-4b8d-a96a-21ce7910a0b4",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH02753ENT",
+      "target_version": "f40f24c1-f9bd-4836-83f7-631f0be5e906",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00169BEH",
+      "target_version": "f55e43ae-f4a1-46c7-b7f9-35f9e99c3416",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB0397HEA",
+      "target_version": "f86d5caa-799c-4177-9cd6-cb6b53669679",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "AB00128FEE",
+      "target_version": "fa9b2687-df17-4e46-a684-097594ae2778",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0394GAT",
+      "target_version": "fe99a38e-6413-48ee-9b47-eb9403c8b143",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    },
+    {
+      "phelps": "BH00053MAG",
+      "target_version": "fea919a5-4414-42ba-8371-554c2344b41b",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "word_count_similar",
+        "opening_closing_similar"
+      ]
+    }
+  ],
+  "exact_matches": 0,
+  "likely_matches": 83,
+  "ambiguous_count": 8,
+  "new_translations": 0,
+  "summary": "Processed 91 prayers: 0 exact, 83 likely, 8 need review, 0 new translations needed"
+}

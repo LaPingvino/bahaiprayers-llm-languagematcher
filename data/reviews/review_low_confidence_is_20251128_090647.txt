@@ -1,0 +1,28 @@
+LOW CONFIDENCE MATCHES - IS
+Generated: 2025-11-28 09:06:47
+Total items: 2
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/2] Target Prayer: d514a052-1fdb-402d-ba5b-c85e887a2fd6
+Suggested Phelps: D514A052
+Match Type: NEW_TRANSLATION
+Confidence: 0%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/2] Target Prayer: f46495d4-2284-44fb-978f-0d5c44abada2
+Suggested Phelps: F46495D4
+Match Type: NEW_TRANSLATION
+Confidence: 0%
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

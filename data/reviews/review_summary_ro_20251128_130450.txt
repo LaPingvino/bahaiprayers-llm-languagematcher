@@ -1,0 +1,16 @@
+PRAYER MATCHING SUMMARY - RO
+Generated: 2025-11-28 13:04:50
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 320
+High confidence matches: 0 (0.0%)
+Low confidence matches:  0 (0.0%)
+Ambiguous matches:       320 (100.0%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Resolve ambiguous matches in: review_ambiguous_ro_*.txt
+
+Next steps: Review files, make corrections, then run database updates.

@@ -1,0 +1,17 @@
+PRAYER MATCHING SUMMARY - FR
+Generated: 2025-11-28 09:06:19
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 5
+High confidence matches: 3 (60.0%)
+Low confidence matches:  0 (0.0%)
+Ambiguous matches:       2 (40.0%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Resolve ambiguous matches in: review_ambiguous_fr_*.txt
+□ 3 high confidence matches applied automatically
+
+Next steps: Review files, make corrections, then run database updates.

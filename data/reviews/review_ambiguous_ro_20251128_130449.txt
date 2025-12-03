@@ -1,0 +1,2302 @@
+AMBIGUOUS MATCHES - RO
+Generated: 2025-11-28 13:04:49
+Total items: 229
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/229] Target Prayer: 5328c49b-2a39-474b-a51b-b2055ec4d154
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_longest_words, key_term_overlap: creator, word_count_difference, char_count_difference
+Ambiguity: Low overall text similarity despite a few shared key terms and similar concepts (creator, almighty).
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/229] Target Prayer: b21a409a-60a1-4592-a184-74c565e5a4af
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_longest_words, key_term_overlap: dieu
+Ambiguity: Limited overlap in semantic content and prayer structure, despite shared core term 'dieu' (God).
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/229] Target Prayer: c77c351dca7d
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: key_term_overlap: deus, word_count_difference, char_count_difference
+Ambiguity: Low text overlap, but some common key terms exist, potentially indicating a thematic link.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/229] Target Prayer: de93897e-de8f-40e0-b45d-1c14ba059ac5
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: key_term_overlap: kingdom, word_count_difference, char_count_difference
+Ambiguity: Similar thematic elements (infants, kingdom, powerful) but distinct opening/closing phrases and structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/229] Target Prayer: 9f3be7e1-90b2-484e-bb3c-5f27b42dc2c3
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: key_term_overlap: forgiveness, word_count_difference, char_count_difference
+Ambiguity: General themes of forgiveness and grace, but specific wording in Romanian prayer is very different.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/229] Target Prayer: a1f200e6-a6ff-4f2e-bb47-3c861f71ad56
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: opening_phrase_similar, key_term_overlap: god
+Ambiguity: Opening phrase similar, but main content diverges. Key terms match, but overall semantic content is different.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BHU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: exact_short_prayer_status_mismatch, english_is_short_prayer_candidate
+Ambiguity: Both prayers are very short, making a confident match difficult without more distinguishing features. Thai prayer is generic for all short prayers.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH03470
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: exact_short_prayer_status_mismatch, english_is_short_prayer_candidate
+Ambiguity: Both prayers are very short, making a confident match difficult without more distinguishing features. Thai prayer is generic for all short prayers.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH07426FOO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00002ENA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: exact_short_prayer_status_mismatch, english_is_short_prayer_candidate
+Ambiguity: Both prayers are very short, making a confident match difficult without more distinguishing features. Thai prayer is generic for all short prayers.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0070GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00630
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08264
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08852
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09960
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00374
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB03017CAL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB11281
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08244
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00431PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH03109KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB02326
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: exact_short_prayer_status_mismatch, english_is_short_prayer_candidate
+Ambiguity: Both prayers are very short, making a confident match difficult without more distinguishing features. Thai prayer is generic for all short prayers.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: exact_short_prayer_status_mismatch, english_is_short_prayer_candidate
+Ambiguity: Both prayers are very short, making a confident match difficult without more distinguishing features. Thai prayer is generic for all short prayers.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0188TUR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00004REN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB07124
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB11605
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: exact_short_prayer_status_mismatch, english_is_short_prayer_candidate
+Ambiguity: Both prayers are very short, making a confident match difficult without more distinguishing features. Thai prayer is generic for all short prayers.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH10231
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: FB9669B32D8D
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: exact_short_prayer_status_mismatch, english_is_short_prayer_candidate
+Ambiguity: Both prayers are very short, making a confident match difficult without more distinguishing features. Thai prayer is generic for all short prayers.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00009GRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB07155WOM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00147ORD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00728MDS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08824
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00156LOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00169FRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00593
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09404
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00015SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: exact_short_prayer_status_mismatch, english_is_short_prayer_candidate
+Ambiguity: Both prayers are very short, making a confident match difficult without more distinguishing features. Thai prayer is generic for all short prayers.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH02848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH03629GRI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH07683
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00634
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09289
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00553
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00189AID
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH07721
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB10685
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00963IMP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00018MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00065STE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09085
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB02596
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00009AWA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH05894
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00238
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00543VIC
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH10688
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00100EXI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00154FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00009SHE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH07180
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09498
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00002MEN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00308DES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB09040
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[123/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB05167
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[124/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00018ADJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: exact_short_prayer_status_mismatch, english_is_short_prayer_candidate
+Ambiguity: Both prayers are very short, making a confident match difficult without more distinguishing features. Thai prayer is generic for all short prayers.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[125/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH06026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[126/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[127/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[128/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[129/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[130/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH06296
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[131/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[132/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[133/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[134/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[135/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0095KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[136/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[137/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[138/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[139/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[140/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[141/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0023UNI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[142/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[143/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB02000DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[144/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00774SAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[145/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH02307
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[146/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00868WIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[147/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB08704NEW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[148/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09024
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[149/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[150/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH07426DRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[151/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH02898MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[152/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH11205
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: exact_short_prayer_status_mismatch, english_is_short_prayer_candidate
+Ambiguity: Both prayers are very short, making a confident match difficult without more distinguishing features. Thai prayer is generic for all short prayers.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[153/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00128FEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[154/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00485TRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[155/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB09139
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[156/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH06429
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[157/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[158/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0394GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[159/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08363
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[160/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[161/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH03562
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[162/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[163/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH03447
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[164/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00553
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[165/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[166/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0030SHE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[167/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0003DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[168/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00621
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[169/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08242
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[170/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH01125
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[171/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00032DAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[172/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[173/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH07657
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[174/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[175/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[176/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[177/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00018ADJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: exact_short_prayer_status_mismatch, english_is_short_prayer_candidate
+Ambiguity: Both prayers are very short, making a confident match difficult without more distinguishing features. Thai prayer is generic for all short prayers.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[178/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH06026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[179/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[180/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[181/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[182/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[183/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH06296
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[184/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[185/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[186/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[187/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[188/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0095KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[189/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[190/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[191/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[192/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[193/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[194/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0023UNI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[195/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[196/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB02000DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[197/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00774SAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[198/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH02307
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[199/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00868WIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[200/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB08704NEW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[201/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09024
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[202/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00223MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[203/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH07426DRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[204/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH02898MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[205/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH11205
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: exact_short_prayer_status_mismatch, english_is_short_prayer_candidate
+Ambiguity: Both prayers are very short, making a confident match difficult without more distinguishing features. Thai prayer is generic for all short prayers.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[206/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00128FEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[207/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00485TRE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[208/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB09139
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[209/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH06429
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[210/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00053MAG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[211/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0394GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[212/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08363
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[213/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[214/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH03562
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[215/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[216/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH03447
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[217/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00553
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[218/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[219/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0030SHE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[220/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: ABU0003DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[221/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BB00621
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[222/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08242
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[223/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH01125
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[224/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB00032DAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[225/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[226/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH07657
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[227/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: BH09848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[228/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[229/229] Target Prayer: eda5b7ffaa7c
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: english_is_short_prayer_candidate
+Ambiguity: Extremely short prayer in Thai, difficult to establish a confident match with the longer English reference. Potential for thematic match related to 'healing' or 'remembrance'.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

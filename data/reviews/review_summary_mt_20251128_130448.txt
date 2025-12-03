@@ -1,0 +1,17 @@
+PRAYER MATCHING SUMMARY - MT
+Generated: 2025-11-28 13:04:48
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 177
+High confidence matches: 9 (5.1%)
+Low confidence matches:  0 (0.0%)
+Ambiguous matches:       168 (94.9%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Resolve ambiguous matches in: review_ambiguous_mt_*.txt
+□ 9 high confidence matches applied automatically
+
+Next steps: Review files, make corrections, then run database updates.

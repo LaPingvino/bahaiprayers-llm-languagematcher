@@ -1,0 +1,348 @@
+#!/bin/bash
+
+# Bahá'í Prayer Matcher - Interactive Menu Wrapper
+# This script provides an easy-to-use interface for the prayer matching system
+
+set -e
+
+# Check if any arguments were provided
+if [ $# -eq 0 ]; then
+    # No arguments - show interactive menu
+    echo "🙏 Bahá'í Prayer Matching System - Interactive Mode"
+    echo "=================================================="
+    echo ""
+
+    # Build the binary if it doesn't exist
+    if [ ! -f ./prayer-matcher ]; then
+        echo "🔨 Building prayer-matcher..."
+        go build -o prayer-matcher main.go compressed_matcher.go ultra_compressed_matcher.go menu.go
+        echo "✅ Build complete"
+        echo ""
+    fi
+
+    # Check if database exists
+    if [ ! -d "bahaiwritings" ]; then
+        echo "❌ Error: bahaiwritings directory not found"
+        echo "Please ensure you're in the correct directory with the Dolt database"
+        exit 1
+    fi
+
+    while true; do
+        clear
+        echo "🙏 Bahá'í Prayer Matching System"
+        echo "================================="
+        echo "📅 $(date '+%B %d, %Y at %I:%M %p')"
+        echo ""
+
+        # Get quick database status
+        cd bahaiwritings
+        TOTAL_PRAYERS=$(dolt sql -q "SELECT COUNT(*) FROM writings" -r csv | tail -n +2)
+        MATCHED_PRAYERS=$(dolt sql -q "SELECT COUNT(*) FROM writings WHERE phelps IS NOT NULL" -r csv | tail -n +2)
+        TOTAL_LANGUAGES=$(dolt sql -q "SELECT COUNT(DISTINCT language) FROM writings" -r csv | tail -n +2)
+        UNPROCESSED_LANGS=$(dolt sql -q "SELECT COUNT(DISTINCT language) FROM writings WHERE language != 'en' AND phelps IS NULL AND language NOT LIKE '%-translit'" -r csv | tail -n +2)
+        COMPLETION=$(( MATCHED_PRAYERS * 100 / TOTAL_PRAYERS ))
+        cd ..
+
+        echo "📊 Database Status: $MATCHED_PRAYERS/$TOTAL_PRAYERS prayers matched ($COMPLETION% complete)"
+        echo "🌐 Languages: $TOTAL_LANGUAGES total, $UNPROCESSED_LANGS unprocessed"
+        echo ""
+
+        # Check available backends
+        CLAUDE_AVAILABLE=""
+        GEMINI_AVAILABLE=""
+        OLLAMA_AVAILABLE=""
+
+        if command -v claude &> /dev/null; then
+            CLAUDE_AVAILABLE="✅ Claude CLI"
+        else
+            CLAUDE_AVAILABLE="❌ Claude CLI"
+        fi
+
+        if command -v gemini &> /dev/null; then
+            GEMINI_AVAILABLE="✅ Gemini CLI"
+        else
+            GEMINI_AVAILABLE="❌ Gemini CLI"
+        fi
+
+        if command -v ollama &> /dev/null; then
+            OLLAMA_AVAILABLE="✅ ollama"
+        else
+            OLLAMA_AVAILABLE="❌ ollama"
+        fi
+
+        echo "🔧 Available Backends:"
+        echo "   $CLAUDE_AVAILABLE"
+        echo "   $GEMINI_AVAILABLE"
+        echo "   $OLLAMA_AVAILABLE"
+        echo ""
+
+        echo "📋 Available Options:"
+        echo "────────────────────"
+        echo ""
+        echo "1. 📊 Check Database Status"
+        echo "   View detailed statistics and processing recommendations"
+        echo "   💡 Efficiency: Instant | ⏱️  Time: < 1 second"
+        echo ""
+        echo "2. 🚀 Ultra-Compressed Processing (ALL languages)"
+        echo "   Process all unmatched languages using smart batching (97% API reduction)"
+        echo "   💡 Efficiency: 97% fewer API calls | ⏱️  Time: 15-45 minutes"
+        echo ""
+        echo "3. 🧠 Smart Fallback Processing"
+        echo "   Intelligent backend switching: Claude → Gemini → ollama"
+        echo "   💡 Efficiency: Automatic retry | ⏱️  Time: Variable"
+        echo ""
+        echo "4. ⚡ Compressed Single Language"
+        echo "   Process one specific language with fingerprint matching (90% reduction)"
+        echo "   💡 Efficiency: 90% fewer API calls | ⏱️  Time: 1-5 minutes"
+        echo ""
+        echo "5. 🔄 Retry Saved Batches"
+        echo "   Process interrupted batches from previous runs"
+        echo "   💡 Efficiency: Resume progress | ⏱️  Time: Variable"
+        echo ""
+        echo "6. 🌐 Show Top Unprocessed Languages"
+        echo "   Display languages with most unmatched prayers"
+        echo "   💡 Efficiency: Instant | ⏱️  Time: < 1 second"
+        echo ""
+        echo "7. 🔧 Test Backend Configuration"
+        echo "   Test connectivity to Claude, Gemini, and ollama"
+        echo "   💡 Efficiency: Setup | ⏱️  Time: 1-2 minutes"
+        echo ""
+        echo "8. 📁 File Management"
+        echo "   Clean up logs, batches, and temporary files"
+        echo "   💡 Efficiency: Cleanup | ⏱️  Time: < 1 minute"
+        echo ""
+        echo "9. 🛠️  Command Line Mode"
+        echo "   Switch to manual command-line operation"
+        echo "   💡 Efficiency: Expert mode | ⏱️  Time: Variable"
+        echo ""
+        echo "q. 🚪 Quit"
+        echo ""
+
+        read -p "Enter your choice (1-9, or 'q' to quit): " choice
+
+        case $choice in
+            1)
+                echo ""
+                echo "🚀 Starting: Check Database Status"
+                echo "═══════════════════════════════════"
+                ./prayer-matcher -status
+                ;;
+            2)
+                echo ""
+                echo "🚀 Starting: Ultra-Compressed Processing"
+                echo "═══════════════════════════════════════"
+                if [ "$UNPROCESSED_LANGS" -eq "0" ]; then
+                    echo "🎉 All languages are already processed!"
+                else
+                    echo "⚠️  This will process ALL $UNPROCESSED_LANGS unprocessed languages"
+                    read -p "Continue? (y/N): " confirm
+                    if [[ $confirm =~ ^[Yy]$ ]]; then
+                        ./prayer-matcher -ultra -cli
+                    else
+                        echo "Cancelled."
+                    fi
+                fi
+                ;;
+            3)
+                echo ""
+                echo "🚀 Starting: Smart Fallback Processing"
+                echo "═════════════════════════════════════"
+                ./prayer-matcher -smart-fallback
+                ;;
+            4)
+                echo ""
+                echo "🚀 Starting: Single Language Processing"
+                echo "═══════════════════════════════════════"
+                echo "Available backends:"
+                backend_count=0
+                if command -v claude &> /dev/null; then
+                    echo "1. Claude CLI"
+                    backend_count=$((backend_count + 1))
+                fi
+                if command -v gemini &> /dev/null; then
+                    echo "2. Gemini CLI"
+                    backend_count=$((backend_count + 1))
+                fi
+                if command -v ollama &> /dev/null; then
+                    echo "3. ollama (local)"
+                    backend_count=$((backend_count + 1))
+                fi
+
+                if [ $backend_count -eq 0 ]; then
+                    echo "❌ No backends available! Please install claude, gemini, or ollama"
+                else
+                    echo ""
+                    echo "Top unprocessed languages:"
+                    cd bahaiwritings
+                    dolt sql -q "
+                        SELECT language, COUNT(*) - COUNT(phelps) as unmatched_prayers
+                        FROM writings
+                        WHERE language != 'en' AND phelps IS NULL AND language NOT LIKE '%-translit'
+                        GROUP BY language
+                        ORDER BY unmatched_prayers DESC
+                        LIMIT 10
+                    "
+                    cd ..
+                    echo ""
+                    read -p "Enter language code: " lang_code
+                    read -p "Use Claude CLI? (Y/n): " use_claude
+                    if [[ $use_claude =~ ^[Nn]$ ]]; then
+                        ./prayer-matcher -language="$lang_code" -compressed -gemini
+                    else
+                        ./prayer-matcher -language="$lang_code" -compressed -cli
+                    fi
+                fi
+                ;;
+            5)
+                echo ""
+                echo "🚀 Starting: Retry Saved Batches"
+                echo "═══════════════════════════════"
+                ./prayer-matcher -retry
+                ;;
+            6)
+                echo ""
+                echo "🌐 Top Unprocessed Languages"
+                echo "═══════════════════════════"
+                cd bahaiwritings
+                echo "Languages with most unmatched prayers:"
+                dolt sql -q "
+                    SELECT
+                        language,
+                        COUNT(*) as total_prayers,
+                        COUNT(*) - COUNT(phelps) as unmatched_prayers,
+                        ROUND((COUNT(phelps) * 100.0 / COUNT(*)), 1) as completion_percent
+                    FROM writings
+                    WHERE language != 'en' AND language NOT LIKE '%-translit'
+                    GROUP BY language
+                    HAVING unmatched_prayers > 0
+                    ORDER BY unmatched_prayers DESC
+                    LIMIT 20
+                "
+                cd ..
+                ;;
+            7)
+                echo ""
+                echo "🔧 Backend Configuration Test"
+                echo "═══════════════════════════════"
+                echo "Testing available backends..."
+                echo ""
+
+                if command -v claude &> /dev/null; then
+                    echo "Testing Claude CLI..."
+                    if timeout 10 echo "test" | claude --quiet > /dev/null 2>&1; then
+                        echo "✅ Claude CLI: Working"
+                    else
+                        echo "❌ Claude CLI: Not responding"
+                    fi
+                else
+                    echo "❌ Claude CLI: Not installed"
+                fi
+
+                if command -v gemini &> /dev/null; then
+                    echo "Testing Gemini CLI..."
+                    if timeout 10 gemini generate "test" > /dev/null 2>&1; then
+                        echo "✅ Gemini CLI: Working"
+                    else
+                        echo "❌ Gemini CLI: Not responding (may need authentication)"
+                    fi
+                else
+                    echo "❌ Gemini CLI: Not installed"
+                fi
+
+                if command -v ollama &> /dev/null; then
+                    echo "Testing ollama..."
+                    if timeout 10 ollama list > /dev/null 2>&1; then
+                        echo "✅ ollama: Working"
+                        echo "Available models:"
+                        ollama list
+                    else
+                        echo "❌ ollama: Not responding (service may be down)"
+                    fi
+                else
+                    echo "❌ ollama: Not installed"
+                fi
+                ;;
+            8)
+                echo ""
+                echo "📁 File Management"
+                echo "═════════════════"
+                echo "Current directory contents:"
+                ls -la *.log *.json *.processed *.txt 2>/dev/null | head -20 || echo "No temporary files found"
+                echo ""
+                echo "1. Clean old log files"
+                echo "2. Remove processed batch files"
+                echo "3. Show disk usage"
+                read -p "Choose option (1-3): " file_choice
+
+                case $file_choice in
+                    1)
+                        echo "Cleaning log files older than 7 days..."
+                        find . -name "*.log" -mtime +7 -delete 2>/dev/null || echo "No old log files found"
+                        echo "✅ Done"
+                        ;;
+                    2)
+                        echo "Removing processed batch files..."
+                        rm -f *.processed 2>/dev/null || echo "No processed files found"
+                        echo "✅ Done"
+                        ;;
+                    3)
+                        echo "Disk usage:"
+                        du -sh . 2>/dev/null || echo "Could not calculate disk usage"
+                        echo "Detailed breakdown:"
+                        du -sh bahaiwritings *.log *.json 2>/dev/null || echo "No large files found"
+                        ;;
+                esac
+                ;;
+            9)
+                echo ""
+                echo "🛠️  Entering Command Line Mode"
+                echo "═════════════════════════════"
+                echo "Available commands:"
+                echo "./prayer-matcher -help                    # Show all options"
+                echo "./prayer-matcher -status                  # Database status"
+                echo "./prayer-matcher -ultra -cli              # Process all languages"
+                echo "./prayer-matcher -language=es -compressed -cli   # Single language"
+                echo "./prayer-matcher -smart-fallback          # Auto backend selection"
+                echo "./prayer-matcher -retry                   # Retry saved batches"
+                echo ""
+                echo "Type 'menu' to return to this menu, or 'exit' to quit"
+                echo ""
+                while true; do
+                    read -p "prayer-matcher> " cmd
+                    case $cmd in
+                        "menu")
+                            break
+                            ;;
+                        "exit"|"quit")
+                            exit 0
+                            ;;
+                        "")
+                            ;;
+                        *)
+                            eval "./prayer-matcher $cmd" || echo "Command failed. Try './prayer-matcher -help'"
+                            ;;
+                    esac
+                done
+                ;;
+            q|quit|exit)
+                echo ""
+                echo "👋 Goodbye!"
+                exit 0
+                ;;
+            *)
+                echo ""
+                echo "❌ Invalid choice: $choice"
+                echo "Please enter a number from 1-9 or 'q' to quit."
+                ;;
+        esac
+
+        if [ "$choice" != "9" ]; then
+            echo ""
+            read -p "Press Enter to continue..."
+        fi
+    done
+
+else
+    # Arguments provided - pass through to original prayer-matcher
+    exec ./prayer-matcher "$@"
+fi

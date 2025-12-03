@@ -1,0 +1,17 @@
+PRAYER MATCHING SUMMARY - ZH-HANS
+Generated: 2025-11-29 00:23:01
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 49
+High confidence matches: 47 (95.9%)
+Low confidence matches:  0 (0.0%)
+Ambiguous matches:       2 (4.1%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Resolve ambiguous matches in: review_ambiguous_zh-Hans_*.txt
+□ 47 high confidence matches applied automatically
+
+Next steps: Review files, make corrections, then run database updates.

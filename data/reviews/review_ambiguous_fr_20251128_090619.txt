@@ -1,0 +1,32 @@
+AMBIGUOUS MATCHES - FR
+Generated: 2025-11-28 09:06:19
+Total items: 2
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/2] Target Prayer: fd85caa9-6123-43b6-8425-35e3bab3c7ca
+Suggested Phelps: BH00009AWA
+Match Type: AMBIGUOUS
+Confidence: 60%
+Reasons: multiple_candidates_met_likely_criteria
+Ambiguity: multiple candidates with similar characteristics
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/2] Target Prayer: ffb6b4de-e147-4e7e-8281-5957f5fc0c94
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: 60%
+Reasons: multiple_candidates_met_likely_criteria
+Ambiguity: multiple candidates with similar characteristics
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

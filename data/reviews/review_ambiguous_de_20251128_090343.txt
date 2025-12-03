@@ -1,0 +1,102 @@
+AMBIGUOUS MATCHES - DE
+Generated: 2025-11-28 09:03:43
+Total items: 9
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/9] Target Prayer: 01a6c5f2-6540-4c1c-a509-5f915e88652c
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: 79%
+Reasons: word_count_similar, opening_closing_similar
+Ambiguity: best match score is moderate, consider manual review
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/9] Target Prayer: 20585693-3158-4018-baf9-ad20db089053
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: 79%
+Reasons: word_count_similar, opening_closing_similar
+Ambiguity: best match score is moderate, consider manual review
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/9] Target Prayer: 2074ae8f-7ef8-434b-837d-c977ac8adc11
+Suggested Phelps: BH09401
+Match Type: AMBIGUOUS
+Confidence: 79%
+Reasons: word_count_similar, opening_closing_similar
+Ambiguity: best match score is moderate, consider manual review
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/9] Target Prayer: 20f05283-e2a8-4ee1-a495-cf95bbddc0b1
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: 79%
+Reasons: word_count_similar, opening_closing_similar
+Ambiguity: best match score is moderate, consider manual review
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/9] Target Prayer: 2f320a96-34b3-48f2-b1e7-01c6a433b906
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: 79%
+Reasons: word_count_similar, opening_closing_similar
+Ambiguity: best match score is moderate, consider manual review
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/9] Target Prayer: 55f7e3f4-b821-413e-8ff7-45826ab3d926
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: 79%
+Reasons: word_count_similar, opening_closing_similar
+Ambiguity: best match score is moderate, consider manual review
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/9] Target Prayer: 69305c1e-9ba0-4522-8f80-278b4b75ad7b
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: 79%
+Reasons: word_count_similar, opening_closing_similar
+Ambiguity: best match score is moderate, consider manual review
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/9] Target Prayer: c8912c6e-b1bd-49b8-97e2-03a4f72e7747
+Suggested Phelps: BH09960
+Match Type: AMBIGUOUS
+Confidence: 79%
+Reasons: word_count_similar, opening_closing_similar
+Ambiguity: best match score is moderate, consider manual review
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/9] Target Prayer: ca681983-4036-4984-8d47-6432c2206489
+Suggested Phelps: BH09401
+Match Type: AMBIGUOUS
+Confidence: 79%
+Reasons: word_count_similar, opening_closing_similar
+Ambiguity: best match score is moderate, consider manual review
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

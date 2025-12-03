@@ -1,0 +1,17 @@
+PRAYER MATCHING SUMMARY - HAW
+Generated: 2025-11-28 13:50:45
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 308
+High confidence matches: 296 (96.1%)
+Low confidence matches:  0 (0.0%)
+Ambiguous matches:       12 (3.9%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Resolve ambiguous matches in: review_ambiguous_haw_*.txt
+□ 296 high confidence matches applied automatically
+
+Next steps: Review files, make corrections, then run database updates.

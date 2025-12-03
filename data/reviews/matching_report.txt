@@ -1,0 +1,12 @@
+Structured Prayer Matching Report
+==================================
+Started: 2025-11-29T00:44:40Z
+Target Language: hy
+English References: 280
+Target Prayers: 71
+Dry Run: false
+
+Processing in 10 chunks
+
+
+=== CHUNK 1/10 ===

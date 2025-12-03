@@ -1,0 +1,18 @@
+PRAYER MATCHING SUMMARY - WAM
+Generated: 2025-11-28 17:50:25
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 340
+High confidence matches: 98 (28.8%)
+Low confidence matches:  18 (5.3%)
+Ambiguous matches:       224 (65.9%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Review low confidence matches in: review_low_confidence_wam_*.txt
+□ Resolve ambiguous matches in: review_ambiguous_wam_*.txt
+□ 98 high confidence matches applied automatically
+
+Next steps: Review files, make corrections, then run database updates.

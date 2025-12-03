@@ -1,0 +1,75 @@
+LOW CONFIDENCE MATCHES - BS
+Generated: 2025-11-28 19:52:03
+Total items: 7
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/7] Target Prayer: 
+Suggested Phelps: AB11605
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=50)%
+Ambiguity: no_suitable_match_found
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/7] Target Prayer: 
+Suggested Phelps: AB00065STE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=50)%
+Ambiguity: no_suitable_match_found
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/7] Target Prayer: 
+Suggested Phelps: AB09040
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=50)%
+Ambiguity: no_suitable_match_found
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/7] Target Prayer: 
+Suggested Phelps: BB00018ADJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=50)%
+Ambiguity: no_suitable_match_found
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/7] Target Prayer: 
+Suggested Phelps: AB02000DIS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=50)%
+Ambiguity: no_suitable_match_found
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/7] Target Prayer: 
+Suggested Phelps: BH00074BLE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=50)%
+Ambiguity: no_suitable_match_found
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/7] Target Prayer: 
+Suggested Phelps: BH00074BLE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=50)%
+Ambiguity: no_suitable_match_found
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

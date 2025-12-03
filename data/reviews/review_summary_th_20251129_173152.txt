@@ -1,0 +1,16 @@
+PRAYER MATCHING SUMMARY - TH
+Generated: 2025-11-29 17:31:52
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 345
+High confidence matches: 0 (0.0%)
+Low confidence matches:  0 (0.0%)
+Ambiguous matches:       345 (100.0%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Resolve ambiguous matches in: review_ambiguous_th_*.txt
+
+Next steps: Review files, make corrections, then run database updates.

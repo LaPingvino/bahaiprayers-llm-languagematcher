@@ -1,0 +1,4098 @@
+LOW CONFIDENCE MATCHES - FA
+Generated: 2025-11-28 13:00:27
+Total items: 454
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer specifically for infants found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer specifically for infants found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong match found for forgiveness prayer with similar opening.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong match found for forgiveness prayer with similar opening.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer specifically for children found with similar key terms or structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer specifically for children found with similar key terms or structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer specifically for children found with similar key terms or structure.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Long Obligatory Prayer found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Long Obligatory Prayer found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Long Obligatory Prayer found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Long Obligatory Prayer found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Tablet of the Holy Mariner found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Tablet of the Holy Mariner found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Tablet of the Holy Mariner found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Tablet of the Holy Mariner found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Tablet of the Holy Mariner found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for youth found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for youth found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for youth found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for youth found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for youth found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer specifically for infants found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[123/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer specifically for infants found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[124/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[125/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[126/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[127/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[128/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[129/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[130/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[131/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[132/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[133/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[134/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[135/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[136/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[137/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[138/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[139/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[140/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[141/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[142/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[143/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[144/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[145/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[146/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[147/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[148/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[149/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[150/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[151/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[152/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[153/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[154/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[155/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[156/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[157/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[158/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[159/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[160/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[161/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[162/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[163/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[164/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[165/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[166/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[167/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[168/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[169/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[170/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[171/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[172/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[173/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[174/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[175/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[176/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[177/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[178/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[179/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[180/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[181/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[182/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[183/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[184/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[185/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[186/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[187/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[188/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[189/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[190/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[191/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[192/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[193/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[194/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[195/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[196/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[197/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[198/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[199/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0070GAT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[200/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0070GAT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[201/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0070GAT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[202/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0070GAT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[203/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[204/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[205/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[206/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[207/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[208/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[209/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[210/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[211/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[212/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[213/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[214/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[215/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[216/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[217/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[218/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[219/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[220/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[221/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[222/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[223/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[224/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[225/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[226/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[227/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[228/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[229/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[230/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[231/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[232/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[233/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for husbands found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[234/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for husbands found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[235/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for husbands found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[236/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for husbands found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[237/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[238/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[239/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[240/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[241/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[242/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[243/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[244/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[245/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[246/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[247/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[248/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[249/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[250/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[251/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[252/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[253/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[254/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[255/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[256/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[257/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[258/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[259/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[260/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[261/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[262/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB11356
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer specifically for infants found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[263/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB11356
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer specifically for infants found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[264/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[265/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[266/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[267/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[268/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No strong semantic match for specific attributes in opening or key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[269/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02825
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[270/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02825
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[271/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02825
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[272/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02825
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[273/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB02825
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[274/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH06296
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[275/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH06296
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[276/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH06296
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[277/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH06296
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[278/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH06296
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[279/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10492
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[280/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10492
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[281/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10492
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[282/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10492
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[283/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10492
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[284/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00314HOR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[285/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00314HOR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[286/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00314HOR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[287/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00314HOR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[288/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00314HOR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[289/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00169BEH
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[290/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00169BEH
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[291/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00169BEH
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[292/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00169BEH
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[293/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00169BEH
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[294/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00787SPL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[295/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00787SPL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[296/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00787SPL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[297/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00787SPL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[298/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00787SPL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[299/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0095KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[300/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0095KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[301/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0095KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[302/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: ABU0095KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[303/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00554
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[304/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00554
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[305/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00554
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[306/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00554
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[307/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00554
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[308/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09874
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[309/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09874
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[310/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09874
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[311/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09874
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[312/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09874
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[313/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB04980HOP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[314/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB04980HOP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[315/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB04980HOP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[316/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB04980HOP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[317/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB04980HOP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[318/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00147GRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[319/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00147GRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[320/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00147GRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[321/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00147GRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[322/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00147GRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[323/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07663
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[324/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07663
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[325/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07663
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[326/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07663
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[327/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07663
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[328/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00018ANG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[329/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00018ANG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[330/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00018ANG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[331/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00018ANG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[332/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00018ANG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[333/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH10231
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[334/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH10231
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[335/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH10231
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[336/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH10231
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[337/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH10231
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[338/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05543
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[339/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05543
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[340/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05543
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[341/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05543
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[342/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05543
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[343/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03461MAR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Baha'i marriage prayer found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[344/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03461MAR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Baha'i marriage prayer found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[345/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03461MAR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Baha'i marriage prayer found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[346/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03461MAR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Baha'i marriage prayer found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[347/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB03461MAR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No Baha'i marriage prayer found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[348/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09809
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[349/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09809
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[350/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09809
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[351/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09809
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[352/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09809
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[353/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[354/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[355/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[356/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[357/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[358/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05801
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[359/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05801
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[360/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05801
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[361/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05801
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[362/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH05801
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[363/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[364/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[365/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[366/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[367/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[368/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for expectant mothers found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[369/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for expectant mothers found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[370/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for expectant mothers found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[371/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for expectant mothers found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[372/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No specific prayer for expectant mothers found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[373/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[374/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[375/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[376/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[377/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[378/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer for women found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[379/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer for women found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[380/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer for women found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[381/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer for women found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[382/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer for women found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[383/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[384/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[385/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[386/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[387/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[388/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00156LOW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[389/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00156LOW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[390/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00156LOW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[391/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00156LOW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[392/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00156LOW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[393/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[394/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[395/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[396/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[397/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[398/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00593
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[399/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00593
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[400/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00593
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[401/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00593
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[402/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00593
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[403/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09404
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[404/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09404
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[405/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09404
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[406/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09404
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[407/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09404
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[408/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00015SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[409/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00015SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[410/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00015SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[411/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00015SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[412/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BB00015SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No exact or strong semantic match found.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[413/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH02848
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[414/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH02848
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[415/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH02848
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[416/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH02848
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[417/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH02848
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[418/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03629GRI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[419/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03629GRI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[420/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03629GRI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[421/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03629GRI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[422/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH03629GRI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[423/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07683
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[424/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07683
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[425/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07683
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[426/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07683
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[427/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07683
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[428/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00634
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[429/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00634
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[430/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00634
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[431/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00634
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[432/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH00634
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[433/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09289
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[434/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09289
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[435/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09289
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[436/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09289
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[437/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH09289
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[438/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00553
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[439/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00553
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[440/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00553
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[441/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00553
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[442/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00553
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[443/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00189AID
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[444/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00189AID
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[445/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00189AID
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[446/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB00189AID
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[447/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07721
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[448/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07721
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[449/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07721
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[450/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07721
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[451/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: BH07721
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[452/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10685
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[453/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10685
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[454/454] Target Prayer: NEW_TRANSLATION
+Suggested Phelps: AB10685
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No prayer found with similar specific opening and key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

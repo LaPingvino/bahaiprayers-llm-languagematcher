@@ -1,0 +1,4422 @@
+AMBIGUOUS MATCHES - CY
+Generated: 2025-11-28 13:50:26
+Total items: 441
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/441] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/441] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only a few key terms and type match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/441] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only a few key terms and type match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/441] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only a few key terms and type match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/441] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match
+Ambiguity: Only type matches, very few key terms overlap, and structural/word count differences are significant.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/441] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/441] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/441] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/441] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/441] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/441] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/441] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/441] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/441] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/441] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/441] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/441] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/441] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/441] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/441] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/441] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/441] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/441] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/441] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/441] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/441] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/441] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/441] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/441] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/441] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/441] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/441] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/441] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/441] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/441] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/441] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/441] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/441] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/441] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/441] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/441] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/441] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/441] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/441] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/441] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/441] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/441] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/441] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/441] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/441] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/441] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/441] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/441] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/441] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/441] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/441] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/441] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/441] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/441] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/441] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/441] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/441] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/441] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/441] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/441] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/441] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/441] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/441] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/441] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/441] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/441] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/441] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/441] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/441] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/441] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/441] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/441] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/441] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/441] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/441] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/441] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/441] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/441] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/441] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/441] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/441] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/441] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/441] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/441] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/441] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/441] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/441] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/441] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/441] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/441] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/441] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/441] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/441] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/441] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/441] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/441] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/441] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/441] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/441] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/441] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/441] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/441] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/441] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/441] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/441] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/441] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/441] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/441] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/441] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/441] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/441] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/441] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/441] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/441] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/441] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/441] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/441] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[123/441] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[124/441] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[125/441] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[126/441] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[127/441] Target Prayer: 
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[128/441] Target Prayer: 
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[129/441] Target Prayer: 
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[130/441] Target Prayer: 
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[131/441] Target Prayer: 
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[132/441] Target Prayer: 
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[133/441] Target Prayer: 
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[134/441] Target Prayer: 
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[135/441] Target Prayer: 
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[136/441] Target Prayer: 
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[137/441] Target Prayer: 
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[138/441] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[139/441] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[140/441] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[141/441] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[142/441] Target Prayer: 
+Suggested Phelps: AB00431PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[143/441] Target Prayer: 
+Suggested Phelps: AB00431PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[144/441] Target Prayer: 
+Suggested Phelps: AB00431PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[145/441] Target Prayer: 
+Suggested Phelps: AB00431PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[146/441] Target Prayer: 
+Suggested Phelps: BH03109KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[147/441] Target Prayer: 
+Suggested Phelps: BH03109KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[148/441] Target Prayer: 
+Suggested Phelps: BH03109KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[149/441] Target Prayer: 
+Suggested Phelps: BH03109KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[150/441] Target Prayer: 
+Suggested Phelps: AB02326
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[151/441] Target Prayer: 
+Suggested Phelps: AB02326
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[152/441] Target Prayer: 
+Suggested Phelps: AB02326
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[153/441] Target Prayer: 
+Suggested Phelps: AB02326
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[154/441] Target Prayer: 
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[155/441] Target Prayer: 
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[156/441] Target Prayer: 
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[157/441] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[158/441] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[159/441] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[160/441] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[161/441] Target Prayer: 
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[162/441] Target Prayer: 
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[163/441] Target Prayer: 
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[164/441] Target Prayer: 
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[165/441] Target Prayer: 
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[166/441] Target Prayer: 
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[167/441] Target Prayer: 
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[168/441] Target Prayer: 
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[169/441] Target Prayer: 
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[170/441] Target Prayer: 
+Suggested Phelps: ABU0188TUR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[171/441] Target Prayer: 
+Suggested Phelps: ABU0188TUR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[172/441] Target Prayer: 
+Suggested Phelps: ABU0188TUR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[173/441] Target Prayer: 
+Suggested Phelps: ABU0188TUR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[174/441] Target Prayer: 
+Suggested Phelps: BB00004REN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[175/441] Target Prayer: 
+Suggested Phelps: BB00004REN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[176/441] Target Prayer: 
+Suggested Phelps: BB00004REN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[177/441] Target Prayer: 
+Suggested Phelps: BB00004REN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[178/441] Target Prayer: 
+Suggested Phelps: AB07124
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[179/441] Target Prayer: 
+Suggested Phelps: AB07124
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[180/441] Target Prayer: 
+Suggested Phelps: AB07124
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[181/441] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[182/441] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[183/441] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[184/441] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[185/441] Target Prayer: 
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[186/441] Target Prayer: 
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[187/441] Target Prayer: 
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[188/441] Target Prayer: 
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[189/441] Target Prayer: 
+Suggested Phelps: AB11605
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: key_terms_overlap
+Ambiguity: Key term overlap is low, short prayer, difficult to determine high confidence match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[190/441] Target Prayer: 
+Suggested Phelps: AB11605
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[191/441] Target Prayer: 
+Suggested Phelps: AB11605
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[192/441] Target Prayer: 
+Suggested Phelps: AB11605
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[193/441] Target Prayer: 
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[194/441] Target Prayer: 
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[195/441] Target Prayer: 
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[196/441] Target Prayer: 
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[197/441] Target Prayer: 
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[198/441] Target Prayer: 
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[199/441] Target Prayer: 
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[200/441] Target Prayer: 
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[201/441] Target Prayer: 
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[202/441] Target Prayer: 
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[203/441] Target Prayer: 
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[204/441] Target Prayer: 
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[205/441] Target Prayer: 
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[206/441] Target Prayer: 
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[207/441] Target Prayer: 
+Suggested Phelps: BH10231
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[208/441] Target Prayer: 
+Suggested Phelps: BH10231
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[209/441] Target Prayer: 
+Suggested Phelps: BH10231
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[210/441] Target Prayer: 
+Suggested Phelps: BH10231
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[211/441] Target Prayer: 
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[212/441] Target Prayer: 
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[213/441] Target Prayer: 
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[214/441] Target Prayer: 
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[215/441] Target Prayer: 
+Suggested Phelps: AB03461MAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[216/441] Target Prayer: 
+Suggested Phelps: AB03461MAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[217/441] Target Prayer: 
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[218/441] Target Prayer: 
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[219/441] Target Prayer: 
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[220/441] Target Prayer: 
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[221/441] Target Prayer: 
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[222/441] Target Prayer: 
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[223/441] Target Prayer: 
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[224/441] Target Prayer: 
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[225/441] Target Prayer: 
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[226/441] Target Prayer: 
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[227/441] Target Prayer: 
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[228/441] Target Prayer: 
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[229/441] Target Prayer: 
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[230/441] Target Prayer: 
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[231/441] Target Prayer: 
+Suggested Phelps: BH00009GRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[232/441] Target Prayer: 
+Suggested Phelps: BH00009GRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[233/441] Target Prayer: 
+Suggested Phelps: BH00009GRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[234/441] Target Prayer: 
+Suggested Phelps: AB07155WOM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[235/441] Target Prayer: 
+Suggested Phelps: AB07155WOM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[236/441] Target Prayer: 
+Suggested Phelps: AB07155WOM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[237/441] Target Prayer: 
+Suggested Phelps: AB07155WOM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[238/441] Target Prayer: 
+Suggested Phelps: BB00147ORD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[239/441] Target Prayer: 
+Suggested Phelps: BB00147ORD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[240/441] Target Prayer: 
+Suggested Phelps: BB00147ORD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[241/441] Target Prayer: 
+Suggested Phelps: BB00147ORD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[242/441] Target Prayer: 
+Suggested Phelps: AB00728MDS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[243/441] Target Prayer: 
+Suggested Phelps: AB00728MDS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[244/441] Target Prayer: 
+Suggested Phelps: AB00728MDS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[245/441] Target Prayer: 
+Suggested Phelps: AB00728MDS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[246/441] Target Prayer: 
+Suggested Phelps: BH08824
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[247/441] Target Prayer: 
+Suggested Phelps: BH08824
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[248/441] Target Prayer: 
+Suggested Phelps: BH08824
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[249/441] Target Prayer: 
+Suggested Phelps: BH08824
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[250/441] Target Prayer: 
+Suggested Phelps: AB00156LOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[251/441] Target Prayer: 
+Suggested Phelps: AB00156LOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[252/441] Target Prayer: 
+Suggested Phelps: AB00156LOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[253/441] Target Prayer: 
+Suggested Phelps: AB00156LOW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[254/441] Target Prayer: 
+Suggested Phelps: AB00169FRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[255/441] Target Prayer: 
+Suggested Phelps: AB00169FRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[256/441] Target Prayer: 
+Suggested Phelps: AB00169FRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[257/441] Target Prayer: 
+Suggested Phelps: AB00169FRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[258/441] Target Prayer: 
+Suggested Phelps: BH00593
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[259/441] Target Prayer: 
+Suggested Phelps: BH00593
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[260/441] Target Prayer: 
+Suggested Phelps: BH00593
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[261/441] Target Prayer: 
+Suggested Phelps: BH00593
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[262/441] Target Prayer: 
+Suggested Phelps: BH09404
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[263/441] Target Prayer: 
+Suggested Phelps: BH09404
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[264/441] Target Prayer: 
+Suggested Phelps: BH09404
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[265/441] Target Prayer: 
+Suggested Phelps: BB00015SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[266/441] Target Prayer: 
+Suggested Phelps: BB00015SUF
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[267/441] Target Prayer: 
+Suggested Phelps: BH02848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[268/441] Target Prayer: 
+Suggested Phelps: BH02848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[269/441] Target Prayer: 
+Suggested Phelps: BH02848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[270/441] Target Prayer: 
+Suggested Phelps: BH03629GRI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[271/441] Target Prayer: 
+Suggested Phelps: BH03629GRI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[272/441] Target Prayer: 
+Suggested Phelps: BH03629GRI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[273/441] Target Prayer: 
+Suggested Phelps: BH07683
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[274/441] Target Prayer: 
+Suggested Phelps: BH07683
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[275/441] Target Prayer: 
+Suggested Phelps: BH07683
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[276/441] Target Prayer: 
+Suggested Phelps: BH07683
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[277/441] Target Prayer: 
+Suggested Phelps: BH00634
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[278/441] Target Prayer: 
+Suggested Phelps: BH00634
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[279/441] Target Prayer: 
+Suggested Phelps: BH00634
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[280/441] Target Prayer: 
+Suggested Phelps: BH00634
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[281/441] Target Prayer: 
+Suggested Phelps: BH09289
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[282/441] Target Prayer: 
+Suggested Phelps: BH09289
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[283/441] Target Prayer: 
+Suggested Phelps: BH09289
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[284/441] Target Prayer: 
+Suggested Phelps: BH09289
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[285/441] Target Prayer: 
+Suggested Phelps: AB00553
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[286/441] Target Prayer: 
+Suggested Phelps: AB00553
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[287/441] Target Prayer: 
+Suggested Phelps: AB00553
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[288/441] Target Prayer: 
+Suggested Phelps: AB00553
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[289/441] Target Prayer: 
+Suggested Phelps: AB00189AID
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[290/441] Target Prayer: 
+Suggested Phelps: AB00189AID
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[291/441] Target Prayer: 
+Suggested Phelps: AB00189AID
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[292/441] Target Prayer: 
+Suggested Phelps: AB00189AID
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[293/441] Target Prayer: 
+Suggested Phelps: BH07721
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[294/441] Target Prayer: 
+Suggested Phelps: BH07721
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[295/441] Target Prayer: 
+Suggested Phelps: BH07721
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[296/441] Target Prayer: 
+Suggested Phelps: BH07721
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[297/441] Target Prayer: 
+Suggested Phelps: AB10685
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[298/441] Target Prayer: 
+Suggested Phelps: AB10685
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[299/441] Target Prayer: 
+Suggested Phelps: AB10685
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[300/441] Target Prayer: 
+Suggested Phelps: AB10685
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[301/441] Target Prayer: 
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[302/441] Target Prayer: 
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[303/441] Target Prayer: 
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[304/441] Target Prayer: 
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[305/441] Target Prayer: 
+Suggested Phelps: AB00963IMP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[306/441] Target Prayer: 
+Suggested Phelps: AB00963IMP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[307/441] Target Prayer: 
+Suggested Phelps: AB00963IMP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[308/441] Target Prayer: 
+Suggested Phelps: AB00963IMP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[309/441] Target Prayer: 
+Suggested Phelps: BB00018MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[310/441] Target Prayer: 
+Suggested Phelps: BB00018MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[311/441] Target Prayer: 
+Suggested Phelps: BB00018MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[312/441] Target Prayer: 
+Suggested Phelps: BB00018MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[313/441] Target Prayer: 
+Suggested Phelps: AB00065STE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[314/441] Target Prayer: 
+Suggested Phelps: AB00065STE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[315/441] Target Prayer: 
+Suggested Phelps: AB00065STE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[316/441] Target Prayer: 
+Suggested Phelps: BH09085
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[317/441] Target Prayer: 
+Suggested Phelps: BH09085
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[318/441] Target Prayer: 
+Suggested Phelps: BH09085
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[319/441] Target Prayer: 
+Suggested Phelps: AB02596
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[320/441] Target Prayer: 
+Suggested Phelps: AB02596
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[321/441] Target Prayer: 
+Suggested Phelps: AB02596
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[322/441] Target Prayer: 
+Suggested Phelps: AB02596
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[323/441] Target Prayer: 
+Suggested Phelps: BH00009AWA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[324/441] Target Prayer: 
+Suggested Phelps: BH00009AWA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[325/441] Target Prayer: 
+Suggested Phelps: BH00009AWA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[326/441] Target Prayer: 
+Suggested Phelps: BH00009AWA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[327/441] Target Prayer: 
+Suggested Phelps: BH05894
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[328/441] Target Prayer: 
+Suggested Phelps: BH05894
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[329/441] Target Prayer: 
+Suggested Phelps: BH05894
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[330/441] Target Prayer: 
+Suggested Phelps: BH05894
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[331/441] Target Prayer: 
+Suggested Phelps: BH00238
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[332/441] Target Prayer: 
+Suggested Phelps: BH00238
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[333/441] Target Prayer: 
+Suggested Phelps: BH00238
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[334/441] Target Prayer: 
+Suggested Phelps: BH00238
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[335/441] Target Prayer: 
+Suggested Phelps: BB00543VIC
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[336/441] Target Prayer: 
+Suggested Phelps: BB00543VIC
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[337/441] Target Prayer: 
+Suggested Phelps: BB00543VIC
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[338/441] Target Prayer: 
+Suggested Phelps: BB00543VIC
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[339/441] Target Prayer: 
+Suggested Phelps: BH10688
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[340/441] Target Prayer: 
+Suggested Phelps: BH10688
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[341/441] Target Prayer: 
+Suggested Phelps: BH10688
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[342/441] Target Prayer: 
+Suggested Phelps: BB00100EXI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[343/441] Target Prayer: 
+Suggested Phelps: BB00100EXI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[344/441] Target Prayer: 
+Suggested Phelps: BB00100EXI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[345/441] Target Prayer: 
+Suggested Phelps: BB00100EXI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[346/441] Target Prayer: 
+Suggested Phelps: BH00154FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[347/441] Target Prayer: 
+Suggested Phelps: BH00154FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[348/441] Target Prayer: 
+Suggested Phelps: BH00154FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[349/441] Target Prayer: 
+Suggested Phelps: BH00009SHE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[350/441] Target Prayer: 
+Suggested Phelps: BH00009SHE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[351/441] Target Prayer: 
+Suggested Phelps: BH00009SHE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[352/441] Target Prayer: 
+Suggested Phelps: BH07180
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[353/441] Target Prayer: 
+Suggested Phelps: BH07180
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[354/441] Target Prayer: 
+Suggested Phelps: BH07180
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[355/441] Target Prayer: 
+Suggested Phelps: BH07180
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[356/441] Target Prayer: 
+Suggested Phelps: BH09498
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[357/441] Target Prayer: 
+Suggested Phelps: BH09498
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[358/441] Target Prayer: 
+Suggested Phelps: BH09498
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[359/441] Target Prayer: 
+Suggested Phelps: BH09498
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[360/441] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[361/441] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[362/441] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[363/441] Target Prayer: 
+Suggested Phelps: BB00002MEN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[364/441] Target Prayer: 
+Suggested Phelps: BB00002MEN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[365/441] Target Prayer: 
+Suggested Phelps: BB00002MEN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[366/441] Target Prayer: 
+Suggested Phelps: BB00002MEN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[367/441] Target Prayer: 
+Suggested Phelps: BH00308DES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[368/441] Target Prayer: 
+Suggested Phelps: BH00308DES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[369/441] Target Prayer: 
+Suggested Phelps: BH00308DES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[370/441] Target Prayer: 
+Suggested Phelps: BH00308DES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[371/441] Target Prayer: 
+Suggested Phelps: AB09040
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[372/441] Target Prayer: 
+Suggested Phelps: AB09040
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[373/441] Target Prayer: 
+Suggested Phelps: AB09040
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[374/441] Target Prayer: 
+Suggested Phelps: AB05167
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[375/441] Target Prayer: 
+Suggested Phelps: AB05167
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[376/441] Target Prayer: 
+Suggested Phelps: AB05167
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[377/441] Target Prayer: 
+Suggested Phelps: AB05167
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[378/441] Target Prayer: 
+Suggested Phelps: BB00018ADJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[379/441] Target Prayer: 
+Suggested Phelps: BB00018ADJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[380/441] Target Prayer: 
+Suggested Phelps: BB00018ADJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[381/441] Target Prayer: 
+Suggested Phelps: BH06026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[382/441] Target Prayer: 
+Suggested Phelps: BH06026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[383/441] Target Prayer: 
+Suggested Phelps: BH06026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[384/441] Target Prayer: 
+Suggested Phelps: BH06026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[385/441] Target Prayer: 
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[386/441] Target Prayer: 
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[387/441] Target Prayer: 
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[388/441] Target Prayer: 
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[389/441] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[390/441] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[391/441] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[392/441] Target Prayer: 
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[393/441] Target Prayer: 
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[394/441] Target Prayer: 
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[395/441] Target Prayer: 
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[396/441] Target Prayer: 
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[397/441] Target Prayer: 
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[398/441] Target Prayer: 
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[399/441] Target Prayer: 
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[400/441] Target Prayer: 
+Suggested Phelps: BH06296
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[401/441] Target Prayer: 
+Suggested Phelps: BH06296
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[402/441] Target Prayer: 
+Suggested Phelps: BH06296
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[403/441] Target Prayer: 
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[404/441] Target Prayer: 
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[405/441] Target Prayer: 
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[406/441] Target Prayer: 
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[407/441] Target Prayer: 
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[408/441] Target Prayer: 
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[409/441] Target Prayer: 
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[410/441] Target Prayer: 
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[411/441] Target Prayer: 
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[412/441] Target Prayer: 
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[413/441] Target Prayer: 
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[414/441] Target Prayer: 
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[415/441] Target Prayer: 
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[416/441] Target Prayer: 
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[417/441] Target Prayer: 
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[418/441] Target Prayer: 
+Suggested Phelps: ABU0095KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[419/441] Target Prayer: 
+Suggested Phelps: ABU0095KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[420/441] Target Prayer: 
+Suggested Phelps: ABU0095KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[421/441] Target Prayer: 
+Suggested Phelps: ABU0095KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[422/441] Target Prayer: 
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[423/441] Target Prayer: 
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[424/441] Target Prayer: 
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[425/441] Target Prayer: 
+Suggested Phelps: BB00554
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[426/441] Target Prayer: 
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[427/441] Target Prayer: 
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[428/441] Target Prayer: 
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[429/441] Target Prayer: 
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[430/441] Target Prayer: 
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[431/441] Target Prayer: 
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[432/441] Target Prayer: 
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[433/441] Target Prayer: 
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[434/441] Target Prayer: 
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[435/441] Target Prayer: 
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[436/441] Target Prayer: 
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[437/441] Target Prayer: 
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[438/441] Target Prayer: 
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[439/441] Target Prayer: 
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[440/441] Target Prayer: 
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_match, some_key_terms_overlap
+Ambiguity: Only type and a few key terms match; significant structural and word count differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[441/441] Target Prayer: 
+Suggested Phelps: ABU0023UNI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=45)%
+Reasons: partial_key_terms_overlap
+Ambiguity: Low key term overlap and structural differences.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

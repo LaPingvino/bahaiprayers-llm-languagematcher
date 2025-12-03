@@ -1,0 +1,302 @@
+AMBIGUOUS MATCHES - IT
+Generated: 2025-11-28 14:26:31
+Total items: 29
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/29] Target Prayer: 2d0e2940-9e84-48e5-94f6-9c3034f3c740
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_word_count, key_terms_overlap, opening_phrase_contains_keywords
+Ambiguity: Opening phrase uses different structure ('suffer me not' vs 'mi sono svegliato sotto l’ègida tua')
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/29] Target Prayer: d6f8846c355d
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Italian prayer is longer, and opening/closing are not a direct match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/29] Target Prayer: 17d0c5924a7e
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme seems related.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/29] Target Prayer: d592190e-a252-428c-b145-243b69dbd4c0
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: key_terms_overlap, opening_phrase_contains_keywords
+Ambiguity: High word/char count discrepancy. May be a different prayer with similar key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/29] Target Prayer: 1a4875fd-b697-4e76-adca-7c01a8def4f2
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but core key terms and length are similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/29] Target Prayer: 54d399fa0645
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_word_count, key_terms_overlap, opening_phrase_contains_keywords
+Ambiguity: Opening phrases are different, but theme is related.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/29] Target Prayer: 3d53364516f5
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: key_terms_overlap, opening_phrase_contains_keywords
+Ambiguity: High word/char count discrepancy. May be a different prayer with similar key terms.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/29] Target Prayer: dcbce480dc0f
+Suggested Phelps: BH07426FOO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Italian prayer is slightly shorter, and key term match is not very strong.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/29] Target Prayer: d6f8846c355d
+Suggested Phelps: BH08264
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_word_count, key_terms_overlap, opening_phrase_contains_keywords
+Ambiguity: Similar opening but closing and specific phrases diverge.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/29] Target Prayer: 223986cc10cb
+Suggested Phelps: BB00374
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, and only some key terms match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/29] Target Prayer: 456f06a3-28b2-494d-997c-0a29a36db091
+Suggested Phelps: AB02326
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme and some key terms match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/29] Target Prayer: 287435ad3c8c
+Suggested Phelps: BH05894
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme and some key terms match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/29] Target Prayer: 755d0b451a65
+Suggested Phelps: BH00154FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme and some key terms match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/29] Target Prayer: 269e699e2522
+Suggested Phelps: BB00002MEN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme is related.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/29] Target Prayer: 1905eea9c4fd
+Suggested Phelps: AB05167
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but key terms and length similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/29] Target Prayer: e3563513231d
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but key terms and length similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/29] Target Prayer: 2d4829c6b947
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme is related and key terms overlap.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/29] Target Prayer: 34b46002-3474-4dd9-9856-6f5aba878d1f
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme and some key terms match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/29] Target Prayer: d6f8846c355d
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme is related.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/29] Target Prayer: 93481848-884a-4ec2-88a1-f880359cac16
+Suggested Phelps: BH00868WIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme and some key terms match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/29] Target Prayer: 0c02233c-f7b3-4efb-bdd0-5f82229a3f1e
+Suggested Phelps: AB08704NEW
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Theme is related (blessing a city/gathering), but not a direct match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/29] Target Prayer: 3a4078819b54
+Suggested Phelps: AB10685
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: No strong opening/closing phrase match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/29] Target Prayer: bc8ef58c-8a12-4f89-8153-fb2f9f686cf5
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme and some key terms match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/29] Target Prayer: 50df3073-ac5b-4642-bfd5-468326a472f2
+Suggested Phelps: BB00018MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but key terms and length similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/29] Target Prayer: 755d0b451a65
+Suggested Phelps: BH00154FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme and some key terms match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/29] Target Prayer: 269e699e2522
+Suggested Phelps: BB00002MEN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme is related.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/29] Target Prayer: 1905eea9c4fd
+Suggested Phelps: AB05167
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=55)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but key terms and length similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/29] Target Prayer: e3563513231d
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but key terms and length similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/29] Target Prayer: 2d4829c6b947
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=50)%
+Reasons: similar_word_count, key_terms_overlap
+Ambiguity: Opening phrases are different, but theme is related and key terms overlap.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

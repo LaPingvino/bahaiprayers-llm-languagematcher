@@ -1,0 +1,3242 @@
+AMBIGUOUS MATCHES - SK
+Generated: 2025-11-29 17:31:35
+Total items: 323
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/323] Target Prayer: 59da975e-44fa-4869-ae06-9e4f261c4d7e
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/323] Target Prayer: b17173d9-cd79-47d3-9955-77a2dad4571a
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/323] Target Prayer: 0260092508dc
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/323] Target Prayer: 56979dda-16b2-483a-880d-ce384e8bd1f2
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Word count is close, but opening/closing phrases and key terms don't provide strong matches.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/323] Target Prayer: b17173d9-cd79-47d3-9955-77a2dad4571a
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: some_key_term_overlap
+Ambiguity: Some key terms overlap, but no strong textual or structural matches.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/323] Target Prayer: 4cbee086-1298-4746-bd72-a9a30920b743
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: some_key_term_overlap
+Ambiguity: Some key terms overlap, but no strong textual or structural matches.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: some_key_term_overlap
+Ambiguity: Some key terms overlap, but no strong textual or structural matches.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/323] Target Prayer: ad349af8-4e91-4375-af7d-eb6dac12ad15
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: some_key_term_overlap
+Ambiguity: Some key terms overlap, but no strong textual or structural matches.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/323] Target Prayer: 3457dcc02196
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Similar word count and some key term overlap, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/323] Target Prayer: 8e5e731e0548
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Similar word count and some key term overlap, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/323] Target Prayer: 0ef370bb-df98-4555-9b01-7987206accba
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Similar word count and some key term overlap, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/323] Target Prayer: 4681ab3dc2d1
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: some_key_term_overlap
+Ambiguity: Some key terms overlap, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/323] Target Prayer: 4ff336c494ec
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Similar word count and some key term overlap, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/323] Target Prayer: ffbe3d291ea6
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_char_count, similar_word_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/323] Target Prayer: 2eb7a1ee2b67
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/323] Target Prayer: 8e5e731e0548
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/323] Target Prayer: d316670cb3ff
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/323] Target Prayer: aa13da890adf
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/323] Target Prayer: 248aa2189923
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/323] Target Prayer: a0e6c9dbb028
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/323] Target Prayer: cd9aa9344f80
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/323] Target Prayer: edfdb71991d7
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/323] Target Prayer: 0f8b84ca-9401-468e-8bd0-19a7265b00b9
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/323] Target Prayer: b17173d9-cd79-47d3-9955-77a2dad4571a
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/323] Target Prayer: aa13da890adf
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/323] Target Prayer: b5da693088d3
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/323] Target Prayer: 7742a386-3f88-43e7-9519-5ea39f15e066
+Suggested Phelps: BHU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count
+Ambiguity: Word count is somewhat similar, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/323] Target Prayer: a0e6c9dbb028
+Suggested Phelps: BHU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count
+Ambiguity: Word count is somewhat similar, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/323] Target Prayer: 412c867fe6de
+Suggested Phelps: BHU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count
+Ambiguity: Word count is somewhat similar, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/323] Target Prayer: 4681ab3dc2d1
+Suggested Phelps: BHU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count
+Ambiguity: Word count is somewhat similar, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: BHU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count
+Ambiguity: Word count is somewhat similar, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/323] Target Prayer: 0195092a142e
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/323] Target Prayer: 32765ff08a24
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/323] Target Prayer: 0195092a142e
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/323] Target Prayer: 32765ff08a24
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/323] Target Prayer: 248aa2189923
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/323] Target Prayer: a0e6c9dbb028
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/323] Target Prayer: cd9aa9344f80
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/323] Target Prayer: edfdb71991d7
+Suggested Phelps: BH09872
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/323] Target Prayer: 7a364b1ecb84
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/323] Target Prayer: d48e20f8-4023-4f38-9ccf-a3ce2755aac1
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/323] Target Prayer: 69bf184f-7626-47e3-9e62-f9b74361de34
+Suggested Phelps: BH05768
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/323] Target Prayer: eca3a7ab83fd
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/323] Target Prayer: d48e20f8-4023-4f38-9ccf-a3ce2755aac1
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/323] Target Prayer: 6aa869ab-67dd-4951-af5c-6c88ea912f47
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/323] Target Prayer: c36b36d46b89
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/323] Target Prayer: 381bb054-7b04-494b-875c-a3239feabf59
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/323] Target Prayer: 0195092a142e
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/323] Target Prayer: 32765ff08a24
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/323] Target Prayer: 8e5e731e0548
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/323] Target Prayer: a10bbe23fbb0
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/323] Target Prayer: 60ac6ef1f0fd
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/323] Target Prayer: 96347e7c0e5d
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/323] Target Prayer: 0f8b84ca-9401-468e-8bd0-19a7265b00b9
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/323] Target Prayer: b17173d9-cd79-47d3-9955-77a2dad4571a
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/323] Target Prayer: aa13da890adf
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/323] Target Prayer: b5da693088d3
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/323] Target Prayer: a89f38b2fe52
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/323] Target Prayer: 2dc7b4d0c299
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/323] Target Prayer: 0c3329ce2e53
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/323] Target Prayer: be55becd-2089-4fe6-a251-bf222e5ead1f
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/323] Target Prayer: 248aa2189923
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/323] Target Prayer: a0e6c9dbb028
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/323] Target Prayer: cd9aa9344f80
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/323] Target Prayer: edfdb71991d7
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/323] Target Prayer: 0f8b84ca-9401-468e-8bd0-19a7265b00b9
+Suggested Phelps: BH00155WOU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/323] Target Prayer: b17173d9-cd79-47d3-9955-77a2dad4571a
+Suggested Phelps: BH00155WOU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH00155WOU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/323] Target Prayer: aa13da890adf
+Suggested Phelps: BH00155WOU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/323] Target Prayer: b5da693088d3
+Suggested Phelps: BH00155WOU
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/323] Target Prayer: 0260092508dc
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/323] Target Prayer: 0260092508dc
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/323] Target Prayer: 0195092a142e
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/323] Target Prayer: 32765ff08a24
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/323] Target Prayer: 411c4cd84d71
+Suggested Phelps: BH09704
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_char_count, some_key_term_overlap
+Ambiguity: Char count is somewhat similar, and some key terms overlap, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/323] Target Prayer: e40d88736b61
+Suggested Phelps: BH09704
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_char_count, some_key_term_overlap
+Ambiguity: Char count is somewhat similar, and some key terms overlap, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/323] Target Prayer: 412c867fe6de
+Suggested Phelps: BH09704
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_char_count, some_key_term_overlap
+Ambiguity: Char count is somewhat similar, and some key terms overlap, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/323] Target Prayer: 4681ab3dc2d1
+Suggested Phelps: BH09704
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_char_count, some_key_term_overlap
+Ambiguity: Char count is somewhat similar, and some key terms overlap, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/323] Target Prayer: 6f1417b973c5
+Suggested Phelps: BH09704
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_char_count, some_key_term_overlap
+Ambiguity: Char count is somewhat similar, and some key terms overlap, but no strong textual or structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/323] Target Prayer: 0195092a142e
+Suggested Phelps: BH03470
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/323] Target Prayer: 32765ff08a24
+Suggested Phelps: BH03470
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: BH03470
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: BH03470
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/323] Target Prayer: 248aa2189923
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/323] Target Prayer: a0e6c9dbb028
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/323] Target Prayer: cd9aa9344f80
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/323] Target Prayer: edfdb71991d7
+Suggested Phelps: BH09855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/323] Target Prayer: 795225378d2b
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/323] Target Prayer: a0e6c9dbb028
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/323] Target Prayer: cd9aa9344f80
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/323] Target Prayer: edfdb71991d7
+Suggested Phelps: BH08855
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[123/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[124/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[125/323] Target Prayer: 7a364b1ecb84
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[126/323] Target Prayer: d48e20f8-4023-4f38-9ccf-a3ce2755aac1
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[127/323] Target Prayer: 6aa869ab-67dd-4951-af5c-6c88ea912f47
+Suggested Phelps: AB06211
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[128/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[129/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[130/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[131/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[132/323] Target Prayer: a89f38b2fe52
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[133/323] Target Prayer: 2dc7b4d0c299
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[134/323] Target Prayer: 0c3329ce2e53
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[135/323] Target Prayer: be55becd-2089-4fe6-a251-bf222e5ead1f
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[136/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[137/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[138/323] Target Prayer: 0260092508dc
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[139/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: AB10275
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[140/323] Target Prayer: 1ed19706-83a5-45d7-a4e2-e1ba120092ab
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[141/323] Target Prayer: 8e5e731e0548
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[142/323] Target Prayer: a10bbe23fbb0
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[143/323] Target Prayer: 60ac6ef1f0fd
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[144/323] Target Prayer: 96347e7c0e5d
+Suggested Phelps: BH04421HEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[145/323] Target Prayer: 1b542057-3a44-4828-aade-113392f17133
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[146/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[147/323] Target Prayer: 0260092508dc
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[148/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[149/323] Target Prayer: 37a225cb-f0d2-4f21-94e6-a0861c61eecc
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[150/323] Target Prayer: 60afcf43f92d
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[151/323] Target Prayer: 0f00cfef5f2a
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[152/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[153/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[154/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[155/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[156/323] Target Prayer: 0195092a142e
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[157/323] Target Prayer: 32765ff08a24
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[158/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[159/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[160/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[161/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[162/323] Target Prayer: 0260092508dc
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[163/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[164/323] Target Prayer: ffbe3d291ea6
+Suggested Phelps: BH07426FOO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Word count is somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[165/323] Target Prayer: 4cbee086-1298-4746-bd72-a9a30920b743
+Suggested Phelps: BH07426FOO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Word count is somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[166/323] Target Prayer: 1a1351f2-2e64-4dff-b47c-e64c233c652c
+Suggested Phelps: BH07426FOO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Word count is somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[167/323] Target Prayer: 0195092a142e
+Suggested Phelps: BB00002ENA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[168/323] Target Prayer: 32765ff08a24
+Suggested Phelps: BB00002ENA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[169/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: BB00002ENA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[170/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: BB00002ENA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[171/323] Target Prayer: 518637b97d7b
+Suggested Phelps: ABU0070GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[172/323] Target Prayer: 7b7b716c-e2a8-4aca-a3ab-64adf6ffedd0
+Suggested Phelps: ABU0070GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[173/323] Target Prayer: ab69a8aa-93f0-4574-800d-57bd31b423ca
+Suggested Phelps: ABU0070GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[174/323] Target Prayer: 1a1351f2-2e64-4dff-b47c-e64c233c652c
+Suggested Phelps: ABU0070GAT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[175/323] Target Prayer: 0195092a142e
+Suggested Phelps: BB00630
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[176/323] Target Prayer: 32765ff08a24
+Suggested Phelps: BB00630
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[177/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: BB00630
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[178/323] Target Prayer: 1a1351f2-2e64-4dff-b47c-e64c233c652c
+Suggested Phelps: BB00630
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[179/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH08264
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[180/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH08264
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[181/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH08264
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[182/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH08264
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[183/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH08852
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[184/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH08852
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[185/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH08852
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[186/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH08852
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[187/323] Target Prayer: a89f38b2fe52
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[188/323] Target Prayer: 2dc7b4d0c299
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[189/323] Target Prayer: 0c3329ce2e53
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[190/323] Target Prayer: be55becd-2089-4fe6-a251-bf222e5ead1f
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[191/323] Target Prayer: 37a225cb-f0d2-4f21-94e6-a0861c61eecc
+Suggested Phelps: BH09960
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[192/323] Target Prayer: 8e5e731e0548
+Suggested Phelps: BH09960
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[193/323] Target Prayer: a10bbe23fbb0
+Suggested Phelps: BH09960
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[194/323] Target Prayer: 60ac6ef1f0fd
+Suggested Phelps: BH09960
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[195/323] Target Prayer: 96347e7c0e5d
+Suggested Phelps: BH09960
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[196/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BB00374
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[197/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BB00374
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[198/323] Target Prayer: 0260092508dc
+Suggested Phelps: BB00374
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[199/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BB00374
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[200/323] Target Prayer: 05e744377509
+Suggested Phelps: AB03017CAL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[201/323] Target Prayer: e40d88736b61
+Suggested Phelps: AB03017CAL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[202/323] Target Prayer: b0c361a69d24
+Suggested Phelps: AB03017CAL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[203/323] Target Prayer: 60ac6ef1f0fd
+Suggested Phelps: AB03017CAL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[204/323] Target Prayer: 96347e7c0e5d
+Suggested Phelps: AB03017CAL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[205/323] Target Prayer: 1ed19706-83a5-45d7-a4e2-e1ba120092ab
+Suggested Phelps: AB11281
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[206/323] Target Prayer: 8e5e731e0548
+Suggested Phelps: AB11281
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[207/323] Target Prayer: a10bbe23fbb0
+Suggested Phelps: AB11281
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[208/323] Target Prayer: 60ac6ef1f0fd
+Suggested Phelps: AB11281
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[209/323] Target Prayer: 96347e7c0e5d
+Suggested Phelps: AB11281
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[210/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH00095MGX
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[211/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH00095MGX
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[212/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH00095MGX
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[213/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH00095MGX
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[214/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH08244
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[215/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH08244
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[216/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH08244
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[217/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH08244
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[218/323] Target Prayer: 411c4cd84d71
+Suggested Phelps: AB00431PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Word count is somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[219/323] Target Prayer: e40d88736b61
+Suggested Phelps: AB00431PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Word count is somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[220/323] Target Prayer: 412c867fe6de
+Suggested Phelps: AB00431PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Word count is somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[221/323] Target Prayer: 4681ab3dc2d1
+Suggested Phelps: AB00431PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Word count is somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[222/323] Target Prayer: 6f1417b973c5
+Suggested Phelps: AB00431PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_word_count, some_key_term_overlap
+Ambiguity: Word count is somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[223/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH05823UTX
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[224/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH05823UTX
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[225/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH05823UTX
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[226/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH05823UTX
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[227/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH03109KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[228/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH03109KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[229/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH03109KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[230/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH03109KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[231/323] Target Prayer: 2e5e0c90-2a44-4138-93b8-54a7d99f54f5
+Suggested Phelps: AB02326
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[232/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: AB02326
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[233/323] Target Prayer: 0260092508dc
+Suggested Phelps: AB02326
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[234/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: AB02326
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[235/323] Target Prayer: 0195092a142e
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[236/323] Target Prayer: 32765ff08a24
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[237/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[238/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: AB11356
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[239/323] Target Prayer: a89f38b2fe52
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[240/323] Target Prayer: 2dc7b4d0c299
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[241/323] Target Prayer: 0c3329ce2e53
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[242/323] Target Prayer: be55becd-2089-4fe6-a251-bf222e5ead1f
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[243/323] Target Prayer: 0195092a142e
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[244/323] Target Prayer: 32765ff08a24
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[245/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[246/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[247/323] Target Prayer: 161dec355d9c
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[248/323] Target Prayer: 767350ebcdb1
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[249/323] Target Prayer: 6d9e24d8-7675-47ad-99cb-9bdd022d8d6e
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[250/323] Target Prayer: 0250a5587afb
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[251/323] Target Prayer: 0195092a142e
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[252/323] Target Prayer: 32765ff08a24
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[253/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[254/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[255/323] Target Prayer: 05e744377509
+Suggested Phelps: ABU0188TUR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[256/323] Target Prayer: e40d88736b61
+Suggested Phelps: ABU0188TUR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[257/323] Target Prayer: b0c361a69d24
+Suggested Phelps: ABU0188TUR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[258/323] Target Prayer: 60ac6ef1f0fd
+Suggested Phelps: ABU0188TUR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[259/323] Target Prayer: 96347e7c0e5d
+Suggested Phelps: ABU0188TUR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[260/323] Target Prayer: 7a364b1ecb84
+Suggested Phelps: BB00004REN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[261/323] Target Prayer: 767350ebcdb1
+Suggested Phelps: BB00004REN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[262/323] Target Prayer: 6d9e24d8-7675-47ad-99cb-9bdd022d8d6e
+Suggested Phelps: BB00004REN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[263/323] Target Prayer: 0250a5587afb
+Suggested Phelps: BB00004REN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[264/323] Target Prayer: 161dec355d9c
+Suggested Phelps: AB07124
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[265/323] Target Prayer: 767350ebcdb1
+Suggested Phelps: AB07124
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[266/323] Target Prayer: 6d9e24d8-7675-47ad-99cb-9bdd022d8d6e
+Suggested Phelps: AB07124
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[267/323] Target Prayer: 0250a5587afb
+Suggested Phelps: AB07124
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[268/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH10274
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[269/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH10274
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[270/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH10274
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[271/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[272/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[273/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[274/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[275/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[276/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[277/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[278/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH07105
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[279/323] Target Prayer: 0195092a142e
+Suggested Phelps: AB11605
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[280/323] Target Prayer: 32765ff08a24
+Suggested Phelps: AB11605
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[281/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: AB11605
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[282/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: AB11605
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[283/323] Target Prayer: 05e744377509
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[284/323] Target Prayer: e40d88736b61
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[285/323] Target Prayer: b0c361a69d24
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[286/323] Target Prayer: 60ac6ef1f0fd
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[287/323] Target Prayer: 96347e7c0e5d
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[288/323] Target Prayer: 0195092a142e
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[289/323] Target Prayer: 32765ff08a24
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[290/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[291/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[292/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[293/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[294/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[295/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[296/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[297/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[298/323] Target Prayer: 0260092508dc
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[299/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BB00018ANG
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[300/323] Target Prayer: 248aa2189923
+Suggested Phelps: BH10231
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[301/323] Target Prayer: a0e6c9dbb028
+Suggested Phelps: BH10231
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[302/323] Target Prayer: cd9aa9344f80
+Suggested Phelps: BH10231
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[303/323] Target Prayer: edfdb71991d7
+Suggested Phelps: BH10231
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[304/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[305/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[306/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[307/323] Target Prayer: ff4a5139-4968-449a-a3d4-2d53b3d2f492
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[308/323] Target Prayer: deef340db4c4
+Suggested Phelps: AB03461MAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[309/323] Target Prayer: b17173d9-cd79-47d3-9955-77a2dad4571a
+Suggested Phelps: AB03461MAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[310/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: AB03461MAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[311/323] Target Prayer: aa13da890adf
+Suggested Phelps: AB03461MAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[312/323] Target Prayer: c8260530-9aa0-4d84-a690-e2f9d4931408
+Suggested Phelps: AB03461MAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[313/323] Target Prayer: 248aa2189923
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[314/323] Target Prayer: a0e6c9dbb028
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[315/323] Target Prayer: cd9aa9344f80
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[316/323] Target Prayer: edfdb71991d7
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[317/323] Target Prayer: 0195092a142e
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[318/323] Target Prayer: 32765ff08a24
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[319/323] Target Prayer: 8c16f8b6843e
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[320/323] Target Prayer: ca16f36c-3a04-4501-a36f-a337c9e8bfeb
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: similar_word_count, similar_char_count, some_key_term_overlap
+Ambiguity: Word count and char count are somewhat similar, and some key terms overlap, but the opening/closing phrases are not very similar.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[321/323] Target Prayer: f35d5b7d2c15
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[322/323] Target Prayer: 5df8f0c4-8fd6-4aa6-a5b2-528633700833
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[323/323] Target Prayer: 0260092508dc
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=30)%
+Reasons: similar_key_terms
+Ambiguity: No direct text_hash or structural hash match. Some key terms overlap, but confidence is low.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

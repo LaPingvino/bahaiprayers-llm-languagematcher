@@ -1,0 +1,1061 @@
+AMBIGUOUS MATCHES - VI
+Generated: 2025-11-28 17:08:07
+Total items: 105
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/105] Target Prayer: 1cadbc6d-37ef-4da9-9e59-874cb9ace54b
+Suggested Phelps: AB02304TST
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=42)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/105] Target Prayer: 1e00d9f6-ec30-45f5-9a1f-59a5e490a46e
+Suggested Phelps: BH04990
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=42)%
+Reasons: word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/105] Target Prayer: 014d819f-1597-41d0-9c8d-47fe1c1f347c
+Suggested Phelps: BH07106
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=32)%
+Ambiguity: Low confidence score, possible new translation or no strong match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/105] Target Prayer: 1e00d9f6-ec30-45f5-9a1f-59a5e490a46e
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: ABU0009SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: BH05703KEP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/105] Target Prayer: 1e00d9f6-ec30-45f5-9a1f-59a5e490a46e
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB10714
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/105] Target Prayer: f276cdb1-ae1e-4701-b23a-bad6474729cd
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH05071
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/105] Target Prayer: 1e00d9f6-ec30-45f5-9a1f-59a5e490a46e
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH08604
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/105] Target Prayer: 1cadbc6d-37ef-4da9-9e59-874cb9ace54b
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH03111
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: BH01503ENJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BB00556
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/105] Target Prayer: 1cadbc6d-37ef-4da9-9e59-874cb9ace54b
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH08433
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/105] Target Prayer: 1cadbc6d-37ef-4da9-9e59-874cb9ace54b
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH00531TRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH08594
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB10701
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/105] Target Prayer: 164c0f02-c66b-4b6b-96e2-4321ff46e234
+Suggested Phelps: BB00002ENA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, is_short_prayer_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: BB00617
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: BB00630
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, is_short_prayer_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH08852
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH09960
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BB00374
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB03017CAL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: AB11281
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB00431PIT
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: AB02326
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB00949WIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: AB00073SER
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: BH00662FLO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, is_short_prayer_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BB00004REN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: AB07124
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH04569
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB04980HOP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BB00147GRO
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH07663
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH10231
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH05543
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB03461MAR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH09809
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: BH05801
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: AB00001FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, is_short_prayer_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: BH00009GRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/105] Target Prayer: 1e00d9f6-ec30-45f5-9a1f-59a5e490a46e
+Suggested Phelps: AB07155WOM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/105] Target Prayer: 1e00d9f6-ec30-45f5-9a1f-59a5e490a46e
+Suggested Phelps: BB00147ORD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH08824
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/105] Target Prayer: 1e00d9f6-ec30-45f5-9a1f-59a5e490a46e
+Suggested Phelps: AB00169FRA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH09404
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH02848
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH03629GRI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH07683
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: BH00634
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/105] Target Prayer: 1e00d9f6-ec30-45f5-9a1f-59a5e490a46e
+Suggested Phelps: BH09289
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/105] Target Prayer: 1e00d9f6-ec30-45f5-9a1f-59a5e490a46e
+Suggested Phelps: AB00553
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB00189AID
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH07721
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB10685
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH09162
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB00963IMP
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BB00018MAJ
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB00065STE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: BH09085
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB02596
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH00009AWA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/105] Target Prayer: 1e00d9f6-ec30-45f5-9a1f-59a5e490a46e
+Suggested Phelps: BH00238
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: BH10688
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/105] Target Prayer: 1e00d9f6-ec30-45f5-9a1f-59a5e490a46e
+Suggested Phelps: BH00154FIR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH07180
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/105] Target Prayer: f276cdb1-ae1e-4701-b23a-bad6474729cd
+Suggested Phelps: AB09794CHI
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH00308DES
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: AB09040
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH06026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB00094WEA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/105] Target Prayer: 162e1e31-124b-48c1-a09e-ca599fc595aa
+Suggested Phelps: AB10703RAD
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=54)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH11278RIV
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB02825
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH06296
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB10492
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB00314HOR
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB00169BEH
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB00787SPL
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: BH09874
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB05652WIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH03181
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: AB00687SEE
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/105] Target Prayer: 1ac01341-a060-4096-9a55-49533cec8d42
+Suggested Phelps: BH09399
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB02000DIS
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, paragraph_count_match, verse_pattern_match, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/105] Target Prayer: 2c2e0ca0-3f45-43bd-bfcd-9c2a848977fc
+Suggested Phelps: AB00774SAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=52)%
+Reasons: type_match, word_count_similar, boolean_flags_match
+Ambiguity: Low word count similarity, lack of direct keyword comparison.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

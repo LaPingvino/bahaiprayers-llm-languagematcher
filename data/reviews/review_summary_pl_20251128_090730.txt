@@ -1,0 +1,18 @@
+PRAYER MATCHING SUMMARY - PL
+Generated: 2025-11-28 09:07:30
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 211
+High confidence matches: 203 (96.2%)
+Low confidence matches:  2 (0.9%)
+Ambiguous matches:       6 (2.8%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Review low confidence matches in: review_low_confidence_pl_*.txt
+□ Resolve ambiguous matches in: review_ambiguous_pl_*.txt
+□ 203 high confidence matches applied automatically
+
+Next steps: Review files, make corrections, then run database updates.

@@ -1,0 +1,18 @@
+PRAYER MATCHING SUMMARY - SK
+Generated: 2025-11-29 17:31:35
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 392
+High confidence matches: 9 (2.3%)
+Low confidence matches:  60 (15.3%)
+Ambiguous matches:       323 (82.4%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Review low confidence matches in: review_low_confidence_sk_*.txt
+□ Resolve ambiguous matches in: review_ambiguous_sk_*.txt
+□ 9 high confidence matches applied automatically
+
+Next steps: Review files, make corrections, then run database updates.

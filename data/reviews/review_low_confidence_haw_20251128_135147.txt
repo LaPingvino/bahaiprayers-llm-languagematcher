@@ -1,0 +1,4170 @@
+LOW CONFIDENCE MATCHES - HAW
+Generated: 2025-11-28 13:51:47
+Total items: 462
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/462] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/462] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/462] Target Prayer: 
+Suggested Phelps: AB02304TST
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/462] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/462] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for a specific 'for infants' prayer of this length.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/462] Target Prayer: 
+Suggested Phelps: BH04990
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/462] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/462] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/462] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/462] Target Prayer: 
+Suggested Phelps: BH07106
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/462] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/462] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/462] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/462] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/462] Target Prayer: 
+Suggested Phelps: BH10505
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/462] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/462] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/462] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/462] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/462] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/462] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/462] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/462] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/462] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/462] Target Prayer: 
+Suggested Phelps: ABU0009SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/462] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/462] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/462] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/462] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/462] Target Prayer: 
+Suggested Phelps: BH05703KEP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/462] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/462] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/462] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/462] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/462] Target Prayer: 
+Suggested Phelps: BH09864
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/462] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/462] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for a specific 'Tablet of the Lover and the Beloved' prayer of this length.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/462] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/462] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/462] Target Prayer: 
+Suggested Phelps: BH02198
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/462] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/462] Target Prayer: 
+Suggested Phelps: BHU0004SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/462] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/462] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/462] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/462] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/462] Target Prayer: 
+Suggested Phelps: AB10714
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/462] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/462] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/462] Target Prayer: 
+Suggested Phelps: AB09794CHI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/462] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/462] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/462] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/462] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/462] Target Prayer: 
+Suggested Phelps: BH09872
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/462] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/462] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[58/462] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[59/462] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[60/462] Target Prayer: 
+Suggested Phelps: BH05768
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[61/462] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[62/462] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[63/462] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[64/462] Target Prayer: 
+Suggested Phelps: BH05071
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[65/462] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[66/462] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[67/462] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[68/462] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[69/462] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[70/462] Target Prayer: 
+Suggested Phelps: BH00987
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[71/462] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[72/462] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[73/462] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[74/462] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[75/462] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[76/462] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[77/462] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[78/462] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[79/462] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[80/462] Target Prayer: 
+Suggested Phelps: BH08604
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[81/462] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[82/462] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[83/462] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[84/462] Target Prayer: 
+Suggested Phelps: BH01026
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[85/462] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[86/462] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for a direct match to this general devotional prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[87/462] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[88/462] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[89/462] Target Prayer: 
+Suggested Phelps: BH03111
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[90/462] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[91/462] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[92/462] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[93/462] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[94/462] Target Prayer: 
+Suggested Phelps: BH01503ENJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[95/462] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[96/462] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[97/462] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[98/462] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[99/462] Target Prayer: 
+Suggested Phelps: BB00556
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[100/462] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[101/462] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[102/462] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[103/462] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[104/462] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[105/462] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[106/462] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[107/462] Target Prayer: 
+Suggested Phelps: AB10703RAD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[108/462] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[109/462] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[110/462] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[111/462] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[112/462] Target Prayer: 
+Suggested Phelps: BH07469
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[113/462] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[114/462] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[115/462] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[116/462] Target Prayer: 
+Suggested Phelps: BH03470
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[117/462] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[118/462] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[119/462] Target Prayer: 
+Suggested Phelps: BH09855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[120/462] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[121/462] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[122/462] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[123/462] Target Prayer: 
+Suggested Phelps: BH08855
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[124/462] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[125/462] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific devotional prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[126/462] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[127/462] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[128/462] Target Prayer: 
+Suggested Phelps: BH08433
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[129/462] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[130/462] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[131/462] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[132/462] Target Prayer: 
+Suggested Phelps: AB06211
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[133/462] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[134/462] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[135/462] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[136/462] Target Prayer: 
+Suggested Phelps: BH00778
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[137/462] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[138/462] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[139/462] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[140/462] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[141/462] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[142/462] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[143/462] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[144/462] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[145/462] Target Prayer: 
+Suggested Phelps: AB10275
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[146/462] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[147/462] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[148/462] Target Prayer: 
+Suggested Phelps: BH04421HEA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[149/462] Target Prayer: 
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[150/462] Target Prayer: 
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[151/462] Target Prayer: 
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[152/462] Target Prayer: 
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[153/462] Target Prayer: 
+Suggested Phelps: AB00184KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[154/462] Target Prayer: 
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[155/462] Target Prayer: 
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this length and specificity.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[156/462] Target Prayer: 
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[157/462] Target Prayer: 
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[158/462] Target Prayer: 
+Suggested Phelps: BH00531TRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[159/462] Target Prayer: 
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[160/462] Target Prayer: 
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[161/462] Target Prayer: 
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[162/462] Target Prayer: 
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[163/462] Target Prayer: 
+Suggested Phelps: BH08594
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[164/462] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[165/462] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[166/462] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[167/462] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[168/462] Target Prayer: 
+Suggested Phelps: AB10701
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[169/462] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[170/462] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[171/462] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[172/462] Target Prayer: 
+Suggested Phelps: AB00527
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[173/462] Target Prayer: 
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[174/462] Target Prayer: 
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[175/462] Target Prayer: 
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[176/462] Target Prayer: 
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[177/462] Target Prayer: 
+Suggested Phelps: BH07426FOO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[178/462] Target Prayer: 
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[179/462] Target Prayer: 
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[180/462] Target Prayer: 
+Suggested Phelps: BB00002ENA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[181/462] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[182/462] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific forgiveness prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[183/462] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[184/462] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[185/462] Target Prayer: 
+Suggested Phelps: BB00617
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[186/462] Target Prayer: 
+Suggested Phelps: ABU0070GAT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[187/462] Target Prayer: 
+Suggested Phelps: ABU0070GAT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[188/462] Target Prayer: 
+Suggested Phelps: ABU0070GAT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[189/462] Target Prayer: 
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[190/462] Target Prayer: 
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[191/462] Target Prayer: 
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[192/462] Target Prayer: 
+Suggested Phelps: BB00630
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[193/462] Target Prayer: 
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[194/462] Target Prayer: 
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific devotional prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[195/462] Target Prayer: 
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[196/462] Target Prayer: 
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[197/462] Target Prayer: 
+Suggested Phelps: BH08264
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[198/462] Target Prayer: 
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[199/462] Target Prayer: 
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[200/462] Target Prayer: 
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[201/462] Target Prayer: 
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[202/462] Target Prayer: 
+Suggested Phelps: BH08852
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[203/462] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[204/462] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[205/462] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[206/462] Target Prayer: 
+Suggested Phelps: AB03082
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[207/462] Target Prayer: 
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[208/462] Target Prayer: 
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[209/462] Target Prayer: 
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[210/462] Target Prayer: 
+Suggested Phelps: BH09960
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[211/462] Target Prayer: 
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[212/462] Target Prayer: 
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[213/462] Target Prayer: 
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[214/462] Target Prayer: 
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[215/462] Target Prayer: 
+Suggested Phelps: BB00374
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[216/462] Target Prayer: 
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[217/462] Target Prayer: 
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific prayer for husbands.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[218/462] Target Prayer: 
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[219/462] Target Prayer: 
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[220/462] Target Prayer: 
+Suggested Phelps: AB03017CAL
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[221/462] Target Prayer: 
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[222/462] Target Prayer: 
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[223/462] Target Prayer: 
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[224/462] Target Prayer: 
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[225/462] Target Prayer: 
+Suggested Phelps: AB11281
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[226/462] Target Prayer: 
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[227/462] Target Prayer: 
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[228/462] Target Prayer: 
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[229/462] Target Prayer: 
+Suggested Phelps: BH08244
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[230/462] Target Prayer: 
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[231/462] Target Prayer: 
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this length and specificity.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[232/462] Target Prayer: 
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[233/462] Target Prayer: 
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[234/462] Target Prayer: 
+Suggested Phelps: AB00431PIT
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[235/462] Target Prayer: 
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[236/462] Target Prayer: 
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[237/462] Target Prayer: 
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[238/462] Target Prayer: 
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[239/462] Target Prayer: 
+Suggested Phelps: BH03109KIN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[240/462] Target Prayer: 
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[241/462] Target Prayer: 
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific prayer of this length.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[242/462] Target Prayer: 
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[243/462] Target Prayer: 
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[244/462] Target Prayer: 
+Suggested Phelps: AB02326
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[245/462] Target Prayer: 
+Suggested Phelps: AB11356
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[246/462] Target Prayer: 
+Suggested Phelps: AB11356
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[247/462] Target Prayer: 
+Suggested Phelps: AB11356
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[248/462] Target Prayer: 
+Suggested Phelps: AB00073SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[249/462] Target Prayer: 
+Suggested Phelps: AB00073SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific supplication.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[250/462] Target Prayer: 
+Suggested Phelps: AB00073SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[251/462] Target Prayer: 
+Suggested Phelps: AB00073SER
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[252/462] Target Prayer: 
+Suggested Phelps: BH00662FLO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[253/462] Target Prayer: 
+Suggested Phelps: BH00662FLO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[254/462] Target Prayer: 
+Suggested Phelps: BH00662FLO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[255/462] Target Prayer: 
+Suggested Phelps: BH00662FLO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[256/462] Target Prayer: 
+Suggested Phelps: ABU0188TUR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[257/462] Target Prayer: 
+Suggested Phelps: ABU0188TUR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[258/462] Target Prayer: 
+Suggested Phelps: ABU0188TUR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[259/462] Target Prayer: 
+Suggested Phelps: ABU0188TUR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[260/462] Target Prayer: 
+Suggested Phelps: ABU0188TUR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[261/462] Target Prayer: 
+Suggested Phelps: BB00004REN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[262/462] Target Prayer: 
+Suggested Phelps: BB00004REN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[263/462] Target Prayer: 
+Suggested Phelps: BB00004REN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[264/462] Target Prayer: 
+Suggested Phelps: BB00004REN
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[265/462] Target Prayer: 
+Suggested Phelps: AB07124
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[266/462] Target Prayer: 
+Suggested Phelps: AB07124
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[267/462] Target Prayer: 
+Suggested Phelps: AB07124
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[268/462] Target Prayer: 
+Suggested Phelps: AB07124
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[269/462] Target Prayer: 
+Suggested Phelps: AB07124
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[270/462] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[271/462] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[272/462] Target Prayer: 
+Suggested Phelps: BH04569
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[273/462] Target Prayer: 
+Suggested Phelps: BH07105
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[274/462] Target Prayer: 
+Suggested Phelps: BH07105
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[275/462] Target Prayer: 
+Suggested Phelps: BH07105
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[276/462] Target Prayer: 
+Suggested Phelps: BH07105
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[277/462] Target Prayer: 
+Suggested Phelps: BH07105
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[278/462] Target Prayer: 
+Suggested Phelps: AB11605
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[279/462] Target Prayer: 
+Suggested Phelps: AB11605
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[280/462] Target Prayer: 
+Suggested Phelps: AB11605
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[281/462] Target Prayer: 
+Suggested Phelps: AB04980HOP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[282/462] Target Prayer: 
+Suggested Phelps: AB04980HOP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[283/462] Target Prayer: 
+Suggested Phelps: AB04980HOP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[284/462] Target Prayer: 
+Suggested Phelps: BB00147GRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[285/462] Target Prayer: 
+Suggested Phelps: BB00147GRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[286/462] Target Prayer: 
+Suggested Phelps: BB00147GRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[287/462] Target Prayer: 
+Suggested Phelps: BB00147GRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[288/462] Target Prayer: 
+Suggested Phelps: BB00147GRO
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[289/462] Target Prayer: 
+Suggested Phelps: BH07663
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[290/462] Target Prayer: 
+Suggested Phelps: BH07663
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[291/462] Target Prayer: 
+Suggested Phelps: BH07663
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[292/462] Target Prayer: 
+Suggested Phelps: BB00018ANG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[293/462] Target Prayer: 
+Suggested Phelps: BB00018ANG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[294/462] Target Prayer: 
+Suggested Phelps: BB00018ANG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[295/462] Target Prayer: 
+Suggested Phelps: BB00018ANG
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[296/462] Target Prayer: 
+Suggested Phelps: BH10231
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[297/462] Target Prayer: 
+Suggested Phelps: BH10231
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[298/462] Target Prayer: 
+Suggested Phelps: BH10231
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[299/462] Target Prayer: 
+Suggested Phelps: BH10231
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[300/462] Target Prayer: 
+Suggested Phelps: BH10231
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[301/462] Target Prayer: 
+Suggested Phelps: BH05543
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[302/462] Target Prayer: 
+Suggested Phelps: BH05543
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this length and thematic content.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[303/462] Target Prayer: 
+Suggested Phelps: 
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[304/462] Target Prayer: 
+Suggested Phelps: BH05543
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[305/462] Target Prayer: 
+Suggested Phelps: BH05543
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[306/462] Target Prayer: 
+Suggested Phelps: AB03461MAR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[307/462] Target Prayer: 
+Suggested Phelps: AB03461MAR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for a specific marriage prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[308/462] Target Prayer: 
+Suggested Phelps: AB03461MAR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[309/462] Target Prayer: 
+Suggested Phelps: AB03461MAR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[310/462] Target Prayer: 
+Suggested Phelps: AB03461MAR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[311/462] Target Prayer: 
+Suggested Phelps: BH09809
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[312/462] Target Prayer: 
+Suggested Phelps: BH09809
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[313/462] Target Prayer: 
+Suggested Phelps: BH09809
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[314/462] Target Prayer: 
+Suggested Phelps: BH09809
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[315/462] Target Prayer: 
+Suggested Phelps: BH09809
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[316/462] Target Prayer: 
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[317/462] Target Prayer: 
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[318/462] Target Prayer: 
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[319/462] Target Prayer: 
+Suggested Phelps: AB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[320/462] Target Prayer: 
+Suggested Phelps: 
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[321/462] Target Prayer: 
+Suggested Phelps: BH05801
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[322/462] Target Prayer: 
+Suggested Phelps: 
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[323/462] Target Prayer: 
+Suggested Phelps: BH05801
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[324/462] Target Prayer: 
+Suggested Phelps: BH05801
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[325/462] Target Prayer: 
+Suggested Phelps: BB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[326/462] Target Prayer: 
+Suggested Phelps: BB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[327/462] Target Prayer: 
+Suggested Phelps: BB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[328/462] Target Prayer: 
+Suggested Phelps: BB00001FIR
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[329/462] Target Prayer: 
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[330/462] Target Prayer: 
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[331/462] Target Prayer: 
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[332/462] Target Prayer: 
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[333/462] Target Prayer: 
+Suggested Phelps: BH00009GRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[334/462] Target Prayer: 
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[335/462] Target Prayer: 
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for an expectant mothers prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[336/462] Target Prayer: 
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[337/462] Target Prayer: 
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[338/462] Target Prayer: 
+Suggested Phelps: AB07155WOM
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[339/462] Target Prayer: 
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[340/462] Target Prayer: 
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[341/462] Target Prayer: 
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[342/462] Target Prayer: 
+Suggested Phelps: BB00147ORD
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[343/462] Target Prayer: 
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[344/462] Target Prayer: 
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for a specific prayer for women.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[345/462] Target Prayer: 
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[346/462] Target Prayer: 
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[347/462] Target Prayer: 
+Suggested Phelps: AB00728MDS
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[348/462] Target Prayer: 
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[349/462] Target Prayer: 
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for a specific prayer of this length.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[350/462] Target Prayer: 
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[351/462] Target Prayer: 
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[352/462] Target Prayer: 
+Suggested Phelps: BH08824
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[353/462] Target Prayer: 
+Suggested Phelps: AB00156LOW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[354/462] Target Prayer: 
+Suggested Phelps: AB00156LOW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[355/462] Target Prayer: 
+Suggested Phelps: AB00156LOW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[356/462] Target Prayer: 
+Suggested Phelps: AB00156LOW
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[357/462] Target Prayer: 
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[358/462] Target Prayer: 
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[359/462] Target Prayer: 
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[360/462] Target Prayer: 
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[361/462] Target Prayer: 
+Suggested Phelps: AB00169FRA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[362/462] Target Prayer: 
+Suggested Phelps: BH00593
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[363/462] Target Prayer: 
+Suggested Phelps: BH00593
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific prayer of this length.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[364/462] Target Prayer: 
+Suggested Phelps: BH00593
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[365/462] Target Prayer: 
+Suggested Phelps: BH00593
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[366/462] Target Prayer: 
+Suggested Phelps: BH00593
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[367/462] Target Prayer: 
+Suggested Phelps: BH09404
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[368/462] Target Prayer: 
+Suggested Phelps: BH09404
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[369/462] Target Prayer: 
+Suggested Phelps: BH09404
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[370/462] Target Prayer: 
+Suggested Phelps: BH09404
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[371/462] Target Prayer: 
+Suggested Phelps: BB00015SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[372/462] Target Prayer: 
+Suggested Phelps: BB00015SUF
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[373/462] Target Prayer: 
+Suggested Phelps: BH02848
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[374/462] Target Prayer: 
+Suggested Phelps: BH02848
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[375/462] Target Prayer: 
+Suggested Phelps: 
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[376/462] Target Prayer: 
+Suggested Phelps: BH03629GRI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[377/462] Target Prayer: 
+Suggested Phelps: BH03629GRI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[378/462] Target Prayer: 
+Suggested Phelps: BH03629GRI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[379/462] Target Prayer: 
+Suggested Phelps: BH07683
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[380/462] Target Prayer: 
+Suggested Phelps: BH07683
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[381/462] Target Prayer: 
+Suggested Phelps: BH07683
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[382/462] Target Prayer: 
+Suggested Phelps: BH07683
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[383/462] Target Prayer: 
+Suggested Phelps: BH00634
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[384/462] Target Prayer: 
+Suggested Phelps: BH00634
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[385/462] Target Prayer: 
+Suggested Phelps: BH00634
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[386/462] Target Prayer: 
+Suggested Phelps: BH00634
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[387/462] Target Prayer: 
+Suggested Phelps: BH00634
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[388/462] Target Prayer: 
+Suggested Phelps: BH09289
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[389/462] Target Prayer: 
+Suggested Phelps: BH09289
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[390/462] Target Prayer: 
+Suggested Phelps: BH09289
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[391/462] Target Prayer: 
+Suggested Phelps: BH09289
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[392/462] Target Prayer: 
+Suggested Phelps: BH09289
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[393/462] Target Prayer: 
+Suggested Phelps: 
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[394/462] Target Prayer: 
+Suggested Phelps: AB00553
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[395/462] Target Prayer: 
+Suggested Phelps: AB00553
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[396/462] Target Prayer: 
+Suggested Phelps: AB00553
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[397/462] Target Prayer: 
+Suggested Phelps: AB00553
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[398/462] Target Prayer: 
+Suggested Phelps: 
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[399/462] Target Prayer: 
+Suggested Phelps: AB00189AID
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[400/462] Target Prayer: 
+Suggested Phelps: AB00189AID
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[401/462] Target Prayer: 
+Suggested Phelps: AB00189AID
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[402/462] Target Prayer: 
+Suggested Phelps: BH07721
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[403/462] Target Prayer: 
+Suggested Phelps: BH07721
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[404/462] Target Prayer: 
+Suggested Phelps: BH07721
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[405/462] Target Prayer: 
+Suggested Phelps: BH07721
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[406/462] Target Prayer: 
+Suggested Phelps: BH07721
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[407/462] Target Prayer: 
+Suggested Phelps: AB10685
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[408/462] Target Prayer: 
+Suggested Phelps: AB10685
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[409/462] Target Prayer: 
+Suggested Phelps: AB10685
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[410/462] Target Prayer: 
+Suggested Phelps: AB10685
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[411/462] Target Prayer: 
+Suggested Phelps: AB10685
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[412/462] Target Prayer: 
+Suggested Phelps: BH09162
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[413/462] Target Prayer: 
+Suggested Phelps: BH09162
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific devotional prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[414/462] Target Prayer: 
+Suggested Phelps: BH09162
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[415/462] Target Prayer: 
+Suggested Phelps: BH09162
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[416/462] Target Prayer: 
+Suggested Phelps: 
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[417/462] Target Prayer: 
+Suggested Phelps: AB00963IMP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[418/462] Target Prayer: 
+Suggested Phelps: AB00963IMP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific prayer for assistance.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[419/462] Target Prayer: 
+Suggested Phelps: AB00963IMP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[420/462] Target Prayer: 
+Suggested Phelps: AB00963IMP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[421/462] Target Prayer: 
+Suggested Phelps: AB00963IMP
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[422/462] Target Prayer: 
+Suggested Phelps: BB00018MAJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[423/462] Target Prayer: 
+Suggested Phelps: BB00018MAJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[424/462] Target Prayer: 
+Suggested Phelps: BB00018MAJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[425/462] Target Prayer: 
+Suggested Phelps: BB00018MAJ
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[426/462] Target Prayer: 
+Suggested Phelps: AB00065STE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[427/462] Target Prayer: 
+Suggested Phelps: AB00065STE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific prayer of this length.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[428/462] Target Prayer: 
+Suggested Phelps: AB00065STE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[429/462] Target Prayer: 
+Suggested Phelps: AB00065STE
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[430/462] Target Prayer: 
+Suggested Phelps: BH09085
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[431/462] Target Prayer: 
+Suggested Phelps: BH09085
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[432/462] Target Prayer: 
+Suggested Phelps: BH09085
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[433/462] Target Prayer: 
+Suggested Phelps: AB02596
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[434/462] Target Prayer: 
+Suggested Phelps: AB02596
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[435/462] Target Prayer: 
+Suggested Phelps: AB02596
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[436/462] Target Prayer: 
+Suggested Phelps: AB02596
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[437/462] Target Prayer: 
+Suggested Phelps: AB02596
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[438/462] Target Prayer: 
+Suggested Phelps: BH00009AWA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[439/462] Target Prayer: 
+Suggested Phelps: BH00009AWA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[440/462] Target Prayer: 
+Suggested Phelps: BH00009AWA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[441/462] Target Prayer: 
+Suggested Phelps: BH00009AWA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[442/462] Target Prayer: 
+Suggested Phelps: BH00009AWA
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[443/462] Target Prayer: 
+Suggested Phelps: BH05894
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[444/462] Target Prayer: 
+Suggested Phelps: BH05894
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific prayer of this length.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[445/462] Target Prayer: 
+Suggested Phelps: BH05894
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[446/462] Target Prayer: 
+Suggested Phelps: BH05894
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[447/462] Target Prayer: 
+Suggested Phelps: BH05894
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[448/462] Target Prayer: 
+Suggested Phelps: BH00238
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[449/462] Target Prayer: 
+Suggested Phelps: BH00238
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic for this specific devotional prayer.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[450/462] Target Prayer: 
+Suggested Phelps: BH00238
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[451/462] Target Prayer: 
+Suggested Phelps: 
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[452/462] Target Prayer: 
+Suggested Phelps: 
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[453/462] Target Prayer: 
+Suggested Phelps: BB00543VIC
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[454/462] Target Prayer: 
+Suggested Phelps: BB00543VIC
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[455/462] Target Prayer: 
+Suggested Phelps: BB00543VIC
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[456/462] Target Prayer: 
+Suggested Phelps: BB00543VIC
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[457/462] Target Prayer: 
+Suggested Phelps: BH10688
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[458/462] Target Prayer: 
+Suggested Phelps: BH10688
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Arabic.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[459/462] Target Prayer: 
+Suggested Phelps: BH10688
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hindi.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[460/462] Target Prayer: 
+Suggested Phelps: BH10688
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Wampanoag.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[461/462] Target Prayer: 
+Suggested Phelps: BH10688
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Inupiaq.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[462/462] Target Prayer: 
+Suggested Phelps: BB00100EXI
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Ambiguity: No sufficiently similar prayer found in Hawaiian.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

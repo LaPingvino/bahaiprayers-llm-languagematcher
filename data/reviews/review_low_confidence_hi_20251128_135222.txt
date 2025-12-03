@@ -1,0 +1,156 @@
+LOW CONFIDENCE MATCHES - HI
+Generated: 2025-11-28 13:52:22
+Total items: 16
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/16] Target Prayer: 
+Suggested Phelps: AB00001
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash, no_similar_opening, no_key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/16] Target Prayer: 
+Suggested Phelps: AB00002
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash, no_similar_opening, no_key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/16] Target Prayer: 
+Suggested Phelps: AB00003
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash, no_similar_opening, no_key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/16] Target Prayer: 
+Suggested Phelps: AB00004
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash, no_similar_opening, no_key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/16] Target Prayer: 
+Suggested Phelps: AB00005
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash, no_similar_opening, no_key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/16] Target Prayer: 
+Suggested Phelps: AB00006
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash, no_similar_opening, no_key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/16] Target Prayer: 
+Suggested Phelps: AB00007
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash, no_similar_opening, no_key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/16] Target Prayer: 
+Suggested Phelps: AB00008
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash, no_similar_opening, no_key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/16] Target Prayer: 
+Suggested Phelps: AB00009
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash, no_similar_opening, no_key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/16] Target Prayer: 
+Suggested Phelps: AB00010
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash, no_similar_opening, no_key_terms_overlap
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/16] Target Prayer: 
+Suggested Phelps: AB00011
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/16] Target Prayer: 
+Suggested Phelps: AB00012
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/16] Target Prayer: 
+Suggested Phelps: AB00013
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/16] Target Prayer: 
+Suggested Phelps: AB00014
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/16] Target Prayer: 
+Suggested Phelps: AB00015
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/16] Target Prayer: 
+Suggested Phelps: AB00016
+Match Type: NEW_TRANSLATION
+Confidence: %!d(float64=0)%
+Reasons: no_matching_hash
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,4887 @@
+{
+  "matches": [
+    {
+      "phelps": "BH00005SEE",
+      "target_version": "2a06788e-9437-4dfc-9838-d3a3aec8177a",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00009SHE",
+      "target_version": "bf09e142-137d-40f2-89f9-43c56b537640",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB10714",
+      "target_version": "6449722a-c469-4e85-a80a-7f5189aeadb1",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "ABU0003DIS",
+      "target_version": "a07e1698-610e-43a7-996e-89701b372198",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00009AWA",
+      "target_version": "c55917c3-a169-4609-aecd-8c48339b45f5",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00987",
+      "target_version": "2c435fb5-d294-4d61-9f36-b84c8868f521",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH01026",
+      "target_version": "cd08290a-2677-4c70-993d-804f358763f7",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00065KIN",
+      "target_version": "fe014e2b-e962-420d-aff3-a220ff2fe3df",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB10275",
+      "target_version": "9d0e76e7-710a-4ee4-a034-1d30cd6de3d7",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00009HOW",
+      "target_version": "f8134ff5-671f-4525-bb10-482659a5bfad",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH05768",
+      "target_version": "aee42599-0fc3-476d-8d2c-5e02ba112ecb",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00001SHI",
+      "target_version": "166cda79-a7eb-4672-9e69-068db5a51158",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH05071",
+      "target_version": "a615092c-76f9-4de0-8906-d8f1c2cc3140",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH05543",
+      "target_version": "e5337934-3605-435c-b970-044f305018c8",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "ABU0095KIN",
+      "target_version": "40273bd7-a711-4ce3-8ea0-a0bacfb2d264",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH03470",
+      "target_version": "bdb11f0d-c524-45e4-98b0-29b210bd0fe2",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB09794CHI",
+      "target_version": "12b37507-fbb9-4a1f-89c2-39f9fbf955db",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00009GRA",
+      "target_version": "e91eb43f-2d4a-458b-be75-eccdc6000196",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH08600TES",
+      "target_version": "a57682c4-697e-4eb4-a795-f8eca3728258",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH03111",
+      "target_version": "2de502a6-2fdc-4ce4-b492-2c48a0125999",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BHU0004SUF",
+      "target_version": "731e504f-964d-4147-ba4d-613d0f58cade",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00634",
+      "target_version": "d2f7f0ea-698e-4c07-87e7-ad5e1162c9ed",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "ABU0023UNI",
+      "target_version": "387e8063-2cad-4487-9bf6-4ef3af118b2e",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "9a0d9cb0-d5e8-484e-b3ad-bf47d10e0f48",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB11605",
+      "target_version": "246feb3a-d825-4e89-89b0-b2ad5461e06d",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00065STE",
+      "target_version": "91c1a8b9-67fc-422a-a9c1-efa1f332b787",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BB00623",
+      "target_version": "ab36e1d2-025a-447f-9273-64bbf63ea271",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH01313NAM",
+      "target_version": "af1e80fd-81f8-425b-b33f-12d5ba85107f",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH07426FOO",
+      "target_version": "920b19be-8047-4d41-8d4a-bfa04e79fd90",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BB00015SUF",
+      "target_version": "731e504f-964d-4147-ba4d-613d0f58cade",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00662FLO",
+      "target_version": "0278e78b-de02-4b14-8e42-2c353ea0b487",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BB00018DET",
+      "target_version": "922034cf-291b-4af6-98fb-35b4f662a47e",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH11205",
+      "target_version": "490e6c54-e015-4f90-af82-65dc2c7081d8",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB11356",
+      "target_version": "329799ba-2874-4942-90c7-8d41bd80a8d5",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BB00002ENA",
+      "target_version": "69511b10-426b-4278-87c9-fb70b30f13fe",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "ABU0129EDU",
+      "target_version": "f767dc5e-92fa-4bb8-9994-2a624235981c",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB10685",
+      "target_version": "1a5f48db-7a1b-4f99-a5ba-31bfdb175210",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00617",
+      "target_version": "a2c70e6d-6250-4af6-929a-4b366af2d9e4",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00018ANG",
+      "target_version": "7957b473-2305-460b-a2a4-524819e488c9",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00431PIT",
+      "target_version": "6cb5389e-39c0-4c2d-a33f-d378158d631c",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB02000DIS",
+      "target_version": "2d97fb5a-d7ea-4baf-a996-7117f63e2b09",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH07106",
+      "target_version": "0554e4fe-daa9-46a4-a67c-c14960ceaa0c",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00204PIT",
+      "target_version": "3ac5684f-a903-4d5e-8034-3bcd4d7a4f24",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB09040",
+      "target_version": "186b34d5-83a9-4fa9-96f9-db2d814c49f2",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00005ALL",
+      "target_version": "db7ea395-682a-41c9-b635-6f3daceb0ed5",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BB00147GRO",
+      "target_version": "74e17caa-8144-49d4-8d29-24d835f1bba7",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00147ORD",
+      "target_version": "9d50f261-7aca-42ab-a9b3-acfb28030c04",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH08604",
+      "target_version": "f8435bcf-696f-41e8-a57c-589368412554",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH07180",
+      "target_version": "cc50858c-5bdc-4c8b-98e3-1ce8f0a91ef7",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH09498",
+      "target_version": "19a9487a-c73c-42e2-b8a8-369da287baaa",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB11281",
+      "target_version": "a08706ab-5d8e-44cc-a992-568cba476693",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH08855",
+      "target_version": "8fa35938-e579-45da-b3bd-175f29b52870",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00522",
+      "target_version": "3867f36e-c534-44e3-b01d-2ec22d6e0b63",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00438",
+      "target_version": "06464cab-8ff8-4c12-8431-755d5fa88b0a",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "ABU0137ALL",
+      "target_version": "66f907f3-162d-4afd-af91-db2f29fdc1f3",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB02596",
+      "target_version": "511c5eb5-a15a-465f-b3e2-7b684c811e6d",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00949WIN",
+      "target_version": "5d8e7fa5-e4d9-46ec-b53d-62c3073992ba",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH08600FAC",
+      "target_version": "b167a4f5-a51d-4eff-b6ac-195f2c9959fa",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "ABU0070GAT",
+      "target_version": "cbf4003b-f801-46fe-b7ba-5eb193d485cc",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "ABU0394GAT",
+      "target_version": "cbf4003b-f801-46fe-b7ba-5eb193d485cc",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH07661",
+      "target_version": "11d57787-cab6-42df-ad75-843582a8cb4b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09401",
+      "target_version": "19e2b802-06a9-48ab-9d65-1c65e372e63f",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00001ABI",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03461MAR",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH02848",
+      "target_version": "e42dd972-0842-4a1e-9ef4-7bd2b9d795ee",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH02777RIS",
+      "target_version": "e42dd972-0842-4a1e-9ef4-7bd2b9d795ee",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH07780",
+      "target_version": "1c7e9302-f9d8-45b8-bd2f-08c81a19e4f2",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB05805SER",
+      "target_version": "c2e31297-7c50-488f-bc5b-42d4d1340a63",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH09864",
+      "target_version": "ed3cbf60-1e1b-45ba-9988-932304434518",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00189AID",
+      "target_version": "ad262eee-36b5-49e5-a8d0-db8a2bab660e",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH07663",
+      "target_version": "80b54e92-06e9-428d-baa9-04848e946866",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH07657",
+      "target_version": "e5337934-3605-435c-b970-044f305018c8",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH02898MAG",
+      "target_version": "eff5ed65-4c55-47fa-bfe4-24962c4855bb",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "ABU0188TUR",
+      "target_version": "83816ceb-703a-4848-b6e5-fad9f21abe44",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00362LOV",
+      "target_version": "a0c18e18-7f3d-4ff0-94d7-98cc3bbec052",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH07113",
+      "target_version": "11d57787-cab6-42df-ad75-843582a8cb4b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH08244",
+      "target_version": "745381b0-8ac9-44d3-ba60-6720e2afd3d9",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00044PRO",
+      "target_version": "e26f4468-c91b-4e04-88cd-b290097dd0a2",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH04569",
+      "target_version": "1149661a-7da6-4196-ac65-9466e80fc9b1",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH04569",
+      "target_version": "1149661a-7da6-4196-ac65-9466e80fc9b1",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH04569",
+      "target_version": "1149661a-7da6-4196-ac65-9466e80fc9b1",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09960",
+      "target_version": "719b523b-9a06-4ecc-94c0-1a2f911f1512",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH07721",
+      "target_version": "4c78e634-181a-48e7-baee-de3332c53fd3",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "ABU0030SHE",
+      "target_version": "b8d64b81-608b-44c4-a53f-180c05dc0875",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00073SER",
+      "target_version": "879d785e-441e-4053-b951-2913f50be265",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00774SAB",
+      "target_version": "be2d884d-3366-4830-8b66-2ea791897c67",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH08264",
+      "target_version": "8fa35938-e579-45da-b3bd-175f29b52870",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH08822",
+      "target_version": "70457eb1-4ecf-4b8b-86b5-458ecae7290b",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH09874",
+      "target_version": "b743da61-389e-48c8-a391-5f4c48331394",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00388COM",
+      "target_version": "c8e637fa-91d2-494e-b9c8-a8644c86723b",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH09399",
+      "target_version": "69cc2421-da63-4fde-a866-0730912171b5",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09848",
+      "target_version": "b9591b20-7f2d-4ff6-a169-8455ba8cad0b",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH08013",
+      "target_version": "ec99e94d-f223-4474-aff6-27c8b30bd476",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00218SOU",
+      "target_version": "59a4afd2-b00d-48e4-b819-cdcb16da22eb",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "ABU0009SER",
+      "target_version": "da8a7be9-9088-414f-98ad-8e7382aca263",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00009SER",
+      "target_version": "1f7a73ee-e7c4-4430-a40f-32ecd7847082",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH08855",
+      "target_version": "8fa35938-e579-45da-b3bd-175f29b52870",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH08855",
+      "target_version": "8fa35938-e579-45da-b3bd-175f29b52870",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB07304",
+      "target_version": "85134e20-8abc-43c4-83ba-05ec7be2068f",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH07105",
+      "target_version": "f4bb399c-9c8a-4bde-9d11-063cf833f17b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH05894",
+      "target_version": "432017f2-114c-4d36-b924-40a25319b644",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00156LOW",
+      "target_version": "04feb975-5f84-4993-893d-ad4d35e2177b",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00154FIR",
+      "target_version": "e5a2a684-818e-42ac-b014-4a17d811f28b",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB11094",
+      "target_version": "9d65f4a1-c3ed-4e66-92f8-8f35604a1193",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB07155WOM",
+      "target_version": "ef3ac0d7-7cad-497e-8226-bd211ed85300",
+      "match_type": "LIKELY",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH09162",
+      "target_version": "228937be-faf5-4a90-857d-0849c0e442bc",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH10973",
+      "target_version": "41afe864-0c46-44ab-b658-b48ee950bd48",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09289",
+      "target_version": "d0faadb8-6af8-4d13-8151-e1ab2fe0fa0b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH03629GRI",
+      "target_version": "a8c3d38a-b9c7-484b-a080-88b405771907",
+      "match_type": "AMBIGUOUS",
+      "confidence": 1,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00238",
+      "target_version": "481722f8-c378-46e4-9c2c-bf1ea843e5ab",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH07426DRE",
+      "target_version": "1dc39484-705e-4fb7-b89e-ad05b9784e62",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH09024",
+      "target_version": "50c19e83-15ee-437a-8de5-91b9a3eebd47",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00531TRA",
+      "target_version": "5bfb5081-05df-46d7-81d5-f27408bd747f",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH09508",
+      "target_version": "9f8499d3-1813-4791-919a-84ed3b830b9d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH04475",
+      "target_version": "a236d346-b0d1-4023-b979-c373fb6ccd9e",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00018FOR",
+      "target_version": "ef6bb196-80fd-4d9f-a43c-cb07dfe9587b",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00184KIN",
+      "target_version": "04d60f98-8e95-4910-be80-ba5c059d5559",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH08363",
+      "target_version": "f4b1270a-4b54-4521-b919-bab71024b4f3",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00778",
+      "target_version": "42738e07-870a-49aa-b7ed-3831d538cff3",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00778",
+      "target_version": "42738e07-870a-49aa-b7ed-3831d538cff3",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00005ALL",
+      "target_version": "d13d22ab-f624-4a0b-be46-8093de273245",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00204PRO",
+      "target_version": "c77430e9-168b-4c62-9a6f-641775360c3f",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00527",
+      "target_version": "76cb14a3-7531-4421-afb4-c69755cc064a",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00527",
+      "target_version": "76cb14a3-7531-4421-afb4-c69755cc064a",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH03082",
+      "target_version": "bf5df0ba-e6d9-4b40-b24c-ccef4cee328d",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "bf5df0ba-e6d9-4b40-b24c-ccef4cee328d",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "bf5df0ba-e6d9-4b40-b24c-ccef4cee328d",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH03562",
+      "target_version": "a294ab41-8377-4a77-9887-1ce859f4b3d5",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB05996",
+      "target_version": "a20c4556-95f6-4a33-81f3-0c1adb181038",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00314HOR",
+      "target_version": "78254bd3-7d05-406f-a43d-6cb7f8d0c15c",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH08824",
+      "target_version": "85a3e073-4932-489b-ac33-212066d92b76",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00002MEN",
+      "target_version": "40b42f19-af96-4aee-bc36-79af1896e179",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH07683",
+      "target_version": "c94a9cff-d125-40cd-a746-f75a30777df3",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH03082",
+      "target_version": "c374afd1-1f22-4808-a377-c84b62a39223",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB02304TST",
+      "target_version": "8c1ba2c7-e61d-4908-95d2-a5ea9118dc6b",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB07124",
+      "target_version": "95ac774a-36f0-4c7d-b859-d991aec14c76",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH06026",
+      "target_version": "6152e206-7199-40ef-8c4d-0387ff111b2f",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "ebbb7c94-aafb-40c6-ad67-8b537e70201c",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB07759",
+      "target_version": "4b61f8b7-cfaf-4aba-a026-c542f83647fc",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH05543",
+      "target_version": "f4bb399c-9c8a-4bde-9d11-063cf833f17b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09404",
+      "target_version": "e8698032-6381-4f71-b8ad-da5b684d371a",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH01554HUQ",
+      "target_version": "e8698032-6381-4f71-b8ad-da5b684d371a",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00049RAP",
+      "target_version": "59a4afd2-b00d-48e4-b819-cdcb16da22eb",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00009SHE",
+      "target_version": "ec9f8396-6f9a-4977-abde-eee5a12047d6",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH05849",
+      "target_version": "5897abe0-79b2-4926-8ef5-61d8ceb01a64",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00032DAR",
+      "target_version": "fd59d90a-7aa4-431d-9925-b866fe9dd0b9",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB10492",
+      "target_version": "fb77df40-2265-4d0e-9283-5822b68f09d3",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB10492",
+      "target_version": "fb77df40-2265-4d0e-9283-5822b68f09d3",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH08242",
+      "target_version": "7957b473-2305-460b-a2a4-524819e488c9",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09872",
+      "target_version": "4ea2ed23-4235-4a82-bb3a-b0c40f8f3d64",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00210BIR",
+      "target_version": "59a4afd2-b00d-48e4-b819-cdcb16da22eb",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00209UND",
+      "target_version": "59a4afd2-b00d-48e4-b819-cdcb16da22eb",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00169FRA",
+      "target_version": "a9eb61cb-d7ef-4ec5-afcd-367d241dded5",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00169BEH",
+      "target_version": "e0085218-ed9f-4242-84b9-6dc356a6a78d",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB10324",
+      "target_version": "992696f2-b5e0-4838-85ab-460051ebf76c",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00001ABI",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03461MAR",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00553",
+      "target_version": "d0468bea-f653-432c-b3c2-749ef79a5f66",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00128FEE",
+      "target_version": "def97a17-6a31-4503-b5b6-d0df00528800",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB01023SAE",
+      "target_version": "63d4f1b5-fcb1-4d48-a668-339bcc511324",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00005ALL",
+      "target_version": "d13d22ab-f624-4a0b-be46-8093de273245",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00204PRO",
+      "target_version": "c77430e9-168b-4c62-9a6f-641775360c3f",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00527",
+      "target_version": "76cb14a3-7531-4421-afb4-c69755cc064a",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00527",
+      "target_version": "76cb14a3-7531-4421-afb4-c69755cc064a",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH03082",
+      "target_version": "bf5df0ba-e6d9-4b40-b24c-ccef4cee328d",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "bf5df0ba-e6d9-4b40-b24c-ccef4cee328d",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "bf5df0ba-e6d9-4b40-b24c-ccef4cee328d",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH03562",
+      "target_version": "a294ab41-8377-4a77-9887-1ce859f4b3d5",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00687",
+      "target_version": "d84d904c-834e-4b9f-a34b-fd6be3ac4eed",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "ebbb7c94-aafb-40c6-ad67-8b537e70201c",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB07850",
+      "target_version": "495fc9d7-82ac-40a0-8b22-875f0d186447",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB08704NEW",
+      "target_version": "a8c3d38a-b9c7-484b-a080-88b405771907",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00223MAG",
+      "target_version": "4dd7fa55-e632-42b8-b98c-a60b5d8c42e5",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00004REN",
+      "target_version": "5387f2f4-01d6-4f11-932b-9fe17cecd81b",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB02342AWA",
+      "target_version": "ec74cac2-15cb-43a4-b2b3-785ace061d05",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BB00543VIC",
+      "target_version": "97d7d6e2-a72a-47d8-a676-d8335c6c206d",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB07709CON",
+      "target_version": "50def0b4-04c1-46ad-8bd8-544c06ea3136",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH10505",
+      "target_version": "50def0b4-04c1-46ad-8bd8-544c06ea3136",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB08693",
+      "target_version": "329799ba-2874-4942-90c7-8d41bd80a8d5",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00963IMP",
+      "target_version": "d8a8c75430bc",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB10769",
+      "target_version": "0974ef5d-2ccd-4467-b885-f688b7461374",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00554",
+      "target_version": "8ae66570-21cc-4852-a328-2290e1b40a70",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH04990",
+      "target_version": "60fbb3d5-8d50-403a-949f-80deedcef855",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB10703RAD",
+      "target_version": "7ee0c8a1-db3c-4010-b6e1-793e48a9fd5c",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB10703RAD",
+      "target_version": "7ee0c8a1-db3c-4010-b6e1-793e48a9fd5c",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB04004BAB",
+      "target_version": "cc890fa8-e4a5-4a29-bfa8-9b384bc3e48a",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "ABU0137ALL",
+      "target_version": "66f907f3-162d-4afd-af91-db2f29fdc1f3",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "ABU0137ALL",
+      "target_version": "66f907f3-162d-4afd-af91-db2f29fdc1f3",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00553",
+      "target_version": "f47bf2a9-3ce2-470c-817b-ac060d5bb899",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH03181",
+      "target_version": "725806a1-e199-4590-86f3-5fb2e62bfb05",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH10127",
+      "target_version": "ee829bdb-066f-4ff4-8128-75ba59adb922",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00189AID",
+      "target_version": "ad262eee-36b5-49e5-a8d0-db8a2bab660e",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00009SER",
+      "target_version": "1f7a73ee-e7c4-4430-a40f-32ecd7847082",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH10076",
+      "target_version": "191ff578-588f-4223-80fc-51f0551f3797",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH05703KEP",
+      "target_version": "c2e31297-7c50-488f-bc5b-42d4d1340a63",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00018DET",
+      "target_version": "922034cf-291b-4af6-98fb-35b4f662a47e",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH08852",
+      "target_version": "98012f2b-cd58-451b-9ad2-90efce547208",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BB00018ADJ",
+      "target_version": "a18ed5d2-81fa-43e7-82e0-b71084f5940b",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BB00617",
+      "target_version": "a2c70e6d-6250-4af6-929a-4b366af2d9e4",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00617",
+      "target_version": "a2c70e6d-6250-4af6-929a-4b366af2d9e4",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03017CAL",
+      "target_version": "8d5f7e29-8abd-49dc-be8e-6aab34e8155b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00241HIG",
+      "target_version": "59a4afd2-b00d-48e4-b819-cdcb16da22eb",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00987",
+      "target_version": "2c435fb5-d294-4d61-9f36-b84c8868f521",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH03447",
+      "target_version": "829c55a0-569e-4627-8ab5-0818ec9d9a81",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH02022",
+      "target_version": "4be017f8-dfa5-4555-ac23-4234559a5544",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH08855",
+      "target_version": "8fa35938-e579-45da-b3bd-175f29b52870",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH08855",
+      "target_version": "8fa35938-e579-45da-b3bd-175f29b52870",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00397HEA",
+      "target_version": "b6056fe7-edb3-4962-9082-1de25d42665d",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH07775",
+      "target_version": "fe254a8d-8987-4c84-8b9e-c24ee05db01c",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB07158",
+      "target_version": "a236d346-b0d1-4023-b979-c373fb6ccd9e",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH03908",
+      "target_version": "cbe248f2-db04-4245-95a9-c608b41623a2",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH04421HEA",
+      "target_version": "69b40e6e-f12d-4615-95b3-6d7dcb72f481",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH11278RIV",
+      "target_version": "a236d346-b0d1-4023-b979-c373fb6ccd9e",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH05801",
+      "target_version": "b9a4a00c-e3df-4d4e-8762-31703283ed28",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH08308",
+      "target_version": "15ba1a13-d434-4d5f-9b26-a26f378cee7f",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00218SOU",
+      "target_version": "59a4afd2-b00d-48e4-b819-cdcb16da22eb",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH02198",
+      "target_version": "11ccc99d-737b-4f3f-9ec5-0de54be9b034",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00868WIT",
+      "target_version": "a5c6a206-5dcf-46b6-af66-918f81fdb60f",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH02307",
+      "target_version": "5cdea011-a144-4760-a4cb-3b30b61016b4",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00870",
+      "target_version": "8b77dc79-0b0a-48f9-823b-bdd7d5741b1f",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB07124",
+      "target_version": "95ac774a-36f0-4c7d-b859-d991aec14c76",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH06429",
+      "target_version": "d02d1ec8-bd29-4533-b30f-b0d434eb78cc",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00728MDS",
+      "target_version": "aca6bf34-730b-4ed1-9c30-6eb37d503932",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00001ABI",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03461MAR",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00002MEN",
+      "target_version": "40b42f19-af96-4aee-bc36-79af1896e179",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00053MAG",
+      "target_version": "b154b931-d610-4def-9eeb-2875e63f6b19",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00223MAG",
+      "target_version": "b154b931-d610-4def-9eeb-2875e63f6b19",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH10578",
+      "target_version": "ed3cbf60-1e1b-45ba-9988-932304434518",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00083RAD",
+      "target_version": "d0a92991-8618-4473-896d-cd67991dc0f0",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH09085",
+      "target_version": "24297b1e-dd0b-4308-b4de-f6cbd20934c8",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00001ABI",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03461MAR",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00002MEN",
+      "target_version": "40b42f19-af96-4aee-bc36-79af1896e179",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09809",
+      "target_version": "db460ab0-4ca9-45a6-83b5-95f8b45f6f1c",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB04980HOP",
+      "target_version": "bea41c43-5db6-4149-8afd-45738bd15b43",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB04980HOP",
+      "target_version": "bea41c43-5db6-4149-8afd-45738bd15b43",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00009HOW",
+      "target_version": "f8134ff5-671f-4525-bb10-482659a5bfad",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH10581",
+      "target_version": "dbe4e2e0-df6d-4560-b2e6-6864c0100ccd",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00778",
+      "target_version": "42738e07-870a-49aa-b7ed-3831d538cff3",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00778",
+      "target_version": "42738e07-870a-49aa-b7ed-3831d538cff3",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB02304TST",
+      "target_version": "8c1ba2c7-e61d-4908-95d2-a5ea9118dc6b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH08433",
+      "target_version": "440eb6f4-5c2d-4028-9cd9-d87c03b32744",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00128FEE",
+      "target_version": "def97a17-6a31-4503-b5b6-d0df00528800",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00583",
+      "target_version": "be5bda1d-c0c5-492e-926d-385dde208ef3",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH07469",
+      "target_version": "506aec42-f299-4c89-bd99-f173d38e35e6",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH05771",
+      "target_version": "2b354df7-279f-48f9-a0d7-18d8f4dae864",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB02825",
+      "target_version": "dc6e1ec7-871d-4faa-ba0d-3503097b9d74",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB02326",
+      "target_version": "9373d8cc-7c45-4528-8f73-ef5fefb4bf41",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB02866",
+      "target_version": "494602a7-dc59-49a1-86be-34f45a6375f6",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH06296",
+      "target_version": "b894c1f4-8ab9-4bf7-87bc-ab3883dab432",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00001ABI",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03461MAR",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00002MEN",
+      "target_version": "40b42f19-af96-4aee-bc36-79af1896e179",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH03109KIN",
+      "target_version": "da8a7be9-9088-414f-98ad-8e7382aca263",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BB00556",
+      "target_version": "1672fb18-5a55-4e4a-bf18-8a194d51bf63",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH06296",
+      "target_version": "b894c1f4-8ab9-4bf7-87bc-ab3883dab432",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00527",
+      "target_version": "76cb14a3-7531-4421-afb4-c69755cc064a",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00527",
+      "target_version": "76cb14a3-7531-4421-afb4-c69755cc064a",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH03082",
+      "target_version": "bf5df0ba-e6d9-4b40-b24c-ccef4cee328d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "bf5df0ba-e6d9-4b40-b24c-ccef4cee328d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "bf5df0ba-e6d9-4b40-b24c-ccef4cee328d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH03562",
+      "target_version": "a294ab41-8377-4a77-9887-1ce859f4b3d5",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "ebbb7c94-aafb-40c6-ad67-8b537e70201c",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03896MAJ",
+      "target_version": "1449c606-a8dd-4258-9fa9-8e48cb19efa2",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00009SER",
+      "target_version": "1f7a73ee-e7c4-4430-a40f-32ecd7847082",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB07850",
+      "target_version": "495fc9d7-82ac-40a0-8b22-875f0d186447",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "ABU0095KIN",
+      "target_version": "40273bd7-a711-4ce3-8ea0-a0bacfb2d264",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00593",
+      "target_version": "41478f30-37db-4180-95af-543dd2613576",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "ABU0030SHE",
+      "target_version": "b8d64b81-608b-44c4-a53f-180c05dc0875",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00554",
+      "target_version": "65d4ba0d-bf08-4c89-9f14-ff3d396aff92",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00065KIN",
+      "target_version": "fe014e2b-e962-420d-aff3-a220ff2fe3df",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH01503ENJ",
+      "target_version": "429bd5c9-6300-4218-8077-cfcb23ee4e35",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00001ABI",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03461MAR",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00002MEN",
+      "target_version": "40b42f19-af96-4aee-bc36-79af1896e179",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB06211",
+      "target_version": "b3ee85a9-a4ef-4ae4-ab74-bb3fb04a6e47",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH02753ENT",
+      "target_version": "99cb701b-d2e0-4440-a735-5bc71a4ded10",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "ebbb7c94-aafb-40c6-ad67-8b537e70201c",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH0560",
+      "target_version": "4812449c-19ef-478d-9969-3fd88e154f14",
+      "match_type": "LIKELY",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ]
+    },
+    {
+      "phelps": "BH00001ABI",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03461MAR",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00002MEN",
+      "target_version": "40b42f19-af96-4aee-bc36-79af1896e179",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB0018ANG",
+      "target_version": "7957b473-2305-460b-a2a4-524819e488c9",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH04569",
+      "target_version": "1149661a-7da6-4196-ac65-9466e80fc9b1",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH04569",
+      "target_version": "1149661a-7da6-4196-ac65-9466e80fc9b1",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH04569",
+      "target_version": "1149661a-7da6-4196-ac65-9466e80fc9b1",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH04569",
+      "target_version": "1149661a-7da6-4196-ac65-9466e80fc9b1",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00556",
+      "target_version": "1672fb18-5a55-4e4a-bf18-8a194d51bf63",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09960",
+      "target_version": "719b523b-9a06-4ecc-94c0-1a2f911f1512",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00949WIN",
+      "target_version": "5d8e7fa5-e4d9-46ec-b53d-62c3073992ba",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00949WIN",
+      "target_version": "5d8e7fa5-e4d9-46ec-b53d-62c3073992ba",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH08308",
+      "target_version": "15ba1a13-d434-4d5f-9b26-a26f378cee7f",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "ebbb7c94-aafb-40c6-ad67-8b537e70201c",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH07113",
+      "target_version": "11d57787-cab6-42df-ad75-843582a8cb4b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH08242",
+      "target_version": "7957b473-2305-460b-a2a4-524819e488c9",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "ebbb7c94-aafb-40c6-ad67-8b537e70201c",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH05771",
+      "target_version": "2b354df7-279f-48f9-a0d7-18d8f4dae864",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00004REN",
+      "target_version": "5387f2f4-01d6-4f11-932b-9fe17cecd81b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB02825",
+      "target_version": "dc6e1ec7-871d-4faa-ba0d-3503097b9d74",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00583",
+      "target_version": "be5bda1d-c0c5-492e-926d-385dde208ef3",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "ebbb7c94-aafb-40c6-ad67-8b537e70201c",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH05771",
+      "target_version": "2b354df7-279f-48f9-a0d7-18d8f4dae864",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00004REN",
+      "target_version": "5387f2f4-01d6-4f11-932b-9fe17cecd81b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB02825",
+      "target_version": "dc6e1ec7-871d-4faa-ba0d-3503097b9d74",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00583",
+      "target_version": "be5bda1d-c0c5-492e-926d-385dde208ef3",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "ebbb7c94-aafb-40c6-ad67-8b537e70201c",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH05771",
+      "target_version": "2b354df7-279f-48f9-a0d7-18d8f4dae864",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00004REN",
+      "target_version": "5387f2f4-01d6-4f11-932b-9fe17cecd81b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB02825",
+      "target_version": "dc6e1ec7-871d-4faa-ba0d-3503097b9d74",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00583",
+      "target_version": "be5bda1d-c0c5-492e-926d-385dde208ef3",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09289",
+      "target_version": "d0faadb8-6af8-4d13-8151-e1ab2fe0fa0b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00001ABI",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03461MAR",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00002MEN",
+      "target_version": "40b42f19-af96-4aee-bc36-79af1896e179",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00001ABI",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03461MAR",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00002MEN",
+      "target_version": "40b42f19-af96-4aee-bc36-79af1896e179",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00001ABI",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB03461MAR",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "bb036064-d82c-4abd-a761-852c786f7b7d",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH00002MEN",
+      "target_version": "40b42f19-af96-4aee-bc36-79af1896e179",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00147ORD",
+      "target_version": "9d50f261-7aca-42ab-a9b3-acfb28030c04",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "ebbb7c94-aafb-40c6-ad67-8b537e70201c",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH05771",
+      "target_version": "2b354df7-279f-48f9-a0d7-18d8f4dae864",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00004REN",
+      "target_version": "5387f2f4-01d6-4f11-932b-9fe17cecd81b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB02825",
+      "target_version": "dc6e1ec7-871d-4faa-ba0d-3503097b9d74",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BB00583",
+      "target_version": "be5bda1d-c0c5-492e-926d-385dde208ef3",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "ebbb7c94-aafb-40c6-ad67-8b537e70201c",
+      "match_type": "AMBIGUOUS",
+      "confidence": 0,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "similar_word_count",
+        "similar_char_count"
+      ],
+      "ambiguity_reason": "Multiple candidates with similar scores, difference between best and second best score is not significant"
+    },
+    {
+      "phelps": "BH05771"}
+  ],
+  "exact_matches": 0,
+  "likely_matches": 200,
+  "ambiguous_count": 138,
+  "new_translations": 0,
+  "summary": "Processed 338 prayers: estimated counts based on match types"
+}

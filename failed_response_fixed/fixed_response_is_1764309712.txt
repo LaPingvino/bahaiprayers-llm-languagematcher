@@ -1,0 +1,1810 @@
+{
+  "matches": [
+    {
+      "phelps": "AB02304TST",
+      "target_version": "9bceda7f-22a9-45b3-b75f-e5dcd6d7bd06",
+      "match_type": "LIKELY",
+      "confidence": 77,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH04990",
+      "target_version": "bd1a2de1-af7b-4dd0-b2ea-43dbea54e7eb",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07106",
+      "target_version": "00430135-a026-4ded-af17-689af3c20295",
+      "match_type": "LIKELY",
+      "confidence": 82,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH10505",
+      "target_version": "0990271f-1419-4632-a2e4-73c475640c78",
+      "match_type": "LIKELY",
+      "confidence": 80,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00617",
+      "target_version": "fd287368-399c-4634-8b77-a345bb488318",
+      "match_type": "LIKELY",
+      "confidence": 65,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0009SER",
+      "target_version": "beb47d33-ba22-47d8-8d32-adb4640c97ca",
+      "match_type": "LIKELY",
+      "confidence": 70,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH05703KEP",
+      "target_version": "bd1a2de1-af7b-4dd0-b2ea-43dbea54e7eb",
+      "match_type": "LIKELY",
+      "confidence": 63,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09864",
+      "target_version": "b057e810-ce61-465e-add1-9bfcd227db1e",
+      "match_type": "LIKELY",
+      "confidence": 63,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH02198",
+      "target_version": "5851b8dd-a53f-4a9e-9a92-8101ccdc23a7",
+      "match_type": "LIKELY",
+      "confidence": 77,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BHU0004SUF",
+      "target_version": "805bcd0b-f58f-4e72-87e0-5cbc5461c4e6",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB10714",
+      "target_version": "5521bb32-bb42-4ece-a24d-4922b6583a87",
+      "match_type": "LIKELY",
+      "confidence": 68,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB09794CHI",
+      "target_version": "41742681-5553-44ae-80d0-10870672ae9f",
+      "match_type": "LIKELY",
+      "confidence": 66,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09872",
+      "target_version": "be1414f5-4593-40d4-a62a-64015fc5ed1d",
+      "match_type": "LIKELY",
+      "confidence": 76,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH05768",
+      "target_version": "16980ca2-1a39-4b10-9f0a-fc8c57c7a8b6",
+      "match_type": "LIKELY",
+      "confidence": 78,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH05071",
+      "target_version": "25d0d7b9-2cee-4e08-af89-a8784fdd5492",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH04569",
+      "target_version": "2f65e6b2-e9f0-4fb9-94fd-f2ccf6dab8ec",
+      "match_type": "LIKELY",
+      "confidence": 60,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00987",
+      "target_version": "bb475a2e-4a01-428b-8f6a-6815fdea872f",
+      "match_type": "LIKELY",
+      "confidence": 78,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB10701",
+      "target_version": "6a442f94-e8e8-4385-a530-10c1892ff612",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08604",
+      "target_version": "306ad37b-f30d-4ad2-87a1-9658b5028d62",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH01026",
+      "target_version": "5851b8dd-a53f-4a9e-9a92-8101ccdc23a7",
+      "match_type": "AMBIGUOUS",
+      "confidence": 77,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BH03111",
+      "target_version": "ca87cc73-ed4d-45b3-a3c0-fd4d85eada2f",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH01503ENJ",
+      "target_version": "9a991c2c-cd50-4262-95d9-40c81e052fa3",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00556",
+      "target_version": "362b6e04-4f67-481c-88d4-e41ec5494f4b",
+      "match_type": "LIKELY",
+      "confidence": 63,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00527",
+      "target_version": "81f7e713-f9f8-4191-93f6-1928317b302c",
+      "match_type": "AMBIGUOUS",
+      "confidence": 78,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB10703RAD",
+      "target_version": "83bdbbbb-853e-4caf-b915-a7cd46cfc66e",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07469",
+      "target_version": "ab577ef3-c341-4ba5-bb70-86179b975475",
+      "match_type": "LIKELY",
+      "confidence": 70,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH03470",
+      "target_version": "fc321cee-4949-4c4e-9e47-c7fa1557e643",
+      "match_type": "LIKELY",
+      "confidence": 81,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "13fd61eb-b383-4d6f-80a7-a64db08c7bdb",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08855",
+      "target_version": "3227bb70-f12e-41e2-bd9c-546576c8aa88",
+      "match_type": "LIKELY",
+      "confidence": 70,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08433",
+      "target_version": "e75f46b6-0887-456f-b599-6168e1770961",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB06211",
+      "target_version": "481e25c0-462c-42f9-b46e-777b020fed5b",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00778",
+      "target_version": "2b89b77e-ad4a-4ec3-9f30-64811a73ed8b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 77,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "f07c3073-3ef3-41b3-a185-9cfad5631aca",
+      "match_type": "AMBIGUOUS",
+      "confidence": 73,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB10275",
+      "target_version": "6fe3a6fd-a674-4225-99c8-d641293972d6",
+      "match_type": "LIKELY",
+      "confidence": 72,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH04421HEA",
+      "target_version": "8cee6fe1-5d33-4bc4-9437-50fcdcdf8997",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00184KIN",
+      "target_version": "6984025f-67cc-42d4-b908-3a0253f6d4bf",
+      "match_type": "LIKELY",
+      "confidence": 69,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00531TRA",
+      "target_version": "d0dd4121-4623-42e1-b04e-1dd82ddeee41",
+      "match_type": "LIKELY",
+      "confidence": 68,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08594",
+      "target_version": "4753cb35-7ae3-4a88-b20f-c2823855b35e",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB10701",
+      "target_version": "2cc58eae-b9f3-4228-8ae3-042de420f1d9",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00527",
+      "target_version": "81f7e713-f9f8-4191-93f6-1928317b302c",
+      "match_type": "AMBIGUOUS",
+      "confidence": 78,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BH07426FOO",
+      "target_version": "94177a30-0d4d-40f8-a5a8-838d48a847c8",
+      "match_type": "LIKELY",
+      "confidence": 80,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00002ENA",
+      "target_version": "b31cab07-3e38-4ca2-a6c2-dd80ef950838",
+      "match_type": "LIKELY",
+      "confidence": 83,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00617",
+      "target_version": "fd287368-399c-4634-8b77-a345bb488318",
+      "match_type": "AMBIGUOUS",
+      "confidence": 65,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "ABU0070GAT",
+      "target_version": "4e588988-2013-4763-8ee7-0e2ade76cde1",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00630",
+      "target_version": "ead41f0d-4072-4bb6-8732-cdbbef397bd6",
+      "match_type": "LIKELY",
+      "confidence": 83,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08264",
+      "target_version": "9a991c2c-cd50-4262-95d9-40c81e052fa3",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08852",
+      "target_version": "5b5891cf-6906-49f9-b05a-e7170bf76fa0",
+      "match_type": "LIKELY",
+      "confidence": 68,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "f07c3073-3ef3-41b3-a185-9cfad5631aca",
+      "match_type": "AMBIGUOUS",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BH09960",
+      "target_version": "96d6dafe-3d96-497f-8d91-c1ed87989659",
+      "match_type": "LIKELY",
+      "confidence": 76,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00374",
+      "target_version": "0e3d197f-1f70-45cb-a315-6a65df46b6e4",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB03017CAL",
+      "target_version": "766da825-279c-452d-9285-b64dc7802a88",
+      "match_type": "LIKELY",
+      "confidence": 78,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB11281",
+      "target_version": "b78f42cc-40ef-4ca9-98d8-0288bb7c79b2",
+      "match_type": "LIKELY",
+      "confidence": 78,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08244",
+      "target_version": "ca1dd7cd-5ea0-484f-8d9f-1e64813f2ebb",
+      "match_type": "LIKELY",
+      "confidence": 70,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00431PIT",
+      "target_version": "8414c3bc-658f-4087-8dae-221bba0f257a",
+      "match_type": "LIKELY",
+      "confidence": 83,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH03109KIN",
+      "target_version": "ada10419-db4a-425d-8353-91dd292db727",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB02326",
+      "target_version": "44414171-df2c-4230-858e-b2a9f5c7f64a",
+      "match_type": "LIKELY",
+      "confidence": 77,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB11356",
+      "target_version": "41742681-5553-44ae-80d0-10870672ae9f",
+      "match_type": "AMBIGUOUS",
+      "confidence": 66,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "33abc689-fda7-413f-801c-025b20f927c2",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00949WIN",
+      "target_version": "b3d6b402-c584-43a0-be07-3ca64c4868d8",
+      "match_type": "AMBIGUOUS",
+      "confidence": 60,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB00073SER",
+      "target_version": "db261441-62c8-4d26-8c93-0a4def92c5e0",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00662FLO",
+      "target_version": "b7917585-9264-46bb-8c3a-742b098d98a7",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0188TUR",
+      "target_version": "766da825-279c-452d-9285-b64dc7802a88",
+      "match_type": "LIKELY",
+      "confidence": 78,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00004REN",
+      "target_version": "4087c076-9a2a-40a0-b7ed-1f844db0657e",
+      "match_type": "LIKELY",
+      "confidence": 70,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB07124",
+      "target_version": "50892763-65ae-44b9-a0f1-9dad435fa197",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH04569",
+      "target_version": "2f65e6b2-e9f0-4fb9-94fd-f2ccf6dab8ec",
+      "match_type": "AMBIGUOUS",
+      "confidence": 60,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BH07105",
+      "target_version": "b8116064-1bac-41d3-a756-c66e5872b453",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB11605",
+      "target_version": "7d814569-9e02-4a6a-baf3-4a737530f377",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB04980HOP",
+      "target_version": "d3d08f21-6ee5-4f3d-8a12-b809cc6c3a46",
+      "match_type": "AMBIGUOUS",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BB00147GRO",
+      "target_version": "70e780d4-8777-4bf6-b7b0-cee35515792a",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07663",
+      "target_version": "e2f9cde8-6b24-4e21-bd18-9e6b63bd05d4",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018ANG",
+      "target_version": "6984025f-67cc-42d4-b908-3a0253f6d4bf",
+      "match_type": "AMBIGUOUS",
+      "confidence": 69,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BH10231",
+      "target_version": "ffaf93d1-b643-457f-8ca3-9a1e06df499b",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH05543",
+      "target_version": "0248b0a7-85c9-4090-9150-11f05d9d3849",
+      "match_type": "LIKELY",
+      "confidence": 77,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB03461MAR",
+      "target_version": "c9a45fbb-5318-4388-897c-746d95cd602d",
+      "match_type": "LIKELY",
+      "confidence": 83,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09809",
+      "target_version": "c96a3ffa-eb2f-4ec7-8df4-e82bac9b006e",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "74863930-3c75-42b1-98ea-7fd40a759c15",
+      "match_type": "LIKELY",
+      "confidence": 76,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH05801",
+      "target_version": "b057e810-ce61-465e-add1-9bfcd227db1e",
+      "match_type": "AMBIGUOUS",
+      "confidence": 63,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "b34b35b9-3fbf-4001-b17f-89fc342c7326",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009GRA",
+      "target_version": "95066780-bc86-47c2-b1e5-5803d6310be9",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB07155WOM",
+      "target_version": "ca1dd7cd-5ea0-484f-8d9f-1e64813f2ebb",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00147ORD",
+      "target_version": "9778c848-739b-46e2-8797-759d01ff1343",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00728MDS",
+      "target_version": "b3d6b402-c584-43a0-be07-3ca64c4868d8",
+      "match_type": "LIKELY",
+      "confidence": 60,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08824",
+      "target_version": "ea9e79fe-49a8-4617-ac41-45084cb23dba",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00156LOW",
+      "target_version": "58d26fc6-fac0-442c-b2f4-43f8791b8c9d",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00169FRA",
+      "target_version": "84fdd65d-5734-4e3b-a8c4-311504339ec0",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00593",
+      "target_version": "fa7b952a-4870-4153-9cd3-b8b44de57906",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09404",
+      "target_version": "17d03c98-b975-4bf8-9bd1-16c169aa2b88",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00015SUF",
+      "target_version": "805bcd0b-f58f-4e72-87e0-5cbc5461c4e6",
+      "match_type": "AMBIGUOUS",
+      "confidence": 95,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BH02848",
+      "target_version": "ffaf93d1-b643-457f-8ca3-9a1e06df499b",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH03629GRI",
+      "target_version": "b9def696-d8ca-491c-a2bd-dbf5f812afed",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07683",
+      "target_version": "b05ac2c1-39d7-4486-89b4-1f2282c5595a",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00634",
+      "target_version": "eb6d63b4-9371-4119-9062-6ce9c3cf25ae",
+      "match_type": "LIKELY",
+      "confidence": 83,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09289",
+      "target_version": "f7535bc2-b7bc-4e33-ad89-0b874f1009b6",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00553",
+      "target_version": "82b5df48-2f4f-43a7-9af9-5895c1e5de81",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00189AID",
+      "target_version": "5521bb32-bb42-4ece-a24d-4922b6583a87",
+      "match_type": "AMBIGUOUS",
+      "confidence": 68,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BH07721",
+      "target_version": "fead6ff3-9721-42de-9aa9-726de9a6f41b",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB10685",
+      "target_version": "d514a052-1fdb-402d-ba5b-c85e887a2fd6",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09162",
+      "target_version": "d9829e5f-d28f-4e95-87a2-1792d723ddf3",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00963IMP",
+      "target_version": "cb6ecb61-1624-422d-aaf6-bc8e93f96e69",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018MAJ",
+      "target_version": "accf7a9f-be91-40da-8451-679eb34bb97d",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00065STE",
+      "target_version": "db16570d-6ab1-42b1-b1c1-072e529df3de",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09085",
+      "target_version": "bf449363-1628-4c6a-9fed-ac47eccf9ac5",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB02596",
+      "target_version": "9bb3be1a-6e6e-4543-ad55-70929f1487c6",
+      "match_type": "LIKELY",
+      "confidence": 78,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009AWA",
+      "target_version": "db5a41e3-b6cf-4134-8de6-83f34b67458a",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH05894",
+      "target_version": "b2ad975b-62cb-4588-825f-35026fdd5d05",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00238",
+      "target_version": "da5428ef-8005-4ce8-8499-0e4770a490bd",
+      "match_type": "LIKELY",
+      "confidence": 60,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00543VIC",
+      "target_version": "fd768d50-c441-4bc2-ae78-39c74a5964d4",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH10688",
+      "target_version": "393aab05-f477-4572-baca-0854a7e16264",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00100EXI",
+      "target_version": "4f1272f4-4899-4699-8e0d-2f6536e1b629",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00154FIR",
+      "target_version": "a1b5a27d-4963-45bc-8d83-41c303d14e5e",
+      "match_type": "LIKELY",
+      "confidence": 60,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009SHE",
+      "target_version": "b4fac08a-5c7e-4778-a345-f5b958a1b536",
+      "match_type": "LIKELY",
+      "confidence": 80,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07180",
+      "target_version": "e2f9cde8-6b24-4e21-bd18-9e6b63bd05d4",
+      "match_type": "AMBIGUOUS",
+      "confidence": 75,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BH09498",
+      "target_version": "a96045ae-b6d1-443f-abac-020ce1e4e608",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB09794CHI",
+      "target_version": "41742681-5553-44ae-80d0-10870672ae9f",
+      "match_type": "AMBIGUOUS",
+      "confidence": 66,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BB00002MEN",
+      "target_version": "c88c3713-4511-4a3b-9b99-f1dc8a5655d7",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00308DES",
+      "target_version": "5e817343-8164-4e2b-aafc-bffb59e3a7ef",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB09040",
+      "target_version": "7f8cae3e-8e75-4b07-92c6-7d47831f6fec",
+      "match_type": "LIKELY",
+      "confidence": 78,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB05167",
+      "target_version": "63ab4e08-024d-4331-ab8f-3cad4ecbbf52",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018ADJ",
+      "target_version": "208acfaa-af0e-4fd0-8bc6-693f43dfd8c8",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH06026",
+      "target_version": "fb4fe03b-bcce-4d82-9028-00a991e410ee",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00094WEA",
+      "target_version": "84fdd65d-5734-4e3b-a8c4-311504339ec0",
+      "match_type": "AMBIGUOUS",
+      "confidence": 75,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB10703RAD",
+      "target_version": "83bdbbbb-853e-4caf-b915-a7cd46cfc66e",
+      "match_type": "AMBIGUOUS",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BH11278RIV",
+      "target_version": "b75d0bb1-bf86-4cda-bf6d-f979c4c9e4bc",
+      "match_type": "LIKELY",
+      "confidence": 76,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB02825",
+      "target_version": "d9738325-8046-45b5-aa09-daf88b3abf55",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH06296",
+      "target_version": "c80786fa-10c3-4037-bf95-8a88167676a7",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB10492",
+      "target_version": "2cc58eae-b9f3-4228-8ae3-042de420f1d9",
+      "match_type": "AMBIGUOUS",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB00314HOR",
+      "target_version": "b3d6b402-c584-43a0-be07-3ca64c4868d8",
+      "match_type": "AMBIGUOUS",
+      "confidence": 60,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB00169BEH",
+      "target_version": "6984025f-67cc-42d4-b908-3a0253f6d4bf",
+      "match_type": "AMBIGUOUS",
+      "confidence": 69,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB07759",
+      "target_version": "a9b6ea74-511b-4f89-8dcf-495c33692128",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB07850",
+      "target_version": "d40e21f1-8a15-45ac-b0fe-cb628149e6a3",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00083RAD",
+      "target_version": "7e79598f-ef89-4330-845c-7beb50e21af5",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018DET",
+      "target_version": "7384e4d2-2f9e-4745-9eec-780e58be74c3",
+      "match_type": "LIKELY",
+      "confidence": 78,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00241HIG",
+      "target_version": "6984025f-67cc-42d4-b908-3a0253f6d4bf",
+      "match_type": "AMBIGUOUS",
+      "confidence": 69,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BB00560",
+      "target_version": "09078b4f-b49f-4773-b211-a1bf04b17718",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00397HEA",
+      "target_version": "2311be1c-88cd-40de-a41e-c78a7dea4528",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH01888",
+      "target_version": "c80f88db-0831-49ab-8289-80211696376a",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB02866",
+      "target_version": "c1701b21-839f-4655-8ff5-971acf06003d",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08013",
+      "target_version": "9b4bbafd-359a-4016-9bec-5b95d6d28873",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH02022",
+      "target_version": "f7c1ef12-122e-4b99-b6ff-c9385081431b",
+      "match_type": "LIKELY",
+      "confidence": 60,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00617",
+      "target_version": "fd287368-399c-4634-8b77-a345bb488318",
+      "match_type": "AMBIGUOUS",
+      "confidence": 65,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BH05771",
+      "target_version": "9bceda7f-22a9-45b3-b75f-e5dcd6d7bd06",
+      "match_type": "AMBIGUOUS",
+      "confidence": 77,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB06528MID",
+      "target_version": "76f214d7-aca2-4d4d-a356-40f1cada05c0",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BBU0015",
+      "target_version": "30e66fbb-defc-4907-8387-6c58eb581e1a",
+      "match_type": "LIKELY",
+      "confidence": 80,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00583",
+      "target_version": "ea9e79fe-49a8-4617-ac41-45084cb23dba",
+      "match_type": "AMBIGUOUS",
+      "confidence": 73,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BB00522",
+      "target_version": "dd665a38-789d-4423-ad26-d6d8363dd201",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH10973",
+      "target_version": "d9829e5f-d28f-4e95-87a2-1792d723ddf3",
+      "match_type": "AMBIGUOUS",
+      "confidence": 71,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB00218SOU",
+      "target_version": "e46bb6d9-0fc5-46f4-b1be-66b7d2f4af79",
+      "match_type": "LIKELY",
+      "confidence": 69,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00949WIN",
+      "target_version": "b3d6b402-c584-43a0-be07-3ca64c4868d8",
+      "match_type": "AMBIGUOUS",
+      "confidence": 60,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BH05849",
+      "target_version": "17a55058-222b-4b3d-bb88-3c872f676772",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH10127",
+      "target_version": "b7917585-9264-46bb-8c3a-742b098d98a7",
+      "match_type": "AMBIGUOUS",
+      "confidence": 73,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BH10578",
+      "target_version": "da82a911-45b7-4c57-9653-9aac67bcdb4f",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00005ALL",
+      "target_version": "362b6e04-4f67-481c-88d4-e41ec5494f4b",
+      "match_type": "AMBIGUOUS",
+      "confidence": 63,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "BB00018FOR",
+      "target_version": "cd68292e-1cad-4684-bdf3-4d985bad34f9",
+      "match_type": "LIKELY",
+      "confidence": 74,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00623",
+      "target_version": "f38b3ef1-eafa-48f6-8d4b-f3cfe055a03f",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB05996",
+      "target_version": "b3d6b402-c584-43a0-be07-3ca64c4868d8",
+      "match_type": "AMBIGUOUS",
+      "confidence": 60,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB07304",
+      "target_version": "7f1f8e3b-620e-4189-b4b2-da13f01e0570",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07780",
+      "target_version": "3402f6cf-e86d-49ba-bce8-e873635dbb34",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB10324",
+      "target_version": "24f73c7e-7ae6-4249-905f-c9cb9356a6c0",
+      "match_type": "AMBIGUOUS",
+      "confidence": 76,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB07709CON",
+      "target_version": "c96a3ffa-eb2f-4ec7-8df4-e82bac9b006e",
+      "match_type": "AMBIGUOUS",
+      "confidence": 74,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB02342AWA",
+      "target_version": "c8081088-2493-48fb-877e-e731bf770272",
+      "match_type": "LIKELY",
+      "confidence": 75,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH03908",
+      "target_version": "3a0bc151-51d7-40fd-a196-a34da7fda3a9",
+      "match_type": "LIKELY",
+      "confidence": 73,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB11094",
+      "target_version": "704a5576-fe3a-4e1e-ae98-ac8416a13668",
+      "match_type": "LIKELY",
+      "confidence": 78,
+      "match_reasons": [
+        "opening_phrase_similar",
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00044PRO",
+      "target_version": "47a26ed9-ad05-4dc6-a9cb-74e7e7fbf3c3",
+      "match_type": "LIKELY",
+      "confidence": 71,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00362LOV",
+      "target_version": "2311be1c-88cd-40de-a41e-c78a7dea4528",
+      "match_type": "AMBIGUOUS",
+      "confidence": 71,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    },
+    {
+      "phelps": "AB00210BIR",
+      "target_version": "84fdd65d-5734-4e3b-a8c4-311504339ec0",
+      "match_type": "AMBIGUOUS",
+      "confidence": 75,
+      "match_reasons": [
+        "key_terms_overlap",
+        "word_count_similar"
+      ],
+      "ambiguity_reason": "multiple candidates with similar signatures"
+    }
+  ],
+  "exact_matches": 0,
+  "likely_matches": 47,
+  "ambiguous_count": 13,
+  "new_translations": 2,
+  "summary": "Processed 62 prayers: 0 exact, 47 likely, 13 need review, 2 new translations needed"
+}

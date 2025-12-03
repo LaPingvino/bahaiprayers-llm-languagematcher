@@ -1,0 +1,132 @@
+AMBIGUOUS MATCHES - HAW
+Generated: 2025-11-28 13:50:45
+Total items: 12
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/12] Target Prayer: e946e211-605f-4c00-aa4f-9e950d291272
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: General thematic overlap but no strong textual or structural cues.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/12] Target Prayer: fdbc8c1eae0e
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: Very long prayers, general theme overlap, but not strong structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/12] Target Prayer: c3628ff8-6615-4ad7-aba9-b89b6055fbfc
+Suggested Phelps: BH00987
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: Very long prayers, general theme overlap, but not strong structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/12] Target Prayer: c71fdfa6-9b7a-4309-8d1e-90323ba41f4c
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: Very long prayers, general theme overlap, but not strong structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/12] Target Prayer: 12ee6b42-602b-4a7e-b31c-820da2e2d436
+Suggested Phelps: AB00527
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: Very long prayers, general theme overlap, but not strong structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/12] Target Prayer: aa579ad4-4780-407d-b889-3c5b7195ee10
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: Very long prayers, general theme overlap, but not strong structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/12] Target Prayer: c04f8c2bf73d
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: Very long prayers, general theme overlap, but not strong structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/12] Target Prayer: b38ddaec-2985-48e2-a14c-10678f52ac39
+Suggested Phelps: BH00778
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: Very long prayers, general theme overlap, but not strong structural match.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/12] Target Prayer: df98cd6fa376
+Suggested Phelps: BB00002ENA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: Different word counts but common theme of enabling people.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/12] Target Prayer: dd9e1c74-2ede-4240-9c34-6ee400557599
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap, opening_phrase_similar
+Ambiguity: Both are 'Tablet of Visitation' but different content.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/12] Target Prayer: 1d26dd77-b385-4c4c-94fa-7e646d180e16
+Suggested Phelps: AB03082
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap, opening_phrase_similar
+Ambiguity: Both are 'Tablet of Visitation' but different content.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/12] Target Prayer: df98cd6fa376
+Suggested Phelps: BB00002ENA
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=60)%
+Reasons: key_terms_overlap
+Ambiguity: Different word counts but common theme of enabling people.
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

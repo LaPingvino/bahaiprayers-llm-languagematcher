@@ -1,0 +1,69 @@
+AMBIGUOUS MATCHES - RU
+Generated: 2025-11-28 23:35:28
+Total items: 6
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/6] Target Prayer: 09394f4a-07b4-4240-ab79-b475e258c134
+Suggested Phelps: BH09864
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=33)%
+Reasons: low_key_term_overlap, opening_closing_phrase_some_overlap
+Ambiguity: word_count_significant_diff
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/6] Target Prayer: 2ca30066-3f4d-4ccd-b278-7dbf9bd19485
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=33)%
+Reasons: low_key_term_overlap
+Ambiguity: word_count_significant_diff
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/6] Target Prayer: 9b88d282-edc7-4a19-844c-b328ed261b3b
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=43)%
+Reasons: medium_key_term_overlap, opening_closing_phrase_some_overlap, word_count_similar, char_count_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/6] Target Prayer: 2ca30066-3f4d-4ccd-b278-7dbf9bd19485
+Suggested Phelps: BH07469
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=33)%
+Reasons: low_key_term_overlap
+Ambiguity: word_count_significant_diff
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/6] Target Prayer: 9b88d282-edc7-4a19-844c-b328ed261b3b
+Suggested Phelps: AB00184KIN
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=43)%
+Reasons: medium_key_term_overlap, opening_closing_phrase_some_overlap, word_count_similar, char_count_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/6] Target Prayer: f96fd059-107e-4c38-8762-c61b4bd77bd6
+Suggested Phelps: BH09289
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=43)%
+Reasons: medium_key_term_overlap, word_count_similar, char_count_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

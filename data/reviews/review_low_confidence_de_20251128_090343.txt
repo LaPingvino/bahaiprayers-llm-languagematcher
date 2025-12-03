@@ -1,0 +1,21 @@
+LOW CONFIDENCE MATCHES - DE
+Generated: 2025-11-28 09:03:43
+Total items: 1
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/1] Target Prayer: ea5abc2b-e491-4684-90f4-4db79f26ac2c
+Suggested Phelps: EA5ABC2B-E491-4684-90F4-4DB79F26AC2C
+Match Type: NEW_TRANSLATION
+Confidence: 0%
+Ambiguity: no reasonable match found
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

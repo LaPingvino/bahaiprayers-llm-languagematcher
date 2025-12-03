@@ -1,0 +1,2293 @@
+{
+  "matches": [
+    {
+      "phelps": "AB02866",
+      "target_version": "00266545-9f6f-458a-b0d0-1d9987bd1536",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00005SEE",
+      "target_version": "019e48a9-8395-4be2-9855-77dff70bd401",
+      "match_type": "LIKELY",
+      "confidence": 96,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00032DAR",
+      "target_version": "01e67c6b-2301-4f64-a0fd-df64fdb563d7",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00543VIC",
+      "target_version": "020e92c4-753e-48cf-a40b-b88a893b807b",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07657",
+      "target_version": "06d9ddc1-c1de-4c33-80cd-a9ec7520a7ae",
+      "match_type": "LIKELY",
+      "confidence": 76,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0095KIN",
+      "target_version": "08e34043-4847-4d6c-897d-0f2911d7aa49",
+      "match_type": "LIKELY",
+      "confidence": 84,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH05894",
+      "target_version": "09282fc9-cb3c-4dce-afce-429dd92f23bb",
+      "match_type": "LIKELY",
+      "confidence": 86,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07775",
+      "target_version": "0953d430-78ba-4736-81ad-d0acbf98ddef",
+      "match_type": "LIKELY",
+      "confidence": 83,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB11281",
+      "target_version": "095cb514-8bde-4959-9435-b8af42b0abf5",
+      "match_type": "LIKELY",
+      "confidence": 77,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB01023SAE",
+      "target_version": "0a75fb85-3be4-433f-ac31-3a7d22cc4693",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH03908",
+      "target_version": "0a7974f2-c3e4-451a-a2c3-ae1f8117efbd",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00154FIR",
+      "target_version": "0bf1f5e2-4e84-4cb8-bdea-f328868fe070",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB02342AWA",
+      "target_version": "0d9a62c7-ce92-4d5f-ba65-f86759495378",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH03562",
+      "target_version": "0e0c2d6d-95cd-43e2-b161-2c18da9be21c",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH01313NAM",
+      "target_version": "109515c8-2c9d-44e2-8dad-43dd02c1ecd5",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07426FOO",
+      "target_version": "113f6a54-6e2d-4ec4-a1b7-76ab2b82f9a3",
+      "match_type": "LIKELY",
+      "confidence": 91,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08363",
+      "target_version": "15930b3e-6e97-46ed-8b53-94f18273f48e",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09289",
+      "target_version": "17ec934c-6d2b-442f-8530-98e79dc9c249",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB07850",
+      "target_version": "186f483a-7054-44bf-94b8-8b7fca5ad824",
+      "match_type": "LIKELY",
+      "confidence": 77,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0009SER",
+      "target_version": "1919c674-67d0-480a-affe-2b567dcada7f",
+      "match_type": "LIKELY",
+      "confidence": 77,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH05543",
+      "target_version": "1a66d050-0bf6-4466-82ad-84dc8b4f32a2",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018DET",
+      "target_version": "1a6f77d4-d12e-4957-abbc-9d8fb1ce2606",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009AWA",
+      "target_version": "1a8a31e8-97fa-45e2-82a4-5a722f7ba0db",
+      "match_type": "LIKELY",
+      "confidence": 86,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00218SOU",
+      "target_version": "1ab603b9-ba5e-4020-aa0c-7f165551297e",
+      "match_type": "LIKELY",
+      "confidence": 80,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00156LOW",
+      "target_version": "1cc7b8fa-3f5c-4401-8879-019557cc79c5",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB02000DIS",
+      "target_version": "1def8a07-6c96-468f-af9b-c47a09adfc95",
+      "match_type": "LIKELY",
+      "confidence": 81,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH03181",
+      "target_version": "1e801b8b-7511-42ce-9e35-dc63e1f017f3",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00687",
+      "target_version": "20e874e6-ec19-403f-9949-835874ab20dd",
+      "match_type": "LIKELY",
+      "confidence": 81,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0009SER",
+      "target_version": "236e9dd9-d20f-45f3-a3ad-bb1f27a6a82b",
+      "match_type": "LIKELY",
+      "confidence": 82,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00308DES",
+      "target_version": "2583fd62-c9f4-46fa-afad-c7ea89618cad",
+      "match_type": "LIKELY",
+      "confidence": 86,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB03896MAJ",
+      "target_version": "290652d2-d93f-4fea-86b3-7d11e326484e",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07780",
+      "target_version": "2c4e6721-4210-4ee6-9499-3629135fe50d",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB11605",
+      "target_version": "2edde37f-e051-40e9-8ef4-f8d88ab79f7d",
+      "match_type": "LIKELY",
+      "confidence": 98,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018FOR",
+      "target_version": "2f122f97-61c4-488d-96fc-0b5a79d7b1bd",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00630",
+      "target_version": "2f5c8bee-ee7c-4306-b477-938b5ed17561",
+      "match_type": "LIKELY",
+      "confidence": 94,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH04421HEA",
+      "target_version": "311979bc-ac80-4137-bc3e-232ca0f58f69",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009HOW",
+      "target_version": "356cfe7b-4cd3-4325-b9cb-61a927ff728e",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH05849",
+      "target_version": "362da0d7-3e20-418b-b410-aebcec516235",
+      "match_type": "LIKELY",
+      "confidence": 86,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08855",
+      "target_version": "37d3fbb0-59df-4ccb-8c5c-b00f82e28003",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00100EXI",
+      "target_version": "37e84a49-fb1b-48c6-9dd8-51f323baf5f4",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB02596",
+      "target_version": "38332911-eb75-422f-a22a-0c961bf82bc3",
+      "match_type": "LIKELY",
+      "confidence": 82,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB04620",
+      "target_version": "38f56634-36b4-4bf8-be18-b701f78cc9da",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00128FEE",
+      "target_version": "3bbf41b1-10b1-4954-8998-673f30fc4948",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018MAJ",
+      "target_version": "3d07897f-278d-4b51-b62b-b99008c74ce4",
+      "match_type": "LIKELY",
+      "confidence": 86,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00553",
+      "target_version": "3d24a10c-f4e2-48be-a290-f6856b7c5561",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH02307",
+      "target_version": "3e4933f9-dad0-436a-a175-d8ca6cc0e054",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00438",
+      "target_version": "433d29c0-a7e2-458b-b38b-0b842fa7f9cd",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB11094",
+      "target_version": "4462d2c1-ad36-41c4-aef4-210fc3ea71f5",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH01888",
+      "target_version": "44770c77-c57f-42ce-abe4-f6c951d81ff3",
+      "match_type": "LIKELY",
+      "confidence": 79,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH02848",
+      "target_version": "45d1d29e-daed-4559-9d8a-d5db91d30ca3",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00388COM",
+      "target_version": "4b4c4f59-99f5-48fe-8ad7-4b3823599ab5",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08852",
+      "target_version": "4e575187-627f-4316-aa9b-df01557ac41e",
+      "match_type": "LIKELY",
+      "confidence": 86,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB07124",
+      "target_version": "4eafbb04-4668-43d0-ab98-1ec6594ed55f",
+      "match_type": "LIKELY",
+      "confidence": 84,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH10973",
+      "target_version": "4f57dea2-fd7b-43d7-82e4-7698ca2d630e",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH03629GRI",
+      "target_version": "4f7f6d0c-2994-4915-9393-43830cd581b4",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB02326",
+      "target_version": "512f24e2-e4f3-4bb4-98e8-fbd4e63326a4",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08433",
+      "target_version": "5210bd26-8c72-4ade-afc6-81b74c0fb0c5",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB10701",
+      "target_version": "5272a901-17fb-404d-b073-b64aa7a3dc49",
+      "match_type": "LIKELY",
+      "confidence": 82,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB07304",
+      "target_version": "54c70c06-36ab-4866-8f28-7d8359783eca",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH03109KIN",
+      "target_version": "5632515a-65ed-478d-8724-0677ed4d4287",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH03111",
+      "target_version": "5731cdac-198d-402a-9e6b-4788e8ac1a5e",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09872",
+      "target_version": "574fc365-776c-412c-827c-c9195e84d280",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00987",
+      "target_version": "5c2a6f4f-1607-4afe-88b6-5c0c41198516",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00621",
+      "target_version": "5c4a3358-3968-4e31-b705-81ff566f8fa4",
+      "match_type": "LIKELY",
+      "confidence": 84,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH02898MAG",
+      "target_version": "5d19c8a6-b327-410e-b282-979df7031f2b",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB03082",
+      "target_version": "5f242952-3ab2-4f03-8cf9-2638f84114f8",
+      "match_type": "LIKELY",
+      "confidence": 77,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH04421HEA",
+      "target_version": "620fedb1-d5bc-424b-9922-fc8c6fb698e5",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00560",
+      "target_version": "63018a58-4fb2-4852-adb2-4c8461c00ea2",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009SER",
+      "target_version": "65829eb7-84f5-497a-97bc-68be8cc7682c",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB10714",
+      "target_version": "66306652-8918-4aa2-b733-c4a54e50256c",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00001KNO",
+      "target_version": "67b1e51b-746b-4eb9-a387-7421d5ee252e",
+      "match_type": "LIKELY",
+      "confidence": 86,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07106",
+      "target_version": "688770ad-57e4-45b0-86c8-338f8f3bfbb3",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07663",
+      "target_version": "69700886-9f3b-4f46-af5f-e7b048d7f7fd",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB10769",
+      "target_version": "69ae1b57-2e47-4e5e-be09-a24a4525bb31",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09085",
+      "target_version": "6b136af5-9165-4839-afe8-73f8aaa66602",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00554",
+      "target_version": "749345db-8305-400c-81d5-d541147742aa",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH06296",
+      "target_version": "750fa819-ef9b-48d1-8294-1f39b450f986",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08868WIT",
+      "target_version": "758f6858-cbba-4036-8d6c-a0ad94ed06e3",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09498",
+      "target_version": "75e4aaa7-5232-40d5-9a15-1d5734ede903",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00154FIR",
+      "target_version": "781595c3-b10b-49b2-a6c9-d0ab6699a9cc",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB10275",
+      "target_version": "785127d7-0153-493f-a44c-acd2aaac684a",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09024",
+      "target_version": "7876cee2-c0b9-47da-a548-be18202b7abe",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00001FIR",
+      "target_version": "7a6b0e44-b58a-42ae-8bfb-2c18469b1fa3",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00147GRO",
+      "target_version": "7b9f2309-1563-4fed-acc1-6e13c5cfdc9e",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00623",
+      "target_version": "7be00558-9902-4cf8-aea6-d8a85f94a49d",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH02022",
+      "target_version": "7ceb4c82-6ef8-436b-a4dd-c67d62633fd8",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00431PIT",
+      "target_version": "7d1f0ab7-e729-40dd-bfb6-23929bc1f6d0",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08242",
+      "target_version": "7d635947-3361-4ce2-8e74-1fbd67947234",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08600TES",
+      "target_version": "7f4c0474-0e72-446b-a178-4e91a1fb995c",
+      "match_type": "LIKELY",
+      "confidence": 80,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB07759",
+      "target_version": "813d0720-2d36-49e8-b935-e47d1450e360",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00687SEE",
+      "target_version": "818749e6-805c-4895-b09c-d1079a61c37e",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB09040",
+      "target_version": "85c53418-8e3b-4afe-9596-6b1aa4dca1c9",
+      "match_type": "LIKELY",
+      "confidence": 84,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00015SUF",
+      "target_version": "87ae9533-0ca8-4dbc-8590-66e627fb72cc",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00522",
+      "target_version": "8a83eae2-6285-4a63-af5b-0e2b03c0b1a6",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00490",
+      "target_version": "8b8600d1-d55a-4e77-80ee-21abe5fae0d5",
+      "match_type": "LIKELY",
+      "confidence": 86,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB09139",
+      "target_version": "8d248552-d039-4172-902b-d60804e4bb71",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00593",
+      "target_version": "8f507022-ffe8-4658-bb41-a956da49889a",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00554",
+      "target_version": "91598a02-b0a0-48ec-a1b3-ff1972fa500e",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00362LOV",
+      "target_version": "9342fd2c-4441-4398-90d9-ecc9f9255c34",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH10688",
+      "target_version": "95dda8b6-0f35-4479-810f-62834ebe04e3",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "970110a9-8eec-4d98-a170-740f965d2988",
+      "target_version": "970110a9-8eec-4d98-a170-740f965d2988",
+      "match_type": "NEW_TRANSLATION",
+      "confidence": 0,
+      "match_reasons": [
+        "no_sufficient_match"
+      ]
+    },
+    {
+      "phelps": "BH09399",
+      "target_version": "97b3e7ab-eb36-44a2-9222-01333f6a72c8",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0009SER",
+      "target_version": "986a3536-d3cc-421b-bc5b-03fc5ed172e6",
+      "match_type": "LIKELY",
+      "confidence": 82,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0030SHE",
+      "target_version": "9c9c44e4-f6cc-4345-ad74-7abfff68c3af",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00001SHI",
+      "target_version": "9e10f82e-db9d-46b2-9ba3-8cbfd73cf903",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00044PRO",
+      "target_version": "a27631d2-b6ee-4a1d-9c13-b50ec93752e9",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08244",
+      "target_version": "a2890030-e638-4b21-87f2-e76fda1793e6",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009SHE",
+      "target_version": "a2b8790d-90a3-46f3-8840-a7e17f43f3c3",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH03470",
+      "target_version": "a3d02ac3-0838-4c4c-bd77-8528afb3e49f",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB05652WIS",
+      "target_version": "a3d6a057-1155-47de-aa04-8e179d8f015e",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00018ADJ",
+      "target_version": "a4695f0e-ee09-48bc-a650-d2cfc19ed30c",
+      "match_type": "LIKELY",
+      "confidence": 94,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00073SER",
+      "target_version": "a80105fc-0260-4fe2-b3ca-a9d5094df41a",
+      "match_type": "LIKELY",
+      "confidence": 84,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AC524E38",
+      "target_version": "ac524e38-7c89-40ca-a0a0-e660ca0c581b",
+      "match_type": "NEW_TRANSLATION",
+      "confidence": 0,
+      "match_reasons": [
+        "no_sufficient_match"
+      ]
+    },
+    {
+      "phelps": "BB00147ORD",
+      "target_version": "aca7541a-7400-4cf5-ba2d-dc1ca3457354",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00094WEA",
+      "target_version": "ae6918b5-11c7-4d14-ba6c-30bb68f6121d",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07683",
+      "target_version": "afe6ec86-b133-4d35-9fd6-de07b7486b76",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00009GRA",
+      "target_version": "b3467fd1-50a8-40b4-a47a-e2576d650b5e",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00527",
+      "target_version": "b80829a3-5c7c-40e0-aa05-8fff30c32b63",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00002MEN",
+      "target_version": "b818d0a0-80e3-4d42-85d2-01ba323deb96",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07661",
+      "target_version": "b8924703-818c-44c6-95bb-501c7d09d9d7",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "B97BE015",
+      "target_version": "b97be015-490b-4349-9a84-3797a5c27c6d",
+      "match_type": "NEW_TRANSLATION",
+      "confidence": 0,
+      "match_reasons": [
+        "no_sufficient_match"
+      ]
+    },
+    {
+      "phelps": "ABU0129EDU",
+      "target_version": "bac90b95-40ea-465e-8345-2bece407cbe6",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09508",
+      "target_version": "bade0602-34ab-45dd-8549-8409f96751b8",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00189AID",
+      "target_version": "bb81762f-e926-4d6c-9fff-14c31170f1d7",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0023UNI",
+      "target_version": "bcd66a65-c25a-4a8b-bfa1-5cb492372802",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08308",
+      "target_version": "bde61374-6413-42f9-a86f-a2b991f6e247",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH06026",
+      "target_version": "bfbc7620-de1b-480d-8794-f092df985f16",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB04004BAB",
+      "target_version": "c04591b1-711b-4af4-aa06-b9ea105a00a8",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00374",
+      "target_version": "c69dc57e-bb45-490d-b4c6-14bf55a8e27e",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB04980HOP",
+      "target_version": "c7299e10-8aa5-42df-b23d-639b37be43b6",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB03017CAL",
+      "target_version": "c74cd88d-d1e2-446b-866b-6fc8eb2de0bb",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09401",
+      "target_version": "c9c87424-15a2-4b69-97cb-467dcd083173",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB07709CON",
+      "target_version": "ca35931a-eb29-4a95-bb7d-5fbb04fc8160",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00065STE",
+      "target_version": "cb22b9b0-fdde-49bb-a813-10054b8a7ad2",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "CB88506E",
+      "target_version": "cb88506e-4cd3-455c-a41c-21572f5d7217",
+      "match_type": "NEW_TRANSLATION",
+      "confidence": 0,
+      "match_reasons": [
+        "no_sufficient_match"
+      ]
+    },
+    {
+      "phelps": "AB00169FRA",
+      "target_version": "cba797c6-1a7e-4317-b5dc-a9ef053079a0",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08264",
+      "target_version": "d2df7d64-8845-420c-994e-f4cdf576772c",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH00634",
+      "target_version": "d4036de3-3c5d-4117-8a2e-402dc0d1cbc7",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00583",
+      "target_version": "d6093843-406d-4574-be85-35566032b9bd",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00083RAD",
+      "target_version": "d6d1c15f-f44a-4cf8-870d-113174c8a274",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB00210BIR",
+      "target_version": "d93e2326-46d1-4989-bac7-f7759daa0051",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "DA140F10",
+      "target_version": "da140f10-9f6c-4dff-87a6-fb920e7373d5",
+      "match_type": "NEW_TRANSLATION",
+      "confidence": 0,
+      "match_reasons": [
+        "no_sufficient_match"
+      ]
+    },
+    {
+      "phelps": "AB11356",
+      "target_version": "dbc6083c-2ef2-4f7b-9a72-4007ca16c40e",
+      "match_type": "LIKELY",
+      "confidence": 95,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07124",
+      "target_version": "dbe3fc70-88ef-42f2-9f30-794bbfa3df65",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH09855",
+      "target_version": "ddbc9db4-aafe-4319-9b7a-b5b535d21e5e",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH04475",
+      "target_version": "de1a1305-0286-4cbc-b4d0-958a51a880a9",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08600FAC",
+      "target_version": "dfebabf2-c492-4ecf-aca5-626c09d9308a",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08013",
+      "target_version": "e303db91-0951-4a4c-bf42-0fe564dc743b",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "E3C1FFED",
+      "target_version": "e3c1ffed-deed-479e-8e4a-fb83f49a5438",
+      "match_type": "NEW_TRANSLATION",
+      "confidence": 0,
+      "match_reasons": [
+        "no_sufficient_match"
+      ]
+    },
+    {
+      "phelps": "BH10505",
+      "target_version": "e45c6fd2-3fe4-453a-8443-f73eebc2ddda",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH08604",
+      "target_version": "e678749e-8c10-4177-b12c-8de9ed9c802e",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB10324",
+      "target_version": "e6ebd807-4c7f-4662-9285-9eee07455bd8",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "ABU0137ALL",
+      "target_version": "e76b2ffb-9c6b-4472-b998-46fe2e92148e",
+      "match_type": "LIKELY",
+      "confidence": 87,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB06211",
+      "target_version": "e9e1c0a5-e77b-40d1-892b-0e093f359cd0",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB07158",
+      "target_version": "ea46e55c-0304-4d2d-b745-446d8f326315",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00617",
+      "target_version": "edc15bbf-4f56-46f2-8160-a2c400d3c870",
+      "match_type": "LIKELY",
+      "confidence": 93,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB06528MID",
+      "target_version": "ef86ab8f-526d-4a2b-8d8e-8fb01ba2b703",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB03461MAR",
+      "target_version": "f054c966-c67b-44f7-a0c5-ff6094453a6f",
+      "match_type": "LIKELY",
+      "confidence": 92,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00004REN",
+      "target_version": "f385cdf2-7b9b-4bd8-93a3-8fcbbf8de08a",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BB00002ENA",
+      "target_version": "f5618ccd-24c7-4cf2-b540-15ce3d403686",
+      "match_type": "LIKELY",
+      "confidence": 94,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07469",
+      "target_version": "f5f4f731-162e-41ec-92c5-1ac7cd5365fe",
+      "match_type": "LIKELY",
+      "confidence": 89,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "BH07180",
+      "target_version": "fa1de759-70d6-4b39-a7de-fe4dfb45c429",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB10703RAD",
+      "target_version": "fdcda280-e033-4e3a-8bfc-f94871074a98",
+      "match_type": "LIKELY",
+      "confidence": 90,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "AB06012",
+      "target_version": "fe78376a-76f3-4dda-8c97-93a4078bde88",
+      "match_type": "LIKELY",
+      "confidence": 88,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    },
+    {
+      "phelps": "FF77E88B",
+      "target_version": "ff77e88b-f89a-4df5-aff4-c8cc7e82318a",
+      "match_type": "NEW_TRANSLATION",
+      "confidence": 0,
+      "match_reasons": [
+        "no_sufficient_match"
+      ]
+    },
+    {
+      "phelps": "BH00870",
+      "target_version": "ffadb395-38ae-430e-9ab4-4517f267ae02",
+      "match_type": "LIKELY",
+      "confidence": 85,
+      "match_reasons": [
+        "key_terms_overlap",
+        "signature_overlap",
+        "opening_phrase_similar",
+        "closing_phrase_similar",
+        "type_match",
+        "word_count_similar"
+      ]
+    }
+  ],
+  "exact_matches": 0,
+  "likely_matches": 72,
+  "ambiguous_count": 0,
+  "new_translations": 4,
+  "summary": "Processed 76 prayers: 0 exact, 72 likely, 0 need review, 4 new translations needed"
+}

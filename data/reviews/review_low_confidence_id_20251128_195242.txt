@@ -1,0 +1,525 @@
+LOW CONFIDENCE MATCHES - ID
+Generated: 2025-11-28 19:52:42
+Total items: 57
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/57] Target Prayer: 055c2214-d168-4c84-8e46-04834cc2b307
+Suggested Phelps: BH04990
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_semantic_match (guidance to forgiveness), high_key_term_overlap (50%), key_term_in_text (almighty), key_term_in_text (god), key_term_in_text (mercy), key_term_match (almighty), key_term_match (forgiveness), key_term_match (god), key_term_match (mercy), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/57] Target Prayer: 875e7569-aa6e-484d-b21d-a3e6ae33709b
+Suggested Phelps: BB00617
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (forgiveness), high_key_term_overlap (75%), key_term_in_text (forgiveness), key_term_in_text (god), key_term_in_text (lord), key_term_match (forgiveness), key_term_match (god), key_term_match (lord), opening_closing_semantic_similarity
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/57] Target Prayer: 0d4f0f92-e26c-43bb-8577-06ff8c8ebaed
+Suggested Phelps: ABU0009SER
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_semantic_match (guidance to general), high_key_term_overlap (62%), key_term_in_text (almighty), key_term_in_text (forgiveness), key_term_in_text (god), key_term_in_text (lord), key_term_in_text (servants), key_term_match (almighty), key_term_match (forgiveness), key_term_match (god), key_term_match (lord), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/57] Target Prayer: b1bc508f40d9
+Suggested Phelps: BH05703KEP
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: type_semantic_match (assistance to forgiveness), high_key_term_overlap (66%), key_term_in_text (almighty), key_term_in_text (god), key_term_in_text (servants), key_term_match (almighty), key_term_match (god), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/57] Target Prayer: 81aa3246-2513-45b6-b2a9-74831b50bbcf
+Suggested Phelps: BHU0004SUF
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (general), high_key_term_overlap (100%), key_term_in_text (god), key_term_match (god), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[6/57] Target Prayer: 033b6553-e09a-42d9-a023-ccdba10ed950
+Suggested Phelps: AB10714
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_semantic_match (assistance to general), high_key_term_overlap (66%), key_term_in_text (almighty), key_term_in_text (god), key_term_in_text (kingdom), key_term_match (almighty), key_term_match (god), key_term_match (kingdom), opening_closing_semantic_similarity
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[7/57] Target Prayer: 43752e64-06b7-4448-ba11-cfcc255d30e7
+Suggested Phelps: AB09794CHI
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_semantic_match (guidance to general), high_key_term_overlap (66%), key_term_in_text (almighty), key_term_in_text (god), key_term_in_text (kingdom), key_term_match (almighty), key_term_match (god), key_term_match (kingdom), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[8/57] Target Prayer: f2c5f38d-5ce5-4f0e-947b-e36325fcb459
+Suggested Phelps: BH05071
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_exact_match (protection), high_key_term_overlap (66%), key_term_in_text (almighty), key_term_in_text (god), key_term_in_text (light), key_term_in_text (praise), key_term_match (almighty), key_term_match (god), key_term_match (light), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[9/57] Target Prayer: 2297fd75-7c6d-4f11-9007-882d2b01503c
+Suggested Phelps: AB10701
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: type_exact_match (general), high_key_term_overlap (50%), key_term_in_text (kingdom), key_term_in_text (lord), key_term_in_text (manifestation), key_term_match (kingdom), key_term_match (lord), key_term_match (manifestation), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[10/57] Target Prayer: b366bba4023a
+Suggested Phelps: BH01503ENJ
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_semantic_match (assistance to general), high_key_term_overlap (50%), key_term_in_text (almighty), key_term_in_text (believers), key_term_in_text (glory), key_term_in_text (god), key_term_in_text (kingdom), key_term_in_text (light), key_term_in_text (lord), key_term_in_text (praise), key_term_in_text (prayer), key_term_in_text (servants), key_term_match (almighty), key_term_match (believers), key_term_match (glory), key_term_match (god), key_term_match (kingdom), key_term_match (light), key_term_match (lord), key_term_match (praise), key_term_match (prayer), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[11/57] Target Prayer: 2cbb4915-ba12-45d6-8e1f-a4a0cfd441af
+Suggested Phelps: AB10703RAD
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (protection), high_key_term_overlap (75%), key_term_in_text (almighty), key_term_in_text (lord), key_term_in_text (praise), key_term_in_text (protection), key_term_match (almighty), key_term_match (lord), key_term_match (praise), key_term_match (protection), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[12/57] Target Prayer: 055c2214-d168-4c84-8e46-04834cc2b307
+Suggested Phelps: BH08855
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_exact_match (devotional), high_key_term_overlap (57%), key_term_in_text (forgiveness), key_term_in_text (glory), key_term_in_text (god), key_term_in_text (grace), key_term_in_text (holy), key_term_in_text (light), key_term_in_text (manifestation), key_term_in_text (praise), key_term_match (forgiveness), key_term_match (glory), key_term_match (god), key_term_match (grace), key_term_match (holy), key_term_match (light), key_term_match (manifestation), key_term_match (praise), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[13/57] Target Prayer: b6619680-53b6-40d8-8c83-ef3bfaa8a40b
+Suggested Phelps: BH08433
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_exact_match (devotional), high_key_term_overlap (50%), key_term_in_text (almighty), key_term_in_text (glory), key_term_in_text (god), key_term_in_text (grace), key_term_in_text (kingdom), key_term_in_text (lord), key_term_in_text (praise), key_term_in_text (revelation), key_term_in_text (servants), key_term_in_text (tablet), key_term_match (almighty), key_term_match (glory), key_term_match (god), key_term_match (grace), key_term_match (kingdom), key_term_match (lord), key_term_match (praise), key_term_match (revelation), key_term_match (servants), key_term_match (tablet), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[14/57] Target Prayer: 61d12a81-05fc-44f9-b618-36048f53342c
+Suggested Phelps: AB10275
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_exact_match (forgiveness), high_key_term_overlap (60%), key_term_in_text (almighty), key_term_in_text (glory), key_term_in_text (holy), key_term_in_text (lord), key_term_in_text (servants), key_term_match (almighty), key_term_match (glory), key_term_match (holy), key_term_match (lord), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[15/57] Target Prayer: 05f103ad-1127-42d5-b831-f810aad2dadb
+Suggested Phelps: BH04421HEA
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_exact_match (devotional), high_key_term_overlap (66%), key_term_in_text (almighty), key_term_in_text (glory), key_term_in_text (god), key_term_in_text (light), key_term_in_text (manifestation), key_term_in_text (revelation), key_term_match (almighty), key_term_match (glory), key_term_match (god), key_term_match (light), key_term_match (manifestation), key_term_match (revelation), opening_closing_semantic_similarity
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[16/57] Target Prayer: 1ffb23f2-62c5-4493-9277-a5e8f74dc607
+Suggested Phelps: AB00184KIN
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_exact_match (guidance), high_key_term_overlap (50%), key_term_in_text (almighty), key_term_in_text (bahá), key_term_in_text (forgiveness), key_term_in_text (god), key_term_in_text (holy), key_term_in_text (kingdom), key_term_in_text (light), key_term_in_text (lord), key_term_in_text (praise), key_term_in_text (prayer), key_term_match (almighty), key_term_match (bahá), key_term_match (forgiveness), key_term_match (god), key_term_match (holy), key_term_match (kingdom), key_term_match (light), key_term_match (lord), key_term_match (praise), key_term_match (prayer), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[17/57] Target Prayer: f2c5f38d-5ce5-4f0e-947b-e36325fcb459
+Suggested Phelps: BH00531TRA
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (devotional), high_key_term_overlap (66%), key_term_in_text (glory), key_term_in_text (god), key_term_in_text (light), key_term_in_text (lord), key_term_match (glory), key_term_match (god), key_term_match (light), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[18/57] Target Prayer: 2297fd75-7c6d-4f11-9007-882d2b01503c
+Suggested Phelps: AB10701
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (unity), high_key_term_overlap (50%), key_term_in_text (kingdom), key_term_in_text (lord), key_term_in_text (manifestation), key_term_match (kingdom), key_term_match (lord), key_term_match (manifestation), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[19/57] Target Prayer: 2cbb4915-ba12-45d6-8e1f-a4a0cfd441af
+Suggested Phelps: AB10703RAD
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (protection), high_key_term_overlap (75%), key_term_in_text (almighty), key_term_in_text (lord), key_term_in_text (praise), key_term_in_text (protection), key_term_match (almighty), key_term_match (lord), key_term_match (praise), key_term_match (protection), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[20/57] Target Prayer: 42a588b7-0c6e-43a8-8434-c30d1195723a
+Suggested Phelps: BB00002ENA
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: type_semantic_match (assistance to general), high_key_term_overlap (100%), key_term_in_text (faithful), key_term_in_text (lord), key_term_match (faithful), key_term_match (lord), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[21/57] Target Prayer: a5e85d2f-24f3-4ce0-9682-457f5f1e3a49
+Suggested Phelps: BH07426FOO
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: type_exact_match (devotional), high_key_term_overlap (66%), key_term_in_text (almighty), key_term_in_text (lord), key_term_in_text (praise), key_term_match (almighty), key_term_match (lord), key_term_match (praise), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[22/57] Target Prayer: 8c85457f-e9c1-4c6f-8ebe-0f7658b338fe
+Suggested Phelps: BB00630
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (forgiveness), high_key_term_overlap (100%), key_term_in_text (lord), key_term_in_text (mercy), key_term_in_text (servants), key_term_match (lord), key_term_match (mercy), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[23/57] Target Prayer: 055c2214-d168-4c84-8e46-04834cc2b307
+Suggested Phelps: AB03017CAL
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (guidance), high_key_term_overlap (60%), key_term_in_text (god), key_term_in_text (light), key_term_in_text (lord), key_term_in_text (manifestation), key_term_match (god), key_term_match (light), key_term_match (lord), key_term_match (manifestation), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[24/57] Target Prayer: 055c2214-d168-4c84-8e46-04834cc2b307
+Suggested Phelps: AB11281
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: type_exact_match (forgiveness), high_key_term_overlap (75%), key_term_in_text (light), key_term_in_text (lord), key_term_in_text (manifestation), key_term_in_text (mercy), key_term_match (light), key_term_match (lord), key_term_match (manifestation), key_term_match (mercy), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[25/57] Target Prayer: b86d6592-4f98-48df-a54e-dc4118c74970
+Suggested Phelps: AB00431PIT
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_semantic_match (assistance to general), high_key_term_overlap (60%), key_term_in_text (almighty), key_term_in_text (forgiveness), key_term_in_text (glory), key_term_in_text (grace), key_term_in_text (lord), key_term_match (almighty), key_term_match (forgiveness), key_term_match (glory), key_term_match (grace), key_term_match (lord), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[26/57] Target Prayer: 62e5ae3e-6156-4c7c-9dce-38b466c9d5ca
+Suggested Phelps: AB11356
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (protection), high_key_term_overlap (100%), key_term_in_text (lord), key_term_in_text (protection), key_term_match (lord), key_term_match (protection), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[27/57] Target Prayer: 2297fd75-7c6d-4f11-9007-882d2b01503c
+Suggested Phelps: AB00949WIN
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: type_exact_match (general), high_key_term_overlap (50%), key_term_in_text (abhá), key_term_in_text (lord), key_term_match (abhá), key_term_match (lord), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[28/57] Target Prayer: c16b424db62c
+Suggested Phelps: BH00662FLO
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_semantic_match (assistance to forgiveness), high_key_term_overlap (100%), key_term_in_text (god), key_term_in_text (lord), key_term_in_text (servants), key_term_match (god), key_term_match (lord), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[29/57] Target Prayer: 055c2214-d168-4c84-8e46-04834cc2b307
+Suggested Phelps: ABU0188TUR
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_exact_match (guidance), high_key_term_overlap (57%), key_term_in_text (god), key_term_in_text (guidance), key_term_in_text (kingdom), key_term_in_text (light), key_term_in_text (lord), key_term_in_text (mercy), key_term_in_text (servants), key_term_match (god), key_term_match (guidance), key_term_match (kingdom), key_term_match (light), key_term_match (lord), key_term_match (mercy), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[30/57] Target Prayer: 055c2214-d168-4c84-8e46-04834cc2b307
+Suggested Phelps: BB00004REN
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_semantic_match (assistance to forgiveness), high_key_term_overlap (57%), key_term_in_text (almighty), key_term_in_text (believers), key_term_in_text (faithful), key_term_in_text (glory), key_term_in_text (lord), key_term_in_text (manifestation), key_term_in_text (servants), key_term_match (almighty), key_term_match (believers), key_term_match (faithful), key_term_match (glory), key_term_match (lord), key_term_match (manifestation), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[31/57] Target Prayer: c9207d86-32c6-4682-8483-d37be8b0fe40
+Suggested Phelps: AB11605
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (general), high_key_term_overlap (100%), key_term_in_text (god), key_term_match (god), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[32/57] Target Prayer: 885c944a-dabc-4401-8451-018429dab3eb
+Suggested Phelps: AB04980HOP
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_semantic_match (assistance to forgiveness), high_key_term_overlap (57%), key_term_in_text (almighty), key_term_in_text (god), key_term_in_text (light), key_term_in_text (lord), key_term_in_text (revelation), key_term_in_text (servants), key_term_in_text (tablet), key_term_match (almighty), key_term_match (god), key_term_match (light), key_term_match (lord), key_term_match (revelation), key_term_match (servants), key_term_match (tablet), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[33/57] Target Prayer: 2297fd75-7c6d-4f11-9007-882d2b01503c
+Suggested Phelps: BB00147GRO
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: type_exact_match (unity), high_key_term_overlap (60%), key_term_in_text (divine), key_term_in_text (holy), key_term_in_text (lord), key_term_in_text (praise), key_term_in_text (revelation), key_term_match (divine), key_term_match (holy), key_term_match (lord), key_term_match (praise), key_term_match (revelation), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[34/57] Target Prayer: b6619680-53b6-40d8-8c83-ef3bfaa8a40b
+Suggested Phelps: BH10231
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_semantic_match (assistance to general), high_key_term_overlap (50%), key_term_in_text (almighty), key_term_in_text (god), key_term_in_text (lord), key_term_in_text (manifestation), key_term_in_text (praise), key_term_in_text (servants), key_term_match (almighty), key_term_match (god), key_term_match (lord), key_term_match (manifestation), key_term_match (praise), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[35/57] Target Prayer: 068b50ae-d492-4758-b6ba-e2156533f04e
+Suggested Phelps: AB03461MAR
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_exact_match (unity), high_key_term_overlap (83%), key_term_in_text (aqdas), key_term_in_text (bahá), key_term_in_text (covenant), key_term_in_text (eternal), key_term_in_text (god), key_term_in_text (holy), key_term_match (aqdas), key_term_match (bahá), key_term_match (covenant), key_term_match (eternal), key_term_match (god), key_term_match (holy), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[36/57] Target Prayer: f2687fa2-85cc-4447-9b62-b4e7330d9b00
+Suggested Phelps: BH09809
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_semantic_match (assistance to general), high_key_term_overlap (75%), key_term_in_text (almighty), key_term_in_text (glory), key_term_in_text (god), key_term_in_text (lord), key_term_match (almighty), key_term_match (glory), key_term_match (god), key_term_match (lord), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[37/57] Target Prayer: 8a82cd85-0dde-4134-a0f8-4dcb95b3d6be
+Suggested Phelps: AB00001FIR
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_exact_match (guidance), high_key_term_overlap (66%), key_term_in_text (almighty), key_term_in_text (divine), key_term_in_text (faithful), key_term_in_text (forgiveness), key_term_in_text (god), key_term_in_text (grace), key_term_in_text (guidance), key_term_in_text (light), key_term_in_text (lord), key_term_match (almighty), key_term_match (divine), key_term_match (faithful), key_term_match (forgiveness), key_term_match (god), key_term_match (grace), key_term_match (guidance), key_term_match (light), key_term_match (lord), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[38/57] Target Prayer: 8a82cd85-0dde-4134-a0f8-4dcb95b3d6be
+Suggested Phelps: AB00001FIR
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_semantic_match (assistance to general), high_key_term_overlap (66%), key_term_in_text (almighty), key_term_in_text (blessing), key_term_in_text (forgiveness), key_term_in_text (god), key_term_in_text (grace), key_term_match (almighty), key_term_match (blessing), key_term_match (forgiveness), key_term_match (god), key_term_match (grace), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[39/57] Target Prayer: 50d33a62-bf30-49a4-b95a-ad4ac9e1094a
+Suggested Phelps: BH00009GRA
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (protection), high_key_term_overlap (60%), key_term_in_text (blessing), key_term_in_text (god), key_term_in_text (grace), key_term_in_text (mercy), key_term_in_text (protection), key_term_match (blessing), key_term_match (god), key_term_match (grace), key_term_match (mercy), key_term_match (protection), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[40/57] Target Prayer: 1c28ddbc-d4cb-4539-9ca7-cc54ae03fad8
+Suggested Phelps: BB00147ORD
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_exact_match (unity), high_key_term_overlap (50%), key_term_in_text (almighty), key_term_in_text (believers), key_term_in_text (divine), key_term_in_text (god), key_term_in_text (lord), key_term_in_text (protection), key_term_match (almighty), key_term_match (believers), key_term_match (divine), key_term_match (god), key_term_match (lord), key_term_match (protection), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[41/57] Target Prayer: 81aa3246-2513-45b6-b2a9-74831b50bbcf
+Suggested Phelps: BB00015SUF
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (general), high_key_term_overlap (100%), key_term_in_text (god), key_term_match (god), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[42/57] Target Prayer: b6619680-53b6-40d8-8c83-ef3bfaa8a40b
+Suggested Phelps: BH02848
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_semantic_match (assistance to general), high_key_term_overlap (60%), key_term_in_text (almighty), key_term_in_text (blessing), key_term_in_text (god), key_term_in_text (kingdom), key_term_in_text (light), key_term_in_text (lord), key_term_in_text (manifestation), key_term_in_text (praise), key_term_in_text (protection), key_term_in_text (servants), key_term_match (almighty), key_term_match (blessing), key_term_match (god), key_term_match (kingdom), key_term_match (light), key_term_match (lord), key_term_match (manifestation), key_term_match (praise), key_term_match (protection), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[43/57] Target Prayer: 055c2214-d168-4c84-8e46-04834cc2b307
+Suggested Phelps: AB00189AID
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_semantic_match (assistance to forgiveness), high_key_term_overlap (80%), key_term_in_text (almighty), key_term_in_text (god), key_term_in_text (guidance), key_term_in_text (light), key_term_in_text (servants), key_term_match (almighty), key_term_match (god), key_term_match (guidance), key_term_match (light), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[44/57] Target Prayer: c9207d86-32c6-4682-8483-d37be8b0fe40
+Suggested Phelps: AB10685
+Match Type: LIKELY
+Confidence: %!d(float64=55)%
+Reasons: type_exact_match (unity), high_key_term_overlap (100%), key_term_in_text (almighty), key_term_in_text (lord), key_term_match (almighty), key_term_match (lord), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[45/57] Target Prayer: 4f8781e1-5c3d-4eb3-a71f-70e627af1e71
+Suggested Phelps: AB00963IMP
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_semantic_match (assistance to forgiveness), high_key_term_overlap (50%), key_term_in_text (divine), key_term_in_text (god), key_term_in_text (grace), key_term_in_text (kingdom), key_term_in_text (praise), key_term_match (divine), key_term_match (god), key_term_match (grace), key_term_match (kingdom), key_term_match (praise), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[46/57] Target Prayer: 055c2214-d168-4c84-8e46-04834cc2b307
+Suggested Phelps: AB00065STE
+Match Type: LIKELY
+Confidence: %!d(float64=65)%
+Reasons: type_exact_match (guidance), high_key_term_overlap (50%), key_term_in_text (almighty), key_term_in_text (covenant), key_term_in_text (faithful), key_term_in_text (guidance), key_term_in_text (lord), key_term_in_text (manifestation), key_term_match (almighty), key_term_match (covenant), key_term_match (faithful), key_term_match (guidance), key_term_match (lord), key_term_match (manifestation), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[47/57] Target Prayer: 055c2214-d168-4c84-8e46-04834cc2b307
+Suggested Phelps: AB02596
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (general), high_key_term_overlap (75%), key_term_in_text (grace), key_term_in_text (holy), key_term_in_text (light), key_term_in_text (lord), key_term_match (grace), key_term_match (holy), key_term_match (light), key_term_match (lord), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[48/57] Target Prayer: 674df2bb-fa5a-484d-9301-65b904f68624
+Suggested Phelps: BH10688
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (protection), high_key_term_overlap (75%), key_term_in_text (almighty), key_term_in_text (god), key_term_in_text (grace), key_term_in_text (protection), key_term_match (almighty), key_term_match (god), key_term_match (grace), key_term_match (protection), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[49/57] Target Prayer: 8401dab9-27f1-402c-a38e-fb1299569c45
+Suggested Phelps: BH00009SHE
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (protection), high_key_term_overlap (80%), key_term_in_text (god), key_term_in_text (light), key_term_in_text (lord), key_term_in_text (protection), key_term_in_text (revelation), key_term_match (god), key_term_match (light), key_term_match (lord), key_term_match (protection), key_term_match (revelation), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[50/57] Target Prayer: b6619680-53b6-40d8-8c83-ef3bfaa8a40b
+Suggested Phelps: BH07180
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_semantic_match (assistance to general), high_key_term_overlap (50%), key_term_in_text (almighty), key_term_in_text (believers), key_term_in_text (forgiveness), key_term_in_text (god), key_term_in_text (grace), key_term_in_text (light), key_term_in_text (lord), key_term_in_text (manifestation), key_term_in_text (mercy), key_term_in_text (praise), key_term_match (almighty), key_term_match (believers), key_term_match (forgiveness), key_term_match (god), key_term_match (grace), key_term_match (light), key_term_match (lord), key_term_match (manifestation), key_term_match (mercy), key_term_match (praise), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[51/57] Target Prayer: 43752e64-06b7-4448-ba11-cfcc255d30e7
+Suggested Phelps: AB09794CHI
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_semantic_match (assistance to general), high_key_term_overlap (66%), key_term_in_text (almighty), key_term_in_text (lord), key_term_match (almighty), key_term_match (lord), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[52/57] Target Prayer: 23c782c0-bd47-48b2-8b5e-3b4a3dc149d9
+Suggested Phelps: AB09040
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (forgiveness), high_key_term_overlap (57%), key_term_in_text (almighty), key_term_in_text (eternal), key_term_in_text (guidance), key_term_in_text (light), key_term_in_text (lord), key_term_in_text (mercy), key_term_in_text (servants), key_term_match (almighty), key_term_match (eternal), key_term_match (guidance), key_term_match (light), key_term_match (lord), key_term_match (mercy), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[53/57] Target Prayer: b6619680-53b6-40d8-8c83-ef3bfaa8a40b
+Suggested Phelps: AB05167
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (healing), high_key_term_overlap (75%), key_term_in_text (god), key_term_in_text (kingdom), key_term_in_text (praise), key_term_in_text (protection), key_term_match (god), key_term_match (kingdom), key_term_match (praise), key_term_match (protection), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[54/57] Target Prayer: 867a5576-df62-442a-aea3-4a86a9883b67
+Suggested Phelps: BB00018ADJ
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (guidance), high_key_term_overlap (100%), key_term_in_text (almighty), key_term_in_text (god), key_term_match (almighty), key_term_match (god), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[55/57] Target Prayer: 055c2214-d168-4c84-8e46-04834cc2b307
+Suggested Phelps: AB10492
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_semantic_match (assistance to forgiveness), high_key_term_overlap (75%), key_term_in_text (abhá), key_term_in_text (eternal), key_term_in_text (kingdom), key_term_in_text (lord), key_term_match (abhá), key_term_match (eternal), key_term_match (kingdom), key_term_match (lord), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[56/57] Target Prayer: b6619680-53b6-40d8-8c83-ef3bfaa8a40b
+Suggested Phelps: BH09874
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (devotional), high_key_term_overlap (60%), key_term_in_text (almighty), key_term_in_text (glory), key_term_in_text (god), key_term_in_text (light), key_term_in_text (lord), key_term_match (almighty), key_term_match (glory), key_term_match (god), key_term_match (light), key_term_match (lord), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[57/57] Target Prayer: 61d12a81-05fc-44f9-b618-36048f53342c
+Suggested Phelps: AB02000DIS
+Match Type: LIKELY
+Confidence: %!d(float64=60)%
+Reasons: type_exact_match (guidance), high_key_term_overlap (100%), key_term_in_text (grace), key_term_in_text (lord), key_term_in_text (servants), key_term_match (grace), key_term_match (lord), key_term_match (servants), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

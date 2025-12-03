@@ -1,0 +1,17 @@
+PRAYER MATCHING SUMMARY - KY
+Generated: 2025-11-28 16:06:15
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 425
+High confidence matches: 10 (2.4%)
+Low confidence matches:  415 (97.6%)
+Ambiguous matches:       0 (0.0%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ Review low confidence matches in: review_low_confidence_ky_*.txt
+□ 10 high confidence matches applied automatically
+
+Next steps: Review files, make corrections, then run database updates.

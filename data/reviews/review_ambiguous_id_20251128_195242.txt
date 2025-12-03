@@ -1,0 +1,57 @@
+AMBIGUOUS MATCHES - ID
+Generated: 2025-11-28 19:52:42
+Total items: 5
+
+INSTRUCTIONS:
+- Review each match below
+- Confidence ranges: 0.0 (no match) to 1.0 (perfect match)
+- For ambiguous matches, check the suggested reasons
+- Verify Phelps codes against English reference
+
+═══════════════════════════════════════════════════════════════
+
+[1/5] Target Prayer: 11be9959-c393-494b-9c67-a4a7e24a8705
+Suggested Phelps: BH10505
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_semantic_match (assistance to general), moderate_key_term_overlap (33%), key_term_in_text (god), key_term_in_text (lord), key_term_in_text (prayer), key_term_match (god), key_term_match (lord), opening_closing_semantic_similarity
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[2/5] Target Prayer: 4f8781e1-5c3d-4eb3-a71f-70e627af1e71
+Suggested Phelps: BH02198
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=35)%
+Reasons: type_exact_match (devotional), moderate_key_term_overlap (25%), key_term_in_text (god), key_term_in_text (holy), key_term_match (glory), key_term_match (god), opening_closing_semantic_similarity
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[3/5] Target Prayer: 4f8781e1-5c3d-4eb3-a71f-70e627af1e71
+Suggested Phelps: BH01026
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_exact_match (unity), moderate_key_term_overlap (26%), key_term_in_text (bahá), key_term_in_text (divine), key_term_in_text (god), key_term_in_text (holy), key_term_in_text (kingdom), key_term_in_text (light), key_term_in_text (lord), key_term_in_text (sacred), key_term_in_text (tablet), key_term_match (bahá), key_term_match (divine), key_term_match (god), key_term_match (holy), key_term_match (kingdom), key_term_match (light), key_term_match (lord), key_term_match (sacred), key_term_match (tablet), opening_closing_semantic_similarity
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[4/5] Target Prayer: b31a8353-93ea-4e1a-924e-7b7564e4b279
+Suggested Phelps: AB07155WOM
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_exact_match (devotional), moderate_key_term_overlap (33%), key_term_in_text (kingdom), key_term_in_text (lord), key_term_in_text (praise), key_term_match (kingdom), key_term_match (lord), key_term_match (praise), opening_closing_semantic_similarity
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+
+[5/5] Target Prayer: 055c2214-d168-4c84-8e46-04834cc2b307
+Suggested Phelps: AB00774SAB
+Match Type: AMBIGUOUS
+Confidence: %!d(float64=40)%
+Reasons: type_semantic_match (assistance to forgiveness), moderate_key_term_overlap (28%), key_term_in_text (almighty), key_term_in_text (glory), key_term_in_text (kingdom), key_term_in_text (light), key_term_in_text (lord), key_term_in_text (prayer), key_term_in_text (revelation), key_term_match (almighty), key_term_match (glory), key_term_match (kingdom), key_term_match (light), key_term_match (lord), key_term_match (prayer), key_term_match (revelation), opening_closing_semantic_similarity, word_count_ratio_similar
+Action needed: [ ] APPROVE [ ] REJECT [ ] MODIFY
+Notes: ______________________________________
+───────────────────────────────────────────────────────────────
+

@@ -1,0 +1,16 @@
+PRAYER MATCHING SUMMARY - FA
+Generated: 2025-11-28 10:03:57
+
+PROCESSING RESULTS:
+─────────────────
+Total prayers processed: 238
+High confidence matches: 238 (100.0%)
+Low confidence matches:  0 (0.0%)
+Ambiguous matches:       0 (0.0%)
+New translations:        0 (0.0%)
+
+ACTION ITEMS:
+────────────
+□ 238 high confidence matches applied automatically
+
+Next steps: Review files, make corrections, then run database updates.
